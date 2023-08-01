@@ -1,0 +1,164 @@
+country_code,country_name,gor_code,gor_name,la_code,la_9digit,la_name,num_school_age_child,SEN,No_SEN,Without_statement,with_statement
+921,England,,,,,,29020,20740,8280,12210,8540
+921,England,A,North East ,,,,1760,1260,510,740,510
+921,England,B,North West,,,,5380,3660,1730,2210,1450
+921,England,D,Yorks & the Humber ,,,,3270,2260,1010,1450,810
+921,England,E,East Midlands,,,,1910,1450,460,880,570
+921,England,F,West Midlands,,,,3810,2580,1230,1500,1080
+921,England,G,East of England ,,,,2850,2010,840,1080,920
+921,England,H,London ,,,,4130,3020,1110,1750,1270
+921,England,,Inner London,,,,1900,1390,510,790,610
+921,England,,Outer London ,,,,2230,1620,610,960,660
+921,England,J,South East,,,,3630,2800,840,1640,1160
+921,England,K,South West ,,,,2270,1720,540,950,770
+921,England,H,London ,201,E09000001,City of London,x,x,x,x,0
+921,England,H,London ,202,E09000007,Camden,108,81,27,35,46
+921,England,H,London ,203,E09000011,Greenwich,239,173,66,125,48
+921,England,H,London ,204,E09000012,Hackney,124,94,30,54,40
+921,England,H,London ,205,E09000013,Hammersmith & Fulham,100,78,22,46,32
+921,England,H,London ,206,E09000019,Islington,129,93,36,55,38
+921,England,H,London ,207,E09000020,Kensington & Chelsea,50,40,10,22,18
+921,England,H,London ,208,E09000022,Lambeth,191,140,51,74,66
+921,England,H,London ,209,E09000023,Lewisham,213,157,56,94,63
+921,England,H,London ,210,E09000028,Southwark,205,158,47,84,74
+921,England,H,London ,211,E09000030,Tower Hamlets,129,88,41,42,46
+921,England,H,London ,212,E09000032,Wandsworth,100,81,19,44,37
+921,England,H,London ,213,E09000033,Westminster,81,56,25,39,17
+921,England,H,London ,301,E09000002,Barking and Dagenham,165,119,46,72,47
+921,England,H,London ,302,E09000003,Barnet,131,109,22,72,37
+921,England,H,London ,303,E09000004,Bexley,93,67,26,43,24
+921,England,H,London ,304,E09000005,Brent,136,97,39,55,42
+921,England,H,London ,305,E09000006,Bromley,121,94,27,48,46
+921,England,H,London ,306,E09000008,Croydon,247,161,86,98,63
+921,England,H,London ,307,E09000009,Ealing,160,128,32,72,56
+921,England,H,London ,308,E09000010,Enfield,124,91,33,60,31
+921,England,H,London ,309,E09000014,Haringey,264,167,97,104,63
+921,England,H,London ,310,E09000015,Harrow,40,31,9,17,14
+921,England,H,London ,311,E09000016,Havering,74,46,28,23,23
+921,England,H,London ,312,E09000017,Hillingdon,148,105,43,57,48
+921,England,H,London ,313,E09000018,Hounslow,140,113,27,71,42
+921,England,H,London ,314,E09000021,Kingston upon Thames,45,25,20,10,15
+921,England,H,London ,315,E09000024,Merton,49,37,12,20,17
+921,England,H,London ,316,E09000025,Newham,205,160,45,95,65
+921,England,H,London ,317,E09000026,Redbridge,83,51,32,28,23
+921,England,H,London ,318,E09000027,Richmond upon Thames,35,25,10,9,16
+921,England,H,London ,319,E09000029,Sutton,67,50,17,23,27
+921,England,H,London ,320,E09000031,Waltham Forest,132,100,32,55,45
+921,England,F,West Midlands,330,E08000025,Birmingham,889,583,306,333,250
+921,England,F,West Midlands,331,E08000026,Coventry,282,217,65,141,76
+921,England,F,West Midlands,332,E08000027,Dudley,341,212,129,116,96
+921,England,F,West Midlands,333,E08000028,Sandwell,263,181,82,116,65
+921,England,F,West Midlands,334,E08000029,Solihull,155,90,65,51,39
+921,England,F,West Midlands,335,E08000030,Walsall,240,139,101,83,56
+921,England,F,West Midlands,336,E08000031,Wolverhampton,232,141,91,90,51
+921,England,B,North West,340,E08000011,Knowsley,138,95,43,47,48
+921,England,B,North West,341,E08000012,Liverpool,466,303,163,225,78
+921,England,B,North West,342,E08000013,St Helens,163,111,52,79,32
+921,England,B,North West,343,E08000014,Sefton,209,144,65,104,40
+921,England,B,North West,344,E08000015,Wirral,346,262,84,189,73
+921,England,B,North West,350,E08000001,Bolton,240,158,82,99,59
+921,England,B,North West,351,E08000002,Bury,132,85,47,48,37
+921,England,B,North West,352,E08000003,Manchester,627,413,214,257,156
+921,England,B,North West,353,E08000004,Oldham,146,99,47,62,37
+921,England,B,North West,354,E08000005,Rochdale,210,135,75,85,50
+921,England,B,North West,355,E08000006,Salford,266,176,90,88,88
+921,England,B,North West,356,E08000007,Stockport,140,99,41,41,58
+921,England,B,North West,357,E08000008,Tameside,188,115,73,77,38
+921,England,B,North West,358,E08000009,Trafford,128,89,39,39,50
+921,England,B,North West,359,E08000010,Wigan,222,154,68,100,54
+921,England,D,Yorks & the Humber ,370,E08000016,Barnsley,90,65,25,40,25
+921,England,D,Yorks & the Humber ,371,E08000017,Doncaster,186,126,60,83,43
+921,England,D,Yorks & the Humber ,372,E08000018,Rotherham,191,145,46,95,50
+921,England,D,Yorks & the Humber ,373,E08000019,Sheffield,249,196,53,118,78
+921,England,D,Yorks & the Humber ,380,E08000032,Bradford,416,272,144,184,88
+921,England,D,Yorks & the Humber ,381,E08000033,Calderdale,154,96,58,61,35
+921,England,D,Yorks & the Humber ,382,E08000034,Kirklees,274,187,87,105,82
+921,England,D,Yorks & the Humber ,383,E08000035,Leeds,665,453,212,325,128
+921,England,D,Yorks & the Humber ,384,E08000036,Wakefield,180,140,40,87,53
+921,England,A,North East ,390,E08000020,Gateshead,152,101,51,57,44
+921,England,A,North East ,391,E08000021,Newcastle upon Tyne,259,169,90,121,48
+921,England,A,North East ,392,E08000022,North Tyneside,141,109,32,63,46
+921,England,A,North East ,393,E08000023,South Tyneside,140,95,45,54,41
+921,England,A,North East ,394,E08000024,Sunderland,167,122,45,81,41
+921,England,K,South West ,800,E06000022,Bath & NE Somerset,70,41,29,19,22
+921,England,K,South West ,801,E06000023,City of Bristol,315,211,104,110,101
+921,England,K,South West ,802,E06000024,North Somerset,114,85,29,59,26
+921,England,K,South West ,803,E06000025,South Gloucestershire,87,60,27,28,32
+921,England,A,North East ,805,E06000001,Hartlepool,78,61,17,32,29
+921,England,A,North East ,806,E06000002,Middlesbrough,154,99,55,59,40
+921,England,A,North East ,807,E06000003,Redcar and Cleveland,78,53,25,26,27
+921,England,A,North East ,808,E06000004,Stockton on Tees,131,95,36,61,34
+921,England,D,Yorks & the Humber ,810,E06000010,City of Kingston-Upon-Hull,276,173,103,119,54
+921,England,D,Yorks & the Humber ,811,E06000011,East Riding of Yorkshire,111,67,44,42,25
+921,England,D,Yorks & the Humber ,812,E06000012,North East Lincolnshire,53,45,8,23,22
+921,England,D,Yorks & the Humber ,813,E06000013,North Lincolnshire,82,68,14,29,39
+921,England,D,Yorks & the Humber ,815,E10000023,North Yorkshire,224,155,69,93,62
+921,England,D,Yorks & the Humber ,816,E06000014,York,122,76,46,49,27
+921,England,G,East of England ,821,E06000032,Luton,193,127,66,81,46
+921,England,G,East of England ,822,E06000055,Bedford Borough,68,51,17,26,25
+921,England,G,East of England ,823,E06000056,Central Bedfordshire,72,56,16,33,23
+921,England,J,South East,825,E10000002,Buckinghamshire,182,140,42,68,72
+921,England,J,South East,826,E06000042,Milton Keynes,125,87,38,44,43
+921,England,E,East Midlands,830,E10000007,Derbyshire,259,205,54,110,95
+921,England,E,East Midlands,831,E06000015,Derby,217,161,56,115,46
+921,England,K,South West ,835,E10000009,Dorset,134,105,29,61,44
+921,England,K,South West ,836,E06000029,Poole,75,46,29,21,25
+921,England,K,South West ,837,E06000028,Bournemouth,89,68,21,37,31
+921,England,A,North East ,840,E06000047,Durham,249,197,52,110,87
+921,England,A,North East ,841,E06000005,Darlington,75,46,29,30,16
+921,England,J,South East,845,E10000011,East Sussex,275,211,64,102,109
+921,England,J,South East,846,E06000043,Brighton & Hove,207,163,44,109,54
+921,England,J,South East,850,E10000014,Hampshire,485,370,115,224,146
+921,England,J,South East,851,E06000044,Portsmouth,145,106,39,81,25
+921,England,J,South East,852,E06000045,Southampton,153,109,44,87,22
+921,England,E,East Midlands,855,E10000018,Leicestershire,160,113,47,61,52
+921,England,E,East Midlands,856,E06000016,Leicester City,224,171,53,105,66
+921,England,E,East Midlands,857,E06000017,Rutland,12,9,x,8,x
+921,England,F,West Midlands,860,E10000028,Staffordshire,364,235,129,141,94
+921,England,F,West Midlands,861,E06000021,Stoke,196,140,56,84,56
+921,England,K,South West ,865,E06000054,Wiltshire,176,132,44,66,66
+921,England,K,South West ,866,E06000030,Swindon,109,84,25,46,38
+921,England,J,South East,867,E06000036,Bracknell Forest,44,34,10,17,17
+921,England,J,South East,868,E06000040,Royal Borough of Windsor & Maidenhead,35,25,10,12,13
+921,England,J,South East,869,E06000037,West Berkshire,54,40,14,21,19
+921,England,J,South East,870,E06000038,Reading,94,81,13,48,33
+921,England,J,South East,871,E06000039,Slough,63,54,9,36,18
+921,England,J,South East,872,E06000041,Wokingham,31,25,6,8,17
+921,England,G,East of England ,873,E10000003,Cambridgeshire,203,164,39,89,75
+921,England,G,East of England ,874,E06000031,City of Peterborough,132,98,34,42,56
+921,England,B,North West,876,E06000006,Halton,50,32,18,22,10
+921,England,B,North West,877,E06000007,Warrington,110,75,35,46,29
+921,England,K,South West ,878,E10000008,Devon,262,225,37,102,123
+921,England,K,South West ,879,E06000026,City of Plymouth,174,142,32,81,61
+921,England,K,South West ,880,E06000027,Torbay,99,78,21,45,33
+921,England,G,East of England ,881,E10000012,Essex,655,449,206,246,203
+921,England,G,East of England ,882,E06000033,Southend,128,86,42,46,40
+921,England,G,East of England ,883,E06000034,Thurrock,93,67,26,32,35
+921,England,F,West Midlands,884,E06000019,Herefordshire,75,57,18,33,24
+921,England,F,West Midlands,885,E10000034,Worcestershire,268,218,50,118,100
+921,England,J,South East,886,E10000016,Kent,686,552,134,362,190
+921,England,J,South East,887,E06000035,Medway,157,122,35,72,50
+921,England,B,North West,888,E10000017,Lancashire,605,411,194,209,202
+921,England,B,North West,889,E06000008,Blackburn and Darwin,161,110,51,70,40
+921,England,B,North West,890,E06000009,Blackpool,178,115,63,76,39
+921,England,E,East Midlands,891,E10000024,Nottinghamshire,284,210,74,153,57
+921,England,E,East Midlands,892,E06000018,City of Nottingham,215,163,52,116,47
+921,England,F,West Midlands,893,E06000051,Shropshire,90,68,22,31,37
+921,England,F,West Midlands,894,E06000020,Telford and Wrekin,141,97,44,54,43
+921,England,B,North West,895,E06000049,Cheshire East,223,158,65,94,64
+921,England,B,North West,896,E06000050,Cheshire West & Chester,168,138,30,61,77
+921,England,K,South West ,908,E06000052,Cornwall,214,164,50,100,64
+921,England,B,North West,909,E10000006,Cumbria,267,179,88,89,90
+921,England,K,South West ,916,E10000013,Gloucestershire,184,143,41,78,65
+921,England,G,East of England ,919,E10000015,Hertfordshire,458,332,126,205,127
+921,England,J,South East,921,E06000046,Isle of Wight,72,44,28,18,26
+921,England,E,East Midlands,925,E10000019,Lincolnshire,240,184,56,94,90
+921,England,G,East of England ,926,E10000020,Norfolk,480,338,142,151,187
+921,England,E,East Midlands,928,E10000021,Northamptonshire,298,231,67,120,111
+921,England,A,North East ,929,E06000048,Northumberland,139,108,31,48,60
+921,England,J,South East,931,E10000025,Oxfordshire,163,129,34,69,60
+921,England,K,South West ,933,E10000027,Somerset,163,138,25,96,42
+921,England,G,East of England ,935,E10000029,Suffolk,365,239,126,133,106
+921,England,J,South East,936,E10000030,Surrey,340,244,96,117,127
+921,England,F,West Midlands,937,E10000031,Warwickshire,276,201,75,111,90
+921,England,J,South East,938,E10000032,West Sussex,323,259,64,145,114

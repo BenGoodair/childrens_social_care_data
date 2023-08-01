@@ -1,0 +1,166 @@
+LA Number,,Number KS1 boys as returned on SSDA903,Number of boys achieving level 2 in reading,Number of boys achieving level 2 in writing ,Number of boys achieving level 2 in maths,Number KS1 girls as returned on SSDA903,Number of girls achieving level 2 in reading,Number of girls achieving level 2 in writing,Number of girls achieving level 2 in maths,Number KS1 children as returned on SSDA903,Number of children achieving level 2 in reading,Number of children achieving level 2 in writing,Number of children achieving level 2 in maths
+,England,790,420,350,470,620,390,370,400,1400,810,720,870
+
+,North East ,50,30,20,30,30,30,30,30,80,50,50,50
+,North West,180,100,80,110,140,80,70,80,320,170,150,190
+,Yorks & the Humber ,110,60,50,60,80,50,50,50,190,110,100,120
+,East Midlands,40,20,20,20,30,20,20,20,70,40,40,40
+,West Midlands,100,50,50,60,100,60,60,70,200,120,110,130
+,East of England ,70,40,30,50,50,30,30,30,120,70,60,80
+,London ,90,60,50,60,80,50,50,60,170,110,100,120
+,Inner London,50,30,20,30,40,30,30,30,90,50,50,50
+,Outer London ,50,30,20,30,40,30,20,30,90,60,50,60
+,South East,90,40,40,50,70,40,40,40,150,80,70,90
+,South West ,70,30,30,30,40,30,20,30,110,60,50,60
+
+201,City of London,0,0,0,0,0,0,0,0,0,0,0,0
+202,Camden,x,x,x,x,x,x,x,x,x,x,x,x
+203,Greenwich,6,x,x,x,8,x,x,7,14,9,9,12
+204,Hackney,x,0,0,x,x,0,0,0,x,0,0,x
+205,Hammersmith & Fulham,x,x,x,x,x,x,x,x,7,6,x,6
+206,Islington,0,0,0,0,0,0,0,0,0,0,0,0
+207,Kensington & Chelsea,x,x,x,x,x,x,0,0,x,x,x,x
+208,Lambeth,10,7,x,7,x,x,x,x,15,9,7,9
+209,Lewisham,x,x,x,x,x,x,x,x,7,x,x,x
+210,Southwark,8,x,x,x,x,x,x,x,12,6,x,x
+211,Tower Hamlets,x,x,x,x,x,x,x,x,8,6,x,7
+212,Wandsworth,0,0,0,0,x,x,x,x,x,x,x,x
+213,Westminster,x,x,x,x,x,x,x,x,6,x,x,x
+301,Barking and Dagenham,x,x,x,x,x,x,x,x,x,x,x,x
+302,Barnet,x,x,x,x,x,0,0,0,x,x,x,x
+303,Bexley,x,0,0,0,x,0,0,0,x,0,0,0
+304,Brent,x,0,0,0,x,x,x,x,x,x,x,x
+305,Bromley,x,0,0,x,0,0,0,0,x,0,0,x
+306,Croydon,6,x,x,x,x,x,x,x,8,6,x,7
+307,Ealing,x,x,x,x,x,x,x,x,9,6,x,6
+308,Enfield,x,x,x,x,x,x,x,x,6,x,x,x
+309,Haringey,6,x,x,x,x,x,x,x,10,6,6,7
+310,Harrow,x,0,0,0,0,0,0,0,x,0,0,0
+311,Havering,x,x,x,x,x,0,0,x,x,x,x,x
+312,Hillingdon,x,x,x,x,0,0,0,0,x,x,x,x
+313,Hounslow,x,x,x,x,x,x,x,x,8,6,x,6
+314,Kingston upon Thames,0,0,0,0,x,x,x,x,x,x,x,x
+315,Merton,0,0,0,0,x,x,x,x,x,x,x,x
+316,Newham,x,x,x,x,x,x,x,x,8,x,x,6
+317,Redbridge,x,x,x,x,x,x,x,x,x,x,x,x
+318,Richmond upon Thames,x,x,x,x,x,x,x,x,x,x,x,x
+319,Sutton,x,x,x,x,x,x,0,0,x,x,x,x
+320,Waltham Forest,6,x,x,x,x,x,x,x,8,x,x,6
+330,Birmingham,29,16,15,19,25,16,16,17,54,32,31,36
+331,Coventry,7,x,x,x,9,x,x,x,16,7,x,8
+332,Dudley,9,x,x,6,11,7,7,6,20,12,12,12
+333,Sandwell,x,x,x,x,6,x,x,x,11,6,6,7
+334,Solihull,x,x,x,x,x,x,x,x,7,x,x,6
+335,Walsall,11,x,x,x,x,x,x,x,16,6,x,6
+336,Wolverhampton,9,x,x,x,6,x,x,x,15,10,10,10
+340,Knowsley,8,x,0,x,9,x,x,x,17,7,x,8
+341,Liverpool,11,9,8,8,16,8,7,11,27,17,15,19
+342,St Helens,7,x,x,x,x,x,x,x,11,6,x,x
+343,Sefton,x,x,x,x,x,x,x,x,7,x,x,6
+344,Wirral,16,9,8,12,9,x,x,x,25,14,11,16
+350,Bolton,6,x,x,x,x,x,x,x,10,x,6,7
+351,Bury,x,x,x,x,x,x,x,x,7,x,x,x
+352,Manchester,27,12,10,12,19,7,6,9,46,19,16,21
+353,Oldham,x,0,x,x,x,x,x,x,8,x,x,6
+354,Rochdale,9,x,x,x,x,x,x,x,13,x,x,6
+355,Salford,8,x,x,x,x,x,x,x,12,7,6,8
+356,Stockport,x,x,x,x,x,x,x,x,9,x,x,x
+357,Tameside,6,x,x,x,x,x,x,x,10,6,7,7
+358,Trafford,7,7,6,7,x,0,0,0,8,7,6,7
+359,Wigan,7,x,x,x,7,x,x,x,14,6,6,8
+370,Barnsley,x,x,0,x,x,0,0,0,x,x,0,x
+371,Doncaster,7,x,x,x,x,x,x,x,9,x,x,x
+372,Rotherham,7,x,x,x,x,x,x,x,9,x,x,x
+373,Sheffield,6,x,x,x,x,x,x,x,10,6,6,x
+380,Bradford,14,6,x,8,17,10,8,12,31,16,11,20
+381,Calderdale,x,0,0,0,7,7,6,6,8,7,6,6
+382,Kirklees,17,12,10,14,9,x,x,x,26,17,15,19
+383,Leeds,26,13,12,15,16,9,7,8,42,22,19,23
+384,Wakefield,x,x,x,x,x,x,x,x,8,6,x,x
+390,Gateshead,x,x,x,x,x,x,x,x,x,x,x,x
+391,Newcastle upon Tyne,x,x,x,x,x,x,x,x,6,6,6,6
+392,North Tyneside,x,x,x,x,x,x,x,x,x,x,x,x
+393,South Tyneside,x,x,x,x,x,x,x,x,x,x,x,x
+394,Sunderland,11,6,x,x,x,x,x,x,12,7,6,6
+800,Bath & NE Somerset,x,x,x,x,x,x,x,x,x,x,x,x
+801,City of Bristol,14,10,9,10,7,x,x,6,21,15,13,16
+802,North Somerset,x,0,0,0,x,0,x,0,x,0,x,0
+803,South Gloucestershire,0,0,0,0,x,x,x,x,x,x,x,x
+805,Hartlepool,x,x,0,x,x,x,x,x,x,x,x,x
+806,Middlesbrough,x,x,x,x,x,x,x,x,x,x,x,x
+807,Redcar and Cleveland,0,0,0,0,x,0,x,x,x,0,x,x
+808,Stockton on Tees,x,x,x,x,x,x,x,x,7,x,x,x
+810,City of Kingston-Upon-Hull,7,x,x,x,6,x,x,x,13,10,8,8
+811,East Riding of Yorkshire,x,x,x,x,x,x,x,x,8,7,8,7
+812,North East Lincolnshire,0,0,0,0,x,x,x,x,x,x,x,x
+813,North Lincolnshire,x,x,x,x,x,0,0,0,x,x,x,x
+815,North Yorkshire,x,x,x,x,x,x,x,x,10,x,x,7
+816,York,x,x,x,x,x,x,x,x,x,x,x,x
+821,Luton,x,x,x,x,x,x,x,x,x,x,x,x
+822,Bedford Borough,0,0,0,0,x,x,x,x,x,x,x,x
+823,Central Bedfordshire,x,x,x,x,0,0,0,0,x,x,x,x
+825,Buckinghamshire,6,x,x,x,x,0,0,0,7,x,x,x
+826,Milton Keynes,x,x,x,x,x,x,x,x,x,x,x,x
+830,Derbyshire,x,x,x,x,x,x,x,x,6,x,x,x
+831,Derby,6,x,x,x,x,x,x,x,9,x,x,6
+835,Dorset,x,0,0,0,x,x,0,0,x,x,0,0
+836,Poole,x,x,0,x,x,x,x,x,x,x,x,x
+837,Bournemouth,x,x,x,x,0,0,0,0,x,x,x,x
+840,Durham,15,8,6,7,x,x,x,x,19,12,10,11
+841,Darlington,x,x,x,x,0,0,0,0,x,x,x,x
+845,East Sussex,x,x,x,x,7,6,x,x,11,8,x,x
+846,Brighton & Hove,x,x,x,x,x,0,0,x,6,x,x,x
+850,Hampshire,14,x,x,9,15,11,11,13,29,16,16,22
+851,Portsmouth,x,x,0,x,x,x,x,x,6,x,x,x
+852,Southampton,x,x,x,x,x,0,0,0,x,x,x,x
+855,Leicestershire,x,x,x,x,x,x,x,x,9,7,6,6
+856,Leicester City,x,x,x,x,x,x,x,x,10,7,7,8
+857,Rutland,0,0,0,0,x,x,x,0,x,x,x,0
+860,Staffordshire,7,x,x,x,11,9,10,9,18,13,14,14
+861,Stoke,x,x,x,x,x,x,x,x,9,x,x,x
+865,Wiltshire,x,x,x,x,x,x,x,x,10,x,x,x
+866,Swindon,x,x,x,x,x,x,0,x,x,x,x,x
+867,Bracknell Forest,0,0,0,0,x,x,x,x,x,x,x,x
+868,Royal Borough of Windsor & Maidenhead,x,0,0,0,x,x,x,x,x,x,x,x
+869,West Berkshire,x,0,0,x,x,x,x,x,x,x,x,x
+870,Reading,x,x,x,x,x,0,0,0,x,x,x,x
+871,Slough,x,x,0,x,x,0,0,0,x,x,0,x
+872,Wokingham,x,0,0,0,0,0,0,0,x,0,0,0
+873,Cambridgeshire,x,x,x,x,9,7,x,x,13,9,7,8
+874,City of Peterborough,7,x,x,x,x,x,x,x,10,x,x,x
+876,Halton,0,0,0,0,0,0,0,0,0,0,0,0
+877,Warrington,x,x,x,x,x,x,x,x,8,6,x,6
+878,Devon,8,x,x,x,0,0,0,0,8,x,x,x
+879,City of Plymouth,x,x,x,x,x,x,x,x,7,x,x,x
+880,Torbay,x,x,x,0,x,x,x,x,7,x,x,x
+881,Essex,20,8,7,11,13,8,6,11,33,16,13,22
+882,Southend,x,x,x,x,x,x,x,x,x,x,x,x
+883,Thurrock,x,x,x,x,0,0,0,0,x,x,x,x
+884,Herefordshire,x,x,x,x,x,x,x,x,x,x,x,x
+885,Worcestershire,8,x,x,x,x,x,x,x,10,x,x,x
+886,Kent,12,7,x,x,17,9,7,11,29,16,12,16
+887,Medway,x,x,x,x,x,x,x,x,x,x,x,x
+888,Lancashire,18,8,8,12,16,12,11,12,34,20,19,24
+889,Blackburn and Darwin,9,7,6,6,x,x,x,x,12,9,7,9
+890,Blackpool,x,x,x,x,x,x,x,x,10,7,x,x
+891,Nottinghamshire,8,x,x,x,x,x,x,x,13,x,x,x
+892,City of Nottingham,x,x,x,x,x,x,x,x,10,6,6,6
+893,Shropshire,x,x,x,x,0,0,0,0,x,x,x,x
+894,Telford and Wrekin,x,x,x,x,10,x,x,x,12,6,7,7
+895,Cheshire East,6,x,x,x,x,x,x,x,10,x,x,6
+896,Cheshire West & Chester,x,x,x,x,9,x,x,x,12,6,x,x
+908,Cornwall,7,x,6,6,x,x,x,x,11,6,8,8
+909,Cumbria,6,x,x,x,x,x,x,x,10,6,x,6
+916,Gloucestershire,6,x,x,x,x,x,x,x,10,7,x,6
+919,Hertfordshire,9,7,6,7,8,x,x,x,17,12,10,12
+921,Isle of Wight,0,0,0,0,0,0,0,0,0,0,0,0
+925,Lincolnshire,x,x,x,x,x,x,x,x,7,x,x,x
+926,Norfolk,7,x,x,x,6,x,x,x,13,x,x,6
+928,Northamptonshire,x,x,x,x,x,x,x,x,7,x,x,x
+929,Northumberland,x,x,x,x,x,x,x,x,7,x,x,x
+931,Oxfordshire,x,x,x,x,x,x,x,0,8,x,x,x
+933,Somerset,7,x,x,x,0,0,0,0,7,x,x,x
+935,Suffolk,13,10,8,10,x,x,x,x,16,13,11,13
+936,Surrey,x,x,x,x,x,x,x,x,6,x,x,7
+937,Warwickshire,7,x,x,x,x,x,x,x,11,9,8,9
+938,West Sussex,15,8,7,9,6,x,x,x,21,11,10,12

@@ -1,0 +1,164 @@
+country_code,country_name,gor_code,gor_name,la_code,la_9digit,la_name,Elig_KS4_2008,Level2_2008,5_GCSE_EM_2008,GCSE_EM_2008,Elig_KS4_2009,Level2_2009,5_GCSE_EM_2009,GCSE_EM_2009,Elig_KS4_2010,Level2_2010,5_GCSE_EM_2010,GCSE_EM_2010,Elig_KS4_2011,Level2_2011,5_GCSE_EM_2011,GCSE_EM_2011,Elig_KS4_2012,Level2_2012,5_GCSE_EM_2012,GCSE_EM_2012
+921,England,,,,,,4480,870,460,490,4610,1090,500,530,5000,1440,620,650,5030,1680,680,710,4850,1790,710,730
+921,England,A,North East ,,,,230,60,20,20,240,70,30,30,240,90,40,40,280,120,40,40,320,160,50,50
+921,England,B,North West,,,,710,150,80,80,740,190,90,90,790,250,100,100,750,260,100,110,730,300,120,120
+921,England,D,Yorks & the Humber ,,,,510,100,50,50,510,110,40,40,500,170,70,70,510,190,60,70,490,190,70,70
+921,England,E,East Midlands,,,,310,60,30,30,270,60,30,30,330,80,20,30,360,110,40,40,320,110,40,40
+921,England,F,West Midlands,,,,520,90,40,50,530,130,50,50,590,170,80,80,600,220,80,80,620,240,100,110
+921,England,G,East of England ,,,,430,80,50,60,450,100,50,60,540,130,60,60,540,170,90,90,530,190,80,80
+921,England,H,London ,,,,810,190,110,120,860,240,120,120,930,300,140,150,880,310,150,150,760,280,130,130
+921,England,,Inner London,,,,340,90,60,60,340,100,50,50,410,130,60,60,380,130,70,80,340,130,60,60
+921,England,,Outer London ,,,,470,100,60,60,520,140,70,70,520,180,80,80,500,180,70,80,410,160,70,70
+921,England,J,South East,,,,580,90,40,40,630,130,50,60,660,160,70,80,670,180,80,80,650,190,70,70
+921,England,K,South West ,,,,380,60,30,40,390,70,40,40,420,80,40,50,450,130,50,60,450,130,50,60
+921,England,H,London ,201,E09000001,City of London,0,0,0,0,x,x,0,0,x,x,0,0,0,0,0,0,0,0,0,0
+921,England,H,London ,202,E09000007,Camden,28,8,6,6,29,8,x,x,25,8,x,x,18,7,x,x,24,9,x,x
+921,England,H,London ,203,E09000011,Greenwich,39,9,6,7,41,9,x,x,58,14,11,11,35,10,x,x,27,15,10,10
+921,England,H,London ,204,E09000012,Hackney,24,7,x,x,22,6,x,x,30,10,8,8,19,6,x,x,18,6,x,x
+921,England,H,London ,205,E09000013,Hammersmith & Fulham,19,x,0,0,23,9,6,6,19,7,x,x,16,x,x,x,20,7,x,x
+921,England,H,London ,206,E09000019,Islington,29,9,6,6,27,6,x,x,26,6,x,x,28,7,x,x,28,9,x,x
+921,England,H,London ,207,E09000020,Kensington & Chelsea,x,0,0,0,15,6,x,x,12,x,x,x,14,7,x,x,10,x,x,x
+921,England,H,London ,208,E09000022,Lambeth,41,12,8,8,39,15,10,10,45,10,x,x,46,17,6,6,35,8,x,x
+921,England,H,London ,209,E09000023,Lewisham,30,6,x,x,22,x,x,x,45,14,6,6,40,11,x,6,35,14,7,7
+921,England,H,London ,210,E09000028,Southwark,42,13,7,7,34,9,6,7,44,18,8,8,42,21,11,11,29,9,x,x
+921,England,H,London ,211,E09000030,Tower Hamlets,20,6,x,x,24,9,x,x,28,10,x,x,27,11,6,6,34,14,6,7
+921,England,H,London ,212,E09000032,Wandsworth,18,x,x,x,13,x,x,x,17,x,x,x,13,x,x,x,18,8,x,x
+921,England,H,London ,213,E09000033,Westminster,15,x,x,x,16,8,x,x,12,x,x,x,18,x,x,x,15,x,x,x
+921,England,H,London ,301,E09000002,Barking and Dagenham,27,x,x,x,23,7,x,x,18,6,x,x,28,10,6,6,24,x,x,x
+921,England,H,London ,302,E09000003,Barnet,27,9,8,8,22,7,x,x,24,10,x,x,27,6,x,x,25,10,x,x
+921,England,H,London ,303,E09000004,Bexley,20,x,x,x,16,x,x,x,19,x,x,x,13,x,x,x,12,x,x,x
+921,England,H,London ,304,E09000005,Brent,30,x,x,x,25,7,x,x,35,12,9,9,32,12,6,6,26,7,x,x
+921,England,H,London ,305,E09000006,Bromley,21,x,x,x,19,6,x,x,16,6,x,x,33,10,x,x,18,x,x,x
+921,England,H,London ,306,E09000008,Croydon,122,27,11,11,154,40,16,17,118,53,13,13,96,49,8,9,74,35,12,12
+921,England,H,London ,307,E09000009,Ealing,27,x,x,x,35,8,x,x,24,10,x,x,23,7,x,x,28,6,6,6
+921,England,H,London ,308,E09000010,Enfield,16,x,x,x,17,x,x,x,23,x,x,x,25,10,7,7,24,12,x,x
+921,England,H,London ,309,E09000014,Haringey,29,6,6,6,32,10,x,x,48,16,9,9,44,10,6,6,37,17,7,8
+921,England,H,London ,310,E09000015,Harrow,8,x,x,x,11,x,x,x,17,x,x,x,21,x,x,x,11,x,0,0
+921,England,H,London ,311,E09000016,Havering,11,x,x,x,6,x,x,x,11,x,x,x,16,x,x,x,13,x,0,x
+921,England,H,London ,312,E09000017,Hillingdon,44,17,7,7,50,16,7,7,35,14,10,10,39,17,10,10,38,16,x,x
+921,England,H,London ,313,E09000018,Hounslow,22,x,x,x,19,x,x,x,27,9,x,x,25,x,x,x,18,6,x,x
+921,England,H,London ,314,E09000021,Kingston upon Thames,6,x,x,x,10,x,x,x,9,x,0,0,14,6,x,x,6,x,x,x
+921,England,H,London ,315,E09000024,Merton,10,x,x,x,14,x,x,x,12,x,0,0,x,0,0,0,9,x,x,x
+921,England,H,London ,316,E09000025,Newham,42,11,9,9,43,6,x,x,58,13,8,8,52,17,12,13,41,16,7,7
+921,England,H,London ,317,E09000026,Redbridge,12,x,x,x,16,x,x,x,18,7,x,x,16,8,x,x,16,8,x,x
+921,England,H,London ,318,E09000027,Richmond upon Thames,x,0,0,0,7,x,x,x,7,x,x,x,9,x,x,x,10,x,x,x
+921,England,H,London ,319,E09000029,Sutton,6,x,x,x,9,6,x,x,15,x,x,x,17,6,x,x,13,x,x,x
+921,England,H,London ,320,E09000031,Waltham Forest,13,x,x,x,24,10,6,6,32,x,x,x,30,10,x,x,20,6,x,x
+921,England,F,West Midlands,330,E08000025,Birmingham,142,26,11,13,128,31,14,14,142,44,18,19,132,52,19,19,142,57,24,27
+921,England,F,West Midlands,331,E08000026,Coventry,33,8,x,x,48,7,x,x,46,13,x,x,41,17,x,x,56,23,7,8
+921,England,F,West Midlands,332,E08000027,Dudley,33,6,x,x,33,8,x,x,35,16,12,12,36,14,8,8,36,19,8,8
+921,England,F,West Midlands,333,E08000028,Sandwell,29,7,x,x,27,x,x,x,27,6,x,x,35,14,x,x,35,16,6,6
+921,England,F,West Midlands,334,E08000029,Solihull,30,x,0,0,29,8,x,x,51,10,x,x,50,23,7,7,34,16,6,7
+921,England,F,West Midlands,335,E08000030,Walsall,29,x,x,x,30,7,0,0,45,16,x,x,29,14,x,x,30,8,x,x
+921,England,F,West Midlands,336,E08000031,Wolverhampton,26,x,x,x,13,x,0,0,21,8,x,x,21,x,x,x,29,13,x,x
+921,England,B,North West,340,E08000011,Knowsley,19,8,x,x,17,8,x,x,24,8,x,x,24,9,x,x,16,7,x,x
+921,England,B,North West,341,E08000012,Liverpool,65,13,x,x,68,22,9,9,58,24,7,7,64,29,13,13,59,24,9,9
+921,England,B,North West,342,E08000013,St Helens,14,x,x,x,15,0,0,0,8,x,x,x,24,x,x,x,17,6,0,0
+921,England,B,North West,343,E08000014,Sefton,15,x,x,x,26,8,x,x,21,6,x,x,24,12,x,x,26,7,x,x
+921,England,B,North West,344,E08000015,Wirral,33,7,x,x,45,11,x,x,45,14,x,x,44,12,x,x,32,15,x,x
+921,England,B,North West,350,E08000001,Bolton,29,6,x,x,24,6,x,x,35,11,x,x,22,9,x,x,38,20,11,11
+921,England,B,North West,351,E08000002,Bury,14,x,x,x,20,x,x,x,20,8,7,7,20,6,x,x,23,7,x,x
+921,England,B,North West,352,E08000003,Manchester,107,18,8,8,111,29,11,11,113,30,7,7,100,36,11,11,93,46,20,21
+921,England,B,North West,353,E08000004,Oldham,28,x,x,x,24,x,x,x,26,10,x,x,24,10,x,x,19,10,x,x
+921,England,B,North West,354,E08000005,Rochdale,18,x,x,x,24,9,x,x,26,x,x,x,25,x,x,x,30,8,x,x
+921,England,B,North West,355,E08000006,Salford,34,10,x,x,38,16,7,7,38,17,7,7,50,16,x,6,40,15,x,x
+921,England,B,North West,356,E08000007,Stockport,28,6,6,7,29,7,x,x,36,8,6,6,18,x,x,x,27,8,x,x
+921,England,B,North West,357,E08000008,Tameside,17,x,x,x,22,x,x,x,29,x,x,x,18,x,x,x,27,15,x,x
+921,England,B,North West,358,E08000009,Trafford,18,8,7,7,10,x,x,x,18,7,x,x,25,9,6,6,22,8,6,6
+921,England,B,North West,359,E08000010,Wigan,31,x,x,x,29,9,x,x,25,7,x,x,31,6,x,x,28,10,x,x
+921,England,D,Yorks & the Humber ,370,E08000016,Barnsley,17,x,x,x,19,x,x,x,15,x,x,x,27,11,x,x,23,10,x,x
+921,England,D,Yorks & the Humber ,371,E08000017,Doncaster,44,13,x,x,32,10,x,x,32,7,x,x,42,13,x,x,38,16,x,x
+921,England,D,Yorks & the Humber ,372,E08000018,Rotherham,31,x,x,x,27,x,x,x,25,11,7,7,25,10,x,x,31,13,6,6
+921,England,D,Yorks & the Humber ,373,E08000019,Sheffield,48,8,x,x,47,11,x,x,55,14,x,x,49,11,x,x,43,12,x,x
+921,England,D,Yorks & the Humber ,380,E08000032,Bradford,60,13,8,8,75,18,11,11,58,20,x,x,52,17,6,6,57,29,11,11
+921,England,D,Yorks & the Humber ,381,E08000033,Calderdale,21,x,x,x,13,x,x,x,21,6,x,x,19,x,0,0,11,x,x,x
+921,England,D,Yorks & the Humber ,382,E08000034,Kirklees,26,x,x,x,26,x,x,x,31,x,x,x,32,11,x,x,33,x,x,x
+921,England,D,Yorks & the Humber ,383,E08000035,Leeds,112,21,9,10,111,17,x,x,106,42,17,17,99,36,10,10,95,38,14,14
+921,England,D,Yorks & the Humber ,384,E08000036,Wakefield,26,6,x,x,30,8,x,x,27,12,x,x,28,16,7,7,31,10,0,0
+921,England,A,North East ,390,E08000020,Gateshead,22,7,x,x,19,10,7,7,20,6,x,x,32,16,x,x,28,15,x,x
+921,England,A,North East ,391,E08000021,Newcastle upon Tyne,28,13,7,7,35,15,x,x,37,13,x,x,47,17,x,x,56,27,8,8
+921,England,A,North East ,392,E08000022,North Tyneside,18,x,x,x,19,6,x,x,9,x,x,x,13,x,x,x,16,10,6,6
+921,England,A,North East ,393,E08000023,South Tyneside,19,x,x,x,24,6,x,x,17,10,x,x,20,6,x,x,20,10,x,x
+921,England,A,North East ,394,E08000024,Sunderland,31,6,x,x,37,10,x,x,31,13,x,x,32,11,x,x,38,19,x,x
+921,England,K,South West ,800,E06000022,Bath & NE Somerset,6,x,0,0,10,x,x,x,16,6,x,x,12,x,x,x,16,8,x,x
+921,England,K,South West ,801,E06000023,City of Bristol,55,11,x,6,50,x,x,x,51,7,6,6,57,23,6,7,47,18,8,8
+921,England,K,South West ,802,E06000024,North Somerset,12,x,x,x,6,x,x,x,17,x,0,0,16,x,x,x,20,x,x,x
+921,England,K,South West ,803,E06000025,South Gloucestershire,20,x,x,x,11,x,0,0,16,x,0,0,15,6,x,x,13,x,x,x
+921,England,A,North East ,805,E06000001,Hartlepool,10,x,0,0,9,x,x,x,7,x,0,0,15,x,0,0,10,x,x,x
+921,England,A,North East ,806,E06000002,Middlesbrough,15,x,x,x,13,x,0,0,35,11,7,7,21,9,x,x,29,8,x,x
+921,England,A,North East ,807,E06000003,Redcar and Cleveland,14,x,x,x,9,0,0,0,9,x,x,x,10,x,x,x,12,8,x,x
+921,England,A,North East ,808,E06000004,Stockton on Tees,16,x,x,x,20,7,x,x,19,8,x,x,14,8,x,x,17,9,x,x
+921,England,D,Yorks & the Humber ,810,E06000010,City of Kingston-Upon-Hull,42,x,0,0,44,13,x,x,32,13,x,x,33,16,x,x,31,13,6,6
+921,England,D,Yorks & the Humber ,811,E06000011,East Riding of Yorkshire,14,x,x,x,18,x,x,x,22,11,9,9,32,14,x,x,17,7,x,x
+921,England,D,Yorks & the Humber ,812,E06000012,North East Lincolnshire,11,x,x,x,15,7,x,x,9,7,x,x,13,7,x,x,15,7,x,x
+921,England,D,Yorks & the Humber ,813,E06000013,North Lincolnshire,14,x,0,0,7,x,0,0,15,x,x,x,11,x,x,x,13,x,x,x
+921,England,D,Yorks & the Humber ,815,E10000023,North Yorkshire,36,8,x,x,31,10,x,x,35,15,7,7,33,13,x,6,36,14,x,7
+921,England,D,Yorks & the Humber ,816,E06000014,York,12,x,x,x,10,0,0,0,20,x,x,x,18,x,x,x,14,7,x,x
+921,England,G,East of England ,821,E06000032,Luton,31,6,6,6,27,8,x,x,34,11,x,x,37,14,7,8,35,11,x,x
+921,England,G,East of England ,822,E06000055,Bedford Borough,.,.,.,.,14,x,x,x,13,x,0,0,16,x,x,x,18,x,x,x
+921,England,G,East of England ,823,E06000056,Central Bedfordshire,.,.,.,.,13,x,x,x,16,x,x,x,17,x,0,x,19,6,x,x
+921,England,J,South East,825,E10000002,Buckinghamshire,26,x,x,x,25,x,x,x,26,x,x,x,24,6,x,x,30,10,6,7
+921,England,J,South East,826,E06000042,Milton Keynes,14,x,x,x,9,x,x,x,22,6,x,x,17,7,x,x,22,13,x,x
+921,England,E,East Midlands,830,E10000007,Derbyshire,40,8,6,6,28,9,x,x,52,14,x,x,68,17,8,9,54,13,x,x
+921,England,E,East Midlands,831,E06000015,Derby,28,6,x,x,30,x,x,x,27,x,x,x,35,19,6,7,37,17,9,9
+921,England,K,South West ,835,E10000009,Dorset,26,8,x,x,22,x,x,x,22,x,x,x,23,x,x,x,24,x,x,x
+921,England,K,South West ,836,E06000029,Poole,7,x,x,x,9,x,x,x,6,x,x,x,14,x,x,x,13,7,x,x
+921,England,K,South West ,837,E06000028,Bournemouth,14,x,0,0,19,x,x,x,17,x,0,0,23,6,x,x,17,x,x,x
+921,England,A,North East ,840,E06000047,Durham,24,x,x,x,29,8,x,x,26,11,7,7,46,25,7,7,46,31,8,8
+921,England,A,North East ,841,E06000005,Darlington,9,x,0,0,x,x,0,0,10,x,x,x,13,x,x,x,18,9,x,x
+921,England,J,South East,845,E10000011,East Sussex,39,x,x,x,40,8,x,x,40,15,8,8,46,13,7,7,38,13,7,7
+921,England,J,South East,846,E06000043,Brighton & Hove,40,x,x,x,35,x,x,x,37,x,x,x,28,6,x,x,36,13,x,x
+921,England,J,South East,850,E10000014,Hampshire,68,10,6,7,80,14,x,6,82,23,13,14,105,22,8,10,87,21,8,8
+921,England,J,South East,851,E06000044,Portsmouth,25,x,x,x,28,7,x,x,18,x,x,x,19,x,x,x,22,7,x,x
+921,England,J,South East,852,E06000045,Southampton,23,x,x,x,26,x,x,x,24,6,x,x,22,x,x,x,30,10,6,6
+921,England,E,East Midlands,855,E10000018,Leicestershire,38,6,x,x,28,x,x,x,23,x,x,x,34,12,x,x,30,11,x,x
+921,England,E,East Midlands,856,E06000016,Leicester City,38,x,x,x,24,x,x,x,37,x,x,x,37,9,x,x,33,12,x,x
+921,England,E,East Midlands,857,E06000017,Rutland,x,0,0,0,x,x,0,0,x,0,0,0,0,0,0,0,x,x,0,0
+921,England,F,West Midlands,860,E10000028,Staffordshire,41,8,x,x,60,14,7,7,48,13,6,6,66,23,11,11,74,30,16,16
+921,England,F,West Midlands,861,E06000021,Stoke,29,6,x,x,28,8,x,x,41,12,7,7,29,9,x,x,31,6,x,x
+921,England,K,South West ,865,E06000054,Wiltshire,23,x,x,x,30,x,x,x,26,7,x,x,26,x,x,x,35,13,6,6
+921,England,K,South West ,866,E06000030,Swindon,13,x,0,0,19,x,x,x,18,x,x,x,27,9,x,x,25,x,x,x
+921,England,J,South East,867,E06000036,Bracknell Forest,11,0,0,0,14,0,0,0,10,x,x,x,9,x,x,x,9,x,0,0
+921,England,J,South East,868,E06000040,Royal Borough of Windsor & Maidenhead,8,x,0,0,6,x,x,x,7,x,x,x,8,x,x,x,6,x,x,x
+921,England,J,South East,869,E06000037,West Berkshire,9,x,0,x,10,x,x,x,8,x,x,x,7,x,0,0,15,x,0,0
+921,England,J,South East,870,E06000038,Reading,15,x,x,x,10,x,x,x,12,x,x,x,13,x,x,x,15,6,0,0
+921,England,J,South East,871,E06000039,Slough,7,x,0,0,x,x,0,0,10,x,x,x,12,7,x,x,15,8,x,x
+921,England,J,South East,872,E06000041,Wokingham,x,x,x,x,x,0,0,0,x,0,0,0,11,x,x,x,6,x,x,x
+921,England,G,East of England ,873,E10000003,Cambridgeshire,27,x,x,x,28,8,6,9,40,9,x,x,45,10,x,x,35,12,x,x
+921,England,G,East of England ,874,E06000031,City of Peterborough,21,x,x,x,23,x,x,x,34,10,x,x,22,7,x,x,22,9,x,x
+921,England,B,North West,876,E06000006,Halton,15,6,x,x,8,x,x,x,18,6,x,x,15,6,x,x,x,x,x,x
+921,England,B,North West,877,E06000007,Warrington,16,x,0,0,17,6,x,x,19,x,x,x,10,x,x,x,15,12,6,6
+921,England,K,South West ,878,E10000008,Devon,52,10,7,7,57,9,x,6,64,12,9,12,57,14,9,9,59,18,6,6
+921,England,K,South West ,879,E06000026,City of Plymouth,23,x,0,0,30,9,x,x,24,x,x,x,29,9,x,x,28,10,x,x
+921,England,K,South West ,880,E06000027,Torbay,10,0,0,0,8,x,0,0,18,x,x,x,14,7,x,x,19,x,x,x
+921,England,G,East of England ,881,E10000012,Essex,96,20,7,9,104,27,16,17,116,32,11,12,133,39,16,17,105,45,18,18
+921,England,G,East of England ,882,E06000033,Southend,25,x,x,x,19,x,x,x,26,8,6,6,18,7,x,x,17,9,x,x
+921,England,G,East of England ,883,E06000034,Thurrock,15,x,x,x,18,6,x,x,15,x,x,x,7,6,x,x,21,7,x,x
+921,England,F,West Midlands,884,E06000019,Herefordshire,14,x,x,x,18,8,x,x,17,x,x,x,15,x,x,x,15,x,x,x
+921,England,F,West Midlands,885,E10000034,Worcestershire,40,x,x,x,33,8,x,x,37,11,x,x,42,12,x,x,43,7,x,x
+921,England,J,South East,886,E10000016,Kent,106,19,9,9,105,31,10,10,131,29,8,9,136,36,15,16,111,37,16,16
+921,England,J,South East,887,E06000035,Medway,28,x,x,x,27,11,x,x,28,9,x,x,30,13,x,x,22,x,x,x
+921,England,B,North West,888,E10000017,Lancashire,97,15,10,11,94,20,11,11,97,30,18,18,84,23,10,10,93,32,12,13
+921,England,B,North West,889,E06000008,Blackburn and Darwin,25,7,x,x,21,x,0,0,30,12,x,6,27,10,x,x,14,x,x,x
+921,England,B,North West,890,E06000009,Blackpool,14,x,0,0,15,x,0,0,28,6,x,x,23,14,7,8,20,8,x,x
+921,England,E,East Midlands,891,E10000024,Nottinghamshire,23,10,x,x,32,9,x,x,40,13,x,x,49,16,7,7,41,18,x,x
+921,England,E,East Midlands,892,E06000018,City of Nottingham,43,x,x,x,33,7,x,x,39,10,x,x,33,x,x,x,30,11,0,0
+921,England,F,West Midlands,893,E06000051,Shropshire,15,x,x,x,21,x,x,x,18,x,x,6,20,x,x,x,18,x,x,x
+921,England,F,West Midlands,894,E06000020,Telford and Wrekin,17,x,x,x,14,x,0,0,21,x,x,x,16,8,x,x,24,12,8,8
+921,England,B,North West,895,E06000049,Cheshire East,.,.,.,.,28,x,x,x,20,8,x,x,26,10,x,x,23,7,x,x
+921,England,B,North West,896,E06000050,Cheshire West & Chester,.,.,.,.,20,x,x,x,24,x,0,0,18,x,x,x,25,x,x,x
+921,England,K,South West ,908,E06000052,Cornwall,47,6,x,x,45,x,x,x,43,10,6,6,42,16,9,9,48,15,x,6
+921,England,B,North West,909,E10000006,Cumbria,37,10,x,6,35,x,x,x,34,14,x,x,36,13,6,6,40,17,10,10
+921,England,K,South West ,916,E10000013,Gloucestershire,43,11,6,8,42,12,7,7,45,17,6,8,50,17,x,x,41,13,x,x
+921,England,G,East of England ,919,E10000015,Hertfordshire,72,11,6,7,85,20,7,7,91,18,12,12,103,35,19,20,99,39,13,13
+921,England,J,South East,921,E06000046,Isle of Wight,x,x,x,x,21,x,0,0,20,x,x,x,23,7,x,x,16,x,0,0
+921,England,E,East Midlands,925,E10000019,Lincolnshire,53,9,x,x,55,13,6,6,51,16,x,x,40,14,x,x,38,19,9,9
+921,England,G,East of England ,926,E10000020,Norfolk,69,13,11,14,67,15,10,12,87,14,10,10,87,29,21,22,103,32,20,21
+921,England,E,East Midlands,928,E10000021,Northamptonshire,50,7,x,x,37,7,x,x,58,9,x,x,64,20,8,8,59,11,x,6
+921,England,A,North East ,929,E06000048,Northumberland,19,6,x,x,18,x,x,x,19,9,x,x,14,10,6,6,26,9,x,x
+921,England,J,South East,931,E10000025,Oxfordshire,39,x,x,x,46,6,x,x,40,9,x,x,51,9,x,x,31,6,x,x
+921,England,K,South West ,933,E10000027,Somerset,31,x,0,0,36,8,x,x,41,x,x,x,40,6,x,x,41,9,x,x
+921,England,G,East of England ,935,E10000029,Suffolk,46,9,7,8,53,x,x,x,66,14,6,7,57,18,8,9,53,12,6,6
+921,England,J,South East,936,E10000030,Surrey,59,9,x,x,76,19,9,9,75,23,9,9,54,21,12,12,76,16,x,6
+921,England,F,West Midlands,937,E10000031,Warwickshire,45,8,x,x,46,14,7,7,43,10,x,x,63,20,7,7,49,19,8,8
+921,England,J,South East,938,E10000032,West Sussex,49,9,7,7,59,7,x,x,64,14,x,x,56,15,x,x,62,15,6,6

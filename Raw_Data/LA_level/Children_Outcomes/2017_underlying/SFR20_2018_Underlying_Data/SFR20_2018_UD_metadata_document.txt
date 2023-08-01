@@ -1,0 +1,213 @@
+Meta Data Document
+Release of Underlying Data
+Outcomes for Children Looked After by Local Authorities in England, 31 March 2017
+SFR20/2018
+
+Overview
+
+SFR20/2018 provides information about the outcomes of children looked after by local authorities in England for the year ending 31 March 2017. LA level data is published for the local authority that looks after the child. The figures are based on data from the SSDA903 return collected from local authorities, and matched to attainment data, school census data and alternative provision census data. This document describes the underlying data. The term “looked after children” in this document is used to mean children who have been looked after continuously for at least 12 months at 31 March 2017.
+
+The underlying data contains the local authority data underlying the national data in the tables, for 2017, for looked after children only. We published these data in local authority tables, for 2016 and earlier years.
+
+The underlying data has been rounded and suppressed where necessary  to reduce the risk of disclosure of information about individual children.
+
+Underlying Data Files
+
+There are five underlying data files:
+
+SFR20_2018_Table2_KS2_UD: Tables 2a and 2b: Key stage 2 eligibility,  performance and progress of looked after children, 2017
+
+SFR20_2018_Table3_KS4_UD: Tables 3a, 3b, 3c: Key stage 4 eligibility,  performance and progress of looked after children, 2017
+
+SFR20_2018_Table4_SEN_UD: Table 4a: Looked after children by special educational need (SEN), 2017
+
+SFR20_2018_Table5_Abs_UD: Table 5: Absence for looked after children, 2017
+
+SFR20_2018_Table6_Excl_UD: Table 6: Exclusions for looked after children, 2016 (The latest available data for exclusions is for 2016.)
+
+Note that there is no underlying data for key stage 1 due to the small numbers of children which results in a large amount of suppression.
+
+They contain national and regional data as well as local authority data.  The national and regional data is rounded in the same way as the data in the national tables. The local authority data is not rounded.  Where necessary, the local authority data has been suppressed to reduce the risk of disclosure of information about individual children. 
+
+All of the underlying data files are in CSV format.
+
+National and regional data on the number of children has been rounded to the nearest ten. Rounding on percentages and averages is to the same number of decimal places as in the national tables in the main statistical first release, for each measure. 
+
+Local authority data has been suppressed as necessary using the following rules:
+
+(Zero denominators)
+
+Where the number of eligible children is zero this is displayed as zero. Any corresponding numerators, percentages, sums or averages are replaced with a dot (.) to indicate that they are not applicable. 
+	
+(Small denominators, not including zeroes)
+
+Where the number of eligible children is between one and five the denominator is suppressed with a cross (x). 
+
+(Small numerators, including zeros)
+
+Where the numerator is five or fewer (including zero), it is suppressed with a cross (x). 
+
+(Percentages)
+
+Where the number of eligible children is between one and ten, or the corresponding numerator is five or fewer (including zero), the percentage is suppressed with a cross (x). 
+
+(Averages)
+
+Where the number of eligible children is between one and five, the sum and average is suppressed with a cross (x). 
+
+There are some additional suppressions, where we have deemed this necessary to reduce the risk of disclosure of information about individual children.
+
+The first five column names and descriptions are as follows: 
+
+LA_order
+This enables sorting in order of England, region, and local authority within region
+New_geog_code	
+New geography code
+geog_l
+Geography level
+geog_c
+Geography code
+geog_n
+Geography name
+
+The rest of the column names and descriptions for each of the underlying data files are listed below.
+
+SFR20_2018_Table2_KS2_UD: Tables 2a and 2b: Key stage 2 eligibility,  performance and progress of looked after children, 2017
+
+Elig_KS2_read 
+Number of children eligible for key stage 2 tests in reading and matched to attainment data
+Exp_KS2_stand_read
+Number of eligible children who reached the expected standard in key stage 2 reading
+Exp_KS2_stand_read_%
+Percentage of eligible children who reached the expected standard in key stage 2 reading
+
+Elig_KS2_writ
+Number of children eligible for key stage 2 tests in writing and matched to attainment data
+Exp_KS2_stand_writ
+Number of eligible children who reached the expected standard in key stage 2 writing
+Exp_KS2_stand_writ_%
+Percentage of eligible children who reached the expected standard in key stage 2 writing
+
+Elig_KS2_maths
+Number of children eligible for key stage 2 tests in mathematics and matched to attainment data 
+Exp_KS2_stand_maths
+Number of eligible children who reached the expected standard in key stage 2 mathematics
+Exp_KS2_stand_maths_%
+Percentage of eligible children who reached the expected standard in key stage 2 mathematics
+
+Elig_KS2_GPS 
+Number of children eligible for key stage 2 tests in grammar, punctuation and spelling and matched to attainment data 
+Exp_KS2_stand_GPS
+Number of eligible children who reached the expected standard in key stage 2 grammar, punctuation and spelling
+Exp_KS2_stand_GPS_%
+Percentages of eligible children who reached the expected standard in key stage 2 grammar, punctuation and spelling
+
+Elig_KS2_RWM
+Number of children eligible for key stage 2 tests in reading, writing and mathematics and matched to attainment data 
+Exp_KS2_stand_RWM
+Number of eligible children who reached the expected standard in key stage 2 reading, writing and mathematics
+Exp_KS2_stand_RWM_%
+Percentage of eligible children who reached the expected standard in key stage 2 reading, writing and mathematics 
+
+Elig_KS2_prog_read
+Number of children eligible for key stage 2 reading progress scores and matched to attainment data
+Sum_KS2_prog_read
+Sum of key stage 2 reading progress scores 
+Ave_KS2_prog_read
+Average of key stage 2 reading progress scores 
+
+Elig_KS2_prog_writ
+Number of children eligible for key stage 2 writing progress scores and matched to attainment data
+Sum_KS2_prog_writ
+Sum of key stage 2 writing progress scores 
+Ave_KS2_prog_writ
+Average of key stage 2 writing progress scores 
+
+Elig_KS2_prog_maths
+Number of children eligible for key stage 2 mathematics progress scores and matched to attainment data
+Sum_KS2_prog_maths
+Sum of key stage 2 mathematics progress scores 
+Ave_KS2_prog_maths
+Average of key stage 2 mathematics progress scores 
+
+Local authority key stage 2 attainment data has been updated to align with the  national main key stage 2 release. The national level data remains the same as in previous years and excludes pupils with missing or lost test results and pupils where results are suppressed pending the outcome of a maladministration investigation. The local authority level data excludes pupils with lost results but includes those with missing results or pending maladministration. It also excludes children that have recently arrived from overseas. As a result, national level England figures don’t match national figures from local authority data.
+
+SFR20_2018_Table3_KS4_UD: Tables 3a, 3b and 3c: Key stage 4 eligibility,  performance and progress of looked after children, 2017
+
+Elig_KS4_total
+Number of children at the end of key stage 4 and matched to attainment data
+KS4_Pass_EM_5_total
+Number of children at the end of key stage 4 achieving a pass in English and mathematics at grade 5 or above	
+KS4_Pass_EM_5_total_%	
+Percentage of children at the end of key stage 4 achieving a pass in English and mathematics at grade 5 and above
+KS4_Pass_EM_4_total
+Number of children at the end of key stage 4 achieving a pass in English and mathematics at grade 4 or above	
+KS4_Pass_EM_4_total_%	
+Percentage of children at the end of key stage 4 achieving a pass in English and mathematics at grade 4 and above
+KS4_Att8_total
+Sum of Attainment 8 scores for children at the end of key stage 4 	
+KS4_Ave_Att8_total	
+Average of Attainment 8 scores for children at the end of key stage 4
+KS4_Prog8_Elig_total
+Number of children with Progress 8 scores at the end of key stage 4 and matched to attainment data	
+KS4_Sum_Prog8_total
+Sum of Progress 8 scores for children with Progress 8 scores at the end of key stage 4	
+KS4_Prog8_Ave_total
+Average of Progress 8 scores for children with Progress 8 scores at the end of key stage 4
+
+Note that the confidence intervals for the average Progress 8 scores can be derived using the same formulae as used in the national main key stage 4  release (as well as the national tables of this release).
+
+Local authority key stage 4 attainment data has been updated to align with the national main key stage 4 release. The local authority attainment data has children recently arrived from overseas removed. As a result, national level England figures don’t match national figures from local authority data.
+
+SFR20_2018_Table4_SEN_UD: Table 4a: Looked after children by special educational need (SEN), 2017
+
+No_SEN
+Number of looked after children who have no identified SEN
+No_SEN_%	
+Percentage of looked after children who have no identified SEN
+SEN_support	
+Number of looked after children who have SEN support
+SEN_support_%
+Percentage of looked after children who have SEN support
+SEN_statement_EHCP
+Number of looked after children who have a statement of SEN or an Education, Health and Care plan
+SEN_statement_EHCP_%
+Percentage of looked after children who have a statement of SEN or an Education, Health and Care plan
+
+Note that the total number of looked after children can be calculated as the sum of looked after children who have no identified SEN, looked after children who have SEN support, and looked after children who have a statement of SEN or are on an education, health and care plan. This is children that have been matched to the school census or the alternative provision census with known SEN status, aged 4 or above at 31 March 2017.
+
+SFR20_2018_Table5_Abs_UD: Table 5: Absence for looked after children, 2017
+ 
+Pup_enrol
+Number of looked after children included in the absence measures
+Poss_sess
+Total number of possible sessions
+Auth_abs
+Number of sessions missed due to authorised absence
+Auth_abs_%	
+Percentage of sessions missed due to authorised absence
+Unauth_abs
+Number of sessions missed due to unauthorised absence
+Unauth_abs_%
+Number of sessions missed due to unauthorised absence
+Overall_abs
+Number of sessions missed due to overall absence	
+Overall_abs_%
+Percentage of sessions missed due to overall absence 	
+Persist_abs
+Number of looked after children who were persistent absentees 	
+Persist_abs_%	
+Percentage of looked after children who were persistent absentees
+
+SFR20_2018_Table6_Excl_UD: Table 6: Exclusions for looked after children, 2016 (The latest available data for exclusions is for 2016.)
+
+Pup_enrol
+Number of looked after children included in the exclusions measures
+Perm_excl
+Number of looked after children permanently excluded
+Perm_excl_%
+Percentage of looked after children permanently excluded
+Fixed_excl	
+Number of looked after children with at least one fixed period exclusion
+Fixed_excl_%
+Percentage of looked after children with at least one fixed period exclusion
