@@ -2,7 +2,7 @@
 
 if (!require("pacman")) install.packages("pacman")
 
-pacman::p_load(devtools, dplyr, tidyverse, stringr, lubridate)
+pacman::p_load(devtools, dplyr, tidyverse, stringr, lubridate, curl, openxlsx)
 
 
 setwd("C:/Users/bengo/OneDrive - Nexus365/Documents/Children's Care Homes Project")
@@ -12,12 +12,30 @@ options(scipen=999)
 rm(list=setdiff(ls(), c("")))
 ####start####
 
-####Children and Placement Characteristics####
 
 
 
 ####Children Outcomes####
 
+#2010
+
+schl_absence <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2010_underlying/Absence2009_10.csv"))
+
+#2013 
+
+outcomes_2013 <- "https://github.com/BenGoodair/childrens_social_care_data/raw/main/Raw_Data/LA_level/Children_Outcomes/2013_LA/SFR50_2013_LATablesA.xlsx"
+
+
+temp_file <- tempfile(fileext = ".xlsx")
+req <- GET(github_link, 
+           # authenticate using GITHUB_PAT
+           authenticate(Sys.getenv("GITHUB_PAT"), ""),
+           # write result to disk
+           write_disk(path = temp_file))
+tab <- readxl::read_excel(temp_file)
+tab
+
+####Children and Placement Characteristics####
 
 
 ####LA Funding####
