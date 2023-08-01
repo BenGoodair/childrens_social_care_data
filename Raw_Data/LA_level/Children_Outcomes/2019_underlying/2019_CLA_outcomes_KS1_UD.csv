@@ -1,0 +1,25 @@
+time_period,time_identifier,geographic_level,country_code,country_name,characteristic,ks1_assessment_measure,gender,number_eligible,percent_achieving
+201819,Reporting year,National,E92000001,England,Looked after children,English Reading,Total,1740,52
+201819,Reporting year,National,E92000001,England,Looked after children,English Writing,Total,1740,43
+201819,Reporting year,National,E92000001,England,Looked after children,Mathematics,Total,1740,49
+201819,Reporting year,National,E92000001,England,Looked after children,Science,Total,1740,60
+201819,Reporting year,National,E92000001,England,Looked after children,English Reading,Male,930,49
+201819,Reporting year,National,E92000001,England,Looked after children,English Writing,Male,930,35
+201819,Reporting year,National,E92000001,England,Looked after children,Mathematics,Male,930,49
+201819,Reporting year,National,E92000001,England,Looked after children,Science,Male,930,58
+201819,Reporting year,National,E92000001,England,Looked after children,English Reading,Female,810,56
+201819,Reporting year,National,E92000001,England,Looked after children,English Writing,Female,810,52
+201819,Reporting year,National,E92000001,England,Looked after children,Mathematics,Female,810,50
+201819,Reporting year,National,E92000001,England,Looked after children,Science,Female,810,62
+201819,Reporting year,National,E92000001,England,Non-looked after children,English Reading,Total,665190,75
+201819,Reporting year,National,E92000001,England,Non-looked after children,English Writing,Total,665190,69
+201819,Reporting year,National,E92000001,England,Non-looked after children,Mathematics,Total,665190,76
+201819,Reporting year,National,E92000001,England,Non-looked after children,Science,Total,665200,82
+201819,Reporting year,National,E92000001,England,Non-looked after children,English Reading,Male,340590,71
+201819,Reporting year,National,E92000001,England,Non-looked after children,English Writing,Male,340590,63
+201819,Reporting year,National,E92000001,England,Non-looked after children,Mathematics,Male,340590,75
+201819,Reporting year,National,E92000001,England,Non-looked after children,Science,Male,340590,80
+201819,Reporting year,National,E92000001,England,Non-looked after children,English Reading,Female,324610,79
+201819,Reporting year,National,E92000001,England,Non-looked after children,English Writing,Female,324610,76
+201819,Reporting year,National,E92000001,England,Non-looked after children,Mathematics,Female,324610,77
+201819,Reporting year,National,E92000001,England,Non-looked after children,Science,Female,324610,85

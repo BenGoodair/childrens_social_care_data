@@ -1,0 +1,167 @@
+time_period,time_identifier,geographic_level,country_code,country_name,region_code,region_name,old_la_code,new_la_code,la_name,characteristic,school_type,number_of_children,permanent_exclusions,permanent_exclusions_%,fixed_term_exclusions,fixed_term_exclusions_%
+201718,Reporting year,National,E92000001,England,,,,,,Looked after children,State-funded primary secondary and special,31720,20,0.05,3700,11.67
+201718,Reporting year,National,E92000001,England,,,,,,Looked after children,State-funded primary,12170,c,c,540,4.45
+201718,Reporting year,National,E92000001,England,,,,,,Looked after children,State-funded secondary,15500,10,0.08,2710,17.47
+201718,Reporting year,National,E92000001,England,,,,,,Looked after children,Special,4050,c,c,450,11.12
+201718,Reporting year,Regional,E92000001,England,E12000001,North East,,,,Looked after children,State-funded primary secondary and special,2140,c,c,250,11.71
+201718,Reporting year,Regional,E92000001,England,E12000002,North West,,,,Looked after children,State-funded primary secondary and special,6270,c,c,660,10.48
+201718,Reporting year,Regional,E92000001,England,E12000003,Yorkshire and the Humber,,,,Looked after children,State-funded primary secondary and special,3580,c,c,440,12.21
+201718,Reporting year,Regional,E92000001,England,E12000004,East Midlands,,,,Looked after children,State-funded primary secondary and special,2350,c,c,260,10.95
+201718,Reporting year,Regional,E92000001,England,E12000005,West Midlands,,,,Looked after children,State-funded primary secondary and special,4490,c,c,460,10.28
+201718,Reporting year,Regional,E92000001,England,E12000006,East of England,,,,Looked after children,State-funded primary secondary and special,2770,c,c,340,12.4
+201718,Reporting year,Regional,E92000001,England,E12000008,South East,,,,Looked after children,State-funded primary secondary and special,4190,c,c,520,12.35
+201718,Reporting year,Regional,E92000001,England,E12000009,South West,,,,Looked after children,State-funded primary secondary and special,2450,c,c,370,15.13
+201718,Reporting year,Regional,E92000001,England,E13000001,Inner London,,,,Looked after children,State-funded primary secondary and special,1510,c,c,190,12.48
+201718,Reporting year,Regional,E92000001,England,E13000002,Outer London,,,,Looked after children,State-funded primary secondary and special,1960,c,c,220,10.99
+201718,Reporting year,Local authority,E92000001,England,E12000001,North East,841,E06000005,Darlington,Looked after children,State-funded primary secondary and special,95,c,c,10,10.53
+201718,Reporting year,Local authority,E92000001,England,E12000001,North East,840,E06000047,Durham,Looked after children,State-funded primary secondary and special,383,c,c,26,6.79
+201718,Reporting year,Local authority,E92000001,England,E12000001,North East,390,E08000037,Gateshead,Looked after children,State-funded primary secondary and special,177,c,c,12,6.78
+201718,Reporting year,Local authority,E92000001,England,E12000001,North East,805,E06000001,Hartlepool,Looked after children,State-funded primary secondary and special,122,c,c,24,19.67
+201718,Reporting year,Local authority,E92000001,England,E12000001,North East,806,E06000002,Middlesbrough,Looked after children,State-funded primary secondary and special,204,c,c,24,11.76
+201718,Reporting year,Local authority,E92000001,England,E12000001,North East,391,E08000021,Newcastle upon Tyne,Looked after children,State-funded primary secondary and special,221,c,c,28,12.67
+201718,Reporting year,Local authority,E92000001,England,E12000001,North East,392,E08000022,North Tyneside,Looked after children,State-funded primary secondary and special,121,c,c,12,9.92
+201718,Reporting year,Local authority,E92000001,England,E12000001,North East,929,E06000057,Northumberland,Looked after children,State-funded primary secondary and special,142,c,c,38,26.76
+201718,Reporting year,Local authority,E92000001,England,E12000001,North East,807,E06000003,Redcar and Cleveland,Looked after children,State-funded primary secondary and special,114,c,c,21,18.42
+201718,Reporting year,Local authority,E92000001,England,E12000001,North East,393,E08000023,South Tyneside,Looked after children,State-funded primary secondary and special,128,c,c,11,8.59
+201718,Reporting year,Local authority,E92000001,England,E12000001,North East,808,E06000004,Stockton-on-Tees,Looked after children,State-funded primary secondary and special,218,c,c,21,9.63
+201718,Reporting year,Local authority,E92000001,England,E12000001,North East,394,E08000024,Sunderland,Looked after children,State-funded primary secondary and special,219,c,c,24,10.96
+201718,Reporting year,Local authority,E92000001,England,E12000002,North West,889,E06000008,Blackburn with Darwen,Looked after children,State-funded primary secondary and special,155,c,c,15,9.68
+201718,Reporting year,Local authority,E92000001,England,E12000002,North West,890,E06000009,Blackpool,Looked after children,State-funded primary secondary and special,242,c,c,26,10.74
+201718,Reporting year,Local authority,E92000001,England,E12000002,North West,350,E08000001,Bolton,Looked after children,State-funded primary secondary and special,278,c,c,29,10.43
+201718,Reporting year,Local authority,E92000001,England,E12000002,North West,351,E08000002,Bury,Looked after children,State-funded primary secondary and special,143,c,c,13,9.09
+201718,Reporting year,Local authority,E92000001,England,E12000002,North West,895,E06000049,Cheshire East,Looked after children,State-funded primary secondary and special,218,c,c,18,8.26
+201718,Reporting year,Local authority,E92000001,England,E12000002,North West,896,E06000050,Cheshire West and Chester,Looked after children,State-funded primary secondary and special,204,c,c,20,9.8
+201718,Reporting year,Local authority,E92000001,England,E12000002,North West,909,E10000006,Cumbria,Looked after children,State-funded primary secondary and special,306,c,c,27,8.82
+201718,Reporting year,Local authority,E92000001,England,E12000002,North West,876,E06000006,Halton,Looked after children,State-funded primary secondary and special,124,c,c,14,11.29
+201718,Reporting year,Local authority,E92000001,England,E12000002,North West,340,E08000011,Knowsley,Looked after children,State-funded primary secondary and special,135,c,c,7,5.19
+201718,Reporting year,Local authority,E92000001,England,E12000002,North West,888,E10000017,Lancashire,Looked after children,State-funded primary secondary and special,853,c,c,83,9.73
+201718,Reporting year,Local authority,E92000001,England,E12000002,North West,341,E08000012,Liverpool,Looked after children,State-funded primary secondary and special,532,c,c,44,8.27
+201718,Reporting year,Local authority,E92000001,England,E12000002,North West,352,E08000003,Manchester,Looked after children,State-funded primary secondary and special,608,c,c,85,13.98
+201718,Reporting year,Local authority,E92000001,England,E12000002,North West,353,E08000004,Oldham,Looked after children,State-funded primary secondary and special,232,c,c,28,12.07
+201718,Reporting year,Local authority,E92000001,England,E12000002,North West,354,E08000005,Rochdale,Looked after children,State-funded primary secondary and special,228,c,c,20,8.77
+201718,Reporting year,Local authority,E92000001,England,E12000002,North West,355,E08000006,Salford,Looked after children,State-funded primary secondary and special,253,c,c,28,11.07
+201718,Reporting year,Local authority,E92000001,England,E12000002,North West,343,E08000014,Sefton,Looked after children,State-funded primary secondary and special,200,c,c,26,13
+201718,Reporting year,Local authority,E92000001,England,E12000002,North West,342,E08000013,St. Helens,Looked after children,State-funded primary secondary and special,215,c,c,22,10.23
+201718,Reporting year,Local authority,E92000001,England,E12000002,North West,356,E08000007,Stockport,Looked after children,State-funded primary secondary and special,144,c,c,21,14.58
+201718,Reporting year,Local authority,E92000001,England,E12000002,North West,357,E08000008,Tameside,Looked after children,State-funded primary secondary and special,238,c,c,34,14.29
+201718,Reporting year,Local authority,E92000001,England,E12000002,North West,358,E08000009,Trafford,Looked after children,State-funded primary secondary and special,181,c,c,15,8.29
+201718,Reporting year,Local authority,E92000001,England,E12000002,North West,877,E06000007,Warrington,Looked after children,State-funded primary secondary and special,185,c,c,10,5.41
+201718,Reporting year,Local authority,E92000001,England,E12000002,North West,359,E08000010,Wigan,Looked after children,State-funded primary secondary and special,227,c,c,30,13.22
+201718,Reporting year,Local authority,E92000001,England,E12000002,North West,344,E08000015,Wirral,Looked after children,State-funded primary secondary and special,371,c,c,42,11.32
+201718,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,370,E08000016,Barnsley,Looked after children,State-funded primary secondary and special,132,c,c,14,10.61
+201718,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,380,E08000032,Bradford,Looked after children,State-funded primary secondary and special,457,c,c,64,14
+201718,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,381,E08000033,Calderdale,Looked after children,State-funded primary secondary and special,144,c,c,20,13.89
+201718,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,371,E08000017,Doncaster,Looked after children,State-funded primary secondary and special,233,c,c,34,14.59
+201718,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,811,E06000011,East Riding of Yorkshire,Looked after children,State-funded primary secondary and special,131,c,c,16,12.21
+201718,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,810,E06000010,Kingston upon Hull City of,Looked after children,State-funded primary secondary and special,316,c,c,26,8.23
+201718,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,382,E08000034,Kirklees,Looked after children,State-funded primary secondary and special,330,c,c,29,8.79
+201718,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,383,E08000035,Leeds,Looked after children,State-funded primary secondary and special,610,c,c,83,13.61
+201718,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,812,E06000012,North East Lincolnshire,Looked after children,State-funded primary secondary and special,149,c,c,23,15.44
+201718,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,813,E06000013,North Lincolnshire,Looked after children,State-funded primary secondary and special,112,c,c,13,11.61
+201718,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,815,E10000023,North Yorkshire,Looked after children,State-funded primary secondary and special,179,c,c,20,11.17
+201718,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,372,E08000018,Rotherham,Looked after children,State-funded primary secondary and special,224,c,c,28,12.5
+201718,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,373,E08000019,Sheffield,Looked after children,State-funded primary secondary and special,264,c,c,35,13.26
+201718,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,384,E08000036,Wakefield,Looked after children,State-funded primary secondary and special,214,c,c,23,10.75
+201718,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,816,E06000014,York,Looked after children,State-funded primary secondary and special,84,c,c,9,10.71
+201718,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,831,E06000015,Derby,Looked after children,State-funded primary secondary and special,198,c,c,20,10.1
+201718,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,830,E10000007,Derbyshire,Looked after children,State-funded primary secondary and special,273,c,c,35,12.82
+201718,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,856,E06000016,Leicester,Looked after children,State-funded primary secondary and special,282,c,c,26,9.22
+201718,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,855,E10000018,Leicestershire,Looked after children,State-funded primary secondary and special,226,c,c,21,9.29
+201718,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,925,E10000019,Lincolnshire,Looked after children,State-funded primary secondary and special,288,c,c,26,9.03
+201718,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,928,E10000021,Northamptonshire,Looked after children,State-funded primary secondary and special,411,c,c,55,13.38
+201718,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,892,E06000018,Nottingham,Looked after children,State-funded primary secondary and special,290,c,c,35,12.07
+201718,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,891,E10000024,Nottinghamshire,Looked after children,State-funded primary secondary and special,365,c,c,38,10.41
+201718,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,857,E06000017,Rutland,Looked after children,State-funded primary secondary and special,15,c,c,c,c
+201718,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,330,E08000025,Birmingham,Looked after children,State-funded primary secondary and special,851,c,c,86,10.11
+201718,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,331,E08000026,Coventry,Looked after children,State-funded primary secondary and special,256,c,c,36,14.06
+201718,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,332,E08000027,Dudley,Looked after children,State-funded primary secondary and special,336,c,c,38,11.31
+201718,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,884,E06000019,Herefordshire,Looked after children,State-funded primary secondary and special,164,c,c,20,12.2
+201718,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,333,E08000028,Sandwell,Looked after children,State-funded primary secondary and special,297,c,c,23,7.74
+201718,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,893,E06000051,Shropshire,Looked after children,State-funded primary secondary and special,129,c,c,9,6.98
+201718,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,334,E08000029,Solihull,Looked after children,State-funded primary secondary and special,171,c,c,19,11.11
+201718,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,860,E10000028,Staffordshire,Looked after children,State-funded primary secondary and special,477,c,c,49,10.27
+201718,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,861,E06000021,Stoke-on-Trent,Looked after children,State-funded primary secondary and special,333,c,c,33,9.91
+201718,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,894,E06000020,Telford and Wrekin,Looked after children,State-funded primary secondary and special,172,c,c,20,11.63
+201718,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,335,E08000030,Walsall,Looked after children,State-funded primary secondary and special,313,c,c,24,7.67
+201718,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,937,E10000031,Warwickshire,Looked after children,State-funded primary secondary and special,280,c,c,29,10.36
+201718,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,336,E08000031,Wolverhampton,Looked after children,State-funded primary secondary and special,359,c,c,38,10.58
+201718,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,885,E10000034,Worcestershire,Looked after children,State-funded primary secondary and special,354,c,c,38,10.73
+201718,Reporting year,Local authority,E92000001,England,E12000006,East of England,822,E06000055,Bedford borough,Looked after children,State-funded primary secondary and special,103,c,c,11,10.68
+201718,Reporting year,Local authority,E92000001,England,E12000006,East of England,873,E10000003,Cambridgeshire,Looked after children,State-funded primary secondary and special,281,c,c,35,12.46
+201718,Reporting year,Local authority,E92000001,England,E12000006,East of England,823,E06000056,Central Bedfordshire,Looked after children,State-funded primary secondary and special,143,c,c,13,9.09
+201718,Reporting year,Local authority,E92000001,England,E12000006,East of England,881,E10000012,Essex,Looked after children,State-funded primary secondary and special,454,c,c,62,13.66
+201718,Reporting year,Local authority,E92000001,England,E12000006,East of England,919,E10000015,Hertfordshire,Looked after children,State-funded primary secondary and special,400,c,c,52,13
+201718,Reporting year,Local authority,E92000001,England,E12000006,East of England,821,E06000032,Luton,Looked after children,State-funded primary secondary and special,163,c,c,28,17.18
+201718,Reporting year,Local authority,E92000001,England,E12000006,East of England,926,E10000020,Norfolk,Looked after children,State-funded primary secondary and special,489,c,c,44,9
+201718,Reporting year,Local authority,E92000001,England,E12000006,East of England,874,E06000031,Peterborough,Looked after children,State-funded primary secondary and special,147,c,c,19,12.93
+201718,Reporting year,Local authority,E92000001,England,E12000006,East of England,882,E06000033,Southend-on-Sea,Looked after children,State-funded primary secondary and special,127,c,c,19,14.96
+201718,Reporting year,Local authority,E92000001,England,E12000006,East of England,935,E10000029,Suffolk,Looked after children,State-funded primary secondary and special,347,c,c,54,15.56
+201718,Reporting year,Local authority,E92000001,England,E12000006,East of England,883,E06000034,Thurrock,Looked after children,State-funded primary secondary and special,120,c,c,7,5.83
+201718,Reporting year,Local authority,E92000001,England,E12000008,South East,867,E06000036,Bracknell Forest,Looked after children,State-funded primary secondary and special,43,c,c,7,16.28
+201718,Reporting year,Local authority,E92000001,England,E12000008,South East,846,E06000043,Brighton and Hove,Looked after children,State-funded primary secondary and special,170,c,c,28,16.47
+201718,Reporting year,Local authority,E92000001,England,E12000008,South East,825,E10000002,Buckinghamshire,Looked after children,State-funded primary secondary and special,194,c,c,25,12.89
+201718,Reporting year,Local authority,E92000001,England,E12000008,South East,845,E10000011,East Sussex,Looked after children,State-funded primary secondary and special,267,c,c,27,10.11
+201718,Reporting year,Local authority,E92000001,England,E12000008,South East,850,E10000014,Hampshire,Looked after children,State-funded primary secondary and special,714,c,c,95,13.31
+201718,Reporting year,Local authority,E92000001,England,E12000008,South East,921,E06000046,Isle of Wight,Looked after children,State-funded primary secondary and special,110,c,c,12,10.91
+201718,Reporting year,Local authority,E92000001,England,E12000008,South East,886,E10000016,Kent,Looked after children,State-funded primary secondary and special,768,c,c,79,10.29
+201718,Reporting year,Local authority,E92000001,England,E12000008,South East,887,E06000035,Medway,Looked after children,State-funded primary secondary and special,190,c,c,25,13.16
+201718,Reporting year,Local authority,E92000001,England,E12000008,South East,826,E06000042,Milton Keynes,Looked after children,State-funded primary secondary and special,173,c,c,17,9.83
+201718,Reporting year,Local authority,E92000001,England,E12000008,South East,931,E10000025,Oxfordshire,Looked after children,State-funded primary secondary and special,263,c,c,29,11.03
+201718,Reporting year,Local authority,E92000001,England,E12000008,South East,851,E06000044,Portsmouth,Looked after children,State-funded primary secondary and special,152,c,c,30,19.74
+201718,Reporting year,Local authority,E92000001,England,E12000008,South East,870,E06000038,Reading,Looked after children,State-funded primary secondary and special,117,c,c,14,11.97
+201718,Reporting year,Local authority,E92000001,England,E12000008,South East,871,E06000039,Slough,Looked after children,State-funded primary secondary and special,63,c,c,6,9.52
+201718,Reporting year,Local authority,E92000001,England,E12000008,South East,852,E06000045,Southampton,Looked after children,State-funded primary secondary and special,275,c,c,36,13.09
+201718,Reporting year,Local authority,E92000001,England,E12000008,South East,936,E10000030,Surrey,Looked after children,State-funded primary secondary and special,320,c,c,35,10.94
+201718,Reporting year,Local authority,E92000001,England,E12000008,South East,869,E06000037,West Berkshire,Looked after children,State-funded primary secondary and special,68,c,c,9,13.24
+201718,Reporting year,Local authority,E92000001,England,E12000008,South East,938,E10000032,West Sussex,Looked after children,State-funded primary secondary and special,239,c,c,31,12.97
+201718,Reporting year,Local authority,E92000001,England,E12000008,South East,868,E06000040,Windsor and Maidenhead,Looked after children,State-funded primary secondary and special,38,c,c,c,c
+201718,Reporting year,Local authority,E92000001,England,E12000008,South East,872,E06000041,Wokingham,Looked after children,State-funded primary secondary and special,21,c,c,7,33.33
+201718,Reporting year,Local authority,E92000001,England,E12000009,South West,800,E06000022,Bath and North East Somerset,Looked after children,State-funded primary secondary and special,70,c,c,11,15.71
+201718,Reporting year,Local authority,E92000001,England,E12000009,South West,837,E06000028,Bournemouth,Looked after children,State-funded primary secondary and special,100,c,c,16,16
+201718,Reporting year,Local authority,E92000001,England,E12000009,South West,801,E06000023,Bristol City of,Looked after children,State-funded primary secondary and special,314,c,c,42,13.38
+201718,Reporting year,Local authority,E92000001,England,E12000009,South West,908,E06000052,Cornwall,Looked after children,State-funded primary secondary and special,190,c,c,27,14.21
+201718,Reporting year,Local authority,E92000001,England,E12000009,South West,878,E10000008,Devon,Looked after children,State-funded primary secondary and special,276,c,c,43,15.58
+201718,Reporting year,Local authority,E92000001,England,E12000009,South West,835,E10000009,Dorset,Looked after children,State-funded primary secondary and special,190,c,c,23,12.11
+201718,Reporting year,Local authority,E92000001,England,E12000009,South West,916,E10000013,Gloucestershire,Looked after children,State-funded primary secondary and special,252,c,c,40,15.87
+201718,Reporting year,Local authority,E92000001,England,E12000009,South West,420,E06000053,Isles of Scilly,Looked after children,State-funded primary secondary and special,0,.,.,.,.
+201718,Reporting year,Local authority,E92000001,England,E12000009,South West,802,E06000024,North Somerset,Looked after children,State-funded primary secondary and special,95,c,c,12,12.63
+201718,Reporting year,Local authority,E92000001,England,E12000009,South West,879,E06000026,Plymouth,Looked after children,State-funded primary secondary and special,155,c,c,25,16.13
+201718,Reporting year,Local authority,E92000001,England,E12000009,South West,836,E06000029,Poole,Looked after children,State-funded primary secondary and special,75,c,c,15,20
+201718,Reporting year,Local authority,E92000001,England,E12000009,South West,933,E10000027,Somerset,Looked after children,State-funded primary secondary and special,187,c,c,37,19.79
+201718,Reporting year,Local authority,E92000001,England,E12000009,South West,803,E06000025,South Gloucestershire,Looked after children,State-funded primary secondary and special,69,c,c,6,8.7
+201718,Reporting year,Local authority,E92000001,England,E12000009,South West,866,E06000030,Swindon,Looked after children,State-funded primary secondary and special,121,c,c,19,15.7
+201718,Reporting year,Local authority,E92000001,England,E12000009,South West,880,E06000027,Torbay,Looked after children,State-funded primary secondary and special,149,c,c,23,15.44
+201718,Reporting year,Local authority,E92000001,England,E12000009,South West,865,E06000054,Wiltshire,Looked after children,State-funded primary secondary and special,209,c,c,32,15.31
+201718,Reporting year,Local authority,E92000001,England,E13000001,Inner London,202,E09000007,Camden,Looked after children,State-funded primary secondary and special,51,c,c,c,c
+201718,Reporting year,Local authority,E92000001,England,E13000001,Inner London,201,E09000001,City of London,Looked after children,State-funded primary secondary and special,c,c,c,c,c
+201718,Reporting year,Local authority,E92000001,England,E13000001,Inner London,204,E09000012,Hackney,Looked after children,State-funded primary secondary and special,133,c,c,14,10.53
+201718,Reporting year,Local authority,E92000001,England,E13000001,Inner London,205,E09000013,Hammersmith and Fulham,Looked after children,State-funded primary secondary and special,79,c,c,10,12.66
+201718,Reporting year,Local authority,E92000001,England,E13000001,Inner London,309,E09000014,Haringey,Looked after children,State-funded primary secondary and special,184,c,c,27,14.67
+201718,Reporting year,Local authority,E92000001,England,E13000001,Inner London,206,E09000019,Islington,Looked after children,State-funded primary secondary and special,105,c,c,16,15.24
+201718,Reporting year,Local authority,E92000001,England,E13000001,Inner London,207,E09000020,Kensington and Chelsea,Looked after children,State-funded primary secondary and special,23,c,c,c,c
+201718,Reporting year,Local authority,E92000001,England,E13000001,Inner London,208,E09000022,Lambeth,Looked after children,State-funded primary secondary and special,148,c,c,13,8.78
+201718,Reporting year,Local authority,E92000001,England,E13000001,Inner London,209,E09000023,Lewisham,Looked after children,State-funded primary secondary and special,178,c,c,23,12.92
+201718,Reporting year,Local authority,E92000001,England,E13000001,Inner London,316,E09000025,Newham,Looked after children,State-funded primary secondary and special,128,c,c,16,12.5
+201718,Reporting year,Local authority,E92000001,England,E13000001,Inner London,210,E09000028,Southwark,Looked after children,State-funded primary secondary and special,215,c,c,32,14.88
+201718,Reporting year,Local authority,E92000001,England,E13000001,Inner London,211,E09000030,Tower Hamlets,Looked after children,State-funded primary secondary and special,114,c,c,11,9.65
+201718,Reporting year,Local authority,E92000001,England,E13000001,Inner London,212,E09000032,Wandsworth,Looked after children,State-funded primary secondary and special,96,c,c,10,10.42
+201718,Reporting year,Local authority,E92000001,England,E13000001,Inner London,213,E09000033,Westminster,Looked after children,State-funded primary secondary and special,59,c,c,12,20.34
+201718,Reporting year,Local authority,E92000001,England,E13000002,Outer London,301,E09000002,Barking and Dagenham,Looked after children,State-funded primary secondary and special,160,c,c,10,6.25
+201718,Reporting year,Local authority,E92000001,England,E13000002,Outer London,302,E09000003,Barnet,Looked after children,State-funded primary secondary and special,98,c,c,8,8.16
+201718,Reporting year,Local authority,E92000001,England,E13000002,Outer London,303,E09000004,Bexley,Looked after children,State-funded primary secondary and special,89,c,c,14,15.73
+201718,Reporting year,Local authority,E92000001,England,E13000002,Outer London,304,E09000005,Brent,Looked after children,State-funded primary secondary and special,109,c,c,14,12.84
+201718,Reporting year,Local authority,E92000001,England,E13000002,Outer London,305,E09000006,Bromley,Looked after children,State-funded primary secondary and special,117,c,c,14,11.97
+201718,Reporting year,Local authority,E92000001,England,E13000002,Outer London,306,E09000008,Croydon,Looked after children,State-funded primary secondary and special,211,c,c,23,10.9
+201718,Reporting year,Local authority,E92000001,England,E13000002,Outer London,307,E09000009,Ealing,Looked after children,State-funded primary secondary and special,131,c,c,14,10.69
+201718,Reporting year,Local authority,E92000001,England,E13000002,Outer London,308,E09000010,Enfield,Looked after children,State-funded primary secondary and special,128,c,c,16,12.5
+201718,Reporting year,Local authority,E92000001,England,E13000002,Outer London,203,E09000011,Greenwich,Looked after children,State-funded primary secondary and special,223,c,c,24,10.76
+201718,Reporting year,Local authority,E92000001,England,E13000002,Outer London,310,E09000015,Harrow,Looked after children,State-funded primary secondary and special,49,c,c,9,18.37
+201718,Reporting year,Local authority,E92000001,England,E13000002,Outer London,311,E09000016,Havering,Looked after children,State-funded primary secondary and special,93,c,c,11,11.83
+201718,Reporting year,Local authority,E92000001,England,E13000002,Outer London,312,E09000017,Hillingdon,Looked after children,State-funded primary secondary and special,97,c,c,15,15.46
+201718,Reporting year,Local authority,E92000001,England,E13000002,Outer London,313,E09000018,Hounslow,Looked after children,State-funded primary secondary and special,81,c,c,c,c
+201718,Reporting year,Local authority,E92000001,England,E13000002,Outer London,314,E09000021,Kingston upon Thames,Looked after children,State-funded primary secondary and special,43,c,c,c,c
+201718,Reporting year,Local authority,E92000001,England,E13000002,Outer London,315,E09000024,Merton,Looked after children,State-funded primary secondary and special,47,c,c,c,c
+201718,Reporting year,Local authority,E92000001,England,E13000002,Outer London,317,E09000026,Redbridge,Looked after children,State-funded primary secondary and special,74,c,c,7,9.46
+201718,Reporting year,Local authority,E92000001,England,E13000002,Outer London,318,E09000027,Richmond upon Thames,Looked after children,State-funded primary secondary and special,25,c,c,c,c
+201718,Reporting year,Local authority,E92000001,England,E13000002,Outer London,319,E09000029,Sutton,Looked after children,State-funded primary secondary and special,87,c,c,11,12.64
+201718,Reporting year,Local authority,E92000001,England,E13000002,Outer London,320,E09000031,Waltham Forest,Looked after children,State-funded primary secondary and special,95,c,c,15,15.79

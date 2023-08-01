@@ -1,0 +1,653 @@
+time_period,time_identifier,geographic_level,country_code,country_name,region_code,region_name,old_la_code,new_la_code,la_name,characteristic,sen_category,number,percent
+201819,Reporting year,National,E92000001,England,,,,,,Looked after children,Total,38830,.
+201819,Reporting year,Regional,E92000001,England,E12000001,North East,,,,Looked after children,Total,2660,.
+201819,Reporting year,Regional,E92000001,England,E12000002,North West,,,,Looked after children,Total,7730,.
+201819,Reporting year,Regional,E92000001,England,E12000003,Yorkshire and the Humber,,,,Looked after children,Total,4380,.
+201819,Reporting year,Regional,E92000001,England,E12000004,East Midlands,,,,Looked after children,Total,2870,.
+201819,Reporting year,Regional,E92000001,England,E12000005,West Midlands,,,,Looked after children,Total,5460,.
+201819,Reporting year,Regional,E92000001,England,E12000006,East of England,,,,Looked after children,Total,3370,.
+201819,Reporting year,Regional,E92000001,England,E12000008,South East,,,,Looked after children,Total,5110,.
+201819,Reporting year,Regional,E92000001,England,E12000009,South West,,,,Looked after children,Total,3040,.
+201819,Reporting year,Regional,E92000001,England,E13000001,Inner London,,,,Looked after children,Total,1810,.
+201819,Reporting year,Regional,E92000001,England,E13000002,Outer London,,,,Looked after children,Total,2400,.
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,841,E06000005,Darlington,Looked after children,Total,132,.
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,840,E06000047,Durham,Looked after children,Total,427,.
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,390,E08000037,Gateshead,Looked after children,Total,221,.
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,805,E06000001,Hartlepool,Looked after children,Total,155,.
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,806,E06000002,Middlesbrough,Looked after children,Total,264,.
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,391,E08000021,Newcastle upon Tyne,Looked after children,Total,287,.
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,392,E08000022,North Tyneside,Looked after children,Total,143,.
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,929,E06000057,Northumberland,Looked after children,Total,169,.
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,807,E06000003,Redcar and Cleveland,Looked after children,Total,146,.
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,393,E08000023,South Tyneside,Looked after children,Total,164,.
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,808,E06000004,Stockton-on-Tees,Looked after children,Total,283,.
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,394,E08000024,Sunderland,Looked after children,Total,268,.
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,889,E06000008,Blackburn with Darwen,Looked after children,Total,181,.
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,890,E06000009,Blackpool,Looked after children,Total,312,.
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,350,E08000001,Bolton,Looked after children,Total,351,.
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,351,E08000002,Bury,Looked after children,Total,167,.
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,895,E06000049,Cheshire East,Looked after children,Total,259,.
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,896,E06000050,Cheshire West and Chester,Looked after children,Total,249,.
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,909,E10000006,Cumbria,Looked after children,Total,398,.
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,876,E06000006,Halton,Looked after children,Total,152,.
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,340,E08000011,Knowsley,Looked after children,Total,161,.
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,888,E10000017,Lancashire,Looked after children,Total,1083,.
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,341,E08000012,Liverpool,Looked after children,Total,620,.
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,352,E08000003,Manchester,Looked after children,Total,653,.
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,353,E08000004,Oldham,Looked after children,Total,297,.
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,354,E08000005,Rochdale,Looked after children,Total,275,.
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,355,E08000006,Salford,Looked after children,Total,293,.
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,343,E08000014,Sefton,Looked after children,Total,273,.
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,342,E08000013,St. Helens,Looked after children,Total,282,.
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,356,E08000007,Stockport,Looked after children,Total,190,.
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,357,E08000008,Tameside,Looked after children,Total,342,.
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,358,E08000009,Trafford,Looked after children,Total,210,.
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,877,E06000007,Warrington,Looked after children,Total,227,.
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,359,E08000010,Wigan,Looked after children,Total,282,.
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,344,E08000015,Wirral,Looked after children,Total,474,.
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,370,E08000016,Barnsley,Looked after children,Total,156,.
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,380,E08000032,Bradford,Looked after children,Total,537,.
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,381,E08000033,Calderdale,Looked after children,Total,176,.
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,371,E08000017,Doncaster,Looked after children,Total,274,.
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,811,E06000011,East Riding of Yorkshire,Looked after children,Total,173,.
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,810,E06000010,Kingston upon Hull City of,Looked after children,Total,433,.
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,382,E08000034,Kirklees,Looked after children,Total,362,.
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,383,E08000035,Leeds,Looked after children,Total,684,.
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,812,E06000012,North East Lincolnshire,Looked after children,Total,204,.
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,813,E06000013,North Lincolnshire,Looked after children,Total,128,.
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,815,E10000023,North Yorkshire,Looked after children,Total,232,.
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,372,E08000018,Rotherham,Looked after children,Total,323,.
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,373,E08000019,Sheffield,Looked after children,Total,321,.
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,384,E08000036,Wakefield,Looked after children,Total,268,.
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,816,E06000014,York,Looked after children,Total,112,.
+201819,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,831,E06000015,Derby,Looked after children,Total,261,.
+201819,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,830,E10000007,Derbyshire,Looked after children,Total,349,.
+201819,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,856,E06000016,Leicester,Looked after children,Total,344,.
+201819,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,855,E10000018,Leicestershire,Looked after children,Total,297,.
+201819,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,925,E10000019,Lincolnshire,Looked after children,Total,294,.
+201819,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,928,E10000021,Northamptonshire,Looked after children,Total,527,.
+201819,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,892,E06000018,Nottingham,Looked after children,Total,326,.
+201819,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,891,E10000024,Nottinghamshire,Looked after children,Total,454,.
+201819,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,857,E06000017,Rutland,Looked after children,Total,18,.
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,330,E08000025,Birmingham,Looked after children,Total,982,.
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,331,E08000026,Coventry,Looked after children,Total,324,.
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,332,E08000027,Dudley,Looked after children,Total,376,.
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,884,E06000019,Herefordshire,Looked after children,Total,201,.
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,333,E08000028,Sandwell,Looked after children,Total,406,.
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,893,E06000051,Shropshire,Looked after children,Total,169,.
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,334,E08000029,Solihull,Looked after children,Total,218,.
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,860,E10000028,Staffordshire,Looked after children,Total,595,.
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,861,E06000021,Stoke-on-Trent,Looked after children,Total,453,.
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,894,E06000020,Telford and Wrekin,Looked after children,Total,211,.
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,335,E08000030,Walsall,Looked after children,Total,365,.
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,937,E10000031,Warwickshire,Looked after children,Total,327,.
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,336,E08000031,Wolverhampton,Looked after children,Total,387,.
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,885,E10000034,Worcestershire,Looked after children,Total,448,.
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,822,E06000055,Bedford borough,Looked after children,Total,126,.
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,873,E10000003,Cambridgeshire,Looked after children,Total,368,.
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,823,E06000056,Central Bedfordshire,Looked after children,Total,175,.
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,881,E10000012,Essex,Looked after children,Total,523,.
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,919,E10000015,Hertfordshire,Looked after children,Total,482,.
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,821,E06000032,Luton,Looked after children,Total,179,.
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,926,E10000020,Norfolk,Looked after children,Total,613,.
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,874,E06000031,Peterborough,Looked after children,Total,180,.
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,882,E06000033,Southend-on-Sea,Looked after children,Total,141,.
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,935,E10000029,Suffolk,Looked after children,Total,433,.
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,883,E06000034,Thurrock,Looked after children,Total,152,.
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,867,E06000036,Bracknell Forest,Looked after children,Total,76,.
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,846,E06000043,Brighton and Hove,Looked after children,Total,172,.
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,825,E10000002,Buckinghamshire,Looked after children,Total,254,.
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,845,E10000011,East Sussex,Looked after children,Total,317,.
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,850,E10000014,Hampshire,Looked after children,Total,865,.
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,921,E06000046,Isle of Wight,Looked after children,Total,137,.
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,886,E10000016,Kent,Looked after children,Total,845,.
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,887,E06000035,Medway,Looked after children,Total,232,.
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,826,E06000042,Milton Keynes,Looked after children,Total,209,.
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,931,E10000025,Oxfordshire,Looked after children,Total,347,.
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,851,E06000044,Portsmouth,Looked after children,Total,198,.
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,870,E06000038,Reading,Looked after children,Total,149,.
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,871,E06000039,Slough,Looked after children,Total,77,.
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,852,E06000045,Southampton,Looked after children,Total,292,.
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,936,E10000030,Surrey,Looked after children,Total,480,.
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,869,E06000037,West Berkshire,Looked after children,Total,83,.
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,938,E10000032,West Sussex,Looked after children,Total,295,.
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,868,E06000040,Windsor and Maidenhead,Looked after children,Total,42,.
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,872,E06000041,Wokingham,Looked after children,Total,36,.
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,800,E06000022,Bath and North East Somerset,Looked after children,Total,86,.
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,837,E06000028,Bournemouth,Looked after children,Total,108,.
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,801,E06000023,Bristol City of,Looked after children,Total,355,.
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,908,E06000052,Cornwall,Looked after children,Total,228,.
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,878,E10000008,Devon,Looked after children,Total,362,.
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,835,E10000009,Dorset,Looked after children,Total,223,.
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,916,E10000013,Gloucestershire,Looked after children,Total,324,.
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,420,E06000053,Isles of Scilly,Looked after children,Total,0,.
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,802,E06000024,North Somerset,Looked after children,Total,108,.
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,879,E06000026,Plymouth,Looked after children,Total,218,.
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,836,E06000029,Poole,Looked after children,Total,87,.
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,933,E10000027,Somerset,Looked after children,Total,271,.
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,803,E06000025,South Gloucestershire,Looked after children,Total,82,.
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,866,E06000030,Swindon,Looked after children,Total,154,.
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,880,E06000027,Torbay,Looked after children,Total,196,.
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,865,E06000054,Wiltshire,Looked after children,Total,238,.
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,202,E09000007,Camden,Looked after children,Total,61,.
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,201,E09000001,City of London,Looked after children,Total,c,c
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,204,E09000012,Hackney,Looked after children,Total,173,.
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,205,E09000013,Hammersmith and Fulham,Looked after children,Total,80,.
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,309,E09000014,Haringey,Looked after children,Total,184,.
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,206,E09000019,Islington,Looked after children,Total,157,.
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,207,E09000020,Kensington and Chelsea,Looked after children,Total,36,.
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,208,E09000022,Lambeth,Looked after children,Total,176,.
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,209,E09000023,Lewisham,Looked after children,Total,213,.
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,316,E09000025,Newham,Looked after children,Total,166,.
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,210,E09000028,Southwark,Looked after children,Total,243,.
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,211,E09000030,Tower Hamlets,Looked after children,Total,129,.
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,212,E09000032,Wandsworth,Looked after children,Total,118,.
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,213,E09000033,Westminster,Looked after children,Total,71,.
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,301,E09000002,Barking and Dagenham,Looked after children,Total,181,.
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,302,E09000003,Barnet,Looked after children,Total,121,.
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,303,E09000004,Bexley,Looked after children,Total,90,.
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,304,E09000005,Brent,Looked after children,Total,122,.
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,305,E09000006,Bromley,Looked after children,Total,162,.
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,306,E09000008,Croydon,Looked after children,Total,276,.
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,307,E09000009,Ealing,Looked after children,Total,156,.
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,308,E09000010,Enfield,Looked after children,Total,151,.
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,203,E09000011,Greenwich,Looked after children,Total,263,.
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,310,E09000015,Harrow,Looked after children,Total,60,.
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,311,E09000016,Havering,Looked after children,Total,116,.
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,312,E09000017,Hillingdon,Looked after children,Total,111,.
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,313,E09000018,Hounslow,Looked after children,Total,113,.
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,314,E09000021,Kingston upon Thames,Looked after children,Total,61,.
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,315,E09000024,Merton,Looked after children,Total,83,.
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,317,E09000026,Redbridge,Looked after children,Total,90,.
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,318,E09000027,Richmond upon Thames,Looked after children,Total,33,.
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,319,E09000029,Sutton,Looked after children,Total,102,.
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,320,E09000031,Waltham Forest,Looked after children,Total,104,.
+201819,Reporting year,National,E92000001,England,,,,,,Looked after children,No identified SEN,17120,44.1
+201819,Reporting year,Regional,E92000001,England,E12000001,North East,,,,Looked after children,No identified SEN,1240,46.5
+201819,Reporting year,Regional,E92000001,England,E12000002,North West,,,,Looked after children,No identified SEN,3690,47.8
+201819,Reporting year,Regional,E92000001,England,E12000003,Yorkshire and the Humber,,,,Looked after children,No identified SEN,1930,44
+201819,Reporting year,Regional,E92000001,England,E12000004,East Midlands,,,,Looked after children,No identified SEN,1270,44.1
+201819,Reporting year,Regional,E92000001,England,E12000005,West Midlands,,,,Looked after children,No identified SEN,2590,47.4
+201819,Reporting year,Regional,E92000001,England,E12000006,East of England,,,,Looked after children,No identified SEN,1470,43.5
+201819,Reporting year,Regional,E92000001,England,E12000008,South East,,,,Looked after children,No identified SEN,2040,40
+201819,Reporting year,Regional,E92000001,England,E12000009,South West,,,,Looked after children,No identified SEN,1050,34.6
+201819,Reporting year,Regional,E92000001,England,E13000001,Inner London,,,,Looked after children,No identified SEN,790,43.6
+201819,Reporting year,Regional,E92000001,England,E13000002,Outer London,,,,Looked after children,No identified SEN,1060,44.3
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,841,E06000005,Darlington,Looked after children,No identified SEN,67,50.8
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,840,E06000047,Durham,Looked after children,No identified SEN,205,48
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,390,E08000037,Gateshead,Looked after children,No identified SEN,97,43.9
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,805,E06000001,Hartlepool,Looked after children,No identified SEN,68,43.9
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,806,E06000002,Middlesbrough,Looked after children,No identified SEN,131,49.6
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,391,E08000021,Newcastle upon Tyne,Looked after children,No identified SEN,144,50.2
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,392,E08000022,North Tyneside,Looked after children,No identified SEN,68,47.6
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,929,E06000057,Northumberland,Looked after children,No identified SEN,59,34.9
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,807,E06000003,Redcar and Cleveland,Looked after children,No identified SEN,73,50
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,393,E08000023,South Tyneside,Looked after children,No identified SEN,59,36
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,808,E06000004,Stockton-on-Tees,Looked after children,No identified SEN,143,50.5
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,394,E08000024,Sunderland,Looked after children,No identified SEN,123,45.9
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,889,E06000008,Blackburn with Darwen,Looked after children,No identified SEN,75,41.4
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,890,E06000009,Blackpool,Looked after children,No identified SEN,136,43.6
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,350,E08000001,Bolton,Looked after children,No identified SEN,164,46.7
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,351,E08000002,Bury,Looked after children,No identified SEN,66,39.5
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,895,E06000049,Cheshire East,Looked after children,No identified SEN,116,44.8
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,896,E06000050,Cheshire West and Chester,Looked after children,No identified SEN,122,49
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,909,E10000006,Cumbria,Looked after children,No identified SEN,179,45
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,876,E06000006,Halton,Looked after children,No identified SEN,65,42.8
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,340,E08000011,Knowsley,Looked after children,No identified SEN,76,47.2
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,888,E10000017,Lancashire,Looked after children,No identified SEN,563,52
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,341,E08000012,Liverpool,Looked after children,No identified SEN,334,53.9
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,352,E08000003,Manchester,Looked after children,No identified SEN,287,44
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,353,E08000004,Oldham,Looked after children,No identified SEN,145,48.8
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,354,E08000005,Rochdale,Looked after children,No identified SEN,154,56
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,355,E08000006,Salford,Looked after children,No identified SEN,113,38.6
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,343,E08000014,Sefton,Looked after children,No identified SEN,145,53.1
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,342,E08000013,St. Helens,Looked after children,No identified SEN,141,50
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,356,E08000007,Stockport,Looked after children,No identified SEN,79,41.6
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,357,E08000008,Tameside,Looked after children,No identified SEN,186,54.4
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,358,E08000009,Trafford,Looked after children,No identified SEN,95,45.2
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,877,E06000007,Warrington,Looked after children,No identified SEN,117,51.5
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,359,E08000010,Wigan,Looked after children,No identified SEN,107,37.9
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,344,E08000015,Wirral,Looked after children,No identified SEN,229,48.3
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,370,E08000016,Barnsley,Looked after children,No identified SEN,73,46.8
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,380,E08000032,Bradford,Looked after children,No identified SEN,245,45.6
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,381,E08000033,Calderdale,Looked after children,No identified SEN,79,44.9
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,371,E08000017,Doncaster,Looked after children,No identified SEN,126,46
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,811,E06000011,East Riding of Yorkshire,Looked after children,No identified SEN,82,47.4
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,810,E06000010,Kingston upon Hull City of,Looked after children,No identified SEN,210,48.5
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,382,E08000034,Kirklees,Looked after children,No identified SEN,154,42.5
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,383,E08000035,Leeds,Looked after children,No identified SEN,303,44.3
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,812,E06000012,North East Lincolnshire,Looked after children,No identified SEN,92,45.1
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,813,E06000013,North Lincolnshire,Looked after children,No identified SEN,62,48.4
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,815,E10000023,North Yorkshire,Looked after children,No identified SEN,90,38.8
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,372,E08000018,Rotherham,Looked after children,No identified SEN,120,37.2
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,373,E08000019,Sheffield,Looked after children,No identified SEN,129,40.2
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,384,E08000036,Wakefield,Looked after children,No identified SEN,104,38.8
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,816,E06000014,York,Looked after children,No identified SEN,58,51.8
+201819,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,831,E06000015,Derby,Looked after children,No identified SEN,120,46
+201819,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,830,E10000007,Derbyshire,Looked after children,No identified SEN,140,40.1
+201819,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,856,E06000016,Leicester,Looked after children,No identified SEN,159,46.2
+201819,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,855,E10000018,Leicestershire,Looked after children,No identified SEN,136,45.8
+201819,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,925,E10000019,Lincolnshire,Looked after children,No identified SEN,125,42.5
+201819,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,928,E10000021,Northamptonshire,Looked after children,No identified SEN,254,48.2
+201819,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,892,E06000018,Nottingham,Looked after children,No identified SEN,139,42.6
+201819,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,891,E10000024,Nottinghamshire,Looked after children,No identified SEN,186,41
+201819,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,857,E06000017,Rutland,Looked after children,No identified SEN,c,c
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,330,E08000025,Birmingham,Looked after children,No identified SEN,470,47.9
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,331,E08000026,Coventry,Looked after children,No identified SEN,153,47.2
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,332,E08000027,Dudley,Looked after children,No identified SEN,169,44.9
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,884,E06000019,Herefordshire,Looked after children,No identified SEN,85,42.3
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,333,E08000028,Sandwell,Looked after children,No identified SEN,193,47.5
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,893,E06000051,Shropshire,Looked after children,No identified SEN,86,50.9
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,334,E08000029,Solihull,Looked after children,No identified SEN,114,52.3
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,860,E10000028,Staffordshire,Looked after children,No identified SEN,296,49.7
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,861,E06000021,Stoke-on-Trent,Looked after children,No identified SEN,253,55.8
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,894,E06000020,Telford and Wrekin,Looked after children,No identified SEN,100,47.4
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,335,E08000030,Walsall,Looked after children,No identified SEN,175,47.9
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,937,E10000031,Warwickshire,Looked after children,No identified SEN,126,38.5
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,336,E08000031,Wolverhampton,Looked after children,No identified SEN,191,49.4
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,885,E10000034,Worcestershire,Looked after children,No identified SEN,178,39.7
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,822,E06000055,Bedford borough,Looked after children,No identified SEN,50,39.7
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,873,E10000003,Cambridgeshire,Looked after children,No identified SEN,172,46.7
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,823,E06000056,Central Bedfordshire,Looked after children,No identified SEN,83,47.4
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,881,E10000012,Essex,Looked after children,No identified SEN,235,44.9
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,919,E10000015,Hertfordshire,Looked after children,No identified SEN,160,33.2
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,821,E06000032,Luton,Looked after children,No identified SEN,81,45.3
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,926,E10000020,Norfolk,Looked after children,No identified SEN,244,39.8
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,874,E06000031,Peterborough,Looked after children,No identified SEN,74,41.1
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,882,E06000033,Southend-on-Sea,Looked after children,No identified SEN,83,58.9
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,935,E10000029,Suffolk,Looked after children,No identified SEN,203,46.9
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,883,E06000034,Thurrock,Looked after children,No identified SEN,81,53.3
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,867,E06000036,Bracknell Forest,Looked after children,No identified SEN,33,43.4
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,846,E06000043,Brighton and Hove,Looked after children,No identified SEN,56,32.6
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,825,E10000002,Buckinghamshire,Looked after children,No identified SEN,104,40.9
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,845,E10000011,East Sussex,Looked after children,No identified SEN,112,35.3
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,850,E10000014,Hampshire,Looked after children,No identified SEN,399,46.1
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,921,E06000046,Isle of Wight,Looked after children,No identified SEN,60,43.8
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,886,E10000016,Kent,Looked after children,No identified SEN,353,41.8
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,887,E06000035,Medway,Looked after children,No identified SEN,89,38.4
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,826,E06000042,Milton Keynes,Looked after children,No identified SEN,77,36.8
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,931,E10000025,Oxfordshire,Looked after children,No identified SEN,126,36.3
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,851,E06000044,Portsmouth,Looked after children,No identified SEN,93,47
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,870,E06000038,Reading,Looked after children,No identified SEN,73,49
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,871,E06000039,Slough,Looked after children,No identified SEN,34,44.2
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,852,E06000045,Southampton,Looked after children,No identified SEN,114,39
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,936,E10000030,Surrey,Looked after children,No identified SEN,174,36.3
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,869,E06000037,West Berkshire,Looked after children,No identified SEN,31,37.3
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,938,E10000032,West Sussex,Looked after children,No identified SEN,76,25.8
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,868,E06000040,Windsor and Maidenhead,Looked after children,No identified SEN,24,57.1
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,872,E06000041,Wokingham,Looked after children,No identified SEN,14,38.9
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,800,E06000022,Bath and North East Somerset,Looked after children,No identified SEN,38,44.2
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,837,E06000028,Bournemouth,Looked after children,No identified SEN,43,39.8
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,801,E06000023,Bristol City of,Looked after children,No identified SEN,150,42.3
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,908,E06000052,Cornwall,Looked after children,No identified SEN,91,39.9
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,878,E10000008,Devon,Looked after children,No identified SEN,101,27.9
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,835,E10000009,Dorset,Looked after children,No identified SEN,89,39.9
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,916,E10000013,Gloucestershire,Looked after children,No identified SEN,96,29.6
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,420,E06000053,Isles of Scilly,Looked after children,No identified SEN,0,.
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,802,E06000024,North Somerset,Looked after children,No identified SEN,42,38.9
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,879,E06000026,Plymouth,Looked after children,No identified SEN,69,31.7
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,836,E06000029,Poole,Looked after children,No identified SEN,20,23
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,933,E10000027,Somerset,Looked after children,No identified SEN,66,24.4
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,803,E06000025,South Gloucestershire,Looked after children,No identified SEN,29,35.4
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,866,E06000030,Swindon,Looked after children,No identified SEN,68,44.2
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,880,E06000027,Torbay,Looked after children,No identified SEN,67,34.2
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,865,E06000054,Wiltshire,Looked after children,No identified SEN,82,34.5
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,202,E09000007,Camden,Looked after children,No identified SEN,15,24.6
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,201,E09000001,City of London,Looked after children,No identified SEN,c,c
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,204,E09000012,Hackney,Looked after children,No identified SEN,77,44.5
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,205,E09000013,Hammersmith and Fulham,Looked after children,No identified SEN,41,51.3
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,309,E09000014,Haringey,Looked after children,No identified SEN,85,46.2
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,206,E09000019,Islington,Looked after children,No identified SEN,66,42
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,207,E09000020,Kensington and Chelsea,Looked after children,No identified SEN,13,36.1
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,208,E09000022,Lambeth,Looked after children,No identified SEN,66,37.5
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,209,E09000023,Lewisham,Looked after children,No identified SEN,100,46.9
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,316,E09000025,Newham,Looked after children,No identified SEN,86,51.8
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,210,E09000028,Southwark,Looked after children,No identified SEN,99,40.7
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,211,E09000030,Tower Hamlets,Looked after children,No identified SEN,49,38
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,212,E09000032,Wandsworth,Looked after children,No identified SEN,58,49.2
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,213,E09000033,Westminster,Looked after children,No identified SEN,32,45.1
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,301,E09000002,Barking and Dagenham,Looked after children,No identified SEN,96,53
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,302,E09000003,Barnet,Looked after children,No identified SEN,50,41.3
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,303,E09000004,Bexley,Looked after children,No identified SEN,37,41.1
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,304,E09000005,Brent,Looked after children,No identified SEN,61,50
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,305,E09000006,Bromley,Looked after children,No identified SEN,66,40.7
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,306,E09000008,Croydon,Looked after children,No identified SEN,147,53.3
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,307,E09000009,Ealing,Looked after children,No identified SEN,53,34
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,308,E09000010,Enfield,Looked after children,No identified SEN,60,39.7
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,203,E09000011,Greenwich,Looked after children,No identified SEN,118,44.9
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,310,E09000015,Harrow,Looked after children,No identified SEN,20,33.3
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,311,E09000016,Havering,Looked after children,No identified SEN,64,55.2
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,312,E09000017,Hillingdon,Looked after children,No identified SEN,44,39.6
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,313,E09000018,Hounslow,Looked after children,No identified SEN,51,45.1
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,314,E09000021,Kingston upon Thames,Looked after children,No identified SEN,23,37.7
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,315,E09000024,Merton,Looked after children,No identified SEN,29,34.9
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,317,E09000026,Redbridge,Looked after children,No identified SEN,42,46.7
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,318,E09000027,Richmond upon Thames,Looked after children,No identified SEN,8,24.2
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,319,E09000029,Sutton,Looked after children,No identified SEN,44,43.1
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,320,E09000031,Waltham Forest,Looked after children,No identified SEN,47,45.2
+201819,Reporting year,National,E92000001,England,,,,,,Looked after children,Education Health and Care plan,10570,27.2
+201819,Reporting year,Regional,E92000001,England,E12000001,North East,,,,Looked after children,Education Health and Care plan,670,25.3
+201819,Reporting year,Regional,E92000001,England,E12000002,North West,,,,Looked after children,Education Health and Care plan,1810,23.5
+201819,Reporting year,Regional,E92000001,England,E12000003,Yorkshire and the Humber,,,,Looked after children,Education Health and Care plan,1120,25.6
+201819,Reporting year,Regional,E92000001,England,E12000004,East Midlands,,,,Looked after children,Education Health and Care plan,740,25.9
+201819,Reporting year,Regional,E92000001,England,E12000005,West Midlands,,,,Looked after children,Education Health and Care plan,1360,24.8
+201819,Reporting year,Regional,E92000001,England,E12000006,East of England,,,,Looked after children,Education Health and Care plan,960,28.6
+201819,Reporting year,Regional,E92000001,England,E12000008,South East,,,,Looked after children,Education Health and Care plan,1620,31.8
+201819,Reporting year,Regional,E92000001,England,E12000009,South West,,,,Looked after children,Education Health and Care plan,1020,33.5
+201819,Reporting year,Regional,E92000001,England,E13000001,Inner London,,,,Looked after children,Education Health and Care plan,520,28.6
+201819,Reporting year,Regional,E92000001,England,E13000002,Outer London,,,,Looked after children,Education Health and Care plan,740,30.7
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,841,E06000005,Darlington,Looked after children,Education Health and Care plan,37,28
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,840,E06000047,Durham,Looked after children,Education Health and Care plan,101,23.7
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,390,E08000037,Gateshead,Looked after children,Education Health and Care plan,63,28.5
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,805,E06000001,Hartlepool,Looked after children,Education Health and Care plan,36,23.2
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,806,E06000002,Middlesbrough,Looked after children,Education Health and Care plan,53,20.1
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,391,E08000021,Newcastle upon Tyne,Looked after children,Education Health and Care plan,68,23.7
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,392,E08000022,North Tyneside,Looked after children,Education Health and Care plan,38,26.6
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,929,E06000057,Northumberland,Looked after children,Education Health and Care plan,62,36.7
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,807,E06000003,Redcar and Cleveland,Looked after children,Education Health and Care plan,38,26
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,393,E08000023,South Tyneside,Looked after children,Education Health and Care plan,53,32.3
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,808,E06000004,Stockton-on-Tees,Looked after children,Education Health and Care plan,72,25.4
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,394,E08000024,Sunderland,Looked after children,Education Health and Care plan,51,19
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,889,E06000008,Blackburn with Darwen,Looked after children,Education Health and Care plan,49,27.1
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,890,E06000009,Blackpool,Looked after children,Education Health and Care plan,72,23.1
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,350,E08000001,Bolton,Looked after children,Education Health and Care plan,97,27.6
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,351,E08000002,Bury,Looked after children,Education Health and Care plan,54,32.3
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,895,E06000049,Cheshire East,Looked after children,Education Health and Care plan,85,32.8
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,896,E06000050,Cheshire West and Chester,Looked after children,Education Health and Care plan,49,19.7
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,909,E10000006,Cumbria,Looked after children,Education Health and Care plan,126,31.7
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,876,E06000006,Halton,Looked after children,Education Health and Care plan,27,17.8
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,340,E08000011,Knowsley,Looked after children,Education Health and Care plan,44,27.3
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,888,E10000017,Lancashire,Looked after children,Education Health and Care plan,237,21.9
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,341,E08000012,Liverpool,Looked after children,Education Health and Care plan,82,13.2
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,352,E08000003,Manchester,Looked after children,Education Health and Care plan,166,25.4
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,353,E08000004,Oldham,Looked after children,Education Health and Care plan,64,21.5
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,354,E08000005,Rochdale,Looked after children,Education Health and Care plan,61,22.2
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,355,E08000006,Salford,Looked after children,Education Health and Care plan,87,29.7
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,343,E08000014,Sefton,Looked after children,Education Health and Care plan,52,19
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,342,E08000013,St. Helens,Looked after children,Education Health and Care plan,50,17.7
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,356,E08000007,Stockport,Looked after children,Education Health and Care plan,57,30
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,357,E08000008,Tameside,Looked after children,Education Health and Care plan,69,20.2
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,358,E08000009,Trafford,Looked after children,Education Health and Care plan,69,32.9
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,877,E06000007,Warrington,Looked after children,Education Health and Care plan,61,26.9
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,359,E08000010,Wigan,Looked after children,Education Health and Care plan,72,25.5
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,344,E08000015,Wirral,Looked after children,Education Health and Care plan,83,17.5
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,370,E08000016,Barnsley,Looked after children,Education Health and Care plan,37,23.7
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,380,E08000032,Bradford,Looked after children,Education Health and Care plan,131,24.4
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,381,E08000033,Calderdale,Looked after children,Education Health and Care plan,44,25
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,371,E08000017,Doncaster,Looked after children,Education Health and Care plan,63,23
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,811,E06000011,East Riding of Yorkshire,Looked after children,Education Health and Care plan,47,27.2
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,810,E06000010,Kingston upon Hull City of,Looked after children,Education Health and Care plan,88,20.3
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,382,E08000034,Kirklees,Looked after children,Education Health and Care plan,102,28.2
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,383,E08000035,Leeds,Looked after children,Education Health and Care plan,158,23.1
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,812,E06000012,North East Lincolnshire,Looked after children,Education Health and Care plan,48,23.5
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,813,E06000013,North Lincolnshire,Looked after children,Education Health and Care plan,31,24.2
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,815,E10000023,North Yorkshire,Looked after children,Education Health and Care plan,71,30.6
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,372,E08000018,Rotherham,Looked after children,Education Health and Care plan,107,33.1
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,373,E08000019,Sheffield,Looked after children,Education Health and Care plan,89,27.7
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,384,E08000036,Wakefield,Looked after children,Education Health and Care plan,78,29.1
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,816,E06000014,York,Looked after children,Education Health and Care plan,30,26.8
+201819,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,831,E06000015,Derby,Looked after children,Education Health and Care plan,76,29.1
+201819,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,830,E10000007,Derbyshire,Looked after children,Education Health and Care plan,104,29.8
+201819,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,856,E06000016,Leicester,Looked after children,Education Health and Care plan,75,21.8
+201819,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,855,E10000018,Leicestershire,Looked after children,Education Health and Care plan,84,28.3
+201819,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,925,E10000019,Lincolnshire,Looked after children,Education Health and Care plan,100,34
+201819,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,928,E10000021,Northamptonshire,Looked after children,Education Health and Care plan,130,24.7
+201819,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,892,E06000018,Nottingham,Looked after children,Education Health and Care plan,66,20.2
+201819,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,891,E10000024,Nottinghamshire,Looked after children,Education Health and Care plan,102,22.5
+201819,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,857,E06000017,Rutland,Looked after children,Education Health and Care plan,7,38.9
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,330,E08000025,Birmingham,Looked after children,Education Health and Care plan,253,25.8
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,331,E08000026,Coventry,Looked after children,Education Health and Care plan,80,24.7
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,332,E08000027,Dudley,Looked after children,Education Health and Care plan,93,24.7
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,884,E06000019,Herefordshire,Looked after children,Education Health and Care plan,47,23.4
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,333,E08000028,Sandwell,Looked after children,Education Health and Care plan,64,15.8
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,893,E06000051,Shropshire,Looked after children,Education Health and Care plan,52,30.8
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,334,E08000029,Solihull,Looked after children,Education Health and Care plan,42,19.3
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,860,E10000028,Staffordshire,Looked after children,Education Health and Care plan,151,25.4
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,861,E06000021,Stoke-on-Trent,Looked after children,Education Health and Care plan,91,20.1
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,894,E06000020,Telford and Wrekin,Looked after children,Education Health and Care plan,60,28.4
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,335,E08000030,Walsall,Looked after children,Education Health and Care plan,92,25.2
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,937,E10000031,Warwickshire,Looked after children,Education Health and Care plan,108,33
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,336,E08000031,Wolverhampton,Looked after children,Education Health and Care plan,107,27.6
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,885,E10000034,Worcestershire,Looked after children,Education Health and Care plan,117,26.1
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,822,E06000055,Bedford borough,Looked after children,Education Health and Care plan,40,31.7
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,873,E10000003,Cambridgeshire,Looked after children,Education Health and Care plan,108,29.3
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,823,E06000056,Central Bedfordshire,Looked after children,Education Health and Care plan,40,22.9
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,881,E10000012,Essex,Looked after children,Education Health and Care plan,174,33.3
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,919,E10000015,Hertfordshire,Looked after children,Education Health and Care plan,157,32.6
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,821,E06000032,Luton,Looked after children,Education Health and Care plan,36,20.1
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,926,E10000020,Norfolk,Looked after children,Education Health and Care plan,177,28.9
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,874,E06000031,Peterborough,Looked after children,Education Health and Care plan,57,31.7
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,882,E06000033,Southend-on-Sea,Looked after children,Education Health and Care plan,26,18.4
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,935,E10000029,Suffolk,Looked after children,Education Health and Care plan,117,27
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,883,E06000034,Thurrock,Looked after children,Education Health and Care plan,31,20.4
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,867,E06000036,Bracknell Forest,Looked after children,Education Health and Care plan,27,35.5
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,846,E06000043,Brighton and Hove,Looked after children,Education Health and Care plan,64,37.2
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,825,E10000002,Buckinghamshire,Looked after children,Education Health and Care plan,105,41.3
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,845,E10000011,East Sussex,Looked after children,Education Health and Care plan,95,30
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,850,E10000014,Hampshire,Looked after children,Education Health and Care plan,195,22.5
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,921,E06000046,Isle of Wight,Looked after children,Education Health and Care plan,31,22.6
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,886,E10000016,Kent,Looked after children,Education Health and Care plan,283,33.5
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,887,E06000035,Medway,Looked after children,Education Health and Care plan,71,30.6
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,826,E06000042,Milton Keynes,Looked after children,Education Health and Care plan,68,32.5
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,931,E10000025,Oxfordshire,Looked after children,Education Health and Care plan,106,30.5
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,851,E06000044,Portsmouth,Looked after children,Education Health and Care plan,60,30.3
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,870,E06000038,Reading,Looked after children,Education Health and Care plan,44,29.5
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,871,E06000039,Slough,Looked after children,Education Health and Care plan,25,32.5
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,852,E06000045,Southampton,Looked after children,Education Health and Care plan,80,27.4
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,936,E10000030,Surrey,Looked after children,Education Health and Care plan,190,39.6
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,869,E06000037,West Berkshire,Looked after children,Education Health and Care plan,28,33.7
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,938,E10000032,West Sussex,Looked after children,Education Health and Care plan,125,42.4
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,868,E06000040,Windsor and Maidenhead,Looked after children,Education Health and Care plan,12,28.6
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,872,E06000041,Wokingham,Looked after children,Education Health and Care plan,14,38.9
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,800,E06000022,Bath and North East Somerset,Looked after children,Education Health and Care plan,34,39.5
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,837,E06000028,Bournemouth,Looked after children,Education Health and Care plan,32,29.6
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,801,E06000023,Bristol City of,Looked after children,Education Health and Care plan,102,28.7
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,908,E06000052,Cornwall,Looked after children,Education Health and Care plan,68,29.8
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,878,E10000008,Devon,Looked after children,Education Health and Care plan,144,39.8
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,835,E10000009,Dorset,Looked after children,Education Health and Care plan,61,27.4
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,916,E10000013,Gloucestershire,Looked after children,Education Health and Care plan,112,34.6
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,420,E06000053,Isles of Scilly,Looked after children,Education Health and Care plan,0,.
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,802,E06000024,North Somerset,Looked after children,Education Health and Care plan,27,25
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,879,E06000026,Plymouth,Looked after children,Education Health and Care plan,56,25.7
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,836,E06000029,Poole,Looked after children,Education Health and Care plan,33,37.9
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,933,E10000027,Somerset,Looked after children,Education Health and Care plan,112,41.3
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,803,E06000025,South Gloucestershire,Looked after children,Education Health and Care plan,28,34.1
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,866,E06000030,Swindon,Looked after children,Education Health and Care plan,40,26
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,880,E06000027,Torbay,Looked after children,Education Health and Care plan,66,33.7
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,865,E06000054,Wiltshire,Looked after children,Education Health and Care plan,103,43.3
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,202,E09000007,Camden,Looked after children,Education Health and Care plan,22,36.1
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,201,E09000001,City of London,Looked after children,Education Health and Care plan,0,.
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,204,E09000012,Hackney,Looked after children,Education Health and Care plan,61,35.3
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,205,E09000013,Hammersmith and Fulham,Looked after children,Education Health and Care plan,11,13.8
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,309,E09000014,Haringey,Looked after children,Education Health and Care plan,45,24.5
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,206,E09000019,Islington,Looked after children,Education Health and Care plan,39,24.8
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,207,E09000020,Kensington and Chelsea,Looked after children,Education Health and Care plan,15,41.7
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,208,E09000022,Lambeth,Looked after children,Education Health and Care plan,59,33.5
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,209,E09000023,Lewisham,Looked after children,Education Health and Care plan,64,30
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,316,E09000025,Newham,Looked after children,Education Health and Care plan,36,21.7
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,210,E09000028,Southwark,Looked after children,Education Health and Care plan,71,29.2
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,211,E09000030,Tower Hamlets,Looked after children,Education Health and Care plan,46,35.7
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,212,E09000032,Wandsworth,Looked after children,Education Health and Care plan,32,27.1
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,213,E09000033,Westminster,Looked after children,Education Health and Care plan,16,22.5
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,301,E09000002,Barking and Dagenham,Looked after children,Education Health and Care plan,41,22.7
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,302,E09000003,Barnet,Looked after children,Education Health and Care plan,44,36.4
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,303,E09000004,Bexley,Looked after children,Education Health and Care plan,32,35.6
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,304,E09000005,Brent,Looked after children,Education Health and Care plan,40,32.8
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,305,E09000006,Bromley,Looked after children,Education Health and Care plan,67,41.4
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,306,E09000008,Croydon,Looked after children,Education Health and Care plan,64,23.2
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,307,E09000009,Ealing,Looked after children,Education Health and Care plan,49,31.4
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,308,E09000010,Enfield,Looked after children,Education Health and Care plan,48,31.8
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,203,E09000011,Greenwich,Looked after children,Education Health and Care plan,79,30
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,310,E09000015,Harrow,Looked after children,Education Health and Care plan,16,26.7
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,311,E09000016,Havering,Looked after children,Education Health and Care plan,31,26.7
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,312,E09000017,Hillingdon,Looked after children,Education Health and Care plan,42,37.8
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,313,E09000018,Hounslow,Looked after children,Education Health and Care plan,33,29.2
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,314,E09000021,Kingston upon Thames,Looked after children,Education Health and Care plan,25,41
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,315,E09000024,Merton,Looked after children,Education Health and Care plan,31,37.3
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,317,E09000026,Redbridge,Looked after children,Education Health and Care plan,27,30
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,318,E09000027,Richmond upon Thames,Looked after children,Education Health and Care plan,18,54.5
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,319,E09000029,Sutton,Looked after children,Education Health and Care plan,23,22.5
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,320,E09000031,Waltham Forest,Looked after children,Education Health and Care plan,25,24
+201819,Reporting year,National,E92000001,England,,,,,,Looked after children,SEN support,11140,28.7
+201819,Reporting year,Regional,E92000001,England,E12000001,North East,,,,Looked after children,SEN support,750,28.2
+201819,Reporting year,Regional,E92000001,England,E12000002,North West,,,,Looked after children,SEN support,2220,28.8
+201819,Reporting year,Regional,E92000001,England,E12000003,Yorkshire and the Humber,,,,Looked after children,SEN support,1330,30.4
+201819,Reporting year,Regional,E92000001,England,E12000004,East Midlands,,,,Looked after children,SEN support,860,30
+201819,Reporting year,Regional,E92000001,England,E12000005,West Midlands,,,,Looked after children,SEN support,1520,27.8
+201819,Reporting year,Regional,E92000001,England,E12000006,East of England,,,,Looked after children,SEN support,940,28
+201819,Reporting year,Regional,E92000001,England,E12000008,South East,,,,Looked after children,SEN support,1440,28.2
+201819,Reporting year,Regional,E92000001,England,E12000009,South West,,,,Looked after children,SEN support,970,31.9
+201819,Reporting year,Regional,E92000001,England,E13000001,Inner London,,,,Looked after children,SEN support,500,27.8
+201819,Reporting year,Regional,E92000001,England,E13000002,Outer London,,,,Looked after children,SEN support,600,25.1
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,841,E06000005,Darlington,Looked after children,SEN support,28,21.2
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,840,E06000047,Durham,Looked after children,SEN support,121,28.3
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,390,E08000037,Gateshead,Looked after children,SEN support,61,27.6
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,805,E06000001,Hartlepool,Looked after children,SEN support,51,32.9
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,806,E06000002,Middlesbrough,Looked after children,SEN support,80,30.3
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,391,E08000021,Newcastle upon Tyne,Looked after children,SEN support,75,26.1
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,392,E08000022,North Tyneside,Looked after children,SEN support,37,25.9
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,929,E06000057,Northumberland,Looked after children,SEN support,48,28.4
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,807,E06000003,Redcar and Cleveland,Looked after children,SEN support,35,24
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,393,E08000023,South Tyneside,Looked after children,SEN support,52,31.7
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,808,E06000004,Stockton-on-Tees,Looked after children,SEN support,68,24
+201819,Reporting year,Local authority,E92000001,England,E12000001,North East,394,E08000024,Sunderland,Looked after children,SEN support,94,35.1
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,889,E06000008,Blackburn with Darwen,Looked after children,SEN support,57,31.5
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,890,E06000009,Blackpool,Looked after children,SEN support,104,33.3
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,350,E08000001,Bolton,Looked after children,SEN support,90,25.6
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,351,E08000002,Bury,Looked after children,SEN support,47,28.1
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,895,E06000049,Cheshire East,Looked after children,SEN support,58,22.4
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,896,E06000050,Cheshire West and Chester,Looked after children,SEN support,78,31.3
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,909,E10000006,Cumbria,Looked after children,SEN support,93,23.4
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,876,E06000006,Halton,Looked after children,SEN support,60,39.5
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,340,E08000011,Knowsley,Looked after children,SEN support,41,25.5
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,888,E10000017,Lancashire,Looked after children,SEN support,283,26.1
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,341,E08000012,Liverpool,Looked after children,SEN support,204,32.9
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,352,E08000003,Manchester,Looked after children,SEN support,200,30.6
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,353,E08000004,Oldham,Looked after children,SEN support,88,29.6
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,354,E08000005,Rochdale,Looked after children,SEN support,60,21.8
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,355,E08000006,Salford,Looked after children,SEN support,93,31.7
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,343,E08000014,Sefton,Looked after children,SEN support,76,27.8
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,342,E08000013,St. Helens,Looked after children,SEN support,91,32.3
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,356,E08000007,Stockport,Looked after children,SEN support,54,28.4
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,357,E08000008,Tameside,Looked after children,SEN support,87,25.4
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,358,E08000009,Trafford,Looked after children,SEN support,46,21.9
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,877,E06000007,Warrington,Looked after children,SEN support,49,21.6
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,359,E08000010,Wigan,Looked after children,SEN support,103,36.5
+201819,Reporting year,Local authority,E92000001,England,E12000002,North West,344,E08000015,Wirral,Looked after children,SEN support,162,34.2
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,370,E08000016,Barnsley,Looked after children,SEN support,46,29.5
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,380,E08000032,Bradford,Looked after children,SEN support,161,30
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,381,E08000033,Calderdale,Looked after children,SEN support,53,30.1
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,371,E08000017,Doncaster,Looked after children,SEN support,85,31
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,811,E06000011,East Riding of Yorkshire,Looked after children,SEN support,44,25.4
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,810,E06000010,Kingston upon Hull City of,Looked after children,SEN support,135,31.2
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,382,E08000034,Kirklees,Looked after children,SEN support,106,29.3
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,383,E08000035,Leeds,Looked after children,SEN support,223,32.6
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,812,E06000012,North East Lincolnshire,Looked after children,SEN support,64,31.4
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,813,E06000013,North Lincolnshire,Looked after children,SEN support,35,27.3
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,815,E10000023,North Yorkshire,Looked after children,SEN support,71,30.6
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,372,E08000018,Rotherham,Looked after children,SEN support,96,29.7
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,373,E08000019,Sheffield,Looked after children,SEN support,103,32.1
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,384,E08000036,Wakefield,Looked after children,SEN support,86,32.1
+201819,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,816,E06000014,York,Looked after children,SEN support,24,21.4
+201819,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,831,E06000015,Derby,Looked after children,SEN support,65,24.9
+201819,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,830,E10000007,Derbyshire,Looked after children,SEN support,105,30.1
+201819,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,856,E06000016,Leicester,Looked after children,SEN support,110,32
+201819,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,855,E10000018,Leicestershire,Looked after children,SEN support,77,25.9
+201819,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,925,E10000019,Lincolnshire,Looked after children,SEN support,69,23.5
+201819,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,928,E10000021,Northamptonshire,Looked after children,SEN support,143,27.1
+201819,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,892,E06000018,Nottingham,Looked after children,SEN support,121,37.1
+201819,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,891,E10000024,Nottinghamshire,Looked after children,SEN support,166,36.6
+201819,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,857,E06000017,Rutland,Looked after children,SEN support,c,c
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,330,E08000025,Birmingham,Looked after children,SEN support,259,26.4
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,331,E08000026,Coventry,Looked after children,SEN support,91,28.1
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,332,E08000027,Dudley,Looked after children,SEN support,114,30.3
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,884,E06000019,Herefordshire,Looked after children,SEN support,69,34.3
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,333,E08000028,Sandwell,Looked after children,SEN support,149,36.7
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,893,E06000051,Shropshire,Looked after children,SEN support,31,18.3
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,334,E08000029,Solihull,Looked after children,SEN support,62,28.4
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,860,E10000028,Staffordshire,Looked after children,SEN support,148,24.9
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,861,E06000021,Stoke-on-Trent,Looked after children,SEN support,109,24.1
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,894,E06000020,Telford and Wrekin,Looked after children,SEN support,51,24.2
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,335,E08000030,Walsall,Looked after children,SEN support,98,26.8
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,937,E10000031,Warwickshire,Looked after children,SEN support,93,28.4
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,336,E08000031,Wolverhampton,Looked after children,SEN support,89,23
+201819,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,885,E10000034,Worcestershire,Looked after children,SEN support,153,34.2
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,822,E06000055,Bedford borough,Looked after children,SEN support,36,28.6
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,873,E10000003,Cambridgeshire,Looked after children,SEN support,88,23.9
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,823,E06000056,Central Bedfordshire,Looked after children,SEN support,52,29.7
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,881,E10000012,Essex,Looked after children,SEN support,114,21.8
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,919,E10000015,Hertfordshire,Looked after children,SEN support,165,34.2
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,821,E06000032,Luton,Looked after children,SEN support,62,34.6
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,926,E10000020,Norfolk,Looked after children,SEN support,192,31.3
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,874,E06000031,Peterborough,Looked after children,SEN support,49,27.2
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,882,E06000033,Southend-on-Sea,Looked after children,SEN support,32,22.7
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,935,E10000029,Suffolk,Looked after children,SEN support,113,26.1
+201819,Reporting year,Local authority,E92000001,England,E12000006,East of England,883,E06000034,Thurrock,Looked after children,SEN support,40,26.3
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,867,E06000036,Bracknell Forest,Looked after children,SEN support,16,21.1
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,846,E06000043,Brighton and Hove,Looked after children,SEN support,52,30.2
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,825,E10000002,Buckinghamshire,Looked after children,SEN support,45,17.7
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,845,E10000011,East Sussex,Looked after children,SEN support,110,34.7
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,850,E10000014,Hampshire,Looked after children,SEN support,271,31.3
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,921,E06000046,Isle of Wight,Looked after children,SEN support,46,33.6
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,886,E10000016,Kent,Looked after children,SEN support,209,24.7
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,887,E06000035,Medway,Looked after children,SEN support,72,31
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,826,E06000042,Milton Keynes,Looked after children,SEN support,64,30.6
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,931,E10000025,Oxfordshire,Looked after children,SEN support,115,33.1
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,851,E06000044,Portsmouth,Looked after children,SEN support,45,22.7
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,870,E06000038,Reading,Looked after children,SEN support,32,21.5
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,871,E06000039,Slough,Looked after children,SEN support,18,23.4
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,852,E06000045,Southampton,Looked after children,SEN support,98,33.6
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,936,E10000030,Surrey,Looked after children,SEN support,116,24.2
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,869,E06000037,West Berkshire,Looked after children,SEN support,24,28.9
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,938,E10000032,West Sussex,Looked after children,SEN support,94,31.9
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,868,E06000040,Windsor and Maidenhead,Looked after children,SEN support,6,14.3
+201819,Reporting year,Local authority,E92000001,England,E12000008,South East,872,E06000041,Wokingham,Looked after children,SEN support,8,22.2
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,800,E06000022,Bath and North East Somerset,Looked after children,SEN support,14,16.3
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,837,E06000028,Bournemouth,Looked after children,SEN support,33,30.6
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,801,E06000023,Bristol City of,Looked after children,SEN support,103,29
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,908,E06000052,Cornwall,Looked after children,SEN support,69,30.3
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,878,E10000008,Devon,Looked after children,SEN support,117,32.3
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,835,E10000009,Dorset,Looked after children,SEN support,73,32.7
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,916,E10000013,Gloucestershire,Looked after children,SEN support,116,35.8
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,802,E06000024,North Somerset,Looked after children,SEN support,39,.
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,420,E06000053,Isles of Scilly,Looked after children,SEN support,0,36.1
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,879,E06000026,Plymouth,Looked after children,SEN support,93,42.7
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,836,E06000029,Poole,Looked after children,SEN support,34,39.1
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,933,E10000027,Somerset,Looked after children,SEN support,93,34.3
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,803,E06000025,South Gloucestershire,Looked after children,SEN support,25,30.5
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,866,E06000030,Swindon,Looked after children,SEN support,46,29.9
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,880,E06000027,Torbay,Looked after children,SEN support,63,32.1
+201819,Reporting year,Local authority,E92000001,England,E12000009,South West,865,E06000054,Wiltshire,Looked after children,SEN support,53,22.3
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,202,E09000007,Camden,Looked after children,SEN support,24,39.3
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,201,E09000001,City of London,Looked after children,SEN support,0,.
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,204,E09000012,Hackney,Looked after children,SEN support,35,20.2
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,205,E09000013,Hammersmith and Fulham,Looked after children,SEN support,28,35
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,309,E09000014,Haringey,Looked after children,SEN support,54,29.3
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,206,E09000019,Islington,Looked after children,SEN support,52,33.1
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,207,E09000020,Kensington and Chelsea,Looked after children,SEN support,8,22.2
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,208,E09000022,Lambeth,Looked after children,SEN support,51,29
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,209,E09000023,Lewisham,Looked after children,SEN support,49,23
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,316,E09000025,Newham,Looked after children,SEN support,44,26.5
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,210,E09000028,Southwark,Looked after children,SEN support,73,30
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,211,E09000030,Tower Hamlets,Looked after children,SEN support,34,26.4
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,212,E09000032,Wandsworth,Looked after children,SEN support,28,23.7
+201819,Reporting year,Local authority,E92000001,England,E13000001,Inner London,213,E09000033,Westminster,Looked after children,SEN support,23,32.4
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,301,E09000002,Barking and Dagenham,Looked after children,SEN support,44,24.3
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,302,E09000003,Barnet,Looked after children,SEN support,27,22.3
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,303,E09000004,Bexley,Looked after children,SEN support,21,23.3
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,304,E09000005,Brent,Looked after children,SEN support,21,17.2
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,305,E09000006,Bromley,Looked after children,SEN support,29,17.9
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,306,E09000008,Croydon,Looked after children,SEN support,65,23.6
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,307,E09000009,Ealing,Looked after children,SEN support,54,34.6
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,308,E09000010,Enfield,Looked after children,SEN support,43,28.5
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,203,E09000011,Greenwich,Looked after children,SEN support,66,25.1
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,310,E09000015,Harrow,Looked after children,SEN support,24,40
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,311,E09000016,Havering,Looked after children,SEN support,21,18.1
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,312,E09000017,Hillingdon,Looked after children,SEN support,25,22.5
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,313,E09000018,Hounslow,Looked after children,SEN support,29,25.7
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,314,E09000021,Kingston upon Thames,Looked after children,SEN support,13,21.3
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,315,E09000024,Merton,Looked after children,SEN support,23,27.7
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,317,E09000026,Redbridge,Looked after children,SEN support,21,23.3
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,318,E09000027,Richmond upon Thames,Looked after children,SEN support,7,21.2
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,319,E09000029,Sutton,Looked after children,SEN support,35,34.3
+201819,Reporting year,Local authority,E92000001,England,E13000002,Outer London,320,E09000031,Waltham Forest,Looked after children,SEN support,32,30.8

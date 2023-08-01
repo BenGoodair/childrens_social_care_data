@@ -1,0 +1,164 @@
+time_period,time_identifier,level,country_code,country_name,region_code,region_name,old_la_code,new_la_code,la_name,characteristic,cla_sen_total_cla_population_matched,CLA_no_sen,cla_no_sen_%,cla_sen_statement_ehc,cla_sen_statement_ehc_%,cla_sen_support,cla_sen_support_%
+2017/18,Year ending 31 March 2018,National,E92000001,England,,,,,,sen,37470,16660,44.5,9930,26.5,10880,29
+2017/18,Year ending 31 March 2018,Regional,E92000001,England,E12000001,North East,,,,sen,2460,1150,46.8,610,24.6,710,28.7
+2017/18,Year ending 31 March 2018,Regional,E92000001,England,E12000002,North West,,,,sen,7340,3570,48.7,1640,22.4,2120,28.9
+2017/18,Year ending 31 March 2018,Regional,E92000001,England,E12000003,Yorkshire and the Humber,,,,sen,4240,1920,45.1,1070,25.3,1250,29.6
+2017/18,Year ending 31 March 2018,Regional,E92000001,England,E12000004,East Midlands,,,,sen,2720,1180,43.3,710,26.3,830,30.5
+2017/18,Year ending 31 March 2018,Regional,E92000001,England,E12000005,West Midlands,,,,sen,5180,2420,46.7,1260,24.4,1500,28.9
+2017/18,Year ending 31 March 2018,Regional,E92000001,England,E12000006,East of England,,,,sen,3320,1450,43.6,950,28.6,920,27.8
+2017/18,Year ending 31 March 2018,Regional,E92000001,England,E12000008,South East,,,,sen,4960,2010,40.5,1510,30.5,1440,29
+2017/18,Year ending 31 March 2018,Regional,E92000001,England,E12000009,South West,,,,sen,3000,1050,34.9,950,31.6,1000,33.5
+2017/18,Year ending 31 March 2018,Regional,E92000001,England,E13000001,Inner London,,,,sen,1800,810,45,500,27.8,490,27.2
+2017/18,Year ending 31 March 2018,Regional,E92000001,England,E13000002,Outer London,,,,sen,2450,1110,45.5,710,29.1,620,25.4
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E13000001,Inner London,201,E09000001,City of London,sen,c,c,c,c,c,c,c
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E13000001,Inner London,202,E09000007,Camden,sen,67,24,35.8,27,40.3,16,23.9
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E13000002,Outer London,203,E09000011,Greenwich,sen,268,121,45.1,74,27.6,73,27.2
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E13000001,Inner London,204,E09000012,Hackney,sen,169,81,47.9,56,33.1,32,18.9
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E13000001,Inner London,205,E09000013,Hammersmith and Fulham,sen,89,48,53.9,20,22.5,21,23.6
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E13000001,Inner London,206,E09000019,Islington,sen,123,54,43.9,33,26.8,36,29.3
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E13000001,Inner London,207,E09000020,Kensington and Chelsea,sen,35,10,28.6,17,48.6,8,22.9
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E13000001,Inner London,208,E09000022,Lambeth,sen,189,71,37.6,64,33.9,54,28.6
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E13000001,Inner London,209,E09000023,Lewisham,sen,210,95,45.2,66,31.4,49,23.3
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E13000001,Inner London,210,E09000028,Southwark,sen,250,108,43.2,62,24.8,80,32
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E13000001,Inner London,211,E09000030,Tower Hamlets,sen,139,67,48.2,38,27.3,34,24.5
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E13000001,Inner London,212,E09000032,Wandsworth,sen,114,54,47.4,28,24.6,32,28.1
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E13000001,Inner London,213,E09000033,Westminster,sen,72,32,44.4,14,19.4,26,36.1
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E13000002,Outer London,301,E09000002,Barking and Dagenham,sen,194,100,51.5,39,20.1,55,28.4
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E13000002,Outer London,302,E09000003,Barnet,sen,114,51,44.7,32,28.1,31,27.2
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E13000002,Outer London,303,E09000004,Bexley,sen,119,54,45.4,35,29.4,30,25.2
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E13000002,Outer London,304,E09000005,Brent,sen,156,65,41.7,51,32.7,40,25.6
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E13000002,Outer London,305,E09000006,Bromley,sen,141,55,39,54,38.3,32,22.7
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E13000002,Outer London,306,E09000008,Croydon,sen,244,135,55.3,53,21.7,56,23
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E13000002,Outer London,307,E09000009,Ealing,sen,170,57,33.5,59,34.7,54,31.8
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E13000002,Outer London,308,E09000010,Enfield,sen,154,71,46.1,40,26,43,27.9
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E13000001,Inner London,309,E09000014,Haringey,sen,197,94,47.7,44,22.3,59,29.9
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E13000002,Outer London,310,E09000015,Harrow,sen,66,28,42.4,17,25.8,21,31.8
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E13000002,Outer London,311,E09000016,Havering,sen,115,70,60.9,31,27,14,12.2
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E13000002,Outer London,312,E09000017,Hillingdon,sen,126,64,50.8,39,31,23,18.3
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E13000002,Outer London,313,E09000018,Hounslow,sen,112,48,42.9,39,34.8,25,22.3
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E13000002,Outer London,314,E09000021,Kingston upon Thames,sen,55,21,38.2,25,45.5,9,16.4
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E13000002,Outer London,315,E09000024,Merton,sen,65,23,35.4,23,35.4,19,29.2
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E13000001,Inner London,316,E09000025,Newham,sen,147,71,48.3,32,21.8,44,29.9
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E13000002,Outer London,317,E09000026,Redbridge,sen,88,41,46.6,26,29.5,21,23.9
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E13000002,Outer London,318,E09000027,Richmond upon Thames,sen,34,12,35.3,16,47.1,6,17.6
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E13000002,Outer London,319,E09000029,Sutton,sen,113,46,40.7,30,26.5,37,32.7
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E13000002,Outer London,320,E09000031,Waltham Forest,sen,114,51,44.7,30,26.3,33,28.9
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000005,West Midlands,330,E08000025,Birmingham,sen,963,443,46,241,25,279,29
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000005,West Midlands,331,E08000026,Coventry,sen,304,139,45.7,77,25.3,88,28.9
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000005,West Midlands,332,E08000027,Dudley,sen,379,179,47.2,75,19.8,125,33
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000005,West Midlands,333,E08000028,Sandwell,sen,342,142,41.5,71,20.8,129,37.7
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000005,West Midlands,334,E08000029,Solihull,sen,204,106,52,38,18.6,60,29.4
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000005,West Midlands,335,E08000030,Walsall,sen,353,183,51.8,79,22.4,91,25.8
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000005,West Midlands,336,E08000031,Wolverhampton,sen,397,183,46.1,100,25.2,114,28.7
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000002,North West,340,E08000011,Knowsley,sen,170,82,48.2,44,25.9,44,25.9
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000002,North West,341,E08000012,Liverpool,sen,611,330,54,82,13.4,199,32.6
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000002,North West,342,E08000013,St. Helens,sen,260,126,48.5,43,16.5,91,35
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000002,North West,343,E08000014,Sefton,sen,242,134,55.4,42,17.4,66,27.3
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000002,North West,344,E08000015,Wirral,sen,419,215,51.3,69,16.5,135,32.2
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000002,North West,350,E08000001,Bolton,sen,335,147,43.9,97,29,91,27.2
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000002,North West,351,E08000002,Bury,sen,175,75,42.9,45,25.7,55,31.4
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000002,North West,352,E08000003,Manchester,sen,649,289,44.5,160,24.7,200,30.8
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000002,North West,353,E08000004,Oldham,sen,269,156,58,53,19.7,60,22.3
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000002,North West,354,E08000005,Rochdale,sen,259,141,54.4,52,20.1,66,25.5
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000002,North West,355,E08000006,Salford,sen,303,139,45.9,83,27.4,81,26.7
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000002,North West,356,E08000007,Stockport,sen,165,70,42.4,50,30.3,45,27.3
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000002,North West,357,E08000008,Tameside,sen,284,167,58.8,44,15.5,73,25.7
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000002,North West,358,E08000009,Trafford,sen,225,107,47.6,62,27.6,56,24.9
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000002,North West,359,E08000010,Wigan,sen,257,96,37.4,73,28.4,88,34.2
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,370,E08000016,Barnsley,sen,150,75,50,32,21.3,43,28.7
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,371,E08000017,Doncaster,sen,279,135,48.4,64,22.9,80,28.7
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,372,E08000018,Rotherham,sen,269,97,36.1,92,34.2,80,29.7
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,373,E08000019,Sheffield,sen,297,125,42.1,74,24.9,98,33
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,380,E08000032,Bradford,sen,541,246,45.5,130,24,165,30.5
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,381,E08000033,Calderdale,sen,179,80,44.7,46,25.7,53,29.6
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,382,E08000034,Kirklees,sen,382,175,45.8,107,28,100,26.2
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,383,E08000035,Leeds,sen,711,335,47.1,166,23.3,210,29.5
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,384,E08000036,Wakefield,sen,268,115,42.9,75,28,78,29.1
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000001,North East,390,E08000037,Gateshead,sen,199,83,41.7,63,31.7,53,26.6
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000001,North East,391,E08000021,Newcastle upon Tyne,sen,266,123,46.2,62,23.3,81,30.5
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000001,North East,392,E08000022,North Tyneside,sen,132,65,49.2,31,23.5,36,27.3
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000001,North East,393,E08000023,South Tyneside,sen,139,56,40.3,53,38.1,30,21.6
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000001,North East,394,E08000024,Sunderland,sen,245,111,45.3,45,18.4,89,36.3
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000009,South West,420,E06000053,Isles of Scilly,sen,0,0,.,0,.,0,.
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000009,South West,800,E06000022,Bath and North East Somerset,sen,86,40,46.5,30,34.9,16,18.6
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000009,South West,801,E06000023,"Bristol, City of",sen,377,159,42.2,107,28.4,111,29.4
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000009,South West,802,E06000024,North Somerset,sen,118,37,31.4,32,27.1,49,41.5
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000009,South West,803,E06000025,South Gloucestershire,sen,89,30,33.7,33,37.1,26,29.2
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000001,North East,805,E06000001,Hartlepool,sen,144,68,47.2,33,22.9,43,29.9
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000001,North East,806,E06000002,Middlesbrough,sen,249,123,49.4,53,21.3,73,29.3
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000001,North East,807,E06000003,Redcar and Cleveland,sen,132,65,49.2,34,25.8,33,25
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000001,North East,808,E06000004,Stockton-on-Tees,sen,243,113,46.5,50,20.6,80,32.9
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,810,E06000010,"Kingston Upon Hull, City of",sen,382,179,46.9,78,20.4,125,32.7
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,811,E06000011,East Riding of Yorkshire,sen,163,74,45.4,47,28.8,42,25.8
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,812,E06000012,North East Lincolnshire,sen,174,75,43.1,41,23.6,58,33.3
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,813,E06000013,North Lincolnshire,sen,127,62,48.8,27,21.3,38,29.9
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,815,E10000023,North Yorkshire,sen,214,89,41.6,66,30.8,59,27.6
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,816,E06000014,York,sen,107,53,49.5,29,27.1,25,23.4
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000006,East of England,821,E06000032,Luton,sen,188,77,41,48,25.5,63,33.5
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000006,East of England,822,E06000055,Bedford Borough,sen,123,49,39.8,42,34.1,32,26
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000006,East of England,823,E06000056,Central Bedfordshire,sen,161,79,49.1,37,23,45,28
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000008,South East,825,E10000002,Buckinghamshire,sen,238,94,39.5,92,38.7,52,21.8
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000008,South East,826,E06000042,Milton Keynes,sen,220,80,36.4,67,30.5,73,33.2
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000004,East Midlands,830,E10000007,Derbyshire,sen,304,114,37.5,96,31.6,94,30.9
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000004,East Midlands,831,E06000015,Derby,sen,220,83,37.7,72,32.7,65,29.5
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000009,South West,835,E10000009,Dorset,sen,219,79,36.1,61,27.9,79,36.1
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000009,South West,836,E06000029,Poole,sen,95,30,31.6,29,30.5,36,37.9
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000009,South West,837,E06000028,Bournemouth,sen,130,54,41.5,41,31.5,35,26.9
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000001,North East,840,E06000047,Durham,sen,429,206,48,114,26.6,109,25.4
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000001,North East,841,E06000005,Darlington,sen,115,60,52.2,23,20,32,27.8
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000008,South East,845,E10000011,East Sussex,sen,302,120,39.7,97,32.1,85,28.1
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000008,South East,846,E06000043,Brighton and Hove,sen,197,71,36,65,33,61,31
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000008,South East,850,E10000014,Hampshire,sen,833,386,46.3,186,22.3,261,31.3
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000008,South East,851,E06000044,Portsmouth,sen,165,64,38.8,50,30.3,51,30.9
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000008,South East,852,E06000045,Southampton,sen,314,124,39.5,67,21.3,123,39.2
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000004,East Midlands,855,E10000018,Leicestershire,sen,277,117,42.2,84,30.3,76,27.4
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000004,East Midlands,856,E06000016,Leicester,sen,331,147,44.4,74,22.4,110,33.2
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000004,East Midlands,857,E06000017,Rutland,sen,18,11,61.1,c,c,c,c
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000005,West Midlands,860,E10000028,Staffordshire,sen,548,285,52,141,25.7,122,22.3
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000005,West Midlands,861,E06000021,Stoke-on-Trent,sen,398,219,55,80,20.1,99,24.9
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000009,South West,865,E06000054,Wiltshire,sen,245,96,39.2,92,37.6,57,23.3
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000009,South West,866,E06000030,Swindon,sen,143,62,43.4,30,21,51,35.7
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000008,South East,867,E06000036,Bracknell Forest,sen,53,21,39.6,17,32.1,15,28.3
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000008,South East,868,E06000040,Windsor and Maidenhead,sen,48,26,54.2,12,25,10,20.8
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000008,South East,869,E06000037,West Berkshire,sen,81,34,42,26,32.1,21,25.9
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000008,South East,870,E06000038,Reading,sen,138,68,49.3,46,33.3,24,17.4
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000008,South East,871,E06000039,Slough,sen,81,33,40.7,28,34.6,20,24.7
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000008,South East,872,E06000041,Wokingham,sen,33,11,33.3,18,54.5,c,c
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000006,East of England,873,E10000003,Cambridgeshire,sen,328,153,46.6,101,30.8,74,22.6
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000006,East of England,874,E06000031,Peterborough,sen,173,72,41.6,52,30.1,49,28.3
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000002,North West,876,E06000006,Halton,sen,145,61,42.1,29,20,55,37.9
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000002,North West,877,E06000007,Warrington,sen,213,107,50.2,57,26.8,49,23
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000009,South West,878,E10000008,Devon,sen,346,94,27.2,125,36.1,127,36.7
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000009,South West,879,E06000026,Plymouth,sen,182,63,34.6,47,25.8,72,39.6
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000009,South West,880,E06000027,Torbay,sen,173,56,32.4,58,33.5,59,34.1
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000006,East of England,881,E10000012,Essex,sen,547,238,43.5,187,34.2,122,22.3
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000006,East of England,882,E06000033,Southend-on-Sea,sen,145,78,53.8,30,20.7,37,25.5
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000006,East of England,883,E06000034,Thurrock,sen,155,80,51.6,27,17.4,48,31
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000005,West Midlands,884,E06000019,Herefordshire,sen,182,71,39,44,24.2,67,36.8
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000005,West Midlands,885,E10000034,Worcestershire,sen,416,167,40.1,109,26.2,140,33.7
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000008,South East,886,E10000016,Kent,sen,899,381,42.4,271,30.1,247,27.5
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000008,South East,887,E06000035,Medway,sen,224,86,38.4,64,28.6,74,33
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000002,North West,888,E10000017,Lancashire,sen,1020,537,52.6,211,20.7,272,26.7
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000002,North West,889,E06000008,Blackburn with Darwen,sen,188,85,45.2,44,23.4,59,31.4
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000002,North West,890,E06000009,Blackpool,sen,294,133,45.2,52,17.7,109,37.1
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000004,East Midlands,891,E10000024,Nottinghamshire,sen,416,179,43,94,22.6,143,34.4
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000004,East Midlands,892,E06000018,Nottingham,sen,330,141,42.7,64,19.4,125,37.9
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000005,West Midlands,893,E06000051,Shropshire,sen,160,74,46.3,53,33.1,33,20.6
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000005,West Midlands,894,E06000020,Telford and Wrekin,sen,208,89,42.8,62,29.8,57,27.4
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000002,North West,895,E06000049,Cheshire East,sen,262,104,39.7,85,32.4,73,27.9
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000002,North West,896,E06000050,Cheshire West and Chester,sen,238,116,48.7,55,23.1,67,28.2
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000009,South West,908,E06000052,Cornwall,sen,220,76,34.5,75,34.1,69,31.4
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000002,North West,909,E10000006,Cumbria,sen,358,156,43.6,112,31.3,90,25.1
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000009,South West,916,E10000013,Gloucestershire,sen,327,111,33.9,106,32.4,110,33.6
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000006,East of England,919,E10000015,Hertfordshire,sen,474,183,38.6,135,28.5,156,32.9
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000008,South East,921,E06000046,Isle of Wight,sen,134,60,44.8,35,26.1,39,29.1
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000004,East Midlands,925,E10000019,Lincolnshire,sen,330,133,40.3,106,32.1,91,27.6
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000006,East of England,926,E10000020,Norfolk,sen,605,250,41.3,178,29.4,177,29.3
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000004,East Midlands,928,E10000021,Northamptonshire,sen,493,252,51.1,120,24.3,121,24.5
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000001,North East,929,E06000057,Northumberland,sen,171,80,46.8,44,25.7,47,27.5
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000008,South East,931,E10000025,Oxfordshire,sen,310,116,37.4,93,30,101,32.6
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000009,South West,933,E10000027,Somerset,sen,250,60,24,83,33.2,107,42.8
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000006,East of England,935,E10000029,Suffolk,sen,420,189,45,112,26.7,119,28.3
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000008,South East,936,E10000030,Surrey,sen,401,167,41.6,152,37.9,82,20.4
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000005,West Midlands,937,E10000031,Warwickshire,sen,325,138,42.5,94,28.9,93,28.6
+2017/18,Year ending 31 March 2018,Local authority,E92000001,England,E12000008,South East,938,E10000032,West Sussex,sen,284,66,23.2,126,44.4,92,32.4
