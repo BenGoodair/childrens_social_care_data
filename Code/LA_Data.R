@@ -18,12 +18,199 @@ rm(list=setdiff(ls(), c("")))
 ####Children Outcomes####
 
 #2010
+#read in raw data with all cols as character so they can pivot together
+schl_absence <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2010_underlying/Absence2009_10.csv"),
+                         colClasses = "character")%>%
+  dplyr::rename(LA_Name = X.1,
+                LA.Number = X)%>% # rename the id columns
+  dplyr::filter(!is.na(LA.Number))%>% # only keep LAs
+  tidyr::pivot_longer(cols = !c(LA.Number, LA_Name), names_to = "variable", 
+                      values_to = "value")%>% #pivot so that variables go in a column
+  dplyr::mutate(category = "child outcomes",
+                subcategory = "school absence") #add category variables
 
-schl_absence <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2010_underlying/Absence2009_10.csv"))
+
+schl_absence_by_school <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2010_underlying/Absence_Final_V2.csv"),
+                                   colClasses = "character")%>%
+  dplyr::filter(!is.na(LA.Number))%>%
+  dplyr::rename(LA_Name = X)%>%
+  tidyr::pivot_longer(cols = !c(LA.Number, LA_Name), names_to = "variable", 
+                      values_to = "value")%>%
+  dplyr::mutate(category = "child outcomes",
+                subcategory = "school absence")
+
+
+schl_exclusion_by_school <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2010_underlying/Exclusions_Final_V2.csv"),
+                                     colClasses = "character")%>%
+  dplyr::filter(!is.na(LA.Number))%>%
+  dplyr::rename(LA_Name = X)%>%
+  tidyr::pivot_longer(cols = !c(LA.Number, LA_Name), names_to = "variable", 
+                      values_to = "value")%>%
+  dplyr::mutate(category = "child outcomes",
+                subcategory = "school exclusions")
+
+
+ks1 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2010_underlying/KS1_Final_V2.csv"),
+                colClasses = "character")%>%
+  dplyr::filter(!is.na(LA.Number))%>%
+  dplyr::rename(LA_Name = X)%>%
+  tidyr::pivot_longer(cols = !c(LA.Number, LA_Name), names_to = "variable", 
+                      values_to = "value")%>%
+  dplyr::mutate(category = "child outcomes",
+                subcategory = "key stage 1")
+
+ks2 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2010_underlying/KS2_Final_V2.csv"),
+                colClasses = "character")%>%
+  dplyr::filter(!is.na(LA.Number))%>%
+  dplyr::rename(LA_Name = X)%>%
+  tidyr::pivot_longer(cols = !c(LA.Number, LA_Name), names_to = "variable", 
+                      values_to = "value")%>%
+  dplyr::mutate(category = "child outcomes",
+                subcategory = "key stage 2")
+
+
+ks4 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2010_underlying/KS4_Final_V2.csv"),
+                colClasses = "character")%>%
+  dplyr::filter(!is.na(LA.Number))%>%
+  dplyr::rename(LA_Name = X)%>%
+  tidyr::pivot_longer(cols = !c(LA.Number, LA_Name), names_to = "variable", 
+                      values_to = "value")%>%
+  dplyr::mutate(category = "child outcomes",
+                subcategory = "key stage 4")
+
+
+oc2 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2010_underlying/OC2_Final_V2.csv"))%>%
+  dplyr::filter(!is.na(LA.Number))%>%
+  dplyr::rename(LA_Name = X)%>%
+  tidyr::pivot_longer(cols = !c(LA.Number, LA_Name), names_to = "variable", 
+                      values_to = "value")%>%
+  dplyr::mutate(category = "child outcomes",
+                subcategory = "health, conviction, neet")
+
+
+sen <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2010_underlying/SEN_Final_V2.csv"),
+                colClasses = "character")%>%
+  dplyr::filter(!is.na(LA.Number))%>%
+  dplyr::rename(LA_Name = X)%>%
+  tidyr::pivot_longer(cols = !c(LA.Number, LA_Name), names_to = "variable", 
+                      values_to = "value")%>%
+  dplyr::mutate(category = "child outcomes",
+                subcategory = "special educational needs")
+
+
+
+#bind together each outcome group
+outcomes_2010 <- rbind(schl_absence, schl_absence_by_school, schl_exclusion_by_school,
+                       ks1, ks2, ks4, oc2, sen)
+
+#allocate year variable
+outcomes_2010$year <- 2010
+
+#remove all unnecessary dataframes
+rm(list=setdiff(ls(), c("outcomes_2010")))
+
+#2011
+
+schl_absence <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2011_underlying/Absence_LA.csv"),
+                         colClasses = "character")%>%
+  dplyr::rename(LA_Name = X,
+                LA.Number = X.U.FEFF.LA.Number)%>%
+  dplyr::filter(!is.na(LA.Number))%>%
+  tidyr::pivot_longer(cols = !c(LA.Number, LA_Name), names_to = "variable", 
+                      values_to = "value")%>%
+  dplyr::mutate(category = "child outcomes",
+                subcategory = "school absence")
+
+
+schl_exclusion <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2011_underlying/Exclusions_LA.csv"),
+                           colClasses = "character")%>%
+  dplyr::rename(LA_Name = X,
+                LA.Number = X.U.FEFF.LA.Number)%>%
+  dplyr::filter(!is.na(LA.Number))%>%
+  tidyr::pivot_longer(cols = !c(LA.Number, LA_Name), names_to = "variable", 
+                      values_to = "value")%>%
+  dplyr::mutate(category = "child outcomes",
+                subcategory = "school absence")
+
+
+ks1 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2011_underlying/KS1_Attainment_2011_LA.csv"),
+                colClasses = "character")%>%
+  dplyr::rename(LA_Name = X,
+                LA.Number = X.U.FEFF.LA.Number)%>%
+  dplyr::filter(!is.na(LA.Number))%>%
+  tidyr::pivot_longer(cols = !c(LA.Number, LA_Name), names_to = "variable", 
+                      values_to = "value")%>%
+  dplyr::mutate(category = "child outcomes",
+                subcategory = "school absence")
+
+
+ks2 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2011_underlying/KS2_Attainment_2011_LA.csv"),
+                         colClasses = "character")%>%
+  dplyr::rename(LA_Name = X,
+                LA.Number = X.U.FEFF.LA.Number)%>%
+  dplyr::filter(!is.na(LA.Number))%>%
+  tidyr::pivot_longer(cols = !c(LA.Number, LA_Name), names_to = "variable", 
+                      values_to = "value")%>%
+  dplyr::mutate(category = "child outcomes",
+                subcategory = "school absence")
+
+
+ks4 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2011_underlying/KS4_Attainment_2011_LA.csv"),
+                         colClasses = "character")%>%
+  dplyr::rename(LA_Name = X,
+                LA.Number = X.U.FEFF.LA.Number)%>%
+  dplyr::filter(!is.na(LA.Number))%>%
+  tidyr::pivot_longer(cols = !c(LA.Number, LA_Name), names_to = "variable", 
+                      values_to = "value")%>%
+  dplyr::mutate(category = "child outcomes",
+                subcategory = "school absence")
+
+
+oc2 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2011_underlying/OC2.csv"),
+                         colClasses = "character")%>%
+  dplyr::rename(LA_Name = X,
+                LA.Number = X.U.FEFF.)%>%
+  dplyr::filter(!is.na(LA.Number))%>%
+  tidyr::pivot_longer(cols = !c(LA.Number, LA_Name), names_to = "variable", 
+                      values_to = "value")%>%
+  dplyr::mutate(category = "child outcomes",
+                subcategory = "school absence")
+
+
+sen <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2011_underlying/SEN_2011_LA.csv"),
+                         colClasses = "character")%>%
+  dplyr::rename(LA_Name = X,
+                LA.Number = X.U.FEFF.LA.Number)%>%
+  dplyr::filter(!is.na(LA.Number))%>%
+  tidyr::pivot_longer(cols = !c(LA.Number, LA_Name), names_to = "variable", 
+                      values_to = "value")%>%
+  dplyr::mutate(category = "child outcomes",
+                subcategory = "school absence")
+
+
+
+#bind together each outcome group
+outcomes_2011 <- rbind(schl_absence, schl_exclusion,
+                       ks1, ks2, ks4, oc2, sen)
+
+#allocate year variable
+outcomes_2011$year <- 2011
+
+#bind together previous years
+outcomes <- rbind(outcomes_2010, outcomes_2011)
+
+#remove all unnecessary dataframes
+rm(list=setdiff(ls(), c("outcomes_2010")))
+
+
+#2012
+
 
 #2013 
 
-outcomes_2013 <- "https://github.com/BenGoodair/childrens_social_care_data/raw/main/Raw_Data/LA_level/Children_Outcomes/2013_LA/SFR50_2013_LATablesA.xlsx"
+outcomes_2013 <- read.xlsx("https://github.com/BenGoodair/childrens_social_care_data/raw/main/Raw_Data/LA_level/Children_Outcomes/2013_LA/SFR50_2013_LATablesA.xlsx",
+                           sheet = 3)
+                            
 
 
 temp_file <- tempfile(fileext = ".xlsx")
