@@ -47,7 +47,7 @@ schl_exclusion_by_school <- read.csv(curl("https://raw.githubusercontent.com/Ben
   tidyr::pivot_longer(cols = !c(LA.Number, LA_Name), names_to = "variable", 
                       values_to = "value")%>%
   dplyr::mutate(category = "child outcomes",
-                subcategory = "school exclusions")
+                subcategory = "school exclusion")
 
 
 ks1 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2010_underlying/KS1_Final_V2.csv"),
@@ -130,7 +130,7 @@ schl_exclusion <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/ch
   tidyr::pivot_longer(cols = !c(LA.Number, LA_Name), names_to = "variable", 
                       values_to = "value")%>%
   dplyr::mutate(category = "child outcomes",
-                subcategory = "school absence")
+                subcategory = "school exclusion")
 
 
 ks1 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2011_underlying/KS1_Attainment_2011_LA.csv"),
@@ -141,7 +141,7 @@ ks1 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_soc
   tidyr::pivot_longer(cols = !c(LA.Number, LA_Name), names_to = "variable", 
                       values_to = "value")%>%
   dplyr::mutate(category = "child outcomes",
-                subcategory = "school absence")
+                subcategory = "ks1")
 
 
 ks2 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2011_underlying/KS2_Attainment_2011_LA.csv"),
@@ -152,7 +152,7 @@ ks2 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_soc
   tidyr::pivot_longer(cols = !c(LA.Number, LA_Name), names_to = "variable", 
                       values_to = "value")%>%
   dplyr::mutate(category = "child outcomes",
-                subcategory = "school absence")
+                subcategory = "ks2")
 
 
 ks4 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2011_underlying/KS4_Attainment_2011_LA.csv"),
@@ -163,7 +163,7 @@ ks4 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_soc
   tidyr::pivot_longer(cols = !c(LA.Number, LA_Name), names_to = "variable", 
                       values_to = "value")%>%
   dplyr::mutate(category = "child outcomes",
-                subcategory = "school absence")
+                subcategory = "ks4")
 
 
 oc2 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2011_underlying/OC2.csv"),
@@ -174,7 +174,7 @@ oc2 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_soc
   tidyr::pivot_longer(cols = !c(LA.Number, LA_Name), names_to = "variable", 
                       values_to = "value")%>%
   dplyr::mutate(category = "child outcomes",
-                subcategory = "school absence")
+                subcategory = "health, conviction, neet")
 
 
 sen <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2011_underlying/SEN_2011_LA.csv"),
@@ -185,7 +185,7 @@ sen <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_soc
   tidyr::pivot_longer(cols = !c(LA.Number, LA_Name), names_to = "variable", 
                       values_to = "value")%>%
   dplyr::mutate(category = "child outcomes",
-                subcategory = "school absence")
+                subcategory = "special educational needs")
 
 
 
@@ -200,27 +200,124 @@ outcomes_2011$year <- 2011
 outcomes <- rbind(outcomes_2010, outcomes_2011)
 
 #remove all unnecessary dataframes
-rm(list=setdiff(ls(), c("outcomes_2010")))
+rm(list=setdiff(ls(), c("outcomes")))
 
 
 #2012
+#read in raw data with all cols as character so they can pivot together
+schl_absence <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2012_underlying/SFR32_2012_TableLA11_Absence_UD.csv"),
+                         colClasses = "character")%>%
+  dplyr::select(-country_code, country_name, gor_code, gor_name)%>% #remove unnecessary vars
+  dplyr::rename(LA_Name = la_name,
+                LA.Number = la_code,
+                LA_Code = la_9digit)%>% #rename id variables
+  dplyr::filter(!is.na(LA_Name))%>% #keep only LAs
+  tidyr::pivot_longer(cols = !c(LA.Number, LA_Name, LA_Code), names_to = "variable", 
+                      values_to = "value")%>% #pivot so variables go in one column
+  dplyr::mutate(category = "child outcomes",
+                subcategory = "school absence") #create categories and subcategories
+
+
+
+schl_exclusion <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2012_underlying/SFR32_2012_TableLA10_Exclusions_UD.csv"),
+                           colClasses = "character")%>%
+  dplyr::select(-country_code, country_name, gor_code, gor_name)%>% #remove unnecessary vars
+  dplyr::rename(LA_Name = la_name,
+                LA.Number = la_code,
+                LA_Code = la_9digit)%>% #rename id variables
+  dplyr::filter(!is.na(LA_Name))%>% #keep only LAs
+  tidyr::pivot_longer(cols = !c(LA.Number, LA_Name, LA_Code), names_to = "variable", 
+                      values_to = "value")%>% #pivot so variables go in one column
+  dplyr::mutate(category = "child outcomes",
+                subcategory = "school exclusion") #create categories and subcategories
+
+
+oc2 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2012_underlying/SFR32_2012_OC2_LA_Tables_UD.csv"),
+                colClasses = "character")%>%
+  dplyr::select(-country_code, country_name, gor_code, gor_name)%>% #remove unnecessary vars
+  dplyr::rename(LA_Name = la_name,
+                LA.Number = la_code,
+                LA_Code = la_9digit)%>% #rename id variables
+  dplyr::filter(!is.na(LA_Name))%>% #keep only LAs
+  tidyr::pivot_longer(cols = !c(LA.Number, LA_Name, LA_Code), names_to = "variable", 
+                      values_to = "value")%>% #pivot so variables go in one column
+  dplyr::mutate(category = "child outcomes",
+                subcategory = "health, conviction, neet") #create categories and subcategories
+
+
+ks1 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2012_underlying/SFR32_2012_TableLA1_KS1_UD.csv"),
+                colClasses = "character")%>%
+  dplyr::select(-country_code, country_name, gor_code, gor_name)%>% #remove unnecessary vars
+  dplyr::rename(LA_Name = la_name,
+                LA.Number = la_code,
+                LA_Code = la_9digit)%>% #rename id variables
+  dplyr::filter(!is.na(LA_Name))%>% #keep only LAs
+  tidyr::pivot_longer(cols = !c(LA.Number, LA_Name, LA_Code), names_to = "variable", 
+                      values_to = "value")%>% #pivot so variables go in one column
+  dplyr::mutate(category = "child outcomes",
+                subcategory = "ks1") #create categories and subcategories
+
+
+ks2 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2012_underlying/SFR32_2012_TableLA2_KS2_UD.csv"),
+                colClasses = "character")%>%
+  dplyr::select(-country_code, country_name, gor_code, gor_name)%>% #remove unnecessary vars
+  dplyr::rename(LA_Name = la_name,
+                LA.Number = la_code,
+                LA_Code = la_9digit)%>% #rename id variables
+  dplyr::filter(!is.na(LA_Name))%>% #keep only LAs
+  tidyr::pivot_longer(cols = !c(LA.Number, LA_Name, LA_Code), names_to = "variable", 
+                      values_to = "value")%>% #pivot so variables go in one column
+  dplyr::mutate(category = "child outcomes",
+                subcategory = "ks2") #create categories and subcategories
+
+
+ks4 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2012_underlying/SFR32_2012_TableLA3_KS4_UD.csv"),
+                colClasses = "character")%>%
+  dplyr::select(-country_code, country_name, gor_code, gor_name)%>% #remove unnecessary vars
+  dplyr::rename(LA_Name = la_name,
+                LA.Number = la_code,
+                LA_Code = la_9digit)%>% #rename id variables
+  dplyr::filter(!is.na(LA_Name))%>% #keep only LAs
+  tidyr::pivot_longer(cols = !c(LA.Number, LA_Name, LA_Code), names_to = "variable", 
+                      values_to = "value")%>% #pivot so variables go in one column
+  dplyr::mutate(category = "child outcomes",
+                subcategory = "ks4") #create categories and subcategories
+
+
+sen <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2012_underlying/SFR32_2012_TableLA9_SEN_UD.csv"),
+                colClasses = "character")%>%
+  dplyr::select(-country_code, country_name, gor_code, gor_name)%>% #remove unnecessary vars
+  dplyr::rename(LA_Name = la_name,
+                LA.Number = la_code,
+                LA_Code = la_9digit)%>% #rename id variables
+  dplyr::filter(!is.na(LA_Name))%>% #keep only LAs
+  tidyr::pivot_longer(cols = !c(LA.Number, LA_Name, LA_Code), names_to = "variable", 
+                      values_to = "value")%>% #pivot so variables go in one column
+  dplyr::mutate(category = "child outcomes",
+                subcategory = "special educational needs") #create categories and subcategories
+
+
+#bind together each outcome group
+outcomes_2012 <- rbind(schl_absence, schl_exclusion,
+                       ks1, ks2, ks4, oc2, sen)
+
+#allocate year variable
+outcomes_2012$year <- 2012
+
+#create missing variable for la codes in old data
+outcomes$LA_Code <- NA
+
+#bind together previous years
+outcomes <- rbind(outcomes, outcomes_2012)
+
+#remove all unnecessary dataframes
+rm(list=setdiff(ls(), c("outcomes")))
+
 
 
 #2013 
 
-outcomes_2013 <- read.xlsx("https://github.com/BenGoodair/childrens_social_care_data/raw/main/Raw_Data/LA_level/Children_Outcomes/2013_LA/SFR50_2013_LATablesA.xlsx",
-                           sheet = 3)
-                            
 
-
-temp_file <- tempfile(fileext = ".xlsx")
-req <- GET(github_link, 
-           # authenticate using GITHUB_PAT
-           authenticate(Sys.getenv("GITHUB_PAT"), ""),
-           # write result to disk
-           write_disk(path = temp_file))
-tab <- readxl::read_excel(temp_file)
-tab
 
 ####Children and Placement Characteristics####
 
