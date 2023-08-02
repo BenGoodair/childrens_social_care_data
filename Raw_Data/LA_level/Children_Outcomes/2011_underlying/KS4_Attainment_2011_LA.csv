@@ -1,0 +1,207 @@
+﻿LA Number,,Number eligible to sit GCSEs,Number of children achieving 5+ GCSEs at grades A*-C,Number of children achieving 5+ GCSEs at grades A*-C including English & mathematics ,Number of children achieving A*-C in English & mathematics
+E,England,5041,1573,643,674
+,,,,,
+NE,North East ,273,111,36,37
+NW,North West,765,249,99,104
+YH,Yorks & the Humber ,511,174,59,61
+EM,East Midlands,360,106,34,36
+WM,West Midlands,594,210,80,81
+EE,East of England ,529,161,81,87
+L,London ,921,282,133,138
+IL,Inner London,389,119,68,71
+OL,Outer London ,532,163,65,67
+SE,South East,661,163,69,75
+SW,South West ,427,117,52,55
+,,,,,
+201,City of London,x,0,0,0
+202,Camden,20,7,x,x
+203,Greenwich,35,6,x,x
+204,Hackney,22,6,x,x
+205,Hammersmith & Fulham,15,x,x,x
+206,Islington,26,7,x,x
+207,Kensington & Chelsea,14,6,x,x
+208,Lambeth,48,16,6,6
+209,Lewisham,37,9,x,x
+210,Southwark,46,20,11,11
+211,Tower Hamlets,26,11,6,6
+212,Wandsworth,13,x,x,x
+213,Westminster,21,x,x,x
+301,Barking and Dagenham,30,8,6,6
+302,Barnet,31,6,x,x
+303,Bexley,17,x,x,x
+304,Brent,41,12,6,6
+305,Bromley,35,10,x,x
+306,Croydon,106,46,7,8
+307,Ealing,24,6,x,x
+308,Enfield,25,10,6,6
+309,Haringey,44,9,x,x
+310,Harrow,19,x,x,x
+311,Havering,17,x,x,x
+312,Hillingdon,39,12,7,7
+313,Hounslow,28,x,x,x
+314,Kingston upon Thames,14,6,x,x
+315,Merton,x,0,0,0
+316,Newham,56,16,11,12
+317,Redbridge,16,8,x,x
+318,Richmond upon Thames,9,x,x,x
+319,Sutton,15,x,x,x
+320,Waltham Forest,28,9,x,x
+330,Birmingham,134,51,19,19
+331,Coventry,38,16,x,x
+332,Dudley,33,12,x,x
+333,Sandwell,35,14,x,x
+334,Solihull,51,22,7,7
+335,Walsall,30,12,x,x
+336,Wolverhampton,20,x,x,x
+340,Knowsley,24,9,x,x
+341,Liverpool,72,26,12,12
+342,St Helens,22,x,x,x
+343,Sefton,25,12,x,x
+344,Wirral,47,12,x,x
+350,Bolton,22,9,x,x
+351,Bury,20,6,x,x
+352,Manchester,103,32,9,9
+353,Oldham,26,10,x,x
+354,Rochdale,26,x,x,x
+355,Salford,48,16,x,6
+356,Stockport,18,x,x,x
+357,Tameside,18,x,x,x
+358,Trafford,23,9,6,6
+359,Wigan,27,6,x,x
+370,Barnsley,28,11,x,x
+371,Doncaster,37,11,x,x
+372,Rotherham,25,10,x,x
+373,Sheffield,49,10,x,x
+380,Bradford,57,17,6,6
+381,Calderdale,17,x,0,0
+382,Kirklees,31,11,x,x
+383,Leeds,98,32,9,10
+384,Wakefield,30,15,7,7
+390,Gateshead,33,16,x,x
+391,Newcastle upon Tyne,46,16,x,x
+392,North Tyneside,13,x,x,x
+393,South Tyneside,17,6,x,x
+394,Sunderland,31,11,x,x
+800,Bath & NE Somerset,12,x,x,x
+801,City of Bristol,61,23,6,7
+802,North Somerset,16,x,x,x
+803,South Gloucestershire,14,x,x,x
+805,Hartlepool,13,x,0,0
+806,Middlesbrough,20,8,x,x
+807,Redcar and Cleveland,10,x,x,x
+808,Stockton on Tees,15,7,x,x
+810,City of Kingston-Upon-Hull,34,16,x,x
+811,East Riding of Yorkshire,32,14,x,x
+812,North East Lincolnshire,12,x,x,x
+813,North Lincolnshire,10,x,x,x
+815,North Yorkshire,34,11,x,x
+816,York,17,x,x,x
+821,Luton,39,14,7,8
+822,Bedford Borough,14,x,x,x
+823,Central Bedfordshire,16,x,0,x
+825,Buckinghamshire,23,6,x,x
+826,Milton Keynes,17,x,0,0
+830,Derbyshire,67,17,7,8
+831,Derby,36,18,6,7
+835,Dorset,22,x,x,x
+836,Poole,15,x,x,x
+837,Bournemouth,21,x,x,x
+840,Durham,45,24,6,6
+841,Darlington,15,x,x,x
+845,East Sussex,43,11,x,x
+846,Brighton & Hove,27,x,x,x
+850,Hampshire,106,19,7,9
+851,Portsmouth,17,x,x,x
+852,Southampton,25,x,x,x
+855,Leicestershire,33,12,x,x
+856,Leicester City,36,9,x,x
+857,Rutland,x,0,0,0
+860,Staffordshire,67,22,11,11
+861,Stoke,31,9,x,x
+865,Wiltshire,26,x,x,x
+866,Swindon,26,8,x,x
+867,Bracknell Forest,9,x,x,x
+868,Royal Borough of Windsor & Maidenhead,9,x,x,x
+869,West Berkshire,8,x,0,0
+870,Reading,12,x,x,x
+871,Slough,15,6,x,x
+872,Wokingham,10,x,x,x
+873,Cambridgeshire,48,10,x,x
+874,City of Peterborough,22,7,x,x
+876,Halton,15,6,x,x
+877,Warrington,12,x,x,x
+878,Devon,48,14,9,9
+879,City of Plymouth,25,8,x,x
+880,Torbay,13,7,x,x
+881,Essex,131,39,16,17
+882,Southend,17,7,x,x
+883,Thurrock,7,6,x,x
+884,Herefordshire,14,x,x,x
+885,Worcestershire,45,12,x,x
+886,Kent,135,33,14,15
+887,Medway,31,13,x,x
+888,Lancashire,82,23,10,10
+889,Blackburn and Darwin,27,10,x,x
+890,Blackpool,22,14,7,8
+891,Nottinghamshire,52,15,7,7
+892,City of Nottingham,29,x,x,x
+893,Shropshire,17,x,x,x
+894,Telford and Wrekin,20,7,x,x
+895,Cheshire East,27,10,x,x
+896,Cheshire West & Chester,20,x,x,x
+908,Cornwall,43,16,9,9
+909,Cumbria,39,13,6,6
+916,Gloucestershire,49,6,x,x
+919,Hertfordshire,104,31,17,18
+921,Isle of Wight,21,6,x,x
+925,Lincolnshire,39,13,x,x
+926,Norfolk,80,27,19,20
+928,Northamptonshire,67,18,8,8
+929,Northumberland,15,9,6,6
+931,Oxfordshire,50,8,x,x
+933,Somerset,36,6,x,x
+935,Suffolk,51,15,8,9
+936,Surrey,51,19,11,11
+937,Warwickshire,59,20,8,8
+938,West Sussex,52,14,x,x
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,

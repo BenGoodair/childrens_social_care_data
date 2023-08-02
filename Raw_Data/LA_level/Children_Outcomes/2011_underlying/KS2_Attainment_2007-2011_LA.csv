@@ -1,0 +1,168 @@
+﻿LA Number,,Total eligible for KS2 tests 2007,Number achieving Level 4 in English 2007,Number achieving Level 4 in Maths 2007,Number achieving Level 4 in English and Maths 2007,Total eligible for KS2 tests 2008,Number achieving Level 4 in English 2008,Number achieving Level 4 in Maths 2008, Number achieving Level 4 in English and Maths 2008,Total eligible for KS2 tests 2009,Number achieving Level 4 in English 2009,Number achieving Level 4 in Maths 2009,Number achieving Level 4 in English and Maths 2009,Total eligible for KS2 tests 2010,Number achieving Level 4 in English 2010,Number achieving Level 4 in Maths 2010,Number achieving Level 4 in English and Maths 2010,Total eligible for KS2 tests 2011,Number achieving Level 4 in English 2011,Number achieving Level 4 in Maths 2011,Number achieving Level 4 in English and Maths 2011
+E,England,2554,1158,1078,867,2560,1163,1111,905,2366,1060,1039,819,1783,822,804,656,2244,1116,1075,901
+,,,,,,,,,,,,,,,,,,,,,
+NE,North East ,170,75,69,55,129,63,60,49,138,62,56,48,74,39,37,33,124,63,65,54
+NW,North West,485,236,234,188,509,260,241,203,411,189,181,149,338,179,174,150,435,239,240,203
+YH,Yorks & the Humber ,274,115,105,83,271,122,116,93,257,109,120,90,206,83,87,68,267,129,111,97
+EM,East Midlands,146,70,70,61,150,63,59,48,144,67,66,51,107,40,42,28,139,59,70,49
+WM,West Midlands,335,140,135,101,325,134,149,111,332,144,154,115,209,92,95,76,303,146,137,112
+EE,East of England ,284,138,119,100,288,125,128,105,246,115,108,83,219,112,95,81,216,104,94,83
+L,London ,383,180,167,133,423,197,183,154,378,177,164,133,254,121,119,95,354,180,169,149
+IL,Inner London,203,100,88,71,211,99,95,80,195,90,91,70,127,59,59,46,163,84,77,68
+OL,Outer London ,180,80,79,62,212,98,88,74,183,87,73,63,127,62,60,49,191,96,92,81
+SE,South East,284,120,96,80,285,118,94,76,274,105,106,82,230,92,92,75,256,117,114,92
+SW,South West ,193,84,83,66,180,81,81,66,186,92,84,68,146,64,63,50,150,79,75,62
+,,,,,,,,,,,,,,,,,,,,,
+201,City of London,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,x,x,x,x
+202,Camden,15,6,9,x,x,x,x,x,11,x,6,x,9,x,x,x,7,x,x,x
+203,Greenwich,15,9,6,6,17,7,7,6,20,7,7,x,15,9,9,8,26,12,12,10
+204,Hackney,12,x,x,x,20,7,9,7,15,9,7,7,10,6,6,x,13,7,8,7
+205,Hammersmith & Fulham,15,8,8,6,14,9,8,7,13,6,7,x,6,x,x,x,9,x,x,x
+206,Islington,16,9,7,7,18,9,8,7,8,x,x,x,15,7,8,7,9,x,x,x
+207,Kensington & Chelsea,7,x,x,x,6,x,x,x,9,x,x,x,x,x,x,x,x,x,x,x
+208,Lambeth,21,11,10,8,15,x,x,x,17,8,10,8,21,12,11,9,20,12,10,9
+209,Lewisham,13,8,8,7,21,11,12,11,20,12,12,11,14,x,6,x,26,14,12,11
+210,Southwark,18,10,6,x,23,8,6,6,18,8,8,6,15,9,6,6,11,x,6,x
+211,Tower Hamlets,19,9,7,6,10,x,x,x,14,7,x,x,8,x,x,x,11,7,6,6
+212,Wandsworth,11,x,x,x,17,7,6,x,17,6,10,x,x,0,x,0,6,x,x,x
+213,Westminster,9,x,x,x,12,6,x,x,8,x,x,x,x,x,x,x,8,x,x,x
+301,Barking and Dagenham,8,x,x,x,9,x,x,x,14,7,x,x,7,0,0,0,16,x,x,x
+302,Barnet,19,13,13,12,19,8,10,7,20,10,10,7,x,x,x,x,13,8,7,7
+303,Bexley,8,x,x,x,7,x,x,x,8,x,x,x,9,x,x,x,6,x,x,x
+304,Brent,10,7,6,6,23,12,9,9,12,x,x,x,13,x,x,x,8,x,x,x
+305,Bromley,11,6,x,x,12,9,7,7,10,x,x,x,x,x,x,x,10,6,x,x
+306,Croydon,19,x,x,x,17,7,6,x,11,8,6,x,10,7,7,6,26,16,16,15
+307,Ealing,14,x,x,x,8,x,x,x,15,9,7,7,13,8,7,7,14,x,6,x
+308,Enfield,6,x,x,x,14,7,x,x,13,6,x,x,10,x,x,x,10,7,7,6
+309,Haringey,21,11,9,9,20,11,12,10,18,9,8,7,x,x,x,x,24,12,12,10
+310,Harrow,9,x,x,x,6,x,x,x,x,x,x,x,x,x,x,x,x,0,0,0
+311,Havering,7,x,x,x,15,6,x,x,x,x,x,x,x,x,0,0,11,6,6,6
+312,Hillingdon,20,7,9,7,20,x,7,x,14,x,x,x,6,x,x,x,10,6,6,x
+313,Hounslow,7,x,6,x,13,x,x,x,13,9,8,8,7,x,6,x,14,8,x,x
+314,Kingston upon Thames,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,0,0
+315,Merton,x,x,0,0,7,x,x,x,x,x,x,x,x,x,x,x,6,x,x,x
+316,Newham,26,11,8,x,30,18,19,17,27,12,10,7,16,7,7,x,13,6,x,x
+317,Redbridge,x,x,0,0,6,x,x,x,6,x,x,x,x,x,x,x,x,x,x,x
+318,Richmond upon Thames,x,x,x,x,x,x,x,x,x,x,x,0,x,0,0,0,x,0,0,0
+319,Sutton,x,0,x,0,x,x,x,x,x,x,0,0,x,x,x,x,x,x,x,x
+320,Waltham Forest,15,6,x,x,11,6,x,x,9,x,x,x,8,x,x,x,8,x,x,x
+330,Birmingham,83,37,36,26,85,42,40,34,90,43,47,38,56,33,32,28,80,44,45,37
+331,Coventry,30,10,10,7,26,13,15,13,26,11,15,11,15,x,9,x,27,9,12,7
+332,Dudley,23,11,12,8,27,9,13,8,32,11,12,8,14,x,x,x,24,12,11,10
+333,Sandwell,27,14,12,11,26,17,16,14,24,14,14,12,8,x,x,x,26,11,9,7
+334,Solihull,10,x,x,x,10,x,x,x,10,6,6,6,x,x,x,x,6,x,x,x
+335,Walsall,21,7,x,x,14,x,x,0,19,7,6,x,20,10,9,8,20,10,9,6
+336,Wolverhampton,16,7,6,6,20,7,9,x,18,9,6,6,18,9,9,9,17,10,11,10
+340,Knowsley,9,6,x,x,15,6,7,x,23,9,10,7,12,6,7,6,7,x,x,x
+341,Liverpool,46,22,25,19,43,23,15,10,29,11,11,8,25,10,10,7,45,29,32,27
+342,St Helens,14,6,6,x,12,6,6,6,12,7,8,7,22,15,14,13,17,8,7,6
+343,Sefton,10,x,x,x,21,15,14,13,11,6,6,x,20,13,13,12,18,8,7,6
+344,Wirral,32,12,16,10,41,25,25,23,25,12,10,9,27,14,15,13,26,17,15,15
+350,Bolton,25,14,14,10,15,x,8,x,16,7,7,6,15,7,x,x,22,11,11,9
+351,Bury,12,x,x,x,16,8,7,6,10,x,6,x,7,x,x,x,9,x,x,x
+352,Manchester,67,36,34,27,67,33,29,28,57,31,25,24,32,10,10,8,57,26,34,24
+353,Oldham,10,x,x,x,22,9,10,8,13,x,x,x,7,x,x,x,11,6,6,6
+354,Rochdale,12,x,7,x,22,10,12,10,15,x,7,x,6,x,x,x,18,13,13,11
+355,Salford,25,15,14,12,22,10,11,9,17,11,10,9,14,6,7,6,22,12,11,9
+356,Stockport,18,x,x,x,20,13,8,8,12,x,6,x,9,6,7,6,7,x,x,x
+357,Tameside,20,10,10,9,17,12,11,10,11,6,x,x,18,12,10,9,17,10,11,9
+358,Trafford,9,x,x,x,10,x,x,x,17,12,12,10,x,x,x,x,6,x,x,x
+359,Wigan,21,9,10,6,15,7,8,7,16,x,7,x,14,6,7,6,16,11,10,9
+370,Barnsley,14,7,7,x,9,x,x,x,7,x,x,x,x,x,x,x,x,x,x,x
+371,Doncaster,15,x,6,x,11,6,6,x,8,x,0,0,9,x,x,x,11,7,x,x
+372,Rotherham,20,x,x,x,12,6,6,x,17,6,6,x,18,6,9,6,20,8,8,7
+373,Sheffield,18,9,8,7,23,7,x,x,14,0,0,0,21,8,8,6,24,8,7,7
+380,Bradford,40,24,16,16,40,14,20,11,35,15,20,14,25,12,15,12,34,16,17,14
+381,Calderdale,6,x,x,x,8,7,x,x,10,x,x,x,9,x,x,x,14,10,10,10
+382,Kirklees,15,x,x,x,20,11,9,9,21,9,11,7,14,6,6,x,18,12,9,9
+383,Leeds,64,27,21,19,62,26,26,22,57,30,31,25,38,15,14,10,59,32,23,21
+384,Wakefield,16,x,x,x,10,x,x,x,10,6,7,x,6,x,x,x,14,x,x,x
+390,Gateshead,13,x,x,x,8,x,x,x,10,x,x,x,8,6,x,x,7,x,x,x
+391,Newcastle upon Tyne,28,11,8,8,29,16,14,11,17,7,9,6,8,x,x,x,23,12,12,11
+392,North Tyneside,7,x,x,x,7,x,x,x,9,x,x,x,x,x,x,x,8,x,x,x
+393,South Tyneside,12,x,x,x,8,x,x,x,12,7,7,7,x,x,0,0,10,x,x,x
+394,Sunderland,28,13,10,8,12,10,11,10,19,8,9,8,11,7,7,7,12,x,x,x
+420,Isles of Scilly,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+800,Bath & NE Somerset,9,x,x,x,x,0,0,0,7,x,x,x,x,x,x,x,x,x,x,x
+801,City of Bristol,25,10,7,7,36,13,14,12,35,19,17,15,18,10,9,8,29,17,14,11
+802,North Somerset,7,x,x,x,6,x,x,x,9,x,x,x,8,x,x,x,8,x,x,x
+803,South Gloucestershire,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,0,x,x,x,x
+805,Hartlepool,6,x,x,x,9,x,x,x,x,x,x,x,x,x,x,x,7,x,x,x
+806,Middlesbrough,15,11,9,8,11,x,x,x,7,x,x,x,6,x,x,x,6,x,x,x
+807,Redcar and Cleveland,x,x,x,x,x,x,0,0,x,x,x,x,x,0,0,0,x,x,x,x
+808,Stockton on Tees,7,x,x,x,10,x,x,x,12,x,x,x,x,x,x,x,13,8,9,8
+810,City of Kingston-Upon-Hull,18,x,6,x,22,17,15,14,27,9,14,7,14,x,7,x,21,9,10,7
+811,East Riding of Yorkshire,11,7,6,6,13,6,x,x,10,x,x,x,10,6,6,6,10,x,x,x
+812,North East Lincolnshire,6,x,x,x,7,x,x,x,6,x,x,x,x,0,0,0,x,x,x,x
+813,North Lincolnshire,8,x,x,0,6,x,x,x,6,x,x,x,7,0,0,0,x,x,x,x
+815,North Yorkshire,19,9,9,7,19,6,x,x,20,9,10,7,19,7,6,x,20,10,6,6
+816,York,x,x,x,x,9,x,x,x,9,6,6,6,10,x,x,x,9,6,x,x
+821,Luton,18,8,7,6,19,x,x,x,15,8,6,6,15,10,9,7,18,9,8,7
+822,Bedford Borough,.,.,.,.,.,.,.,.,x,0,0,0,x,x,0,0,8,x,x,x
+823,Central Bedfordshire,.,.,.,.,.,.,.,.,x,x,0,0,x,x,x,x,x,x,x,x
+825,Buckinghamshire,14,9,7,7,11,6,x,x,13,7,6,6,12,x,x,x,8,x,x,x
+826,Milton Keynes,9,x,x,x,7,x,x,0,8,x,x,x,6,x,0,0,12,x,x,x
+830,Derbyshire,20,11,9,9,18,9,8,6,18,7,6,x,14,x,x,x,18,9,10,8
+831,Derby,20,14,13,11,17,7,7,x,18,9,10,8,14,9,8,6,17,x,7,x
+835,Dorset,8,6,x,x,10,6,6,6,11,7,6,6,10,8,x,x,9,x,x,x
+836,Poole,9,x,x,x,7,x,x,x,x,x,x,x,7,x,x,x,x,x,x,x
+837,Bournemouth,7,x,x,x,6,x,x,x,7,x,x,x,x,x,x,0,x,x,x,x
+840,Durham,19,10,10,7,14,6,7,6,24,13,9,9,13,7,7,6,15,8,9,6
+841,Darlington,7,x,x,x,6,x,x,x,7,x,x,x,x,x,x,x,8,7,6,6
+845,East Sussex,21,10,x,x,19,8,7,6,27,10,8,7,14,x,x,x,16,x,6,x
+846,Brighton & Hove,10,6,6,x,19,11,8,6,14,7,9,7,9,x,x,x,10,6,x,x
+850,Hampshire,47,15,15,12,47,16,16,10,40,19,19,15,39,16,19,14,35,16,15,12
+851,Portsmouth,12,7,7,6,13,8,6,x,9,x,x,x,15,9,9,7,8,x,6,x
+852,Southampton,14,7,6,x,11,x,x,x,9,x,x,0,9,x,x,x,13,6,7,x
+855,Leicestershire,14,x,x,x,9,x,x,0,9,x,x,x,x,x,x,x,9,6,7,x
+856,Leicester City,14,x,x,x,17,8,7,7,16,11,8,7,16,x,x,x,16,6,10,6
+857,Rutland,x,x,x,x,0,0,0,0,x,x,x,x,0,0,0,0,0,0,0,0
+860,Staffordshire,33,12,12,8,28,7,11,7,33,12,13,9,21,7,7,x,21,9,7,7
+861,Stoke,21,11,11,9,23,x,9,x,18,7,9,x,6,x,x,x,15,10,8,7
+865,Wiltshire,17,8,7,x,15,6,7,x,10,x,x,x,15,x,x,x,13,7,9,7
+866,Swindon,10,x,x,x,7,x,x,x,12,x,x,x,11,x,x,x,7,x,x,x
+867,Bracknell Forest,0,0,0,0,x,x,x,x,x,x,x,x,x,0,0,0,x,x,0,0
+868,Royal Borough of Windsor & Maidenhead,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,0,x,0
+869,West Berkshire,x,x,x,x,x,x,x,x,x,x,x,x,x,x,0,0,x,x,x,x
+870,Reading,x,x,0,0,12,6,x,x,12,6,x,x,10,x,x,x,x,x,x,x
+871,Slough,9,6,x,x,x,0,0,0,x,0,0,0,x,x,x,x,x,x,x,x
+872,Wokingham,x,0,0,0,x,0,0,0,x,0,0,0,x,0,x,0,7,x,x,x
+873,Cambridgeshire,17,9,11,9,14,x,x,x,15,7,8,6,14,8,8,7,17,7,x,x
+874,City of Peterborough,18,11,7,6,16,6,7,x,15,x,x,x,10,x,x,x,13,6,x,x
+876,Halton,x,x,x,x,x,x,x,x,6,x,x,x,10,x,x,x,x,x,x,x
+877,Warrington,12,9,8,8,7,x,x,x,9,x,6,x,6,x,x,x,9,x,x,x
+878,Devon,22,8,9,x,22,14,12,12,18,10,11,9,15,6,x,x,17,x,x,x
+879,City of Plymouth,20,9,12,9,21,9,7,6,20,10,9,7,15,6,6,x,11,6,x,x
+880,Torbay,8,x,x,x,9,x,x,0,12,7,x,x,x,x,x,x,7,x,x,x
+881,Essex,64,35,30,27,64,26,28,22,58,28,28,20,57,38,37,33,52,28,26,22
+882,Southend,12,7,x,x,19,10,10,9,20,13,12,10,7,x,x,x,8,7,7,7
+883,Thurrock,9,x,x,x,10,6,7,6,6,x,x,x,6,x,0,0,6,x,x,x
+884,Herefordshire,6,x,x,x,x,x,x,x,7,x,x,0,7,x,x,x,6,x,x,x
+885,Worcestershire,28,9,7,x,21,11,13,10,20,x,7,x,19,8,9,8,21,9,9,6
+886,Kent,39,15,12,9,40,14,11,10,52,16,16,10,39,16,21,15,55,24,24,18
+887,Medway,13,x,x,x,9,x,x,x,8,x,x,x,12,8,7,6,11,x,x,x
+888,Lancashire,63,27,27,24,53,23,16,15,44,19,18,16,36,19,17,17,57,25,23,17
+889,Blackburn and Darwin,14,8,7,6,12,7,6,x,11,x,x,x,8,6,6,x,15,8,6,x
+890,Blackpool,9,x,x,x,15,6,8,6,11,x,x,x,x,x,x,x,12,8,8,7
+891,Nottinghamshire,20,14,14,13,15,x,6,x,24,12,15,11,16,6,x,x,11,6,9,6
+892,City of Nottingham,13,6,6,6,22,11,12,10,17,7,7,6,10,x,x,x,14,x,7,x
+893,Shropshire,x,x,x,x,6,x,x,x,10,6,x,x,x,0,0,0,x,x,x,x
+894,Telford and Wrekin,14,x,6,x,9,x,x,x,8,6,x,x,7,x,x,x,7,x,x,x
+895,Cheshire East,.,.,.,.,.,.,.,.,11,x,x,x,11,7,7,6,9,7,7,7
+896,Cheshire West & Chester,.,.,.,.,.,.,.,.,15,7,x,x,17,6,7,x,10,x,x,x
+908,Cornwall,15,7,10,7,12,x,x,x,14,x,6,x,12,x,7,x,11,6,9,x
+909,Cumbria,27,16,14,13,24,11,12,7,20,11,8,7,13,8,8,7,20,14,12,12
+916,Gloucestershire,17,9,7,7,16,10,10,8,12,x,x,x,10,x,x,x,10,7,x,x
+919,Hertfordshire,48,22,19,17,50,21,18,16,37,16,15,12,37,19,10,10,31,14,14,12
+921,Isle of Wight,9,x,x,x,6,x,x,x,7,x,x,x,10,7,6,6,9,x,x,x
+925,Lincolnshire,20,7,8,6,27,12,12,10,25,11,12,9,19,x,8,x,26,9,8,6
+926,Norfolk,51,24,17,15,53,24,26,19,37,17,17,11,37,16,12,9,34,14,15,13
+928,Northamptonshire,24,11,12,10,25,9,6,6,16,6,x,x,15,10,9,7,28,13,12,10
+929,Northumberland,23,10,11,10,13,x,x,x,13,x,6,x,8,x,x,x,10,x,x,x
+931,Oxfordshire,9,x,x,x,17,6,x,x,15,x,x,x,8,x,x,x,7,x,x,x
+933,Somerset,17,6,8,6,7,x,x,x,12,6,6,x,10,x,x,x,12,9,8,8
+935,Suffolk,24,10,8,7,33,18,18,15,38,16,16,13,28,10,10,8,25,11,10,10
+936,Surrey,37,18,14,12,24,11,8,7,26,7,9,x,18,7,6,x,23,10,11,8
+937,Warwickshire,18,8,9,6,27,11,7,7,17,6,6,x,14,6,7,x,28,9,9,8
+938,West Sussex,26,13,8,x,36,14,12,10,23,12,14,12,20,6,x,x,26,12,10,8
+,,,,,,,,,,,,,,,,,,,,,

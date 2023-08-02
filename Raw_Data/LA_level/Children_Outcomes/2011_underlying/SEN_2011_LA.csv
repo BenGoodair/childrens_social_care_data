@@ -1,0 +1,167 @@
+﻿LA Number,,Number with SEN,Number with No SEN,Number without statement,Number with statement
+E,England,20715,7726,12361,8354
+,,,,,
+NE,North East ,1191,461,715,476
+NW,North West,3707,1554,2283,1424
+YH,Yorks & the Humber ,2275,974,1501,774
+EM,East Midlands,1449,391,864,585
+WM,West Midlands,2593,1188,1503,1090
+EE,East of England ,2047,769,1129,918
+L,London ,3088,1089,1834,1254
+IL,Inner London,1431,474,838,593
+OL,Outer London ,1657,615,996,661
+SE,South East,2664,768,1561,1103
+SW,South West ,1701,532,971,730
+,,,,,
+201,City of London,x,x,x,0
+202,Camden,83,18,43,40
+203,Greenwich,155,63,102,53
+204,Hackney,78,32,49,29
+205,Hammersmith & Fulham,73,23,37,36
+206,Islington,96,35,56,40
+207,Kensington & Chelsea,40,16,24,16
+208,Lambeth,162,45,100,62
+209,Lewisham,169,65,112,57
+210,Southwark,152,45,71,81
+211,Tower Hamlets,98,42,54,44
+212,Wandsworth,83,17,45,38
+213,Westminster,58,27,36,22
+301,Barking and Dagenham,101,37,70,31
+302,Barnet,122,24,76,46
+303,Bexley,60,22,39,21
+304,Brent,95,43,58,37
+305,Bromley,118,16,60,58
+306,Croydon,176,119,116,60
+307,Ealing,118,38,67,51
+308,Enfield,91,34,54,37
+309,Haringey,158,59,99,59
+310,Harrow,33,9,15,18
+311,Havering,63,15,42,21
+312,Hillingdon,116,53,67,49
+313,Hounslow,119,35,77,42
+314,Kingston upon Thames,31,17,14,17
+315,Merton,25,11,13,12
+316,Newham,180,49,111,69
+317,Redbridge,60,23,36,24
+318,Richmond upon Thames,30,11,9,21
+319,Sutton,49,10,25,24
+320,Waltham Forest,95,35,56,39
+330,Birmingham,604,323,339,265
+331,Coventry,230,60,145,85
+332,Dudley,200,126,115,85
+333,Sandwell,187,77,127,60
+334,Solihull,92,75,55,37
+335,Walsall,142,81,81,61
+336,Wolverhampton,113,76,65,48
+340,Knowsley,111,42,63,48
+341,Liverpool,300,167,220,80
+342,St Helens,119,64,83,36
+343,Sefton,129,65,93,36
+344,Wirral,270,63,181,89
+350,Bolton,162,72,108,54
+351,Bury,79,41,44,35
+352,Manchester,438,193,281,157
+353,Oldham,101,46,65,36
+354,Rochdale,132,62,81,51
+355,Salford,170,83,82,88
+356,Stockport,101,32,44,57
+357,Tameside,103,59,71,32
+358,Trafford,79,39,40,39
+359,Wigan,166,52,110,56
+370,Barnsley,77,31,47,30
+371,Doncaster,132,66,94,38
+372,Rotherham,134,48,89,45
+373,Sheffield,192,52,116,76
+380,Bradford,297,129,219,78
+381,Calderdale,84,43,48,36
+382,Kirklees,184,79,111,73
+383,Leeds,476,207,349,127
+384,Wakefield,121,38,79,42
+390,Gateshead,97,39,49,48
+391,Newcastle upon Tyne,165,92,112,53
+392,North Tyneside,87,30,53,34
+393,South Tyneside,94,30,54,40
+394,Sunderland,130,47,87,43
+420,Isles of Scilly,0,0,0,0
+800,Bath & NE Somerset,51,25,29,22
+801,City of Bristol,217,110,121,96
+802,North Somerset,83,17,65,18
+803,South Gloucestershire,41,24,18,23
+805,Hartlepool,64,16,40,24
+806,Middlesbrough,89,49,54,35
+807,Redcar and Cleveland,46,22,23,23
+808,Stockton on Tees,75,39,49,26
+810,City of Kingston-Upon-Hull,162,98,110,52
+811,East Riding of Yorkshire,84,48,55,29
+812,North East Lincolnshire,47,7,25,22
+813,North Lincolnshire,66,11,30,36
+815,North Yorkshire,137,77,77,60
+816,York,82,40,52,30
+821,Luton,130,57,82,48
+822,Bedford Borough,46,16,20,26
+823,Central Bedfordshire,58,13,33,25
+825,Buckinghamshire,108,39,49,59
+826,Milton Keynes,79,32,43,36
+830,Derbyshire,209,59,109,100
+831,Derby,170,51,114,56
+835,Dorset,102,31,63,39
+836,Poole,41,24,19,22
+837,Bournemouth,62,21,32,30
+840,Durham,194,44,113,81
+841,Darlington,52,21,35,17
+845,East Sussex,192,53,96,96
+846,Brighton & Hove,133,38,76,57
+850,Hampshire,411,107,260,151
+851,Portsmouth,95,38,71,24
+852,Southampton,101,51,77,24
+855,Leicestershire,102,47,50,52
+856,Leicester City,172,46,95,77
+857,Rutland,11,0,10,x
+860,Staffordshire,247,120,145,102
+861,Stoke,142,40,78,64
+865,Wiltshire,125,40,64,61
+866,Swindon,84,32,48,36
+867,Bracknell Forest,27,10,11,16
+868,Royal Borough of Windsor & Maidenhead,35,8,20,15
+869,West Berkshire,37,12,21,16
+870,Reading,73,11,43,30
+871,Slough,46,18,31,15
+872,Wokingham,24,8,8,16
+873,Cambridgeshire,170,37,97,73
+874,City of Peterborough,113,31,53,60
+876,Halton,34,20,21,13
+877,Warrington,72,34,43,29
+878,Devon,221,36,105,116
+879,City of Plymouth,139,35,80,59
+880,Torbay,85,15,51,34
+881,Essex,478,200,276,202
+882,Southend,85,39,47,38
+883,Thurrock,63,21,30,33
+884,Herefordshire,54,18,28,26
+885,Worcestershire,216,47,118,98
+886,Kent,516,112,334,182
+887,Medway,111,26,62,49
+888,Lancashire,430,171,223,207
+889,Blackburn and Darwin,121,44,76,45
+890,Blackpool,109,56,78,31
+891,Nottinghamshire,204,48,152,52
+892,City of Nottingham,153,35,117,36
+893,Shropshire,67,21,34,33
+894,Telford and Wrekin,87,39,50,37
+895,Cheshire East,152,56,100,52
+896,Cheshire West & Chester,144,29,66,78
+908,Cornwall,169,43,97,72
+909,Cumbria,185,64,110,75
+916,Gloucestershire,147,41,86,61
+919,Hertfordshire,339,125,205,134
+921,Isle of Wight,57,30,30,27
+925,Lincolnshire,198,49,96,102
+926,Norfolk,321,122,158,163
+928,Northamptonshire,230,56,121,109
+929,Northumberland,98,32,46,52
+931,Oxfordshire,134,39,73,61
+933,Somerset,134,38,93,41
+935,Suffolk,244,108,128,116
+936,Surrey,233,71,114,119
+937,Warwickshire,212,85,123,89
+938,West Sussex,252,65,142,110
