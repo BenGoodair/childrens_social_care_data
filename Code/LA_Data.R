@@ -2,7 +2,7 @@
 
 if (!require("pacman")) install.packages("pacman")
 
-pacman::p_load(devtools, dplyr, tidyverse, stringr, lubridate, curl, openxlsx)
+pacman::p_load(devtools, dplyr, tidyverse, stringr, lubridate, curl)
 
 
 setwd("C:/Users/bengo/OneDrive - Nexus365/Documents/Children's Care Homes Project")
@@ -316,6 +316,148 @@ rm(list=setdiff(ls(), c("outcomes")))
 
 
 #2013 
+#read in raw data with all cols as character so they can pivot together, skip empty rows
+ks1 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2013_LA/sheet1_ks1.csv"),
+                colClasses = "character", skip=4)%>%
+  dplyr::rename(LA_Name= X,
+                percent_level_24_reading = Percentage.achieving.at.least.Level.24.in.the.following.,
+                percent_level_24_writing = X.2,
+                percent_level_24_maths = X.3)%>% #rename variables
+  dplyr::select(LA_Name,Percentage.with.UPN2, Number.eligible.for.Key.Stage.1.assessments3,percent_level_24_reading, percent_level_24_writing, percent_level_24_maths)%>% #remove empty column
+  tidyr::pivot_longer(cols=!LA_Name, names_to = "variable", 
+                      values_to = "value")%>% #pivot so variables go in one column
+  dplyr::mutate(category = "child outcomes",
+                subcategory = "ks1") #create categories and subcategories)
+
+
+ks2 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2013_LA/sheet2_ks2.csv"),
+                colClasses = "character", skip=5)[c(1,27:33)]%>%
+  dplyr::rename(LA_Name= X,
+                percent_level_45_maths = Percentage.who.achieved.at.least.Level.45.in.the.following..4,
+                percent_level_45_writing = X.16,
+                percent_level_45_reading = X.15,
+                percent_level_45_grammar = X.17)%>% #rename variables
+  dplyr::select(-X.14)%>% #remove empty column
+  tidyr::pivot_longer(cols=!LA_Name, names_to = "variable", 
+                      values_to = "value")%>% #pivot so variables go in one column
+  dplyr::mutate(category = "child outcomes",
+                subcategory = "ks2") #create categories and subcategories)
+
+ks4 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2013_LA/sheet3_ks4.csv"),
+               colClasses = "character", skip=5)[c(1,30:35)]%>%
+  dplyr::rename(LA_Name= X,
+                Five_GCSEs = X.19,
+                Five_GCSEs_inc_Eng_Mat = X.20,
+                GCSES_Eng_Mat = X.21)%>% #rename variables
+  dplyr::select(-X.18)%>% #remove empty column
+  tidyr::pivot_longer(cols=!LA_Name, names_to = "variable", 
+                      values_to = "value")%>% #pivot so variables go in one column
+  dplyr::mutate(category = "child outcomes",
+                subcategory = "ks4") #create categories and subcategories)
+
+oc21 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2013_LA/sheet4_oc21.csv"),
+                colClasses = "character", skip=4)[-c(7,8)]%>%
+  dplyr::rename(LA_Name= X,
+                number_convicted = Looked.after.children.aged.10.and.above)%>% #rename variables
+  dplyr::select(-X.1, -X.2)%>% #remove empty column
+  tidyr::pivot_longer(cols=!LA_Name, names_to = "variable", 
+                      values_to = "value")%>% #pivot so variables go in one column
+  dplyr::mutate(category = "child outcomes",
+                subcategory = "health, conviction, neet") #create categories and subcategories)
+
+
+oc22 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2013_LA/sheet5_oc22.csv"),
+                 colClasses = "character", skip=4)[c(1:6)]%>%
+  dplyr::rename(LA_Name= X)%>% #rename variables
+  dplyr::select(-X.1)%>% #remove empty column
+  tidyr::pivot_longer(cols=!LA_Name, names_to = "variable", 
+                      values_to = "value")%>% #pivot so variables go in one column
+  dplyr::mutate(category = "child outcomes",
+                subcategory = "health, conviction, neet")
+
+oc23 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2013_LA/sheet6_oc23.csv"),
+                 colClasses = "character", skip=4)[c(1:9)]%>%
+  dplyr::rename(LA_Name= X)%>% #rename variables
+  dplyr::select(-X.1, -X.2)%>% #remove empty column
+  tidyr::pivot_longer(cols=!LA_Name, names_to = "variable", 
+                      values_to = "value")%>% #pivot so variables go in one column
+  dplyr::mutate(category = "child outcomes",
+                subcategory = "health, conviction, neet")
+
+oc24 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2013_LA/sheet7_oc24.csv"),
+                 colClasses = "character", skip=5)[c(1, 18:24)]%>%
+  dplyr::rename(LA_Name= X,
+                percent_normal = Banded.SDQ.Score4.2,
+                percent_concern = X.8,
+                percent_borderline = X.7)%>% #rename variables
+  #dplyr::select(-X.1, -X.2)%>% #remove empty column
+  tidyr::pivot_longer(cols=!LA_Name, names_to = "variable", 
+                      values_to = "value")%>% #pivot so variables go in one column
+  dplyr::mutate(category = "child outcomes",
+                subcategory = "health, conviction, neet")
+
+sen <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2013_LA/sheet8_sen.csv"),
+                 colClasses = "character", skip=4)[c(1:5,8,11,14)]%>%
+  dplyr::rename(LA_Name= X,
+                no_sen = Number.of.looked.after.children.with.the.following.SEN.need4.,
+                sen_no_statement = X.4,
+                sen_with_statement = X.7)%>% #rename variables
+  dplyr::select(-X.1)%>% #remove empty column
+  tidyr::pivot_longer(cols=!LA_Name, names_to = "variable", 
+                      values_to = "value")%>% #pivot so variables go in one column
+  dplyr::mutate(category = "child outcomes",
+                subcategory = "special educational needs")
+
+# sch_exclusion <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2013_LA/sheet9_excluded.csv"),
+#                         colClasses = "character", skip=4)[c(1:5,8,11,14)]%>%
+#   dplyr::rename(LA_Name= X,
+#                 no_sen = Number.of.looked.after.children.with.the.following.SEN.need4.,
+#                 sen_no_statement = X.4,
+#                 sen_with_statement = X.7)%>% #rename variables
+#   dplyr::select(-X.1)%>% #remove empty column
+#   tidyr::pivot_longer(cols=!LA_Name, names_to = "variable", 
+#                       values_to = "value")%>% #pivot so variables go in one column
+#   dplyr::mutate(category = "child outcomes",
+#                 subcategory = "special educational needs")
+
+
+schl_absence <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2013_LA/sheet10_absence.csv"),
+                colClasses = "character", skip=5)[c(1,43:49)]%>%
+  dplyr::rename(LA_Name= X,
+                percent_authorised_absence = Percentage.of.sessions.lost.due.to6..4,
+                percent_unauthorised_absence = X.28,
+                percent_any_absence = X.29)%>% #rename variables
+  dplyr::select(-X.26, -X.27)%>% #remove empty column
+  tidyr::pivot_longer(cols=!LA_Name, names_to = "variable", 
+                      values_to = "value")%>% #pivot so variables go in one column
+  dplyr::mutate(category = "child outcomes",
+                subcategory = "school absence")
+
+
+
+#bind together each outcome group
+outcomes_2013 <- rbind(schl_absence,oc21,oc22,oc23,oc24, 
+                       ks1, ks2, ks4,  sen)
+
+#allocate year variable
+outcomes_2013$year <- 2013
+
+#create missing variable for la codes in old data
+outcomes_2013$LA_Code <- NA
+outcomes_2013$LA.Number <- NA
+
+#bind together previous years
+outcomes <- rbind(outcomes, outcomes_2013)
+
+#remove all unnecessary dataframes
+rm(list=setdiff(ls(), c("outcomes")))
+
+
+#2014
+
+
+
+
 
 
 
