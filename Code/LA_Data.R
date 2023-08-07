@@ -836,17 +836,6 @@ sen <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_soc
   dplyr::mutate(category = "child outcomes",
                 subcategory = "special educational needs")
 
-# sch_exclusion <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2013_LA/sheet9_excluded.csv"),
-#                         colClasses = "character", skip=4)[c(1:5,8,11,14)]%>%
-#   dplyr::rename(LA_Name= X,
-#                 no_sen = Number.of.looked.after.children.with.the.following.SEN.need4.,
-#                 sen_no_statement = X.4,
-#                 sen_with_statement = X.7)%>% #rename variables
-#   dplyr::select(-X.1)%>% #remove empty column
-#   tidyr::pivot_longer(cols=!LA_Name, names_to = "variable", 
-#                       values_to = "value")%>% #pivot so variables go in one column
-#   dplyr::mutate(category = "child outcomes",
-#                 subcategory = "special educational needs")
 
 
 schl_absence <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2016_LA/sheet8_absence.csv"),
@@ -884,11 +873,27 @@ rm(list=setdiff(ls(), c("outcomes")))
 
 
 
+#Post2016
+#read in raw data
+exclusions <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/Post_2016_files/permanent_exclusions_and_suspensions_la.csv"),
+                       colClasses = "character")%>%
+  dplyr::filter(geographic_level=="Local authority",
+                social_care_group=="CLA 12 months at 31 March")%>% # keep only LAs and LACs
+  dplyr::mutate(year = paste("20", str_sub(time_period, start= -2), sep=""), # turn 202021 to 2021
+                category = "child outcomes",
+                subcategory = "school exclusion")%>%
+  dplyr::rename(LA_Name= la_name,
+                LA_Code=new_la_code,
+                LA.Number=old_la_code)%>% #rename variables
+  dplyr::select(-time_period, -time_identifier, -geographic_level, -country_code, -country_name, -region_code, -region_name ,-social_care_group)%>% #remove empty column
+  tidyr::pivot_longer(cols=!c(LA_Name, LA_Code,LA.Number, year), names_to = "variable", 
+                      values_to = "value")%>% #pivot so variables go in one column
+  dplyr::mutate(category = "child outcomes",
+                subcategory = "school exclusion",
+                )
 
 
 
-
-#then make perm tables from website
 
 
 
