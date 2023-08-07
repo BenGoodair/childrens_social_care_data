@@ -1,0 +1,905 @@
+time_period,time_identifier,geographic_level,country_code,country_name,region_code,region_name,old_la_code,la_name,new_la_code,social_care_group,t_pupils,t_perm_excl,t_one_plus_sus
+202021,Academic year,Local authority,E92000001,England,E12000001,North East,840,County Durham,E06000047,CLA 12 months at 31 March,483,0,32
+202021,Academic year,Local authority,E92000001,England,E12000001,North East,841,Darlington,E06000005,CLA 12 months at 31 March,155,0,16
+202021,Academic year,Local authority,E92000001,England,E12000001,North East,390,Gateshead,E08000037,CLA 12 months at 31 March,229,0,29
+202021,Academic year,Local authority,E92000001,England,E12000001,North East,805,Hartlepool,E06000001,CLA 12 months at 31 March,178,0,12
+202021,Academic year,Local authority,E92000001,England,E12000001,North East,806,Middlesbrough,E06000002,CLA 12 months at 31 March,304,0,33
+202021,Academic year,Local authority,E92000001,England,E12000001,North East,391,Newcastle upon Tyne,E08000021,CLA 12 months at 31 March,361,0,33
+202021,Academic year,Local authority,E92000001,England,E12000001,North East,392,North Tyneside,E08000022,CLA 12 months at 31 March,141,0,16
+202021,Academic year,Local authority,E92000001,England,E12000001,North East,929,Northumberland,E06000057,CLA 12 months at 31 March,189,0,25
+202021,Academic year,Local authority,E92000001,England,E12000001,North East,807,Redcar and Cleveland,E06000003,CLA 12 months at 31 March,157,0,20
+202021,Academic year,Local authority,E92000001,England,E12000001,North East,393,South Tyneside,E08000023,CLA 12 months at 31 March,150,0,11
+202021,Academic year,Local authority,E92000001,England,E12000001,North East,808,Stockton-on-Tees,E06000004,CLA 12 months at 31 March,328,0,34
+202021,Academic year,Local authority,E92000001,England,E12000001,North East,394,Sunderland,E08000024,CLA 12 months at 31 March,303,c,28
+202021,Academic year,Local authority,E92000001,England,E12000002,North West,889,Blackburn with Darwen,E06000008,CLA 12 months at 31 March,206,0,14
+202021,Academic year,Local authority,E92000001,England,E12000002,North West,890,Blackpool,E06000009,CLA 12 months at 31 March,295,0,30
+202021,Academic year,Local authority,E92000001,England,E12000002,North West,350,Bolton,E08000001,CLA 12 months at 31 March,350,0,47
+202021,Academic year,Local authority,E92000001,England,E12000002,North West,351,Bury,E08000002,CLA 12 months at 31 March,181,0,17
+202021,Academic year,Local authority,E92000001,England,E12000002,North West,895,Cheshire East,E06000049,CLA 12 months at 31 March,261,0,22
+202021,Academic year,Local authority,E92000001,England,E12000002,North West,896,Cheshire West and Chester,E06000050,CLA 12 months at 31 March,246,0,27
+202021,Academic year,Local authority,E92000001,England,E12000002,North West,909,Cumbria,E10000006,CLA 12 months at 31 March,372,0,33
+202021,Academic year,Local authority,E92000001,England,E12000002,North West,876,Halton,E06000006,CLA 12 months at 31 March,157,0,11
+202021,Academic year,Local authority,E92000001,England,E12000002,North West,340,Knowsley,E08000011,CLA 12 months at 31 March,174,0,14
+202021,Academic year,Local authority,E92000001,England,E12000002,North West,888,Lancashire,E10000017,CLA 12 months at 31 March,1071,c,99
+202021,Academic year,Local authority,E92000001,England,E12000002,North West,341,Liverpool,E08000012,CLA 12 months at 31 March,807,0,65
+202021,Academic year,Local authority,E92000001,England,E12000002,North West,352,Manchester,E08000003,CLA 12 months at 31 March,698,c,69
+202021,Academic year,Local authority,E92000001,England,E12000002,North West,353,Oldham,E08000004,CLA 12 months at 31 March,267,0,21
+202021,Academic year,Local authority,E92000001,England,E12000002,North West,354,Rochdale,E08000005,CLA 12 months at 31 March,282,c,21
+202021,Academic year,Local authority,E92000001,England,E12000002,North West,355,Salford,E08000006,CLA 12 months at 31 March,260,0,22
+202021,Academic year,Local authority,E92000001,England,E12000002,North West,343,Sefton,E08000014,CLA 12 months at 31 March,328,0,33
+202021,Academic year,Local authority,E92000001,England,E12000002,North West,342,St. Helens,E08000013,CLA 12 months at 31 March,281,c,26
+202021,Academic year,Local authority,E92000001,England,E12000002,North West,356,Stockport,E08000007,CLA 12 months at 31 March,204,0,20
+202021,Academic year,Local authority,E92000001,England,E12000002,North West,357,Tameside,E08000008,CLA 12 months at 31 March,353,0,39
+202021,Academic year,Local authority,E92000001,England,E12000002,North West,358,Trafford,E08000009,CLA 12 months at 31 March,211,0,18
+202021,Academic year,Local authority,E92000001,England,E12000002,North West,877,Warrington,E06000007,CLA 12 months at 31 March,188,0,15
+202021,Academic year,Local authority,E92000001,England,E12000002,North West,359,Wigan,E08000010,CLA 12 months at 31 March,309,0,34
+202021,Academic year,Local authority,E92000001,England,E12000002,North West,344,Wirral,E08000015,CLA 12 months at 31 March,486,0,42
+202021,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,370,Barnsley,E08000016,CLA 12 months at 31 March,151,0,11
+202021,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,380,Bradford,E08000032,CLA 12 months at 31 March,679,0,66
+202021,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,381,Calderdale,E08000033,CLA 12 months at 31 March,170,0,22
+202021,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,371,Doncaster,E08000017,CLA 12 months at 31 March,254,0,29
+202021,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,811,East Riding of Yorkshire,E06000011,CLA 12 months at 31 March,181,0,23
+202021,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,810,"Kingston upon Hull, City of",E06000010,CLA 12 months at 31 March,467,0,63
+202021,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,382,Kirklees,E08000034,CLA 12 months at 31 March,344,0,34
+202021,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,383,Leeds,E08000035,CLA 12 months at 31 March,722,0,63
+202021,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,812,North East Lincolnshire,E06000012,CLA 12 months at 31 March,285,0,17
+202021,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,813,North Lincolnshire,E06000013,CLA 12 months at 31 March,123,0,7
+202021,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,815,North Yorkshire,E10000023,CLA 12 months at 31 March,204,0,21
+202021,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,372,Rotherham,E08000018,CLA 12 months at 31 March,319,0,25
+202021,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,373,Sheffield,E08000019,CLA 12 months at 31 March,277,0,29
+202021,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,384,Wakefield,E08000036,CLA 12 months at 31 March,333,0,36
+202021,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,816,York,E06000014,CLA 12 months at 31 March,130,c,9
+202021,Academic year,Local authority,E92000001,England,E12000004,East Midlands,831,Derby,E06000015,CLA 12 months at 31 March,310,0,17
+202021,Academic year,Local authority,E92000001,England,E12000004,East Midlands,830,Derbyshire,E10000007,CLA 12 months at 31 March,412,0,39
+202021,Academic year,Local authority,E92000001,England,E12000004,East Midlands,856,Leicester,E06000016,CLA 12 months at 31 March,302,0,22
+202021,Academic year,Local authority,E92000001,England,E12000004,East Midlands,855,Leicestershire,E10000018,CLA 12 months at 31 March,326,0,18
+202021,Academic year,Local authority,E92000001,England,E12000004,East Midlands,925,Lincolnshire,E10000019,CLA 12 months at 31 March,287,0,35
+202021,Academic year,Local authority,E92000001,England,E12000004,East Midlands,928,Northamptonshire,E10000021,CLA 12 months at 31 March,569,0,59
+202021,Academic year,Local authority,E92000001,England,E12000004,East Midlands,892,Nottingham,E06000018,CLA 12 months at 31 March,311,0,38
+202021,Academic year,Local authority,E92000001,England,E12000004,East Midlands,891,Nottinghamshire,E10000024,CLA 12 months at 31 March,422,0,50
+202021,Academic year,Local authority,E92000001,England,E12000004,East Midlands,857,Rutland,E06000017,CLA 12 months at 31 March,11,0,0
+202021,Academic year,Local authority,E92000001,England,E12000005,West Midlands,330,Birmingham,E08000025,CLA 12 months at 31 March,1010,0,108
+202021,Academic year,Local authority,E92000001,England,E12000005,West Midlands,331,Coventry,E08000026,CLA 12 months at 31 March,338,0,45
+202021,Academic year,Local authority,E92000001,England,E12000005,West Midlands,332,Dudley,E08000027,CLA 12 months at 31 March,339,0,29
+202021,Academic year,Local authority,E92000001,England,E12000005,West Midlands,884,"Herefordshire, County of",E06000019,CLA 12 months at 31 March,165,0,22
+202021,Academic year,Local authority,E92000001,England,E12000005,West Midlands,333,Sandwell,E08000028,CLA 12 months at 31 March,479,0,41
+202021,Academic year,Local authority,E92000001,England,E12000005,West Midlands,893,Shropshire,E06000051,CLA 12 months at 31 March,206,c,17
+202021,Academic year,Local authority,E92000001,England,E12000005,West Midlands,334,Solihull,E08000029,CLA 12 months at 31 March,269,0,22
+202021,Academic year,Local authority,E92000001,England,E12000005,West Midlands,860,Staffordshire,E10000028,CLA 12 months at 31 March,651,c,63
+202021,Academic year,Local authority,E92000001,England,E12000005,West Midlands,861,Stoke-on-Trent,E06000021,CLA 12 months at 31 March,524,0,31
+202021,Academic year,Local authority,E92000001,England,E12000005,West Midlands,894,Telford and Wrekin,E06000020,CLA 12 months at 31 March,208,0,14
+202021,Academic year,Local authority,E92000001,England,E12000005,West Midlands,335,Walsall,E08000030,CLA 12 months at 31 March,348,0,23
+202021,Academic year,Local authority,E92000001,England,E12000005,West Midlands,937,Warwickshire,E10000031,CLA 12 months at 31 March,337,0,42
+202021,Academic year,Local authority,E92000001,England,E12000005,West Midlands,336,Wolverhampton,E08000031,CLA 12 months at 31 March,338,0,27
+202021,Academic year,Local authority,E92000001,England,E12000005,West Midlands,885,Worcestershire,E10000034,CLA 12 months at 31 March,464,0,41
+202021,Academic year,Local authority,E92000001,England,E12000006,East of England,822,Bedford,E06000055,CLA 12 months at 31 March,129,0,15
+202021,Academic year,Local authority,E92000001,England,E12000006,East of England,873,Cambridgeshire,E10000003,CLA 12 months at 31 March,346,0,43
+202021,Academic year,Local authority,E92000001,England,E12000006,East of England,823,Central Bedfordshire,E06000056,CLA 12 months at 31 March,166,0,20
+202021,Academic year,Local authority,E92000001,England,E12000006,East of England,881,Essex,E10000012,CLA 12 months at 31 March,513,0,53
+202021,Academic year,Local authority,E92000001,England,E12000006,East of England,919,Hertfordshire,E10000015,CLA 12 months at 31 March,471,0,54
+202021,Academic year,Local authority,E92000001,England,E12000006,East of England,821,Luton,E06000032,CLA 12 months at 31 March,177,0,14
+202021,Academic year,Local authority,E92000001,England,E12000006,East of England,926,Norfolk,E10000020,CLA 12 months at 31 March,542,0,52
+202021,Academic year,Local authority,E92000001,England,E12000006,East of England,874,Peterborough,E06000031,CLA 12 months at 31 March,152,0,21
+202021,Academic year,Local authority,E92000001,England,E12000006,East of England,882,Southend-on-Sea,E06000033,CLA 12 months at 31 March,145,0,12
+202021,Academic year,Local authority,E92000001,England,E12000006,East of England,935,Suffolk,E10000029,CLA 12 months at 31 March,476,0,59
+202021,Academic year,Local authority,E92000001,England,E12000006,East of England,883,Thurrock,E06000034,CLA 12 months at 31 March,132,0,14
+202021,Academic year,Local authority,E92000001,England,E12000008,South East,867,Bracknell Forest,E06000036,CLA 12 months at 31 March,68,0,c
+202021,Academic year,Local authority,E92000001,England,E12000008,South East,846,Brighton and Hove,E06000043,CLA 12 months at 31 March,163,0,22
+202021,Academic year,Local authority,E92000001,England,E12000008,South East,825,Buckinghamshire,E06000060,CLA 12 months at 31 March,226,0,23
+202021,Academic year,Local authority,E92000001,England,E12000008,South East,845,East Sussex,E10000011,CLA 12 months at 31 March,279,0,25
+202021,Academic year,Local authority,E92000001,England,E12000008,South East,850,Hampshire,E10000014,CLA 12 months at 31 March,856,0,99
+202021,Academic year,Local authority,E92000001,England,E12000008,South East,921,Isle of Wight,E06000046,CLA 12 months at 31 March,140,0,17
+202021,Academic year,Local authority,E92000001,England,E12000008,South East,886,Kent,E10000016,CLA 12 months at 31 March,752,0,61
+202021,Academic year,Local authority,E92000001,England,E12000008,South East,887,Medway,E06000035,CLA 12 months at 31 March,229,0,20
+202021,Academic year,Local authority,E92000001,England,E12000008,South East,826,Milton Keynes,E06000042,CLA 12 months at 31 March,184,0,15
+202021,Academic year,Local authority,E92000001,England,E12000008,South East,931,Oxfordshire,E10000025,CLA 12 months at 31 March,359,0,27
+202021,Academic year,Local authority,E92000001,England,E12000008,South East,851,Portsmouth,E06000044,CLA 12 months at 31 March,203,0,25
+202021,Academic year,Local authority,E92000001,England,E12000008,South East,870,Reading,E06000038,CLA 12 months at 31 March,131,0,9
+202021,Academic year,Local authority,E92000001,England,E12000008,South East,871,Slough,E06000039,CLA 12 months at 31 March,88,0,c
+202021,Academic year,Local authority,E92000001,England,E12000008,South East,852,Southampton,E06000045,CLA 12 months at 31 March,249,0,22
+202021,Academic year,Local authority,E92000001,England,E12000008,South East,936,Surrey,E10000030,CLA 12 months at 31 March,439,0,33
+202021,Academic year,Local authority,E92000001,England,E12000008,South East,869,West Berkshire,E06000037,CLA 12 months at 31 March,68,0,7
+202021,Academic year,Local authority,E92000001,England,E12000008,South East,938,West Sussex,E10000032,CLA 12 months at 31 March,305,0,33
+202021,Academic year,Local authority,E92000001,England,E12000008,South East,868,Windsor and Maidenhead,E06000040,CLA 12 months at 31 March,54,0,c
+202021,Academic year,Local authority,E92000001,England,E12000008,South East,872,Wokingham,E06000041,CLA 12 months at 31 March,35,0,c
+202021,Academic year,Local authority,E92000001,England,E12000009,South West,800,Bath and North East Somerset,E06000022,CLA 12 months at 31 March,85,0,10
+202021,Academic year,Local authority,E92000001,England,E12000009,South West,839,"Bournemouth, Christchurch and Poole",E06000058,CLA 12 months at 31 March,188,0,29
+202021,Academic year,Local authority,E92000001,England,E12000009,South West,801,"Bristol, City of",E06000023,CLA 12 months at 31 March,358,0,30
+202021,Academic year,Local authority,E92000001,England,E12000009,South West,908,Cornwall,E06000052,CLA 12 months at 31 March,201,0,27
+202021,Academic year,Local authority,E92000001,England,E12000009,South West,878,Devon,E10000008,CLA 12 months at 31 March,343,0,40
+202021,Academic year,Local authority,E92000001,England,E12000009,South West,838,Dorset,E06000059,CLA 12 months at 31 March,217,c,25
+202021,Academic year,Local authority,E92000001,England,E12000009,South West,916,Gloucestershire,E10000013,CLA 12 months at 31 March,299,0,43
+202021,Academic year,Local authority,E92000001,England,E12000009,South West,802,North Somerset,E06000024,CLA 12 months at 31 March,90,0,9
+202021,Academic year,Local authority,E92000001,England,E12000009,South West,879,Plymouth,E06000026,CLA 12 months at 31 March,238,0,31
+202021,Academic year,Local authority,E92000001,England,E12000009,South West,933,Somerset,E10000027,CLA 12 months at 31 March,224,0,39
+202021,Academic year,Local authority,E92000001,England,E12000009,South West,803,South Gloucestershire,E06000025,CLA 12 months at 31 March,90,0,14
+202021,Academic year,Local authority,E92000001,England,E12000009,South West,866,Swindon,E06000030,CLA 12 months at 31 March,153,0,19
+202021,Academic year,Local authority,E92000001,England,E12000009,South West,880,Torbay,E06000027,CLA 12 months at 31 March,173,c,23
+202021,Academic year,Local authority,E92000001,England,E12000009,South West,865,Wiltshire,E06000054,CLA 12 months at 31 March,218,0,24
+202021,Academic year,Local authority,E92000001,England,E13000001,Inner London,202,Camden,E09000007,CLA 12 months at 31 March,51,0,c
+202021,Academic year,Local authority,E92000001,England,E13000001,Inner London,201,City of London,E09000001,CLA 12 months at 31 March,c,c,c
+202021,Academic year,Local authority,E92000001,England,E13000001,Inner London,204,Hackney,E09000012,CLA 12 months at 31 March,176,0,17
+202021,Academic year,Local authority,E92000001,England,E13000001,Inner London,205,Hammersmith and Fulham,E09000013,CLA 12 months at 31 March,90,0,c
+202021,Academic year,Local authority,E92000001,England,E13000001,Inner London,309,Haringey,E09000014,CLA 12 months at 31 March,175,0,15
+202021,Academic year,Local authority,E92000001,England,E13000001,Inner London,206,Islington,E09000019,CLA 12 months at 31 March,145,0,27
+202021,Academic year,Local authority,E92000001,England,E13000001,Inner London,207,Kensington and Chelsea,E09000020,CLA 12 months at 31 March,28,0,c
+202021,Academic year,Local authority,E92000001,England,E13000001,Inner London,208,Lambeth,E09000022,CLA 12 months at 31 March,146,0,11
+202021,Academic year,Local authority,E92000001,England,E13000001,Inner London,209,Lewisham,E09000023,CLA 12 months at 31 March,198,0,19
+202021,Academic year,Local authority,E92000001,England,E13000001,Inner London,316,Newham,E09000025,CLA 12 months at 31 March,142,0,8
+202021,Academic year,Local authority,E92000001,England,E13000001,Inner London,210,Southwark,E09000028,CLA 12 months at 31 March,216,0,29
+202021,Academic year,Local authority,E92000001,England,E13000001,Inner London,211,Tower Hamlets,E09000030,CLA 12 months at 31 March,132,0,7
+202021,Academic year,Local authority,E92000001,England,E13000001,Inner London,212,Wandsworth,E09000032,CLA 12 months at 31 March,122,0,12
+202021,Academic year,Local authority,E92000001,England,E13000001,Inner London,213,Westminster,E09000033,CLA 12 months at 31 March,69,0,11
+202021,Academic year,Local authority,E92000001,England,E13000002,Outer London,301,Barking and Dagenham,E09000002,CLA 12 months at 31 March,173,0,8
+202021,Academic year,Local authority,E92000001,England,E13000002,Outer London,302,Barnet,E09000003,CLA 12 months at 31 March,123,0,8
+202021,Academic year,Local authority,E92000001,England,E13000002,Outer London,303,Bexley,E09000004,CLA 12 months at 31 March,85,0,9
+202021,Academic year,Local authority,E92000001,England,E13000002,Outer London,304,Brent,E09000005,CLA 12 months at 31 March,108,0,12
+202021,Academic year,Local authority,E92000001,England,E13000002,Outer London,305,Bromley,E09000006,CLA 12 months at 31 March,149,0,19
+202021,Academic year,Local authority,E92000001,England,E13000002,Outer London,306,Croydon,E09000008,CLA 12 months at 31 March,304,0,22
+202021,Academic year,Local authority,E92000001,England,E13000002,Outer London,307,Ealing,E09000009,CLA 12 months at 31 March,138,0,10
+202021,Academic year,Local authority,E92000001,England,E13000002,Outer London,308,Enfield,E09000010,CLA 12 months at 31 March,160,c,20
+202021,Academic year,Local authority,E92000001,England,E13000002,Outer London,203,Greenwich,E09000011,CLA 12 months at 31 March,243,0,16
+202021,Academic year,Local authority,E92000001,England,E13000002,Outer London,310,Harrow,E09000015,CLA 12 months at 31 March,52,0,7
+202021,Academic year,Local authority,E92000001,England,E13000002,Outer London,311,Havering,E09000016,CLA 12 months at 31 March,107,0,17
+202021,Academic year,Local authority,E92000001,England,E13000002,Outer London,312,Hillingdon,E09000017,CLA 12 months at 31 March,112,c,8
+202021,Academic year,Local authority,E92000001,England,E13000002,Outer London,313,Hounslow,E09000018,CLA 12 months at 31 March,96,0,14
+202021,Academic year,Local authority,E92000001,England,E13000002,Outer London,314,Kingston upon Thames,E09000021,CLA 12 months at 31 March,42,0,c
+202021,Academic year,Local authority,E92000001,England,E13000002,Outer London,315,Merton,E09000024,CLA 12 months at 31 March,62,0,8
+202021,Academic year,Local authority,E92000001,England,E13000002,Outer London,317,Redbridge,E09000026,CLA 12 months at 31 March,95,0,8
+202021,Academic year,Local authority,E92000001,England,E13000002,Outer London,318,Richmond upon Thames,E09000027,CLA 12 months at 31 March,36,0,c
+202021,Academic year,Local authority,E92000001,England,E13000002,Outer London,319,Sutton,E09000029,CLA 12 months at 31 March,95,0,13
+202021,Academic year,Local authority,E92000001,England,E13000002,Outer London,320,Waltham Forest,E09000031,CLA 12 months at 31 March,118,0,12
+201920,Academic year,Local authority,E92000001,England,E12000001,North East,840,County Durham,E06000047,CLA 12 months at 31 March,429,0,34
+201920,Academic year,Local authority,E92000001,England,E12000001,North East,841,Darlington,E06000005,CLA 12 months at 31 March,135,c,12
+201920,Academic year,Local authority,E92000001,England,E12000001,North East,390,Gateshead,E08000037,CLA 12 months at 31 March,210,0,24
+201920,Academic year,Local authority,E92000001,England,E12000001,North East,805,Hartlepool,E06000001,CLA 12 months at 31 March,156,0,12
+201920,Academic year,Local authority,E92000001,England,E12000001,North East,806,Middlesbrough,E06000002,CLA 12 months at 31 March,276,0,26
+201920,Academic year,Local authority,E92000001,England,E12000001,North East,391,Newcastle upon Tyne,E08000021,CLA 12 months at 31 March,346,0,34
+201920,Academic year,Local authority,E92000001,England,E12000001,North East,392,North Tyneside,E08000022,CLA 12 months at 31 March,139,0,9
+201920,Academic year,Local authority,E92000001,England,E12000001,North East,929,Northumberland,E06000057,CLA 12 months at 31 March,173,0,18
+201920,Academic year,Local authority,E92000001,England,E12000001,North East,807,Redcar and Cleveland,E06000003,CLA 12 months at 31 March,161,0,18
+201920,Academic year,Local authority,E92000001,England,E12000001,North East,393,South Tyneside,E08000023,CLA 12 months at 31 March,170,0,8
+201920,Academic year,Local authority,E92000001,England,E12000001,North East,808,Stockton-on-Tees,E06000004,CLA 12 months at 31 March,297,0,31
+201920,Academic year,Local authority,E92000001,England,E12000001,North East,394,Sunderland,E08000024,CLA 12 months at 31 March,275,0,37
+201920,Academic year,Local authority,E92000001,England,E12000002,North West,889,Blackburn with Darwen,E06000008,CLA 12 months at 31 March,188,0,10
+201920,Academic year,Local authority,E92000001,England,E12000002,North West,890,Blackpool,E06000009,CLA 12 months at 31 March,303,0,20
+201920,Academic year,Local authority,E92000001,England,E12000002,North West,350,Bolton,E08000001,CLA 12 months at 31 March,344,0,41
+201920,Academic year,Local authority,E92000001,England,E12000002,North West,351,Bury,E08000002,CLA 12 months at 31 March,173,0,20
+201920,Academic year,Local authority,E92000001,England,E12000002,North West,895,Cheshire East,E06000049,CLA 12 months at 31 March,240,0,15
+201920,Academic year,Local authority,E92000001,England,E12000002,North West,896,Cheshire West and Chester,E06000050,CLA 12 months at 31 March,241,0,16
+201920,Academic year,Local authority,E92000001,England,E12000002,North West,909,Cumbria,E10000006,CLA 12 months at 31 March,358,0,21
+201920,Academic year,Local authority,E92000001,England,E12000002,North West,876,Halton,E06000006,CLA 12 months at 31 March,147,0,8
+201920,Academic year,Local authority,E92000001,England,E12000002,North West,340,Knowsley,E08000011,CLA 12 months at 31 March,166,0,8
+201920,Academic year,Local authority,E92000001,England,E12000002,North West,888,Lancashire,E10000017,CLA 12 months at 31 March,1084,0,88
+201920,Academic year,Local authority,E92000001,England,E12000002,North West,341,Liverpool,E08000012,CLA 12 months at 31 March,731,0,55
+201920,Academic year,Local authority,E92000001,England,E12000002,North West,352,Manchester,E08000003,CLA 12 months at 31 March,643,0,69
+201920,Academic year,Local authority,E92000001,England,E12000002,North West,353,Oldham,E08000004,CLA 12 months at 31 March,280,0,19
+201920,Academic year,Local authority,E92000001,England,E12000002,North West,354,Rochdale,E08000005,CLA 12 months at 31 March,299,0,22
+201920,Academic year,Local authority,E92000001,England,E12000002,North West,355,Salford,E08000006,CLA 12 months at 31 March,278,0,26
+201920,Academic year,Local authority,E92000001,England,E12000002,North West,343,Sefton,E08000014,CLA 12 months at 31 March,311,0,32
+201920,Academic year,Local authority,E92000001,England,E12000002,North West,342,St. Helens,E08000013,CLA 12 months at 31 March,252,c,26
+201920,Academic year,Local authority,E92000001,England,E12000002,North West,356,Stockport,E08000007,CLA 12 months at 31 March,178,0,28
+201920,Academic year,Local authority,E92000001,England,E12000002,North West,357,Tameside,E08000008,CLA 12 months at 31 March,344,0,35
+201920,Academic year,Local authority,E92000001,England,E12000002,North West,358,Trafford,E08000009,CLA 12 months at 31 March,225,0,23
+201920,Academic year,Local authority,E92000001,England,E12000002,North West,877,Warrington,E06000007,CLA 12 months at 31 March,204,0,16
+201920,Academic year,Local authority,E92000001,England,E12000002,North West,359,Wigan,E08000010,CLA 12 months at 31 March,264,0,29
+201920,Academic year,Local authority,E92000001,England,E12000002,North West,344,Wirral,E08000015,CLA 12 months at 31 March,458,0,33
+201920,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,370,Barnsley,E08000016,CLA 12 months at 31 March,150,0,13
+201920,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,380,Bradford,E08000032,CLA 12 months at 31 March,598,c,63
+201920,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,381,Calderdale,E08000033,CLA 12 months at 31 March,171,0,21
+201920,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,371,Doncaster,E08000017,CLA 12 months at 31 March,256,c,25
+201920,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,811,East Riding of Yorkshire,E06000011,CLA 12 months at 31 March,177,0,15
+201920,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,810,"Kingston upon Hull, City of",E06000010,CLA 12 months at 31 March,460,0,35
+201920,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,382,Kirklees,E08000034,CLA 12 months at 31 March,313,0,22
+201920,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,383,Leeds,E08000035,CLA 12 months at 31 March,702,0,51
+201920,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,812,North East Lincolnshire,E06000012,CLA 12 months at 31 March,221,0,15
+201920,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,813,North Lincolnshire,E06000013,CLA 12 months at 31 March,138,0,6
+201920,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,815,North Yorkshire,E10000023,CLA 12 months at 31 March,209,0,26
+201920,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,372,Rotherham,E08000018,CLA 12 months at 31 March,309,0,35
+201920,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,373,Sheffield,E08000019,CLA 12 months at 31 March,309,0,43
+201920,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,384,Wakefield,E08000036,CLA 12 months at 31 March,289,0,27
+201920,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,816,York,E06000014,CLA 12 months at 31 March,115,0,11
+201920,Academic year,Local authority,E92000001,England,E12000004,East Midlands,831,Derby,E06000015,CLA 12 months at 31 March,285,0,15
+201920,Academic year,Local authority,E92000001,England,E12000004,East Midlands,830,Derbyshire,E10000007,CLA 12 months at 31 March,373,0,41
+201920,Academic year,Local authority,E92000001,England,E12000004,East Midlands,856,Leicester,E06000016,CLA 12 months at 31 March,326,0,19
+201920,Academic year,Local authority,E92000001,England,E12000004,East Midlands,855,Leicestershire,E10000018,CLA 12 months at 31 March,307,0,23
+201920,Academic year,Local authority,E92000001,England,E12000004,East Midlands,925,Lincolnshire,E10000019,CLA 12 months at 31 March,280,0,24
+201920,Academic year,Local authority,E92000001,England,E12000004,East Midlands,928,Northamptonshire,E10000021,CLA 12 months at 31 March,541,0,58
+201920,Academic year,Local authority,E92000001,England,E12000004,East Midlands,892,Nottingham,E06000018,CLA 12 months at 31 March,314,0,29
+201920,Academic year,Local authority,E92000001,England,E12000004,East Midlands,891,Nottinghamshire,E10000024,CLA 12 months at 31 March,412,0,47
+201920,Academic year,Local authority,E92000001,England,E12000004,East Midlands,857,Rutland,E06000017,CLA 12 months at 31 March,16,0,0
+201920,Academic year,Local authority,E92000001,England,E12000005,West Midlands,330,Birmingham,E08000025,CLA 12 months at 31 March,964,c,110
+201920,Academic year,Local authority,E92000001,England,E12000005,West Midlands,331,Coventry,E08000026,CLA 12 months at 31 March,330,0,42
+201920,Academic year,Local authority,E92000001,England,E12000005,West Midlands,332,Dudley,E08000027,CLA 12 months at 31 March,350,0,25
+201920,Academic year,Local authority,E92000001,England,E12000005,West Midlands,884,"Herefordshire, County of",E06000019,CLA 12 months at 31 March,177,c,17
+201920,Academic year,Local authority,E92000001,England,E12000005,West Midlands,333,Sandwell,E08000028,CLA 12 months at 31 March,489,c,35
+201920,Academic year,Local authority,E92000001,England,E12000005,West Midlands,893,Shropshire,E06000051,CLA 12 months at 31 March,197,0,20
+201920,Academic year,Local authority,E92000001,England,E12000005,West Midlands,334,Solihull,E08000029,CLA 12 months at 31 March,245,c,21
+201920,Academic year,Local authority,E92000001,England,E12000005,West Midlands,860,Staffordshire,E10000028,CLA 12 months at 31 March,628,c,45
+201920,Academic year,Local authority,E92000001,England,E12000005,West Midlands,861,Stoke-on-Trent,E06000021,CLA 12 months at 31 March,499,0,29
+201920,Academic year,Local authority,E92000001,England,E12000005,West Midlands,894,Telford and Wrekin,E06000020,CLA 12 months at 31 March,186,0,11
+201920,Academic year,Local authority,E92000001,England,E12000005,West Midlands,335,Walsall,E08000030,CLA 12 months at 31 March,326,0,25
+201920,Academic year,Local authority,E92000001,England,E12000005,West Midlands,937,Warwickshire,E10000031,CLA 12 months at 31 March,318,0,30
+201920,Academic year,Local authority,E92000001,England,E12000005,West Midlands,336,Wolverhampton,E08000031,CLA 12 months at 31 March,359,0,26
+201920,Academic year,Local authority,E92000001,England,E12000005,West Midlands,885,Worcestershire,E10000034,CLA 12 months at 31 March,425,0,37
+201920,Academic year,Local authority,E92000001,England,E12000006,East of England,822,Bedford,E06000055,CLA 12 months at 31 March,115,0,14
+201920,Academic year,Local authority,E92000001,England,E12000006,East of England,873,Cambridgeshire,E10000003,CLA 12 months at 31 March,355,0,38
+201920,Academic year,Local authority,E92000001,England,E12000006,East of England,823,Central Bedfordshire,E06000056,CLA 12 months at 31 March,180,0,23
+201920,Academic year,Local authority,E92000001,England,E12000006,East of England,881,Essex,E10000012,CLA 12 months at 31 March,489,0,51
+201920,Academic year,Local authority,E92000001,England,E12000006,East of England,919,Hertfordshire,E10000015,CLA 12 months at 31 March,447,0,55
+201920,Academic year,Local authority,E92000001,England,E12000006,East of England,821,Luton,E06000032,CLA 12 months at 31 March,197,0,23
+201920,Academic year,Local authority,E92000001,England,E12000006,East of England,926,Norfolk,E10000020,CLA 12 months at 31 March,564,0,55
+201920,Academic year,Local authority,E92000001,England,E12000006,East of England,874,Peterborough,E06000031,CLA 12 months at 31 March,159,0,14
+201920,Academic year,Local authority,E92000001,England,E12000006,East of England,882,Southend-on-Sea,E06000033,CLA 12 months at 31 March,151,0,14
+201920,Academic year,Local authority,E92000001,England,E12000006,East of England,935,Suffolk,E10000029,CLA 12 months at 31 March,433,0,47
+201920,Academic year,Local authority,E92000001,England,E12000006,East of England,883,Thurrock,E06000034,CLA 12 months at 31 March,119,0,8
+201920,Academic year,Local authority,E92000001,England,E12000008,South East,867,Bracknell Forest,E06000036,CLA 12 months at 31 March,74,0,8
+201920,Academic year,Local authority,E92000001,England,E12000008,South East,846,Brighton and Hove,E06000043,CLA 12 months at 31 March,161,0,17
+201920,Academic year,Local authority,E92000001,England,E12000008,South East,825,Buckinghamshire,E06000060,CLA 12 months at 31 March,238,c,28
+201920,Academic year,Local authority,E92000001,England,E12000008,South East,845,East Sussex,E10000011,CLA 12 months at 31 March,298,0,28
+201920,Academic year,Local authority,E92000001,England,E12000008,South East,850,Hampshire,E10000014,CLA 12 months at 31 March,826,0,93
+201920,Academic year,Local authority,E92000001,England,E12000008,South East,921,Isle of Wight,E06000046,CLA 12 months at 31 March,147,0,14
+201920,Academic year,Local authority,E92000001,England,E12000008,South East,886,Kent,E10000016,CLA 12 months at 31 March,754,0,68
+201920,Academic year,Local authority,E92000001,England,E12000008,South East,887,Medway,E06000035,CLA 12 months at 31 March,207,0,19
+201920,Academic year,Local authority,E92000001,England,E12000008,South East,826,Milton Keynes,E06000042,CLA 12 months at 31 March,196,0,16
+201920,Academic year,Local authority,E92000001,England,E12000008,South East,931,Oxfordshire,E10000025,CLA 12 months at 31 March,342,0,25
+201920,Academic year,Local authority,E92000001,England,E12000008,South East,851,Portsmouth,E06000044,CLA 12 months at 31 March,216,0,28
+201920,Academic year,Local authority,E92000001,England,E12000008,South East,870,Reading,E06000038,CLA 12 months at 31 March,133,0,8
+201920,Academic year,Local authority,E92000001,England,E12000008,South East,871,Slough,E06000039,CLA 12 months at 31 March,89,0,c
+201920,Academic year,Local authority,E92000001,England,E12000008,South East,852,Southampton,E06000045,CLA 12 months at 31 March,264,0,24
+201920,Academic year,Local authority,E92000001,England,E12000008,South East,936,Surrey,E10000030,CLA 12 months at 31 March,416,0,31
+201920,Academic year,Local authority,E92000001,England,E12000008,South East,869,West Berkshire,E06000037,CLA 12 months at 31 March,76,0,8
+201920,Academic year,Local authority,E92000001,England,E12000008,South East,938,West Sussex,E10000032,CLA 12 months at 31 March,280,0,28
+201920,Academic year,Local authority,E92000001,England,E12000008,South East,868,Windsor and Maidenhead,E06000040,CLA 12 months at 31 March,48,0,6
+201920,Academic year,Local authority,E92000001,England,E12000008,South East,872,Wokingham,E06000041,CLA 12 months at 31 March,32,0,c
+201920,Academic year,Local authority,E92000001,England,E12000009,South West,800,Bath and North East Somerset,E06000022,CLA 12 months at 31 March,86,0,9
+201920,Academic year,Local authority,E92000001,England,E12000009,South West,839,"Bournemouth, Christchurch and Poole",E06000058,CLA 12 months at 31 March,199,0,22
+201920,Academic year,Local authority,E92000001,England,E12000009,South West,801,"Bristol, City of",E06000023,CLA 12 months at 31 March,342,0,36
+201920,Academic year,Local authority,E92000001,England,E12000009,South West,908,Cornwall,E06000052,CLA 12 months at 31 March,191,0,32
+201920,Academic year,Local authority,E92000001,England,E12000009,South West,878,Devon,E10000008,CLA 12 months at 31 March,333,c,23
+201920,Academic year,Local authority,E92000001,England,E12000009,South West,838,Dorset,E06000059,CLA 12 months at 31 March,203,0,21
+201920,Academic year,Local authority,E92000001,England,E12000009,South West,916,Gloucestershire,E10000013,CLA 12 months at 31 March,273,0,28
+201920,Academic year,Local authority,E92000001,England,E12000009,South West,802,North Somerset,E06000024,CLA 12 months at 31 March,91,0,11
+201920,Academic year,Local authority,E92000001,England,E12000009,South West,879,Plymouth,E06000026,CLA 12 months at 31 March,237,0,26
+201920,Academic year,Local authority,E92000001,England,E12000009,South West,933,Somerset,E10000027,CLA 12 months at 31 March,237,0,41
+201920,Academic year,Local authority,E92000001,England,E12000009,South West,803,South Gloucestershire,E06000025,CLA 12 months at 31 March,85,0,10
+201920,Academic year,Local authority,E92000001,England,E12000009,South West,866,Swindon,E06000030,CLA 12 months at 31 March,151,c,17
+201920,Academic year,Local authority,E92000001,England,E12000009,South West,880,Torbay,E06000027,CLA 12 months at 31 March,169,0,19
+201920,Academic year,Local authority,E92000001,England,E12000009,South West,865,Wiltshire,E06000054,CLA 12 months at 31 March,213,0,23
+201920,Academic year,Local authority,E92000001,England,E13000001,Inner London,202,Camden,E09000007,CLA 12 months at 31 March,43,0,c
+201920,Academic year,Local authority,E92000001,England,E13000001,Inner London,201,City of London,E09000001,CLA 12 months at 31 March,c,c,c
+201920,Academic year,Local authority,E92000001,England,E13000001,Inner London,204,Hackney,E09000012,CLA 12 months at 31 March,161,0,21
+201920,Academic year,Local authority,E92000001,England,E13000001,Inner London,205,Hammersmith and Fulham,E09000013,CLA 12 months at 31 March,89,0,c
+201920,Academic year,Local authority,E92000001,England,E13000001,Inner London,309,Haringey,E09000014,CLA 12 months at 31 March,201,0,15
+201920,Academic year,Local authority,E92000001,England,E13000001,Inner London,206,Islington,E09000019,CLA 12 months at 31 March,135,0,22
+201920,Academic year,Local authority,E92000001,England,E13000001,Inner London,207,Kensington and Chelsea,E09000020,CLA 12 months at 31 March,28,0,c
+201920,Academic year,Local authority,E92000001,England,E13000001,Inner London,208,Lambeth,E09000022,CLA 12 months at 31 March,155,0,16
+201920,Academic year,Local authority,E92000001,England,E13000001,Inner London,209,Lewisham,E09000023,CLA 12 months at 31 March,208,0,16
+201920,Academic year,Local authority,E92000001,England,E13000001,Inner London,316,Newham,E09000025,CLA 12 months at 31 March,152,0,7
+201920,Academic year,Local authority,E92000001,England,E13000001,Inner London,210,Southwark,E09000028,CLA 12 months at 31 March,216,0,24
+201920,Academic year,Local authority,E92000001,England,E13000001,Inner London,211,Tower Hamlets,E09000030,CLA 12 months at 31 March,130,0,9
+201920,Academic year,Local authority,E92000001,England,E13000001,Inner London,212,Wandsworth,E09000032,CLA 12 months at 31 March,126,0,9
+201920,Academic year,Local authority,E92000001,England,E13000001,Inner London,213,Westminster,E09000033,CLA 12 months at 31 March,63,0,9
+201920,Academic year,Local authority,E92000001,England,E13000002,Outer London,301,Barking and Dagenham,E09000002,CLA 12 months at 31 March,174,0,11
+201920,Academic year,Local authority,E92000001,England,E13000002,Outer London,302,Barnet,E09000003,CLA 12 months at 31 March,112,0,8
+201920,Academic year,Local authority,E92000001,England,E13000002,Outer London,303,Bexley,E09000004,CLA 12 months at 31 March,83,0,11
+201920,Academic year,Local authority,E92000001,England,E13000002,Outer London,304,Brent,E09000005,CLA 12 months at 31 March,106,0,12
+201920,Academic year,Local authority,E92000001,England,E13000002,Outer London,305,Bromley,E09000006,CLA 12 months at 31 March,142,0,13
+201920,Academic year,Local authority,E92000001,England,E13000002,Outer London,306,Croydon,E09000008,CLA 12 months at 31 March,299,c,37
+201920,Academic year,Local authority,E92000001,England,E13000002,Outer London,307,Ealing,E09000009,CLA 12 months at 31 March,140,c,16
+201920,Academic year,Local authority,E92000001,England,E13000002,Outer London,308,Enfield,E09000010,CLA 12 months at 31 March,148,0,14
+201920,Academic year,Local authority,E92000001,England,E13000002,Outer London,203,Greenwich,E09000011,CLA 12 months at 31 March,250,0,20
+201920,Academic year,Local authority,E92000001,England,E13000002,Outer London,310,Harrow,E09000015,CLA 12 months at 31 March,50,0,9
+201920,Academic year,Local authority,E92000001,England,E13000002,Outer London,311,Havering,E09000016,CLA 12 months at 31 March,99,0,10
+201920,Academic year,Local authority,E92000001,England,E13000002,Outer London,312,Hillingdon,E09000017,CLA 12 months at 31 March,119,0,15
+201920,Academic year,Local authority,E92000001,England,E13000002,Outer London,313,Hounslow,E09000018,CLA 12 months at 31 March,113,0,10
+201920,Academic year,Local authority,E92000001,England,E13000002,Outer London,314,Kingston upon Thames,E09000021,CLA 12 months at 31 March,54,0,c
+201920,Academic year,Local authority,E92000001,England,E13000002,Outer London,315,Merton,E09000024,CLA 12 months at 31 March,61,0,c
+201920,Academic year,Local authority,E92000001,England,E13000002,Outer London,317,Redbridge,E09000026,CLA 12 months at 31 March,88,0,7
+201920,Academic year,Local authority,E92000001,England,E13000002,Outer London,318,Richmond upon Thames,E09000027,CLA 12 months at 31 March,30,0,c
+201920,Academic year,Local authority,E92000001,England,E13000002,Outer London,319,Sutton,E09000029,CLA 12 months at 31 March,90,0,6
+201920,Academic year,Local authority,E92000001,England,E13000002,Outer London,320,Waltham Forest,E09000031,CLA 12 months at 31 March,98,0,8
+201819,Academic year,Local authority,E92000001,England,E12000001,North East,840,County Durham,E06000047,CLA 12 months at 31 March,418,c,38
+201819,Academic year,Local authority,E92000001,England,E12000001,North East,841,Darlington,E06000005,CLA 12 months at 31 March,114,0,7
+201819,Academic year,Local authority,E92000001,England,E12000001,North East,390,Gateshead,E08000037,CLA 12 months at 31 March,215,0,27
+201819,Academic year,Local authority,E92000001,England,E12000001,North East,805,Hartlepool,E06000001,CLA 12 months at 31 March,145,0,21
+201819,Academic year,Local authority,E92000001,England,E12000001,North East,806,Middlesbrough,E06000002,CLA 12 months at 31 March,251,0,38
+201819,Academic year,Local authority,E92000001,England,E12000001,North East,391,Newcastle upon Tyne,E08000021,CLA 12 months at 31 March,284,0,31
+201819,Academic year,Local authority,E92000001,England,E12000001,North East,392,North Tyneside,E08000022,CLA 12 months at 31 March,140,0,11
+201819,Academic year,Local authority,E92000001,England,E12000001,North East,929,Northumberland,E06000057,CLA 12 months at 31 March,165,0,15
+201819,Academic year,Local authority,E92000001,England,E12000001,North East,807,Redcar and Cleveland,E06000003,CLA 12 months at 31 March,142,0,16
+201819,Academic year,Local authority,E92000001,England,E12000001,North East,393,South Tyneside,E08000023,CLA 12 months at 31 March,164,0,10
+201819,Academic year,Local authority,E92000001,England,E12000001,North East,808,Stockton-on-Tees,E06000004,CLA 12 months at 31 March,281,0,36
+201819,Academic year,Local authority,E92000001,England,E12000001,North East,394,Sunderland,E08000024,CLA 12 months at 31 March,256,0,34
+201819,Academic year,Local authority,E92000001,England,E12000002,North West,889,Blackburn with Darwen,E06000008,CLA 12 months at 31 March,162,0,13
+201819,Academic year,Local authority,E92000001,England,E12000002,North West,890,Blackpool,E06000009,CLA 12 months at 31 March,282,c,41
+201819,Academic year,Local authority,E92000001,England,E12000002,North West,350,Bolton,E08000001,CLA 12 months at 31 March,340,c,42
+201819,Academic year,Local authority,E92000001,England,E12000002,North West,351,Bury,E08000002,CLA 12 months at 31 March,151,0,17
+201819,Academic year,Local authority,E92000001,England,E12000002,North West,895,Cheshire East,E06000049,CLA 12 months at 31 March,228,0,17
+201819,Academic year,Local authority,E92000001,England,E12000002,North West,896,Cheshire West and Chester,E06000050,CLA 12 months at 31 March,247,0,17
+201819,Academic year,Local authority,E92000001,England,E12000002,North West,909,Cumbria,E10000006,CLA 12 months at 31 March,361,c,32
+201819,Academic year,Local authority,E92000001,England,E12000002,North West,876,Halton,E06000006,CLA 12 months at 31 March,147,0,15
+201819,Academic year,Local authority,E92000001,England,E12000002,North West,340,Knowsley,E08000011,CLA 12 months at 31 March,149,0,15
+201819,Academic year,Local authority,E92000001,England,E12000002,North West,888,Lancashire,E10000017,CLA 12 months at 31 March,1027,c,114
+201819,Academic year,Local authority,E92000001,England,E12000002,North West,341,Liverpool,E08000012,CLA 12 months at 31 March,649,0,54
+201819,Academic year,Local authority,E92000001,England,E12000002,North West,352,Manchester,E08000003,CLA 12 months at 31 March,638,c,84
+201819,Academic year,Local authority,E92000001,England,E12000002,North West,353,Oldham,E08000004,CLA 12 months at 31 March,297,0,34
+201819,Academic year,Local authority,E92000001,England,E12000002,North West,354,Rochdale,E08000005,CLA 12 months at 31 March,259,0,26
+201819,Academic year,Local authority,E92000001,England,E12000002,North West,355,Salford,E08000006,CLA 12 months at 31 March,278,0,23
+201819,Academic year,Local authority,E92000001,England,E12000002,North West,343,Sefton,E08000014,CLA 12 months at 31 March,281,0,31
+201819,Academic year,Local authority,E92000001,England,E12000002,North West,342,St. Helens,E08000013,CLA 12 months at 31 March,274,c,30
+201819,Academic year,Local authority,E92000001,England,E12000002,North West,356,Stockport,E08000007,CLA 12 months at 31 March,178,0,28
+201819,Academic year,Local authority,E92000001,England,E12000002,North West,357,Tameside,E08000008,CLA 12 months at 31 March,323,0,32
+201819,Academic year,Local authority,E92000001,England,E12000002,North West,358,Trafford,E08000009,CLA 12 months at 31 March,197,0,25
+201819,Academic year,Local authority,E92000001,England,E12000002,North West,877,Warrington,E06000007,CLA 12 months at 31 March,222,0,20
+201819,Academic year,Local authority,E92000001,England,E12000002,North West,359,Wigan,E08000010,CLA 12 months at 31 March,268,c,28
+201819,Academic year,Local authority,E92000001,England,E12000002,North West,344,Wirral,E08000015,CLA 12 months at 31 March,469,c,48
+201819,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,370,Barnsley,E08000016,CLA 12 months at 31 March,151,0,15
+201819,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,380,Bradford,E08000032,CLA 12 months at 31 March,537,0,63
+201819,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,381,Calderdale,E08000033,CLA 12 months at 31 March,164,0,29
+201819,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,371,Doncaster,E08000017,CLA 12 months at 31 March,255,c,35
+201819,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,811,East Riding of Yorkshire,E06000011,CLA 12 months at 31 March,161,0,15
+201819,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,810,"Kingston upon Hull, City of",E06000010,CLA 12 months at 31 March,422,0,35
+201819,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,382,Kirklees,E08000034,CLA 12 months at 31 March,343,0,28
+201819,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,383,Leeds,E08000035,CLA 12 months at 31 March,695,c,67
+201819,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,812,North East Lincolnshire,E06000012,CLA 12 months at 31 March,196,c,22
+201819,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,813,North Lincolnshire,E06000013,CLA 12 months at 31 March,120,0,18
+201819,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,815,North Yorkshire,E10000023,CLA 12 months at 31 March,219,0,31
+201819,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,372,Rotherham,E08000018,CLA 12 months at 31 March,296,c,31
+201819,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,373,Sheffield,E08000019,CLA 12 months at 31 March,314,0,41
+201819,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,384,Wakefield,E08000036,CLA 12 months at 31 March,262,0,25
+201819,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,816,York,E06000014,CLA 12 months at 31 March,109,0,19
+201819,Academic year,Local authority,E92000001,England,E12000004,East Midlands,831,Derby,E06000015,CLA 12 months at 31 March,258,0,17
+201819,Academic year,Local authority,E92000001,England,E12000004,East Midlands,830,Derbyshire,E10000007,CLA 12 months at 31 March,339,0,36
+201819,Academic year,Local authority,E92000001,England,E12000004,East Midlands,856,Leicester,E06000016,CLA 12 months at 31 March,339,0,29
+201819,Academic year,Local authority,E92000001,England,E12000004,East Midlands,855,Leicestershire,E10000018,CLA 12 months at 31 March,268,0,24
+201819,Academic year,Local authority,E92000001,England,E12000004,East Midlands,925,Lincolnshire,E10000019,CLA 12 months at 31 March,286,0,36
+201819,Academic year,Local authority,E92000001,England,E12000004,East Midlands,928,Northamptonshire,E10000021,CLA 12 months at 31 March,508,0,66
+201819,Academic year,Local authority,E92000001,England,E12000004,East Midlands,892,Nottingham,E06000018,CLA 12 months at 31 March,309,0,32
+201819,Academic year,Local authority,E92000001,England,E12000004,East Midlands,891,Nottinghamshire,E10000024,CLA 12 months at 31 March,424,0,48
+201819,Academic year,Local authority,E92000001,England,E12000004,East Midlands,857,Rutland,E06000017,CLA 12 months at 31 March,16,0,0
+201819,Academic year,Local authority,E92000001,England,E12000005,West Midlands,330,Birmingham,E08000025,CLA 12 months at 31 March,964,c,127
+201819,Academic year,Local authority,E92000001,England,E12000005,West Midlands,331,Coventry,E08000026,CLA 12 months at 31 March,299,0,43
+201819,Academic year,Local authority,E92000001,England,E12000005,West Midlands,332,Dudley,E08000027,CLA 12 months at 31 March,348,0,38
+201819,Academic year,Local authority,E92000001,England,E12000005,West Midlands,884,"Herefordshire, County of",E06000019,CLA 12 months at 31 March,190,c,25
+201819,Academic year,Local authority,E92000001,England,E12000005,West Midlands,333,Sandwell,E08000028,CLA 12 months at 31 March,411,0,32
+201819,Academic year,Local authority,E92000001,England,E12000005,West Midlands,893,Shropshire,E06000051,CLA 12 months at 31 March,154,0,18
+201819,Academic year,Local authority,E92000001,England,E12000005,West Midlands,334,Solihull,E08000029,CLA 12 months at 31 March,208,0,20
+201819,Academic year,Local authority,E92000001,England,E12000005,West Midlands,860,Staffordshire,E10000028,CLA 12 months at 31 March,565,c,69
+201819,Academic year,Local authority,E92000001,England,E12000005,West Midlands,861,Stoke-on-Trent,E06000021,CLA 12 months at 31 March,430,0,33
+201819,Academic year,Local authority,E92000001,England,E12000005,West Midlands,894,Telford and Wrekin,E06000020,CLA 12 months at 31 March,190,0,14
+201819,Academic year,Local authority,E92000001,England,E12000005,West Midlands,335,Walsall,E08000030,CLA 12 months at 31 March,360,0,32
+201819,Academic year,Local authority,E92000001,England,E12000005,West Midlands,937,Warwickshire,E10000031,CLA 12 months at 31 March,305,c,26
+201819,Academic year,Local authority,E92000001,England,E12000005,West Midlands,336,Wolverhampton,E08000031,CLA 12 months at 31 March,383,0,44
+201819,Academic year,Local authority,E92000001,England,E12000005,West Midlands,885,Worcestershire,E10000034,CLA 12 months at 31 March,422,c,45
+201819,Academic year,Local authority,E92000001,England,E12000006,East of England,822,Bedford,E06000055,CLA 12 months at 31 March,120,0,13
+201819,Academic year,Local authority,E92000001,England,E12000006,East of England,873,Cambridgeshire,E10000003,CLA 12 months at 31 March,348,0,39
+201819,Academic year,Local authority,E92000001,England,E12000006,East of England,823,Central Bedfordshire,E06000056,CLA 12 months at 31 March,172,0,16
+201819,Academic year,Local authority,E92000001,England,E12000006,East of England,881,Essex,E10000012,CLA 12 months at 31 March,477,c,68
+201819,Academic year,Local authority,E92000001,England,E12000006,East of England,919,Hertfordshire,E10000015,CLA 12 months at 31 March,442,c,73
+201819,Academic year,Local authority,E92000001,England,E12000006,East of England,821,Luton,E06000032,CLA 12 months at 31 March,174,0,22
+201819,Academic year,Local authority,E92000001,England,E12000006,East of England,926,Norfolk,E10000020,CLA 12 months at 31 March,549,0,72
+201819,Academic year,Local authority,E92000001,England,E12000006,East of England,874,Peterborough,E06000031,CLA 12 months at 31 March,168,0,20
+201819,Academic year,Local authority,E92000001,England,E12000006,East of England,882,Southend-on-Sea,E06000033,CLA 12 months at 31 March,138,0,12
+201819,Academic year,Local authority,E92000001,England,E12000006,East of England,935,Suffolk,E10000029,CLA 12 months at 31 March,418,c,64
+201819,Academic year,Local authority,E92000001,England,E12000006,East of England,883,Thurrock,E06000034,CLA 12 months at 31 March,137,0,11
+201819,Academic year,Local authority,E92000001,England,E12000008,South East,867,Bracknell Forest,E06000036,CLA 12 months at 31 March,63,0,9
+201819,Academic year,Local authority,E92000001,England,E12000008,South East,846,Brighton and Hove,E06000043,CLA 12 months at 31 March,165,0,24
+201819,Academic year,Local authority,E92000001,England,E12000008,South East,825,Buckinghamshire,E06000060,CLA 12 months at 31 March,234,c,27
+201819,Academic year,Local authority,E92000001,England,E12000008,South East,845,East Sussex,E10000011,CLA 12 months at 31 March,304,c,33
+201819,Academic year,Local authority,E92000001,England,E12000008,South East,850,Hampshire,E10000014,CLA 12 months at 31 March,802,c,101
+201819,Academic year,Local authority,E92000001,England,E12000008,South East,921,Isle of Wight,E06000046,CLA 12 months at 31 March,132,0,14
+201819,Academic year,Local authority,E92000001,England,E12000008,South East,886,Kent,E10000016,CLA 12 months at 31 March,783,0,79
+201819,Academic year,Local authority,E92000001,England,E12000008,South East,887,Medway,E06000035,CLA 12 months at 31 March,205,0,21
+201819,Academic year,Local authority,E92000001,England,E12000008,South East,826,Milton Keynes,E06000042,CLA 12 months at 31 March,193,0,21
+201819,Academic year,Local authority,E92000001,England,E12000008,South East,931,Oxfordshire,E10000025,CLA 12 months at 31 March,313,0,32
+201819,Academic year,Local authority,E92000001,England,E12000008,South East,851,Portsmouth,E06000044,CLA 12 months at 31 March,189,0,37
+201819,Academic year,Local authority,E92000001,England,E12000008,South East,870,Reading,E06000038,CLA 12 months at 31 March,137,0,12
+201819,Academic year,Local authority,E92000001,England,E12000008,South East,871,Slough,E06000039,CLA 12 months at 31 March,74,0,c
+201819,Academic year,Local authority,E92000001,England,E12000008,South East,852,Southampton,E06000045,CLA 12 months at 31 March,266,0,34
+201819,Academic year,Local authority,E92000001,England,E12000008,South East,936,Surrey,E10000030,CLA 12 months at 31 March,408,0,45
+201819,Academic year,Local authority,E92000001,England,E12000008,South East,869,West Berkshire,E06000037,CLA 12 months at 31 March,82,0,8
+201819,Academic year,Local authority,E92000001,England,E12000008,South East,938,West Sussex,E10000032,CLA 12 months at 31 March,274,0,30
+201819,Academic year,Local authority,E92000001,England,E12000008,South East,868,Windsor and Maidenhead,E06000040,CLA 12 months at 31 March,43,0,c
+201819,Academic year,Local authority,E92000001,England,E12000008,South East,872,Wokingham,E06000041,CLA 12 months at 31 March,30,0,c
+201819,Academic year,Local authority,E92000001,England,E12000009,South West,800,Bath and North East Somerset,E06000022,CLA 12 months at 31 March,80,0,11
+201819,Academic year,Local authority,E92000001,England,E12000009,South West,837,Bournemouth,E06000028,CLA 12 months at 31 March,87,c,17
+201819,Academic year,Local authority,E92000001,England,E12000009,South West,801,"Bristol, City of",E06000023,CLA 12 months at 31 March,336,0,36
+201819,Academic year,Local authority,E92000001,England,E12000009,South West,908,Cornwall,E06000052,CLA 12 months at 31 March,210,0,22
+201819,Academic year,Local authority,E92000001,England,E12000009,South West,878,Devon,E10000008,CLA 12 months at 31 March,329,0,41
+201819,Academic year,Local authority,E92000001,England,E12000009,South West,835,Dorset,E10000009,CLA 12 months at 31 March,208,c,31
+201819,Academic year,Local authority,E92000001,England,E12000009,South West,916,Gloucestershire,E10000013,CLA 12 months at 31 March,280,0,35
+201819,Academic year,Local authority,E92000001,England,E12000009,South West,802,North Somerset,E06000024,CLA 12 months at 31 March,98,0,9
+201819,Academic year,Local authority,E92000001,England,E12000009,South West,879,Plymouth,E06000026,CLA 12 months at 31 March,212,0,34
+201819,Academic year,Local authority,E92000001,England,E12000009,South West,836,Poole,E06000029,CLA 12 months at 31 March,76,c,14
+201819,Academic year,Local authority,E92000001,England,E12000009,South West,933,Somerset,E10000027,CLA 12 months at 31 March,230,0,44
+201819,Academic year,Local authority,E92000001,England,E12000009,South West,803,South Gloucestershire,E06000025,CLA 12 months at 31 March,77,0,11
+201819,Academic year,Local authority,E92000001,England,E12000009,South West,866,Swindon,E06000030,CLA 12 months at 31 March,152,0,24
+201819,Academic year,Local authority,E92000001,England,E12000009,South West,880,Torbay,E06000027,CLA 12 months at 31 March,177,0,23
+201819,Academic year,Local authority,E92000001,England,E12000009,South West,865,Wiltshire,E06000054,CLA 12 months at 31 March,214,0,32
+201819,Academic year,Local authority,E92000001,England,E13000001,Inner London,202,Camden,E09000007,CLA 12 months at 31 March,58,0,7
+201819,Academic year,Local authority,E92000001,England,E13000001,Inner London,201,City of London,E09000001,CLA 12 months at 31 March,c,c,c
+201819,Academic year,Local authority,E92000001,England,E13000001,Inner London,204,Hackney,E09000012,CLA 12 months at 31 March,159,0,17
+201819,Academic year,Local authority,E92000001,England,E13000001,Inner London,205,Hammersmith and Fulham,E09000013,CLA 12 months at 31 March,85,0,10
+201819,Academic year,Local authority,E92000001,England,E13000001,Inner London,309,Haringey,E09000014,CLA 12 months at 31 March,186,c,20
+201819,Academic year,Local authority,E92000001,England,E13000001,Inner London,206,Islington,E09000019,CLA 12 months at 31 March,140,0,24
+201819,Academic year,Local authority,E92000001,England,E13000001,Inner London,207,Kensington and Chelsea,E09000020,CLA 12 months at 31 March,32,0,6
+201819,Academic year,Local authority,E92000001,England,E13000001,Inner London,208,Lambeth,E09000022,CLA 12 months at 31 March,160,0,19
+201819,Academic year,Local authority,E92000001,England,E13000001,Inner London,209,Lewisham,E09000023,CLA 12 months at 31 March,211,0,21
+201819,Academic year,Local authority,E92000001,England,E13000001,Inner London,316,Newham,E09000025,CLA 12 months at 31 March,165,0,11
+201819,Academic year,Local authority,E92000001,England,E13000001,Inner London,210,Southwark,E09000028,CLA 12 months at 31 March,223,c,27
+201819,Academic year,Local authority,E92000001,England,E13000001,Inner London,211,Tower Hamlets,E09000030,CLA 12 months at 31 March,129,0,11
+201819,Academic year,Local authority,E92000001,England,E13000001,Inner London,212,Wandsworth,E09000032,CLA 12 months at 31 March,117,0,12
+201819,Academic year,Local authority,E92000001,England,E13000001,Inner London,213,Westminster,E09000033,CLA 12 months at 31 March,76,0,16
+201819,Academic year,Local authority,E92000001,England,E13000002,Outer London,301,Barking and Dagenham,E09000002,CLA 12 months at 31 March,189,c,13
+201819,Academic year,Local authority,E92000001,England,E13000002,Outer London,302,Barnet,E09000003,CLA 12 months at 31 March,116,0,12
+201819,Academic year,Local authority,E92000001,England,E13000002,Outer London,303,Bexley,E09000004,CLA 12 months at 31 March,86,0,13
+201819,Academic year,Local authority,E92000001,England,E13000002,Outer London,304,Brent,E09000005,CLA 12 months at 31 March,115,0,16
+201819,Academic year,Local authority,E92000001,England,E13000002,Outer London,305,Bromley,E09000006,CLA 12 months at 31 March,137,0,11
+201819,Academic year,Local authority,E92000001,England,E13000002,Outer London,306,Croydon,E09000008,CLA 12 months at 31 March,266,0,20
+201819,Academic year,Local authority,E92000001,England,E13000002,Outer London,307,Ealing,E09000009,CLA 12 months at 31 March,138,0,14
+201819,Academic year,Local authority,E92000001,England,E13000002,Outer London,308,Enfield,E09000010,CLA 12 months at 31 March,145,0,22
+201819,Academic year,Local authority,E92000001,England,E13000002,Outer London,203,Greenwich,E09000011,CLA 12 months at 31 March,251,0,28
+201819,Academic year,Local authority,E92000001,England,E13000002,Outer London,310,Harrow,E09000015,CLA 12 months at 31 March,48,0,9
+201819,Academic year,Local authority,E92000001,England,E13000002,Outer London,311,Havering,E09000016,CLA 12 months at 31 March,110,c,10
+201819,Academic year,Local authority,E92000001,England,E13000002,Outer London,312,Hillingdon,E09000017,CLA 12 months at 31 March,94,c,6
+201819,Academic year,Local authority,E92000001,England,E13000002,Outer London,313,Hounslow,E09000018,CLA 12 months at 31 March,102,0,15
+201819,Academic year,Local authority,E92000001,England,E13000002,Outer London,314,Kingston upon Thames,E09000021,CLA 12 months at 31 March,60,0,c
+201819,Academic year,Local authority,E92000001,England,E13000002,Outer London,315,Merton,E09000024,CLA 12 months at 31 March,71,0,c
+201819,Academic year,Local authority,E92000001,England,E13000002,Outer London,317,Redbridge,E09000026,CLA 12 months at 31 March,84,0,8
+201819,Academic year,Local authority,E92000001,England,E13000002,Outer London,318,Richmond upon Thames,E09000027,CLA 12 months at 31 March,27,0,c
+201819,Academic year,Local authority,E92000001,England,E13000002,Outer London,319,Sutton,E09000029,CLA 12 months at 31 March,93,0,13
+201819,Academic year,Local authority,E92000001,England,E13000002,Outer London,320,Waltham Forest,E09000031,CLA 12 months at 31 March,99,0,12
+201718,Academic year,Local authority,E92000001,England,E12000001,North East,840,County Durham,E06000047,CLA 12 months at 31 March,417,c,26
+201718,Academic year,Local authority,E92000001,England,E12000001,North East,841,Darlington,E06000005,CLA 12 months at 31 March,103,0,10
+201718,Academic year,Local authority,E92000001,England,E12000001,North East,390,Gateshead,E08000037,CLA 12 months at 31 March,193,0,13
+201718,Academic year,Local authority,E92000001,England,E12000001,North East,805,Hartlepool,E06000001,CLA 12 months at 31 March,136,0,24
+201718,Academic year,Local authority,E92000001,England,E12000001,North East,806,Middlesbrough,E06000002,CLA 12 months at 31 March,231,0,24
+201718,Academic year,Local authority,E92000001,England,E12000001,North East,391,Newcastle upon Tyne,E08000021,CLA 12 months at 31 March,262,0,29
+201718,Academic year,Local authority,E92000001,England,E12000001,North East,392,North Tyneside,E08000022,CLA 12 months at 31 March,130,0,13
+201718,Academic year,Local authority,E92000001,England,E12000001,North East,929,Northumberland,E06000057,CLA 12 months at 31 March,162,0,40
+201718,Academic year,Local authority,E92000001,England,E12000001,North East,807,Redcar and Cleveland,E06000003,CLA 12 months at 31 March,123,0,21
+201718,Academic year,Local authority,E92000001,England,E12000001,North East,393,South Tyneside,E08000023,CLA 12 months at 31 March,138,0,11
+201718,Academic year,Local authority,E92000001,England,E12000001,North East,808,Stockton-on-Tees,E06000004,CLA 12 months at 31 March,244,0,21
+201718,Academic year,Local authority,E92000001,England,E12000001,North East,394,Sunderland,E08000024,CLA 12 months at 31 March,244,0,25
+201718,Academic year,Local authority,E92000001,England,E12000002,North West,889,Blackburn with Darwen,E06000008,CLA 12 months at 31 March,173,c,18
+201718,Academic year,Local authority,E92000001,England,E12000002,North West,890,Blackpool,E06000009,CLA 12 months at 31 March,279,0,31
+201718,Academic year,Local authority,E92000001,England,E12000002,North West,350,Bolton,E08000001,CLA 12 months at 31 March,323,0,34
+201718,Academic year,Local authority,E92000001,England,E12000002,North West,351,Bury,E08000002,CLA 12 months at 31 March,159,0,15
+201718,Academic year,Local authority,E92000001,England,E12000002,North West,895,Cheshire East,E06000049,CLA 12 months at 31 March,234,c,18
+201718,Academic year,Local authority,E92000001,England,E12000002,North West,896,Cheshire West and Chester,E06000050,CLA 12 months at 31 March,228,0,22
+201718,Academic year,Local authority,E92000001,England,E12000002,North West,909,Cumbria,E10000006,CLA 12 months at 31 March,330,0,29
+201718,Academic year,Local authority,E92000001,England,E12000002,North West,876,Halton,E06000006,CLA 12 months at 31 March,135,0,14
+201718,Academic year,Local authority,E92000001,England,E12000002,North West,340,Knowsley,E08000011,CLA 12 months at 31 March,153,0,9
+201718,Academic year,Local authority,E92000001,England,E12000002,North West,888,Lancashire,E10000017,CLA 12 months at 31 March,960,c,92
+201718,Academic year,Local authority,E92000001,England,E12000002,North West,341,Liverpool,E08000012,CLA 12 months at 31 March,617,0,48
+201718,Academic year,Local authority,E92000001,England,E12000002,North West,352,Manchester,E08000003,CLA 12 months at 31 March,651,0,87
+201718,Academic year,Local authority,E92000001,England,E12000002,North West,353,Oldham,E08000004,CLA 12 months at 31 March,263,0,28
+201718,Academic year,Local authority,E92000001,England,E12000002,North West,354,Rochdale,E08000005,CLA 12 months at 31 March,245,0,24
+201718,Academic year,Local authority,E92000001,England,E12000002,North West,355,Salford,E08000006,CLA 12 months at 31 March,286,0,31
+201718,Academic year,Local authority,E92000001,England,E12000002,North West,343,Sefton,E08000014,CLA 12 months at 31 March,236,0,27
+201718,Academic year,Local authority,E92000001,England,E12000002,North West,342,St. Helens,E08000013,CLA 12 months at 31 March,256,0,25
+201718,Academic year,Local authority,E92000001,England,E12000002,North West,356,Stockport,E08000007,CLA 12 months at 31 March,161,0,21
+201718,Academic year,Local authority,E92000001,England,E12000002,North West,357,Tameside,E08000008,CLA 12 months at 31 March,267,0,37
+201718,Academic year,Local authority,E92000001,England,E12000002,North West,358,Trafford,E08000009,CLA 12 months at 31 March,204,0,15
+201718,Academic year,Local authority,E92000001,England,E12000002,North West,877,Warrington,E06000007,CLA 12 months at 31 March,204,0,12
+201718,Academic year,Local authority,E92000001,England,E12000002,North West,359,Wigan,E08000010,CLA 12 months at 31 March,247,0,35
+201718,Academic year,Local authority,E92000001,England,E12000002,North West,344,Wirral,E08000015,CLA 12 months at 31 March,413,c,42
+201718,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,370,Barnsley,E08000016,CLA 12 months at 31 March,147,0,16
+201718,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,380,Bradford,E08000032,CLA 12 months at 31 March,535,0,71
+201718,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,381,Calderdale,E08000033,CLA 12 months at 31 March,162,0,24
+201718,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,371,Doncaster,E08000017,CLA 12 months at 31 March,251,0,35
+201718,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,811,East Riding of Yorkshire,E06000011,CLA 12 months at 31 March,153,0,21
+201718,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,810,"Kingston upon Hull, City of",E06000010,CLA 12 months at 31 March,374,0,30
+201718,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,382,Kirklees,E08000034,CLA 12 months at 31 March,356,0,31
+201718,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,383,Leeds,E08000035,CLA 12 months at 31 March,683,0,83
+201718,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,812,North East Lincolnshire,E06000012,CLA 12 months at 31 March,162,0,24
+201718,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,813,North Lincolnshire,E06000013,CLA 12 months at 31 March,116,0,13
+201718,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,815,North Yorkshire,E10000023,CLA 12 months at 31 March,206,0,20
+201718,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,372,Rotherham,E08000018,CLA 12 months at 31 March,247,0,28
+201718,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,373,Sheffield,E08000019,CLA 12 months at 31 March,287,0,36
+201718,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,384,Wakefield,E08000036,CLA 12 months at 31 March,257,c,24
+201718,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,816,York,E06000014,CLA 12 months at 31 March,102,0,11
+201718,Academic year,Local authority,E92000001,England,E12000004,East Midlands,831,Derby,E06000015,CLA 12 months at 31 March,222,0,20
+201718,Academic year,Local authority,E92000001,England,E12000004,East Midlands,830,Derbyshire,E10000007,CLA 12 months at 31 March,303,0,36
+201718,Academic year,Local authority,E92000001,England,E12000004,East Midlands,856,Leicester,E06000016,CLA 12 months at 31 March,314,0,28
+201718,Academic year,Local authority,E92000001,England,E12000004,East Midlands,855,Leicestershire,E10000018,CLA 12 months at 31 March,251,0,23
+201718,Academic year,Local authority,E92000001,England,E12000004,East Midlands,925,Lincolnshire,E10000019,CLA 12 months at 31 March,321,0,28
+201718,Academic year,Local authority,E92000001,England,E12000004,East Midlands,928,Northamptonshire,E10000021,CLA 12 months at 31 March,456,0,57
+201718,Academic year,Local authority,E92000001,England,E12000004,East Midlands,892,Nottingham,E06000018,CLA 12 months at 31 March,318,0,38
+201718,Academic year,Local authority,E92000001,England,E12000004,East Midlands,891,Nottinghamshire,E10000024,CLA 12 months at 31 March,402,0,38
+201718,Academic year,Local authority,E92000001,England,E12000004,East Midlands,857,Rutland,E06000017,CLA 12 months at 31 March,17,0,c
+201718,Academic year,Local authority,E92000001,England,E12000005,West Midlands,330,Birmingham,E08000025,CLA 12 months at 31 March,951,c,96
+201718,Academic year,Local authority,E92000001,England,E12000005,West Midlands,331,Coventry,E08000026,CLA 12 months at 31 March,286,0,38
+201718,Academic year,Local authority,E92000001,England,E12000005,West Midlands,332,Dudley,E08000027,CLA 12 months at 31 March,371,0,39
+201718,Academic year,Local authority,E92000001,England,E12000005,West Midlands,884,"Herefordshire, County of",E06000019,CLA 12 months at 31 March,178,0,22
+201718,Academic year,Local authority,E92000001,England,E12000005,West Midlands,333,Sandwell,E08000028,CLA 12 months at 31 March,334,c,29
+201718,Academic year,Local authority,E92000001,England,E12000005,West Midlands,893,Shropshire,E06000051,CLA 12 months at 31 March,146,0,12
+201718,Academic year,Local authority,E92000001,England,E12000005,West Midlands,334,Solihull,E08000029,CLA 12 months at 31 March,190,0,21
+201718,Academic year,Local authority,E92000001,England,E12000005,West Midlands,860,Staffordshire,E10000028,CLA 12 months at 31 March,519,0,53
+201718,Academic year,Local authority,E92000001,England,E12000005,West Midlands,861,Stoke-on-Trent,E06000021,CLA 12 months at 31 March,381,0,35
+201718,Academic year,Local authority,E92000001,England,E12000005,West Midlands,894,Telford and Wrekin,E06000020,CLA 12 months at 31 March,189,0,20
+201718,Academic year,Local authority,E92000001,England,E12000005,West Midlands,335,Walsall,E08000030,CLA 12 months at 31 March,352,0,27
+201718,Academic year,Local authority,E92000001,England,E12000005,West Midlands,937,Warwickshire,E10000031,CLA 12 months at 31 March,311,0,32
+201718,Academic year,Local authority,E92000001,England,E12000005,West Midlands,336,Wolverhampton,E08000031,CLA 12 months at 31 March,397,0,42
+201718,Academic year,Local authority,E92000001,England,E12000005,West Midlands,885,Worcestershire,E10000034,CLA 12 months at 31 March,386,c,42
+201718,Academic year,Local authority,E92000001,England,E12000006,East of England,822,Bedford,E06000055,CLA 12 months at 31 March,116,0,13
+201718,Academic year,Local authority,E92000001,England,E12000006,East of England,873,Cambridgeshire,E10000003,CLA 12 months at 31 March,304,0,37
+201718,Academic year,Local authority,E92000001,England,E12000006,East of England,823,Central Bedfordshire,E06000056,CLA 12 months at 31 March,159,0,14
+201718,Academic year,Local authority,E92000001,England,E12000006,East of England,881,Essex,E10000012,CLA 12 months at 31 March,504,c,68
+201718,Academic year,Local authority,E92000001,England,E12000006,East of England,919,Hertfordshire,E10000015,CLA 12 months at 31 March,436,0,55
+201718,Academic year,Local authority,E92000001,England,E12000006,East of England,821,Luton,E06000032,CLA 12 months at 31 March,177,0,28
+201718,Academic year,Local authority,E92000001,England,E12000006,East of England,926,Norfolk,E10000020,CLA 12 months at 31 March,548,0,53
+201718,Academic year,Local authority,E92000001,England,E12000006,East of England,874,Peterborough,E06000031,CLA 12 months at 31 March,170,0,22
+201718,Academic year,Local authority,E92000001,England,E12000006,East of England,882,Southend-on-Sea,E06000033,CLA 12 months at 31 March,136,c,19
+201718,Academic year,Local authority,E92000001,England,E12000006,East of England,935,Suffolk,E10000029,CLA 12 months at 31 March,402,0,61
+201718,Academic year,Local authority,E92000001,England,E12000006,East of England,883,Thurrock,E06000034,CLA 12 months at 31 March,136,0,8
+201718,Academic year,Local authority,E92000001,England,E12000008,South East,867,Bracknell Forest,E06000036,CLA 12 months at 31 March,50,0,8
+201718,Academic year,Local authority,E92000001,England,E12000008,South East,846,Brighton and Hove,E06000043,CLA 12 months at 31 March,186,c,32
+201718,Academic year,Local authority,E92000001,England,E12000008,South East,825,Buckinghamshire,E06000060,CLA 12 months at 31 March,224,0,29
+201718,Academic year,Local authority,E92000001,England,E12000008,South East,845,East Sussex,E10000011,CLA 12 months at 31 March,291,0,29
+201718,Academic year,Local authority,E92000001,England,E12000008,South East,850,Hampshire,E10000014,CLA 12 months at 31 March,772,c,100
+201718,Academic year,Local authority,E92000001,England,E12000008,South East,921,Isle of Wight,E06000046,CLA 12 months at 31 March,126,0,13
+201718,Academic year,Local authority,E92000001,England,E12000008,South East,886,Kent,E10000016,CLA 12 months at 31 March,857,0,83
+201718,Academic year,Local authority,E92000001,England,E12000008,South East,887,Medway,E06000035,CLA 12 months at 31 March,203,0,28
+201718,Academic year,Local authority,E92000001,England,E12000008,South East,826,Milton Keynes,E06000042,CLA 12 months at 31 March,196,0,20
+201718,Academic year,Local authority,E92000001,England,E12000008,South East,931,Oxfordshire,E10000025,CLA 12 months at 31 March,294,0,31
+201718,Academic year,Local authority,E92000001,England,E12000008,South East,851,Portsmouth,E06000044,CLA 12 months at 31 March,161,0,30
+201718,Academic year,Local authority,E92000001,England,E12000008,South East,870,Reading,E06000038,CLA 12 months at 31 March,129,0,15
+201718,Academic year,Local authority,E92000001,England,E12000008,South East,871,Slough,E06000039,CLA 12 months at 31 March,78,0,7
+201718,Academic year,Local authority,E92000001,England,E12000008,South East,852,Southampton,E06000045,CLA 12 months at 31 March,291,0,38
+201718,Academic year,Local authority,E92000001,England,E12000008,South East,936,Surrey,E10000030,CLA 12 months at 31 March,356,0,37
+201718,Academic year,Local authority,E92000001,England,E12000008,South East,869,West Berkshire,E06000037,CLA 12 months at 31 March,75,0,9
+201718,Academic year,Local authority,E92000001,England,E12000008,South East,938,West Sussex,E10000032,CLA 12 months at 31 March,264,0,32
+201718,Academic year,Local authority,E92000001,England,E12000008,South East,868,Windsor and Maidenhead,E06000040,CLA 12 months at 31 March,48,0,6
+201718,Academic year,Local authority,E92000001,England,E12000008,South East,872,Wokingham,E06000041,CLA 12 months at 31 March,23,0,8
+201718,Academic year,Local authority,E92000001,England,E12000009,South West,800,Bath and North East Somerset,E06000022,CLA 12 months at 31 March,76,0,11
+201718,Academic year,Local authority,E92000001,England,E12000009,South West,837,Bournemouth,E06000028,CLA 12 months at 31 March,111,0,16
+201718,Academic year,Local authority,E92000001,England,E12000009,South West,801,"Bristol, City of",E06000023,CLA 12 months at 31 March,346,0,50
+201718,Academic year,Local authority,E92000001,England,E12000009,South West,908,Cornwall,E06000052,CLA 12 months at 31 March,204,0,30
+201718,Academic year,Local authority,E92000001,England,E12000009,South West,878,Devon,E10000008,CLA 12 months at 31 March,315,c,44
+201718,Academic year,Local authority,E92000001,England,E12000009,South West,835,Dorset,E10000009,CLA 12 months at 31 March,213,0,31
+201718,Academic year,Local authority,E92000001,England,E12000009,South West,916,Gloucestershire,E10000013,CLA 12 months at 31 March,287,0,45
+201718,Academic year,Local authority,E92000001,England,E12000009,South West,802,North Somerset,E06000024,CLA 12 months at 31 March,105,0,14
+201718,Academic year,Local authority,E92000001,England,E12000009,South West,879,Plymouth,E06000026,CLA 12 months at 31 March,181,c,28
+201718,Academic year,Local authority,E92000001,England,E12000009,South West,836,Poole,E06000029,CLA 12 months at 31 March,81,0,15
+201718,Academic year,Local authority,E92000001,England,E12000009,South West,933,Somerset,E10000027,CLA 12 months at 31 March,218,c,44
+201718,Academic year,Local authority,E92000001,England,E12000009,South West,803,South Gloucestershire,E06000025,CLA 12 months at 31 March,79,0,8
+201718,Academic year,Local authority,E92000001,England,E12000009,South West,866,Swindon,E06000030,CLA 12 months at 31 March,147,0,19
+201718,Academic year,Local authority,E92000001,England,E12000009,South West,880,Torbay,E06000027,CLA 12 months at 31 March,163,0,25
+201718,Academic year,Local authority,E92000001,England,E12000009,South West,865,Wiltshire,E06000054,CLA 12 months at 31 March,229,c,34
+201718,Academic year,Local authority,E92000001,England,E13000001,Inner London,202,Camden,E09000007,CLA 12 months at 31 March,60,0,c
+201718,Academic year,Local authority,E92000001,England,E13000001,Inner London,201,City of London,E09000001,CLA 12 months at 31 March,c,c,c
+201718,Academic year,Local authority,E92000001,England,E13000001,Inner London,204,Hackney,E09000012,CLA 12 months at 31 March,158,c,18
+201718,Academic year,Local authority,E92000001,England,E13000001,Inner London,205,Hammersmith and Fulham,E09000013,CLA 12 months at 31 March,97,0,10
+201718,Academic year,Local authority,E92000001,England,E13000001,Inner London,309,Haringey,E09000014,CLA 12 months at 31 March,207,0,29
+201718,Academic year,Local authority,E92000001,England,E13000001,Inner London,206,Islington,E09000019,CLA 12 months at 31 March,123,0,16
+201718,Academic year,Local authority,E92000001,England,E13000001,Inner London,207,Kensington and Chelsea,E09000020,CLA 12 months at 31 March,31,0,6
+201718,Academic year,Local authority,E92000001,England,E13000001,Inner London,208,Lambeth,E09000022,CLA 12 months at 31 March,169,0,15
+201718,Academic year,Local authority,E92000001,England,E13000001,Inner London,209,Lewisham,E09000023,CLA 12 months at 31 March,204,0,25
+201718,Academic year,Local authority,E92000001,England,E13000001,Inner London,316,Newham,E09000025,CLA 12 months at 31 March,146,0,17
+201718,Academic year,Local authority,E92000001,England,E13000001,Inner London,210,Southwark,E09000028,CLA 12 months at 31 March,237,c,35
+201718,Academic year,Local authority,E92000001,England,E13000001,Inner London,211,Tower Hamlets,E09000030,CLA 12 months at 31 March,143,0,8
+201718,Academic year,Local authority,E92000001,England,E13000001,Inner London,212,Wandsworth,E09000032,CLA 12 months at 31 March,120,0,11
+201718,Academic year,Local authority,E92000001,England,E13000001,Inner London,213,Westminster,E09000033,CLA 12 months at 31 March,70,0,12
+201718,Academic year,Local authority,E92000001,England,E13000002,Outer London,301,Barking and Dagenham,E09000002,CLA 12 months at 31 March,194,0,12
+201718,Academic year,Local authority,E92000001,England,E13000002,Outer London,302,Barnet,E09000003,CLA 12 months at 31 March,111,0,9
+201718,Academic year,Local authority,E92000001,England,E13000002,Outer London,303,Bexley,E09000004,CLA 12 months at 31 March,103,0,15
+201718,Academic year,Local authority,E92000001,England,E13000002,Outer London,304,Brent,E09000005,CLA 12 months at 31 March,134,0,17
+201718,Academic year,Local authority,E92000001,England,E13000002,Outer London,305,Bromley,E09000006,CLA 12 months at 31 March,128,0,16
+201718,Academic year,Local authority,E92000001,England,E13000002,Outer London,306,Croydon,E09000008,CLA 12 months at 31 March,244,0,27
+201718,Academic year,Local authority,E92000001,England,E13000002,Outer London,307,Ealing,E09000009,CLA 12 months at 31 March,148,0,14
+201718,Academic year,Local authority,E92000001,England,E13000002,Outer London,308,Enfield,E09000010,CLA 12 months at 31 March,148,0,17
+201718,Academic year,Local authority,E92000001,England,E13000002,Outer London,203,Greenwich,E09000011,CLA 12 months at 31 March,256,0,26
+201718,Academic year,Local authority,E92000001,England,E13000002,Outer London,310,Harrow,E09000015,CLA 12 months at 31 March,54,0,9
+201718,Academic year,Local authority,E92000001,England,E13000002,Outer London,311,Havering,E09000016,CLA 12 months at 31 March,107,0,11
+201718,Academic year,Local authority,E92000001,England,E13000002,Outer London,312,Hillingdon,E09000017,CLA 12 months at 31 March,117,0,17
+201718,Academic year,Local authority,E92000001,England,E13000002,Outer London,313,Hounslow,E09000018,CLA 12 months at 31 March,98,0,c
+201718,Academic year,Local authority,E92000001,England,E13000002,Outer London,314,Kingston upon Thames,E09000021,CLA 12 months at 31 March,52,0,c
+201718,Academic year,Local authority,E92000001,England,E13000002,Outer London,315,Merton,E09000024,CLA 12 months at 31 March,55,0,c
+201718,Academic year,Local authority,E92000001,England,E13000002,Outer London,317,Redbridge,E09000026,CLA 12 months at 31 March,83,0,8
+201718,Academic year,Local authority,E92000001,England,E13000002,Outer London,318,Richmond upon Thames,E09000027,CLA 12 months at 31 March,30,0,c
+201718,Academic year,Local authority,E92000001,England,E13000002,Outer London,319,Sutton,E09000029,CLA 12 months at 31 March,95,0,11
+201718,Academic year,Local authority,E92000001,England,E13000002,Outer London,320,Waltham Forest,E09000031,CLA 12 months at 31 March,107,0,14
+201617,Academic year,Local authority,E92000001,England,E12000001,North East,840,County Durham,E06000047,CLA 12 months at 31 March,392,0,40
+201617,Academic year,Local authority,E92000001,England,E12000001,North East,841,Darlington,E06000005,CLA 12 months at 31 March,99,0,13
+201617,Academic year,Local authority,E92000001,England,E12000001,North East,390,Gateshead,E08000037,CLA 12 months at 31 March,183,0,16
+201617,Academic year,Local authority,E92000001,England,E12000001,North East,805,Hartlepool,E06000001,CLA 12 months at 31 March,102,0,13
+201617,Academic year,Local authority,E92000001,England,E12000001,North East,806,Middlesbrough,E06000002,CLA 12 months at 31 March,190,0,16
+201617,Academic year,Local authority,E92000001,England,E12000001,North East,391,Newcastle upon Tyne,E08000021,CLA 12 months at 31 March,263,c,30
+201617,Academic year,Local authority,E92000001,England,E12000001,North East,392,North Tyneside,E08000022,CLA 12 months at 31 March,129,0,6
+201617,Academic year,Local authority,E92000001,England,E12000001,North East,929,Northumberland,E06000057,CLA 12 months at 31 March,168,0,23
+201617,Academic year,Local authority,E92000001,England,E12000001,North East,807,Redcar and Cleveland,E06000003,CLA 12 months at 31 March,104,0,16
+201617,Academic year,Local authority,E92000001,England,E12000001,North East,393,South Tyneside,E08000023,CLA 12 months at 31 March,151,0,13
+201617,Academic year,Local authority,E92000001,England,E12000001,North East,808,Stockton-on-Tees,E06000004,CLA 12 months at 31 March,220,0,9
+201617,Academic year,Local authority,E92000001,England,E12000001,North East,394,Sunderland,E08000024,CLA 12 months at 31 March,216,0,22
+201617,Academic year,Local authority,E92000001,England,E12000002,North West,889,Blackburn with Darwen,E06000008,CLA 12 months at 31 March,170,0,20
+201617,Academic year,Local authority,E92000001,England,E12000002,North West,890,Blackpool,E06000009,CLA 12 months at 31 March,237,0,20
+201617,Academic year,Local authority,E92000001,England,E12000002,North West,350,Bolton,E08000001,CLA 12 months at 31 March,325,0,38
+201617,Academic year,Local authority,E92000001,England,E12000002,North West,351,Bury,E08000002,CLA 12 months at 31 March,159,0,15
+201617,Academic year,Local authority,E92000001,England,E12000002,North West,895,Cheshire East,E06000049,CLA 12 months at 31 March,212,0,17
+201617,Academic year,Local authority,E92000001,England,E12000002,North West,896,Cheshire West and Chester,E06000050,CLA 12 months at 31 March,214,0,17
+201617,Academic year,Local authority,E92000001,England,E12000002,North West,909,Cumbria,E10000006,CLA 12 months at 31 March,336,0,33
+201617,Academic year,Local authority,E92000001,England,E12000002,North West,876,Halton,E06000006,CLA 12 months at 31 March,119,0,13
+201617,Academic year,Local authority,E92000001,England,E12000002,North West,340,Knowsley,E08000011,CLA 12 months at 31 March,150,0,12
+201617,Academic year,Local authority,E92000001,England,E12000002,North West,888,Lancashire,E10000017,CLA 12 months at 31 March,884,6,79
+201617,Academic year,Local authority,E92000001,England,E12000002,North West,341,Liverpool,E08000012,CLA 12 months at 31 March,568,0,43
+201617,Academic year,Local authority,E92000001,England,E12000002,North West,352,Manchester,E08000003,CLA 12 months at 31 March,690,0,109
+201617,Academic year,Local authority,E92000001,England,E12000002,North West,353,Oldham,E08000004,CLA 12 months at 31 March,230,0,27
+201617,Academic year,Local authority,E92000001,England,E12000002,North West,354,Rochdale,E08000005,CLA 12 months at 31 March,268,c,23
+201617,Academic year,Local authority,E92000001,England,E12000002,North West,355,Salford,E08000006,CLA 12 months at 31 March,273,0,30
+201617,Academic year,Local authority,E92000001,England,E12000002,North West,343,Sefton,E08000014,CLA 12 months at 31 March,235,0,24
+201617,Academic year,Local authority,E92000001,England,E12000002,North West,342,St. Helens,E08000013,CLA 12 months at 31 March,232,0,28
+201617,Academic year,Local authority,E92000001,England,E12000002,North West,356,Stockport,E08000007,CLA 12 months at 31 March,152,0,24
+201617,Academic year,Local authority,E92000001,England,E12000002,North West,357,Tameside,E08000008,CLA 12 months at 31 March,227,c,35
+201617,Academic year,Local authority,E92000001,England,E12000002,North West,358,Trafford,E08000009,CLA 12 months at 31 March,200,0,16
+201617,Academic year,Local authority,E92000001,England,E12000002,North West,877,Warrington,E06000007,CLA 12 months at 31 March,192,0,14
+201617,Academic year,Local authority,E92000001,England,E12000002,North West,359,Wigan,E08000010,CLA 12 months at 31 March,262,0,37
+201617,Academic year,Local authority,E92000001,England,E12000002,North West,344,Wirral,E08000015,CLA 12 months at 31 March,348,0,33
+201617,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,370,Barnsley,E08000016,CLA 12 months at 31 March,138,0,13
+201617,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,380,Bradford,E08000032,CLA 12 months at 31 March,481,0,48
+201617,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,381,Calderdale,E08000033,CLA 12 months at 31 March,167,0,23
+201617,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,371,Doncaster,E08000017,CLA 12 months at 31 March,264,0,37
+201617,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,811,East Riding of Yorkshire,E06000011,CLA 12 months at 31 March,142,0,22
+201617,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,810,"Kingston upon Hull, City of",E06000010,CLA 12 months at 31 March,353,0,37
+201617,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,382,Kirklees,E08000034,CLA 12 months at 31 March,336,0,33
+201617,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,383,Leeds,E08000035,CLA 12 months at 31 March,681,0,96
+201617,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,812,North East Lincolnshire,E06000012,CLA 12 months at 31 March,146,c,27
+201617,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,813,North Lincolnshire,E06000013,CLA 12 months at 31 March,104,c,c
+201617,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,815,North Yorkshire,E10000023,CLA 12 months at 31 March,199,0,21
+201617,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,372,Rotherham,E08000018,CLA 12 months at 31 March,199,0,30
+201617,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,373,Sheffield,E08000019,CLA 12 months at 31 March,261,0,27
+201617,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,384,Wakefield,E08000036,CLA 12 months at 31 March,256,0,25
+201617,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,816,York,E06000014,CLA 12 months at 31 March,105,0,10
+201617,Academic year,Local authority,E92000001,England,E12000004,East Midlands,831,Derby,E06000015,CLA 12 months at 31 March,205,0,30
+201617,Academic year,Local authority,E92000001,England,E12000004,East Midlands,830,Derbyshire,E10000007,CLA 12 months at 31 March,275,0,44
+201617,Academic year,Local authority,E92000001,England,E12000004,East Midlands,856,Leicester,E06000016,CLA 12 months at 31 March,304,0,25
+201617,Academic year,Local authority,E92000001,England,E12000004,East Midlands,855,Leicestershire,E10000018,CLA 12 months at 31 March,204,0,15
+201617,Academic year,Local authority,E92000001,England,E12000004,East Midlands,925,Lincolnshire,E10000019,CLA 12 months at 31 March,314,c,27
+201617,Academic year,Local authority,E92000001,England,E12000004,East Midlands,928,Northamptonshire,E10000021,CLA 12 months at 31 March,399,0,48
+201617,Academic year,Local authority,E92000001,England,E12000004,East Midlands,892,Nottingham,E06000018,CLA 12 months at 31 March,318,0,49
+201617,Academic year,Local authority,E92000001,England,E12000004,East Midlands,891,Nottinghamshire,E10000024,CLA 12 months at 31 March,412,0,42
+201617,Academic year,Local authority,E92000001,England,E12000004,East Midlands,857,Rutland,E06000017,CLA 12 months at 31 March,20,0,c
+201617,Academic year,Local authority,E92000001,England,E12000005,West Midlands,330,Birmingham,E08000025,CLA 12 months at 31 March,960,c,107
+201617,Academic year,Local authority,E92000001,England,E12000005,West Midlands,331,Coventry,E08000026,CLA 12 months at 31 March,276,0,32
+201617,Academic year,Local authority,E92000001,England,E12000005,West Midlands,332,Dudley,E08000027,CLA 12 months at 31 March,394,c,51
+201617,Academic year,Local authority,E92000001,England,E12000005,West Midlands,884,"Herefordshire, County of",E06000019,CLA 12 months at 31 March,149,0,14
+201617,Academic year,Local authority,E92000001,England,E12000005,West Midlands,333,Sandwell,E08000028,CLA 12 months at 31 March,289,0,25
+201617,Academic year,Local authority,E92000001,England,E12000005,West Midlands,893,Shropshire,E06000051,CLA 12 months at 31 March,140,c,11
+201617,Academic year,Local authority,E92000001,England,E12000005,West Midlands,334,Solihull,E08000029,CLA 12 months at 31 March,191,0,32
+201617,Academic year,Local authority,E92000001,England,E12000005,West Midlands,860,Staffordshire,E10000028,CLA 12 months at 31 March,522,0,47
+201617,Academic year,Local authority,E92000001,England,E12000005,West Midlands,861,Stoke-on-Trent,E06000021,CLA 12 months at 31 March,349,0,28
+201617,Academic year,Local authority,E92000001,England,E12000005,West Midlands,894,Telford and Wrekin,E06000020,CLA 12 months at 31 March,164,0,23
+201617,Academic year,Local authority,E92000001,England,E12000005,West Midlands,335,Walsall,E08000030,CLA 12 months at 31 March,366,0,28
+201617,Academic year,Local authority,E92000001,England,E12000005,West Midlands,937,Warwickshire,E10000031,CLA 12 months at 31 March,341,c,51
+201617,Academic year,Local authority,E92000001,England,E12000005,West Midlands,336,Wolverhampton,E08000031,CLA 12 months at 31 March,405,0,44
+201617,Academic year,Local authority,E92000001,England,E12000005,West Midlands,885,Worcestershire,E10000034,CLA 12 months at 31 March,351,c,41
+201617,Academic year,Local authority,E92000001,England,E12000006,East of England,822,Bedford,E06000055,CLA 12 months at 31 March,124,0,14
+201617,Academic year,Local authority,E92000001,England,E12000006,East of England,873,Cambridgeshire,E10000003,CLA 12 months at 31 March,288,c,30
+201617,Academic year,Local authority,E92000001,England,E12000006,East of England,823,Central Bedfordshire,E06000056,CLA 12 months at 31 March,148,0,17
+201617,Academic year,Local authority,E92000001,England,E12000006,East of England,881,Essex,E10000012,CLA 12 months at 31 March,470,0,51
+201617,Academic year,Local authority,E92000001,England,E12000006,East of England,919,Hertfordshire,E10000015,CLA 12 months at 31 March,436,c,70
+201617,Academic year,Local authority,E92000001,England,E12000006,East of England,821,Luton,E06000032,CLA 12 months at 31 March,171,c,30
+201617,Academic year,Local authority,E92000001,England,E12000006,East of England,926,Norfolk,E10000020,CLA 12 months at 31 March,525,c,54
+201617,Academic year,Local authority,E92000001,England,E12000006,East of England,874,Peterborough,E06000031,CLA 12 months at 31 March,168,0,24
+201617,Academic year,Local authority,E92000001,England,E12000006,East of England,882,Southend-on-Sea,E06000033,CLA 12 months at 31 March,103,0,12
+201617,Academic year,Local authority,E92000001,England,E12000006,East of England,935,Suffolk,E10000029,CLA 12 months at 31 March,405,c,48
+201617,Academic year,Local authority,E92000001,England,E12000006,East of England,883,Thurrock,E06000034,CLA 12 months at 31 March,136,0,10
+201617,Academic year,Local authority,E92000001,England,E12000008,South East,867,Bracknell Forest,E06000036,CLA 12 months at 31 March,40,0,6
+201617,Academic year,Local authority,E92000001,England,E12000008,South East,846,Brighton and Hove,E06000043,CLA 12 months at 31 March,181,0,30
+201617,Academic year,Local authority,E92000001,England,E12000008,South East,825,Buckinghamshire,E06000060,CLA 12 months at 31 March,194,0,19
+201617,Academic year,Local authority,E92000001,England,E12000008,South East,845,East Sussex,E10000011,CLA 12 months at 31 March,304,0,40
+201617,Academic year,Local authority,E92000001,England,E12000008,South East,850,Hampshire,E10000014,CLA 12 months at 31 March,661,c,77
+201617,Academic year,Local authority,E92000001,England,E12000008,South East,921,Isle of Wight,E06000046,CLA 12 months at 31 March,97,0,6
+201617,Academic year,Local authority,E92000001,England,E12000008,South East,886,Kent,E10000016,CLA 12 months at 31 March,945,0,90
+201617,Academic year,Local authority,E92000001,England,E12000008,South East,887,Medway,E06000035,CLA 12 months at 31 March,203,0,24
+201617,Academic year,Local authority,E92000001,England,E12000008,South East,826,Milton Keynes,E06000042,CLA 12 months at 31 March,171,0,35
+201617,Academic year,Local authority,E92000001,England,E12000008,South East,931,Oxfordshire,E10000025,CLA 12 months at 31 March,257,0,38
+201617,Academic year,Local authority,E92000001,England,E12000008,South East,851,Portsmouth,E06000044,CLA 12 months at 31 March,162,0,35
+201617,Academic year,Local authority,E92000001,England,E12000008,South East,870,Reading,E06000038,CLA 12 months at 31 March,100,0,9
+201617,Academic year,Local authority,E92000001,England,E12000008,South East,871,Slough,E06000039,CLA 12 months at 31 March,74,0,12
+201617,Academic year,Local authority,E92000001,England,E12000008,South East,852,Southampton,E06000045,CLA 12 months at 31 March,306,0,26
+201617,Academic year,Local authority,E92000001,England,E12000008,South East,936,Surrey,E10000030,CLA 12 months at 31 March,372,0,46
+201617,Academic year,Local authority,E92000001,England,E12000008,South East,869,West Berkshire,E06000037,CLA 12 months at 31 March,77,0,10
+201617,Academic year,Local authority,E92000001,England,E12000008,South East,938,West Sussex,E10000032,CLA 12 months at 31 March,269,0,35
+201617,Academic year,Local authority,E92000001,England,E12000008,South East,868,Windsor and Maidenhead,E06000040,CLA 12 months at 31 March,42,0,9
+201617,Academic year,Local authority,E92000001,England,E12000008,South East,872,Wokingham,E06000041,CLA 12 months at 31 March,28,0,6
+201617,Academic year,Local authority,E92000001,England,E12000009,South West,800,Bath and North East Somerset,E06000022,CLA 12 months at 31 March,71,0,10
+201617,Academic year,Local authority,E92000001,England,E12000009,South West,837,Bournemouth,E06000028,CLA 12 months at 31 March,118,0,24
+201617,Academic year,Local authority,E92000001,England,E12000009,South West,801,"Bristol, City of",E06000023,CLA 12 months at 31 March,330,0,53
+201617,Academic year,Local authority,E92000001,England,E12000009,South West,908,Cornwall,E06000052,CLA 12 months at 31 March,202,0,24
+201617,Academic year,Local authority,E92000001,England,E12000009,South West,878,Devon,E10000008,CLA 12 months at 31 March,329,0,48
+201617,Academic year,Local authority,E92000001,England,E12000009,South West,835,Dorset,E10000009,CLA 12 months at 31 March,227,c,29
+201617,Academic year,Local authority,E92000001,England,E12000009,South West,916,Gloucestershire,E10000013,CLA 12 months at 31 March,247,c,36
+201617,Academic year,Local authority,E92000001,England,E12000009,South West,802,North Somerset,E06000024,CLA 12 months at 31 March,103,0,8
+201617,Academic year,Local authority,E92000001,England,E12000009,South West,879,Plymouth,E06000026,CLA 12 months at 31 March,199,c,24
+201617,Academic year,Local authority,E92000001,England,E12000009,South West,836,Poole,E06000029,CLA 12 months at 31 March,80,0,10
+201617,Academic year,Local authority,E92000001,England,E12000009,South West,933,Somerset,E10000027,CLA 12 months at 31 March,237,0,46
+201617,Academic year,Local authority,E92000001,England,E12000009,South West,803,South Gloucestershire,E06000025,CLA 12 months at 31 March,75,0,8
+201617,Academic year,Local authority,E92000001,England,E12000009,South West,866,Swindon,E06000030,CLA 12 months at 31 March,137,0,18
+201617,Academic year,Local authority,E92000001,England,E12000009,South West,880,Torbay,E06000027,CLA 12 months at 31 March,171,c,18
+201617,Academic year,Local authority,E92000001,England,E12000009,South West,865,Wiltshire,E06000054,CLA 12 months at 31 March,209,0,18
+201617,Academic year,Local authority,E92000001,England,E13000001,Inner London,202,Camden,E09000007,CLA 12 months at 31 March,67,0,c
+201617,Academic year,Local authority,E92000001,England,E13000001,Inner London,201,City of London,E09000001,CLA 12 months at 31 March,c,c,c
+201617,Academic year,Local authority,E92000001,England,E13000001,Inner London,204,Hackney,E09000012,CLA 12 months at 31 March,143,0,19
+201617,Academic year,Local authority,E92000001,England,E13000001,Inner London,205,Hammersmith and Fulham,E09000013,CLA 12 months at 31 March,90,0,14
+201617,Academic year,Local authority,E92000001,England,E13000001,Inner London,309,Haringey,E09000014,CLA 12 months at 31 March,207,0,27
+201617,Academic year,Local authority,E92000001,England,E13000001,Inner London,206,Islington,E09000019,CLA 12 months at 31 March,118,0,22
+201617,Academic year,Local authority,E92000001,England,E13000001,Inner London,207,Kensington and Chelsea,E09000020,CLA 12 months at 31 March,36,0,c
+201617,Academic year,Local authority,E92000001,England,E13000001,Inner London,208,Lambeth,E09000022,CLA 12 months at 31 March,188,0,22
+201617,Academic year,Local authority,E92000001,England,E13000001,Inner London,209,Lewisham,E09000023,CLA 12 months at 31 March,211,0,20
+201617,Academic year,Local authority,E92000001,England,E13000001,Inner London,316,Newham,E09000025,CLA 12 months at 31 March,141,0,13
+201617,Academic year,Local authority,E92000001,England,E13000001,Inner London,210,Southwark,E09000028,CLA 12 months at 31 March,226,0,27
+201617,Academic year,Local authority,E92000001,England,E13000001,Inner London,211,Tower Hamlets,E09000030,CLA 12 months at 31 March,111,0,c
+201617,Academic year,Local authority,E92000001,England,E13000001,Inner London,212,Wandsworth,E09000032,CLA 12 months at 31 March,93,c,8
+201617,Academic year,Local authority,E92000001,England,E13000001,Inner London,213,Westminster,E09000033,CLA 12 months at 31 March,68,0,13
+201617,Academic year,Local authority,E92000001,England,E13000002,Outer London,301,Barking and Dagenham,E09000002,CLA 12 months at 31 March,184,c,17
+201617,Academic year,Local authority,E92000001,England,E13000002,Outer London,302,Barnet,E09000003,CLA 12 months at 31 March,131,0,12
+201617,Academic year,Local authority,E92000001,England,E13000002,Outer London,303,Bexley,E09000004,CLA 12 months at 31 March,106,0,8
+201617,Academic year,Local authority,E92000001,England,E13000002,Outer London,304,Brent,E09000005,CLA 12 months at 31 March,131,0,18
+201617,Academic year,Local authority,E92000001,England,E13000002,Outer London,305,Bromley,E09000006,CLA 12 months at 31 March,113,0,13
+201617,Academic year,Local authority,E92000001,England,E13000002,Outer London,306,Croydon,E09000008,CLA 12 months at 31 March,244,0,25
+201617,Academic year,Local authority,E92000001,England,E13000002,Outer London,307,Ealing,E09000009,CLA 12 months at 31 March,156,0,23
+201617,Academic year,Local authority,E92000001,England,E13000002,Outer London,308,Enfield,E09000010,CLA 12 months at 31 March,142,0,9
+201617,Academic year,Local authority,E92000001,England,E13000002,Outer London,203,Greenwich,E09000011,CLA 12 months at 31 March,253,0,28
+201617,Academic year,Local authority,E92000001,England,E13000002,Outer London,310,Harrow,E09000015,CLA 12 months at 31 March,56,0,7
+201617,Academic year,Local authority,E92000001,England,E13000002,Outer London,311,Havering,E09000016,CLA 12 months at 31 March,105,0,14
+201617,Academic year,Local authority,E92000001,England,E13000002,Outer London,312,Hillingdon,E09000017,CLA 12 months at 31 March,110,0,10
+201617,Academic year,Local authority,E92000001,England,E13000002,Outer London,313,Hounslow,E09000018,CLA 12 months at 31 March,99,0,6
+201617,Academic year,Local authority,E92000001,England,E13000002,Outer London,314,Kingston upon Thames,E09000021,CLA 12 months at 31 March,47,0,7
+201617,Academic year,Local authority,E92000001,England,E13000002,Outer London,315,Merton,E09000024,CLA 12 months at 31 March,54,0,c
+201617,Academic year,Local authority,E92000001,England,E13000002,Outer London,317,Redbridge,E09000026,CLA 12 months at 31 March,87,0,8
+201617,Academic year,Local authority,E92000001,England,E13000002,Outer London,318,Richmond upon Thames,E09000027,CLA 12 months at 31 March,34,0,c
+201617,Academic year,Local authority,E92000001,England,E13000002,Outer London,319,Sutton,E09000029,CLA 12 months at 31 March,93,0,14
+201617,Academic year,Local authority,E92000001,England,E13000002,Outer London,320,Waltham Forest,E09000031,CLA 12 months at 31 March,113,0,11
+201516,Academic year,Local authority,E92000001,England,E12000001,North East,840,County Durham,E06000047,CLA 12 months at 31 March,358,0,28
+201516,Academic year,Local authority,E92000001,England,E12000001,North East,841,Darlington,E06000005,CLA 12 months at 31 March,92,0,6
+201516,Academic year,Local authority,E92000001,England,E12000001,North East,390,Gateshead,E08000037,CLA 12 months at 31 March,166,0,9
+201516,Academic year,Local authority,E92000001,England,E12000001,North East,805,Hartlepool,E06000001,CLA 12 months at 31 March,97,0,7
+201516,Academic year,Local authority,E92000001,England,E12000001,North East,806,Middlesbrough,E06000002,CLA 12 months at 31 March,176,0,17
+201516,Academic year,Local authority,E92000001,England,E12000001,North East,391,Newcastle upon Tyne,E08000021,CLA 12 months at 31 March,250,0,29
+201516,Academic year,Local authority,E92000001,England,E12000001,North East,392,North Tyneside,E08000022,CLA 12 months at 31 March,150,0,13
+201516,Academic year,Local authority,E92000001,England,E12000001,North East,929,Northumberland,E06000057,CLA 12 months at 31 March,155,c,28
+201516,Academic year,Local authority,E92000001,England,E12000001,North East,807,Redcar and Cleveland,E06000003,CLA 12 months at 31 March,106,0,12
+201516,Academic year,Local authority,E92000001,England,E12000001,North East,393,South Tyneside,E08000023,CLA 12 months at 31 March,152,0,11
+201516,Academic year,Local authority,E92000001,England,E12000001,North East,808,Stockton-on-Tees,E06000004,CLA 12 months at 31 March,210,0,10
+201516,Academic year,Local authority,E92000001,England,E12000001,North East,394,Sunderland,E08000024,CLA 12 months at 31 March,261,0,24
+201516,Academic year,Local authority,E92000001,England,E12000002,North West,889,Blackburn with Darwen,E06000008,CLA 12 months at 31 March,155,0,16
+201516,Academic year,Local authority,E92000001,England,E12000002,North West,890,Blackpool,E06000009,CLA 12 months at 31 March,216,0,24
+201516,Academic year,Local authority,E92000001,England,E12000002,North West,350,Bolton,E08000001,CLA 12 months at 31 March,335,0,38
+201516,Academic year,Local authority,E92000001,England,E12000002,North West,351,Bury,E08000002,CLA 12 months at 31 March,151,0,17
+201516,Academic year,Local authority,E92000001,England,E12000002,North West,895,Cheshire East,E06000049,CLA 12 months at 31 March,198,0,25
+201516,Academic year,Local authority,E92000001,England,E12000002,North West,896,Cheshire West and Chester,E06000050,CLA 12 months at 31 March,225,0,19
+201516,Academic year,Local authority,E92000001,England,E12000002,North West,909,Cumbria,E10000006,CLA 12 months at 31 March,344,0,21
+201516,Academic year,Local authority,E92000001,England,E12000002,North West,876,Halton,E06000006,CLA 12 months at 31 March,110,0,11
+201516,Academic year,Local authority,E92000001,England,E12000002,North West,340,Knowsley,E08000011,CLA 12 months at 31 March,152,0,13
+201516,Academic year,Local authority,E92000001,England,E12000002,North West,888,Lancashire,E10000017,CLA 12 months at 31 March,824,c,69
+201516,Academic year,Local authority,E92000001,England,E12000002,North West,341,Liverpool,E08000012,CLA 12 months at 31 March,524,0,47
+201516,Academic year,Local authority,E92000001,England,E12000002,North West,352,Manchester,E08000003,CLA 12 months at 31 March,721,c,97
+201516,Academic year,Local authority,E92000001,England,E12000002,North West,353,Oldham,E08000004,CLA 12 months at 31 March,209,0,22
+201516,Academic year,Local authority,E92000001,England,E12000002,North West,354,Rochdale,E08000005,CLA 12 months at 31 March,269,c,26
+201516,Academic year,Local authority,E92000001,England,E12000002,North West,355,Salford,E08000006,CLA 12 months at 31 March,295,c,27
+201516,Academic year,Local authority,E92000001,England,E12000002,North West,343,Sefton,E08000014,CLA 12 months at 31 March,253,0,29
+201516,Academic year,Local authority,E92000001,England,E12000002,North West,342,St. Helens,E08000013,CLA 12 months at 31 March,219,0,32
+201516,Academic year,Local authority,E92000001,England,E12000002,North West,356,Stockport,E08000007,CLA 12 months at 31 March,142,0,15
+201516,Academic year,Local authority,E92000001,England,E12000002,North West,357,Tameside,E08000008,CLA 12 months at 31 March,236,0,34
+201516,Academic year,Local authority,E92000001,England,E12000002,North West,358,Trafford,E08000009,CLA 12 months at 31 March,193,0,14
+201516,Academic year,Local authority,E92000001,England,E12000002,North West,877,Warrington,E06000007,CLA 12 months at 31 March,151,0,13
+201516,Academic year,Local authority,E92000001,England,E12000002,North West,359,Wigan,E08000010,CLA 12 months at 31 March,272,0,34
+201516,Academic year,Local authority,E92000001,England,E12000002,North West,344,Wirral,E08000015,CLA 12 months at 31 March,388,0,37
+201516,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,370,Barnsley,E08000016,CLA 12 months at 31 March,108,0,13
+201516,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,380,Bradford,E08000032,CLA 12 months at 31 March,482,0,51
+201516,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,381,Calderdale,E08000033,CLA 12 months at 31 March,174,0,25
+201516,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,371,Doncaster,E08000017,CLA 12 months at 31 March,270,0,36
+201516,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,811,East Riding of Yorkshire,E06000011,CLA 12 months at 31 March,144,0,11
+201516,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,810,"Kingston upon Hull, City of",E06000010,CLA 12 months at 31 March,352,c,34
+201516,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,382,Kirklees,E08000034,CLA 12 months at 31 March,323,0,35
+201516,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,383,Leeds,E08000035,CLA 12 months at 31 March,691,0,73
+201516,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,812,North East Lincolnshire,E06000012,CLA 12 months at 31 March,124,c,17
+201516,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,813,North Lincolnshire,E06000013,CLA 12 months at 31 March,102,0,11
+201516,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,815,North Yorkshire,E10000023,CLA 12 months at 31 March,201,0,20
+201516,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,372,Rotherham,E08000018,CLA 12 months at 31 March,209,0,27
+201516,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,373,Sheffield,E08000019,CLA 12 months at 31 March,254,0,30
+201516,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,384,Wakefield,E08000036,CLA 12 months at 31 March,245,0,30
+201516,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,816,York,E06000014,CLA 12 months at 31 March,108,0,13
+201516,Academic year,Local authority,E92000001,England,E12000004,East Midlands,831,Derby,E06000015,CLA 12 months at 31 March,230,0,30
+201516,Academic year,Local authority,E92000001,England,E12000004,East Midlands,830,Derbyshire,E10000007,CLA 12 months at 31 March,269,0,43
+201516,Academic year,Local authority,E92000001,England,E12000004,East Midlands,856,Leicester,E06000016,CLA 12 months at 31 March,282,0,33
+201516,Academic year,Local authority,E92000001,England,E12000004,East Midlands,855,Leicestershire,E10000018,CLA 12 months at 31 March,198,0,21
+201516,Academic year,Local authority,E92000001,England,E12000004,East Midlands,925,Lincolnshire,E10000019,CLA 12 months at 31 March,320,c,25
+201516,Academic year,Local authority,E92000001,England,E12000004,East Midlands,928,Northamptonshire,E10000021,CLA 12 months at 31 March,375,0,45
+201516,Academic year,Local authority,E92000001,England,E12000004,East Midlands,892,Nottingham,E06000018,CLA 12 months at 31 March,295,0,33
+201516,Academic year,Local authority,E92000001,England,E12000004,East Midlands,891,Nottinghamshire,E10000024,CLA 12 months at 31 March,412,0,38
+201516,Academic year,Local authority,E92000001,England,E12000004,East Midlands,857,Rutland,E06000017,CLA 12 months at 31 March,12,0,0
+201516,Academic year,Local authority,E92000001,England,E12000005,West Midlands,330,Birmingham,E08000025,CLA 12 months at 31 March,968,c,99
+201516,Academic year,Local authority,E92000001,England,E12000005,West Midlands,331,Coventry,E08000026,CLA 12 months at 31 March,272,c,31
+201516,Academic year,Local authority,E92000001,England,E12000005,West Midlands,332,Dudley,E08000027,CLA 12 months at 31 March,415,c,46
+201516,Academic year,Local authority,E92000001,England,E12000005,West Midlands,884,"Herefordshire, County of",E06000019,CLA 12 months at 31 March,135,0,15
+201516,Academic year,Local authority,E92000001,England,E12000005,West Midlands,333,Sandwell,E08000028,CLA 12 months at 31 March,287,0,24
+201516,Academic year,Local authority,E92000001,England,E12000005,West Midlands,893,Shropshire,E06000051,CLA 12 months at 31 March,140,c,11
+201516,Academic year,Local authority,E92000001,England,E12000005,West Midlands,334,Solihull,E08000029,CLA 12 months at 31 March,172,c,25
+201516,Academic year,Local authority,E92000001,England,E12000005,West Midlands,860,Staffordshire,E10000028,CLA 12 months at 31 March,511,c,54
+201516,Academic year,Local authority,E92000001,England,E12000005,West Midlands,861,Stoke-on-Trent,E06000021,CLA 12 months at 31 March,291,0,23
+201516,Academic year,Local authority,E92000001,England,E12000005,West Midlands,894,Telford and Wrekin,E06000020,CLA 12 months at 31 March,153,0,24
+201516,Academic year,Local authority,E92000001,England,E12000005,West Midlands,335,Walsall,E08000030,CLA 12 months at 31 March,368,0,28
+201516,Academic year,Local authority,E92000001,England,E12000005,West Midlands,937,Warwickshire,E10000031,CLA 12 months at 31 March,315,0,41
+201516,Academic year,Local authority,E92000001,England,E12000005,West Midlands,336,Wolverhampton,E08000031,CLA 12 months at 31 March,418,0,39
+201516,Academic year,Local authority,E92000001,England,E12000005,West Midlands,885,Worcestershire,E10000034,CLA 12 months at 31 March,364,c,50
+201516,Academic year,Local authority,E92000001,England,E12000006,East of England,822,Bedford,E06000055,CLA 12 months at 31 March,126,0,10
+201516,Academic year,Local authority,E92000001,England,E12000006,East of England,873,Cambridgeshire,E10000003,CLA 12 months at 31 March,277,0,34
+201516,Academic year,Local authority,E92000001,England,E12000006,East of England,823,Central Bedfordshire,E06000056,CLA 12 months at 31 March,150,0,18
+201516,Academic year,Local authority,E92000001,England,E12000006,East of England,881,Essex,E10000012,CLA 12 months at 31 March,491,c,42
+201516,Academic year,Local authority,E92000001,England,E12000006,East of England,919,Hertfordshire,E10000015,CLA 12 months at 31 March,457,0,71
+201516,Academic year,Local authority,E92000001,England,E12000006,East of England,821,Luton,E06000032,CLA 12 months at 31 March,194,0,18
+201516,Academic year,Local authority,E92000001,England,E12000006,East of England,926,Norfolk,E10000020,CLA 12 months at 31 March,556,c,59
+201516,Academic year,Local authority,E92000001,England,E12000006,East of England,874,Peterborough,E06000031,CLA 12 months at 31 March,151,0,18
+201516,Academic year,Local authority,E92000001,England,E12000006,East of England,882,Southend-on-Sea,E06000033,CLA 12 months at 31 March,99,0,14
+201516,Academic year,Local authority,E92000001,England,E12000006,East of England,935,Suffolk,E10000029,CLA 12 months at 31 March,379,c,43
+201516,Academic year,Local authority,E92000001,England,E12000006,East of England,883,Thurrock,E06000034,CLA 12 months at 31 March,124,0,14
+201516,Academic year,Local authority,E92000001,England,E12000008,South East,867,Bracknell Forest,E06000036,CLA 12 months at 31 March,43,0,6
+201516,Academic year,Local authority,E92000001,England,E12000008,South East,846,Brighton and Hove,E06000043,CLA 12 months at 31 March,193,0,24
+201516,Academic year,Local authority,E92000001,England,E12000008,South East,825,Buckinghamshire,E06000060,CLA 12 months at 31 March,203,c,20
+201516,Academic year,Local authority,E92000001,England,E12000008,South East,845,East Sussex,E10000011,CLA 12 months at 31 March,310,0,45
+201516,Academic year,Local authority,E92000001,England,E12000008,South East,850,Hampshire,E10000014,CLA 12 months at 31 March,668,c,78
+201516,Academic year,Local authority,E92000001,England,E12000008,South East,921,Isle of Wight,E06000046,CLA 12 months at 31 March,88,0,12
+201516,Academic year,Local authority,E92000001,England,E12000008,South East,886,Kent,E10000016,CLA 12 months at 31 March,889,0,94
+201516,Academic year,Local authority,E92000001,England,E12000008,South East,887,Medway,E06000035,CLA 12 months at 31 March,196,0,20
+201516,Academic year,Local authority,E92000001,England,E12000008,South East,826,Milton Keynes,E06000042,CLA 12 months at 31 March,162,0,17
+201516,Academic year,Local authority,E92000001,England,E12000008,South East,931,Oxfordshire,E10000025,CLA 12 months at 31 March,215,0,29
+201516,Academic year,Local authority,E92000001,England,E12000008,South East,851,Portsmouth,E06000044,CLA 12 months at 31 March,144,0,22
+201516,Academic year,Local authority,E92000001,England,E12000008,South East,870,Reading,E06000038,CLA 12 months at 31 March,90,0,10
+201516,Academic year,Local authority,E92000001,England,E12000008,South East,871,Slough,E06000039,CLA 12 months at 31 March,73,0,c
+201516,Academic year,Local authority,E92000001,England,E12000008,South East,852,Southampton,E06000045,CLA 12 months at 31 March,288,c,27
+201516,Academic year,Local authority,E92000001,England,E12000008,South East,936,Surrey,E10000030,CLA 12 months at 31 March,333,0,35
+201516,Academic year,Local authority,E92000001,England,E12000008,South East,869,West Berkshire,E06000037,CLA 12 months at 31 March,84,0,10
+201516,Academic year,Local authority,E92000001,England,E12000008,South East,938,West Sussex,E10000032,CLA 12 months at 31 March,271,c,39
+201516,Academic year,Local authority,E92000001,England,E12000008,South East,868,Windsor and Maidenhead,E06000040,CLA 12 months at 31 March,49,0,6
+201516,Academic year,Local authority,E92000001,England,E12000008,South East,872,Wokingham,E06000041,CLA 12 months at 31 March,31,0,c
+201516,Academic year,Local authority,E92000001,England,E12000009,South West,800,Bath and North East Somerset,E06000022,CLA 12 months at 31 March,71,0,14
+201516,Academic year,Local authority,E92000001,England,E12000009,South West,837,Bournemouth,E06000028,CLA 12 months at 31 March,116,0,18
+201516,Academic year,Local authority,E92000001,England,E12000009,South West,801,"Bristol, City of",E06000023,CLA 12 months at 31 March,324,0,62
+201516,Academic year,Local authority,E92000001,England,E12000009,South West,908,Cornwall,E06000052,CLA 12 months at 31 March,203,0,26
+201516,Academic year,Local authority,E92000001,England,E12000009,South West,878,Devon,E10000008,CLA 12 months at 31 March,297,c,42
+201516,Academic year,Local authority,E92000001,England,E12000009,South West,835,Dorset,E10000009,CLA 12 months at 31 March,185,0,27
+201516,Academic year,Local authority,E92000001,England,E12000009,South West,916,Gloucestershire,E10000013,CLA 12 months at 31 March,226,c,32
+201516,Academic year,Local authority,E92000001,England,E12000009,South West,802,North Somerset,E06000024,CLA 12 months at 31 March,99,0,12
+201516,Academic year,Local authority,E92000001,England,E12000009,South West,879,Plymouth,E06000026,CLA 12 months at 31 March,177,0,23
+201516,Academic year,Local authority,E92000001,England,E12000009,South West,836,Poole,E06000029,CLA 12 months at 31 March,73,0,7
+201516,Academic year,Local authority,E92000001,England,E12000009,South West,933,Somerset,E10000027,CLA 12 months at 31 March,232,0,41
+201516,Academic year,Local authority,E92000001,England,E12000009,South West,803,South Gloucestershire,E06000025,CLA 12 months at 31 March,66,0,11
+201516,Academic year,Local authority,E92000001,England,E12000009,South West,866,Swindon,E06000030,CLA 12 months at 31 March,109,0,21
+201516,Academic year,Local authority,E92000001,England,E12000009,South West,880,Torbay,E06000027,CLA 12 months at 31 March,158,0,15
+201516,Academic year,Local authority,E92000001,England,E12000009,South West,865,Wiltshire,E06000054,CLA 12 months at 31 March,191,0,10
+201516,Academic year,Local authority,E92000001,England,E13000001,Inner London,202,Camden,E09000007,CLA 12 months at 31 March,80,0,6
+201516,Academic year,Local authority,E92000001,England,E13000001,Inner London,201,City of London,E09000001,CLA 12 months at 31 March,c,c,c
+201516,Academic year,Local authority,E92000001,England,E13000001,Inner London,204,Hackney,E09000012,CLA 12 months at 31 March,144,0,19
+201516,Academic year,Local authority,E92000001,England,E13000001,Inner London,205,Hammersmith and Fulham,E09000013,CLA 12 months at 31 March,78,0,11
+201516,Academic year,Local authority,E92000001,England,E13000001,Inner London,309,Haringey,E09000014,CLA 12 months at 31 March,224,0,27
+201516,Academic year,Local authority,E92000001,England,E13000001,Inner London,206,Islington,E09000019,CLA 12 months at 31 March,110,c,14
+201516,Academic year,Local authority,E92000001,England,E13000001,Inner London,207,Kensington and Chelsea,E09000020,CLA 12 months at 31 March,32,0,c
+201516,Academic year,Local authority,E92000001,England,E13000001,Inner London,208,Lambeth,E09000022,CLA 12 months at 31 March,201,0,26
+201516,Academic year,Local authority,E92000001,England,E13000001,Inner London,209,Lewisham,E09000023,CLA 12 months at 31 March,222,0,17
+201516,Academic year,Local authority,E92000001,England,E13000001,Inner London,316,Newham,E09000025,CLA 12 months at 31 March,150,0,18
+201516,Academic year,Local authority,E92000001,England,E13000001,Inner London,210,Southwark,E09000028,CLA 12 months at 31 March,239,0,24
+201516,Academic year,Local authority,E92000001,England,E13000001,Inner London,211,Tower Hamlets,E09000030,CLA 12 months at 31 March,102,0,0
+201516,Academic year,Local authority,E92000001,England,E13000001,Inner London,212,Wandsworth,E09000032,CLA 12 months at 31 March,73,0,10
+201516,Academic year,Local authority,E92000001,England,E13000001,Inner London,213,Westminster,E09000033,CLA 12 months at 31 March,71,0,10
+201516,Academic year,Local authority,E92000001,England,E13000002,Outer London,301,Barking and Dagenham,E09000002,CLA 12 months at 31 March,187,0,12
+201516,Academic year,Local authority,E92000001,England,E13000002,Outer London,302,Barnet,E09000003,CLA 12 months at 31 March,113,0,21
+201516,Academic year,Local authority,E92000001,England,E13000002,Outer London,303,Bexley,E09000004,CLA 12 months at 31 March,119,0,8
+201516,Academic year,Local authority,E92000001,England,E13000002,Outer London,304,Brent,E09000005,CLA 12 months at 31 March,137,0,21
+201516,Academic year,Local authority,E92000001,England,E13000002,Outer London,305,Bromley,E09000006,CLA 12 months at 31 March,120,0,9
+201516,Academic year,Local authority,E92000001,England,E13000002,Outer London,306,Croydon,E09000008,CLA 12 months at 31 March,245,c,32
+201516,Academic year,Local authority,E92000001,England,E13000002,Outer London,307,Ealing,E09000009,CLA 12 months at 31 March,166,c,24
+201516,Academic year,Local authority,E92000001,England,E13000002,Outer London,308,Enfield,E09000010,CLA 12 months at 31 March,137,0,16
+201516,Academic year,Local authority,E92000001,England,E13000002,Outer London,203,Greenwich,E09000011,CLA 12 months at 31 March,255,0,26
+201516,Academic year,Local authority,E92000001,England,E13000002,Outer London,310,Harrow,E09000015,CLA 12 months at 31 March,46,0,6
+201516,Academic year,Local authority,E92000001,England,E13000002,Outer London,311,Havering,E09000016,CLA 12 months at 31 March,113,0,13
+201516,Academic year,Local authority,E92000001,England,E13000002,Outer London,312,Hillingdon,E09000017,CLA 12 months at 31 March,101,0,8
+201516,Academic year,Local authority,E92000001,England,E13000002,Outer London,313,Hounslow,E09000018,CLA 12 months at 31 March,111,0,12
+201516,Academic year,Local authority,E92000001,England,E13000002,Outer London,314,Kingston upon Thames,E09000021,CLA 12 months at 31 March,48,0,c
+201516,Academic year,Local authority,E92000001,England,E13000002,Outer London,315,Merton,E09000024,CLA 12 months at 31 March,53,0,c
+201516,Academic year,Local authority,E92000001,England,E13000002,Outer London,317,Redbridge,E09000026,CLA 12 months at 31 March,87,0,10
+201516,Academic year,Local authority,E92000001,England,E13000002,Outer London,318,Richmond upon Thames,E09000027,CLA 12 months at 31 March,39,0,c
+201516,Academic year,Local authority,E92000001,England,E13000002,Outer London,319,Sutton,E09000029,CLA 12 months at 31 March,74,0,6
+201516,Academic year,Local authority,E92000001,England,E13000002,Outer London,320,Waltham Forest,E09000031,CLA 12 months at 31 March,102,0,10
