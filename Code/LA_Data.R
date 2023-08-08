@@ -889,10 +889,21 @@ exclusions <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childr
   tidyr::pivot_longer(cols=!c(LA_Name, LA_Code,LA.Number, year), names_to = "variable", 
                       values_to = "value")%>% #pivot so variables go in one column
   dplyr::mutate(category = "child outcomes",
-                subcategory = "school exclusion",
-                )
+                subcategory = "school exclusion")
 
-
+absence <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/Post_2016_files/absence_six_half_terms_la.csv"),
+                       colClasses = "character")%>%
+  dplyr::filter(geographic_level=="Local authority",
+                social_care_group=="CLA 12 months at 31 March")%>% # keep only LAs and LACs
+  dplyr::mutate(year = paste("20", str_sub(time_period, start= -2), sep=""), # turn 202021 to 2021
+                category = "child outcomes",
+                subcategory = "school absence")%>%
+  dplyr::rename(LA_Name= la_name,
+                LA_Code=new_la_code,
+                LA.Number=old_la_code)%>% #rename variables
+  dplyr::select(-time_period, -time_identifier, -geographic_level, -country_code, -country_name, -region_code, -region_name ,-social_care_group)%>% #remove empty column
+  tidyr::pivot_longer(cols=!c(LA_Name, LA_Code,LA.Number, year), names_to = "variable", 
+                      values_to = "value") #pivot so variables go in one column
 
 
 
