@@ -1936,7 +1936,7 @@ create_outcomes_data <- function(){
   
   outcomespost <- rbind( sen, ks2, ks4, absence, exclusions, oc2, oc2_17)
   outcomes <- rbind(outcomespost, outcomes)
-  rm(list=setdiff(ls(), c("outcomes")))
+  #rm(list=setdiff(ls(), c("outcomes")))
   
   
   
