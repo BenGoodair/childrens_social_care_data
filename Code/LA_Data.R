@@ -186,15 +186,15 @@ oc2 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_soc
                 percent=pt)
 
 
-sen <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2010_underlying/SEN_Final_V2.csv"),
-                colClasses = "character")%>%
-  dplyr::mutate_all(~ str_replace(., ",", ""))%>%
-  dplyr::filter(!is.na(LA.Number))%>%
-  dplyr::rename(LA_Name = X)%>%
-  tidyr::pivot_longer(cols = !c(LA.Number, LA_Name), names_to = "variable", 
-                      values_to = "value")%>%
-  dplyr::mutate(category = "child outcomes",
-                subcategory = "special educational needs")
+#sen <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2010_underlying/SEN_Final_V2.csv"),
+#                colClasses = "character")%>%
+#  dplyr::mutate_all(~ str_replace(., ",", ""))%>%
+#  dplyr::filter(LA.Number!="")%>%
+#  dplyr::rename(LA_Name = X)%>%
+#  tidyr::pivot_longer(cols = !c(LA.Number, LA_Name), names_to = "variable", 
+#                      values_to = "value")%>%
+#  dplyr::mutate(category = "child outcomes",
+#                subcategory = "special educational needs")
 
 
 
@@ -404,12 +404,22 @@ sen <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_soc
                          colClasses = "character")%>%
   dplyr::mutate_all(~ str_replace(., ",", ""))%>%
   dplyr::rename(LA_Name = X,
-                LA.Number = X.U.FEFF.LA.Number)%>%
-  dplyr::filter(!is.na(LA.Number))%>%
-  tidyr::pivot_longer(cols = !c(LA.Number, LA_Name), names_to = "variable", 
-                      values_to = "value")%>%
+                LA.Number = X.U.FEFF.LA.Number,
+                all_SEN.n = Number.with.SEN,
+                statement_or_EHC_plan.n = Number.with.statement)%>%
+  dplyr::filter(!is.na(as.numeric(LA.Number)))%>%
+  dplyr::mutate(pupils.n = as.character(as.numeric(all_SEN.n)+as.numeric(Number.with.No.SEN)),
+                pupils.pt = "100",
+                all_SEN.pt = as.character((as.numeric(all_SEN.n)/(as.numeric(all_SEN.n)+as.numeric(Number.with.No.SEN)))),
+                statement_or_EHC_plan.pt = as.character((as.numeric(statement_or_EHC_plan.n)/(as.numeric(all_SEN.n)+as.numeric(Number.with.No.SEN)))))%>%
+  dplyr::select(-Number.with.No.SEN, -Number.without.statement )%>%
+  tidyr::pivot_longer(cols = !c(LA_Name, LA.Number), 
+                    names_to = c("variable", ".value"),
+                    names_pattern = "(.+)\\.(.+)")%>%
   dplyr::mutate(category = "child outcomes",
-                subcategory = "special educational needs")
+                subcategory = "special educational needs")%>%
+  dplyr::rename(number=n,
+                percent=pt)
 
 
 
@@ -624,15 +634,25 @@ ks2 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_soc
 sen <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2012_underlying/SFR32_2012_TableLA9_SEN_UD.csv"),
                 colClasses = "character")%>%
   dplyr::mutate_all(~ str_replace(., ",", ""))%>%
-  dplyr::select(-country_code, country_name, gor_code, gor_name)%>% #remove unnecessary vars
+  dplyr::select(-country_code, -country_name, -gor_code, -gor_name)%>% #remove unnecessary vars
   dplyr::rename(LA_Name = la_name,
                 LA.Number = la_code,
-                LA_Code = la_9digit)%>% #rename id variables
-  dplyr::filter(!is.na(LA_Name))%>% #keep only LAs
-  tidyr::pivot_longer(cols = !c(LA.Number, LA_Name, LA_Code), names_to = "variable", 
-                      values_to = "value")%>% #pivot so variables go in one column
+                LA_Code = la_9digit,
+                all_SEN.n = SEN,
+                statement_or_EHC_plan.n = with_statement,
+                pupils.n = num_school_age_child)%>%
+  dplyr::filter(!is.na(as.numeric(LA.Number)))%>%
+  dplyr::mutate(pupils.pt = "100",
+                all_SEN.pt = as.character((as.numeric(all_SEN.n)/(as.numeric(pupils.n)))),
+                statement_or_EHC_plan.pt = as.character((as.numeric(statement_or_EHC_plan.n)/(as.numeric(pupils.n)))))%>%
+  dplyr::select(-Without_statement, -No_SEN )%>%
+  tidyr::pivot_longer(cols = !c(LA_Name, LA.Number,LA_Code), 
+                      names_to = c("variable", ".value"),
+                      names_pattern = "(.+)\\.(.+)")%>%
   dplyr::mutate(category = "child outcomes",
-                subcategory = "special educational needs") #create categories and subcategories
+                subcategory = "special educational needs")%>%
+  dplyr::rename(number=n,
+                percent=pt)
 
 
 #bind together each outcome group
@@ -829,17 +849,23 @@ oc25 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_so
                 percent=pt)
 
 sen <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2013_LA/sheet8_sen.csv"),
-                 colClasses = "character", skip=4)[c(1:5,8,11,14)]%>%
+                 colClasses = "character", skip=4)[c(1,3,11,12,14,15)]%>%
   dplyr::mutate_all(~ str_replace(., ",", ""))%>%
   dplyr::rename(LA_Name= X,
-                no_sen = Number.of.looked.after.children.with.the.following.SEN.need4.,
-                sen_no_statement = X.4,
-                sen_with_statement = X.7)%>% #rename variables
-  dplyr::select(-X.1)%>% #remove empty column
-  tidyr::pivot_longer(cols=!LA_Name, names_to = "variable", 
-                      values_to = "value")%>% #pivot so variables go in one column
+                all_SEN.n = All.children.with.SEN6,
+                all_SEN.pt = X.10,
+                statement_or_EHC_plan.n = X.7,
+                statement_or_EHC_plan.pt = X.8,
+                pupils.n = Number.of.children.looked.after.at.31.March.who.had.been.continuously.looked.after.for.at.least.12.months.and.matched.to.census.data3)%>%
+  dplyr::filter(LA_Name!="")%>%
+  dplyr::mutate(pupils.pt = "100")%>%
+  tidyr::pivot_longer(cols = !c(LA_Name), 
+                      names_to = c("variable", ".value"),
+                      names_pattern = "(.+)\\.(.+)")%>%
   dplyr::mutate(category = "child outcomes",
-                subcategory = "special educational needs")
+                subcategory = "special educational needs")%>%
+  dplyr::rename(number=n,
+                percent=pt)
 
  schl_exclusion <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2014_LA/sheet9_excluded.csv"),
                          colClasses = "character", skip=5)[c(1,25:28)]%>%
@@ -1092,17 +1118,23 @@ oc25 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_so
   dplyr::rename(number=n,
                 percent=pt)
 sen <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2014_LA/sheet8_sen.csv"),
-                colClasses = "character", skip=4)[c(1:5,8,11,14)]%>%
+                colClasses = "character", skip=4)[c(1,3,11,12,14,15)]%>%
   dplyr::mutate_all(~ str_replace(., ",", ""))%>%
   dplyr::rename(LA_Name= X,
-                no_sen = Number.of.looked.after.children.with.the.following.SEN.need4.,
-                sen_no_statement = X.4,
-                sen_with_statement = X.7)%>% #rename variables
-  dplyr::select(-X.1)%>% #remove empty column
-  tidyr::pivot_longer(cols=!LA_Name, names_to = "variable", 
-                      values_to = "value")%>% #pivot so variables go in one column
+                all_SEN.n = All.children.with.SEN6,
+                all_SEN.pt = X.10,
+                statement_or_EHC_plan.n = X.7,
+                statement_or_EHC_plan.pt = X.8,
+                pupils.n = Number.of.children.looked.after.at.31.March.who.had.been.continuously.looked.after.for.at.least.12.months.and.matched.to.census.data3)%>%
+  dplyr::filter(LA_Name!="")%>%
+  dplyr::mutate(pupils.pt = "100")%>%
+  tidyr::pivot_longer(cols = !c(LA_Name), 
+                      names_to = c("variable", ".value"),
+                      names_pattern = "(.+)\\.(.+)")%>%
   dplyr::mutate(category = "child outcomes",
-                subcategory = "special educational needs")
+                subcategory = "special educational needs")%>%
+  dplyr::rename(number=n,
+                percent=pt)
 
  sch_exclusion <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2015_LA/sheet5_excluded.csv"),
                          colClasses = "character", skip=6)[c(3,34:37)]%>%
@@ -1337,14 +1369,20 @@ sen <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_soc
   dplyr::rename(LA_Name= X.1,
                 LA_Code=LA.Code,
                 LA.Number=X,
-                no_sen = Number.of.looked.after.children.with.the.following.provision.for.SEN4.,
-                sen_no_statement = X.5,
-                sen_with_statement = X.8)%>% #rename variables
-  #dplyr::select(-X.1)%>% #remove empty column
-  tidyr::pivot_longer(cols=!c(LA_Name, LA_Code,LA.Number), names_to = "variable", 
-                      values_to = "value")%>% #pivot so variables go in one column
+                all_SEN.n = All.children.with.SEN6,
+                all_SEN.pt = X.10,
+                statement_or_EHC_plan.n = X.7,
+                statement_or_EHC_plan.pt = X.8,
+                pupils.n = Number.of.children.looked.after.at.31.March.who.had.been.continuously.looked.after.for.at.least.12.months.and.matched.to.census.data3)%>%
+  dplyr::filter(LA_Name!="")%>%
+  dplyr::mutate(pupils.pt = "100")%>%
+  tidyr::pivot_longer(cols = !c(LA_Name, LA.Number, LA_Code), 
+                      names_to = c("variable", ".value"),
+                      names_pattern = "(.+)\\.(.+)")%>%
   dplyr::mutate(category = "child outcomes",
-                subcategory = "special educational needs")
+                subcategory = "special educational needs")%>%
+  dplyr::rename(number=n,
+                percent=pt)
 
  sch_exclusion <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2016_LA/sheet9_excluded.csv"),
                          colClasses = "character", skip=6)[c(1:3,24:27)]%>%
@@ -1621,16 +1659,16 @@ oc2 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_soc
   dplyr::rename(number=n,
                 percent=pt)
 
-oc22 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2015_LA/sheet_extra_sdq.csv"),
-                 colClasses = "character", skip=6)[c(1,2,20,22)]%>%
+oc22 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2016_LA/sheet_extra_sdq.csv"),
+                 colClasses = "character", skip=6)[c(1,2,3,21,23)]%>%
   dplyr::mutate_all(~ str_replace(., ",", ""))%>%
-  dplyr::rename(LA_Name = X.1,
-                LA.Number = X,
-                yes = Number.of.children.looked.after.for.at.least.12.months.aged.5.to.16.with.an.SDQ.score2.2,
-                percent = Average.score.per.child3.2)%>%
+  dplyr::rename(LA_Name = X.2,
+                LA.Number = X.1,
+                LA_Code = X,
+                yes = Number.of.children.looked.after.for.at.least.12.months.aged.5.to.16.with.an.SDQ.score4.2,
+                percent = Average.score.per.child.2)%>%
   dplyr::filter(LA.Number!="")%>%
-  dplyr::mutate(LA_Code = NA,
-                number = as.character((as.numeric(percent))*as.numeric(yes)),
+  dplyr::mutate(number = as.character((as.numeric(percent))*as.numeric(yes)),
                 variable = "SDQ average score",
                 category = "child outcomes",
                 subcategory = "health and criminalisation")%>%
@@ -1820,7 +1858,13 @@ sen <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_soc
   tidyr::pivot_longer(cols=!c(LA_Name, LA_Code,LA.Number, year), names_to = "variable", 
                       values_to = "value")%>%   #pivot so variables go in one column
   dplyr::mutate(category = "child outcomes",
-                subcategory = "special educational needs")
+                subcategory = "special educational needs")%>%
+  tidyr::pivot_wider(names_from = variable, values_from = value)%>%
+  pivot_longer(cols = !c(LA_Name, LA_Code,LA.Number,category, subcategory, year), 
+               names_to = c(".value", "variable"),
+               names_pattern = "(t|pt)_(.*)")%>%
+  dplyr::rename(number=t,
+                percent=pt)
 
 oc2 <-  read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/Post_2016_files/la_conviction_health_outcome_cla.csv"),
                  colClasses = "character")%>%
@@ -1830,25 +1874,68 @@ oc2 <-  read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_so
   dplyr::rename(LA_Name= la_name,
                 LA_Code=new_la_code,
                 LA.Number=old_la_code,
-                variable = characteristic)%>% #rename variables
+                variable = characteristic,
+                percent = percentage)%>% #rename variables
   dplyr::select(-time_period, -time_identifier, -geographic_level, -country_code, 
                 -country_name, -region_code, -region_name, -cla_group)%>% #remove empty column
   dplyr::mutate(category = "child outcomes",
-                subcategory = "health and criminalisation")
+                subcategory = "health and criminalisation",
+                percent = ifelse(variable == "SDQ average score", number, percent),
+                number = ifelse(variable == "SDQ average score", NA, number))
+
+
 
 oc2_17 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/Post_2016_files/SFR50_OC22017.csv"),
                    colClasses = "character")%>%
   dplyr::mutate_all(~ str_replace(., ",", ""))%>%
-  dplyr::filter(geog_l =="LA")%>%
-  dplyr::mutate(year = "2017")%>% # set year
+  dplyr::filter(geog_l=="LA")%>%
+  dplyr::select(-geog_l, -LA_order)%>% #remove empty column
   dplyr::rename(LA_Name= geog_n,
+                LA.Number=geog_c,
                 LA_Code=New_geog_code,
-                LA.Number = geog_c)%>% #rename variables
-  dplyr::select(-geog_l,-LA_order)%>% #remove empty column
-  tidyr::pivot_longer(cols=!c(LA_Name, LA_Code,LA.Number, year), names_to = "variable", 
-                      values_to = "value")%>%   #pivot so variables go in one column
+                `Total all ages.n` = OC2_12mths,
+                `Total ages 10 to 17 years.n` = OC2_10to17,
+                `Total ages 0 to 4 years.n` = OC2_U5,
+                `Convicted or subject to youth cautions or youth conditional cautions during the year.n` = OC2_convicted,
+                `Identified as having a substance misuse problem.n` = OC2_submisuse,
+                `Received an intervention for their substance misuse problem.n` = OC2_subint,
+                `Offered intervention but refused it.n` = OC2_suboffint,
+                `Development assessments up to date.n`=OC2_devassmt,
+                `Had their immunisations up to date.n` = OC2_immunisation,
+                `Had their teeth checked by a dentist.n` = OC2_teethcheck,
+                `Had their annual health assessment.n` = OC2_healthassmt,
+                `SDQ score is a cause for concern.n` = OC2_SDQconcern,
+                `SDQ score is borderline.n` = OC2_SDQborderline,
+                `SDQ score is normal.n` = OC2_SDQnormal,
+                `Total ages 5 to 16 years.n` = OC2_5to16,
+                `SDQ score was received.n` = OC2_SDQ,
+                `SDQ average score.pt` = OC2_SDQaverage) %>%
+  dplyr::filter(LA_Code!="")%>%
+  dplyr::mutate(`Total all ages.pt` = "100",
+                `Total ages 10 to 17 years.pt` ="100", 
+                `Total ages 0 to 4 years.pt` = "100",
+                `Total ages 5 to 16 years.pt` = "100",
+                `Convicted or subject to youth cautions or youth conditional cautions during the year.pt` = as.character((as.numeric(`Convicted or subject to youth cautions or youth conditional cautions during the year.n`)/as.numeric(`Total ages 10 to 17 years.n`))*100),
+                `Identified as having a substance misuse problem.pt` = as.character((as.numeric(`Identified as having a substance misuse problem.n`)/as.numeric(`Total all ages.n`))*100),
+                `Received an intervention for their substance misuse problem.pt` = as.character((as.numeric(`Received an intervention for their substance misuse problem.n`)/as.numeric(`Total all ages.n`))*100),
+                `Offered intervention but refused it.pt` = as.character((as.numeric(`Offered intervention but refused it.n`)/as.numeric(`Total all ages.n`))*100),
+                `Development assessments up to date.pt`= as.character((as.numeric(`Development assessments up to date.n`)/as.numeric(`Total ages 0 to 4 years.n`))*100),
+                `Had their immunisations up to date.pt` = as.character((as.numeric(`Had their immunisations up to date.n`)/as.numeric(`Total all ages.n`))*100),
+                `Had their teeth checked by a dentist.pt` = as.character((as.numeric(`Had their teeth checked by a dentist.n`)/as.numeric(`Total all ages.n`))*100),
+                `Had their annual health assessment.pt` = as.character((as.numeric(`Had their annual health assessment.n`)/as.numeric(`Total all ages.n`))*100),
+                `SDQ score was received.pt` = as.character((as.numeric(`SDQ score was received.n`)/as.numeric(`Total ages 5 to 16 years.n`))*100),
+                `SDQ score is normal.pt` = as.character((as.numeric(`SDQ score is normal.n`)/as.numeric(`Total ages 5 to 16 years.n`))*100),
+                `SDQ score is a cause for concern.pt` = as.character((as.numeric(`SDQ score is a cause for concern.n`)/as.numeric(`Total ages 5 to 16 years.n`))*100),
+                `SDQ score is borderline.pt` = as.character((as.numeric(`SDQ score is borderline.n`)/as.numeric(`Total ages 5 to 16 years.n`))*100),
+                `SDQ average score.n` = as.character((as.numeric(`SDQ average score.pt`)*as.numeric(`SDQ score was received.n`)))
+  )%>%
+  tidyr::pivot_longer(cols = !c(LA_Name, LA.Number, LA_Code), 
+                      names_to = c("variable", ".value"),
+                      names_pattern = "(.+)\\.(.+)")%>%
   dplyr::mutate(category = "child outcomes",
-                subcategory = "health and criminalisation")
+                subcategory = "health and criminalisation")%>%
+  dplyr::rename(number=n,
+                percent=pt)
 
 outcomes <- rbind(outcomes, sen, ks2, ks4, absence, exclusions, oc2, oc2_17)
 
