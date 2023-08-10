@@ -95,41 +95,42 @@ ks2 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_soc
                 mat_eligible_pupils.n = Elig_maths_2010,
                 mat_met_expected_standard.n = Lev4_maths_2010)%>%
   dplyr::filter(LA_Name!="")%>%
-  dplyr::mutate(read_eligible_pupils.n = NA,
-                read_eligible_pupils.pt = NA,
-                writta_eligible_pupils.n = NA,
-                writta_eligible_pupils.pt = NA,
-                rwm_eligible_pupils.n = NA,
-                rwm_eligible_pupils.pt = NA,
-                gps_eligible_pupils.n = NA,
-                gps_eligible_pupils.pt = NA,
-                scita_eligible_pupils.n = NA,
-                scita_eligible_pupils.pt = NA,
-                read_met_expected_standard.n = NA,
-                read_met_expected_standard.pt = NA,
-                writta_met_expected_standard.n = NA,
-                writta_met_expected_standard.pt = NA,
-                rwm_met_expected_standard.n = NA,
-                rwm_met_expected_standard.pt = NA,
-                gps_met_expected_standard.n = NA,
-                gps_met_expected_standard.pt = NA,
-                scita_met_expected_standard.n = NA,
-                scita_met_expected_standard.pt = NA,
-                read_progress_eligible_pupils.n = NA,
-                read_progress_eligible_pupils.pt = NA,
-                writte_progress_eligible_pupils.n = NA,
-                writte_progress_eligible_pupils.pt = NA,
-                mat_progress_eligible_pupils.n = NA,
-                mat_progress_eligible_pupils.pt = NA,
-                read_progress_score.n = NA,
-                read_progress_score.pt = NA,
-                writta_progress_score.n = NA,
-                writta_progress_score.pt = NA,
-                mat_progress_score.n = NA,
-                mat_progress_score.pt = NA,
+   dplyr::mutate(#read_eligible_pupils.n = NA,
+  #               read_eligible_pupils.pt = NA,
+  #               writta_eligible_pupils.n = NA,
+  #               writta_eligible_pupils.pt = NA,
+  #               rwm_eligible_pupils.n = NA,
+  #               rwm_eligible_pupils.pt = NA,
+  #               gps_eligible_pupils.n = NA,
+  #               gps_eligible_pupils.pt = NA,
+  #               scita_eligible_pupils.n = NA,
+  #               scita_eligible_pupils.pt = NA,
+  #               read_met_expected_standard.n = NA,
+  #               read_met_expected_standard.pt = NA,
+  #               writta_met_expected_standard.n = NA,
+  #               writta_met_expected_standard.pt = NA,
+  #               rwm_met_expected_standard.n = NA,
+  #               rwm_met_expected_standard.pt = NA,
+  #               gps_met_expected_standard.n = NA,
+  #               gps_met_expected_standard.pt = NA,
+  #               scita_met_expected_standard.n = NA,
+  #               scita_met_expected_standard.pt = NA,
+  #               read_progress_eligible_pupils.n = NA,
+  #               read_progress_eligible_pupils.pt = NA,
+  #               writte_progress_eligible_pupils.n = NA,
+  #               writte_progress_eligible_pupils.pt = NA,
+  #               mat_progress_eligible_pupils.n = NA,
+  #               mat_progress_eligible_pupils.pt = NA,
+  #               read_progress_score.n = NA,
+  #               read_progress_score.pt = NA,
+  #               writta_progress_score.n = NA,
+  #               writta_progress_score.pt = NA,
+  #               mat_progress_score.n = NA,
+  #               mat_progress_score.pt = NA,
+                LA.Number=NA,
                 mat_eligible_pupils.pt = as.character((as.numeric(mat_eligible_pupils.n)/as.numeric(mat_eligible_pupils.n))*100),
                 mat_met_expected_standard.pt = as.character((as.numeric(mat_met_expected_standard.n)/as.numeric(mat_eligible_pupils.n))*100))%>%
-  tidyr::pivot_longer(cols = !c(LA_Name), 
+  tidyr::pivot_longer(cols = !c(LA_Name, LA.Number), 
                       names_to = c("variable", ".value"),
                       names_pattern = "(\\w+)\\.(\\w+)")%>%
   dplyr::mutate(category = "child outcomes",
@@ -199,8 +200,8 @@ oc2 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_soc
 
 
 #bind together each outcome group
-outcomes_2010 <- rbind(schl_absence, schl_absence_by_school, schl_exclusion_by_school,
-                       ks1, ks2, ks4, oc2, sen)
+outcomes_2010 <- rbind(schl_absence,  schl_exclusion,
+                        ks2,  oc2)
 
 #allocate year variable
 outcomes_2010$year <- 2010
@@ -278,41 +279,41 @@ ks2 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_soc
                 mat_eligible_pupils.n = Elig_maths_2011,
                 mat_met_expected_standard.n = Lev4_maths_2011)%>%
   dplyr::filter(LA_Name!="")%>%
-  dplyr::mutate(read_eligible_pupils.n = NA,
-                read_eligible_pupils.pt = NA,
-                writta_eligible_pupils.n = NA,
-                writta_eligible_pupils.pt = NA,
-                rwm_eligible_pupils.n = NA,
-                rwm_eligible_pupils.pt = NA,
-                gps_eligible_pupils.n = NA,
-                gps_eligible_pupils.pt = NA,
-                scita_eligible_pupils.n = NA,
-                scita_eligible_pupils.pt = NA,
-                read_met_expected_standard.n = NA,
-                read_met_expected_standard.pt = NA,
-                writta_met_expected_standard.n = NA,
-                writta_met_expected_standard.pt = NA,
-                rwm_met_expected_standard.n = NA,
-                rwm_met_expected_standard.pt = NA,
-                gps_met_expected_standard.n = NA,
-                gps_met_expected_standard.pt = NA,
-                scita_met_expected_standard.n = NA,
-                scita_met_expected_standard.pt = NA,
-                read_progress_eligible_pupils.n = NA,
-                read_progress_eligible_pupils.pt = NA,
-                writte_progress_eligible_pupils.n = NA,
-                writte_progress_eligible_pupils.pt = NA,
-                mat_progress_eligible_pupils.n = NA,
-                mat_progress_eligible_pupils.pt = NA,
-                read_progress_score.n = NA,
-                read_progress_score.pt = NA,
-                writta_progress_score.n = NA,
-                writta_progress_score.pt = NA,
-                mat_progress_score.n = NA,
-                mat_progress_score.pt = NA,
+   dplyr::mutate(#read_eligible_pupils.n = NA,
+  #               read_eligible_pupils.pt = NA,
+  #               writta_eligible_pupils.n = NA,
+  #               writta_eligible_pupils.pt = NA,
+  #               rwm_eligible_pupils.n = NA,
+  #               rwm_eligible_pupils.pt = NA,
+  #               gps_eligible_pupils.n = NA,
+  #               gps_eligible_pupils.pt = NA,
+  #               scita_eligible_pupils.n = NA,
+  #               scita_eligible_pupils.pt = NA,
+  #               read_met_expected_standard.n = NA,
+  #               read_met_expected_standard.pt = NA,
+  #               writta_met_expected_standard.n = NA,
+  #               writta_met_expected_standard.pt = NA,
+  #               rwm_met_expected_standard.n = NA,
+  #               rwm_met_expected_standard.pt = NA,
+  #               gps_met_expected_standard.n = NA,
+  #               gps_met_expected_standard.pt = NA,
+  #               scita_met_expected_standard.n = NA,
+  #               scita_met_expected_standard.pt = NA,
+  #               read_progress_eligible_pupils.n = NA,
+  #               read_progress_eligible_pupils.pt = NA,
+  #               writte_progress_eligible_pupils.n = NA,
+  #               writte_progress_eligible_pupils.pt = NA,
+  #               mat_progress_eligible_pupils.n = NA,
+  #               mat_progress_eligible_pupils.pt = NA,
+  #               read_progress_score.n = NA,
+  #               read_progress_score.pt = NA,
+  #               writta_progress_score.n = NA,
+  #               writta_progress_score.pt = NA,
+  #               mat_progress_score.n = NA,
+  #               mat_progress_score.pt = NA,
                 mat_eligible_pupils.pt = as.character((as.numeric(mat_eligible_pupils.n)/as.numeric(mat_eligible_pupils.n))*100),
                 mat_met_expected_standard.pt = as.character((as.numeric(mat_met_expected_standard.n)/as.numeric(mat_eligible_pupils.n))*100))%>%
-  tidyr::pivot_longer(cols = !c(LA_Name), 
+  tidyr::pivot_longer(cols = !c(LA_Name, LA.Number), 
                       names_to = c("variable", ".value"),
                       names_pattern = "(\\w+)\\.(\\w+)")%>%
   dplyr::mutate(category = "child outcomes",
@@ -425,7 +426,7 @@ sen <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_soc
 
 #bind together each outcome group
 outcomes_2011 <- rbind(schl_absence, schl_exclusion,
-                       ks1, ks2, ks4, oc2, sen)
+                       ks2,  oc2, oc22, sen)
 
 #allocate year variable
 outcomes_2011$year <- 2011
@@ -575,41 +576,41 @@ ks2 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_soc
                 mat_eligible_pupils.n = Elig_maths_2012,
                 mat_met_expected_standard.n = Lev4_maths_2012)%>%
   dplyr::filter(LA_Name!="")%>%
-  dplyr::mutate(read_eligible_pupils.n = NA,
-                read_eligible_pupils.pt = NA,
-                writta_eligible_pupils.n = NA,
-                writta_eligible_pupils.pt = NA,
-                rwm_eligible_pupils.n = NA,
-                rwm_eligible_pupils.pt = NA,
-                gps_eligible_pupils.n = NA,
-                gps_eligible_pupils.pt = NA,
-                scita_eligible_pupils.n = NA,
-                scita_eligible_pupils.pt = NA,
-                read_met_expected_standard.n = NA,
-                read_met_expected_standard.pt = NA,
-                writta_met_expected_standard.n = NA,
-                writta_met_expected_standard.pt = NA,
-                rwm_met_expected_standard.n = NA,
-                rwm_met_expected_standard.pt = NA,
-                gps_met_expected_standard.n = NA,
-                gps_met_expected_standard.pt = NA,
-                scita_met_expected_standard.n = NA,
-                scita_met_expected_standard.pt = NA,
-                read_progress_eligible_pupils.n = NA,
-                read_progress_eligible_pupils.pt = NA,
-                writte_progress_eligible_pupils.n = NA,
-                writte_progress_eligible_pupils.pt = NA,
-                mat_progress_eligible_pupils.n = NA,
-                mat_progress_eligible_pupils.pt = NA,
-                read_progress_score.n = NA,
-                read_progress_score.pt = NA,
-                writta_progress_score.n = NA,
-                writta_progress_score.pt = NA,
-                mat_progress_score.n = NA,
-                mat_progress_score.pt = NA,
+   dplyr::mutate(#read_eligible_pupils.n = NA,
+  #               read_eligible_pupils.pt = NA,
+  #               writta_eligible_pupils.n = NA,
+  #               writta_eligible_pupils.pt = NA,
+  #               rwm_eligible_pupils.n = NA,
+  #               rwm_eligible_pupils.pt = NA,
+  #               gps_eligible_pupils.n = NA,
+  #               gps_eligible_pupils.pt = NA,
+  #               scita_eligible_pupils.n = NA,
+  #               scita_eligible_pupils.pt = NA,
+  #               read_met_expected_standard.n = NA,
+  #               read_met_expected_standard.pt = NA,
+  #               writta_met_expected_standard.n = NA,
+  #               writta_met_expected_standard.pt = NA,
+  #               rwm_met_expected_standard.n = NA,
+  #               rwm_met_expected_standard.pt = NA,
+  #               gps_met_expected_standard.n = NA,
+  #               gps_met_expected_standard.pt = NA,
+  #               scita_met_expected_standard.n = NA,
+  #               scita_met_expected_standard.pt = NA,
+  #               read_progress_eligible_pupils.n = NA,
+  #               read_progress_eligible_pupils.pt = NA,
+  #               writte_progress_eligible_pupils.n = NA,
+  #               writte_progress_eligible_pupils.pt = NA,
+  #               mat_progress_eligible_pupils.n = NA,
+  #               mat_progress_eligible_pupils.pt = NA,
+  #               read_progress_score.n = NA,
+  #               read_progress_score.pt = NA,
+  #               writta_progress_score.n = NA,
+  #               writta_progress_score.pt = NA,
+  #               mat_progress_score.n = NA,
+  #               mat_progress_score.pt = NA,
                 mat_eligible_pupils.pt = as.character((as.numeric(mat_eligible_pupils.n)/as.numeric(mat_eligible_pupils.n))*100),
                 mat_met_expected_standard.pt = as.character((as.numeric(mat_met_expected_standard.n)/as.numeric(mat_eligible_pupils.n))*100))%>%
-  tidyr::pivot_longer(cols = !c(LA_Name), 
+  tidyr::pivot_longer(cols = !c(LA_Name, LA.Number, LA_Code), 
                       names_to = c("variable", ".value"),
                       names_pattern = "(\\w+)\\.(\\w+)")%>%
   dplyr::mutate(category = "child outcomes",
@@ -657,7 +658,7 @@ sen <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_soc
 
 #bind together each outcome group
 outcomes_2012 <- rbind(schl_absence, schl_exclusion,
-                       ks1, ks2, ks4, oc2, sen)
+                        ks2,  oc2,oc22, sen)
 
 #allocate year variable
 outcomes_2012$year <- 2012
@@ -675,18 +676,18 @@ rm(list=setdiff(ls(), c("outcomes")))
 
 #2013 
 #read in raw data with all cols as character so they can pivot together, skip empty rows
-ks1 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2013_LA/sheet1_ks1.csv"),
-                colClasses = "character", skip=4)%>%
-  dplyr::mutate_all(~ str_replace(., ",", ""))%>%
-  dplyr::rename(LA_Name= X,
-                percent_level_24_reading = Percentage.achieving.at.least.Level.24.in.the.following.,
-                percent_level_24_writing = X.2,
-                percent_level_24_maths = X.3)%>% #rename variables
-  dplyr::select(LA_Name,Percentage.with.UPN2, Number.eligible.for.Key.Stage.1.assessments3,percent_level_24_reading, percent_level_24_writing, percent_level_24_maths)%>% #remove empty column
-  tidyr::pivot_longer(cols=!LA_Name, names_to = "variable", 
-                      values_to = "value")%>% #pivot so variables go in one column
-  dplyr::mutate(category = "child outcomes",
-                subcategory = "ks1") #create categories and subcategories)
+# ks1 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2013_LA/sheet1_ks1.csv"),
+#                 colClasses = "character", skip=4)%>%
+#   dplyr::mutate_all(~ str_replace(., ",", ""))%>%
+#   dplyr::rename(LA_Name= X,
+#                 percent_level_24_reading = Percentage.achieving.at.least.Level.24.in.the.following.,
+#                 percent_level_24_writing = X.2,
+#                 percent_level_24_maths = X.3)%>% #rename variables
+#   dplyr::select(LA_Name,Percentage.with.UPN2, Number.eligible.for.Key.Stage.1.assessments3,percent_level_24_reading, percent_level_24_writing, percent_level_24_maths)%>% #remove empty column
+#   tidyr::pivot_longer(cols=!LA_Name, names_to = "variable", 
+#                       values_to = "value")%>% #pivot so variables go in one column
+#   dplyr::mutate(category = "child outcomes",
+#                 subcategory = "ks1") #create categories and subcategories)
 
 
 ks2 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2013_LA/sheet2_ks2.csv"),
@@ -705,31 +706,31 @@ ks2 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_soc
                 writta_eligible_pupils.pt = "100",
                 mat_eligible_pupils.n = read_eligible_pupils.n,
                 mat_eligible_pupils.pt = "100",
-                rwm_eligible_pupils.n = NA,
-                rwm_eligible_pupils.pt = NA,
+                #rwm_eligible_pupils.n = NA,
+                #rwm_eligible_pupils.pt = NA,
                 gps_eligible_pupils.n = read_eligible_pupils.n,
                 gps_eligible_pupils.pt = "100",
-                scita_eligible_pupils.n = NA,
-                scita_eligible_pupils.pt = NA,
+                #scita_eligible_pupils.n = NA,
+                #scita_eligible_pupils.pt = NA,
                 read_met_expected_standard.n = as.character((as.numeric(read_met_expected_standard.pt)/100)*as.numeric(read_eligible_pupils.n)),
                 writta_met_expected_standard.n =  as.character((as.numeric(writta_met_expected_standard.pt)/100)*as.numeric(writta_eligible_pupils.n)),
-                rwm_met_expected_standard.n = NA,
-                rwm_met_expected_standard.pt = NA,
+                #rwm_met_expected_standard.n = NA,
+                #rwm_met_expected_standard.pt = NA,
                 gps_met_expected_standard.n = as.character((as.numeric(gps_met_expected_standard.pt)/100)*as.numeric(gps_eligible_pupils.n)),
-                scita_met_expected_standard.n = NA,
-                scita_met_expected_standard.pt = NA,
-                read_progress_eligible_pupils.n = NA,
-                read_progress_eligible_pupils.pt = NA,
-                writte_progress_eligible_pupils.n = NA,
-                writte_progress_eligible_pupils.pt = NA,
-                mat_progress_eligible_pupils.n = NA,
-                mat_progress_eligible_pupils.pt = NA,
-                read_progress_score.n = NA,
-                read_progress_score.pt = NA,
-                writta_progress_score.n = NA,
-                writta_progress_score.pt = NA,
-                mat_progress_score.n = NA,
-                mat_progress_score.pt = NA,
+                # scita_met_expected_standard.n = NA,
+                # scita_met_expected_standard.pt = NA,
+                # read_progress_eligible_pupils.n = NA,
+                # read_progress_eligible_pupils.pt = NA,
+                # writte_progress_eligible_pupils.n = NA,
+                # writte_progress_eligible_pupils.pt = NA,
+                # mat_progress_eligible_pupils.n = NA,
+                # mat_progress_eligible_pupils.pt = NA,
+                # read_progress_score.n = NA,
+                # read_progress_score.pt = NA,
+                # writta_progress_score.n = NA,
+                # writta_progress_score.pt = NA,
+                # mat_progress_score.n = NA,
+                # mat_progress_score.pt = NA,
                 mat_met_expected_standard.n = as.character((as.numeric(mat_met_expected_standard.pt)/100)*as.numeric(mat_eligible_pupils.n)))%>%
   tidyr::pivot_longer(cols = !c(LA_Name), 
                       names_to = c("variable", ".value"),
@@ -757,7 +758,7 @@ oc21 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_so
   dplyr::mutate_all(~ str_replace(., ",", ""))%>%
   dplyr::rename(LA_Name= X,
                 number = Looked.after.children.aged.10.and.above,
-                percent = X.1  )%>% #rename variables
+                percent = X.3  )%>% #rename variables
   dplyr::filter(LA_Name!="")%>%
   dplyr::mutate(variable = "Convicted or subject to youth cautions or youth conditional cautions during the year",
                 category = "child outcomes",
@@ -876,12 +877,10 @@ sen <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_soc
                  one_plus_sus.pt = Percentage.of.children.with.at.least.one.fixed.exclusion.3)%>%
    dplyr::filter(LA_Name!="")%>%
    dplyr::select(-X.11)%>%
-   dplyr::mutate(LA.Number = NA,
-                 LA_Code = NA,
-                 pupils.pt = as.character((as.numeric(pupils.n)/as.numeric(pupils.n))*100),
+   dplyr::mutate(pupils.pt = as.character((as.numeric(pupils.n)/as.numeric(pupils.n))*100),
                  perm_excl.n = as.character((as.numeric(perm_excl.pt)/100)*as.numeric(pupils.n)),
                  one_plus_sus.n = as.character((as.numeric(one_plus_sus.pt)/100)*as.numeric(pupils.n)))%>%
-   tidyr::pivot_longer(cols = !c(LA_Name, LA.Number, LA_Code), 
+   tidyr::pivot_longer(cols = !c(LA_Name), 
                        names_to = c("variable", ".value"),
                        names_pattern = "(\\w+)\\.(\\w+)")%>%
    dplyr::mutate(category = "child outcomes",
@@ -921,8 +920,8 @@ schl_absence <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/chil
 
 
 #bind together each outcome group
-outcomes_2013 <- rbind(schl_absence,schl_exclusion ,oc21,oc22,oc23,oc24, 
-                       ks1, ks2, ks4,  sen)
+outcomes_2013 <- rbind(schl_absence,schl_exclusion ,oc21,oc22,oc23,oc24, oc25,
+                        ks2,   sen)
 
 #allocate year variable
 outcomes_2013$year <- 2013
@@ -975,26 +974,26 @@ ks2 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_soc
                 rwm_eligible_pupils.pt = "100",
                 gps_eligible_pupils.n = read_eligible_pupils.n,
                 gps_eligible_pupils.pt = "100",
-                scita_eligible_pupils.n = NA,
-                scita_eligible_pupils.pt = NA,
+                #scita_eligible_pupils.n = NA,
+                #scita_eligible_pupils.pt = NA,
                 read_met_expected_standard.n = as.character((as.numeric(read_met_expected_standard.pt)/100)*as.numeric(read_eligible_pupils.n)),
                 writta_met_expected_standard.n =  as.character((as.numeric(writta_met_expected_standard.pt)/100)*as.numeric(writta_eligible_pupils.n)),
                 rwm_met_expected_standard.n = as.character((as.numeric(rwm_met_expected_standard.pt)/100)*as.numeric(rwm_eligible_pupils.n)),
                 gps_met_expected_standard.n = as.character((as.numeric(gps_met_expected_standard.pt)/100)*as.numeric(gps_eligible_pupils.n)),
-                scita_met_expected_standard.n = NA,
-                scita_met_expected_standard.pt = NA,
-                read_progress_eligible_pupils.n = NA,
-                read_progress_eligible_pupils.pt = NA,
-                writte_progress_eligible_pupils.n = NA,
-                writte_progress_eligible_pupils.pt = NA,
-                mat_progress_eligible_pupils.n = NA,
-                mat_progress_eligible_pupils.pt = NA,
-                read_progress_score.n = NA,
-                read_progress_score.pt = NA,
-                writta_progress_score.n = NA,
-                writta_progress_score.pt = NA,
-                mat_progress_score.n = NA,
-                mat_progress_score.pt = NA,
+                # scita_met_expected_standard.n = NA,
+                # scita_met_expected_standard.pt = NA,
+                # read_progress_eligible_pupils.n = NA,
+                # read_progress_eligible_pupils.pt = NA,
+                # writte_progress_eligible_pupils.n = NA,
+                # writte_progress_eligible_pupils.pt = NA,
+                # mat_progress_eligible_pupils.n = NA,
+                # mat_progress_eligible_pupils.pt = NA,
+                # read_progress_score.n = NA,
+                # read_progress_score.pt = NA,
+                # writta_progress_score.n = NA,
+                # writta_progress_score.pt = NA,
+                # mat_progress_score.n = NA,
+                # mat_progress_score.pt = NA,
                 mat_met_expected_standard.n = as.character((as.numeric(mat_met_expected_standard.pt)/100)*as.numeric(mat_eligible_pupils.n)))%>%
   tidyr::pivot_longer(cols = !c(LA_Name), 
                       names_to = c("variable", ".value"),
@@ -1018,7 +1017,6 @@ ks2 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_soc
 #                 subcategory = "ks4") #create categories and subcategories)
 # 
 
-####HERE BABY LAST DAY####
 oc21 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2014_LA/sheet4_oc21.csv"),
                  colClasses = "character", skip=4)[c(1,6,7)]%>%
   dplyr::mutate_all(~ str_replace(., ",", ""))%>%
@@ -1145,12 +1143,10 @@ sen <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_soc
                  one_plus_sus.pt = Percentage.of.children.with.at.least.one.fixed.period.exclusion.4)%>%
    dplyr::filter(LA_Name!="")%>%
    dplyr::select(-X.16)%>%
-   dplyr::mutate(LA.Number = NA,
-                 LA_Code = NA,
-                 pupils.pt = as.character((as.numeric(pupils.n)/as.numeric(pupils.n))*100),
+   dplyr::mutate(pupils.pt = as.character((as.numeric(pupils.n)/as.numeric(pupils.n))*100),
                  perm_excl.n = as.character((as.numeric(perm_excl.pt)/100)*as.numeric(pupils.n)),
                  one_plus_sus.n = as.character((as.numeric(one_plus_sus.pt)/100)*as.numeric(pupils.n)))%>%
-   tidyr::pivot_longer(cols = !c(LA_Name, LA.Number, LA_Code), 
+   tidyr::pivot_longer(cols = !c(LA_Name), 
                        names_to = c("variable", ".value"),
                        names_pattern = "(\\w+)\\.(\\w+)")%>%
    dplyr::mutate(category = "child outcomes",
@@ -1186,8 +1182,8 @@ schl_absence <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/chil
                 percent=pt)
 
 #bind together each outcome group
-outcomes_2014 <- rbind(schl_absence,sch_exclusion,oc21,oc22,oc23,oc24, 
-                       ks1, ks2, ks4,  sen)
+outcomes_2014 <- rbind(schl_absence,sch_exclusion,oc21,oc22,oc23,oc24, oc25,
+                        ks2,   sen)
 
 #allocate year variable
 outcomes_2014$year <- 2014
@@ -1208,20 +1204,20 @@ rm(list=setdiff(ls(), c("outcomes")))
 
 #2015
 #read in raw data with all cols as character so they can pivot together, skip empty rows
-ks1 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2015_LA/sheet1_ks1.csv"),
-                colClasses = "character", skip=5)%>%
-  dplyr::mutate_all(~ str_replace(., ",", ""))%>%
-  dplyr::rename(LA_Name= X,
-                LA.Number=X.1,
-                LA_Code = LA.Code,
-                percent_level_24_reading = Percentage.who.achieved.at.least.level.24.in.the.following.,
-                percent_level_24_writing = X.4,
-                percent_level_24_maths = X.5)%>% #rename variables
-  dplyr::select(LA_Name,LA_Code,LA.Number,Percentage.with.UPN2, Number.eligible.to.sit..key.stage.1.tasks.and.tests3,percent_level_24_reading, percent_level_24_writing, percent_level_24_maths)%>% #remove empty column
-  tidyr::pivot_longer(cols=!c(LA_Name, LA_Code,LA.Number), names_to = "variable", 
-                      values_to = "value")%>% #pivot so variables go in one column
-  dplyr::mutate(category = "child outcomes",
-                subcategory = "ks1") #create categories and subcategories)
+# ks1 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2015_LA/sheet1_ks1.csv"),
+#                 colClasses = "character", skip=5)%>%
+#   dplyr::mutate_all(~ str_replace(., ",", ""))%>%
+#   dplyr::rename(LA_Name= X,
+#                 LA.Number=X.1,
+#                 LA_Code = LA.Code,
+#                 percent_level_24_reading = Percentage.who.achieved.at.least.level.24.in.the.following.,
+#                 percent_level_24_writing = X.4,
+#                 percent_level_24_maths = X.5)%>% #rename variables
+#   dplyr::select(LA_Name,LA_Code,LA.Number,Percentage.with.UPN2, Number.eligible.to.sit..key.stage.1.tasks.and.tests3,percent_level_24_reading, percent_level_24_writing, percent_level_24_maths)%>% #remove empty column
+#   tidyr::pivot_longer(cols=!c(LA_Name, LA_Code,LA.Number), names_to = "variable", 
+#                       values_to = "value")%>% #pivot so variables go in one column
+#   dplyr::mutate(category = "child outcomes",
+#                 subcategory = "ks1") #create categories and subcategories)
 
 
 ks2 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2015_LA/sheet2_ks2.csv"),
@@ -1247,26 +1243,26 @@ ks2 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_soc
                 rwm_eligible_pupils.pt = "100",
                 gps_eligible_pupils.n = read_eligible_pupils.n,
                 gps_eligible_pupils.pt = "100",
-                scita_eligible_pupils.n = NA,
-                scita_eligible_pupils.pt = NA,
+                #scita_eligible_pupils.n = NA,
+                #scita_eligible_pupils.pt = NA,
                 read_met_expected_standard.n = as.character((as.numeric(read_met_expected_standard.pt)/100)*as.numeric(read_eligible_pupils.n)),
                 writta_met_expected_standard.n =  as.character((as.numeric(writta_met_expected_standard.pt)/100)*as.numeric(writta_eligible_pupils.n)),
                 rwm_met_expected_standard.n = as.character((as.numeric(rwm_met_expected_standard.pt)/100)*as.numeric(rwm_eligible_pupils.n)),
                 gps_met_expected_standard.n = as.character((as.numeric(gps_met_expected_standard.pt)/100)*as.numeric(gps_eligible_pupils.n)),
-                scita_met_expected_standard.n = NA,
-                scita_met_expected_standard.pt = NA,
-                read_progress_eligible_pupils.n = NA,
-                read_progress_eligible_pupils.pt = NA,
-                writte_progress_eligible_pupils.n = NA,
-                writte_progress_eligible_pupils.pt = NA,
-                mat_progress_eligible_pupils.n = NA,
-                mat_progress_eligible_pupils.pt = NA,
-                read_progress_score.n = NA,
-                read_progress_score.pt = NA,
-                writta_progress_score.n = NA,
-                writta_progress_score.pt = NA,
-                mat_progress_score.n = NA,
-                mat_progress_score.pt = NA,
+                # scita_met_expected_standard.n = NA,
+                # scita_met_expected_standard.pt = NA,
+                # read_progress_eligible_pupils.n = NA,
+                # read_progress_eligible_pupils.pt = NA,
+                # writte_progress_eligible_pupils.n = NA,
+                # writte_progress_eligible_pupils.pt = NA,
+                # mat_progress_eligible_pupils.n = NA,
+                # mat_progress_eligible_pupils.pt = NA,
+                # read_progress_score.n = NA,
+                # read_progress_score.pt = NA,
+                # writta_progress_score.n = NA,
+                # writta_progress_score.pt = NA,
+                # mat_progress_score.n = NA,
+                # mat_progress_score.pt = NA,
                 mat_met_expected_standard.n = as.character((as.numeric(mat_met_expected_standard.pt)/100)*as.numeric(mat_eligible_pupils.n)))%>%
   tidyr::pivot_longer(cols = !c(LA_Name, LA.Number, LA_Code), 
                       names_to = c("variable", ".value"),
@@ -1364,17 +1360,17 @@ oc22 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_so
 
 
 sen <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2015_LA/sheet4_sen.csv"),
-                colClasses = "character", skip=5)[c(1:5,7,10,13)]%>%
+                colClasses = "character", skip=5)[c(1:3,5,13,14,16,17)]%>%
   dplyr::mutate_all(~ str_replace(., ",", ""))%>%
   dplyr::rename(LA_Name= X.1,
                 LA_Code=LA.Code,
                 LA.Number=X,
-                all_SEN.n = All.children.with.SEN6,
-                all_SEN.pt = X.10,
-                statement_or_EHC_plan.n = X.7,
-                statement_or_EHC_plan.pt = X.8,
-                pupils.n = Number.of.children.looked.after.at.31.March.who.had.been.continuously.looked.after.for.at.least.12.months.and.matched.to.census.data3)%>%
-  dplyr::filter(LA_Name!="")%>%
+                all_SEN.n = Total.with.SEN6,
+                all_SEN.pt = X.11,
+                statement_or_EHC_plan.n = X.8,
+                statement_or_EHC_plan.pt = X.9,
+                pupils.n = Number.of.children.looked.after.at.31.March.who.had.been.continuously.looked.after.for.at.least.twelve.months.and.matched.to.census.data3)%>%
+  dplyr::filter(LA_Code!="")%>%
   dplyr::mutate(pupils.pt = "100")%>%
   tidyr::pivot_longer(cols = !c(LA_Name, LA.Number, LA_Code), 
                       names_to = c("variable", ".value"),
@@ -1395,12 +1391,10 @@ sen <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_soc
                  one_plus_sus.pt = Percentage.of.children.with.at.least.one.fixed.period.exclusion.4)%>%
    dplyr::filter(LA_Name!="")%>%
    dplyr::select(-X.11)%>%
-   dplyr::mutate(LA.Number = NA,
-                 LA_Code = NA,
-                 pupils.pt = as.character((as.numeric(pupils.n)/as.numeric(pupils.n))*100),
+   dplyr::mutate(pupils.pt = as.character((as.numeric(pupils.n)/as.numeric(pupils.n))*100),
                  perm_excl.n = as.character((as.numeric(perm_excl.pt)/100)*as.numeric(pupils.n)),
                  one_plus_sus.n = as.character((as.numeric(one_plus_sus.pt)/100)*as.numeric(pupils.n)))%>%
-   tidyr::pivot_longer(cols = !c(LA_Name, LA.Number, LA_Code), 
+   tidyr::pivot_longer(cols = !c(LA_Name, LA_Code, LA.Number), 
                        names_to = c("variable", ".value"),
                        names_pattern = "(\\w+)\\.(\\w+)")%>%
    dplyr::mutate(category = "child outcomes",
@@ -1429,7 +1423,7 @@ schl_absence <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/chil
                 sess_authorised.n = NA,
                 sess_unauthorised.n = NA,
                 pupils_pa_10_exact.n = as.character((as.numeric(pupils_pa_10_exact.pt)/100)*as.numeric(pupils.n)))%>%
-  pivot_longer(cols = !c(LA_Name), 
+  pivot_longer(cols = !c(LA_Name, LA_Code, LA.Number), 
                names_to = c("variable", ".value"),
                names_pattern = "(\\w+)\\.(\\w+)")%>%
   dplyr::mutate(category = "child outcomes",
@@ -1440,8 +1434,8 @@ schl_absence <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/chil
 
 
 #bind together each outcome group
-outcomes_2015 <- rbind(schl_absence,sch_exclusion,oc2, 
-                       ks1, ks2, ks4,  sen)
+outcomes_2015 <- rbind(schl_absence,sch_exclusion,oc2, oc22,
+                        ks2,   sen)
 
 #allocate year variable
 outcomes_2015$year <- 2015
@@ -1461,21 +1455,21 @@ rm(list=setdiff(ls(), c("outcomes")))
 #2016
 
 #read in raw data with all cols as character so they can pivot together, skip empty rows
-ks1 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2016_LA/sheet1_ks1.csv"),
-                colClasses = "character", skip=5)%>%
-  dplyr::mutate_all(~ str_replace(., ",", ""))%>%
-  dplyr::rename(LA_Name= X.1,
-                LA.Number=X,
-                LA_Code = LA.Code,
-                percent_level_24_reading = Reaching.the.expected.standard4....,
-                percent_level_24_writing = X.3,
-                percent_level_24_maths = X.4,
-                percent_level_24_science = X.5)%>% #rename variables
-  dplyr::select(-X.2, -X.6)%>% #remove empty column
-  tidyr::pivot_longer(cols=!c(LA_Name, LA_Code,LA.Number), names_to = "variable", 
-                      values_to = "value")%>% #pivot so variables go in one column
-  dplyr::mutate(category = "child outcomes",
-                subcategory = "ks1") #create categories and subcategories)
+# ks1 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2016_LA/sheet1_ks1.csv"),
+#                 colClasses = "character", skip=5)%>%
+#   dplyr::mutate_all(~ str_replace(., ",", ""))%>%
+#   dplyr::rename(LA_Name= X.1,
+#                 LA.Number=X,
+#                 LA_Code = LA.Code,
+#                 percent_level_24_reading = Reaching.the.expected.standard4....,
+#                 percent_level_24_writing = X.3,
+#                 percent_level_24_maths = X.4,
+#                 percent_level_24_science = X.5)%>% #rename variables
+#   dplyr::select(-X.2, -X.6)%>% #remove empty column
+#   tidyr::pivot_longer(cols=!c(LA_Name, LA_Code,LA.Number), names_to = "variable", 
+#                       values_to = "value")%>% #pivot so variables go in one column
+#   dplyr::mutate(category = "child outcomes",
+#                 subcategory = "ks1") #create categories and subcategories)
 
 
 ks2 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2016_LA/sheet2_ks2.csv"),
@@ -1501,14 +1495,14 @@ ks2 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_soc
                 rwm_eligible_pupils.pt = "100",
                 gps_eligible_pupils.n = read_eligible_pupils.n,
                 gps_eligible_pupils.pt = "100",
-                scita_eligible_pupils.n = NA,
-                scita_eligible_pupils.pt = NA,
+                #scita_eligible_pupils.n = NA,
+                #scita_eligible_pupils.pt = NA,
                 read_met_expected_standard.n = as.character((as.numeric(read_met_expected_standard.pt)/100)*as.numeric(read_eligible_pupils.n)),
                 writta_met_expected_standard.n =  as.character((as.numeric(writta_met_expected_standard.pt)/100)*as.numeric(writta_eligible_pupils.n)),
                 rwm_met_expected_standard.n = as.character((as.numeric(rwm_met_expected_standard.pt)/100)*as.numeric(rwm_eligible_pupils.n)),
                 gps_met_expected_standard.n = as.character((as.numeric(gps_met_expected_standard.pt)/100)*as.numeric(gps_eligible_pupils.n)),
-                scita_met_expected_standard.n = NA,
-                scita_met_expected_standard.pt = NA,
+                #scita_met_expected_standard.n = NA,
+                #scita_met_expected_standard.pt = NA,
                 mat_met_expected_standard.n = as.character((as.numeric(mat_met_expected_standard.pt)/100)*as.numeric(mat_eligible_pupils.n)))%>%
   tidyr::pivot_longer(cols = !c(LA_Name, LA.Number, LA_Code), 
                       names_to = c("variable", ".value"),
@@ -1676,19 +1670,25 @@ oc22 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_so
 
 
 sen <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2016_LA/sheet7_sen.csv"),
-                colClasses = "character", skip=5)[c(1:4,6,9,12,15)]%>%
+                colClasses = "character", skip=5)[c(1:4,12,13,15,16)]%>%
   dplyr::mutate_all(~ str_replace(., ",", ""))%>%
   dplyr::rename(LA_Name= X.1,
                 LA_Code=LA.Code,
                 LA.Number=X,
-                no_sen = Number.of.looked.after.children.with.the.following.provision.for.SEN3.,
-                sen_no_statement = X.5,
-                sen_with_statement = X.8)%>% #rename variables
-  #dplyr::select(-X.1)%>% #remove empty column
-  tidyr::pivot_longer(cols=!c(LA_Name, LA_Code,LA.Number), names_to = "variable", 
-                      values_to = "value")%>% #pivot so variables go in one column
+                all_SEN.n = Total.with.SEN5,
+                all_SEN.pt = X.11,
+                statement_or_EHC_plan.n = X.8,
+                statement_or_EHC_plan.pt = X.9,
+                pupils.n = Number.of.children.looked.after.at.31.March.who.had.been.continuously.looked.after.for.at.least.twelve.months.and.matched.to.census.data2)%>%
+  dplyr::filter(LA_Code!="")%>%
+  dplyr::mutate(pupils.pt = "100")%>%
+  tidyr::pivot_longer(cols = !c(LA_Name, LA.Number, LA_Code), 
+                      names_to = c("variable", ".value"),
+                      names_pattern = "(.+)\\.(.+)")%>%
   dplyr::mutate(category = "child outcomes",
-                subcategory = "special educational needs")
+                subcategory = "special educational needs")%>%
+  dplyr::rename(number=n,
+                percent=pt)
 
 
 
@@ -1723,8 +1723,8 @@ schl_absence <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/chil
 
 
 #bind together each outcome group
-outcomes_2016 <- rbind(schl_absence,oc2, 
-                       ks1, ks2, ks4,  sen)
+outcomes_2016 <- rbind(schl_absence,oc2, oc22, 
+                        ks2,ks22, ks42, ks43,  sen)
 
 #allocate year variable
 outcomes_2016$year <- 2016
@@ -1927,9 +1927,10 @@ oc2_17 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_
                 `SDQ score is normal.pt` = as.character((as.numeric(`SDQ score is normal.n`)/as.numeric(`Total ages 5 to 16 years.n`))*100),
                 `SDQ score is a cause for concern.pt` = as.character((as.numeric(`SDQ score is a cause for concern.n`)/as.numeric(`Total ages 5 to 16 years.n`))*100),
                 `SDQ score is borderline.pt` = as.character((as.numeric(`SDQ score is borderline.n`)/as.numeric(`Total ages 5 to 16 years.n`))*100),
-                `SDQ average score.n` = as.character((as.numeric(`SDQ average score.pt`)*as.numeric(`SDQ score was received.n`)))
+                `SDQ average score.n` = as.character((as.numeric(`SDQ average score.pt`)*as.numeric(`SDQ score was received.n`))),
+                year="2017"
   )%>%
-  tidyr::pivot_longer(cols = !c(LA_Name, LA.Number, LA_Code), 
+  tidyr::pivot_longer(cols = !c(LA_Name, LA.Number, LA_Code, year), 
                       names_to = c("variable", ".value"),
                       names_pattern = "(.+)\\.(.+)")%>%
   dplyr::mutate(category = "child outcomes",
@@ -1937,8 +1938,8 @@ oc2_17 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_
   dplyr::rename(number=n,
                 percent=pt)
 
-outcomes <- rbind(outcomes, sen, ks2, ks4, absence, exclusions, oc2, oc2_17)
-
+outcomespost <- rbind( sen, ks2, ks4, absence, exclusions, oc2, oc2_17)
+outcomes <- rbind(outcomespost, outcomes)
 rm(list=setdiff(ls(), c("outcomes")))
 
 
