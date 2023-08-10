@@ -535,7 +535,7 @@ oc22 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_so
   dplyr::filter(LA_Name!="")%>%
   dplyr::mutate(LA_Code = NA,
                 LA.Number = NA,
-                number = as.character((as.numeric(percent)/100)*as.numeric(yes)),
+                number = as.character((as.numeric(percent))*as.numeric(yes)),
                 variable = "SDQ average score",
                 category = "child outcomes",
                 subcategory = "health and criminalisation")%>%
@@ -1265,9 +1265,9 @@ ks2 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_soc
 
 
 oc2 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2015_LA/SFR34_OC22015.csv"),
-                 colClasses = "character")[-c(7,8)]%>%
+                 colClasses = "character")%>%
   dplyr::mutate_all(~ str_replace(., ",", ""))%>%
-  dplyr::filter(geog_l="LA")%>%
+  dplyr::filter(geog_l=="LA")%>%
   dplyr::select(-geog_l)%>% #remove empty column
   dplyr::rename(LA_Name= geog_n,
                 LA.Number=geog_c,
@@ -1275,8 +1275,8 @@ oc2 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_soc
                 `Total all ages.n` = CLA_12mths,
                 `Total ages 10 to 17 years.n` = CLA_10over,
                 `Total ages 0 to 4 years.n` = CLA_5under,
-                `Convicted or subject to youth cautions or youth conditional cautions during the year.n` = caution_conviction,
-                `Identified as having a substance misuse problem.n` = substance_misuse,
+                `Convicted or subject to youth cautions or youth conditional cautions during the year.n` = CLA_convicted,
+                `Identified as having a substance misuse problem.n` = CLA_submisuse,
                 `Received an intervention for their substance misuse problem.n` = CLA_subint,
                 `Offered intervention but refused it.n` = CLA_suboffint,
                 `Development assessments up to date.n`=CLA_devassmt,
@@ -1287,8 +1287,47 @@ oc2 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_soc
                 `SDQ score is borderline.n` = CLA_SDQborderline,
                 `SDQ score is normal.n` = CLA_SDQnormal,
                 `Total ages 5 to 16 years.n` = CLA_5to16,
-                `SDQ score was received.n` = CLA_SDQ
-                )%>% #rename variables
+                `SDQ score was received.n` = CLA_SDQ) %>%
+  dplyr::filter(LA_Code!="")%>%
+  dplyr::mutate(`Total all ages.pt` = "100",
+                `Total ages 10 to 17 years.pt` ="100", 
+                `Total ages 0 to 4 years.pt` = "100",
+                `Total ages 5 to 16 years.pt` = "100",
+                `Convicted or subject to youth cautions or youth conditional cautions during the year.pt` = as.character((as.numeric(`Convicted or subject to youth cautions or youth conditional cautions during the year.n`)/as.numeric(`Total ages 10 to 17 years.n`))*100),
+                `Identified as having a substance misuse problem.pt` = as.character((as.numeric(`Identified as having a substance misuse problem.n`)/as.numeric(`Total all ages.n`))*100),
+                `Received an intervention for their substance misuse problem.pt` = as.character((as.numeric(`Received an intervention for their substance misuse problem.n`)/as.numeric(`Total all ages.n`))*100),
+                `Offered intervention but refused it.pt` = as.character((as.numeric(`Offered intervention but refused it.n`)/as.numeric(`Total all ages.n`))*100),
+                `Development assessments up to date.pt`= as.character((as.numeric(`Development assessments up to date.n`)/as.numeric(`Total ages 0 to 4 years.n`))*100),
+                `Had their immunisations up to date.pt` = as.character((as.numeric(`Had their immunisations up to date.n`)/as.numeric(`Total all ages.n`))*100),
+                `Had their teeth checked by a dentist.pt` = as.character((as.numeric(`Had their teeth checked by a dentist.n`)/as.numeric(`Total all ages.n`))*100),
+                `Had their annual health assessment.pt` = as.character((as.numeric(`Had their annual health assessment.n`)/as.numeric(`Total all ages.n`))*100),
+                `SDQ score was received.pt` = as.character((as.numeric(`SDQ score was received.n`)/as.numeric(`Total ages 5 to 16 years.n`))*100),
+                `SDQ score is normal.pt` = as.character((as.numeric(`SDQ score is normal.n`)/as.numeric(`Total ages 5 to 16 years.n`))*100),
+                `SDQ score is a cause for concern.pt` = as.character((as.numeric(`SDQ score is a cause for concern.n`)/as.numeric(`Total ages 5 to 16 years.n`))*100),
+                `SDQ score is borderline.pt` = as.character((as.numeric(`SDQ score is borderline.n`)/as.numeric(`Total ages 5 to 16 years.n`))*100),
+  )%>%
+  tidyr::pivot_longer(cols = !c(LA_Name, LA.Number, LA_Code), 
+                      names_to = c("variable", ".value"),
+                      names_pattern = "(.+)\\.(.+)")%>%
+  dplyr::mutate(category = "child outcomes",
+                subcategory = "health and criminalisation")%>%
+  dplyr::rename(number=n,
+                percent=pt)
+
+oc22 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2015_LA/sheet_extra_sdq.csv"),
+                 colClasses = "character", skip=6)[c(1,2,20,22)]%>%
+  dplyr::mutate_all(~ str_replace(., ",", ""))%>%
+  dplyr::rename(LA_Name = X.1,
+                LA.Number = X,
+                yes = Number.of.children.looked.after.for.at.least.12.months.aged.5.to.16.with.an.SDQ.score2.2,
+                percent = Average.score.per.child3.2)%>%
+  dplyr::filter(LA.Number!="")%>%
+  dplyr::mutate(LA_Code = NA,
+                number = as.character((as.numeric(percent))*as.numeric(yes)),
+                variable = "SDQ average score",
+                category = "child outcomes",
+                subcategory = "health and criminalisation")%>%
+  dplyr::select(-yes)
 
 
 
@@ -1535,14 +1574,67 @@ ks43 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_so
 oc2 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2016_LA/SFR41_OC22016.csv"),
                 colClasses = "character")%>%
   dplyr::mutate_all(~ str_replace(., ",", ""))%>%
+  dplyr::filter(geog_l=="LA")%>%
+  dplyr::select(-geog_l)%>% #remove empty column
   dplyr::rename(LA_Name= geog_n,
                 LA.Number=geog_c,
-                LA_Code=New_geog_code)%>% #rename variables
-  dplyr::select(-geog_l)%>% #remove empty column
-  tidyr::pivot_longer(cols=!c(LA_Name, LA_Code,LA.Number), names_to = "variable", 
-                      values_to = "value")%>% #pivot so variables go in one column
+                LA_Code=New_geog_code,
+                `Total all ages.n` = CLA_12mths,
+                `Total ages 10 to 17 years.n` = CLA_10over,
+                `Total ages 0 to 4 years.n` = CLA_under5,
+                `Convicted or subject to youth cautions or youth conditional cautions during the year.n` = CLA_convicted,
+                `Identified as having a substance misuse problem.n` = CLA_submisuse,
+                `Received an intervention for their substance misuse problem.n` = CLA_subint,
+                `Offered intervention but refused it.n` = CLA_suboffint,
+                `Development assessments up to date.n`=CLA_devassmt,
+                `Had their immunisations up to date.n` = CLA_immunisation,
+                `Had their teeth checked by a dentist.n` = CLA_teethcheck,
+                `Had their annual health assessment.n` = CLA_healthassmt,
+                `SDQ score is a cause for concern.n` = CLA_SDQconcern,
+                `SDQ score is borderline.n` = CLA_SDQborderline,
+                `SDQ score is normal.n` = CLA_SDQnormal,
+                `Total ages 5 to 16 years.n` = CLA_5to16,
+                `SDQ score was received.n` = CLA_SDQ) %>%
+  dplyr::filter(LA_Code!="")%>%
+  dplyr::mutate(`Total all ages.pt` = "100",
+                `Total ages 10 to 17 years.pt` ="100", 
+                `Total ages 0 to 4 years.pt` = "100",
+                `Total ages 5 to 16 years.pt` = "100",
+                `Convicted or subject to youth cautions or youth conditional cautions during the year.pt` = as.character((as.numeric(`Convicted or subject to youth cautions or youth conditional cautions during the year.n`)/as.numeric(`Total ages 10 to 17 years.n`))*100),
+                `Identified as having a substance misuse problem.pt` = as.character((as.numeric(`Identified as having a substance misuse problem.n`)/as.numeric(`Total all ages.n`))*100),
+                `Received an intervention for their substance misuse problem.pt` = as.character((as.numeric(`Received an intervention for their substance misuse problem.n`)/as.numeric(`Total all ages.n`))*100),
+                `Offered intervention but refused it.pt` = as.character((as.numeric(`Offered intervention but refused it.n`)/as.numeric(`Total all ages.n`))*100),
+                `Development assessments up to date.pt`= as.character((as.numeric(`Development assessments up to date.n`)/as.numeric(`Total ages 0 to 4 years.n`))*100),
+                `Had their immunisations up to date.pt` = as.character((as.numeric(`Had their immunisations up to date.n`)/as.numeric(`Total all ages.n`))*100),
+                `Had their teeth checked by a dentist.pt` = as.character((as.numeric(`Had their teeth checked by a dentist.n`)/as.numeric(`Total all ages.n`))*100),
+                `Had their annual health assessment.pt` = as.character((as.numeric(`Had their annual health assessment.n`)/as.numeric(`Total all ages.n`))*100),
+                `SDQ score was received.pt` = as.character((as.numeric(`SDQ score was received.n`)/as.numeric(`Total ages 5 to 16 years.n`))*100),
+                `SDQ score is normal.pt` = as.character((as.numeric(`SDQ score is normal.n`)/as.numeric(`Total ages 5 to 16 years.n`))*100),
+                `SDQ score is a cause for concern.pt` = as.character((as.numeric(`SDQ score is a cause for concern.n`)/as.numeric(`Total ages 5 to 16 years.n`))*100),
+                `SDQ score is borderline.pt` = as.character((as.numeric(`SDQ score is borderline.n`)/as.numeric(`Total ages 5 to 16 years.n`))*100),
+  )%>%
+  tidyr::pivot_longer(cols = !c(LA_Name, LA.Number, LA_Code), 
+                      names_to = c("variable", ".value"),
+                      names_pattern = "(.+)\\.(.+)")%>%
   dplyr::mutate(category = "child outcomes",
-                subcategory = "health and criminalisation") #create categories and subcategories)
+                subcategory = "health and criminalisation")%>%
+  dplyr::rename(number=n,
+                percent=pt)
+
+oc22 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2015_LA/sheet_extra_sdq.csv"),
+                 colClasses = "character", skip=6)[c(1,2,20,22)]%>%
+  dplyr::mutate_all(~ str_replace(., ",", ""))%>%
+  dplyr::rename(LA_Name = X.1,
+                LA.Number = X,
+                yes = Number.of.children.looked.after.for.at.least.12.months.aged.5.to.16.with.an.SDQ.score2.2,
+                percent = Average.score.per.child3.2)%>%
+  dplyr::filter(LA.Number!="")%>%
+  dplyr::mutate(LA_Code = NA,
+                number = as.character((as.numeric(percent))*as.numeric(yes)),
+                variable = "SDQ average score",
+                category = "child outcomes",
+                subcategory = "health and criminalisation")%>%
+  dplyr::select(-yes)
 
 
 sen <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Outcomes/2016_LA/sheet7_sen.csv"),
