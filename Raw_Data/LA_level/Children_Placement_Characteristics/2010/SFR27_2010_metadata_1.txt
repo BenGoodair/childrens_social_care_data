@@ -1,0 +1,132 @@
+Meta Data Document
+Release of underlying data
+“Children Looked After by Local Authorities in England (including adoption and care leavers) - year ending 31 March 2010”
+SFR27/2010
+
+Background
+
+This publication provides information about children looked after in England for the year ending 31 March 2010. The figures are based on data from the SSDA903 return collected from all local authorities. It also reports progress on seven Local Authority indicators (National Indicators under the previous government's targets).
+
+A copy of the guidance notes for the data collection can be found at:
+
+http://www.education.gov.uk/researchandstatistics/statisticalreturns/childrenlar
+
+The Underlying Data Files
+
+Title: 		SFR27_2010_UD_At_March.csv (Children looked after at 31 March 2010, including those looked after continuously for 12 months at 31 March and mothers looked after at 31 March)
+		SFR27_2010_UD_Started.csv (Children who started to be looked after during the year ending 31 March 2010)
+		SFR27_2010_UD_ceased.csv (Children who ceased to be looked after during the year ending 31 March 2010)
+		
+		
+File Headers:  	See Annex A for a list of codes and headers for each file
+Coverage:	Total for England provided for each variable
+	   	Total for each Government Office Region (GOR) in England
+	   	Total for each local authority (LA) in England 
+
+Variable names – A list of the headings used in each CSV file and the corresponding variable names are shown at Annex A.
+
+Publication schedule: Additional underlying data will be added to these files and published alongside the second and third set of additional tables.
+
+Methodology
+
+Data are returned form 152 LAs in England.
+
+National totals are derived by summing data provided by each LA and then applying rounding and suppression. The sum of each LA will not necessarily match National totals as a result.
+
+GOR totals are derived by summing data for each LA within that region and then applying rounding and suppression.  The sum of GOR totals will not necessarily match the National total as a result.
+
+LA level data are data as returned by each LA and have been suppressed where necessary. 
+
+Grossing Factors: Grossing Factors have been applied to all the data in order to compensate for records with errors in their episodes. These are calculated by comparing the number of valid looked after children records reported in the return with the number of invalid records in the system. Because of the rigorous validation checks applied to data submitted, such discrepancies are usually very low and the grossing factors applied are close to 1. 
+
+Rounding and suppression: To ensure that no individual can be identified, we use conventions for the rounding and suppression of very small numbers. National totals have been rounded to the nearest 100 if they exceed 1,000 and to the nearest 10 otherwise. Regional totals have been rounded to the nearest 10. 
+
+For confidentiality purposes, numbers from one to five inclusive have been suppressed and replaced by a cross (x). Where any number is shown as zero (0), the original figure submitted was zero (0). It has been necessary to suppress other figures whenever it would be possible to calculate the value of a suppressed number by means of simple arithmetic. The rule applied in these circumstances has been to suppress the next smallest data item.
+
+Data usage note: The application of grossing factors results in fractional figures. In order to allow users maximum flexibility to aggregate data to meet their own purposes, LA level data has been shown to the nearest whole number. However, it should be noted that the data is volatile and is often amended by Local Authorities. The accuracy of the data is one of the reasons the data is rounded in the SFR. As a result, the data should be used with caution. 
+
+
+
+
+Annex A
+
+SFR27_2010_UD_At_March.csv
+
+geog_l:			Geography level
+geog_c: 		Geography code 
+geog_n: 		Geography name 
+MarTotal_2010: 		Children looked after at 31 March 2010
+Mid2009Pop0-17: 	Mid-2009 population estimates, rounded to the nearest 100. Source: 					Population Estimates Unit, ONS: Crown Copyright.
+MarPlace_Q1_2010:	Children looked after at 31 March 2010 in a foster placement with relative or 				friend
+MarPlace_Q2_2010:	Children looked after at 31 March 2010 in a placement with other foster carer
+MarPlace_A3_2010:	Children looked after at 31 March 2010 placed for adoption with consent 					with current foster carer
+MarPlace_A4_2010:	Children looked after at 31 March 2010 placed for adoption with consent not 				with current foster carer
+MarPlace_A5_2010:	Children looked after at 31 March 2010 placed for adoption with placement 				order with current foster carer
+MarPlace_A6_2010:	Children looked after at 31 March 2010 placed for adoption with placement 				order not with current foster carer
+MarPlace_P1_2010:	Children looked after at 31 March 2010 placed with own parents or other 					person with parental responsibility
+MarPlace_P2_2010:	Children looked after at 31 March 2010 in independent living, e.g. in flat, 					lodgings, bedsit, B&B or with friends, with or without formal support
+MarPlace_P3_2010:	Children looked after at 31 March 2010 in residential employment
+MarPlace_K1_2010:	Children looked after at 31 March 2010 in secure units
+MarPlace_K2_2010:	Children looked after at 31 March 2010 in homes and hostels
+MarPlace_H5_2010:	Children looked after at 31 March 2010 in residential accommodation not 				subject to Children’s homes regulations
+MarPlace_R1_2010:	Children looked after at 31 March 2010 in residential care homes
+MarPlace_R2_2010:	Children looked after at 31 March 2010 in NHS/Health Trust or other 					establishment providing medical or nursing care
+MarPlace_R3_2010:	Children looked after at 31 March 2010 in family centre or mother and baby 				unit
+MarPlace_R5_2010:	Children looked after at 31 March 2010 in Young Offender Institution or prison
+MarPlace_S1_2010:	Children looked after at 31 March 2010 in residential schools, except where 				dual-registered as a school and children’s home.
+MarPlace_M1_2010:	Children looked after at 31 March 2010 missing for more than 24 hours 					from agreed placement and in Refuge (section 51 of Children Act)
+MarPlace_M2_2010:	Children looked after at 31 March 2010 missing for more than 24 hours 					from agreed placement and whereabouts unknown (not in Refuge)
+MarPlace_M3_2010:	Children looked after at 31 March 2010 missing for more than 24 hours 					from agreed placement and whereabouts unknown
+MarPlace_Z1_2010:	Children looked after at 31 March 2010 in other placements
+
+
+
+SFR27_2010_UD_Started.csv
+
+geog_l:			Geography level
+geog_c: 		Geography code 
+geog_n: 		Geography name 
+StartTotal_2010	:	All children who started to be looked during the year ending 31 March 2010
+StartPlace_Q1_2010:	Children who started to be looked during the year ending 31 March 2010 in a foster placement with relative or friend
+StartPlace_Q2_2010:	Children who started to be looked during the year ending 31 March 2010 in a placement with other foster carer
+StartPlace_A3_2010:	Children who started to be looked during the year ending 31 March 2010 placed for adoption with consent with current foster carer
+StartPlace_A4_2010:	Children who started to be looked during the year ending 31 March 2010 placed for adoption with consent not with current foster carer
+StartPlace_A5_2010:	Children who started to be looked during the year ending 31 March 2010 placed for adoption with placement order with current foster carer
+StartPlace_A6_2010:	Children who started to be looked during the year ending 31 March 2010 placed for adoption with placement order not with current foster carer
+StartPlace_P1_2010:	Children who started to be looked during the year ending 31 March 2010 placed with own parents or other person with parental responsibility
+StartPlace_P2_2010:	Children who started to be looked during the year ending 31 March 2010 in independent living, e.g. in flat, lodgings, bedsit, B&B or with friends, with or without formal support
+StartPlace_P3_2010:	Children who started to be looked during the year ending 31 March 2010 in residential employment
+StartPlace_K1_2010:	Children who started to be looked during the year ending 31 March 2010 in secure units
+StartPlace_K2_2010:	Children who started to be looked during the year ending 31 March 2010 in homes and hostels
+StartPlace_H5_2010:	Children who started to be looked during the year ending 31 March 2010 in residential accommodation not subject to Children’s homes regulations
+StartPlace_R1_2010:	Children who started to be looked during the year ending 31 March 2010 in residential care homes
+StartPlace_R2_2010:	Children who started to be looked during the year ending 31 March 2010 in NHS/Health Trust or other establishment providing medical or nursing care
+StartPlace_R3_2010:	Children who started to be looked during the year ending 31 March 2010 in family centre or mother and baby unit
+StartPlace_R5_2010:	Children who started to be looked during the year ending 31 March 2010 in Young Offender Institution or prison
+StartPlace_S1_2010:	Children who started to be looked during the year ending 31 March 2010 in residential schools, except where dual-registered as a school and children’s home.
+StartPlace_M1_2010:	Children who started to be looked during the year ending 31 March 2010 missing for more than 24 hours from agreed placement and in Refuge (section 51 of Children Act)
+StartPlace_M2_2010:	Children who started to be looked during the year ending 31 March 2010 missing for more than 24 hours from agreed placement and whereabouts unknown (not in Refuge)
+StartPlace_M3_2010:	Children who started to be looked during the year ending 31 March 2010 missing for more than 24 hours from agreed placement and whereabouts unknown
+StartPlace_Z1_2010:	Children who started to be looked during the year ending 31 March 2010 in other placements
+
+SFR27_2010_UD_ceased.csv
+
+geog_l:			Geography level
+geog_c: 		Geography code 
+geog_n: 		Geography name 
+CeasedTotal_2010:	All children who ceased to be looked after during the year ending 31 March 2010
+CeasedAdoptUnop_2010:	Children who ceased to be looked after during the year ending 31 March 2010 because they were adopted were the application unopposed
+CeasedAdoptDisp_2010:	Children who ceased to be looked after during the year ending 31 March 2010 because they were adopted where parental consent was dispensed with
+CeasedDied_2010:	Children who ceased to be looked after during the year ending 31 March 2010 because they died
+CeasedAnotherLA_2010:	Children who ceased to be looked after during the year ending 31 March 2010 because their care taken by another LA
+CeasedHome_2010:	Children who ceased to be looked after during the year ending 31 March 2010 because they returned home to live with parents or relatives
+CeasedResOrd_2010:	Children who ceased to be looked after during the year ending 31 March 2010 because a residence order was granted
+CeasedSpeGuaForm_2010:	Children who ceased to be looked after during the year ending 31 March 2010 because a special guardianship order was made to their former foster carers
+CeasedSpecGuaOth_2010:	Children who ceased to be looked after during the year ending 31 March 2010 because a special guardianship order was made to carers other than their former foster carers
+CeasedIndSup_2010:	Children who ceased to be looked after during the year ending 31 March 2010 because they moved into independent living (with supportive accommodation)
+CeasedIndNoSup_2010:	Children who ceased to be looked after during the year ending 31 March 2010 because they moved into independent living (with no formalised support)
+CeasedAduCare_2010:	Children who ceased to be looked after during the year ending 31 March 2010 because they transferred to residential care funded by adult social services
+CeasedCust_2010:	Children who ceased to be looked after during the year ending 31 March 2010 because they were sentenced to custody
+CeasedOther_2010:	Children who ceased to be looked after during the year ending 31 March 2010 because their care ceased for any other reason
+
+

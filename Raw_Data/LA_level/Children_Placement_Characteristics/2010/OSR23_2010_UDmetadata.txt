@@ -1,0 +1,87 @@
+Children Missing from Home or Care. Local Authority self-evaluation scores of measures to monitor, respond to and address runaway cases
+England, Oct 2008 to Jun 2010
+
+This release provides information on the self-evaluation scores given by each Local Authority on measures to monitor and respond to cases of Children Missing from Home or Care. Further information on how the data have been aggregated can be found in the notes on page 15.
+In a range from 0 to 3 (low–high), Local Authorities provided a self-evaluation score on each of the following five criteria.The extent to which:
+•	local information about running away is gathered
+•	local needs analysis is in place (based on the information gathered)
+•	local procedures to meet the needs of runaways agreed
+•	protocols for responding to urgent/out of hours referrals from police or other agencies are in place
+•	local procedures include effective needs assessment protocols to support effective prevention/intervention work.
+A Local Authority overall score is calculated by summing the scores from each of these five criteria, giving a minimum of 0 and a maximum of 15. The England level national indicator is found by taking the average of the Local Authority overall scores.
+
+Copies of the guidance notes for the data collection and the data collection form completed by each Local Authority (LA) in England can be found at:
+http://www.dcsf.gov.uk/everychildmatters/publications/documents/ni71/
+
+The Underlying Data File
+
+Title: YRs_Sept_10_SRUD.csv
+File Headers:  See Annex A for a list of codes and headers
+Coverage:  Average score for England on each measure and overall
+	   Average score for each Government Office Region (GOR) on each measure and overall
+	   Score for each LA in England on each measure and overall
+
+Variable names – A list of the headings used in the CSV file and the corresponding variable names are shown at Annex A.
+
+Methodology
+
+Data are returned from all LAs in England.  LAs submit a return every Quarter.  
+
+The dataset contains seven data returns: 1. Oct-Dec 2008; 2. Jan-Mar 2009; 3. Apr-Jun 2009; 4. Jul-Sep 2009; 5. Oct-Dec 2009; 6. Jan-Mar 2010; 7. Apr-Jun 2010. 
+The response numbers for each of the return was 121 Local Authorities in set one; 146 in set two; 152 in set three; 147 in set four;150 in set five, 142 in set six and 112 out of the 152 Local Authorities in set 7.  
+Since set three (April 2009) the self-evaluation scores were provided by the newly established Local Authorities of Cheshire West and Chester, and Cheshire East as well as Bedford and Central Bedfordshire, which used to be single authorities under the names of Cheshire and Bedfordshire respectively. 
+
+National and GOR averages are derived from the LA scores.
+
+
+Data Usage Issue
+
+This is not a National Statistics publication. The statistics have been released to provide local information on self-assessed progress in respect of monitoring cases of young runaways and responding to their needs. The figures are published every six months.
+
+Annex A
+
+Geog_lev: Geography level (England, GOR, LA) 
+Geog_code: GOR/LA code 
+Geog_name: GOR/LA name 
+Overall_1: Overall score Oct-Dec 2008
+Infogath_1: Score on "local information about running away is gathered" Oct-Dec 2008	
+needsanalysis_1: Score on "local needs analysis is in place (based on the information gathered)" Oct-Dec 2008	
+procedure_1: Score on "local procedures to meet the needs of runaways agreed" Oct-Dec 2008	
+protocol_1: Score on "protocols for responding to urgent/out of hours referrals from police or other agencies are in place" Oct-Dec 2008	
+needassess_1: Score on "local procedures include effective needs assessment protocols to support effective prevention/intervention work" Oct-Dec 2008
+Overall_2: Overall score Jan-Mar 2009
+Infogath_2: Score on "local information about running away is gathered" Jan-Mar 2009	
+needsanalysis_2: Score on "local needs analysis is in place (based on the information gathered)" Jan-Mar 2009	
+procedure_2: Score on "local procedures to meet the needs of runaways agreed" Jan-Mar 2009	
+protocol_2: Score on "protocols for responding to urgent/out of hours referrals from police or other agencies are in place" Jan-Mar 2009	
+needassess_2: Score on "local procedures include effective needs assessment protocols to support effective prevention/intervention work" Jan-Mar 2009
+Overall_3: Overall score Apr-Jun 2009
+Infogath_3: Score on "local information about running away is gathered" Apr-Jun 2009	
+needsanalysis_3: Score on "local needs analysis is in place (based on the information gathered)" Apr-Jun 2009	
+procedure_3: Score on "local procedures to meet the needs of runaways agreed" Apr-Jun 2009	
+protocol_3: Score on "protocols for responding to urgent/out of hours referrals from police or other agencies are in place" Apr-Jun 2009	
+needassess_3: Score on "local procedures include effective needs assessment protocols to support effective prevention/intervention work" Apr-Jun 2009
+Overall_4: Overall score Jul-Sep 2009
+Infogath_4: Score on "local information about running away is gathered" Jul-Sep 2009	
+needsanalysis_4: Score on "local needs analysis is in place (based on the information gathered)" Jul-Sep 2009	
+procedure_4: Score on "local procedures to meet the needs of runaways agreed" Jul-Sep 2009	
+protocol_4: Score on "protocols for responding to urgent/out of hours referrals from police or other agencies are in place" Jul-Sep 2009	
+needassess_4: Score on "local procedures include effective needs assessment protocols to support effective prevention/intervention work" Jul-Sep 2009
+Overall_5: Overall score Oct-Dec 2009
+Infogath_5: Score on "local information about running away is gathered" Oct-Dec 2009	
+needsanalysis_5: Score on "local needs analysis is in place (based on the information gathered)" Oct-Dec 2009	
+procedure_5: Score on "local procedures to meet the needs of runaways agreed" Oct-Dec 2009	
+protocol_5: Score on "protocols for responding to urgent/out of hours referrals from police or other agencies are in place" Oct-Dec 2009	
+needassess_5: Score on "local procedures include effective needs assessment protocols to support effective prevention/intervention work" Oct-Dec 2009
+Overall_6: Overall score Jan-Mar 2010
+Infogath_6: Score on "local information about running away is gathered" Jan-Mar 2010	
+needsanalysis_6: Score on "local needs analysis is in place (based on the information gathered)" Jan-Mar 2010	
+procedure_6: Score on "local procedures to meet the needs of runaways agreed" Jan-Mar 2010	
+protocol_6: Score on "protocols for responding to urgent/out of hours referrals from police or other agencies are in place" Jan-Mar 2010	
+needassess_6: Score on "local procedures include effective needs assessment protocols to support effective prevention/intervention work" Jan-Mar 2010
+Overall_7: Overall score Apr-Jun 2010
+Infogath_7: Score on "local information about running away is gathered" Apr-Jun 2010	
+needsanalysis_7: Score on "local needs analysis is in place (based on the information gathered)" Apr-Jun 2010	
+procedure_7: Score on "local procedures to meet the needs of runaways agreed" Apr-Jun 2010	
+protocol_7: Score on "protocols for responding to urgent/out of hours referrals from police or other agencies are in place" Apr-Jun 2010	
+needassess_7: Score on "local procedures include effective needs assessment protocols to support effective prevention/intervention work" Apr-Jun 2010

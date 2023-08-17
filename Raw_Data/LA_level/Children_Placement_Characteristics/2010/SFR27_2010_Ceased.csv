@@ -1,0 +1,163 @@
+geog_l,geog_c,geog_n,CeasedTotal_2010,CeasedAdoptUnop_2010,CeasedAdoptDisp_2010,CeasedDied_2010,CeasedAnotherLA_2010,CeasedHome_2010,CeasedResOrd_2010,CeasedSpeGuaForm_2010,CeasedSpecGuaOth_2010,CeasedIndSup_2010,CeasedIndNoSup_2010,CeasedAduCare_2010,CeasedCust_2010,CeasedOther_2010
+National,921,England,25100,1700,1500,50,170,9800,1000,840,420,2300,1000,470,310,5500
+GOR,A,North East ,1470,140,80,x,10,730,80,40,30,90,30,10,10,220
+GOR,B,North West,3600,280,260,10,20,1220,200,200,50,240,90,60,40,940
+GOR,D,Yorkshire and The Humber,2310,170,230,10,10,680,140,90,30,220,60,40,30,600
+GOR,E,East Midlands,1710,160,120,x,10,620,50,50,20,280,50,30,30,300
+GOR,F,West Midlands,2880,180,170,10,20,1240,130,70,40,260,120,60,30,550
+GOR,G,East of England ,2120,140,180,x,10,780,80,60,50,280,110,60,20,360
+GOR,H,London ,5440,220,180,10,50,2390,130,150,120,510,190,70,100,1350
+GOR,J,South East,3400,260,180,10,20,1170,100,130,40,220,300,90,30,860
+GOR,K,South West,2170,130,130,x,30,970,90,60,50,200,80,50,30,360
+LA,201,City of London,x,x,0,0,0,0,0,0,0,x,0,0,0,0
+LA,202,Camden,102,8,0,x,0,37,7,6,7,0,0,0,x,35
+LA,203,Greenwich,281,22,x,0,0,146,6,x,10,17,8,6,6,55
+LA,204,Hackney,138,x,16,0,0,67,x,10,x,x,0,x,x,31
+LA,205,Hammersmith and Fulham,113,x,x,x,x,25,6,10,x,18,7,7,x,27
+LA,206,Islington,123,0,7,0,x,35,0,0,0,42,x,x,x,32
+LA,207,Kensington and Chelsea,x,0,x,0,x,24,x,x,x,17,x,0,x,23
+LA,208,Lambeth,250,12,x,x,x,115,6,15,x,74,x,0,6,9
+LA,209,Lewisham,195,x,22,x,x,71,12,x,x,9,x,6,x,63
+LA,210,Southwark,260,11,11,0,x,93,6,x,12,41,25,x,8,44
+LA,211,Tower Hamlets,243,x,6,0,x,135,12,x,9,8,0,x,x,62
+LA,212,Wandsworth,132,6,x,0,0,68,x,14,9,9,6,x,8,7
+LA,213,Westminster,130,x,x,0,x,59,9,x,x,29,x,x,x,14
+LA,301,Barking & Dagenham,236,x,14,x,0,134,7,x,8,0,0,0,x,61
+LA,302,Barnet,157,10,x,0,0,52,x,x,x,50,x,x,x,24
+LA,303,Bexley,149,0,12,0,x,100,0,0,x,7,9,0,x,14
+LA,304,Brent,171,8,x,x,x,73,x,11,0,21,x,18,8,20
+LA,305,Bromley,121,8,8,0,0,48,x,x,x,15,16,x,x,19
+LA,306,Croydon,509,10,x,x,6,110,x,6,6,x,12,x,6,340
+LA,307,Ealing,211,x,6,0,x,99,x,7,9,x,x,x,x,70
+LA,308,Enfield,140,x,6,x,x,71,8,x,0,x,0,0,0,46
+LA,309,Haringey,260,12,0,0,x,150,x,6,7,0,0,0,x,79
+LA,310,Harrow,90,x,x,0,x,43,0,x,x,x,13,0,x,10
+LA,311,Havering,119,12,0,0,0,73,x,x,x,15,x,x,x,x
+LA,312,Hillingdon,257,17,x,0,x,96,x,0,0,38,46,x,x,48
+LA,313,Hounslow,163,19,x,x,0,80,x,6,x,29,16,0,x,x
+LA,314,Kingston upon Thames,56,0,x,0,0,26,0,0,x,x,x,x,x,17
+LA,315,Merton,69,0,x,0,x,37,x,x,x,13,0,0,0,x
+LA,316,Newham,266,14,8,0,x,121,x,15,x,0,0,0,x,97
+LA,317,Redbridge,138,7,x,0,x,90,x,x,0,23,x,x,x,x
+LA,318,Richmond upon Thames,52,x,x,0,0,24,x,0,x,x,0,x,x,17
+LA,319,Sutton,56,0,7,0,0,23,0,0,0,12,x,x,x,6
+LA,320,Waltham Forest,169,x,10,0,9,61,10,x,x,x,0,0,x,62
+LA,330,Birmingham,805,27,44,x,x,398,55,21,11,30,27,19,x,162
+LA,331,Coventry,190,x,15,x,x,89,13,x,0,x,x,x,x,57
+LA,332,Dudley,144,12,7,0,x,60,x,0,x,x,x,6,0,50
+LA,333,Sandwell,179,19,x,x,x,74,9,x,10,6,9,0,0,41
+LA,334,Solihull,183,x,x,0,x,41,x,x,x,50,7,x,x,65
+LA,335,Walsall,110,30,0,x,0,39,x,x,0,15,11,x,x,x
+LA,336,Wolverhampton,133,0,19,x,x,69,x,0,7,7,15,x,x,6
+LA,340,Knowsley,86,x,9,x,0,24,7,x,x,13,x,x,0,21
+LA,341,Liverpool,253,x,37,0,x,74,6,12,0,18,0,x,0,97
+LA,342,St Helens,81,7,9,x,0,29,6,8,x,7,0,x,0,x
+LA,343,Sefton,130,11,7,x,0,65,6,x,x,6,x,x,x,21
+LA,344,Wirral,160,8,16,x,0,61,x,21,x,13,x,0,0,35
+LA,350,Bolton,146,40,x,0,x,46,x,x,x,8,x,0,x,26
+LA,351,Bury,127,6,6,0,0,50,x,19,x,x,x,x,x,28
+LA,352,Manchester,508,47,10,0,x,148,7,35,8,24,25,11,x,185
+LA,353,Oldham,110,16,x,0,0,40,11,x,0,12,x,x,0,17
+LA,354,Rochdale,122,12,x,0,0,59,x,10,x,x,7,0,0,21
+LA,355,Salford,176,11,18,x,x,54,x,18,0,8,x,x,x,51
+LA,356,Stockport,93,11,x,0,0,26,11,x,0,6,0,x,x,35
+LA,357,Tameside,108,7,23,0,0,34,13,0,x,12,x,0,0,17
+LA,358,Trafford,87,13,x,0,0,31,7,x,0,11,6,x,x,9
+LA,359,Wigan,171,9,14,x,0,55,25,16,x,x,x,x,x,41
+LA,370,Barnsley,105,x,16,0,0,25,9,x,0,12,16,x,x,17
+LA,371,Doncaster,186,15,16,0,x,66,25,9,x,15,x,x,0,28
+LA,372,Rotherham,149,14,11,0,0,55,10,9,x,8,7,x,x,28
+LA,373,Sheffield,251,22,20,x,0,86,26,8,x,47,10,x,9,16
+LA,380,Bradford,253,21,18,x,0,79,13,x,0,x,x,x,x,107
+LA,381,Calderdale,67,x,7,0,x,20,x,x,x,15,10,x,x,x
+LA,382,Kirklees,157,31,0,x,x,55,12,x,0,x,x,x,x,43
+LA,383,Leeds,373,7,53,x,x,83,11,19,6,46,x,x,x,135
+LA,384,Wakefield,121,17,x,0,x,52,x,x,x,24,10,x,0,x
+LA,390,Gateshead,142,11,22,0,x,44,11,x,x,x,0,0,0,45
+LA,391,Newcastle Upon Tyne,202,21,0,0,0,118,x,0,8,9,x,x,x,34
+LA,392,North Tyneside,96,19,6,0,0,45,x,0,x,x,x,0,0,15
+LA,393,South Tyneside,96,20,x,0,0,40,x,x,x,6,11,x,0,6
+LA,394,Sunderland,130,8,20,0,0,48,x,9,0,x,0,x,x,33
+LA,420,Isles of Scilly,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LA,800,Bath and North East Somerset,49,x,0,0,0,25,x,0,x,x,0,x,x,10
+LA,801,"Bristol, City of",258,25,6,0,0,97,21,11,11,x,9,x,9,63
+LA,802,North Somerset,80,7,6,0,x,37,x,x,0,x,0,x,0,14
+LA,803,South Gloucestershire,92,8,0,0,x,48,10,0,x,17,0,x,x,0
+LA,805,Hartlepool,87,x,x,0,0,43,13,x,0,6,x,x,0,9
+LA,806,Middlesbrough,146,x,6,0,0,103,x,0,x,x,x,0,x,24
+LA,807,Redcar and Cleveland,82,7,x,0,x,44,8,x,0,13,0,0,0,x
+LA,808,Stockton-On-Tees,130,10,x,0,x,65,16,x,0,10,x,0,x,15
+LA,810,"Kingston Upon Hull, City of",192,0,42,x,0,13,0,x,x,x,0,0,x,126
+LA,811,East Riding of Yorkshire,92,20,x,0,0,29,12,0,x,0,x,x,0,23
+LA,812,North East Lincolnshire,77,7,17,x,0,18,0,x,0,x,0,0,x,28
+LA,813,North Lincolnshire,81,0,12,0,0,37,x,x,x,10,0,x,x,7
+LA,815,North Yorkshire,141,11,8,0,x,38,x,20,x,23,0,x,x,27
+LA,816,York,63,x,7,0,0,19,8,x,x,8,x,x,x,7
+LA,821,Luton,125,6,7,0,x,46,x,x,x,34,8,x,0,11
+LA,825,Buckinghamshire,125,15,x,0,0,32,x,0,x,x,x,20,x,47
+LA,826,Milton Keynes,134,7,7,0,x,48,x,7,0,23,x,x,x,24
+LA,830,Derbyshire,248,51,x,0,x,96,12,x,x,35,14,x,x,x
+LA,831,Derby,123,26,16,x,x,41,6,x,0,14,x,6,x,x
+LA,835,Dorset,146,8,x,0,x,88,x,x,0,9,x,x,0,29
+LA,836,Poole,47,x,x,0,0,23,x,0,0,11,x,x,0,x
+LA,837,Bournemouth,72,7,x,0,x,38,0,0,0,x,0,x,0,21
+LA,840,Durham,190,21,10,x,x,94,6,x,7,13,x,6,x,26
+LA,841,Darlington,76,9,x,0,0,44,x,x,6,x,x,0,0,6
+LA,845,East Sussex,141,20,12,0,x,43,9,7,x,x,x,0,0,42
+LA,846,Brighton and Hove,181,19,10,0,x,71,x,9,x,0,0,x,0,58
+LA,850,Hampshire,466,20,40,0,x,192,25,25,x,40,12,13,11,85
+LA,851,Portsmouth,105,x,6,0,0,54,x,6,x,11,7,x,x,11
+LA,852,Southampton,114,23,0,0,0,38,x,0,0,x,x,0,0,50
+LA,855,Leicestershire,181,11,x,0,0,62,x,x,x,26,12,x,x,53
+LA,856,Leicester,198,12,7,0,x,66,x,13,x,x,0,0,x,82
+LA,857,Rutland,11,0,0,0,0,x,0,0,0,x,0,0,0,0
+LA,860,Staffordshire,271,20,15,0,x,90,8,10,x,34,13,6,x,70
+LA,861,Stoke-on-Trent,171,0,30,0,x,54,14,19,x,x,10,x,x,27
+LA,865,Wiltshire,141,x,11,x,x,44,x,x,0,19,0,x,x,48
+LA,866,Swindon,85,x,x,x,x,37,0,0,x,13,x,x,x,16
+LA,867,Bracknell Forest,45,x,0,0,x,24,x,0,0,x,0,x,0,10
+LA,868,Windsor and Maidenhead,37,0,0,0,0,19,0,0,x,6,x,x,0,x
+LA,869,West Berkshire,29,x,x,0,0,8,0,0,0,x,0,x,0,6
+LA,870,Reading,108,13,x,0,0,47,x,x,0,6,x,x,x,27
+LA,871,Slough,64,6,x,0,x,24,0,x,0,x,0,x,0,21
+LA,872,Wokingham,26,8,0,0,x,9,x,0,0,x,0,x,0,x
+LA,873,Cambridgeshire,149,22,0,0,x,28,8,x,13,8,x,6,0,58
+LA,874,Peterborough,116,19,7,x,0,51,x,x,x,15,x,x,x,8
+LA,876,Halton,48,13,0,x,0,18,x,0,0,0,x,0,x,10
+LA,877,Warrington,126,x,9,0,0,9,6,x,x,0,0,0,x,94
+LA,878,Devon,286,x,14,0,x,146,7,18,8,31,23,x,x,25
+LA,879,Plymouth,183,18,17,0,x,74,x,x,x,14,28,0,x,17
+LA,880,Torbay,105,9,6,0,x,51,x,x,x,15,x,x,x,x
+LA,881,Essex,421,7,48,x,0,158,19,16,8,90,29,15,x,29
+LA,882,Southend-on-Sea,93,8,x,0,x,39,11,x,x,10,x,x,0,7
+LA,883,Thurrock,93,x,x,0,0,37,0,6,6,9,17,x,x,6
+LA,884,Herefordshire,48,x,x,0,x,22,0,x,0,x,x,7,0,7
+LA,885,Worcestershire,198,21,x,0,x,96,6,x,x,16,7,x,x,33
+LA,886,Kent,763,61,8,x,0,179,14,7,11,27,225,x,7,220
+LA,887,Medway,127,17,x,x,x,44,x,10,x,x,0,x,0,45
+LA,888,Lancashire,412,27,33,x,x,133,36,18,x,37,16,17,x,83
+LA,889,Blackburn with Darwen,98,6,6,0,0,32,x,7,0,7,x,0,x,36
+LA,890,Blackpool,119,0,19,0,0,59,x,x,x,15,10,x,x,x
+LA,891,Nottinghamshire,208,x,27,0,0,96,x,x,x,23,11,x,x,35
+LA,892,Nottingham,212,20,9,0,x,71,0,10,9,41,x,10,7,31
+LA,893,Shropshire,115,12,0,0,0,71,x,0,0,28,x,0,0,x
+LA,894,Telford and Wrekin,96,9,11,0,0,33,6,x,0,14,x,x,0,14
+LA,908,Cornwall,235,x,39,0,0,101,14,x,12,19,7,x,x,30
+LA,909,Cumbria,175,14,18,x,x,50,14,x,11,9,x,x,x,47
+LA,916,Gloucestershire,169,15,9,0,0,53,x,8,x,18,x,6,x,50
+LA,919,Hertfordshire,399,24,32,x,x,144,16,11,8,27,24,7,9,94
+LA,921,Isle of Wight,71,x,x,0,0,33,8,6,x,x,6,0,0,7
+LA,925,Lincolnshire,238,x,35,0,0,92,9,8,x,45,7,x,x,27
+LA,926,Norfolk,343,6,55,0,x,156,8,x,x,31,x,x,x,74
+LA,928,Northamptonshire,289,28,18,0,0,93,14,x,0,79,x,x,x,44
+LA,929,Northumberland,91,8,x,0,0,45,x,6,0,15,7,0,0,x
+LA,931,Oxfordshire,211,12,13,0,0,77,x,10,x,30,19,6,x,37
+LA,933,Somerset,220,18,7,x,x,110,15,x,x,26,x,x,x,27
+LA,935,Suffolk,252,35,21,x,0,66,13,7,x,43,18,8,x,31
+LA,936,Surrey,344,6,41,x,0,107,11,23,x,17,7,13,x,112
+LA,937,Warwickshire,233,20,9,0,x,104,8,7,x,46,14,x,x,18
+LA,938,West Sussex,311,15,18,x,0,121,9,20,7,38,15,13,x,50
+LA,822,Bedford Borough,62,x,x,0,0,30,0,x,0,x,x,x,x,15
+LA,823,Central Bedfordshire,69,x,0,0,x,21,x,x,0,8,x,x,x,25
+LA,895,Cheshire East ,146,13,x,0,0,69,7,x,0,16,x,x,x,25
+LA,896,Cheshire West and Chester,117,6,x,0,x,51,8,x,x,9,x,x,0,26
