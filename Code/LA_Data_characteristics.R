@@ -257,34 +257,698 @@ school_moves <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/chil
   dplyr::mutate(category = "school moves")
 
 
-outcomes <- rbind(school_moves, net_gain, started_during, char,
+characteristics <- rbind(school_moves, net_gain, started_during, char,
                          new_placements, stability, missing, ceased_during,
                          adopted_during, shortterm, leave_acc, leave_acctype,
                          leave_activity, leave_stayput, leave_intouch)
 
-rm(list=setdiff(ls(), c("outcomes")))
+rm(list=setdiff(ls(), c("characteristics")))
 
 ####2017#### 
 
+admitted <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Placement_Characteristics/2017/SFR50_ADM2017.csv"),
+                     colClasses = "character")%>%
+  dplyr::mutate_all(~ str_replace(., ",", ""))%>%
+  dplyr::filter(geog_l=="LA")%>%
+  dplyr::rename(LA_Code = New_geog_code,
+                LA.Number = geog_c,
+                LA_Name = geog_n)%>%
+  dplyr::select(-geog_l, -LA_order)%>%
+  tidyr::pivot_longer(cols = !c(LA_Name,LA.Number, LA_Code), 
+                    names_to = "variable", values_to = "number")%>%
+  dplyr::group_by(LA_Name, LA_Code, LA.Number) %>%
+  dplyr::mutate(percent = as.character(as.numeric(number) / as.numeric(number[variable == "CLA_started2017"])*100)) %>%
+  dplyr::ungroup()%>%
+  dplyr::mutate(category = "started during",
+                year="2017",
+    subcategory = ifelse(variable=="CLA_started2017", "Taken into care",
+                                  ifelse(variable=="CLA_taken2017", "Taken into care",
+                                         ifelse(variable=="SCLA_10to15", "Age group",
+                                                ifelse(variable=="SCLA_16over", "Age group",
+                                                       ifelse(variable=="SCLA_1to4", "Age group",
+                                                              ifelse(variable=="SCLA_5to9", "Age group",
+                                                                     ifelse(variable=="SCLA_AbNeg", "Category of need",
+                                                                            ifelse(variable=="SCLA_AbsPar", "Category of need",
+                                                                                   ifelse(variable=="SCLA_Cdisab", "Category of need",
+                                                                                          ifelse(variable=="SCLA_FAcSt", "Category of need",
+                                                                                                 ifelse(variable=="SCLA_FCO", "Legal status",
+                                                                                                        ifelse(variable=="SCLA_FD", "Category of need",
+                                                                                                               ifelse(variable=="SCLA_female", "Gender",
+                                                                                                                      ifelse(variable=="SCLA_ICO", "Legal status",
+                                                                                                                             ifelse(variable=="SCLA_LI", "Category of need",
+                                                                                                                                    ifelse(variable=="SCLA_male", "Gender",
+                                                                                                                                           ifelse(variable=="SCLA_ONCT", "Legal status",
+                                                                                                                                                  ifelse(variable=="SCLA_PACE", "Legal status",
+                                                                                                                                                         ifelse(variable=="SCLA_ParIll", "Category of need",
+                                                                                                                                                                ifelse(variable=="SCLA_PlaceO", "Legal status",
+                                                                                                                                                                       ifelse(variable=="SCLA_S20", "Legal status",
+                                                                                                                                                                              ifelse(variable=="SCLA_SEPO", "Legal status",
+                                                                                                                                                                                     ifelse(variable=="SCLA_SORR", NA,
+                                                                                                                                                                                            ifelse(variable=="SCLA_SUB", "Category of need",
+                                                                                                                                                                                                   ifelse(variable=="SCLA_U1", "Age group",
+                                                                                                                                                                                                          ifelse(variable=="SCLA_UCAO", "Legal status",
+                                                                                                                                                                                                                 ifelse(variable=="SCLA_UPP",NA, NA))))))))))))))))))))))))))),
+                variable = ifelse(variable=="CLA_started2017", "Total children",
+                                  ifelse(variable=="CLA_taken2017", "All children taken into care",
+                                         ifelse(variable=="SCLA_10to15", "10 to 15 years",
+                                                ifelse(variable=="SCLA_16over", "16 years and over",
+                                                       ifelse(variable=="SCLA_1to4", "1 to 4 years",
+                                                              ifelse(variable=="SCLA_5to9", "5 to 9 years",
+                                                                     ifelse(variable=="SCLA_AbNeg", "N1. Abuse or neglect",
+                                                                            ifelse(variable=="SCLA_AbsPar", "N8. Absent parenting",
+                                                                                   ifelse(variable=="SCLA_Cdisab", "N2. Child's disability",
+                                                                                          ifelse(variable=="SCLA_FAcSt", "N.4 Family acute stress",
+                                                                                                 ifelse(variable=="SCLA_FCO", "Full care order",
+                                                                                                        ifelse(variable=="SCLA_FD", "N5. Family dysfunction",
+                                                                                                               ifelse(variable=="SCLA_female", "Female",
+                                                                                                                      ifelse(variable=="SCLA_ICO", "Interm care order",
+                                                                                                                             ifelse(variable=="SCLA_LI", "N7. Low income",
+                                                                                                                                    ifelse(variable=="SCLA_male", "Male",
+                                                                                                                                           ifelse(variable=="SCLA_ONCT", "Remand",
+                                                                                                                                                  ifelse(variable=="SCLA_PACE", "LA accommodation under PACE 1989",
+                                                                                                                                                         ifelse(variable=="SCLA_ParIll", "N3. Parental illness or disability",
+                                                                                                                                                                ifelse(variable=="SCLA_PlaceO", "Placement order granted",
+                                                                                                                                                                       ifelse(variable=="SCLA_S20", "Voluntary agreement under S20",
+                                                                                                                                                                              ifelse(variable=="SCLA_SEPO", "Emergency protction order",
+                                                                                                                                                                                     ifelse(variable=="SCLA_SORR", NA,
+                                                                                                                                                                                            ifelse(variable=="SCLA_SUB", "N6. Socially unacceptable behaviour",
+                                                                                                                                                                                                   ifelse(variable=="SCLA_U1", "Under 1 year",
+                                                                                                                                                                                                          ifelse(variable=="SCLA_UCAO", "Child assessment order and in LA accommodation",
+                                                                                                                                                                                                                 ifelse(variable=="SCLA_UPP",NA, NA))))))))))))))))))))))))))))
 
+
+
+
+
+
+
+march <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Placement_Characteristics/2017/SFR50_CLA2017.csv"),
+                  colClasses = "character")%>%
+  dplyr::mutate_all(~ str_replace(., ",", ""))%>%
+  dplyr::filter(geog_l=="LA")%>%
+  dplyr::rename(LA_Code = New_geog_code,
+                LA.Number = geog_c,
+                LA_Name = geog_n)%>%
+  dplyr::select(-geog_l, -LA_order)%>%
+  tidyr::pivot_longer(cols = !c(LA_Name,LA.Number, LA_Code), 
+                      names_to = "variable", values_to = "number")%>%
+  dplyr::group_by(LA_Name, LA_Code, LA.Number) %>%
+  dplyr::mutate(percent = as.character(as.numeric(number) / as.numeric(number[variable == "CLA_Mar2017"])*100)) %>%
+  dplyr::ungroup()%>%
+  dplyr::mutate(category = "child characteristic at 31st March",
+                year="2017",
+                variable = ifelse(variable=="CLA_Mar2017", "Total",
+                                  ifelse(variable=="CLA_2017", "Total_during",
+                                         ifelse(variable=="CLA_stp2017", "",
+                                            ifelse(variable=="CLA_10to15", "10 to 15 years",
+                                              ifelse(variable=="CLA_16over", "16 years and over",
+                                                ifelse(variable=="CLA_1to4", "1 to 4 years",
+                                                       ifelse(variable=="CLA_5to9", "5 to 9 years",
+                                                              ifelse(variable=="CLA_Adopt", "Placed for adoption",
+                                                                     ifelse(variable=="CLA_Asian", "Asian or Asian British",
+                                                                            ifelse(variable=="CLA_Black", "Black African, Caribbean or Black British",
+                                                                                   ifelse(variable=="CLA_CPG", "Detained for child protection",
+                                                                                          ifelse(variable=="CLA_EOTH", "Other ethnic group",
+                                                                                                 ifelse(variable=="CLA_ExtPl", "2. Other LA children externally placed within the local authority boundary",
+                                                                                                        ifelse(variable=="CLA_FCO", "Full care order",
+                                                                                                               ifelse(variable=="CLA_female", "Female",
+                                                                                                                      ifelse(variable=="CLA_Fost", "Foster placements",
+                                                                                                                             ifelse(variable=="CLA_FrAd", "",
+                                                                                                                                    ifelse(variable=="CLA_ICO", "Interim care order",
+                                                                                                                                           ifelse(variable=="CLA_InBound", "Placed inside the local authority boundary",
+                                                                                                                                                  ifelse(variable=="CLA_InLA_GT20", "3. Placed inside the LA boundary more than 20 miles from home",
+                                                                                                                                                         ifelse(variable=="CLA_InLA_LET20", "1. Placed inside the LA boundary 20 miles or less from home",
+                                                                                                                                                                ifelse(variable=="CLA_InLA_NoInfo", "5. Placed inside the LA boundary distance not known or not recorded",
+                                                                                                                                                                       ifelse(variable=="CLA_IntPl", "",
+                                                                                                                                                                              ifelse(variable=="CLA_LAPl", "Male",
+                                                                                                                                                                                     ifelse(variable=="CLA_male", "",
+                                                                                                                                                                                            ifelse(variable=="CLA_Mixed", "Mixed or Multiple ethnic groups",
+                                                                                                                                                                                                   ifelse(variable=="CLA_NetGain", "",
+                                                                                                                                                                                                          ifelse(variable=="CLA_Nrep", "Placement provider not reported",
+                                                                                                                                                                                                                 ifelse(variable=="CLA_Ocom", "Other placements in the community",
+                                                                                                                                                                                                                        ifelse(variable=="CLA_Ores", "Other residential settings",
+                                                                                                                                                                                                                               ifelse(variable=="CLA_Oth", "",
+                                                                                                                                                                                                                                      ifelse(variable=="CLA_OthLA", "Other LA provision",
+                                                                                                                                                                                                                                             ifelse(variable=="CLA_OthPl", "Other placements",
+                                                                                                                                                                                                                                                    ifelse(variable=="CLA_OthPP", "Other public provision (e.g. by a PCT etc)",
+                                                                                                                                                                                                                                                           ifelse(variable=="CLA_Outbound", "Placed outside the local authority boundary",
+                                                                                                                                                                                                                                                                  ifelse(variable=="CLA_OutLA_GT20", "4. Placed outside the LA boundary more than 20 miles from home",
+                                                                                                                                                                                                                                                                         ifelse(variable=="CLA_OUTLA_LTE20", "2. Placed outside the LA boundary 20 miles or less from home",
+                                                                                                                                                                                                                                                                                ifelse(variable=="CLA_OUTLA_NoInfo", "6. Placed outside the LA boundary distance not known or not recorded",
+                                                                                                                                                                                                                                                                                       ifelse(variable=="CLA_OwnP", "",
+                                                                                                                                                                                                                                                                                              ifelse(variable=="CLA_Par", "Placed with parents or other person with parental responsibility",
+                                                                                                                                                                                                                                                                                                     ifelse(variable=="CLA_Parent", "Parents or other person with parental responsibility",
+                                                                                                                                                                                                                                                                                                            ifelse(variable=="CLA_PlaceO", "Placement order granted",
+                                                                                                                                                                                                                                                                                                                   ifelse(variable=="CLA_Priv", "",
+                                                                                                                                                                                                                                                                                                                          ifelse(variable=="CLA_RPC_All_Place", "",
+                                                                                                                                                                                                                                                                                                                                 ifelse(variable=="CLA_RPC_ALLEG", "",
+                                                                                                                                                                                                                                                                                                                                        ifelse(variable=="CLA_RPC_APPRR", "",
+                                                                                                                                                                                                                                                                                                                                               ifelse(variable=="CLA_RPC_CARPL", "",
+                                                                                                                                                                                                                                                                                                                                                      ifelse(variable=="CLA_RPC_CHILD", "",
+                                                                                                                                                                                                                                                                                                                                                             ifelse(variable=="CLA_RPC_CLOSE", "",
+                                                                                                                                                                                                                                                                                                                                                                    ifelse(variable=="CLA_RPC_CREQB", "",
+                                                                                                                                                                                                                                                                                                                                                                           ifelse(variable=="CLA_RPC_CREQO", "",
+                                                                                                                                                                                                                                                                                                                                                                                  ifelse(variable=="CLA_RCP_LAREQ", "",
+                                                                                                                                                                                                                                                                                                                                                                                         ifelse(variable=="CLA_RPC_OTHER", "",
+                                                                                                                                                                                                                                                                                                                                                                                                ifelse(variable=="CLA_RPC_PLACE", "",
+                                                                                                                                                                                                                                                                                                                                                                                                       ifelse(variable=="CLA_RPC_STAND", "",
+                                                                                                                                                                                                                                                                                                                                                                                                              ifelse(variable=="CLA_RSch", "",
+                                                                                                                                                                                                                                                                                                                                                                                                                     ifelse(variable=="CLA_S20", "",
+                                                                                                                                                                                                                                                                                                                                                                                                                            ifelse(variable=="CLA_Secure", "",
+                                                                                                                                                                                                                                                                                                                                                                                                                                          ifelse(variable=="CLA_U1", "",
+                                                                                                                                                                                                                                                                                                                                                                                                                                                 ifelse(variable=="CLA_UASC", "Non-unaccompanied asylum-seeking children",
+                                                                                                                                                                                                                                                                                                                                                                                                                                                        ifelse(variable=="CLA_Vol", "",
+                                                                                                                                                                                                                                                                                                                                                                                                                                                               ifelse(variable=="CLA_White", "",
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ifelse(variable=="CLA_YJLS", "",
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ))))
+                                                
+                                                
+  
+  
+
+characteristics <- rbind(characteristics, admitted)
+  
 ####2016####
+admitted <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Placement_Characteristics/2016/SFR41_ADM2016.csv"),
+                     colClasses = "character")%>%
+  dplyr::mutate_all(~ str_replace(., ",", ""))%>%
+  dplyr::filter(geog_l=="LA")%>%
+  dplyr::rename(LA_Code = New_geog_code,
+                LA.Number = geog_c,
+                LA_Name = geog_n)%>%
+  dplyr::select(-geog_l)%>%
+  tidyr::pivot_longer(cols = !c(LA_Name,LA.Number, LA_Code), 
+                      names_to = "variable", values_to = "number")%>%
+  dplyr::group_by(LA_Name, LA_Code, LA.Number) %>%
+  dplyr::mutate(percent = as.character(as.numeric(number) / as.numeric(number[variable == "CLA_started2016"])*100)) %>%
+  dplyr::ungroup()%>%
+  dplyr::mutate(category = "started during",
+                year="2016",
+                subcategory = ifelse(variable=="CLA_started2016", "Taken into care",
+                                     ifelse(variable=="CLA_taken2016", "Taken into care",
+                                            ifelse(variable=="SCLA_10to15", "Age group",
+                                                   ifelse(variable=="SCLA_16over", "Age group",
+                                                          ifelse(variable=="SCLA_1to4", "Age group",
+                                                                 ifelse(variable=="SCLA_5to9", "Age group",
+                                                                        ifelse(variable=="SCLA_AbNeg", "Category of need",
+                                                                               ifelse(variable=="SCLA_AbsPar", "Category of need",
+                                                                                      ifelse(variable=="SCLA_Cdisab", "Category of need",
+                                                                                             ifelse(variable=="SCLA_FAcSt", "Category of need",
+                                                                                                    ifelse(variable=="SCLA_FCO", "Legal status",
+                                                                                                           ifelse(variable=="SCLA_FD", "Category of need",
+                                                                                                                  ifelse(variable=="SCLA_female", "Gender",
+                                                                                                                         ifelse(variable=="SCLA_ICO", "Legal status",
+                                                                                                                                ifelse(variable=="SCLA_LI", "Category of need",
+                                                                                                                                       ifelse(variable=="SCLA_male", "Gender",
+                                                                                                                                              ifelse(variable=="SCLA_ONCT", "Legal status",
+                                                                                                                                                     ifelse(variable=="SCLA_PACE", "Legal status",
+                                                                                                                                                            ifelse(variable=="SCLA_ParIll", "Category of need",
+                                                                                                                                                                   ifelse(variable=="SCLA_POG", "Legal status",
+                                                                                                                                                                          ifelse(variable=="SCLA_S20", "Legal status",
+                                                                                                                                                                                 ifelse(variable=="SCLA_SEPO", "Legal status",
+                                                                                                                                                                                        ifelse(variable=="SCLA_SORR", NA,
+                                                                                                                                                                                               ifelse(variable=="SCLA_SUB", "Category of need",
+                                                                                                                                                                                                      ifelse(variable=="SCLA_U1", "Age group",
+                                                                                                                                                                                                             ifelse(variable=="SCLA_UCAO", "Legal status",
+                                                                                                                                                                                                                    ifelse(variable=="SCLA_UPP",NA, NA))))))))))))))))))))))))))),
+                variable = ifelse(variable=="CLA_started2016", "Total children",
+                                  ifelse(variable=="CLA_taken2016", "All children taken into care",
+                                         ifelse(variable=="SCLA_10to15", "10 to 15 years",
+                                                ifelse(variable=="SCLA_16over", "16 years and over",
+                                                       ifelse(variable=="SCLA_1to4", "1 to 4 years",
+                                                              ifelse(variable=="SCLA_5to9", "5 to 9 years",
+                                                                     ifelse(variable=="SCLA_AbNeg", "N1. Abuse or neglect",
+                                                                            ifelse(variable=="SCLA_AbsPar", "N8. Absent parenting",
+                                                                                   ifelse(variable=="SCLA_Cdisab", "N2. Child's disability",
+                                                                                          ifelse(variable=="SCLA_FAcSt", "N.4 Family acute stress",
+                                                                                                 ifelse(variable=="SCLA_FCO", "Full care order",
+                                                                                                        ifelse(variable=="SCLA_FD", "N5. Family dysfunction",
+                                                                                                               ifelse(variable=="SCLA_female", "Female",
+                                                                                                                      ifelse(variable=="SCLA_ICO", "Interm care order",
+                                                                                                                             ifelse(variable=="SCLA_LI", "N7. Low income",
+                                                                                                                                    ifelse(variable=="SCLA_male", "Male",
+                                                                                                                                           ifelse(variable=="SCLA_ONCT", "Remand",
+                                                                                                                                                  ifelse(variable=="SCLA_PACE", "LA accommodation under PACE 1989",
+                                                                                                                                                         ifelse(variable=="SCLA_ParIll", "N3. Parental illness or disability",
+                                                                                                                                                                ifelse(variable=="SCLA_POG", "Placement order granted",
+                                                                                                                                                                       ifelse(variable=="SCLA_S20", "Voluntary agreement under S20",
+                                                                                                                                                                              ifelse(variable=="SCLA_SEPO", "Emergency protction order",
+                                                                                                                                                                                     ifelse(variable=="SCLA_SORR", NA,
+                                                                                                                                                                                            ifelse(variable=="SCLA_SUB", "N6. Socially unacceptable behaviour",
+                                                                                                                                                                                                   ifelse(variable=="SCLA_U1", "Under 1 year",
+                                                                                                                                                                                                          ifelse(variable=="SCLA_UCAO", "Child assessment order and in LA accommodation",
+                                                                                                                                                                                                                 ifelse(variable=="SCLA_UPP",NA, NA))))))))))))))))))))))))))))
 
 
+
+
+characteristics <- rbind(characteristics, admitted)
 ####2015####
+admitted <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Placement_Characteristics/2015/SFR34_ADM2015.csv"),
+                     colClasses = "character")%>%
+  dplyr::mutate_all(~ str_replace(., ",", ""))%>%
+  dplyr::filter(geog_l=="LA")%>%
+  dplyr::rename(LA_Code = New_geog_code,
+                LA.Number = geog_c,
+                LA_Name = geog_n)%>%
+  dplyr::select(-geog_l)%>%
+  tidyr::pivot_longer(cols = !c(LA_Name,LA.Number, LA_Code), 
+                      names_to = "variable", values_to = "number")%>%
+  dplyr::group_by(LA_Name, LA_Code, LA.Number) %>%
+  dplyr::mutate(percent = as.character(as.numeric(number) / as.numeric(number[variable == "CLA_started2014"])*100)) %>%
+  dplyr::ungroup()%>%
+  dplyr::mutate(category = "started during",
+                year="2015",
+                subcategory = ifelse(variable=="CLA_started2014", "Taken into care",
+                                     ifelse(variable=="CLA_taken2014", "Taken into care",
+                                            ifelse(variable=="SCLA_10to15", "Age group",
+                                                   ifelse(variable=="SCLA_16over", "Age group",
+                                                          ifelse(variable=="SCLA_1to4", "Age group",
+                                                                 ifelse(variable=="SCLA_5to9", "Age group",
+                                                                        ifelse(variable=="SCLA_AbNeg", "Category of need",
+                                                                               ifelse(variable=="SCLA_AbsPar", "Category of need",
+                                                                                      ifelse(variable=="SCLA_Cdisab", "Category of need",
+                                                                                             ifelse(variable=="SCLA_FAcSt", "Category of need",
+                                                                                                    ifelse(variable=="SCLA_FCO", "Legal status",
+                                                                                                           ifelse(variable=="SCLA_FD", "Category of need",
+                                                                                                                  ifelse(variable=="SCLA_female", "Gender",
+                                                                                                                         ifelse(variable=="SCLA_ICO", "Legal status",
+                                                                                                                                ifelse(variable=="SCLA_LI", "Category of need",
+                                                                                                                                       ifelse(variable=="SCLA_male", "Gender",
+                                                                                                                                              ifelse(variable=="SCLA_ONCT", "Legal status",
+                                                                                                                                                     ifelse(variable=="SCLA_PACE", "Legal status",
+                                                                                                                                                            ifelse(variable=="SCLA_ParIll", "Category of need",
+                                                                                                                                                                   ifelse(variable=="SCLA_POG", "Legal status",
+                                                                                                                                                                          ifelse(variable=="SCLA_S20", "Legal status",
+                                                                                                                                                                                 ifelse(variable=="SCLA_SEPO", "Legal status",
+                                                                                                                                                                                        ifelse(variable=="SCLA_SORR", NA,
+                                                                                                                                                                                               ifelse(variable=="SCLA_SUB", "Category of need",
+                                                                                                                                                                                                      ifelse(variable=="SCLA_U1", "Age group",
+                                                                                                                                                                                                             ifelse(variable=="SCLA_UCAO", "Legal status",
+                                                                                                                                                                                                                    ifelse(variable=="SCLA_UPP",NA, NA))))))))))))))))))))))))))),
+                variable = ifelse(variable=="CLA_started2014", "Total children",
+                                  ifelse(variable=="CLA_taken2014", "All children taken into care",
+                                         ifelse(variable=="SCLA_10to15", "10 to 15 years",
+                                                ifelse(variable=="SCLA_16over", "16 years and over",
+                                                       ifelse(variable=="SCLA_1to4", "1 to 4 years",
+                                                              ifelse(variable=="SCLA_5to9", "5 to 9 years",
+                                                                     ifelse(variable=="SCLA_AbNeg", "N1. Abuse or neglect",
+                                                                            ifelse(variable=="SCLA_AbsPar", "N8. Absent parenting",
+                                                                                   ifelse(variable=="SCLA_Cdisab", "N2. Child's disability",
+                                                                                          ifelse(variable=="SCLA_FAcSt", "N.4 Family acute stress",
+                                                                                                 ifelse(variable=="SCLA_FCO", "Full care order",
+                                                                                                        ifelse(variable=="SCLA_FD", "N5. Family dysfunction",
+                                                                                                               ifelse(variable=="SCLA_female", "Female",
+                                                                                                                      ifelse(variable=="SCLA_ICO", "Interm care order",
+                                                                                                                             ifelse(variable=="SCLA_LI", "N7. Low income",
+                                                                                                                                    ifelse(variable=="SCLA_male", "Male",
+                                                                                                                                           ifelse(variable=="SCLA_ONCT", "Remand",
+                                                                                                                                                  ifelse(variable=="SCLA_PACE", "LA accommodation under PACE 1989",
+                                                                                                                                                         ifelse(variable=="SCLA_ParIll", "N3. Parental illness or disability",
+                                                                                                                                                                ifelse(variable=="SCLA_POG", "Placement order granted",
+                                                                                                                                                                       ifelse(variable=="SCLA_S20", "Voluntary agreement under S20",
+                                                                                                                                                                              ifelse(variable=="SCLA_SEPO", "Emergency protction order",
+                                                                                                                                                                                     ifelse(variable=="SCLA_SORR", NA,
+                                                                                                                                                                                            ifelse(variable=="SCLA_SUB", "N6. Socially unacceptable behaviour",
+                                                                                                                                                                                                   ifelse(variable=="SCLA_U1", "Under 1 year",
+                                                                                                                                                                                                          ifelse(variable=="SCLA_UCAO", "Child assessment order and in LA accommodation",
+                                                                                                                                                                                                                 ifelse(variable=="SCLA_UPP",NA, NA))))))))))))))))))))))))))))
 
 
+
+
+
+characteristics <- rbind(characteristics, admitted)
 ####2014####
 
+admitted <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Placement_Characteristics/2014/SFR36_ADM2014.csv"),
+                     colClasses = "character")%>%
+  dplyr::mutate_all(~ str_replace(., ",", ""))%>%
+  dplyr::filter(geog_l=="LA")%>%
+  dplyr::rename(LA_Code = New_geog_code,
+                LA.Number = geog_c,
+                LA_Name = geog_n)%>%
+  dplyr::select(-geog_l)%>%
+  tidyr::pivot_longer(cols = !c(LA_Name,LA.Number, LA_Code), 
+                      names_to = "variable", values_to = "number")%>%
+  dplyr::group_by(LA_Name, LA_Code, LA.Number) %>%
+  dplyr::mutate(percent = as.character(as.numeric(number) / as.numeric(number[variable == "CLA_started2014"])*100)) %>%
+  dplyr::ungroup()%>%
+  dplyr::mutate(category = "started during",
+                year="2014",
+                subcategory = ifelse(variable=="CLA_started2014", "Taken into care",
+                                     ifelse(variable=="CLA_taken2014", "Taken into care",
+                                            ifelse(variable=="SCLA_10to15", "Age group",
+                                                   ifelse(variable=="SCLA_16over", "Age group",
+                                                          ifelse(variable=="SCLA_1to4", "Age group",
+                                                                 ifelse(variable=="SCLA_5to9", "Age group",
+                                                                        ifelse(variable=="SCLA_AbNeg", "Category of need",
+                                                                               ifelse(variable=="SCLA_AbsPar", "Category of need",
+                                                                                      ifelse(variable=="SCLA_Cdisab", "Category of need",
+                                                                                             ifelse(variable=="SCLA_FAcSt", "Category of need",
+                                                                                                    ifelse(variable=="SCLA_FCO", "Legal status",
+                                                                                                           ifelse(variable=="SCLA_FD", "Category of need",
+                                                                                                                  ifelse(variable=="SCLA_female", "Gender",
+                                                                                                                         ifelse(variable=="SCLA_ICO", "Legal status",
+                                                                                                                                ifelse(variable=="SCLA_LI", "Category of need",
+                                                                                                                                       ifelse(variable=="SCLA_male", "Gender",
+                                                                                                                                              ifelse(variable=="SCLA_ONCT", "Legal status",
+                                                                                                                                                     ifelse(variable=="SCLA_PACE", "Legal status",
+                                                                                                                                                            ifelse(variable=="SCLA_ParIll", "Category of need",
+                                                                                                                                                                   ifelse(variable=="SCLA_POG", "Legal status",
+                                                                                                                                                                          ifelse(variable=="SCLA_S20", "Legal status",
+                                                                                                                                                                                 ifelse(variable=="SCLA_SEPO", "Legal status",
+                                                                                                                                                                                        ifelse(variable=="SCLA_SORR", NA,
+                                                                                                                                                                                               ifelse(variable=="SCLA_SUB", "Category of need",
+                                                                                                                                                                                                      ifelse(variable=="SCLA_U1", "Age group",
+                                                                                                                                                                                                             ifelse(variable=="SCLA_UCAO", "Legal status",
+                                                                                                                                                                                                                    ifelse(variable=="SCLA_UPP",NA, NA))))))))))))))))))))))))))),
+                variable = ifelse(variable=="CLA_started2014", "Total children",
+                                  ifelse(variable=="CLA_taken2014", "All children taken into care",
+                                         ifelse(variable=="SCLA_10to15", "10 to 15 years",
+                                                ifelse(variable=="SCLA_16over", "16 years and over",
+                                                       ifelse(variable=="SCLA_1to4", "1 to 4 years",
+                                                              ifelse(variable=="SCLA_5to9", "5 to 9 years",
+                                                                     ifelse(variable=="SCLA_AbNeg", "N1. Abuse or neglect",
+                                                                            ifelse(variable=="SCLA_AbsPar", "N8. Absent parenting",
+                                                                                   ifelse(variable=="SCLA_Cdisab", "N2. Child's disability",
+                                                                                          ifelse(variable=="SCLA_FAcSt", "N.4 Family acute stress",
+                                                                                                 ifelse(variable=="SCLA_FCO", "Full care order",
+                                                                                                        ifelse(variable=="SCLA_FD", "N5. Family dysfunction",
+                                                                                                               ifelse(variable=="SCLA_female", "Female",
+                                                                                                                      ifelse(variable=="SCLA_ICO", "Interm care order",
+                                                                                                                             ifelse(variable=="SCLA_LI", "N7. Low income",
+                                                                                                                                    ifelse(variable=="SCLA_male", "Male",
+                                                                                                                                           ifelse(variable=="SCLA_ONCT", "Remand",
+                                                                                                                                                  ifelse(variable=="SCLA_PACE", "LA accommodation under PACE 1989",
+                                                                                                                                                         ifelse(variable=="SCLA_ParIll", "N3. Parental illness or disability",
+                                                                                                                                                                ifelse(variable=="SCLA_POG", "Placement order granted",
+                                                                                                                                                                       ifelse(variable=="SCLA_S20", "Voluntary agreement under S20",
+                                                                                                                                                                              ifelse(variable=="SCLA_SEPO", "Emergency protction order",
+                                                                                                                                                                                     ifelse(variable=="SCLA_SORR", NA,
+                                                                                                                                                                                            ifelse(variable=="SCLA_SUB", "N6. Socially unacceptable behaviour",
+                                                                                                                                                                                                   ifelse(variable=="SCLA_U1", "Under 1 year",
+                                                                                                                                                                                                          ifelse(variable=="SCLA_UCAO", "Child assessment order and in LA accommodation",
+                                                                                                                                                                                                                 ifelse(variable=="SCLA_UPP",NA, NA))))))))))))))))))))))))))))
+
+
+
+
+characteristics <- rbind(characteristics, admitted)
 
 ####2013####
 
 
+
+admitted <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Placement_Characteristics/2013/SFR36_ADM2013.csv"),
+                     colClasses = "character")%>%
+  dplyr::mutate_all(~ str_replace(., ",", ""))%>%
+  dplyr::filter(geog_l=="LA")%>%
+  dplyr::rename(LA_Code = New_geog_code,
+                LA.Number = geog_c,
+                LA_Name = geog_n)%>%
+  dplyr::select(-geog_l, -tidyr::starts_with("X"))%>%
+  tidyr::pivot_longer(cols = !c(LA_Name,LA.Number, LA_Code), 
+                      names_to = "variable", values_to = "number")%>%
+  dplyr::group_by(LA_Name, LA_Code, LA.Number) %>%
+  dplyr::mutate(percent = as.character(as.numeric(number) / as.numeric(number[variable == "CLA_started2013"])*100)) %>%
+  dplyr::ungroup()%>%
+  dplyr::mutate(category = "started during",
+                year="2013",
+                subcategory = ifelse(variable=="CLA_started2013", "Taken into care",
+                                     ifelse(variable=="CLA_taken2013", "Taken into care",
+                                            ifelse(variable=="SCLA_10to15", "Age group",
+                                                   ifelse(variable=="SCLA_16over", "Age group",
+                                                          ifelse(variable=="SCLA_1to4", "Age group",
+                                                                 ifelse(variable=="SCLA_5to9", "Age group",
+                                                                        ifelse(variable=="SCLA_AbNeg", "Category of need",
+                                                                               ifelse(variable=="SCLA_AbsPar", "Category of need",
+                                                                                      ifelse(variable=="SCLA_Cdisab", "Category of need",
+                                                                                             ifelse(variable=="SCLA_FAcSt", "Category of need",
+                                                                                                    ifelse(variable=="SCLA_FCO", "Legal status",
+                                                                                                           ifelse(variable=="SCLA_FD", "Category of need",
+                                                                                                                  ifelse(variable=="SCLA_female", "Gender",
+                                                                                                                         ifelse(variable=="SCLA_ICO", "Legal status",
+                                                                                                                                ifelse(variable=="SCLA_LI", "Category of need",
+                                                                                                                                       ifelse(variable=="SCLA_male", "Gender",
+                                                                                                                                              ifelse(variable=="SCLA_ONCT", "Legal status",
+                                                                                                                                                     ifelse(variable=="SCLA_PACE", "Legal status",
+                                                                                                                                                            ifelse(variable=="SCLA_ParIll", "Category of need",
+                                                                                                                                                                   ifelse(variable=="SCLA_POG", "Legal status",
+                                                                                                                                                                          ifelse(variable=="SCLA_S20", "Legal status",
+                                                                                                                                                                                 ifelse(variable=="SCLA_SEPO", "Legal status",
+                                                                                                                                                                                        ifelse(variable=="SCLA_SORR", NA,
+                                                                                                                                                                                               ifelse(variable=="SCLA_SUB", "Category of need",
+                                                                                                                                                                                                      ifelse(variable=="SCLA_U1", "Age group",
+                                                                                                                                                                                                             ifelse(variable=="SCLA_UCAO", "Legal status",
+                                                                                                                                                                                                                    ifelse(variable=="SCLA_UPP",NA, NA))))))))))))))))))))))))))),
+                variable = ifelse(variable=="CLA_started2013", "Total children",
+                                  ifelse(variable=="CLA_taken2013", "All children taken into care",
+                                         ifelse(variable=="SCLA_10to15", "10 to 15 years",
+                                                ifelse(variable=="SCLA_16over", "16 years and over",
+                                                       ifelse(variable=="SCLA_1to4", "1 to 4 years",
+                                                              ifelse(variable=="SCLA_5to9", "5 to 9 years",
+                                                                     ifelse(variable=="SCLA_AbNeg", "N1. Abuse or neglect",
+                                                                            ifelse(variable=="SCLA_AbsPar", "N8. Absent parenting",
+                                                                                   ifelse(variable=="SCLA_Cdisab", "N2. Child's disability",
+                                                                                          ifelse(variable=="SCLA_FAcSt", "N.4 Family acute stress",
+                                                                                                 ifelse(variable=="SCLA_FCO", "Full care order",
+                                                                                                        ifelse(variable=="SCLA_FD", "N5. Family dysfunction",
+                                                                                                               ifelse(variable=="SCLA_female", "Female",
+                                                                                                                      ifelse(variable=="SCLA_ICO", "Interm care order",
+                                                                                                                             ifelse(variable=="SCLA_LI", "N7. Low income",
+                                                                                                                                    ifelse(variable=="SCLA_male", "Male",
+                                                                                                                                           ifelse(variable=="SCLA_ONCT", "Remand",
+                                                                                                                                                  ifelse(variable=="SCLA_PACE", "LA accommodation under PACE 1989",
+                                                                                                                                                         ifelse(variable=="SCLA_ParIll", "N3. Parental illness or disability",
+                                                                                                                                                                ifelse(variable=="SCLA_POG", "Placement order granted",
+                                                                                                                                                                       ifelse(variable=="SCLA_S20", "Voluntary agreement under S20",
+                                                                                                                                                                              ifelse(variable=="SCLA_SEPO", "Emergency protction order",
+                                                                                                                                                                                     ifelse(variable=="SCLA_SORR", NA,
+                                                                                                                                                                                            ifelse(variable=="SCLA_SUB", "N6. Socially unacceptable behaviour",
+                                                                                                                                                                                                   ifelse(variable=="SCLA_U1", "Under 1 year",
+                                                                                                                                                                                                          ifelse(variable=="SCLA_UCAO", "Child assessment order and in LA accommodation",
+                                                                                                                                                                                                                 ifelse(variable=="SCLA_UPP",NA, NA))))))))))))))))))))))))))))
+
+
+
+
+
+
+
+characteristics <- rbind(characteristics, admitted)
+
+
 ####2012####
+
+admitted <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Placement_Characteristics/2012/UnderlyingData/SFR20_ADM2012.csv"),
+                     colClasses = "character")%>%
+  dplyr::mutate_all(~ str_replace(., ",", ""))%>%
+  dplyr::filter(geog_l=="LA")%>%
+  dplyr::rename(LA_Code = New_geog_code,
+                LA.Number = geog_c,
+                LA_Name = geog_n)%>%
+  dplyr::select(-geog_l, -tidyr::starts_with("X"))%>%
+  tidyr::pivot_longer(cols = !c(LA_Name,LA.Number, LA_Code), 
+                      names_to = "variable", values_to = "number")%>%
+  dplyr::group_by(LA_Name, LA_Code, LA.Number) %>%
+  dplyr::mutate(percent = as.character(as.numeric(number) / as.numeric(number[variable == "CLA_started2012"])*100)) %>%
+  dplyr::ungroup()%>%
+  dplyr::mutate(category = "started during",
+                year="2012",
+                subcategory = ifelse(variable=="CLA_started2012", "Taken into care",
+                                     ifelse(variable=="CLA_taken2012", "Taken into care",
+                                            ifelse(variable=="SCLA_10to15", "Age group",
+                                                   ifelse(variable=="SCLA_16over", "Age group",
+                                                          ifelse(variable=="SCLA_1to4", "Age group",
+                                                                 ifelse(variable=="SCLA_5to9", "Age group",
+                                                                        ifelse(variable=="SCLA_AbNeg", "Category of need",
+                                                                               ifelse(variable=="SCLA_AbsPar", "Category of need",
+                                                                                      ifelse(variable=="SCLA_Cdisab", "Category of need",
+                                                                                             ifelse(variable=="SCLA_FAcSt", "Category of need",
+                                                                                                    ifelse(variable=="SCLA_FCO", "Legal status",
+                                                                                                           ifelse(variable=="SCLA_FD", "Category of need",
+                                                                                                                  ifelse(variable=="SCLA_female", "Gender",
+                                                                                                                         ifelse(variable=="SCLA_ICO", "Legal status",
+                                                                                                                                ifelse(variable=="SCLA_LI", "Category of need",
+                                                                                                                                       ifelse(variable=="SCLA_male", "Gender",
+                                                                                                                                              ifelse(variable=="SCLA_ONCT", "Legal status",
+                                                                                                                                                     ifelse(variable=="SCLA_PACE", "Legal status",
+                                                                                                                                                            ifelse(variable=="SCLA_ParIll", "Category of need",
+                                                                                                                                                                   ifelse(variable=="SCLA_POG", "Legal status",
+                                                                                                                                                                          ifelse(variable=="SCLA_S20", "Legal status",
+                                                                                                                                                                                 ifelse(variable=="SCLA_SEPO", "Legal status",
+                                                                                                                                                                                        ifelse(variable=="SCLA_SORR", NA,
+                                                                                                                                                                                               ifelse(variable=="SCLA_SUB", "Category of need",
+                                                                                                                                                                                                      ifelse(variable=="SCLA_U1", "Age group",
+                                                                                                                                                                                                             ifelse(variable=="SCLA_UCAO", "Legal status",
+                                                                                                                                                                                                                    ifelse(variable=="SCLA_UPP",NA, NA))))))))))))))))))))))))))),
+                variable = ifelse(variable=="CLA_started2012", "Total children",
+                                  ifelse(variable=="CLA_taken2012", "All children taken into care",
+                                         ifelse(variable=="SCLA_10to15", "10 to 15 years",
+                                                ifelse(variable=="SCLA_16over", "16 years and over",
+                                                       ifelse(variable=="SCLA_1to4", "1 to 4 years",
+                                                              ifelse(variable=="SCLA_5to9", "5 to 9 years",
+                                                                     ifelse(variable=="SCLA_AbNeg", "N1. Abuse or neglect",
+                                                                            ifelse(variable=="SCLA_AbsPar", "N8. Absent parenting",
+                                                                                   ifelse(variable=="SCLA_Cdisab", "N2. Child's disability",
+                                                                                          ifelse(variable=="SCLA_FAcSt", "N.4 Family acute stress",
+                                                                                                 ifelse(variable=="SCLA_FCO", "Full care order",
+                                                                                                        ifelse(variable=="SCLA_FD", "N5. Family dysfunction",
+                                                                                                               ifelse(variable=="SCLA_female", "Female",
+                                                                                                                      ifelse(variable=="SCLA_ICO", "Interm care order",
+                                                                                                                             ifelse(variable=="SCLA_LI", "N7. Low income",
+                                                                                                                                    ifelse(variable=="SCLA_male", "Male",
+                                                                                                                                           ifelse(variable=="SCLA_ONCT", "Remand",
+                                                                                                                                                  ifelse(variable=="SCLA_PACE", "LA accommodation under PACE 1989",
+                                                                                                                                                         ifelse(variable=="SCLA_ParIll", "N3. Parental illness or disability",
+                                                                                                                                                                ifelse(variable=="SCLA_POG", "Placement order granted",
+                                                                                                                                                                       ifelse(variable=="SCLA_S20", "Voluntary agreement under S20",
+                                                                                                                                                                              ifelse(variable=="SCLA_SEPO", "Emergency protction order",
+                                                                                                                                                                                     ifelse(variable=="SCLA_SORR", NA,
+                                                                                                                                                                                            ifelse(variable=="SCLA_SUB", "N6. Socially unacceptable behaviour",
+                                                                                                                                                                                                   ifelse(variable=="SCLA_U1", "Under 1 year",
+                                                                                                                                                                                                          ifelse(variable=="SCLA_UCAO", "Child assessment order and in LA accommodation",
+                                                                                                                                                                                                                 ifelse(variable=="SCLA_UPP",NA, NA))))))))))))))))))))))))))))
+
+
+
+
+
+
+
+characteristics <- rbind(characteristics, admitted)
+
+
+
 
 
 ####2011####
 
+admitted <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Placement_Characteristics/2011/SFE21_ADM.csv"),
+                     colClasses = "character")%>%
+  dplyr::mutate_all(~ str_replace(., ",", ""))%>%
+  dplyr::filter(geog_l=="LA")%>%
+  dplyr::rename(LA_Code = New_geog_code,
+                LA.Number = geog_c,
+                LA_Name = geog_n)%>%
+  dplyr::select(-geog_l, -tidyr::starts_with("X"))%>%
+  tidyr::pivot_longer(cols = !c(LA_Name,LA.Number, LA_Code), 
+                      names_to = "variable", values_to = "number")%>%
+  dplyr::group_by(LA_Name, LA_Code, LA.Number) %>%
+  dplyr::mutate(percent = as.character(as.numeric(number) / as.numeric(number[variable == "CLA_started2011"])*100)) %>%
+  dplyr::ungroup()%>%
+  dplyr::mutate(category = "started during",
+                year="2011",
+                subcategory = ifelse(variable=="CLA_started2011", "Taken into care",
+                                     ifelse(variable=="CLA_taken2011", "Taken into care",
+                                            ifelse(variable=="SCLA_10to15", "Age group",
+                                                   ifelse(variable=="SCLA_16over", "Age group",
+                                                          ifelse(variable=="SCLA_1to4", "Age group",
+                                                                 ifelse(variable=="SCLA_5to9", "Age group",
+                                                                        ifelse(variable=="SCLA_AbNeg", "Category of need",
+                                                                               ifelse(variable=="SCLA_AbsPar", "Category of need",
+                                                                                      ifelse(variable=="SCLA_Cdisab", "Category of need",
+                                                                                             ifelse(variable=="SCLA_FAcSt", "Category of need",
+                                                                                                    ifelse(variable=="SCLA_FCO", "Legal status",
+                                                                                                           ifelse(variable=="SCLA_FD", "Category of need",
+                                                                                                                  ifelse(variable=="SCLA_female", "Gender",
+                                                                                                                         ifelse(variable=="SCLA_ICO", "Legal status",
+                                                                                                                                ifelse(variable=="SCLA_LI", "Category of need",
+                                                                                                                                       ifelse(variable=="SCLA_male", "Gender",
+                                                                                                                                              ifelse(variable=="SCLA_ONCT", "Legal status",
+                                                                                                                                                     ifelse(variable=="SCLA_PACE", "Legal status",
+                                                                                                                                                            ifelse(variable=="SCLA_ParIll", "Category of need",
+                                                                                                                                                                   ifelse(variable=="SCLA_POG", "Legal status",
+                                                                                                                                                                          ifelse(variable=="SCLA_S20", "Legal status",
+                                                                                                                                                                                 ifelse(variable=="SCLA_SEPO", "Legal status",
+                                                                                                                                                                                        ifelse(variable=="SCLA_SORR", NA,
+                                                                                                                                                                                               ifelse(variable=="SCLA_SUB", "Category of need",
+                                                                                                                                                                                                      ifelse(variable=="SCLA_U1", "Age group",
+                                                                                                                                                                                                             ifelse(variable=="SCLA_UCAO", "Legal status",
+                                                                                                                                                                                                                    ifelse(variable=="SCLA_UPP",NA, NA))))))))))))))))))))))))))),
+                variable = ifelse(variable=="CLA_started2011", "Total children",
+                                  ifelse(variable=="CLA_taken2011", "All children taken into care",
+                                         ifelse(variable=="SCLA_10to15", "10 to 15 years",
+                                                ifelse(variable=="SCLA_16over", "16 years and over",
+                                                       ifelse(variable=="SCLA_1to4", "1 to 4 years",
+                                                              ifelse(variable=="SCLA_5to9", "5 to 9 years",
+                                                                     ifelse(variable=="SCLA_AbNeg", "N1. Abuse or neglect",
+                                                                            ifelse(variable=="SCLA_AbsPar", "N8. Absent parenting",
+                                                                                   ifelse(variable=="SCLA_Cdisab", "N2. Child's disability",
+                                                                                          ifelse(variable=="SCLA_FAcSt", "N.4 Family acute stress",
+                                                                                                 ifelse(variable=="SCLA_FCO", "Full care order",
+                                                                                                        ifelse(variable=="SCLA_FD", "N5. Family dysfunction",
+                                                                                                               ifelse(variable=="SCLA_female", "Female",
+                                                                                                                      ifelse(variable=="SCLA_ICO", "Interm care order",
+                                                                                                                             ifelse(variable=="SCLA_LI", "N7. Low income",
+                                                                                                                                    ifelse(variable=="SCLA_male", "Male",
+                                                                                                                                           ifelse(variable=="SCLA_ONCT", "Remand",
+                                                                                                                                                  ifelse(variable=="SCLA_PACE", "LA accommodation under PACE 1989",
+                                                                                                                                                         ifelse(variable=="SCLA_ParIll", "N3. Parental illness or disability",
+                                                                                                                                                                ifelse(variable=="SCLA_POG", "Placement order granted",
+                                                                                                                                                                       ifelse(variable=="SCLA_S20", "Voluntary agreement under S20",
+                                                                                                                                                                              ifelse(variable=="SCLA_SEPO", "Emergency protction order",
+                                                                                                                                                                                     ifelse(variable=="SCLA_SORR", NA,
+                                                                                                                                                                                            ifelse(variable=="SCLA_SUB", "N6. Socially unacceptable behaviour",
+                                                                                                                                                                                                   ifelse(variable=="SCLA_U1", "Under 1 year",
+                                                                                                                                                                                                          ifelse(variable=="SCLA_UCAO", "Child assessment order and in LA accommodation",
+                                                                                                                                                                                                                 ifelse(variable=="SCLA_UPP",NA, NA))))))))))))))))))))))))))))
+
+
+
+
+
+
+
+characteristics <- rbind(characteristics, admitted)
+
+
+
+
+
+
+
+
+
 
 ####2010####
+
+
+admitted <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Placement_Characteristics/2010/SFR27_2010_Started.csv"),
+                     colClasses = "character")%>%
+  dplyr::mutate_all(~ str_replace(., ",", ""))%>%
+  dplyr::filter(geog_l=="LA")%>%
+  dplyr::mutate(LA_Code = NA)%>%
+  dplyr::rename(LA.Number = geog_c,
+                LA_Name = geog_n)%>%
+  dplyr::select(LA_Code, LA.Number, LA_Name, StartTotal_2010)%>%
+  tidyr::pivot_longer(cols = !c(LA_Name,LA.Number, LA_Code), 
+                      names_to = "variable", values_to = "number")%>%
+  dplyr::group_by(LA_Name, LA_Code, LA.Number) %>%
+  dplyr::mutate(percent = as.character(as.numeric(number) / as.numeric(number[variable == "StartTotal_2010"])*100)) %>%
+  dplyr::ungroup()%>%
+  dplyr::mutate(category = "started during",
+                year="2010",
+                subcategory = ifelse(variable=="StartTotal_2010", "Taken into care",NA),
+                variable = ifelse(variable=="StartTotal_2010", "Total children", NA))
+
+
+
+
+
+
+
+characteristics <- rbind(characteristics, admitted)
+
+
+
+
+
+
+
+
+
+
 
 
