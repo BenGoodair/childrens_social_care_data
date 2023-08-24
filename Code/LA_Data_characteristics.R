@@ -524,16 +524,21 @@ ceased <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_
                 variable = ifelse(variable == "CEA_Custody", "",
                                   ifelse(variable=="CEA_Died", "",
                                          ifelse(variable=="CEA_female", "",
-                                                ifelse(variable=="", "",
-                                                       ifelse(variable=="", "",
-                                                              ifelse(variable=="", "",
-                                                                     ifelse(variable=="", "",
-                                                                            ifelse(variable=="", "",
-                                                                                   ifelse(variable=="", "",
-                                                                                          ifelse(variable=="", "",
-                                                                                                 ifelse(variable=="", "",
-                                                                                                        ifelse(variable=="", "",
-                                                                                                        variable)))))))))))))
+                                                ifelse(variable=="CEA_IndLiv1", "",
+                                                       ifelse(variable=="CEA_IndLiv2", "",
+                                                              ifelse(variable=="CEA_male", "",
+                                                                     ifelse(variable=="CEA_NoPar", "",
+                                                                            ifelse(variable=="CEA_Other", "",
+                                                                                   ifelse(variable=="CEA_ParNPlan", "",
+                                                                                          ifelse(variable=="CEA_ParPlan", "",
+                                                                                                 ifelse(variable=="CEA_RemEnd", "",
+                                                                                                        ifelse(variable=="CEA_Residential", "",
+                                                                                                        variable)))))))))))),
+                variable = ifelse(variable=="CEA_SGO1","",
+                                  ifelse(variable=="CEA_SGO2","",
+                                         ifelse(variable=="CEA_Taken","",
+                                                ifelse(variable=="CEA_U1","",
+                                                variable)))))
 
 
 
