@@ -504,11 +504,36 @@ ceased <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_
   tidyr::pivot_longer(cols = !c(LA_Name,LA.Number, LA_Code), 
                       names_to = "variable", values_to = "number")%>%
   dplyr::group_by(LA_Name, LA_Code, LA.Number) %>%
-  dplyr::mutate(percent = as.character(as.numeric(number) / as.numeric(number[variable == "CLA_started2017"])*100)) %>%
+  dplyr::mutate(percent = as.character(as.numeric(number) / as.numeric(number[variable == "CLA_cease2017"])*100)) %>%
   dplyr::ungroup()%>%
   dplyr::mutate(category = "started during",
                 year="2017",
-                subcategory =
+                variable = ifelse(variable == "CLA_cease2017", "",
+                                  ifelse(variable=="CEA_10to15","",
+                                         ifelse(variable=="CEA_16","",
+                                                ifelse(variable=="CEA_17","",
+                                                       ifelse(variable=="CEA_18over","",
+                                                              ifelse(variable=="CEA_1to4","",
+                                                                     ifelse(variable=="CEA_5to9","",
+                                                                            ifelse(variable=="CEA_Abroad","",
+                                                                                   ifelse(variable=="CEA_Adop1","",
+                                                                                          ifelse(variable=="CEA_Adop2","",
+                                                                                                 ifelse(variable=="CEA_AgeAssmt","",
+                                                                                                        ifelse(variable=="CEA_CAO","",
+                                                                                                        NA)))))))))))),
+                variable = ifelse(variable == "CEA_Custody", "",
+                                  ifelse(variable=="CEA_Died", "",
+                                         ifelse(variable=="CEA_female", "",
+                                                ifelse(variable=="", "",
+                                                       ifelse(variable=="", "",
+                                                              ifelse(variable=="", "",
+                                                                     ifelse(variable=="", "",
+                                                                            ifelse(variable=="", "",
+                                                                                   ifelse(variable=="", "",
+                                                                                          ifelse(variable=="", "",
+                                                                                                 ifelse(variable=="", "",
+                                                                                                        ifelse(variable=="", "",
+                                                                                                        variable)))))))))))))
 
 
 
