@@ -334,7 +334,7 @@ create_outcomes_data <- function(){
                   colClasses = "character")[-c(14:20)]%>%
     dplyr::mutate_all(~ str_replace(., ",", ""))%>%
     dplyr::rename(LA_Name = X,
-                  LA.Number = ,
+                  LA.Number = X.1,
                   `Total all ages.n` = Number.of.children.looked.after.continuously.for.12.months.at.31.March.2011,
                   `Total ages 10 to 17 years.n` = Number.of.children.looked.after.continuously.for.12.months.aged.10.or.over.at.31.March,
                   `Total ages 0 to 4 years.n` = Number.of.children.looked.after.continuously.for.12.months.aged.5.or.under.at.31.March.2011,
