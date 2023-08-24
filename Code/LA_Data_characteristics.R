@@ -491,6 +491,27 @@ march <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_s
   
   
 
+
+
+ceased <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Placement_Characteristics/2017/SFR50_CEA2017.csv"),
+                   colClasses = "character")%>%
+  dplyr::mutate_all(~ str_replace(., ",", ""))%>%
+  dplyr::filter(geog_l=="LA")%>%
+  dplyr::rename(LA_Code = New_geog_code,
+                LA.Number = geog_c,
+                LA_Name = geog_n)%>%
+  dplyr::select(-geog_l, -LA_order)%>%
+  tidyr::pivot_longer(cols = !c(LA_Name,LA.Number, LA_Code), 
+                      names_to = "variable", values_to = "number")%>%
+  dplyr::group_by(LA_Name, LA_Code, LA.Number) %>%
+  dplyr::mutate(percent = as.character(as.numeric(number) / as.numeric(number[variable == "CLA_started2017"])*100)) %>%
+  dplyr::ungroup()%>%
+  dplyr::mutate(category = "started during",
+                year="2017",
+                subcategory =
+
+
+
 characteristics <- rbind(characteristics, admitted, march)
   
 ####2016####
