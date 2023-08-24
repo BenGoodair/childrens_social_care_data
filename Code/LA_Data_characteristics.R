@@ -5,7 +5,7 @@ if (!require("pacman")) install.packages("pacman")
 pacman::p_load(devtools, dplyr, tidyverse, tidyr, stringr,  curl)
 
 
-setwd("C:/Users/bengo/OneDrive - Nexus365/Documents/Children's Care Homes Project")
+#setwd("C:/Users/bengo/OneDrive - Nexus365/Documents/Children's Care Homes Project")
 options(scipen=999)
 
 
@@ -148,13 +148,13 @@ missing <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens
                           colClasses = "character")%>%
   dplyr::mutate_all(~ str_replace(., ",", ""))%>%
   dplyr::filter(geographic_level=="Local authority")%>% # keep only LAs
-  dplyr::mutate(year = X.U.FEFF.time_period,
+  dplyr::mutate(year = time_period,
                 percent = NA)%>%
   dplyr::rename(LA_Name= la_name,
                 LA_Code=new_la_code,
                 LA.Number=old_la_code,
                 variable = cla_group)%>% #rename variables
-  dplyr::select(-X.U.FEFF.time_period, -time_identifier, -geographic_level, -country_code, 
+  dplyr::select(-time_period, -time_identifier, -geographic_level, -country_code, 
                 -country_name, -region_code, -region_name)%>% #remove empty column
   dplyr::mutate(category = "child characteristics",
                 subcategory = "missing incidents")
@@ -165,14 +165,14 @@ stability <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childre
                     colClasses = "character")%>%
   dplyr::mutate_all(~ str_replace(., ",", ""))%>%
   dplyr::filter(geographic_level=="Local authority")%>% # keep only LAs
-  dplyr::mutate(year = X.U.FEFF.time_period)%>%
+  dplyr::mutate(year = time_period)%>%
   dplyr::rename(LA_Name= la_name,
                 LA_Code=new_la_code,
                 LA.Number=old_la_code,
                 percent = percentage,
                 variable = characteristic,
                 subcategory = cla_group)%>% #rename variables
-  dplyr::select(-X.U.FEFF.time_period, -time_identifier, -geographic_level, -country_code, 
+  dplyr::select(-time_period, -time_identifier, -geographic_level, -country_code, 
                 -country_name, -region_code, -region_name)%>% #remove empty column
   dplyr::mutate(category = "placement stability")
 
@@ -229,12 +229,12 @@ net_gain <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/children
                      colClasses = "character")%>%
   dplyr::mutate_all(~ str_replace(., ",", ""))%>%
   dplyr::filter(geographic_level=="Local authority")%>% # keep only LAs
-  dplyr::mutate(year = X.U.FEFF.time_period)%>%
+  dplyr::mutate(year = time_period)%>%
   dplyr::rename(LA_Name= la_name,
                 LA_Code=new_la_code,
                 LA.Number=old_la_code,
                 variable = characteristic)%>% #rename variables
-  dplyr::select(-X.U.FEFF.time_period, -time_identifier, -geographic_level, -country_code, 
+  dplyr::select(-time_period, -time_identifier, -geographic_level, -country_code, 
                 -country_name, -region_code, -region_name)%>% #remove empty column
   dplyr::mutate(category = "net gain",
                 percent = NA,
@@ -245,14 +245,14 @@ school_moves <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/chil
                            colClasses = "character")%>%
   dplyr::mutate_all(~ str_replace(., ",", ""))%>%
   dplyr::filter(geographic_level=="Local authority")%>% # keep only LAs
-  dplyr::mutate(year = X.U.FEFF.time_period)%>%
+  dplyr::mutate(year = time_period)%>%
   dplyr::rename(LA_Name= la_name,
                 LA_Code=new_la_code,
                 LA.Number=old_la_code,
                 percent = percentage,
                 subcategory = move_measure,
                 variable = school_stability)%>% #rename variables
-  dplyr::select(-X.U.FEFF.time_period, -time_identifier, -geographic_level, -country_code, 
+  dplyr::select(-time_period, -time_identifier, -geographic_level, -country_code, 
                 -country_name, -region_code, -region_name, -cla_group)%>% #remove empty column
   dplyr::mutate(category = "school moves")
 
