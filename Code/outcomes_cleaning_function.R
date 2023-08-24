@@ -259,7 +259,7 @@ create_outcomes_data <- function(){
   #                colClasses = "character")%>%
   #  dplyr::mutate_all(~ str_replace(., ",", ""))%>%
   #  dplyr::rename(LA_Name = X,
-  #                LA.Number = X.U.FEFF.LA.Number)%>%
+  #                LA.Number = LA.Number)%>%
   #  dplyr::filter(!is.na(LA.Number))%>%
   #  tidyr::pivot_longer(cols = !c(LA.Number, LA_Name), names_to = "variable", 
   #                      values_to = "value")%>%
@@ -322,7 +322,7 @@ create_outcomes_data <- function(){
   #                          colClasses = "character")%>%
   #   dplyr::mutate_all(~ str_replace(., ",", ""))%>%
   #   dplyr::rename(LA_Name = X,
-  #                 LA.Number = X.U.FEFF.LA.Number)%>%
+  #                 LA.Number = LA.Number)%>%
   #   dplyr::filter(!is.na(LA.Number))%>%
   #   tidyr::pivot_longer(cols = !c(LA.Number, LA_Name), names_to = "variable", 
   #                       values_to = "value")%>%
@@ -334,7 +334,7 @@ create_outcomes_data <- function(){
                   colClasses = "character")[-c(14:20)]%>%
     dplyr::mutate_all(~ str_replace(., ",", ""))%>%
     dplyr::rename(LA_Name = X,
-                  LA.Number = X.U.FEFF.,
+                  LA.Number = ,
                   `Total all ages.n` = Number.of.children.looked.after.continuously.for.12.months.at.31.March.2011,
                   `Total ages 10 to 17 years.n` = Number.of.children.looked.after.continuously.for.12.months.aged.10.or.over.at.31.March,
                   `Total ages 0 to 4 years.n` = Number.of.children.looked.after.continuously.for.12.months.aged.5.or.under.at.31.March.2011,
@@ -401,7 +401,7 @@ create_outcomes_data <- function(){
                   colClasses = "character")%>%
     dplyr::mutate_all(~ str_replace(., ",", ""))%>%
     dplyr::rename(LA_Name = X,
-                  LA.Number = X.U.FEFF.LA.Number,
+                  LA.Number = LA.Number,
                   all_SEN.n = Number.with.SEN,
                   statement_or_EHC_plan.n = Number.with.statement)%>%
     dplyr::filter(!is.na(as.numeric(LA.Number)))%>%
@@ -1818,11 +1818,11 @@ create_outcomes_data <- function(){
     dplyr::mutate_all(~ str_replace(., ",", ""))%>%
     dplyr::filter(geographic_level=="Local authority",
                   social_care_group=="CLA 12 months at 31 March")%>% # keep only LAs and LACs
-    dplyr::mutate(year = paste("20", str_sub(X.U.FEFF.time_period, start= -2), sep=""))%>% # turn 202021 to 2021)
+    dplyr::mutate(year = paste("20", str_sub(time_period, start= -2), sep=""))%>% # turn 202021 to 2021)
     dplyr::rename(LA_Name= la_name,
                   LA_Code=new_la_code,
                   LA.Number=old_la_code)%>% #rename variables
-    dplyr::select(-X.U.FEFF.time_period, -time_identifier, -geographic_level, -country_code, -country_name, -region_code, -region_name ,-social_care_group, -version)%>% #remove empty column
+    dplyr::select(-time_period, -time_identifier, -geographic_level, -country_code, -country_name, -region_code, -region_name ,-social_care_group, -version)%>% #remove empty column
     tidyr::pivot_longer(cols=!c(LA_Name, LA_Code,LA.Number, year), names_to = "variable", 
                         values_to = "value")%>%   #pivot so variables go in one column
     dplyr::mutate(category = "child outcomes",
