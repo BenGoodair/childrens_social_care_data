@@ -491,7 +491,7 @@ march <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_s
   
   
 
-
+####hereeeee babyyyy#####
 
 ceased <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Placement_Characteristics/2017/SFR50_CEA2017.csv"),
                    colClasses = "character")%>%
@@ -501,6 +501,7 @@ ceased <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_
                 LA.Number = geog_c,
                 LA_Name = geog_n)%>%
   dplyr::select(-geog_l, -LA_order)%>%
+  dplyr::mutate()
   tidyr::pivot_longer(cols = !c(LA_Name,LA.Number, LA_Code), 
                       names_to = "variable", values_to = "number")%>%
   dplyr::group_by(LA_Name, LA_Code, LA.Number) %>%
@@ -509,12 +510,12 @@ ceased <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_
   dplyr::mutate(category = "started during",
                 year="2017",
                 variable = ifelse(variable == "CLA_cease2017", "",
-                                  ifelse(variable=="CEA_10to15","",
-                                         ifelse(variable=="CEA_16","",
-                                                ifelse(variable=="CEA_17","",
-                                                       ifelse(variable=="CEA_18over","",
-                                                              ifelse(variable=="CEA_1to4","",
-                                                                     ifelse(variable=="CEA_5to9","",
+                                  ifelse(variable=="CEA_10to15","10 to 15 years",
+                                         ifelse(variable=="CEA_16","16 years",
+                                                ifelse(variable=="CEA_17","17 years",
+                                                       ifelse(variable=="CEA_18over","18 years and over",
+                                                              ifelse(variable=="CEA_1to4","1 to 4 years",
+                                                                     ifelse(variable=="CEA_5to9","5 to 9 years",
                                                                             ifelse(variable=="CEA_Abroad","",
                                                                                    ifelse(variable=="CEA_Adop1","",
                                                                                           ifelse(variable=="CEA_Adop2","",
@@ -531,7 +532,7 @@ ceased <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_
                                                                             ifelse(variable=="CEA_Other", "",
                                                                                    ifelse(variable=="CEA_ParNPlan", "",
                                                                                           ifelse(variable=="CEA_ParPlan", "",
-                                                                                                 ifelse(variable=="CEA_RemEnd", "",
+                                                                                                 ifelse(variable=="CEA_RemEnd", "Accommodation on remand ended",
                                                                                                         ifelse(variable=="CEA_Residential", "",
                                                                                                         variable)))))))))))),
                 variable = ifelse(variable=="CEA_SGO1","",
