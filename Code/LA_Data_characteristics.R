@@ -966,12 +966,13 @@ march <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_s
   dplyr::rename(LA_Code = New_geog_code,
                 LA.Number = geog_c,
                 LA_Name = geog_n)%>%
-  dplyr::select(-geog_l)%>%
+  dplyr::select(-geog_l, -tidyr::starts_with("X"))%>%
   tidyr::pivot_longer(cols = !c(LA_Name,LA.Number, LA_Code), 
                       names_to = "variable", values_to = "number")%>%
   dplyr::group_by(LA_Name, LA_Code, LA.Number) %>%
   dplyr::mutate(percent = as.character(as.numeric(number) / as.numeric(number[variable == "CLA_Mar2014"])*100))%>%
   dplyr::mutate(percent = ifelse(variable=="CLA_2014", 100, percent))%>%
+  dplyr::mutate(percent = ifelse(variable=="CLA_P2yrs", NA, percent))%>%
   dplyr::mutate(percent = ifelse(variable=="CLA_stp2014", as.numeric(number)/as.numeric(number[variable=="CLA_2014"])*100, percent))%>%
   dplyr::ungroup()%>%
   dplyr::mutate(category = "child characteristic at 31st March",
@@ -982,6 +983,12 @@ march <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_s
                                                    ifelse(variable=="CLA_10to15", "Age group",
                                                           ifelse(variable=="CLA_16over", "Age group",
                                                                  ifelse(variable=="CLA_1to4", "Age group",NA)))))),
+                subcategory = ifelse(variable=="CLA_Miss", NA,
+                                     ifelse(variable=="CLA_Moth", NA,
+                                            ifelse(variable=="CLA_1Pla", NA,
+                                            ifelse(variable=="CLA_2PLa", NA,
+                                                   ifelse(variable=="CLA_3Pla", NA,
+                                                          ifelse(variable=="CLA_P2yrs", "placement stability", subcategory)))))),
                 subcategory = ifelse(variable=="CLA_5to9", "Age group",
                                      ifelse(variable=="CLA_Adopt", "Placement",
                                             ifelse(variable=="CLA_Asian", "Ethnicity",
@@ -1027,6 +1034,12 @@ march <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_s
                                                 ifelse(variable=="CLA_10to15", "10 to 15 years",
                                                        ifelse(variable=="CLA_16over", "16 years and over",
                                                               ifelse(variable=="CLA_1to4", "1 to 4 years", variable)))))),
+                variable = ifelse(variable=="CLA_Miss", NA,
+                                  ifelse(variable=="CLA_Moth", NA,
+                                     ifelse(variable=="CLA_1Pla", NA,
+                                            ifelse(variable=="CLA_2PLa", NA,
+                                                   ifelse(variable=="CLA_3Pla", NA,
+                                                          ifelse(variable=="CLA_P2yrs", "Living in the same placement for at least 2 years or are placed for adoption and their adoption and their adoptive placement together with their previous placement, last for at least 2 years", variable)))))),
                 variable = ifelse(variable=="CLA_5to9", "5 to 9 years",
                                   ifelse(variable=="CLA_Adopt", "Placed for adoption",
                                          ifelse(variable=="CLA_Asian", "Asian or Asian British",
@@ -1079,7 +1092,7 @@ march <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_s
 
 
 
-characteristics <- rbind(characteristics, admitted)
+characteristics <- rbind(characteristics, admitted, march)
 
 ####2013####
 
