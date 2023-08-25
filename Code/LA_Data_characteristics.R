@@ -500,7 +500,8 @@ ceased <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_
                 LA.Number = geog_c,
                 LA_Name = geog_n)%>%
   dplyr::select(-geog_l, -LA_order)%>%
-  dplyr::mutate()
+  dplyr::mutate(`Special guardianship orders` = as.character(as.numeric(CEA_SGO1)+as.numeric(CEA_SGO2), na.rm=F),
+                `Adopted` = as.character(as.numeric(CEA_Adop1)+as.numeric(CEA_Adop1), na.rm=F))%>%
   tidyr::pivot_longer(cols = !c(LA_Name,LA.Number, LA_Code), 
                       names_to = "variable", values_to = "number")%>%
   dplyr::group_by(LA_Name, LA_Code, LA.Number) %>%
@@ -508,7 +509,7 @@ ceased <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_
   dplyr::ungroup()%>%
   dplyr::mutate(category = "started during",
                 year="2017",
-                variable = ifelse(variable == "CLA_cease2017", "",
+                variable = ifelse(variable == "CLA_cease2017", "Total",
                                   ifelse(variable=="CEA_10to15","10 to 15 years",
                                          ifelse(variable=="CEA_16","16 years",
                                                 ifelse(variable=="CEA_17","17 years",
@@ -516,33 +517,33 @@ ceased <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_
                                                               ifelse(variable=="CEA_1to4","1 to 4 years",
                                                                      ifelse(variable=="CEA_5to9","5 to 9 years",
                                                                             ifelse(variable=="CEA_Abroad","Child moved abroad",
-                                                                                   ifelse(variable=="CEA_Adop1","",
-                                                                                          ifelse(variable=="CEA_Adop2","",
+                                                                                  # ifelse(variable=="CEA_Adop1","",
+                                                                                       #   ifelse(variable=="CEA_Adop2","",
                                                                                                  ifelse(variable=="CEA_AgeAssmt","Age assessment determined child aged 18 or over",
-                                                                                                        ifelse(variable=="CEA_CAO","",
-                                                                                                        NA)))))))))))),
-                variable = ifelse(variable == "CEA_Custody", "",
+                                                                                                        ifelse(variable=="CEA_CAO","Residence order or child arrangement order granted",
+                                                                                                        variable)))))))))),
+                variable = ifelse(variable == "CEA_Custody", "Sentenced to custody",
                                   ifelse(variable=="CEA_Died", "Died",
                                          ifelse(variable=="CEA_female", "Female",
                                                 ifelse(variable=="CEA_IndLiv1", "Moved into independent living (with supportive accommodation)",
                                                        ifelse(variable=="CEA_IndLiv2", "Moved into independent living (with no formalised support)",
-                                                              ifelse(variable=="CEA_male", "",
-                                                                     ifelse(variable=="CEA_NoPar", "",
+                                                              ifelse(variable=="CEA_male", "Male",
+                                                                     ifelse(variable=="CEA_NoPar", "Left care to live with parents relatives or other person with no parental responsibility",
                                                                             ifelse(variable=="CEA_Other", "Care ceased for any other reason",
-                                                                                   ifelse(variable=="CEA_ParNPlan", "",
-                                                                                          ifelse(variable=="CEA_ParPlan", "",
+                                                                                   ifelse(variable=="CEA_ParNPlan", "Returned home to live with parents or other person with parental responsibility which was not part of the care planning process",
+                                                                                          ifelse(variable=="CEA_ParPlan", "Returned home to live with parents or other person with parental responsibility which was part of the care planning process",
                                                                                                  ifelse(variable=="CEA_RemEnd", "Accommodation on remand ended",
-                                                                                                        ifelse(variable=="CEA_Residential", "",
+                                                                                                        ifelse(variable=="CEA_Residential", "Transferred to residential care funded by adult social services",
                                                                                                         variable)))))))))))),
-                variable = ifelse(variable=="CEA_SGO1","",
-                                  ifelse(variable=="CEA_SGO2","",
+                variable = #ifelse(variable=="CEA_SGO1","",
+                            #      ifelse(variable=="CEA_SGO2","",
                                          ifelse(variable=="CEA_Taken","Care taken by another local authority",
-                                                ifelse(variable=="CEA_U1","",
-                                                variable)))))
+                                                ifelse(variable=="CEA_U1","Under 1 year",
+                                                variable)))
 
 
 
-characteristics <- rbind(characteristics, admitted, march)
+characteristics <- rbind(characteristics, admitted, march, ceased)
   
 ####2016####
 admitted <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Placement_Characteristics/2016/SFR41_ADM2016.csv"),
@@ -731,7 +732,60 @@ march <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_s
 
 
 
-characteristics <- rbind(characteristics, admitted, march)
+
+ceased <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Placement_Characteristics/2016/SFR41_CEA2016.csv"),
+                   colClasses = "character")%>%
+  dplyr::mutate_all(~ str_replace(., ",", ""))%>%
+  dplyr::filter(geog_l=="LA")%>%
+  dplyr::rename(LA_Code = New_geog_code,
+                LA.Number = geog_c,
+                LA_Name = geog_n)%>%
+  dplyr::select(-geog_l)%>%
+  dplyr::mutate(`Special guardianship orders` = as.character(as.numeric(CLA_ceaSpecG1)+as.numeric(CLA_ceaSpecG2), na.rm=F),
+                `Adopted` = as.character(as.numeric(CLA_ceaAdop1)+as.numeric(CLA_ceaAdop2), na.rm=F))%>%
+  tidyr::pivot_longer(cols = !c(LA_Name,LA.Number, LA_Code), 
+                      names_to = "variable", values_to = "number")%>%
+  dplyr::group_by(LA_Name, LA_Code, LA.Number) %>%
+  dplyr::mutate(percent = as.character(as.numeric(number) / as.numeric(number[variable == "CLA_cease"])*100)) %>%
+  dplyr::ungroup()%>%
+  dplyr::mutate(category = "started during",
+                year="2016",
+                variable = ifelse(variable == "CLA_cease", "Total",
+                                  ifelse(variable=="CLA_cea1015","10 to 15 years",
+                                         ifelse(CLA_cea16=="CEA_16","16 years",
+                                                ifelse(variable=="CLA_cea17","17 years",
+                                                       ifelse(variable=="CLA_cea18","18 years and over",
+                                                              ifelse(variable=="CLA_cea14","1 to 4 years",
+                                                                     ifelse(variable=="CLA_cea59","5 to 9 years",
+                                                                            ifelse(variable=="CLA_ceaAbroad","Child moved abroad",
+                                                                                   # ifelse(variable=="CEA_Adop1","",
+                                                                                   #   ifelse(variable=="CEA_Adop2","",
+                                                                                   ifelse(variable=="CEA_AgeAssmt","Age assessment determined child aged 18 or over",
+                                                                                          ifelse(variable=="CEA_CAO","Residence order or child arrangement order granted",
+                                                                                                 variable)))))))))),
+                variable = ifelse(variable == "CEA_Custody", "Sentenced to custody",
+                                  ifelse(variable=="CLA_ceaDied", "Died",
+                                         ifelse(variable=="CEA_female", "Female",
+                                                ifelse(variable=="CEA_IndLiv1", "Moved into independent living (with supportive accommodation)",
+                                                       ifelse(variable=="CEA_IndLiv2", "Moved into independent living (with no formalised support)",
+                                                              ifelse(variable=="CEA_male", "Male",
+                                                                     ifelse(variable=="CEA_NoPar", "Left care to live with parents relatives or other person with no parental responsibility",
+                                                                            ifelse(variable=="CEA_Other", "Care ceased for any other reason",
+                                                                                   ifelse(variable=="CLA_ceaParNPlan", "Returned home to live with parents or other person with parental responsibility which was not part of the care planning process",
+                                                                                          ifelse(variable=="CLA_ceaParPlan", "Returned home to live with parents or other person with parental responsibility which was part of the care planning process",
+                                                                                                 ifelse(variable=="CLA_ceaRemEnd", "Accommodation on remand ended",
+                                                                                                        ifelse(variable=="CEA_Residential", "Transferred to residential care funded by adult social services",
+                                                                                                               variable)))))))))))),
+                variable = #ifelse(variable=="CEA_SGO1","",
+                  #      ifelse(variable=="CEA_SGO2","",
+                  ifelse(variable=="CLA_ceataken","Care taken by another local authority",
+                         ifelse(variable=="CLA_cea1","Under 1 year",
+                                variable)))
+
+
+
+
+characteristics <- rbind(characteristics, admitted, march, ceased)
 
 
 ####2015####
