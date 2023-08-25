@@ -491,7 +491,6 @@ march <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_s
   
   
 
-####hereeeee babyyyy#####
 
 ceased <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Placement_Characteristics/2017/SFR50_CEA2017.csv"),
                    colClasses = "character")%>%
@@ -516,20 +515,20 @@ ceased <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_
                                                        ifelse(variable=="CEA_18over","18 years and over",
                                                               ifelse(variable=="CEA_1to4","1 to 4 years",
                                                                      ifelse(variable=="CEA_5to9","5 to 9 years",
-                                                                            ifelse(variable=="CEA_Abroad","",
+                                                                            ifelse(variable=="CEA_Abroad","Child moved abroad",
                                                                                    ifelse(variable=="CEA_Adop1","",
                                                                                           ifelse(variable=="CEA_Adop2","",
-                                                                                                 ifelse(variable=="CEA_AgeAssmt","",
+                                                                                                 ifelse(variable=="CEA_AgeAssmt","Age assessment determined child aged 18 or over",
                                                                                                         ifelse(variable=="CEA_CAO","",
                                                                                                         NA)))))))))))),
                 variable = ifelse(variable == "CEA_Custody", "",
-                                  ifelse(variable=="CEA_Died", "",
-                                         ifelse(variable=="CEA_female", "",
-                                                ifelse(variable=="CEA_IndLiv1", "",
-                                                       ifelse(variable=="CEA_IndLiv2", "",
+                                  ifelse(variable=="CEA_Died", "Died",
+                                         ifelse(variable=="CEA_female", "Female",
+                                                ifelse(variable=="CEA_IndLiv1", "Moved into independent living (with supportive accommodation)",
+                                                       ifelse(variable=="CEA_IndLiv2", "Moved into independent living (with no formalised support)",
                                                               ifelse(variable=="CEA_male", "",
                                                                      ifelse(variable=="CEA_NoPar", "",
-                                                                            ifelse(variable=="CEA_Other", "",
+                                                                            ifelse(variable=="CEA_Other", "Care ceased for any other reason",
                                                                                    ifelse(variable=="CEA_ParNPlan", "",
                                                                                           ifelse(variable=="CEA_ParPlan", "",
                                                                                                  ifelse(variable=="CEA_RemEnd", "Accommodation on remand ended",
@@ -537,7 +536,7 @@ ceased <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_
                                                                                                         variable)))))))))))),
                 variable = ifelse(variable=="CEA_SGO1","",
                                   ifelse(variable=="CEA_SGO2","",
-                                         ifelse(variable=="CEA_Taken","",
+                                         ifelse(variable=="CEA_Taken","Care taken by another local authority",
                                                 ifelse(variable=="CEA_U1","",
                                                 variable)))))
 
