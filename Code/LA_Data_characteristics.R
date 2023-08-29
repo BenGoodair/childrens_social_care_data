@@ -590,11 +590,12 @@ leaver17 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/children
   dplyr::rename(LA_Code = New_geog_code,
                 LA.Number = geog_c,
                 LA_Name = geog_n)%>%
-  dplyr::select(LA_Code, LA.Number, LA_Name, tidyr::ends_with("17.18"))%>%
+  dplyr::select(LA_Code, LA.Number, LA_Name, tidyr::ends_with("17.18"))%>%#
+  dplyr::mutate(`Total in education employment or training` = as.character(as.numeric(CL_Act_HE17.18)+ as.numeric(CL_Act_OE17.18)+as.numeric(CL_Act_TE17.18)))%>%
   tidyr::pivot_longer(cols = !c(LA_Name,LA.Number, LA_Code), 
                       names_to = "variable", values_to = "number")%>%
   dplyr::group_by(LA_Name, LA_Code, LA.Number) %>%
-  dplyr::mutate(percent = as.character(as.numeric(number) / as.numeric(number[variable == "CLA_started2016"])*100)) %>%
+  dplyr::mutate(percent = as.character(as.numeric(number) / as.numeric(number[variable == "CL_All_17.18"])*100)) %>%
   dplyr::ungroup()%>%
   dplyr::mutate(category = "care leavers",
                 year="2017",
@@ -630,11 +631,11 @@ leaver17 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/children
                                   ifelse(variable=="CL_Act_OE17.18","Education other than higher education",
                                          ifelse(variable=="CL_All_17.18","Total",
                                                 ifelse(variable=="CL_Acc_SUIT17.18","Accommodation considered suitable",
-                                                       ifelse(variable=="CL_InTouch_IT17.18","",
-                                                              ifelse(variable=="CL_InTouch_NoServ17.18","",
-                                                                     ifelse(variable=="CL_InTouch_Not17.18","",
-                                                                            ifelse(variable=="CL_InTouch_Refu17.18","",
-                                                                                   ifelse(variable=="CL_Act_TE17.18","Total in education employment or training",
+                                                       ifelse(variable=="CL_InTouch_IT17.18","Local authority in touch with care leaver",
+                                                              ifelse(variable=="CL_InTouch_NoServ17.18","Young person no longer requires services",
+                                                                     ifelse(variable=="CL_InTouch_Not17.18","Local authority not in touch with care leaver",
+                                                                            ifelse(variable=="CL_InTouch_Refu17.18","Young person refuses contact",
+                                                                                   ifelse(variable=="CL_Act_TE17.18","In training or employment",
                                                                                     variable))))))))),
                 )
   
@@ -642,10 +643,72 @@ leaver17 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/children
 
 
 
+leaver19 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Placement_Characteristics/2017/SFR50_CareLeavers19to212017.csv"),
+                     colClasses = "character")%>%
+  dplyr::mutate_all(~ str_replace(., ",", ""))%>%
+  dplyr::filter(geog_l=="LA")%>%
+  dplyr::rename(LA_Code = New_geog_code,
+                LA.Number = geog_c,
+                LA_Name = geog_n)%>%
+  dplyr::select(LA_Code, LA.Number, LA_Name, tidyr::ends_with("19to21"))%>%#
+  dplyr::mutate(`Total in education employment or training` = as.character(as.numeric(CL_Act_HE19to21)+ as.numeric(CL_Act_OE19to21)+as.numeric(CL_Act_TE19to21)))%>%
+  tidyr::pivot_longer(cols = !c(LA_Name,LA.Number, LA_Code), 
+                      names_to = "variable", values_to = "number")%>%
+  dplyr::group_by(LA_Name, LA_Code, LA.Number) %>%
+  dplyr::mutate(percent = as.character(as.numeric(number) / as.numeric(number[variable == "CL_All_19to21"])*100)) %>%
+  dplyr::ungroup()%>%
+  dplyr::mutate(category = "care leavers",
+                year="2017",
+                subcategory = "19 to 21 years",
+                variable = ifelse(variable=="CL_Acc_BB19to21", "Bed and breakfast",
+                                  ifelse(variable=="CL_Acc_CH19to21", "Community home",
+                                         ifelse(variable=="CL_Acc_Cust19to21", "In custody",
+                                                ifelse(variable=="CL_Acc_Dep19to21", "Deported",
+                                                       ifelse(variable=="CL_Acc_EA19to21", "Emergency accommodation",
+                                                              ifelse(variable=="CL_Acc_F19to21", "Foyers",
+                                                                     ifelse(variable=="CL_Acc_FFC19to21", "With former foster carers",
+                                                                            ifelse(variable=="CL_Acc_GA19to21", "Gone abroad",
+                                                                                   variable)))))))),
+                variable = ifelse(variable=="CL_Acc_IL19to21", "Independent living",
+                                  ifelse(variable=="CL_Acc_NFA19to21","No fixed abode/homeless",
+                                         ifelse(variable=="CL_Acc_NK19to21","Residence not known",
+                                                ifelse(variable=="CL_Acc_NoInf19to21","Total information not known",
+                                                       ifelse(variable=="CL_Acc_NoSUITInfo19to21","No information",
+                                                              ifelse(variable=="CL_Acc_NotSUIT19to21","Accommodation considered not suitable",
+                                                                     ifelse(variable=="CL_Acc_OL19to21","Ordinary lodgings",
+                                                                            ifelse(variable=="CL_Acc_OTH19to21","Other accommodation",
+                                                                                   variable)))))))),
+                variable = ifelse(variable=="CL_Acc_P19to21", "With parents or relatives",
+                                  ifelse(variable=="CL_Acc_SITA19to21","Semi-independent transitional accommodation",
+                                         ifelse(variable=="CL_Acc_SL19to21","Supported lodgings",
+                                                ifelse(variable=="CL_Acc_SUIT19to21","Accommodation considered suitable",
+                                                       ifelse(variable=="CL_Act_HE19to21","Higher education i.e. studies beyond A level",
+                                                              ifelse(variable=="CL_Act_NEET_ill19to21","Not in education training or employment, owing to illness or disability",
+                                                                     ifelse(variable=="CL_Act_NEET_oth19to21","Not in education training or employment, owing to other reasons",
+                                                                            ifelse(variable=="CL_ACT_NEET_preg19to21","Not in education training or employment, owing to pregnancy or parenting",
+                                                                                   variable)))))))),
+                variable = ifelse(variable=="CL_Act_NoInf19to21", "Total information not known",
+                                  ifelse(variable=="CL_Act_OE19to21","Education other than higher education",
+                                         ifelse(variable=="CL_All_19to21","Total",
+                                                ifelse(variable=="CL_Acc_SUIT19to21","Accommodation considered suitable",
+                                                       ifelse(variable=="CL_InTouch_IT19to21","Local authority in touch with care leaver",
+                                                              ifelse(variable=="CL_InTouch_NoServ19to21","Young person no longer requires services",
+                                                                     ifelse(variable=="CL_InTouch_Not19to21","Local authority not in touch with care leaver",
+                                                                            ifelse(variable=="CL_InTouch_Refu19to21","Young person refuses contact",
+                                                                                   ifelse(variable=="CL_Act_TE19to21","In training or employment",
+                                                                                          variable))))))))),
+  )
 
 
 
-characteristics <- rbind(characteristics, admitted, march, ceased)
+
+
+
+
+
+
+
+characteristics <- rbind(characteristics, admitted, march, ceased, leaver17, leaver19)
   
 ####2016####
 admitted <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Placement_Characteristics/2016/SFR41_ADM2016.csv"),
