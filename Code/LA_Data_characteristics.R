@@ -580,6 +580,71 @@ ceased <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_
 
 
 
+
+
+
+leaver17 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Placement_Characteristics/2017/SFR50_CareLeavers17182017.csv"),
+                     colClasses = "character")%>%
+  dplyr::mutate_all(~ str_replace(., ",", ""))%>%
+  dplyr::filter(geog_l=="LA")%>%
+  dplyr::rename(LA_Code = New_geog_code,
+                LA.Number = geog_c,
+                LA_Name = geog_n)%>%
+  dplyr::select(LA_Code, LA.Number, LA_Name, tidyr::ends_with("17.18"))%>%
+  tidyr::pivot_longer(cols = !c(LA_Name,LA.Number, LA_Code), 
+                      names_to = "variable", values_to = "number")%>%
+  dplyr::group_by(LA_Name, LA_Code, LA.Number) %>%
+  dplyr::mutate(percent = as.character(as.numeric(number) / as.numeric(number[variable == "CLA_started2016"])*100)) %>%
+  dplyr::ungroup()%>%
+  dplyr::mutate(category = "care leavers",
+                year="2017",
+                subcategory = "17 to 18 years",
+                variable = ifelse(variable=="CL_Acc_BB17.18", "Bed and breakfast",
+                                  ifelse(variable=="CL_Acc_CH17.18", "Community home",
+                                         ifelse(variable=="CL_Acc_Cust17.18", "In custody",
+                                                ifelse(variable=="CL_Acc_Dep17.18", "Deported",
+                                                       ifelse(variable=="CL_Acc_EA17.18", "Emergency accommodation",
+                                                              ifelse(variable=="CL_Acc_F17.18", "Foyers",
+                                                                     ifelse(variable=="CL_Acc_FFC17.18", "With former foster carers",
+                                                                            ifelse(variable=="CL_Acc_GA17.18", "Gone abroad",
+                                                                                   variable)))))))),
+                variable = ifelse(variable=="CL_Acc_IL17.18", "Independent living",
+                                  ifelse(variable=="CL_Acc_NFA17.18","No fixed abode/homeless",
+                                         ifelse(variable=="CL_Acc_NK17.18","Residence not known",
+                                                ifelse(variable=="CL_Acc_NoInf17.18","Total information not known",
+                                                       ifelse(variable=="CL_Acc_NoSUITInfo17.18","No information",
+                                                              ifelse(variable=="CL_Acc_NotSUIT17.18","Accommodation considered not suitable",
+                                                                     ifelse(variable=="CL_Acc_OL17.18","Ordinary lodgings",
+                                                                            ifelse(variable=="CL_Acc_OTH17.18","Other accommodation",
+                                                                            variable)))))))),
+                variable = ifelse(variable=="CL_Acc_P17.18", "With parents or relatives",
+                                  ifelse(variable=="CL_Acc_SITA17.18","Semi-independent transitional accommodation",
+                                         ifelse(variable=="CL_Acc_SL17.18","Supported lodgings",
+                                                ifelse(variable=="CL_Acc_SUIT17.18","Accommodation considered suitable",
+                                                       ifelse(variable=="CL_Act_HE17.18","Higher education i.e. studies beyond A level",
+                                                              ifelse(variable=="CL_Act_NEET_ill17.18","Not in education training or employment, owing to illness or disability",
+                                                                     ifelse(variable=="CL_Act_NEET_oth17.18","Not in education training or employment, owing to other reasons",
+                                                                            ifelse(variable=="CL_Act_NEET_preg17.18","Not in education training or employment, owing to pregnancy or parenting",
+                                                                                   variable)))))))),
+                variable = ifelse(variable=="CL_Act_NoInf17.18", "Total information not known",
+                                  ifelse(variable=="CL_Act_OE17.18","Education other than higher education",
+                                         ifelse(variable=="CL_All_17.18","Total",
+                                                ifelse(variable=="CL_Acc_SUIT17.18","Accommodation considered suitable",
+                                                       ifelse(variable=="CL_InTouch_IT17.18","",
+                                                              ifelse(variable=="CL_InTouch_NoServ17.18","",
+                                                                     ifelse(variable=="CL_InTouch_Not17.18","",
+                                                                            ifelse(variable=="CL_InTouch_Refu17.18","",
+                                                                                   ifelse(variable=="CL_Act_TE17.18","Total in education employment or training",
+                                                                                    variable))))))))),
+                )
+  
+
+
+
+
+
+
+
 characteristics <- rbind(characteristics, admitted, march, ceased)
   
 ####2016####
