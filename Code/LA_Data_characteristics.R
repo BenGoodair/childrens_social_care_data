@@ -1530,7 +1530,127 @@ admitted <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/children
 
 
 
-####MArch here wtf buddy uokpal?#####
+
+march <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Placement_Characteristics/2013/SFR36_CLA2013.csv"),
+                  colClasses = "character")%>%
+  dplyr::mutate_all(~ str_replace(., ",", ""))%>%
+  dplyr::filter(geog_l=="LA")%>%
+  dplyr::rename(LA_Code = New_geog_code,
+                LA.Number = geog_c,
+                LA_Name = geog_n)%>%
+  dplyr::select(-geog_l, -tidyr::starts_with("X"))%>%
+  tidyr::pivot_longer(cols = !c(LA_Name,LA.Number, LA_Code), 
+                      names_to = "variable", values_to = "number")%>%
+  dplyr::group_by(LA_Name, LA_Code, LA.Number) %>%
+  dplyr::mutate(percent = as.character(as.numeric(number) / as.numeric(number[variable == "CLA_Mar2013"])*100))%>%
+  dplyr::mutate(percent = ifelse(variable=="CLA_2013", 100, percent))%>%
+  dplyr::mutate(percent = ifelse(variable=="CLA_P2yrs", NA, percent))%>%
+  dplyr::mutate(percent = ifelse(variable=="CLA_stp2013", as.numeric(number)/as.numeric(number[variable=="CLA_2013"])*100, percent))%>%
+  dplyr::ungroup()%>%
+  dplyr::mutate(category = "child characteristic at 31st March",
+                year="2013",
+                subcategory = ifelse(variable=="CLA_Mar2013", "Age group",
+                                     ifelse(variable=="CLA_2013", "Age group",
+                                            ifelse(variable=="CLA_stp2013", "Age group",
+                                                   ifelse(variable=="CLA_10to15", "Age group",
+                                                          ifelse(variable=="CLA_16over", "Age group",
+                                                                 ifelse(variable=="CLA_1to4", "Age group",NA)))))),
+                subcategory = ifelse(variable=="CLA_Miss", NA,
+                                     ifelse(variable=="CLA_Moth", NA,
+                                            ifelse(variable=="CLA_1Pla", NA,
+                                                   ifelse(variable=="CLA_2PLa", NA,
+                                                          ifelse(variable=="CLA_3Pla", NA,
+                                                                 ifelse(variable=="CLA_P2yrs", "placement stability", subcategory)))))),
+                subcategory = ifelse(variable=="CLA_5to9", "Age group",
+                                     ifelse(variable=="CLA_Adopt", "Placement",
+                                            ifelse(variable=="CLA_Asian", "Ethnicity",
+                                                   ifelse(variable=="CLA_Black", "Ethnicity",
+                                                          ifelse(variable=="CLA_CPG", "Legal status",
+                                                                 ifelse(variable=="CLA_EOTH", "Ethnicity", subcategory)))))),
+                subcategory = ifelse(variable=="CLA_ExtPl", "LA of placement",
+                                     ifelse(variable=="CLA_FCO", "Legal status",
+                                            ifelse(variable=="CLA_female", "Gender",
+                                                   ifelse(variable=="CLA_Fost", "Placement",
+                                                          ifelse(variable=="CLA_FrAd", NA,                                                                                                                                    
+                                                                 ifelse(variable=="CLA_ICO", "Legal status", subcategory)))))),
+                subcategory = ifelse(variable=="CLA_InBound", "Locality of placement",
+                                     ifelse(variable=="CLA_IntPl", "LA of placement",
+                                            ifelse(variable=="CLA_LAPl", "Placed inside the local authority boundary",subcategory))),
+                subcategory = ifelse(variable=="CLA_male", "Gender",
+                                     ifelse(variable=="CLA_Mixed", "Ethnicity",
+                                            ifelse(variable=="CLA_NetGain", "Net gain of children by responsible LA",
+                                                   ifelse(variable=="CLA_Nrep", "Place providers",
+                                                          ifelse(variable=="CLA_Ocom", "Placement",
+                                                                 ifelse(variable=="CLA_Ores", "Placement",
+                                                                        ifelse(variable=="CLA_Oth", "Ethnicity",
+                                                                               ifelse(variable=="CLA_OthLA", "Place providers",
+                                                                                      ifelse(variable=="CLA_OthPl", "Placement", subcategory))))))))),
+                subcategory =  ifelse(variable=="CLA_OthPP", "Place providers",
+                                      ifelse(variable=="CLA_Outbound", "Locality of placement",
+                                             ifelse(variable=="CLA_OwnP", "Place providers",
+                                                    ifelse(variable=="CLA_Par", "Place providers",
+                                                           ifelse(variable=="CLA_Parent", "Placement",
+                                                                  ifelse(variable=="CLA_PlaceO", "Legal status", subcategory)))))),
+                subcategory =  ifelse(variable=="CLA_Priv", "Place providers", subcategory),
+                subcategory = ifelse(variable=="CLA_RSch", "Placement",
+                                     ifelse(variable=="CLA_S20", "Legal status",
+                                            ifelse(variable=="CLA_Secure", "Placement", subcategory))),
+                subcategory =  ifelse(variable=="CLA_U1", "Age group",
+                                      ifelse(variable=="CLA_UASC", "Unaccompanied asylum-seeking children",
+                                             ifelse(variable=="CLA_Vol", "Place providers",
+                                                    ifelse(variable=="CLA_White", "Ethnicity",
+                                                           ifelse(variable=="CLA_YJLS", "Legal status",subcategory))))),
+                variable = ifelse(variable=="CLA_Mar2013", "Total",
+                                  ifelse(variable=="CLA_2013", "Total_during",
+                                         ifelse(variable=="CLA_stp2013", "Children who were only looked after exclusively under a series of short term placements",
+                                                ifelse(variable=="CLA_10to15", "10 to 15 years",
+                                                       ifelse(variable=="CLA_16over", "16 years and over",
+                                                              ifelse(variable=="CLA_1to4", "1 to 4 years", variable)))))),
+                variable = ifelse(variable=="CLA_Miss", NA,
+                                  ifelse(variable=="CLA_Moth", NA,
+                                         ifelse(variable=="CLA_1Pla", NA,
+                                                ifelse(variable=="CLA_2PLa", NA,
+                                                       ifelse(variable=="CLA_3Pla", NA,
+                                                              ifelse(variable=="CLA_P2yrs", "Living in the same placement for at least 2 years or are placed for adoption and their adoption and their adoptive placement together with their previous placement, last for at least 2 years", variable)))))),
+                variable = ifelse(variable=="CLA_5to9", "5 to 9 years",
+                                  ifelse(variable=="CLA_Adopt", "Placed for adoption",
+                                         ifelse(variable=="CLA_Asian", "Asian or Asian British",
+                                                ifelse(variable=="CLA_Black", "Black African, Caribbean or Black British",
+                                                       ifelse(variable=="CLA_CPG", "Detained for child protection",
+                                                              ifelse(variable=="CLA_EOTH", "Other ethnic group",
+                                                                     ifelse(variable=="CLA_ExtPl", "2. Other LA children externally placed within the local authority boundary", variable))))))),
+                variable = ifelse(variable=="CLA_FCO", "Full care order",
+                                  ifelse(variable=="CLA_female", "Female",
+                                         ifelse(variable=="CLA_Fost", "Foster placements",
+                                                ifelse(variable=="CLA_FrAd", NA,                                                                                                                                    
+                                                       ifelse(variable=="CLA_ICO", "Interim care order",
+                                                              ifelse(variable=="CLA_InBound", "Placed inside the local authority boundary",variable)))))),
+                variable =               ifelse(variable=="CLA_LAPl", "Placed inside the local authority boundary",
+                                                ifelse(variable=="CLA_male", "Male",
+                                                       ifelse(variable=="CLA_Mixed", "Mixed or Multiple ethnic groups",
+                                                              ifelse(variable=="CLA_NetGain", "Net gain of children by responsible LA",
+                                                                     ifelse(variable=="CLA_Nrep", "Placement provider not reported",
+                                                                            ifelse(variable=="CLA_Ocom", "Other placements in the community", variable)))))),
+                variable = ifelse(variable=="CLA_Ores", "Other residential settings",
+                                  ifelse(variable=="CLA_Oth", "Refused or information not yet available",
+                                         ifelse(variable=="CLA_OthLA", "Other LA provision",
+                                                ifelse(variable=="CLA_OthPl", "Other placements",
+                                                       ifelse(variable=="CLA_OthPP", "Other public provision (e.g. by a PCT etc)",
+                                                              ifelse(variable=="CLA_Outbound", "Placed outside the local authority boundary", variable)))))),
+                variable = ifelse(variable=="CLA_OwnP", "Own provision (by the LA)",
+                                  ifelse(variable=="CLA_Par", "Placed with parents or other person with parental responsibility",
+                                         ifelse(variable=="CLA_Parent", "Parents or other person with parental responsibility",
+                                                ifelse(variable=="CLA_PlaceO", "Placement order granted",
+                                                       ifelse(variable=="CLA_Priv", "Private provision", variable))))),
+                variable =       ifelse(variable=="CLA_RSch", "Residential schools",
+                                        ifelse(variable=="CLA_S20", "Voluntary agreements under S20 CA 1989",
+                                               ifelse(variable=="CLA_Secure", "Secure units children's homes and semi-independent living accommodation",
+                                                      ifelse(variable=="CLA_U1", "Under 1 year",
+                                                             ifelse(variable=="CLA_UASC", "Non-unaccompanied asylum-seeking children",
+                                                                    ifelse(variable=="CLA_Vol", "Voluntary/third sector provision",
+                                                                           ifelse(variable=="CLA_White", "White",
+                                                                                  ifelse(variable=="CLA_YJLS", "Youth justice legal statuses",variable)))))))))
+
 
 
 
@@ -1704,6 +1824,133 @@ admitted <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/children
 
 
 
+
+
+
+
+
+
+
+
+march <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Placement_Characteristics/2012/UnderlyingData/SFR20_CLA2012.csv"),
+                  colClasses = "character")%>%
+  dplyr::mutate_all(~ str_replace(., ",", ""))%>%
+  dplyr::filter(geog_l=="LA")%>%
+  dplyr::rename(LA_Code = New_geog_code,
+                LA.Number = geog_c,
+                LA_Name = geog_n)%>%
+  dplyr::select(-geog_l, -tidyr::starts_with("X"))%>%
+  tidyr::pivot_longer(cols = !c(LA_Name,LA.Number, LA_Code), 
+                      names_to = "variable", values_to = "number")%>%
+  dplyr::group_by(LA_Name, LA_Code, LA.Number) %>%
+  dplyr::mutate(percent = as.character(as.numeric(number) / as.numeric(number[variable == "CLA_Mar2012"])*100))%>%
+  dplyr::mutate(percent = ifelse(variable=="CLA_2012", 100, percent))%>%
+  dplyr::mutate(percent = ifelse(variable=="CLA_P2yrs", NA, percent))%>%
+  dplyr::mutate(percent = ifelse(variable=="CLA_stp2012", as.numeric(number)/as.numeric(number[variable=="CLA_2012"])*100, percent))%>%
+  dplyr::ungroup()%>%
+  dplyr::mutate(category = "child characteristic at 31st March",
+                year="2012",
+                subcategory = ifelse(variable=="CLA_Mar2012", "Age group",
+                                     ifelse(variable=="CLA_2012", "Age group",
+                                            ifelse(variable=="CLA_stp2012", "Age group",
+                                                   ifelse(variable=="CLA_10to15", "Age group",
+                                                          ifelse(variable=="CLA_16over", "Age group",
+                                                                 ifelse(variable=="CLA_1to4", "Age group",NA)))))),
+                subcategory = ifelse(variable=="CLA_Miss", NA,
+                                     ifelse(variable=="CLA_Moth", NA,
+                                            ifelse(variable=="CLA_1Pla", NA,
+                                                   ifelse(variable=="CLA_2PLa", NA,
+                                                          ifelse(variable=="CLA_3Pla", NA,
+                                                                 ifelse(variable=="CLA_P2yrs", "placement stability", subcategory)))))),
+                subcategory = ifelse(variable=="CLA_5to9", "Age group",
+                                     ifelse(variable=="CLA_Adopt", "Placement",
+                                            ifelse(variable=="CLA_Asian", "Ethnicity",
+                                                   ifelse(variable=="CLA_Black", "Ethnicity",
+                                                          ifelse(variable=="CLA_CPG", "Legal status",
+                                                                 ifelse(variable=="CLA_EOTH", "Ethnicity", subcategory)))))),
+                subcategory = ifelse(variable=="CLA_ExtPl", "LA of placement",
+                                     ifelse(variable=="CLA_FCO", "Legal status",
+                                            ifelse(variable=="CLA_female", "Gender",
+                                                   ifelse(variable=="CLA_Fost", "Placement",
+                                                          ifelse(variable=="CLA_FrAd", NA,                                                                                                                                    
+                                                                 ifelse(variable=="CLA_ICO", "Legal status", subcategory)))))),
+                subcategory = ifelse(variable=="CLAA_InBound", "Locality of placement",
+                                     ifelse(variable=="CLA_IntPl", "LA of placement",
+                                            ifelse(variable=="CLA_LAPl", "Placed inside the local authority boundary",subcategory))),
+                subcategory = ifelse(variable=="CLA_male", "Gender",
+                                     ifelse(variable=="CLA_Mixed", "Ethnicity",
+                                            ifelse(variable=="CLA_NetGain", "Net gain of children by responsible LA",
+                                                   ifelse(variable=="CLA_Nrep", "Place providers",
+                                                          ifelse(variable=="CLA_Ocom", "Placement",
+                                                                 ifelse(variable=="CLA_Ores", "Placement",
+                                                                        ifelse(variable=="CLA_Oth", "Ethnicity",
+                                                                               ifelse(variable=="CLA_OthLA", "Place providers",
+                                                                                      ifelse(variable=="CLA_OthPl", "Placement", subcategory))))))))),
+                subcategory =  ifelse(variable=="CLA_OthPP", "Place providers",
+                                      ifelse(variable=="CLA_Outbound", "Locality of placement",
+                                             ifelse(variable=="CLA_OwnP", "Place providers",
+                                                    ifelse(variable=="CLA_Par", "Place providers",
+                                                           ifelse(variable=="CLA_Parent", "Placement",
+                                                                  ifelse(variable=="CLA_PlaceO", "Legal status", subcategory)))))),
+                subcategory =  ifelse(variable=="CLA_Priv", "Place providers", subcategory),
+                subcategory = ifelse(variable=="CLA_RSch", "Placement",
+                                     ifelse(variable=="CLA_S20", "Legal status",
+                                            ifelse(variable=="CLA_Secure", "Placement", subcategory))),
+                subcategory =  ifelse(variable=="CLA_U1", "Age group",
+                                      ifelse(variable=="CLA_UASC", "Unaccompanied asylum-seeking children",
+                                             ifelse(variable=="CLA_Vol", "Place providers",
+                                                    ifelse(variable=="CLA_White", "Ethnicity",
+                                                           ifelse(variable=="CLA_YJLS", "Legal status",subcategory))))),
+                variable = ifelse(variable=="CLA_Mar2012", "Total",
+                                  ifelse(variable=="CLA_2012", "Total_during",
+                                         ifelse(variable=="CLA_stp2012", "Children who were only looked after exclusively under a series of short term placements",
+                                                ifelse(variable=="CLA_10to15", "10 to 15 years",
+                                                       ifelse(variable=="CLA_16over", "16 years and over",
+                                                              ifelse(variable=="CLA_1to4", "1 to 4 years", variable)))))),
+                variable = ifelse(variable=="CLA_Miss", NA,
+                                  ifelse(variable=="CLA_Moth", NA,
+                                         ifelse(variable=="CLA_1Pla", NA,
+                                                ifelse(variable=="CLA_2PLa", NA,
+                                                       ifelse(variable=="CLA_3Pla", NA,
+                                                              ifelse(variable=="CLA_P2yrs", "Living in the same placement for at least 2 years or are placed for adoption and their adoption and their adoptive placement together with their previous placement, last for at least 2 years", variable)))))),
+                variable = ifelse(variable=="CLA_5to9", "5 to 9 years",
+                                  ifelse(variable=="CLA_Adopt", "Placed for adoption",
+                                         ifelse(variable=="CLA_Asian", "Asian or Asian British",
+                                                ifelse(variable=="CLA_Black", "Black African, Caribbean or Black British",
+                                                       ifelse(variable=="CLA_CPG", "Detained for child protection",
+                                                              ifelse(variable=="CLA_EOTH", "Other ethnic group",
+                                                                     ifelse(variable=="CLA_ExtPl", "2. Other LA children externally placed within the local authority boundary", variable))))))),
+                variable = ifelse(variable=="CLA_FCO", "Full care order",
+                                  ifelse(variable=="CLA_female", "Female",
+                                         ifelse(variable=="CLA_Fost", "Foster placements",
+                                                ifelse(variable=="CLA_FrAd", NA,                                                                                                                                    
+                                                       ifelse(variable=="CLA_ICO", "Interim care order",
+                                                              ifelse(variable=="CLAA_InBound", "Placed inside the local authority boundary",variable)))))),
+                variable =               ifelse(variable=="CLA_LAPl", "Placed inside the local authority boundary",
+                                                ifelse(variable=="CLA_male", "Male",
+                                                       ifelse(variable=="CLA_Mixed", "Mixed or Multiple ethnic groups",
+                                                              ifelse(variable=="CLA_NetGain", "Net gain of children by responsible LA",
+                                                                     ifelse(variable=="CLA_Nrep", "Placement provider not reported",
+                                                                            ifelse(variable=="CLA_Ocom", "Other placements in the community", variable)))))),
+                variable = ifelse(variable=="CLA_Ores", "Other residential settings",
+                                  ifelse(variable=="CLA_Oth", "Refused or information not yet available",
+                                         ifelse(variable=="CLA_OthLA", "Other LA provision",
+                                                ifelse(variable=="CLA_OthPl", "Other placements",
+                                                       ifelse(variable=="CLA_OthPP", "Other public provision (e.g. by a PCT etc)",
+                                                              ifelse(variable=="CLA_Outbound", "Placed outside the local authority boundary", variable)))))),
+                variable = ifelse(variable=="CLA_OwnP", "Own provision (by the LA)",
+                                  ifelse(variable=="CLA_Par", "Placed with parents or other person with parental responsibility",
+                                         ifelse(variable=="CLA_Parent", "Parents or other person with parental responsibility",
+                                                ifelse(variable=="CLA_PlaceO", "Placement order granted",
+                                                       ifelse(variable=="CLA_Priv", "Private provision", variable))))),
+                variable =       ifelse(variable=="CLA_RSch", "Residential schools",
+                                        ifelse(variable=="CLA_S20", "Voluntary agreements under S20 CA 1989",
+                                               ifelse(variable=="CLA_Secure", "Secure units children's homes and semi-independent living accommodation",
+                                                      ifelse(variable=="CLA_U1", "Under 1 year",
+                                                             ifelse(variable=="CLA_UASC", "Non-unaccompanied asylum-seeking children",
+                                                                    ifelse(variable=="CLA_Vol", "Voluntary/third sector provision",
+                                                                           ifelse(variable=="CLA_White", "White",
+                                                                                  ifelse(variable=="CLA_YJLS", "Youth justice legal statuses",variable)))))))))
 
 
 
@@ -1891,6 +2138,134 @@ admitted <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/children
 
 
 
+
+
+march <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Placement_Characteristics/2011/SFR21_CLA.csv"),
+                  colClasses = "character")%>%
+  dplyr::mutate_all(~ str_replace(., ",", ""))%>%
+  dplyr::filter(geog_l=="LA")%>%
+  dplyr::rename(LA_Code = New_geog_code,
+                LA.Number = geog_c,
+                LA_Name = geog_n)%>%
+  dplyr::select(-geog_l, -tidyr::starts_with("X"))%>%
+  tidyr::pivot_longer(cols = !c(LA_Name,LA.Number, LA_Code), 
+                      names_to = "variable", values_to = "number")%>%
+  dplyr::group_by(LA_Name, LA_Code, LA.Number) %>%
+  dplyr::mutate(percent = as.character(as.numeric(number) / as.numeric(number[variable == "CLA_Mar2011"])*100))%>%
+  dplyr::mutate(percent = ifelse(variable=="CLA_2011", 100, percent))%>%
+  dplyr::mutate(percent = ifelse(variable=="CLA_P2yrs", NA, percent))%>%
+  dplyr::mutate(percent = ifelse(variable=="CLA_stp2011", as.numeric(number)/as.numeric(number[variable=="CLA_2011"])*100, percent))%>%
+  dplyr::ungroup()%>%
+  dplyr::mutate(category = "child characteristic at 31st March",
+                year="2011",
+                subcategory = ifelse(variable=="CLA_Mar2011", "Age group",
+                                     ifelse(variable=="CLA_2011", "Age group",
+                                            ifelse(variable=="CLA_stp2011", "Age group",
+                                                   ifelse(variable=="CLA_10to15", "Age group",
+                                                          ifelse(variable=="CLA_16over", "Age group",
+                                                                 ifelse(variable=="CLA_1to4", "Age group",NA)))))),
+                subcategory = ifelse(variable=="CLA_Miss", NA,
+                                     ifelse(variable=="CLA_Moth", NA,
+                                            ifelse(variable=="CLA_1Pla", NA,
+                                                   ifelse(variable=="CLA_2PLa", NA,
+                                                          ifelse(variable=="CLA_3Pla", NA,
+                                                                 ifelse(variable=="CLA_P2yrs", "placement stability", subcategory)))))),
+                subcategory = ifelse(variable=="CLA_5to9", "Age group",
+                                     ifelse(variable=="CLA_Adopt", "Placement",
+                                            ifelse(variable=="CLA_Asian", "Ethnicity",
+                                                   ifelse(variable=="CLA_Black", "Ethnicity",
+                                                          ifelse(variable=="CLA_CPG", "Legal status",
+                                                                 ifelse(variable=="CLA_EOTH", "Ethnicity", subcategory)))))),
+                subcategory = ifelse(variable=="CLA_ExtPl", "LA of placement",
+                                     ifelse(variable=="CLA_FCO", "Legal status",
+                                            ifelse(variable=="CLA_female", "Gender",
+                                                   ifelse(variable=="CLA_Fost", "Placement",
+                                                          ifelse(variable=="CLA_FrAd", NA,                                                                                                                                    
+                                                                 ifelse(variable=="CLA_ICO", "Legal status", subcategory)))))),
+                subcategory = ifelse(variable=="CLAA_InBound", "Locality of placement",
+                                     ifelse(variable=="CLA_IntPl", "LA of placement",
+                                            ifelse(variable=="CLA_LAPl", "Placed inside the local authority boundary",subcategory))),
+                subcategory = ifelse(variable=="CLA_male", "Gender",
+                                     ifelse(variable=="CLA_Mixed", "Ethnicity",
+                                            ifelse(variable=="CLA_NetGain", "Net gain of children by responsible LA",
+                                                   ifelse(variable=="CLA_Nrep", "Place providers",
+                                                          ifelse(variable=="CLA_Ocom", "Placement",
+                                                                 ifelse(variable=="CLA_Ores", "Placement",
+                                                                        ifelse(variable=="CLA_Oth", "Ethnicity",
+                                                                               ifelse(variable=="CLA_OthLA", "Place providers",
+                                                                                      ifelse(variable=="CLA_OthPl", "Placement", subcategory))))))))),
+                subcategory =  ifelse(variable=="CLA_OthPP", "Place providers",
+                                      ifelse(variable=="CLA_Outbound", "Locality of placement",
+                                             ifelse(variable=="CLA_OwnP", "Place providers",
+                                                    ifelse(variable=="CLA_Par", "Place providers",
+                                                           ifelse(variable=="CLA_Parent", "Placement",
+                                                                  ifelse(variable=="CLA_PlaceO", "Legal status", subcategory)))))),
+                subcategory =  ifelse(variable=="CLA_Priv", "Place providers", subcategory),
+                subcategory = ifelse(variable=="CLA_RSch", "Placement",
+                                     ifelse(variable=="CLA_S20", "Legal status",
+                                            ifelse(variable=="CLA_Secure", "Placement", subcategory))),
+                subcategory =  ifelse(variable=="CLA_U1", "Age group",
+                                      ifelse(variable=="CLA_UASC", "Unaccompanied asylum-seeking children",
+                                             ifelse(variable=="CLA_Vol", "Place providers",
+                                                    ifelse(variable=="CLA_White", "Ethnicity",
+                                                           ifelse(variable=="CLA_YJLS", "Legal status",subcategory))))),
+                variable = ifelse(variable=="CLA_Mar2011", "Total",
+                                  ifelse(variable=="CLA_2011", "Total_during",
+                                         ifelse(variable=="CLA_stp2011", "Children who were only looked after exclusively under a series of short term placements",
+                                                ifelse(variable=="CLA_10to15", "10 to 15 years",
+                                                       ifelse(variable=="CLA_16over", "16 years and over",
+                                                              ifelse(variable=="CLA_1to4", "1 to 4 years", variable)))))),
+                variable = ifelse(variable=="CLA_Miss", NA,
+                                  ifelse(variable=="CLA_Moth", NA,
+                                         ifelse(variable=="CLA_1Pla", NA,
+                                                ifelse(variable=="CLA_2PLa", NA,
+                                                       ifelse(variable=="CLA_3Pla", NA,
+                                                              ifelse(variable=="CLA_P2yrs", "Living in the same placement for at least 2 years or are placed for adoption and their adoption and their adoptive placement together with their previous placement, last for at least 2 years", variable)))))),
+                variable = ifelse(variable=="CLA_5to9", "5 to 9 years",
+                                  ifelse(variable=="CLA_Adopt", "Placed for adoption",
+                                         ifelse(variable=="CLA_Asian", "Asian or Asian British",
+                                                ifelse(variable=="CLA_Black", "Black African, Caribbean or Black British",
+                                                       ifelse(variable=="CLA_CPG", "Detained for child protection",
+                                                              ifelse(variable=="CLA_EOTH", "Other ethnic group",
+                                                                     ifelse(variable=="CLA_ExtPl", "2. Other LA children externally placed within the local authority boundary", variable))))))),
+                variable = ifelse(variable=="CLA_FCO", "Full care order",
+                                  ifelse(variable=="CLA_female", "Female",
+                                         ifelse(variable=="CLA_Fost", "Foster placements",
+                                                ifelse(variable=="CLA_FrAd", NA,                                                                                                                                    
+                                                       ifelse(variable=="CLA_ICO", "Interim care order",
+                                                              ifelse(variable=="CLAA_InBound", "Placed inside the local authority boundary",variable)))))),
+                variable =               ifelse(variable=="CLA_LAPl", "Placed inside the local authority boundary",
+                                                ifelse(variable=="CLA_male", "Male",
+                                                       ifelse(variable=="CLA_Mixed", "Mixed or Multiple ethnic groups",
+                                                              ifelse(variable=="CLA_NetGain", "Net gain of children by responsible LA",
+                                                                     ifelse(variable=="CLA_Nrep", "Placement provider not reported",
+                                                                            ifelse(variable=="CLA_Ocom", "Other placements in the community", variable)))))),
+                variable = ifelse(variable=="CLA_Ores", "Other residential settings",
+                                  ifelse(variable=="CLA_Oth", "Refused or information not yet available",
+                                         ifelse(variable=="CLA_OthLA", "Other LA provision",
+                                                ifelse(variable=="CLA_OthPl", "Other placements",
+                                                       ifelse(variable=="CLA_OthPP", "Other public provision (e.g. by a PCT etc)",
+                                                              ifelse(variable=="CLA_Outbound", "Placed outside the local authority boundary", variable)))))),
+                variable = ifelse(variable=="CLA_OwnP", "Own provision (by the LA)",
+                                  ifelse(variable=="CLA_Par", "Placed with parents or other person with parental responsibility",
+                                         ifelse(variable=="CLA_Parent", "Parents or other person with parental responsibility",
+                                                ifelse(variable=="CLA_PlaceO", "Placement order granted",
+                                                       ifelse(variable=="CLA_Priv", "Private provision", variable))))),
+                variable =       ifelse(variable=="CLA_RSch", "Residential schools",
+                                        ifelse(variable=="CLA_S20", "Voluntary agreements under S20 CA 1989",
+                                               ifelse(variable=="CLA_Secure", "Secure units children's homes and semi-independent living accommodation",
+                                                      ifelse(variable=="CLA_U1", "Under 1 year",
+                                                             ifelse(variable=="CLA_UASC", "Non-unaccompanied asylum-seeking children",
+                                                                    ifelse(variable=="CLA_Vol", "Voluntary/third sector provision",
+                                                                           ifelse(variable=="CLA_White", "White",
+                                                                                  ifelse(variable=="CLA_YJLS", "Youth justice legal statuses",variable)))))))))
+
+
+
+
+
+
+
 ceased <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Placement_Characteristics/2011/SFR21_CEA.csv"),
                    colClasses = "character")%>%
   dplyr::mutate_all(~ str_replace(., ",", ""))%>%
@@ -2019,93 +2394,127 @@ admitted <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/children
 
 
 
-ceased <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Placement_Characteristics/2011/SFR21_CEA.csv"),
+ceased <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Placement_Characteristics/2010/SFR27_2010_Ceased.csv"),
                    colClasses = "character")%>%
   dplyr::mutate_all(~ str_replace(., ",", ""))%>%
   dplyr::filter(geog_l=="LA")%>%
-  dplyr::rename(LA_Code = New_geog_code,
-                LA.Number = geog_c,
+  dplyr::rename(LA.Number = geog_c,
                 LA_Name = geog_n)%>%
   dplyr::select(-geog_l)%>%
-  dplyr::mutate(`Special guardianship orders` = as.character(as.numeric(CLA_ceaSpecG)+as.numeric(CLA_ceaSpecG2), na.rm=F),
-                `Adopted` = as.character(as.numeric(CLA_ceaAdop)+as.numeric(CLA_ceaAdop2), na.rm=F))%>%
+  dplyr::mutate(LA_Code = NA,
+                `Special guardianship orders` = as.character(as.numeric(CeasedSpeGuaForm_2010)+as.numeric(CeasedSpecGuaOth_2010), na.rm=F),
+                `Adopted` = as.character(as.numeric(CeasedAdoptUnop_2010)+as.numeric(CeasedAdoptDisp_2010), na.rm=F))%>%
   tidyr::pivot_longer(cols = !c(LA_Name,LA.Number, LA_Code), 
                       names_to = "variable", values_to = "number")%>%
   dplyr::group_by(LA_Name, LA_Code, LA.Number) %>%
-  dplyr::mutate(percent = as.character(as.numeric(number) / as.numeric(number[variable == "CLA_cease"])*100)) %>%
+  dplyr::mutate(percent = as.character(as.numeric(number) / as.numeric(number[variable == "CeasedTotal_2010"])*100)) %>%
   dplyr::ungroup()%>%
   dplyr::mutate(category = "ceased during",
-                year="2011",
-                subcategory = ifelse(variable == "CLA_cease", "Age on ceasing",
+                year="2010",
+                subcategory = ifelse(variable == "CeasedTotal_2010", "Age on ceasing",
                                      ifelse(variable=="Special guardianship orders","Reason episode ceased",
                                             ifelse(variable== "Adopted", "Reason episode ceased",
-                                                   ifelse(variable=="CLA_cea1015","Age on ceasing",
-                                                          ifelse(variable=="CLA_cease16","Age on ceasing",
-                                                                 ifelse(variable=="CLA_cea17","Age on ceasing",
-                                                                        ifelse(variable=="CLA_cea18","Age on ceasing",
-                                                                               ifelse(variable=="CLA_cea14","Age on ceasing",
-                                                                                      ifelse(variable=="CLA_cea59","Age on ceasing",
-                                                                                             ifelse(variable=="CLA_ceaAbroad","Reason episode ceased",
+                                                   ifelse(variable=="Ceased1015","Age on ceasing",
+                                                          ifelse(variable=="Ceasedse16","Age on ceasing",
+                                                                 ifelse(variable=="Ceased17","Age on ceasing",
+                                                                        ifelse(variable=="Ceased18","Age on ceasing",
+                                                                               ifelse(variable=="Ceased14","Age on ceasing",
+                                                                                      ifelse(variable=="Ceased59","Age on ceasing",
+                                                                                             ifelse(variable=="CeasedAbroad","Reason episode ceased",
                                                                                                     # ifelse(variable=="CEA_Adop1","",
                                                                                                     #   ifelse(variable=="CEA_Adop2","",
-                                                                                                    ifelse(variable=="CLA_ceaAgeAssmt","Reason episode ceased",
-                                                                                                           ifelse(variable=="CLA_ceaROG","Reason episode ceased",
+                                                                                                    ifelse(variable=="CeasedAgeAssmt","Reason episode ceased",
+                                                                                                           ifelse(variable=="CeasedResOrd_2010","Reason episode ceased",
                                                                                                                   NA)))))))))))),
-                subcategory = ifelse(variable == "CLA_cea_sen_cust", "Reason episode ceased",
-                                     ifelse(variable=="CLA.ceaDied", "Reason episode ceased",
-                                            ifelse(variable=="CLA_ceafe", "Gender",
-                                                   ifelse(variable=="CLA_ceaIndLiv", "Reason episode ceased",
-                                                          ifelse(variable=="CLA_ceaIndLiv2", "Reason episode ceased",
-                                                                 ifelse(variable=="CLA_ceamal", "Gender",
-                                                                        ifelse(variable=="CLA_ceaNoPar", "Reason episode ceased",
-                                                                               ifelse(variable=="CLA_cea_OthRea", "Reason episode ceased",
-                                                                                      ifelse(variable=="CLA_ceaParNPlan", "Reason episode ceased",
-                                                                                             ifelse(variable=="CLA_ceaParPlan", "Reason episode ceased",
-                                                                                                    ifelse(variable=="CLA_ceaRemEnd", "Reason episode ceased",
-                                                                                                           ifelse(variable=="CLA_cea_tran_res", "Reason episode ceased",
+                subcategory = ifelse(variable == "CeasedCust_2010", "Reason episode ceased",
+                                     ifelse(variable=="CeasedDied_2010", "Reason episode ceased",
+                                            ifelse(variable=="Ceasedfe", "Gender",
+                                                   ifelse(variable=="CeasedIndSup_2010", "Reason episode ceased",
+                                                          ifelse(variable=="CeasedIndNoSup_2010", "Reason episode ceased",
+                                                                 ifelse(variable=="Ceasedmal", "Gender",
+                                                                        ifelse(variable=="CeasedNoPar", "Reason episode ceased",
+                                                                               ifelse(variable=="CeasedOther_2010", "Reason episode ceased",
+                                                                                      ifelse(variable=="CeasedParNPlan", "Reason episode ceased",
+                                                                                             ifelse(variable=="CeasedParPlan", "Reason episode ceased",
+                                                                                                    ifelse(variable=="CeasedRemEnd", "Reason episode ceased",
+                                                                                                           ifelse(variable=="CeasedAduCare_2010", "Reason episode ceased",
                                                                                                                   subcategory)))))))))))),
                 subcategory = #ifelse(variable=="CEA_SGO1","",
                   #      ifelse(variable=="CEA_SGO2","",
-                  ifelse(variable=="CLA_ceataken","Reason episode ceased",
-                         ifelse(variable=="CLA_cea1","Age on ceasing",
+                  ifelse(variable=="CeasedAnotherLA_2010","Reason episode ceased",
+                         ifelse(variable=="Ceased1","Age on ceasing",
                                 subcategory)),
-                variable = ifelse(variable == "CLA_cease", "Total",
-                                  ifelse(variable=="CLA_cea1015","10 to 15 years",
-                                         ifelse(variable=="CLA_cease16","16 years",
-                                                ifelse(variable=="CLA_cea17","17 years",
-                                                       ifelse(variable=="CLA_cea18","18 years and over",
-                                                              ifelse(variable=="CLA_cea14","1 to 4 years",
-                                                                     ifelse(variable=="CLA_cea59","5 to 9 years",
-                                                                            ifelse(variable=="CLA_ceaAbroad","Child moved abroad",
+                variable = ifelse(variable == "CeasedTotal_2010", "Total",
+                                  ifelse(variable=="Ceased1015","10 to 15 years",
+                                         ifelse(variable=="Ceasedse16","16 years",
+                                                ifelse(variable=="Ceased17","17 years",
+                                                       ifelse(variable=="Ceased18","18 years and over",
+                                                              ifelse(variable=="Ceased14","1 to 4 years",
+                                                                     ifelse(variable=="Ceased59","5 to 9 years",
+                                                                            ifelse(variable=="CeasedAbroad","Child moved abroad",
                                                                                    # ifelse(variable=="CEA_Adop1","",
                                                                                    #   ifelse(variable=="CEA_Adop2","",
-                                                                                   ifelse(variable=="CLA_ceaAgeAssmt","Age assessment determined child aged 18 or over",
-                                                                                          ifelse(variable=="CLA_ceaROG","Residence order or child arrangement order granted",
+                                                                                   ifelse(variable=="CeasedAgeAssmt","Age assessment determined child aged 18 or over",
+                                                                                          ifelse(variable=="CeasedResOrd_2010","Residence order or child arrangement order granted",
                                                                                                  variable)))))))))),
-                variable = ifelse(variable == "CLA_cea_sen_cust", "Sentenced to custody",
-                                  ifelse(variable=="CLA.ceaDied", "Died",
-                                         ifelse(variable=="CLA_ceafe", "Female",
-                                                ifelse(variable=="CLA_ceaIndLiv", "Moved into independent living (with supportive accommodation)",
-                                                       ifelse(variable=="CLA_ceaIndLiv2", "Moved into independent living (with no formalised support)",
-                                                              ifelse(variable=="CLA_ceamal", "Male",
-                                                                     ifelse(variable=="CLA_ceaNoPar", "Left care to live with parents relatives or other person with no parental responsibility",
-                                                                            ifelse(variable=="CLA_cea_OthRea", "Care ceased for any other reason",
-                                                                                   ifelse(variable=="CLA_ceaParNPlan", "Returned home to live with parents or other person with parental responsibility which was not part of the care planning process",
-                                                                                          ifelse(variable=="CLA_ceaParPlan", "Returned home to live with parents or other person with parental responsibility which was part of the care planning process",
-                                                                                                 ifelse(variable=="CLA_ceaRemEnd", "Accommodation on remand ended",
-                                                                                                        ifelse(variable=="CLA_cea_tran_res", "Transferred to residential care funded by adult social services",
+                variable = ifelse(variable == "CeasedCust_2010", "Sentenced to custody",
+                                  ifelse(variable=="CeasedDied_2010", "Died",
+                                         ifelse(variable=="Ceasedfe", "Female",
+                                                ifelse(variable=="CeasedIndSup_2010", "Moved into independent living (with supportive accommodation)",
+                                                       ifelse(variable=="CeasedIndNoSup_2010", "Moved into independent living (with no formalised support)",
+                                                              ifelse(variable=="Ceasedmal", "Male",
+                                                                     ifelse(variable=="CeasedNoPar", "Left care to live with parents relatives or other person with no parental responsibility",
+                                                                            ifelse(variable=="CeasedOther_2010", "Care ceased for any other reason",
+                                                                                   ifelse(variable=="CeasedParNPlan", "Returned home to live with parents or other person with parental responsibility which was not part of the care planning process",
+                                                                                          ifelse(variable=="CeasedParPlan", "Returned home to live with parents or other person with parental responsibility which was part of the care planning process",
+                                                                                                 ifelse(variable=="CeasedRemEnd", "Accommodation on remand ended",
+                                                                                                        ifelse(variable=="CeasedAduCare_2010", "Transferred to residential care funded by adult social services",
                                                                                                                variable)))))))))))),
                 variable = #ifelse(variable=="CEA_SGO1","",
                   #      ifelse(variable=="CEA_SGO2","",
-                  ifelse(variable=="CLA_ceataken","Care taken by another local authority",
-                         ifelse(variable=="CLA_cea1","Under 1 year",
+                  ifelse(variable=="CeasedAnotherLA_2010","Care taken by another local authority",
+                         ifelse(variable=="Ceased1","Under 1 year",
                                 variable)))%>%
-  dplyr::filter(variable!="CLA_ceaAdop",
-                variable!="CLA_ceaAdop2",
-                variable!="CLA_ceaSpecG",
-                variable!="CLA_ceaSpecG2",
-                variable!="CLA_cea16",
-                variable!="CLA_ceaPar")
+  dplyr::filter(variable!="CeasedAdoptDisp_2010",
+                variable!="CeasedAdoptUnop_2010",
+                variable!="CeasedSpeGuaForm_2010",
+                variable!="CeasedSpecGuaOth_2010",
+                variable!="Ceased16",
+                variable!="CeasedHome_2010")
+
+
+
+
+
+
+march <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Placement_Characteristics/2010/SFR27_2010_March.csv"),
+                  colClasses = "character")[c(1:4)]%>%
+  dplyr::mutate_all(~ str_replace(., ",", ""))%>%
+  dplyr::filter(geog_l=="LA")%>%
+  dplyr::rename(LA.Number = geog_c,
+                LA_Name = geog_n)%>%
+  dplyr::mutate(LA_Code=NA)%>%
+  dplyr::select(-geog_l, -tidyr::starts_with("X"))%>%
+  tidyr::pivot_longer(cols = !c(LA_Name,LA.Number, LA_Code), 
+                      names_to = "variable", values_to = "number")%>%
+  dplyr::group_by(LA_Name, LA_Code, LA.Number) %>%
+  dplyr::mutate(percent = as.character(as.numeric(number) / as.numeric(number[variable == "MarTotal_2010"])*100))%>%
+  #dplyr::mutate(percent = ifelse(variable=="CLA_2010", 100, percent))%>%
+  #dplyr::mutate(percent = ifelse(variable=="CLA_P2yrs", NA, percent))%>%
+  #dplyr::mutate(percent = ifelse(variable=="CLA_stp2010", as.numeric(number)/as.numeric(number[variable=="CLA_2010"])*100, percent))%>%
+  dplyr::ungroup()%>%
+  dplyr::mutate(category = "child characteristic at 31st March",
+                year="2010",
+                subcategory = "Age group",
+                variable = "Total")
+
+
+
+
+
+
+
+
 
 
 
