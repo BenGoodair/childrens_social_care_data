@@ -987,6 +987,33 @@ ceased <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_
 
 
 
+
+
+
+
+leavers <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Placement_Characteristics/2016/SFR41_CareLeavers2016.csv"),
+                     colClasses = "character")%>%
+  dplyr::mutate_all(~ str_replace(., ",", ""))%>%
+  dplyr::filter(geog_l=="LA")%>%
+  dplyr::rename(LA_Code = New_geog_code,
+                LA.Number = geog_c,
+                LA_Name = geog_n)%>%
+  dplyr::select(LA_Code, LA.Number, LA_Name, (tidyr::ends_with("17.18")|tidyr::ends_with("1920.21")))%>%#
+  #dplyr::mutate(`Total in education employment or training` = as.character(as.numeric(CL_Act_HE17.18)+ as.numeric(CL_Act_OE17.18)+as.numeric(CL_Act_TE17.18)))%>%
+  tidyr::pivot_longer(cols = !c(LA_Name,LA.Number, LA_Code), 
+                      names_to = "variable", values_to = "number")%>%
+  dplyr::group_by(LA_Name, LA_Code, LA.Number) %>%
+  dplyr::mutate(percent = ifelse(grepl('17.18$', variable), (as.character(as.numeric(number) / as.numeric(number[variable == "All_aged17.18"])*100)),
+                                 ifelse(grepl('1920.21$', leavers$variable), as.character(as.numeric(number) / as.numeric(number[variable == "All_aged1920.21"])*100),NA))) %>%
+  dplyr::ungroup()%>%
+  dplyr::mutate(category = "care leavers",
+                year="2017",
+                subcategory = "17 to 18 years",
+                variable = 
+
+
+
+
 characteristics <- rbind(characteristics, admitted, march, ceased)
 
 
