@@ -1003,12 +1003,12 @@ leavers <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens
                       names_to = "variable", values_to = "number")%>%
   dplyr::group_by(LA_Name, LA_Code, LA.Number) %>%
   dplyr::mutate(percent = ifelse(grepl('17.18$', variable), (as.character(as.numeric(number) / as.numeric(number[variable == "All_aged17.18"])*100)),
-                                 ifelse(grepl('1920.21$', leavers$variable), as.character(as.numeric(number) / as.numeric(number[variable == "All_aged1920.21"])*100),NA))) %>%
+                                 ifelse(grepl('1920.21$', variable), as.character(as.numeric(number) / as.numeric(number[variable == "All_aged1920.21"])*100),NA))) %>%
   dplyr::ungroup()%>%
   dplyr::mutate(category = "care leavers",
                 year="2016",
                 subcategory = ifelse(grepl('17.18$', variable), "17 to 18 years",
-                                  ifelse(grepl('1920.21$', leavers$variable), "19 to 21 years", NA)),
+                                  ifelse(grepl('1920.21$', variable), "19 to 21 years", NA)),
                 variable = gsub("17.18", "", variable),
                 variable = gsub("1920.21", "", variable),
                 variable = ifelse(variable=="Acc_BB", "Bed and breakfast",
@@ -1053,7 +1053,7 @@ leavers <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens
 
 
 
-characteristics <- rbind(characteristics, admitted, march, ceased)
+characteristics <- rbind(characteristics, admitted, march, ceased, leavers)
 
 
 ####2015####
@@ -1403,7 +1403,7 @@ leavers <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens
 
 
 
-characteristics <- rbind(characteristics, admitted, march, ceased)
+characteristics <- rbind(characteristics, admitted, march, ceased, leavers)
 ####2014####
 
 admitted <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Placement_Characteristics/2014/SFR36_ADM2014.csv"),
@@ -1696,14 +1696,70 @@ ceased <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_
 
 
 
+leavers <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Children_Placement_Characteristics/2014/SFR36_FormerCareLeavers2014.csv"),
+                    colClasses = "character")%>%
+  dplyr::mutate_all(~ str_replace(., ",", ""))%>%
+  dplyr::filter(geog_l=="LA")%>%
+  dplyr::rename(LA_Code = New_geog_code,
+                LA.Number = geog_c,
+                LA_Name = geog_n)%>%
+  dplyr::select(-geog_l)%>%#
+  #dplyr::mutate(`Total in education employment or training` = as.character(as.numeric(CL_Act_HE17.18)+ as.numeric(CL_Act_OE17.18)+as.numeric(CL_Act_TE17.18)))%>%
+  tidyr::pivot_longer(cols = !c(LA_Name,LA.Number, LA_Code), 
+                      names_to = "variable", values_to = "number")%>%
+  dplyr::group_by(LA_Name, LA_Code, LA.Number) %>%
+  dplyr::mutate(percent = as.character(as.numeric(number) / as.numeric(number[variable == "All_aged1920.21"])*100)) %>%
+  dplyr::ungroup()%>%
+  dplyr::mutate(category = "care leavers",
+                year="2014",
+                subcategory = "19 to 21 years",
+                #variable = gsub("17.18", "", variable),
+                #variable = gsub("1920.21", "", variable),
+                variable = ifelse(variable=="Acc_BB", "Bed and breakfast",
+                                  ifelse(variable=="Acc_CH", "Community home",
+                                         ifelse(variable=="Acc_Cust", "In custody",
+                                                ifelse(variable=="Acc_Dep", "Deported",
+                                                       ifelse(variable=="Acc_EA", "Emergency accommodation",
+                                                              ifelse(variable=="Acc_F", "Foyers",
+                                                                     ifelse(variable=="Acc_FFC", "With former foster carers",
+                                                                            ifelse(variable=="Acc_GA", "Gone abroad",
+                                                                                   variable)))))))),
+                variable = ifelse(variable=="Acc_IL", "Independent living",
+                                  ifelse(variable=="Acc_NFA","No fixed abode/homeless",
+                                         ifelse(variable=="Acc_ResNk","Residence not known",
+                                                ifelse(variable=="LA_Noinf.1","Total information not known",
+                                                       ifelse(variable=="Acc_NoSUITInfo","No information",
+                                                              ifelse(variable=="Acc_NotSUIT","Accommodation considered not suitable",
+                                                                     ifelse(variable=="Acc_OL","Ordinary lodgings",
+                                                                            ifelse(variable=="Acc_OTH","Other accommodation",
+                                                                                   variable)))))))),
+                variable = ifelse(variable=="Acc_P", "With parents or relatives",
+                                  ifelse(variable=="Acc_SITA","Semi-independent transitional accommodation",
+                                         ifelse(variable=="Acc_SL","Supported lodgings",
+                                                ifelse(variable=="Acc_SUIT","Accommodation considered suitable",
+                                                       ifelse(variable=="Act_HE","Higher education i.e. studies beyond A level",
+                                                              ifelse(variable=="Act_NEET_ill","Not in education training or employment, owing to illness or disability",
+                                                                     ifelse(variable=="Act_NEET_oth","Not in education training or employment, owing to other reasons",
+                                                                            ifelse(variable=="Act_NEET_preg","Not in education training or employment, owing to pregnancy or parenting",
+                                                                                   variable)))))))),
+                variable = ifelse(variable=="LA_Noinf", "Total information not known",
+                                  ifelse(variable=="Act_OE","Education other than higher education",
+                                         ifelse(variable=="All_aged1920.21","Total",
+                                                ifelse(variable=="Acc_SUIT","Accommodation considered suitable",
+                                                       ifelse(variable=="InTouch_IT","Local authority in touch with care leaver",
+                                                              ifelse(variable=="InTouch_NoServ","Young person no longer requires services",
+                                                                     ifelse(variable=="InTouch_Not","Local authority not in touch with care leaver",
+                                                                            ifelse(variable=="InTouch_Refu","Young person refuses contact",
+                                                                                   ifelse(variable=="Act_TE","In training or employment",
+                                                                                          ifelse(variable == "ChildDied", NA,
+                                                                                                 ifelse(variable == "ChildDied.1",NA, variable))))))))))))
 
 
 
 
 
 
-
-characteristics <- rbind(characteristics, admitted, march, ceased)
+characteristics <- rbind(characteristics, admitted, march, ceased, leavers)
 
 ####2013####
 
@@ -2776,7 +2832,7 @@ characteristics <- rbind(characteristics, admitted, march, ceased)
 
 
 
-
+#write.csv(characteristics, "C:/Users/benjamin.goodair/OneDrive - Nexus365/Documents/GitHub/childrens_social_care_data/Final_Data/categories/placement_characteristics.csv")
 
 
 
