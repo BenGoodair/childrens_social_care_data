@@ -196,11 +196,38 @@ ExpenditureData22 <- ExpenditureData22 %>% dplyr::filter(geographic_level == "Lo
   
 fulldata <- rbind(fulldata, ExpenditureData22)
 
+fulldata <- fulldata%>%
+  mutate(variable= ifelse(variable=="Asylum seeker services - children", "Asylum seeker services children",
+                          ifelse(variable=="Fostering services", "Total fostering services",
+                                 ifelse(variable=="Total Fostering services","Total fostering services", variable
+                                        ))))
 
 
+pre2014 <- pre2014%>%
+  mutate(variable = ifelse(variable=="Asylum seeker services - children", "Asylum seeker services children",
+                           ifelse(variable=="Fostering services", "Total fostering services",
+                                  ifelse(variable=="Other children looked after", "Other children looked after services",variable))))%>%
+  dplyr::filter(variable=="Adoption services"|
+                  variable=="Asylum seeker services children"|
+                  variable=="Children placed with family and friends"|
+                  variable=="Education of looked after children"|
+                  variable=="Fostering services (excluding fees and allowances for LA foster carers)"|
+                  variable=="Fostering services (fees and allowances for LA foster carers)"|
+                  variable=="Leaving care support services"|
+                  variable=="Other children looked after services"|
+                  variable=="Residential care"|
+                  variable=="Short breaks (respite) for looked after disabled children"|
+                  variable=="Special guardianship support"|
+                  variable=="Total Children Looked After"|
+                  variable=="Total fostering services")
 
 
+fulldata <- rbind(fulldata, pre2014)
 
+fulldata <- fulldata %>%
+  dplyr::group_by(LA_Name, LA_Code, LA.Number, year, variable) %>%
+  dplyr::mutate(percent = as.character(as.numeric(number) / as.numeric(number[subcategory == "TotalExpenditure"])*100))%>%
+  dplyr::ungroup()
 
 write.csv(fulldata, "Data/LA_Expenditure_Childrens_Services.csv")
 
