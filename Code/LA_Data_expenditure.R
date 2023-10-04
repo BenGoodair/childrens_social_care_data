@@ -227,7 +227,13 @@ fulldata <- rbind(fulldata, pre2014)
 fulldata <- fulldata %>%
   dplyr::group_by(LA_Name, LA_Code, LA.Number, year, variable) %>%
   dplyr::mutate(percent = as.character(as.numeric(number) / as.numeric(number[subcategory == "TotalExpenditure"])*100))%>%
-  dplyr::ungroup()
+  dplyr::ungroup() %>%
+  dplyr::mutate(subcategory = ifelse(subcategory=="Voluntary","Third_sector",
+                                     ifelse(subcategory=="PrivateProvision","For_profit",
+                                            ifelse(subcategory=="TotalExpenditure","Total_expenditure",
+                                                   ifelse(subcategory=="OwnProvision","Own_provision",
+                                                          ifelse(subcategory=="OtherPublic","Other_public_provision",
+                                                          NA))))))
 
-write.csv(fulldata, "Data/LA_Expenditure_Childrens_Services.csv")
+#write.csv(fulldata, "C:/Users/benjamin.goodair/OneDrive - Nexus365/Documents/GitHub/childrens_social_care_data/Final_Data/categories/expenditure.csv")
 
