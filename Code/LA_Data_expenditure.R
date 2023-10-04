@@ -26,6 +26,8 @@ outturn1314 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/child
                         colClasses = "character")
 ExpenditureData <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/LA_Spend/LA_Care_Expenditure_By_Ownership_OverTime.csv"),
                         colClasses = "character")
+ExpenditureData22 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/LA_Spend/LA_Care_Expenditure_By_Ownership_OverTime_22.csv"),
+                            colClasses = "character")
 
 outturn0809 <- outturn0809 %>% dplyr::mutate(S52.Line.Reference. = str_replace(S52.Line.Reference., "\\s", "|")) %>% 
   tidyr::separate(S52.Line.Reference., into = c("LineNumber", "CYPServiceDescription"), sep = "\\|")%>%
@@ -80,12 +82,31 @@ outturn1314 <- outturn1314 %>%  dplyr::mutate(year=2014,
 
 pre2014 <- rbind(outturn0809, outturn0910, outturn1011, outturn1112, outturn1213, outturn1314)
 
+pre2014 <-  pre2014 %>%
+  dplyr::rename(LA_Name = LA.Name, LA.Number = LA,
+                Description = CYPServiceDescription)%>%
+  dplyr::mutate(LAD19CD=NA)%>%
+  dplyr::mutate(LA_Name = gsub('&','and',LA_Name),
+                LA_Name = gsub('[[:punct:] ]+',' ',LA_Name),
+                LA_Name = toupper(LA_Name),
+                LA_Name = str_trim(LA_Name),
+                ReportGroup = toupper(ReportGroup))%>%
+  dplyr::rename(variable=Description,
+                category=ReportGroup,
+                LA_Code = LAD19CD)%>%
+  dplyr::mutate(category = "Expenditure")%>%
+  dplyr::select(-Income, -NetCurrentExpenditure, -GovGrantsInsideAEF, -GovGrantsOutsideAEF,
+                -LEANetRevenueExpenditure, -LineNumber)%>%
+  tidyr::pivot_longer(cols = !c(LA_Name,LA.Number, LA_Code, year, variable, category),
+                      names_to = "subcategory", values_to = "number")
+
+
+
+
+
 #oldlalookup <- read.csv("Data/oldlalookup.csv")
 #pre2014 <- merge(oldlalookup, pre2014, by="LA", all=T)
 
-pre2014 <- pre2014 %>%dplyr::rename(LA_Name = LA.Name, LA.Number = LA,
-                                    Description = CYPServiceDescription)%>%
-  dplyr::mutate(LAD19CD=NA)
 
 ExpenditureData$year <- str_sub(ExpenditureData$time_period, start= -2)
 ExpenditureData$year <-  paste("20", ExpenditureData$year, sep="")
@@ -116,7 +137,7 @@ nontotals  <- ExpenditureData %>% dplyr::filter(ReportGroup!="Total")%>%
 
 
 
-fulldata <- rbind(totals, nontotals, pre2014)
+fulldata <- rbind(totals, nontotals)
 
 #Try and clean text to comparable (remove punct and capitalise)
 
@@ -136,6 +157,46 @@ fulldata <- fulldata %>%
                 -LEANetRevenueExpenditure, -LineNumber)%>%
   tidyr::pivot_longer(cols = !c(LA_Name,LA.Number, LA_Code, year, variable, category),
                       names_to = "subcategory", values_to = "number")
+
+
+
+
+
+ExpenditureData22$year <- str_sub(ExpenditureData22$time_period, start= -2)
+ExpenditureData22$year <-  paste("20", ExpenditureData22$year, sep="")
+
+ExpenditureData22 <- ExpenditureData22 %>% dplyr::filter(geographic_level == "Local authority")%>%
+  dplyr::select(la_name, new_la_code,year, category_of_expenditure, old_la_code, description_of_expenditure ,            
+                own_provision            , private_provision       ,  other_public_sector_provision        ,    
+                voluntary_provision               , total_expenditure )%>%
+  dplyr::rename(LA_Name = la_name,
+                LA.Number = old_la_code,
+                variable=description_of_expenditure,
+                category=category_of_expenditure,
+                LA_Code = new_la_code,
+                OwnProvision = own_provision,
+                PrivateProvision = private_provision,
+                OtherPublic = other_public_sector_provision,
+                Voluntary = voluntary_provision,
+                TotalExpenditure = total_expenditure)%>%
+  dplyr::mutate(LA_Name = gsub('&','and',LA_Name),
+                LA_Name = gsub('[[:punct:] ]+',' ',LA_Name),
+                LA_Name = toupper(LA_Name),
+                LA_Name = str_trim(LA_Name),
+                category = toupper(category))%>%
+  dplyr::filter(category=="CHILDREN LOOKED AFTER")%>%
+  dplyr::mutate(category = "Expenditure")%>%
+  tidyr::pivot_longer(cols = !c(LA_Name,LA.Number, LA_Code, year, variable, category),
+                      names_to = "subcategory", values_to = "number")%>%
+  dplyr::mutate(variable = str_replace(variable, "\\s", "|")) %>% 
+  tidyr::separate(variable, into = c("LineNumber", "variable"), sep = "\\|")%>%
+  dplyr::select(-LineNumber)
+  
+  
+  
+fulldata <- rbind(fulldata, ExpenditureData22)
+
+
 
 
 
