@@ -5,7 +5,6 @@ create_outcomes_data <- function(){
   pacman::p_load(devtools, dplyr, tidyverse, tidyr, stringr,  curl)
   
 
-  rm(list=setdiff(ls(), c("")))
   ####start####
   
   
