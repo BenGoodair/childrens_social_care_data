@@ -224,7 +224,7 @@ pre2014 <- pre2014%>%
 
 fulldata <- rbind(fulldata, pre2014)
 
-fulldata <- fulldata %>%
+expenditure <- fulldata %>%
   dplyr::group_by(LA_Name, LA_Code, LA.Number, year, variable) %>%
   dplyr::mutate(percent = as.character(as.numeric(number) / as.numeric(number[subcategory == "TotalExpenditure"])*100))%>%
   dplyr::ungroup() %>%
