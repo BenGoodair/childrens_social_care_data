@@ -1,3 +1,6 @@
+create_provider_data <- function(){
+  
+
 ####Load Packages####
 
 if (!require("pacman")) install.packages("pacman")
@@ -372,7 +375,8 @@ ProviderData[which(ProviderData$URN == "SC474543"),]$Sector <- "Voluntary"
 #Create date variables
 ProviderData$date <- as.Date(ProviderData$Inspection.date, format =  "%d/%m/%Y")
 ProviderData$year <- format(ProviderData$date,"%Y")
-rm(list=setdiff(ls(), c("ProviderData")))
+#rm(list=setdiff(ls(), c("ProviderData")))
 
-write.csv(ProviderData,"C:/Users/benjamin.goodair/OneDrive - Nexus365/Documents/GitHub/childrens_social_care_data/Final_Data/outputs/Provider_data.csv")
+#write.csv(ProviderData,"C:/Users/benjamin.goodair/OneDrive - Nexus365/Documents/GitHub/childrens_social_care_data/Final_Data/outputs/Provider_data.csv")
 
+}
