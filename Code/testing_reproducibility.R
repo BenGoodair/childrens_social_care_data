@@ -5,6 +5,7 @@ characteristics <- create_characteristics_data()
 source("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Code/expenditure_cleaning_function.R")
 expenditure <- create_expenditure_data()
 
-
+source("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Code/provider_cleaning_function.R")
+ProviderData <- create_provider_data()
 
 

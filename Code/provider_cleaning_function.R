@@ -305,78 +305,78 @@ ProviderData <- rbind(ProviderData, ProviderData2023)
 #rm(list=setdiff(ls(), c("ProviderData")))
 
 
-
-
-#More correcting of differential spelling across years#
-ProviderData$Overall.experiences.and.progress.of.children.and.young.people[ProviderData$Overall.experiences.and.progress.of.children.and.young.people == "Requires improvement"] <- "Requires improvement to be good"
-ProviderData$Outcomes.in.education.and.related.learning.activities[ProviderData$Outcomes.in.education.and.related.learning.activities == "Requires improvement"] <- "Requires improvement to be good"
-ProviderData$How.well.children.and.young.people.are.helped.and.protected[ProviderData$How.well.children.and.young.people.are.helped.and.protected == "Requires improvement"] <- "Requires improvement to be good"
-ProviderData$The.effectiveness.of.leaders.and.managers[ProviderData$The.effectiveness.of.leaders.and.managers == "Requires improvement"] <- "Requires improvement to be good"
-
-ProviderData$Overall.experiences.and.progress.of.children.and.young.people[ProviderData$Overall.experiences.and.progress.of.children.and.young.people == "Adequate"] <- "Requires improvement to be good"
-ProviderData$Outcomes.in.education.and.related.learning.activities[ProviderData$Outcomes.in.education.and.related.learning.activities == "Adequate"] <- "Requires improvement to be good"
-ProviderData$How.well.children.and.young.people.are.helped.and.protected[ProviderData$How.well.children.and.young.people.are.helped.and.protected == "Adequate"] <- "Requires improvement to be good"
-ProviderData$The.effectiveness.of.leaders.and.managers[ProviderData$The.effectiveness.of.leaders.and.managers == "Adequate"] <- "Requires improvement to be good"
-
-
-ProviderData$Sector[ProviderData$Sector == "Voluntary "] <- "Voluntary"
-ProviderData$Sector[ProviderData$Sector == "Local authority"] <- "Local Authority"
-ProviderData$Sector[ProviderData$Sector == "Health authority"] <- "Health Authority"
-
-ProviderData$Provision.type[ProviderData$Provision.type == "Independent Fostering Provider"] <- "Independent Fostering Agency"
-ProviderData$Provision.type[ProviderData$Provision.type == "Children's Home"] <- "Children's home"
-
-
-#Identify inspections that are included in several annual data releases
-n_occur <- data.frame(table(ProviderData$Event.number))
-
-yep <- n_occur[n_occur$Freq > 1,]
-
-#Keep only inspections when home was active
-ProviderData <- ProviderData[which(ProviderData$Registration.status=="Active"),]
-
-
-#Remove repeated inspections
-ProviderData <- ProviderData[!duplicated(ProviderData$Event.number), ]
-
-#Keep only full inspections
-#ProviderData <- ProviderData[which(ProviderData$Event.type=="Full inspection"),]
-
-#Organise rating variable in orders we want
-ProviderData$Overall.experiences.and.progress.of.children.and.young.people <- factor(ProviderData$Overall.experiences.and.progress.of.children.and.young.people, levels = c("Inadequate","Requires improvement to be good", "Good","Outstanding" ), ordered = T)
-ProviderData$Quality.of.care <- factor(ProviderData$Quality.of.care, levels = c("Inadequate","Requires improvement to be good", "Good","Outstanding" ), ordered = T)
-ProviderData$The.effectiveness.of.leaders.and.managers <- factor(ProviderData$The.effectiveness.of.leaders.and.managers, levels = c("Inadequate","Requires improvement to be good", "Good","Outstanding" ), ordered = T)
-ProviderData$How.well.children.and.young.people.are.helped.and.protected <- factor(ProviderData$How.well.children.and.young.people.are.helped.and.protected, levels = c("Inadequate","Requires improvement to be good", "Good","Outstanding" ), ordered = T)
-ProviderData$Outcomes.for.children.and.young.people <- factor(ProviderData$Outcomes.for.children.and.young.people, levels = c("Inadequate","Requires improvement to be good", "Good","Outstanding" ), ordered = T)
-
-#Remove non children's homes (done long way to show what is getting excluded)
-ProviderData <- ProviderData[which(ProviderData$Provision.type!="Secure Training Centre"),]
-ProviderData <- ProviderData[which(ProviderData$Provision.type!="Residential special school (>295 days/year)"),]
-ProviderData <- ProviderData[which(ProviderData$Provision.type!="Residential Special School"),]
-ProviderData <- ProviderData[which(ProviderData$Provision.type!="Boarding School"),]
-ProviderData <- ProviderData[which(ProviderData$Provision.type!="Boarding school"),]
-ProviderData <- ProviderData[which(ProviderData$Provision.type!="Secure training centre"),]
-ProviderData <- ProviderData[which(ProviderData$Provision.type!="Further Education College with Residential Accommodation"),]
-ProviderData <- ProviderData[which(ProviderData$Provision.type!="Voluntary Adoption Agency"),]
-ProviderData <- ProviderData[which(ProviderData$Provision.type!="Secure children's home"),]
-ProviderData <- ProviderData[which(ProviderData$Provision.type!="Residential special school (registered as a children's home)"),]
-ProviderData <- ProviderData[which(ProviderData$Provision.type!="Residential Holiday Scheme for Disabled Children"),]
-ProviderData <- ProviderData[which(ProviderData$Provision.type!="Residential Family Centre"),]
-ProviderData <- ProviderData[which(ProviderData$Provision.type!="Further Education College with Residential Accommodation"),]
-ProviderData <- ProviderData[which(ProviderData$Provision.type!="Adoption Support Agency"),]
-ProviderData <- ProviderData[which(ProviderData$Provision.type!="Independent Fostering Agency"),]
-
-#recode CCG owned children's homes as LA for purposes of representing public ownership
-ProviderData[which(ProviderData$Sector == "Health Authority"),]$Sector <- "Local Authority"
-
-#Correct erroneous input
-ProviderData[which(ProviderData$URN == "SC474543"),]$Sector <- "Voluntary"
-
-#Create date variables
-ProviderData$date <- as.Date(ProviderData$Inspection.date, format =  "%d/%m/%Y")
-ProviderData <- ProviderData %>% dplyr::mutate(year = format(ProviderData$date,"%Y"))
-#rm(list=setdiff(ls(), c("ProviderData")))
-ProviderData <- as.data.frame(ProviderData)
-#write.csv(ProviderData,"C:/Users/benjamin.goodair/OneDrive - Nexus365/Documents/GitHub/childrens_social_care_data/Final_Data/outputs/Provider_data.csv")
+# 
+# 
+# #More correcting of differential spelling across years#
+# ProviderData$Overall.experiences.and.progress.of.children.and.young.people[ProviderData$Overall.experiences.and.progress.of.children.and.young.people == "Requires improvement"] <- "Requires improvement to be good"
+# ProviderData$Outcomes.in.education.and.related.learning.activities[ProviderData$Outcomes.in.education.and.related.learning.activities == "Requires improvement"] <- "Requires improvement to be good"
+# ProviderData$How.well.children.and.young.people.are.helped.and.protected[ProviderData$How.well.children.and.young.people.are.helped.and.protected == "Requires improvement"] <- "Requires improvement to be good"
+# ProviderData$The.effectiveness.of.leaders.and.managers[ProviderData$The.effectiveness.of.leaders.and.managers == "Requires improvement"] <- "Requires improvement to be good"
+# 
+# ProviderData$Overall.experiences.and.progress.of.children.and.young.people[ProviderData$Overall.experiences.and.progress.of.children.and.young.people == "Adequate"] <- "Requires improvement to be good"
+# ProviderData$Outcomes.in.education.and.related.learning.activities[ProviderData$Outcomes.in.education.and.related.learning.activities == "Adequate"] <- "Requires improvement to be good"
+# ProviderData$How.well.children.and.young.people.are.helped.and.protected[ProviderData$How.well.children.and.young.people.are.helped.and.protected == "Adequate"] <- "Requires improvement to be good"
+# ProviderData$The.effectiveness.of.leaders.and.managers[ProviderData$The.effectiveness.of.leaders.and.managers == "Adequate"] <- "Requires improvement to be good"
+# 
+# 
+# ProviderData$Sector[ProviderData$Sector == "Voluntary "] <- "Voluntary"
+# ProviderData$Sector[ProviderData$Sector == "Local authority"] <- "Local Authority"
+# ProviderData$Sector[ProviderData$Sector == "Health authority"] <- "Health Authority"
+# 
+# ProviderData$Provision.type[ProviderData$Provision.type == "Independent Fostering Provider"] <- "Independent Fostering Agency"
+# ProviderData$Provision.type[ProviderData$Provision.type == "Children's Home"] <- "Children's home"
+# 
+# 
+# #Identify inspections that are included in several annual data releases
+# n_occur <- data.frame(table(ProviderData$Event.number))
+# 
+# yep <- n_occur[n_occur$Freq > 1,]
+# 
+# #Keep only inspections when home was active
+# ProviderData <- ProviderData[which(ProviderData$Registration.status=="Active"),]
+# 
+# 
+# #Remove repeated inspections
+# ProviderData <- ProviderData[!duplicated(ProviderData$Event.number), ]
+# 
+# #Keep only full inspections
+# #ProviderData <- ProviderData[which(ProviderData$Event.type=="Full inspection"),]
+# 
+# #Organise rating variable in orders we want
+# ProviderData$Overall.experiences.and.progress.of.children.and.young.people <- factor(ProviderData$Overall.experiences.and.progress.of.children.and.young.people, levels = c("Inadequate","Requires improvement to be good", "Good","Outstanding" ), ordered = T)
+# ProviderData$Quality.of.care <- factor(ProviderData$Quality.of.care, levels = c("Inadequate","Requires improvement to be good", "Good","Outstanding" ), ordered = T)
+# ProviderData$The.effectiveness.of.leaders.and.managers <- factor(ProviderData$The.effectiveness.of.leaders.and.managers, levels = c("Inadequate","Requires improvement to be good", "Good","Outstanding" ), ordered = T)
+# ProviderData$How.well.children.and.young.people.are.helped.and.protected <- factor(ProviderData$How.well.children.and.young.people.are.helped.and.protected, levels = c("Inadequate","Requires improvement to be good", "Good","Outstanding" ), ordered = T)
+# ProviderData$Outcomes.for.children.and.young.people <- factor(ProviderData$Outcomes.for.children.and.young.people, levels = c("Inadequate","Requires improvement to be good", "Good","Outstanding" ), ordered = T)
+# 
+# #Remove non children's homes (done long way to show what is getting excluded)
+# ProviderData <- ProviderData[which(ProviderData$Provision.type!="Secure Training Centre"),]
+# ProviderData <- ProviderData[which(ProviderData$Provision.type!="Residential special school (>295 days/year)"),]
+# ProviderData <- ProviderData[which(ProviderData$Provision.type!="Residential Special School"),]
+# ProviderData <- ProviderData[which(ProviderData$Provision.type!="Boarding School"),]
+# ProviderData <- ProviderData[which(ProviderData$Provision.type!="Boarding school"),]
+# ProviderData <- ProviderData[which(ProviderData$Provision.type!="Secure training centre"),]
+# ProviderData <- ProviderData[which(ProviderData$Provision.type!="Further Education College with Residential Accommodation"),]
+# ProviderData <- ProviderData[which(ProviderData$Provision.type!="Voluntary Adoption Agency"),]
+# ProviderData <- ProviderData[which(ProviderData$Provision.type!="Secure children's home"),]
+# ProviderData <- ProviderData[which(ProviderData$Provision.type!="Residential special school (registered as a children's home)"),]
+# ProviderData <- ProviderData[which(ProviderData$Provision.type!="Residential Holiday Scheme for Disabled Children"),]
+# ProviderData <- ProviderData[which(ProviderData$Provision.type!="Residential Family Centre"),]
+# ProviderData <- ProviderData[which(ProviderData$Provision.type!="Further Education College with Residential Accommodation"),]
+# ProviderData <- ProviderData[which(ProviderData$Provision.type!="Adoption Support Agency"),]
+# ProviderData <- ProviderData[which(ProviderData$Provision.type!="Independent Fostering Agency"),]
+# 
+# #recode CCG owned children's homes as LA for purposes of representing public ownership
+# ProviderData[which(ProviderData$Sector == "Health Authority"),]$Sector <- "Local Authority"
+# 
+# #Correct erroneous input
+# ProviderData[which(ProviderData$URN == "SC474543"),]$Sector <- "Voluntary"
+# 
+# #Create date variables
+# ProviderData$date <- as.Date(ProviderData$Inspection.date, format =  "%d/%m/%Y")
+# ProviderData <- ProviderData %>% dplyr::mutate(year = format(ProviderData$date,"%Y"))
+# #rm(list=setdiff(ls(), c("ProviderData")))
+# ProviderData <- as.data.frame(ProviderData)
+# #write.csv(ProviderData,"C:/Users/benjamin.goodair/OneDrive - Nexus365/Documents/GitHub/childrens_social_care_data/Final_Data/outputs/Provider_data.csv")
 
 }
