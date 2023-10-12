@@ -336,45 +336,46 @@ ProviderData <- rbind(ProviderData, ProviderData2023)
  ProviderData <- ProviderData[which(ProviderData$Registration.status=="Active"),]
  
  
-# #Remove repeated inspections
-# ProviderData <- ProviderData[!duplicated(ProviderData$Event.number), ]
-# 
-# #Keep only full inspections
-# #ProviderData <- ProviderData[which(ProviderData$Event.type=="Full inspection"),]
-# 
-# #Organise rating variable in orders we want
-# ProviderData$Overall.experiences.and.progress.of.children.and.young.people <- factor(ProviderData$Overall.experiences.and.progress.of.children.and.young.people, levels = c("Inadequate","Requires improvement to be good", "Good","Outstanding" ), ordered = T)
-# ProviderData$Quality.of.care <- factor(ProviderData$Quality.of.care, levels = c("Inadequate","Requires improvement to be good", "Good","Outstanding" ), ordered = T)
-# ProviderData$The.effectiveness.of.leaders.and.managers <- factor(ProviderData$The.effectiveness.of.leaders.and.managers, levels = c("Inadequate","Requires improvement to be good", "Good","Outstanding" ), ordered = T)
-# ProviderData$How.well.children.and.young.people.are.helped.and.protected <- factor(ProviderData$How.well.children.and.young.people.are.helped.and.protected, levels = c("Inadequate","Requires improvement to be good", "Good","Outstanding" ), ordered = T)
-# ProviderData$Outcomes.for.children.and.young.people <- factor(ProviderData$Outcomes.for.children.and.young.people, levels = c("Inadequate","Requires improvement to be good", "Good","Outstanding" ), ordered = T)
-# 
-# #Remove non children's homes (done long way to show what is getting excluded)
-# ProviderData <- ProviderData[which(ProviderData$Provision.type!="Secure Training Centre"),]
-# ProviderData <- ProviderData[which(ProviderData$Provision.type!="Residential special school (>295 days/year)"),]
-# ProviderData <- ProviderData[which(ProviderData$Provision.type!="Residential Special School"),]
-# ProviderData <- ProviderData[which(ProviderData$Provision.type!="Boarding School"),]
-# ProviderData <- ProviderData[which(ProviderData$Provision.type!="Boarding school"),]
-# ProviderData <- ProviderData[which(ProviderData$Provision.type!="Secure training centre"),]
-# ProviderData <- ProviderData[which(ProviderData$Provision.type!="Further Education College with Residential Accommodation"),]
-# ProviderData <- ProviderData[which(ProviderData$Provision.type!="Voluntary Adoption Agency"),]
-# ProviderData <- ProviderData[which(ProviderData$Provision.type!="Secure children's home"),]
-# ProviderData <- ProviderData[which(ProviderData$Provision.type!="Residential special school (registered as a children's home)"),]
-# ProviderData <- ProviderData[which(ProviderData$Provision.type!="Residential Holiday Scheme for Disabled Children"),]
-# ProviderData <- ProviderData[which(ProviderData$Provision.type!="Residential Family Centre"),]
-# ProviderData <- ProviderData[which(ProviderData$Provision.type!="Further Education College with Residential Accommodation"),]
-# ProviderData <- ProviderData[which(ProviderData$Provision.type!="Adoption Support Agency"),]
-# ProviderData <- ProviderData[which(ProviderData$Provision.type!="Independent Fostering Agency"),]
-# 
-# #recode CCG owned children's homes as LA for purposes of representing public ownership
-# ProviderData[which(ProviderData$Sector == "Health Authority"),]$Sector <- "Local Authority"
-# 
-# #Correct erroneous input
-# ProviderData[which(ProviderData$URN == "SC474543"),]$Sector <- "Voluntary"
-# 
+ #Remove repeated inspections
+ ProviderData <- ProviderData[!duplicated(ProviderData$Event.number), ]
+ 
+ #Keep only full inspections
+ #ProviderData <- ProviderData[which(ProviderData$Event.type=="Full inspection"),]
+ 
+ #Organise rating variable in orders we want
+ ProviderData$Overall.experiences.and.progress.of.children.and.young.people <- factor(ProviderData$Overall.experiences.and.progress.of.children.and.young.people, levels = c("Inadequate","Requires improvement to be good", "Good","Outstanding" ), ordered = T)
+ ProviderData$Quality.of.care <- factor(ProviderData$Quality.of.care, levels = c("Inadequate","Requires improvement to be good", "Good","Outstanding" ), ordered = T)
+ ProviderData$The.effectiveness.of.leaders.and.managers <- factor(ProviderData$The.effectiveness.of.leaders.and.managers, levels = c("Inadequate","Requires improvement to be good", "Good","Outstanding" ), ordered = T)
+ ProviderData$How.well.children.and.young.people.are.helped.and.protected <- factor(ProviderData$How.well.children.and.young.people.are.helped.and.protected, levels = c("Inadequate","Requires improvement to be good", "Good","Outstanding" ), ordered = T)
+ ProviderData$Outcomes.for.children.and.young.people <- factor(ProviderData$Outcomes.for.children.and.young.people, levels = c("Inadequate","Requires improvement to be good", "Good","Outstanding" ), ordered = T)
+ 
+ #Remove non children's homes (done long way to show what is getting excluded)
+ ProviderData <- ProviderData[which(ProviderData$Provision.type!="Secure Training Centre"),]
+ ProviderData <- ProviderData[which(ProviderData$Provision.type!="Residential special school (>295 days/year)"),]
+ ProviderData <- ProviderData[which(ProviderData$Provision.type!="Residential Special School"),]
+ ProviderData <- ProviderData[which(ProviderData$Provision.type!="Boarding School"),]
+ ProviderData <- ProviderData[which(ProviderData$Provision.type!="Boarding school"),]
+ ProviderData <- ProviderData[which(ProviderData$Provision.type!="Secure training centre"),]
+ ProviderData <- ProviderData[which(ProviderData$Provision.type!="Further Education College with Residential Accommodation"),]
+ ProviderData <- ProviderData[which(ProviderData$Provision.type!="Voluntary Adoption Agency"),]
+ ProviderData <- ProviderData[which(ProviderData$Provision.type!="Secure children's home"),]
+ ProviderData <- ProviderData[which(ProviderData$Provision.type!="Residential special school (registered as a children's home)"),]
+ ProviderData <- ProviderData[which(ProviderData$Provision.type!="Residential Holiday Scheme for Disabled Children"),]
+ ProviderData <- ProviderData[which(ProviderData$Provision.type!="Residential Family Centre"),]
+ ProviderData <- ProviderData[which(ProviderData$Provision.type!="Further Education College with Residential Accommodation"),]
+ ProviderData <- ProviderData[which(ProviderData$Provision.type!="Adoption Support Agency"),]
+ ProviderData <- ProviderData[which(ProviderData$Provision.type!="Independent Fostering Agency"),]
+ 
+ #recode CCG owned children's homes as LA for purposes of representing public ownership
+ ProviderData[which(ProviderData$Sector == "Health Authority"),]$Sector <- "Local Authority"
+ 
+ #Correct erroneous input
+ ProviderData[which(ProviderData$URN == "SC474543"),]$Sector <- "Voluntary"
+ 
 # #Create date variables
 # ProviderData$date <- as.Date(ProviderData$Inspection.date, format =  "%d/%m/%Y")
-# ProviderData <- ProviderData %>% dplyr::mutate(year = format(ProviderData$date,"%Y"))
+ ProviderData <- ProviderData %>% dplyr::mutate(date = as.Date(ProviderData$Inspection.date, format =  "%d/%m/%Y"),
+                                                year = format(ProviderData$date,"%Y"))
 # #rm(list=setdiff(ls(), c("ProviderData")))
 # ProviderData <- as.data.frame(ProviderData)
 # #write.csv(ProviderData,"C:/Users/benjamin.goodair/OneDrive - Nexus365/Documents/GitHub/childrens_social_care_data/Final_Data/outputs/Provider_data.csv")
