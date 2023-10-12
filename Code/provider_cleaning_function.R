@@ -305,37 +305,37 @@ ProviderData <- rbind(ProviderData, ProviderData2023)
 #rm(list=setdiff(ls(), c("ProviderData")))
 
 
-# 
-# 
-# #More correcting of differential spelling across years#
-# ProviderData$Overall.experiences.and.progress.of.children.and.young.people[ProviderData$Overall.experiences.and.progress.of.children.and.young.people == "Requires improvement"] <- "Requires improvement to be good"
-# ProviderData$Outcomes.in.education.and.related.learning.activities[ProviderData$Outcomes.in.education.and.related.learning.activities == "Requires improvement"] <- "Requires improvement to be good"
-# ProviderData$How.well.children.and.young.people.are.helped.and.protected[ProviderData$How.well.children.and.young.people.are.helped.and.protected == "Requires improvement"] <- "Requires improvement to be good"
-# ProviderData$The.effectiveness.of.leaders.and.managers[ProviderData$The.effectiveness.of.leaders.and.managers == "Requires improvement"] <- "Requires improvement to be good"
-# 
-# ProviderData$Overall.experiences.and.progress.of.children.and.young.people[ProviderData$Overall.experiences.and.progress.of.children.and.young.people == "Adequate"] <- "Requires improvement to be good"
-# ProviderData$Outcomes.in.education.and.related.learning.activities[ProviderData$Outcomes.in.education.and.related.learning.activities == "Adequate"] <- "Requires improvement to be good"
-# ProviderData$How.well.children.and.young.people.are.helped.and.protected[ProviderData$How.well.children.and.young.people.are.helped.and.protected == "Adequate"] <- "Requires improvement to be good"
-# ProviderData$The.effectiveness.of.leaders.and.managers[ProviderData$The.effectiveness.of.leaders.and.managers == "Adequate"] <- "Requires improvement to be good"
-# 
-# 
-# ProviderData$Sector[ProviderData$Sector == "Voluntary "] <- "Voluntary"
-# ProviderData$Sector[ProviderData$Sector == "Local authority"] <- "Local Authority"
-# ProviderData$Sector[ProviderData$Sector == "Health authority"] <- "Health Authority"
-# 
-# ProviderData$Provision.type[ProviderData$Provision.type == "Independent Fostering Provider"] <- "Independent Fostering Agency"
-# ProviderData$Provision.type[ProviderData$Provision.type == "Children's Home"] <- "Children's home"
-# 
-# 
-# #Identify inspections that are included in several annual data releases
-# n_occur <- data.frame(table(ProviderData$Event.number))
-# 
-# yep <- n_occur[n_occur$Freq > 1,]
-# 
-# #Keep only inspections when home was active
-# ProviderData <- ProviderData[which(ProviderData$Registration.status=="Active"),]
-# 
-# 
+ 
+ 
+ #More correcting of differential spelling across years#
+ ProviderData$Overall.experiences.and.progress.of.children.and.young.people[ProviderData$Overall.experiences.and.progress.of.children.and.young.people == "Requires improvement"] <- "Requires improvement to be good"
+ ProviderData$Outcomes.in.education.and.related.learning.activities[ProviderData$Outcomes.in.education.and.related.learning.activities == "Requires improvement"] <- "Requires improvement to be good"
+ ProviderData$How.well.children.and.young.people.are.helped.and.protected[ProviderData$How.well.children.and.young.people.are.helped.and.protected == "Requires improvement"] <- "Requires improvement to be good"
+ ProviderData$The.effectiveness.of.leaders.and.managers[ProviderData$The.effectiveness.of.leaders.and.managers == "Requires improvement"] <- "Requires improvement to be good"
+ 
+ ProviderData$Overall.experiences.and.progress.of.children.and.young.people[ProviderData$Overall.experiences.and.progress.of.children.and.young.people == "Adequate"] <- "Requires improvement to be good"
+ ProviderData$Outcomes.in.education.and.related.learning.activities[ProviderData$Outcomes.in.education.and.related.learning.activities == "Adequate"] <- "Requires improvement to be good"
+ ProviderData$How.well.children.and.young.people.are.helped.and.protected[ProviderData$How.well.children.and.young.people.are.helped.and.protected == "Adequate"] <- "Requires improvement to be good"
+ ProviderData$The.effectiveness.of.leaders.and.managers[ProviderData$The.effectiveness.of.leaders.and.managers == "Adequate"] <- "Requires improvement to be good"
+ 
+ 
+ ProviderData$Sector[ProviderData$Sector == "Voluntary "] <- "Voluntary"
+ ProviderData$Sector[ProviderData$Sector == "Local authority"] <- "Local Authority"
+ ProviderData$Sector[ProviderData$Sector == "Health authority"] <- "Health Authority"
+ 
+ ProviderData$Provision.type[ProviderData$Provision.type == "Independent Fostering Provider"] <- "Independent Fostering Agency"
+ ProviderData$Provision.type[ProviderData$Provision.type == "Children's Home"] <- "Children's home"
+ 
+ 
+ #Identify inspections that are included in several annual data releases
+ #n_occur <- data.frame(table(ProviderData$Event.number))
+ 
+ #yep <- n_occur[n_occur$Freq > 1,]
+ 
+ #Keep only inspections when home was active
+ ProviderData <- ProviderData[which(ProviderData$Registration.status=="Active"),]
+ 
+ 
 # #Remove repeated inspections
 # ProviderData <- ProviderData[!duplicated(ProviderData$Event.number), ]
 # 
