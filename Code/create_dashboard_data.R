@@ -21,12 +21,12 @@ ProviderData <- ProviderData %>%
 Providernobs <- ProviderData %>%
   dplyr::filter(Provision.type == "Children's home",
                 !is.na(Local.authority)) %>%
-  dplyr::select(time, Sector, URN, Local.authority) %>%
+  dplyr::select(time, Sector, URN, Local.authority, Places) %>%
   dplyr::distinct()
 
 nobsByIdih <- Providernobs %>%
   dplyr::group_by(time, Local.authority, Sector) %>%
-  dplyr::summarize(nobs = n())
+  dplyr::summarize(Places = sum(Places))
 
 nobsprive <- nobsByIdih %>%
   dplyr::filter(Sector == "Private")
@@ -49,10 +49,6 @@ nobsprive <- nobsprive %>%
   mutate(nobs = ifelse(is.na(nobs), 0, nobs),
          cumulative = cumsum(nobs))%>%
   dplyr::ungroup()
-
-
-####yepppp!!!!#####
-
 
 
 all_data <- tibble(Sector = "Local Authority",
