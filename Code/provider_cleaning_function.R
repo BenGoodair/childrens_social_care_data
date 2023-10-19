@@ -374,8 +374,11 @@ ProviderData <- rbind(ProviderData, ProviderData2023)
  
 # #Create date variables
 # ProviderData$date <- as.Date(ProviderData$Inspection.date, format =  "%d/%m/%Y")
+
  ProviderData <- ProviderData %>% dplyr::mutate(date = as.Date(ProviderData$Inspection.date, format =  "%d/%m/%Y"),
                                                 year = format(ProviderData$date,"%Y"))
+ 
+ 
 # #rm(list=setdiff(ls(), c("ProviderData")))
 # ProviderData <- as.data.frame(ProviderData)
 # #write.csv(ProviderData,"C:/Users/benjamin.goodair/OneDrive - Nexus365/Documents/GitHub/childrens_social_care_data/Final_Data/outputs/Provider_data.csv")
