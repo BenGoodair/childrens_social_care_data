@@ -12,6 +12,7 @@ dashboard_data <- rbind(outcomes, characteristics, expenditure)%>%
   dplyr::mutate(LA_Name = LA_Name %>%
                   gsub('&', 'and', .) %>%
                   gsub('[[:punct:] ]+', ' ', .) %>%
+                  gsub('[0-9]', '', .)%>%
                   toupper() %>%
                   gsub("CITY OF", "",.)%>%
                   gsub("UA", "",.)%>%
@@ -34,6 +35,7 @@ provider_at_march <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair
                 LA_Name = Local.authority %>%
                   gsub('&', 'and', .) %>%
                   gsub('[[:punct:] ]+', ' ', .) %>%
+                  gsub('[0-9]', '', .)%>%
                   toupper() %>%
                   gsub("CITY OF", "",.)%>%
                   gsub("UA", "",.)%>%
@@ -78,7 +80,8 @@ provider_at_march <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair
   dplyr::mutate(Sector = ifelse(Sector=="Private", "For profit",
                                 ifelse(Sector=="Health Authority", "Local Authority",
                                        ifelse(Sector=="Voluntary", "Third Sector",
-                                              ifelse(Sector=="Local Authority", "Local Authority", NA)))))
+                                              ifelse(Sector=="Local Authority", "Local Authority", NA)))))%>%
+  tidyr::pivot_longer(cols = c(Overall.experiences.and.progress.of.children.and.young.people, How.well.children.and.young.people.are.helped.and.protected, The.effectiveness.of.leaders.and.managers), names_to = "Domain", values_to = "Rating")
 
 
 
