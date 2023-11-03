@@ -201,7 +201,8 @@ create_expenditure_data <- function(){
   
   
   pre2014 <- pre2014%>%
-    mutate(variable = ifelse(variable=="Asylum seeker services - children", "Asylum seeker services children",
+    mutate(variable = str_trim(variable),
+           variable = ifelse(variable=="Asylum seeker services - children", "Asylum seeker services children",
                              ifelse(variable=="Fostering services", "Total fostering services",
                                     ifelse(variable=="Other children looked after", "Other children looked after services",variable))))%>%
     dplyr::filter(variable=="Adoption services"|
