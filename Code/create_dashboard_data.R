@@ -81,7 +81,8 @@ provider_at_march <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair
                                 ifelse(Sector=="Health Authority", "Local Authority",
                                        ifelse(Sector=="Voluntary", "Third Sector",
                                               ifelse(Sector=="Local Authority", "Local Authority", NA)))))%>%
-  tidyr::pivot_longer(cols = c(Overall.experiences.and.progress.of.children.and.young.people, How.well.children.and.young.people.are.helped.and.protected, The.effectiveness.of.leaders.and.managers), names_to = "Domain", values_to = "Rating")
+  tidyr::pivot_longer(cols = c(Overall.experiences.and.progress.of.children.and.young.people, How.well.children.and.young.people.are.helped.and.protected, The.effectiveness.of.leaders.and.managers), names_to = "Domain", values_to = "Rating")%>%
+  dplyr::filter(Rating!="")
 
 
 

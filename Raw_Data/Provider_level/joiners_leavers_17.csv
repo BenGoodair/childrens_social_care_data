@@ -1,0 +1,469 @@
+﻿URN,Provision type,Ofsted Region,Government Office Region,Local authority,Parliamentary constituency,Sector,Places,First effective date (that the provider became active),First effective date (that the provider became resigned),First effective date (that the provider closed),First effective date (that the provider became cancelled),Flag for appealed,Joiner status,Leaver status,Registration status (as at @startdate),Registration status (as at @enddate),Inspectorate (as at @startdate),Inspectorate (as at @enddate),Name
+1027165,Residential Family Centre,London,London,Croydon,Croydon North,Private,6,13/05/2015,30/11/2015,30/11/2015,,???,,Leaver,Active,Resigned,,,Grange Park Parenting Assessment Unit Ltd
+1155776,Children's home,North West,North West,Lancashire,Wyre and Preston North,Private,6,06/11/2015,14/11/2016,14/11/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+1159262,Boarding School,South East,South East,Oxfordshire,Oxford East,Private,370,31/03/2017,,,,???,Joiner,,,Active,,Ofsted,Kings Oxford
+1159264,Boarding School,London,London,Bromley,Lewisham West and Penge,Private,120,31/03/2017,,,,???,Joiner,,,Active,,Ofsted,Kings London
+1159385,Children's home,West Midlands,West Midlands,Shropshire,North Shropshire,Private,4,14/06/2016,,,,???,Joiner,,,Active,,,REDACTED
+1159395,Boarding School,South East,South East,East Sussex,Hastings and Rye,Private,120,31/03/2017,,,,???,Joiner,,,Active,,Ofsted,Claremont School
+1159397,Children's home,"North East, Yorkshire and the Humber",Yorkshire and The Humber,North Yorkshire,Selby and Ainsty,Private,4,04/04/2016,,,,???,Joiner,,,Active,,,REDACTED
+1183029,Independent Fostering Agency,East of England,East of England,Luton,Luton South,Private,NULL,01/12/2015,09/11/2016,09/11/2016,,???,,Leaver,Active,Resigned,,,Bright Start Fostering
+1183826,Children's home,"North East, Yorkshire and the Humber",North East,Sunderland,Sunderland Central,Private,8,04/04/2016,,,,???,Joiner,,,Active,,,REDACTED
+1183931,Boarding School,North West,North West,Lancashire,Preston,Voluntary,139,28/03/2017,,,,???,Joiner,,,Active,,,Abrar Academy
+1185533,Children's home,East Midlands,East Midlands,Nottinghamshire,Bassetlaw,Private,5,05/01/2017,,,,???,Joiner,,,Active,,,REDACTED
+1205501,Children's home,East Midlands,East Midlands,Nottinghamshire,Newark,Private,6,18/12/2015,,,,???,Joiner,,,Active,,,REDACTED
+1212704,Children's home,"North East, Yorkshire and the Humber",Yorkshire and The Humber,North Yorkshire,Skipton and Ripon,Private,4,15/09/2016,,,,???,Joiner,,,Active,,,REDACTED
+1212899,Independent Fostering Agency,South East,South East,Hampshire,Havant,Private,NULL,01/06/2016,,,,???,Joiner,,,Active,,,Fusion Fostering South East
+1213828,Children's home,North West,North West,St Helens,St Helens North,Private,2,29/09/2015,,,,???,Joiner,,,Active,,,REDACTED
+1216505,Children's home,"North East, Yorkshire and the Humber",North East,Newcastle upon Tyne,Newcastle upon Tyne East,Private,5,03/02/2016,,,,???,Joiner,,,Active,,,REDACTED
+1221357,Children's home,North West,North West,Blackpool,Blackpool South,Private,4,09/06/2016,,,,???,Joiner,,,Active,,,REDACTED
+1221446,Independent Fostering Agency,London,London,Hillingdon,Uxbridge and South Ruislip,Private,NULL,22/07/2016,,,,???,Joiner,,,Active,,,Fostering Innovations
+1222039,Independent Fostering Agency,London,London,Bromley,Bromley and Chislehurst,Private,NULL,10/10/2016,,,,???,Joiner,,,Active,,,Hatols Fostering Service
+1222092,Children's home,North West,North West,Lancashire,Wyre and Preston North,Private,2,10/02/2016,17/02/2017,17/02/2017,,???,,Leaver,Active,Resigned,,,REDACTED
+1223491,Children's home,West Midlands,West Midlands,Shropshire,North Shropshire,Private,3,20/04/2016,,,,???,Joiner,,,Active,,,REDACTED
+1223681,Children's home,North West,North West,Lancashire,Burnley,Private,4,14/04/2016,,,,???,Joiner,,,Active,,,REDACTED
+1225136,Children's home,North West,North West,Lancashire,Preston,Private,4,18/05/2016,,,,???,Joiner,,,Active,,,REDACTED
+1225371,Children's home,North West,North West,Warrington,Warrington South,Private,2,27/04/2016,,,,???,Joiner,,,Active,,,REDACTED
+1225624,Independent Fostering Agency,North West,North West,Bury,Bury North,Private,NULL,18/08/2016,,,,???,Joiner,,,Active,,,Fusion Fostering North West
+1226397,Children's home,West Midlands,West Midlands,Birmingham,"Birmingham, Erdington",Private,3,29/10/2016,,,,???,Joiner,,,Active,,,REDACTED
+1226612,Children's home,East of England,East of England,Essex,Harlow,Private,3,15/07/2016,,,,???,Joiner,,,Active,,,REDACTED
+1226858,Independent Fostering Agency,North West,North West,Salford,Worsley and Eccles South,Voluntary,NULL,09/08/2016,,,,???,Joiner,,,Active,,,Action For Children Fostering Manchester Tfco
+1226971,Residential special school (registered as a children's home),South West,South West,South Gloucestershire,Thornbury and Yate,Voluntary,12,06/04/2016,,,,???,Joiner,,,Active,,,REDACTED
+1226977,Children's home,South East,South East,Kent,Dover,Private,2,12/04/2016,,,,???,Joiner,,,Active,,,REDACTED
+1226978,Children's home,"North East, Yorkshire and the Humber",Yorkshire and The Humber,North Yorkshire,Scarborough and Whitby,Private,2,26/05/2016,,,,???,Joiner,,,Active,,,REDACTED
+1227330,Children's home,West Midlands,West Midlands,Telford and Wrekin,The Wrekin,Private,3,04/05/2016,,,,???,Joiner,,,Active,,,REDACTED
+1227335,Children's home,North West,North West,Lancashire,West Lancashire,Private,2,27/05/2016,,,,???,Joiner,,,Active,,,REDACTED
+1227408,Boarding School,South East,South East,West Sussex,Crawley,Academy,8,09/12/2015,,,,???,Joiner,,,Active,,Unknown,TBAP Residence:Broadfield Park
+1227599,Residential Family Centre,North West,North West,Wirral,Wirral South,Private,4,14/06/2016,,,,???,Joiner,,,Active,,,Pafa (parenting Assessments For All) Ltd
+1227778,Independent Fostering Agency,East of England,East of England,Essex,Rayleigh and Wickford,Private,NULL,29/03/2016,,,,???,Joiner,,,Active,,,Aspirations Fostering Limited
+1227869,Children's home,West Midlands,West Midlands,Walsall,Aldridge-Brownhills,Private,5,17/10/2016,,,,???,Joiner,,,Active,,,REDACTED
+1228090,Children's home,West Midlands,West Midlands,Birmingham,Sutton Coldfield,Private,4,27/04/2016,,,,???,Joiner,,,Active,,,REDACTED
+1228091,Children's home,North West,North West,Cheshire West and Chester,Ellesmere Port and Neston,Private,3,27/06/2016,,,,???,Joiner,,,Active,,,REDACTED
+1228092,Children's home,East of England,East of England,Essex,Witham,Private,4,20/04/2016,,,,???,Joiner,,,Active,,,REDACTED
+1228191,Children's home,West Midlands,West Midlands,Staffordshire,Staffordshire Moorlands,Private,2,29/04/2016,,,,???,Joiner,,,Active,,,REDACTED
+1228523,Independent Fostering Agency,"North East, Yorkshire and the Humber",Yorkshire and The Humber,Bradford,Bradford West,Private,NULL,07/06/2016,,,,???,Joiner,,,Active,,,Unity Foster Care
+1228919,Children's home,South East,South East,East Sussex,Bexhill and Battle,Private,2,29/03/2016,,,,???,Joiner,,,Active,,,REDACTED
+1228921,Children's home,North West,North West,Lancashire,Fylde,Private,5,17/05/2016,,,,???,Joiner,,,Active,,,REDACTED
+1229229,Children's home,East Midlands,East Midlands,Nottinghamshire,Newark,Private,2,01/04/2016,,,,???,Joiner,,,Active,,,REDACTED
+1229417,Children's home,"North East, Yorkshire and the Humber",North East,Middlesbrough,Middlesbrough,Private,1,05/04/2016,,,,???,Joiner,,,Active,,,REDACTED
+1229428,Children's home,North West,North West,Cheshire East,Crewe and Nantwich,Private,3,28/09/2016,16/02/2017,16/02/2017,,???,Joiner,Leaver,,Resigned,,,REDACTED
+1229534,Children's home,North West,North West,Lancashire,Hyndburn,Private,7,27/04/2016,,,,???,Joiner,,,Active,,,REDACTED
+1229765,Residential Holiday Scheme for Disabled Children,South East,South East,Kent,Tunbridge Wells,Private,NULL,11/03/2016,,,,???,Joiner,,,Active,,,Imago Community
+1229766,Residential special school (registered as a children's home),East of England,East of England,Cambridgeshire,South Cambridgeshire,Private,23,14/01/2016,,,,???,Joiner,,,Active,,,REDACTED
+1229977,Children's home,South East,South East,Oxfordshire,Henley,Local Authority,6,05/09/2016,,,,???,Joiner,,,Active,,,REDACTED
+1230268,Children's home,East of England,East of England,Southend on Sea,Southend West,Private,4,05/05/2016,,,,???,Joiner,,,Active,,,REDACTED
+1230411,Children's home,South East,South East,Surrey,Guildford,Local Authority,2,26/04/2016,,,,???,Joiner,,,Active,,,REDACTED
+1230415,Children's home,West Midlands,West Midlands,Birmingham,"Birmingham, Perry Barr",Private,4,05/07/2016,,,,???,Joiner,,,Active,,,REDACTED
+1230416,Children's home,East of England,East of England,Bedford,North East Bedfordshire,Private,4,09/05/2016,,,,???,Joiner,,,Active,,,REDACTED
+1230725,Children's home,East of England,East of England,Essex,Harwich and North Essex,Private,6,07/06/2016,,,,???,Joiner,,,Active,,,REDACTED
+1230838,Independent Fostering Agency,North West,North West,Lancashire,Rossendale and Darwen,Private,NULL,22/08/2016,,,,???,Joiner,,,Active,,,Olive Branch Fostering Ltd
+1230940,Children's home,East Midlands,East Midlands,Northamptonshire,Wellingborough,Private,5,27/05/2016,,,,???,Joiner,,,Active,,,REDACTED
+1231311,Children's home,West Midlands,West Midlands,Telford and Wrekin,The Wrekin,Private,3,08/08/2016,,,,???,Joiner,,,Active,,,REDACTED
+1231399,Children's home,North West,North West,Blackpool,Blackpool North and Cleveleys,Private,4,30/06/2016,,,,???,Joiner,,,Active,,,REDACTED
+1231404,Children's home,North West,North West,Liverpool,"Liverpool, Walton",Private,4,19/01/2017,,,,???,Joiner,,,Active,,,REDACTED
+1231454,Residential Holiday Scheme for Disabled Children,South East,South East,Hampshire,Fareham,Voluntary,NULL,14/10/2016,,,,???,Joiner,,,Active,,,KIDS Delta House
+1231458,Children's home,West Midlands,West Midlands,Birmingham,"Birmingham, Selly Oak",Private,3,13/05/2016,,,,???,Joiner,,,Active,,,REDACTED
+1231525,Children's home,"North East, Yorkshire and the Humber",Yorkshire and The Humber,East Riding of Yorkshire,Brigg and Goole,Private,1,14/04/2016,,,,???,Joiner,,,Active,,,REDACTED
+1231812,Children's home,West Midlands,West Midlands,Birmingham,"Birmingham, Perry Barr",Private,4,09/09/2016,,,,???,Joiner,,,Active,,,REDACTED
+1231957,Residential Holiday Scheme for Disabled Children,East of England,East of England,Essex,Brentwood and Ongar,Private,NULL,27/06/2016,,,,???,Joiner,,,Active,,,Lambourne End Centre 
+1232171,Children's home,"North East, Yorkshire and the Humber",Yorkshire and The Humber,Doncaster,Doncaster Central,Private,3,18/05/2016,,,,???,Joiner,,,Active,,,REDACTED
+1232200,Children's home,East Midlands,East Midlands,Northamptonshire,Wellingborough,Private,3,08/06/2016,,,,???,Joiner,,,Active,,,REDACTED
+1232271,Children's home,South West,South West,Gloucestershire,Stroud,Private,4,06/06/2016,,,,???,Joiner,,,Active,,,REDACTED
+1232649,Children's home,"North East, Yorkshire and the Humber",North East,Gateshead,Blaydon,Private,5,08/07/2016,,,,???,Joiner,,,Active,,,REDACTED
+1232650,Children's home,"North East, Yorkshire and the Humber",Yorkshire and The Humber,Doncaster,Don Valley,Private,3,21/07/2016,,,,???,Joiner,,,Active,,,REDACTED
+1232651,Independent Fostering Agency,"North East, Yorkshire and the Humber",Yorkshire and The Humber,Rotherham,Wentworth and Dearne,Private,NULL,13/05/2016,,,,???,Joiner,,,Active,,,Safe Base Fostering Ltd
+1232657,Children's home,West Midlands,West Midlands,Solihull,Solihull,Private,4,11/02/2017,,,,???,Joiner,,,Active,,,REDACTED
+1232658,Children's home,North West,North West,Cheshire East,Congleton,Private,5,17/10/2016,,,,???,Joiner,,,Active,,,REDACTED
+1233003,Children's home,South West,South West,Dorset,Christchurch,Private,2,18/04/2016,,,,???,Joiner,,,Active,,,REDACTED
+1233307,Children's home,"North East, Yorkshire and the Humber",North East,Newcastle upon Tyne,Newcastle upon Tyne East,Local Authority,6,28/11/2016,,,,???,Joiner,,,Active,,,REDACTED
+1233310,Children's home,North West,North West,Bolton,Bolton North East,Voluntary,3,08/08/2016,,,,???,Joiner,,,Active,,,REDACTED
+1233899,Children's home,North West,North West,Cumbria,Carlisle,Private,2,11/10/2016,,,,???,Joiner,,,Active,,,REDACTED
+1233981,Children's home,"North East, Yorkshire and the Humber",Yorkshire and The Humber,Kirklees,Huddersfield,Private,2,17/08/2016,,,,???,Joiner,,,Active,,,REDACTED
+1234163,Children's home,South East,South East,Kent,Sittingbourne and Sheppey,Private,4,26/09/2016,,,,???,Joiner,,,Active,,,REDACTED
+1234166,Children's home,London,London,Newham,West Ham,Private,3,20/09/2016,,,,???,Joiner,,,Active,,,REDACTED
+1234243,Children's home,East Midlands,East Midlands,Leicestershire,Charnwood,Private,3,27/05/2016,,,,???,Joiner,,,Active,,,REDACTED
+1234244,Children's home,East Midlands,East Midlands,Leicestershire,Loughborough,Private,3,12/05/2016,,,,???,Joiner,,,Active,,,REDACTED
+1234317,Children's home,"North East, Yorkshire and the Humber",Yorkshire and The Humber,Calderdale,Halifax,Private,6,04/08/2016,,,,???,Joiner,,,Active,,,REDACTED
+1234319,Children's home,"North East, Yorkshire and the Humber",North East,North Tyneside,North Tyneside,Voluntary,6,13/06/2016,,,,???,Joiner,,,Active,,,REDACTED
+1234323,Children's home,"North East, Yorkshire and the Humber",North East,North Tyneside,North Tyneside,Voluntary,20,14/06/2016,,,,???,Joiner,,,Active,,,REDACTED
+1234324,Residential Family Centre,London,London,Harrow,Harrow West,Private,3,30/06/2016,,,,???,Joiner,,,Active,,,Granary Mother & Baby Centre
+1234374,Children's home,South West,South West,Cornwall,North Cornwall,Private,2,12/05/2016,,,,???,Joiner,,,Active,,,REDACTED
+1234377,Independent Fostering Agency,North West,North West,Warrington,Warrington North,Private,NULL,27/07/2016,,,,???,Joiner,,,Active,,,National Fostering Agency
+1234430,Children's home,West Midlands,West Midlands,Birmingham,"Birmingham, Erdington",Private,3,28/07/2016,,,,???,Joiner,,,Active,,,REDACTED
+1234432,Children's home,North West,North West,Knowsley,Knowsley,Private,2,03/06/2016,,,,???,Joiner,,,Active,,,REDACTED
+1234621,Children's home,East of England,East of England,Essex,Clacton,Private,5,19/07/2016,,,,???,Joiner,,,Active,,,REDACTED
+1234624,Children's home,South West,South West,Wiltshire,Devizes,Private,3,06/09/2016,,,,???,Joiner,,,Active,,,REDACTED
+1234626,Children's home,South West,South West,Wiltshire,Devizes,Private,2,18/08/2016,,,,???,Joiner,,,Active,,,REDACTED
+1234851,Adoption Support Agency,South East,South East,Hampshire,Meon Valley,Private,NULL,26/08/2016,,,,???,Joiner,,,Active,,,CMB Counselling
+1235141,Independent Fostering Agency,North West,North West,Manchester,"Manchester, Withington",Private,NULL,07/10/2016,,,,???,Joiner,,,Active,,,Resolution Fostering Service
+1235263,Children's home,East Midlands,East Midlands,Northamptonshire,Kettering,Private,5,11/07/2016,,,,???,Joiner,,,Active,,,REDACTED
+1235384,Children's home,North West,North West,Lancashire,South Ribble,Private,2,12/08/2016,,,,???,Joiner,,,Active,,,REDACTED
+1235576,Children's home,South West,South West,Plymouth,"Plymouth, Sutton and Devonport",Private,2,16/06/2016,,,,???,Joiner,,,Active,,,REDACTED
+1235653,Children's home,London,London,Merton,Wimbledon,Private,4,12/04/2016,,,,???,Joiner,,,Active,,,REDACTED
+1235654,Children's home,East Midlands,East Midlands,Leicestershire,Charnwood,Private,4,15/07/2016,,,,???,Joiner,,,Active,,,REDACTED
+1235656,Residential Family Centre,East of England,East of England,Essex,Basildon and Billericay,Private,4,17/06/2016,06/03/2017,06/03/2017,,???,Joiner,Leaver,,Resigned,,,Skye High Lodge
+1235818,Children's home,"North East, Yorkshire and the Humber",Yorkshire and The Humber,North Yorkshire,Selby and Ainsty,Private,4,09/06/2016,,,,???,Joiner,,,Active,,,REDACTED
+1236026,Children's home,"North East, Yorkshire and the Humber",North East,Durham,Sedgefield,Private,4,07/05/2016,,,,???,Joiner,,,Active,,,REDACTED
+1236131,Independent Fostering Agency,West Midlands,West Midlands,Herefordshire,Hereford and South Herefordshire,Private,NULL,31/10/2016,,,,???,Joiner,,,Active,,,Mulberry Foster Care Ltd
+1236278,Children's home,South West,South West,Cornwall,South East Cornwall,Private,4,06/06/2016,,,,???,Joiner,,,Active,,,REDACTED
+1236387,Children's home,South East,South East,Hampshire,New Forest East,Private,4,19/05/2016,,,,???,Joiner,,,Active,,,REDACTED
+1236450,Children's home,"North East, Yorkshire and the Humber",Yorkshire and The Humber,Kirklees,Dewsbury,Private,5,16/08/2016,,,,???,Joiner,,,Active,,,REDACTED
+1236453,Residential Holiday Scheme for Disabled Children,London,London,Westminster,Cities of London and Westminster,Private,NULL,15/07/2016,,,,???,Joiner,,,Active,,,Whizz-Kidz
+1236527,Residential Family Centre,East Midlands,East Midlands,Derbyshire,Bolsover,Private,6,05/01/2017,,,,???,Joiner,,,Active,,,Building Blocks
+1236532,Children's home,South East,South East,Oxfordshire,Henley,Private,5,14/07/2016,,,,???,Joiner,,,Active,,,REDACTED
+1236540,Children's home,"North East, Yorkshire and the Humber",Yorkshire and The Humber,Calderdale,Halifax,Local Authority,3,14/06/2016,,,,???,Joiner,,,Active,,,REDACTED
+1236620,Children's home,South West,South West,Somerset,Bridgwater and West Somerset,Private,4,18/07/2016,,,,???,Joiner,,,Active,,,REDACTED
+1236625,Children's home,East Midlands,East Midlands,Leicestershire,Charnwood,Private,3,21/07/2016,,,,???,Joiner,,,Active,,,REDACTED
+1236771,Children's home,North West,North West,Sefton,Southport,Private,4,09/09/2016,,,,???,Joiner,,,Active,,,REDACTED
+1236773,Children's home,"North East, Yorkshire and the Humber",Yorkshire and The Humber,Kirklees,Batley and Spen,Private,1,14/12/2016,,,,???,Joiner,,,Active,,,REDACTED
+1236832,Children's home,East of England,East of England,Central Bedfordshire,South West Bedfordshire,Private,4,08/07/2016,,,,???,Joiner,,,Active,,,REDACTED
+1236901,Independent Fostering Agency,North West,North West,Lancashire,Wyre and Preston North,Private,NULL,13/07/2016,,,,???,Joiner,,,Active,,,Ccats Fostering Ltd
+1236916,Children's home,South West,South West,North Somerset,Weston-Super-Mare,Private,3,23/06/2016,,,,???,Joiner,,,Active,,,REDACTED
+1237027,Children's home,London,London,Greenwich,Eltham,Private,3,29/06/2016,,,,???,Joiner,,,Active,,,REDACTED
+1237090,Children's home,West Midlands,West Midlands,Sandwell,West Bromwich West,Private,3,20/07/2016,,,,???,Joiner,,,Active,,,REDACTED
+1237336,Independent Fostering Agency,West Midlands,West Midlands,Birmingham,"Birmingham, Northfield",Private,NULL,14/10/2016,,,,???,Joiner,,,Active,,,Capstone Foster Care (South East) Limited
+1237582,Children's home,North West,North West,Rochdale,Rochdale,Local Authority,5,16/05/2016,,,,???,Joiner,,,Active,,,REDACTED
+1237583,Children's home,West Midlands,West Midlands,Staffordshire,South Staffordshire,Private,3,12/08/2016,,,,???,Joiner,,,Active,,,REDACTED
+1237592,Independent Fostering Agency,East of England,East of England,Peterborough,North West Cambridgeshire,Private,NULL,19/07/2016,,,,???,Joiner,,,Active,,,Foster Care Associates East Midlands
+1238043,Children's home,North West,North West,Lancashire,Wyre and Preston North,Private,5,01/07/2016,,,,???,Joiner,,,Active,,,REDACTED
+1238045,Residential Special School,South West,South West,Devon,Newton Abbot,Local Authority,24,12/04/2016,,,,???,Joiner,,,Active,,,Oaklands Park School
+1238047,Further Education College with Residential Accommodation,South West,South West,Devon,Exeter,Academy,28,14/05/2016,,,,???,Joiner,,,Active,,,Exeter Mathematics School
+1239886,Residential Family Centre,North West,North West,Sefton,Southport,Private,4,26/09/2016,,,,???,Joiner,,,Active,,,Amber Family Ltd
+1239948,Children's home,South East,South East,Portsmouth,Portsmouth South,Local Authority,3,25/05/2016,,,,???,Joiner,,,Active,,,REDACTED
+1239953,Children's home,South West,South West,Somerset,Taunton Deane,Private,4,06/07/2016,,,,???,Joiner,,,Active,,,REDACTED
+1240269,Children's home,West Midlands,West Midlands,Sandwell,Warley,Private,4,24/10/2016,,,,???,Joiner,,,Active,,,REDACTED
+1240397,Children's home,East Midlands,East Midlands,Lincolnshire,South Holland and The Deepings,Private,5,03/08/2016,,,,???,Joiner,,,Active,,,REDACTED
+1240433,Children's home,"North East, Yorkshire and the Humber",Yorkshire and The Humber,North Lincolnshire,Brigg and Goole,Private,3,19/08/2016,,,,???,Joiner,,,Active,,,REDACTED
+1240449,Children's home,North West,North West,Knowsley,St Helens South and Whiston,Private,3,08/06/2016,,,,???,Joiner,,,Active,,,REDACTED
+1240572,Children's home,North West,North West,Lancashire,Preston,Private,4,28/11/2016,,,,???,Joiner,,,Active,,,REDACTED
+1240573,Children's home,North West,North West,Lancashire,Morecambe and Lunesdale,Private,5,01/12/2016,,,,???,Joiner,,,Active,,,REDACTED
+1240753,Children's home,North West,North West,Lancashire,Wyre and Preston North,Private,4,17/08/2016,,,,???,Joiner,,,Active,,,REDACTED
+1240754,Children's home,North West,North West,Lancashire,Fylde,Private,1,08/08/2016,,,,???,Joiner,,,Active,,,REDACTED
+1240801,Children's home,North West,North West,Wigan,Wigan,Private,2,27/06/2016,,,,???,Joiner,,,Active,,,REDACTED
+1240802,Children's home,South West,South West,Somerset,Taunton Deane,Private,4,13/07/2016,,,,???,Joiner,,,Active,,,REDACTED
+1240803,Children's home,North West,North West,Blackpool,Blackpool North and Cleveleys,Private,3,12/09/2016,,,,???,Joiner,,,Active,,,REDACTED
+1240840,Children's home,North West,North West,Blackpool,Blackpool South,Private,1,18/08/2016,,,,???,Joiner,,,Active,,,REDACTED
+1240842,Children's home,North West,North West,Blackpool,Blackpool South,Private,1,18/08/2016,,,,???,Joiner,,,Active,,,REDACTED
+1240843,Children's home,North West,North West,Blackpool,Blackpool South,Private,2,10/11/2016,,,,???,Joiner,,,Active,,,REDACTED
+1240844,Children's home,North West,North West,Lancashire,Wyre and Preston North,Private,2,16/02/2017,,,,???,Joiner,,,Active,,,REDACTED
+1240883,Children's home,North West,North West,Lancashire,Chorley,Private,3,18/08/2016,,,,???,Joiner,,,Active,,,REDACTED
+1240884,Children's home,North West,North West,Lancashire,Fylde,Private,2,24/10/2016,,,,???,Joiner,,,Active,,,REDACTED
+1240936,Children's home,West Midlands,West Midlands,Birmingham,"Birmingham, Hall Green",Private,3,14/11/2016,,,,???,Joiner,,,Active,,,REDACTED
+1241023,Children's home,South East,South East,West Sussex,Horsham,Private,14,18/08/2016,,,,???,Joiner,,,Active,,,REDACTED
+1241132,Adoption Support Agency,London,London,Bromley,Lewisham West and Penge,Private,NULL,26/10/2016,,,,???,Joiner,,,Active,,,Post-Adoption Support & Therapy
+1241261,Children's home,East Midlands,East Midlands,Leicestershire,Rutland and Melton,Private,2,07/10/2016,,,,???,Joiner,,,Active,,,REDACTED
+1241263,Children's home,South East,South East,Kent,North Thanet,Private,6,26/10/2016,,,,???,Joiner,,,Active,,,REDACTED
+1241407,Children's home,West Midlands,West Midlands,Birmingham,"Birmingham, Hall Green",Private,3,08/11/2016,,,,???,Joiner,,,Active,,,REDACTED
+1241412,Independent Fostering Agency,North West,North West,Bolton,Bolton West,Private,NULL,19/09/2016,,,,???,Joiner,,,Active,,,Next Stage For Fostering Ltd
+1241499,Independent Fostering Agency,London,London,Barnet,Finchley and Golders Green,Private,NULL,07/10/2016,,,,???,Joiner,,,Active,,,Aim High Fostering Services
+1241632,Children's home,North West,North West,Lancashire,Hyndburn,Private,2,23/09/2016,,,,???,Joiner,,,Active,,,REDACTED
+1241634,Children's home,North West,North West,Wigan,Makerfield,Private,2,22/08/2016,,,,???,Joiner,,,Active,,,REDACTED
+1241656,Children's home,East Midlands,East Midlands,Leicestershire,Rutland and Melton,Private,3,23/01/2017,,,,???,Joiner,,,Active,,,REDACTED
+1241664,Independent Fostering Agency,South East,South East,Milton Keynes,Milton Keynes South,Private,NULL,24/01/2017,,,,???,Joiner,,,Active,,,Oak Fostering Ltd
+1241752,Children's home,East Midlands,East Midlands,Nottinghamshire,Newark,Voluntary,2,05/12/2016,,,,???,Joiner,,,Active,,,REDACTED
+1241757,Children's home,North West,North West,Wigan,Wigan,Private,2,09/08/2016,,,,???,Joiner,,,Active,,,REDACTED
+1241776,Children's home,West Midlands,West Midlands,Warwickshire,Rugby,Private,4,16/02/2017,,,,???,Joiner,,,Active,,,REDACTED
+1241782,Children's home,North West,North West,Lancashire,Lancaster and Fleetwood,Local Authority,6,14/12/2016,,,,???,Joiner,,,Active,,,REDACTED
+1241785,Children's home,South East,South East,Hampshire,North West Hampshire,Private,11,24/01/2017,,,,???,Joiner,,,Active,,,REDACTED
+1241789,Children's home,East Midlands,East Midlands,Leicestershire,Bosworth,Private,3,23/08/2016,,,,???,Joiner,,,Active,,,REDACTED
+1241836,Children's home,South East,South East,Hampshire,North West Hampshire,Private,7,24/01/2017,,,,???,Joiner,,,Active,,,REDACTED
+1241840,Children's home,South West,South West,Bath and North East Somerset,North East Somerset,Private,4,30/08/2016,,,,???,Joiner,,,Active,,,REDACTED
+1241843,Children's home,East Midlands,East Midlands,Nottingham,Nottingham East,Private,5,31/08/2016,,,,???,Joiner,,,Active,,,REDACTED
+1241855,Children's home,West Midlands,West Midlands,Birmingham,"Birmingham, Northfield",Private,4,27/01/2017,,,,???,Joiner,,,Active,,,REDACTED
+1241861,Children's home,West Midlands,West Midlands,Worcestershire,Mid Worcestershire,Private,4,24/10/2016,,,,???,Joiner,,,Active,,,REDACTED
+1241897,Children's home,East of England,East of England,Essex,Harwich and North Essex,Private,8,29/11/2016,,,,???,Joiner,,,Active,,,REDACTED
+1241939,Children's home,South East,South East,Isle of Wight,Isle of Wight,Private,3,30/11/2016,,,,???,Joiner,,,Active,,,REDACTED
+1241970,Children's home,North West,North West,Cumbria,Westmorland and Lonsdale,Private,4,09/01/2017,,,,???,Joiner,,,Active,,,REDACTED
+1241975,Children's home,West Midlands,West Midlands,Dudley,Dudley North,Private,4,12/03/2017,,,,???,Joiner,,,Active,,,REDACTED
+1242101,Independent Fostering Agency,East of England,East of England,Southend on Sea,Southend West,Private,NULL,16/01/2017,,,,???,Joiner,,,Active,,,Family Works Fostering Limited
+1242111,Children's home,South East,South East,Hampshire,East Hampshire,Private,4,19/01/2017,,,,???,Joiner,,,Active,,,REDACTED
+1242116,Children's home,North West,North West,Knowsley,Knowsley,Local Authority,4,31/10/2016,,,,???,Joiner,,,Active,,,REDACTED
+1242216,Children's home,East Midlands,East Midlands,Leicestershire,North West Leicestershire,Private,4,22/09/2016,,,,???,Joiner,,,Active,,,REDACTED
+1243868,Independent Fostering Agency,East of England,East of England,Hertfordshire,Hertsmere,Private,NULL,08/12/2016,,,,???,Joiner,,,Active,,,Fostering Uk
+1243958,Residential special school (registered as a children's home),South West,South West,Bristol,Bristol North West,Private,48,21/10/2016,,,,???,Joiner,,,Active,,,REDACTED
+1243966,Residential special school (registered as a children's home),North West,North West,Warrington,Warrington South,Voluntary,6,22/12/2016,,,,???,Joiner,,,Active,,,REDACTED
+1244000,Children's home,West Midlands,West Midlands,Telford and Wrekin,The Wrekin,Private,5,30/09/2016,,,,???,Joiner,,,Active,,,REDACTED
+1244082,Children's home,East Midlands,East Midlands,Lincolnshire,Sleaford and North Hykeham,Private,13,07/10/2016,,,,???,Joiner,,,Active,,,REDACTED
+1244117,Children's home,East Midlands,East Midlands,Nottinghamshire,Bassetlaw,Voluntary,5,01/12/2016,,,,???,Joiner,,,Active,,,REDACTED
+1244137,Children's home,South West,South West,Devon,Torridge and West Devon,Private,2,25/10/2016,,,,???,Joiner,,,Active,,,REDACTED
+1244160,Children's home,South East,South East,Oxfordshire,Oxford West and Abingdon,Private,8,18/10/2016,,,,???,Joiner,,,Active,,,REDACTED
+1244161,Children's home,East Midlands,East Midlands,Derbyshire,Erewash,Private,1,19/09/2016,,,,???,Joiner,,,Active,,,REDACTED
+1244175,Boarding School,South West,South West,Gloucestershire,Gloucester,Private,120,31/03/2017,,,,???,Joiner,,,Active,,,Wotton House
+1244245,Children's home,West Midlands,West Midlands,Herefordshire,Hereford and South Herefordshire,Health Authority,15,08/12/2016,,,,???,Joiner,,,Active,,,REDACTED
+1244280,Children's home,"North East, Yorkshire and the Humber",Yorkshire and The Humber,Bradford,Bradford South,Private,7,07/11/2016,,,,???,Joiner,,,Active,,,REDACTED
+1244283,Children's home,North West,North West,Lancashire,Chorley,Private,3,09/01/2017,,,,???,Joiner,,,Active,,,REDACTED
+1244287,Children's home,North West,North West,Lancashire,Rossendale and Darwen,Private,5,11/10/2016,,,,???,Joiner,,,Active,,,REDACTED
+1244299,Children's home,"North East, Yorkshire and the Humber",Yorkshire and The Humber,Barnsley,Wentworth and Dearne,Private,4,27/01/2017,15/02/2017,15/02/2017,,???,Joiner,Leaver,,Resigned,,,REDACTED
+1244350,Children's home,West Midlands,West Midlands,Birmingham,"Birmingham, Hodge Hill",Private,3,24/11/2016,,,,???,Joiner,,,Active,,,REDACTED
+1244384,Children's home,South West,South West,Somerset,Bridgwater and West Somerset,Private,2,15/11/2016,,,,???,Joiner,,,Active,,,REDACTED
+1244413,Children's home,"North East, Yorkshire and the Humber",North East,Stockton-on-Tees,Stockton North,Private,3,03/02/2017,,,,???,Joiner,,,Active,,,REDACTED
+1244426,Children's home,South East,South East,Oxfordshire,Witney,Local Authority,6,23/02/2017,,,,???,Joiner,,,Active,,,REDACTED
+1244460,Children's home,North West,North West,Lancashire,Chorley,Private,5,15/11/2016,,,,???,Joiner,,,Active,,,REDACTED
+1244493,Children's home,North West,North West,Tameside,Stalybridge and Hyde,Private,4,10/02/2017,,,,???,Joiner,,,Active,,,REDACTED
+1244527,Children's home,East Midlands,East Midlands,Leicestershire,Bosworth,Private,7,26/10/2016,,,,???,Joiner,,,Active,,,REDACTED
+1244533,Independent Fostering Agency,North West,North West,Stockport,Hazel Grove,Private,NULL,23/09/2016,,,,???,Joiner,,,Active,,,Care 4 Children - Fostering Team
+1244627,Independent Fostering Agency,East Midlands,East Midlands,Northamptonshire,Corby,Private,NULL,15/11/2016,,,,???,Joiner,,,Active,,,Fostering Solutions - Oundle
+1244835,Children's home,London,London,Southwark,Bermondsey and Old Southwark,Local Authority,6,12/10/2016,,,,???,Joiner,,,Active,,,REDACTED
+1244881,Children's home,North West,North West,Rochdale,Rochdale,Private,2,13/09/2016,,,,???,Joiner,,,Active,,,REDACTED
+1244946,Children's home,North West,North West,Wigan,Wigan,Local Authority,2,04/10/2016,,,,???,Joiner,,,Active,,,REDACTED
+1245002,Children's home,South West,South West,South Gloucestershire,Filton and Bradley Stoke,Private,4,01/12/2016,,,,???,Joiner,,,Active,,,REDACTED
+1245390,Children's home,East Midlands,East Midlands,Derbyshire,South Derbyshire,Private,5,04/11/2016,,,,???,Joiner,,,Active,,,REDACTED
+1245565,Children's home,East Midlands,East Midlands,Leicestershire,South Leicestershire,Private,3,16/11/2016,,,,???,Joiner,,,Active,,,REDACTED
+1245569,Children's home,South West,South West,Somerset,Yeovil,Private,4,26/10/2016,,,,???,Joiner,,,Active,,,REDACTED
+1245572,Children's home,"North East, Yorkshire and the Humber",Yorkshire and The Humber,Bradford,Bradford West,Private,4,14/02/2017,,,,???,Joiner,,,Active,,,REDACTED
+1245823,Children's home,West Midlands,West Midlands,Dudley,Stourbridge,Private,6,09/11/2016,,,,???,Joiner,,,Active,,,REDACTED
+1245829,Children's home,East Midlands,East Midlands,Leicestershire,Loughborough,Private,3,01/12/2016,,,,???,Joiner,,,Active,,,REDACTED
+1245979,Children's home,West Midlands,West Midlands,Birmingham,"Birmingham, Hodge Hill",Private,5,01/10/2016,,,,???,Joiner,,,Active,,,REDACTED
+1245980,Children's home,West Midlands,West Midlands,Birmingham,"Birmingham, Ladywood",Private,6,01/10/2016,,,,???,Joiner,,,Active,,,REDACTED
+1245981,Children's home,West Midlands,West Midlands,Birmingham,"Birmingham, Ladywood",Private,8,01/10/2016,,,,???,Joiner,,,Active,,,REDACTED
+1245982,Children's home,West Midlands,West Midlands,Birmingham,"Birmingham, Northfield",Private,6,01/10/2016,,,,???,Joiner,,,Active,,,REDACTED
+1245984,Children's home,West Midlands,West Midlands,Birmingham,"Birmingham, Edgbaston",Private,5,01/10/2016,,,,???,Joiner,,,Active,,,REDACTED
+1246331,Children's home,North West,North West,Lancashire,West Lancashire,Private,4,30/01/2017,,,,???,Joiner,,,Active,,,REDACTED
+1246449,Children's home,South East,South East,Hampshire,Romsey and Southampton North,Private,4,09/02/2017,,,,???,Joiner,,,Active,,,REDACTED
+1246521,Children's home,South East,South East,Hampshire,Meon Valley,Private,14,22/11/2016,,,,???,Joiner,,,Active,,,REDACTED
+1246831,Children's home,South West,South West,Bournemouth,Bournemouth East,Private,4,12/12/2016,,,,???,Joiner,,,Active,,,REDACTED
+1246834,Children's home,South East,South East,West Sussex,Bognor Regis and Littlehampton,Private,5,25/10/2016,,,,???,Joiner,,,Active,,,REDACTED
+1247144,Children's home,East Midlands,East Midlands,Derby,Derby North,Private,4,28/11/2016,,,,???,Joiner,,,Active,,,REDACTED
+1247212,Children's home,North West,North West,St Helens,St Helens North,Private,4,07/02/2017,,,,???,Joiner,,,Active,,,REDACTED
+1247384,Children's home,South East,South East,Hampshire,New Forest West,Private,2,06/10/2016,,,,???,Joiner,,,Active,,,REDACTED
+1247386,Children's home,North West,North West,Cumbria,Barrow and Furness,Voluntary,5,30/01/2017,,,,???,Joiner,,,Active,,,REDACTED
+1247390,Children's home,South West,South West,Gloucestershire,Stroud,Private,8,22/12/2016,,,,???,Joiner,,,Active,,,REDACTED
+1247491,Children's home,North West,North West,Liverpool,"Liverpool, Walton",Private,4,01/12/2016,,,,???,Joiner,,,Active,,,REDACTED
+1247494,Residential Holiday Scheme for Disabled Children,East Midlands,East Midlands,Nottinghamshire,Mansfield,Local Authority,NULL,02/02/2017,,,,???,Joiner,,,Active,,,Play For Disabled Children Service Residential Holiday Scheme
+1247559,Children's home,North West,North West,Lancashire,Morecambe and Lunesdale,Private,5,21/02/2017,,,,???,Joiner,,,Active,,,REDACTED
+1247560,Children's home,North West,North West,Cumbria,Westmorland and Lonsdale,Private,4,09/03/2017,,,,???,Joiner,,,Active,,,REDACTED
+1247670,Children's home,North West,North West,Cumbria,Workington,Private,5,20/12/2016,,,,???,Joiner,,,Active,,,REDACTED
+1247764,Children's home,West Midlands,West Midlands,Herefordshire,North Herefordshire,Private,3,03/03/2017,,,,???,Joiner,,,Active,,,REDACTED
+1247773,Children's home,North West,North West,Manchester,Manchester Central,Private,5,30/11/2016,,,,???,Joiner,,,Active,,,REDACTED
+1247776,Children's home,North West,North West,Liverpool,"Liverpool, Walton",Private,3,01/12/2016,,,,???,Joiner,,,Active,,,REDACTED
+1247847,Independent Fostering Agency,East of England,East of England,Cambridgeshire,Cambridge,Voluntary,NULL,29/12/2016,,,,???,Joiner,,,Active,,,Coram Anglia Fostering
+1247885,Children's home,North West,North West,Cumbria,Penrith and The Border,Voluntary,5,30/01/2017,,,,???,Joiner,,,Active,,,REDACTED
+1248043,Children's home,North West,North West,Liverpool,"Liverpool, Walton",Private,2,02/12/2016,,,,???,Joiner,,,Active,,,REDACTED
+1248071,Children's home,South West,South West,Plymouth,"Plymouth, Sutton and Devonport",Private,2,03/01/2017,,,,???,Joiner,,,Active,,,REDACTED
+1248773,Children's home,"North East, Yorkshire and the Humber",North East,Durham,North Durham,Private,5,23/02/2017,,,,???,Joiner,,,Active,,,REDACTED
+1248979,Children's home,East of England,East of England,Essex,Saffron Walden,Private,4,28/02/2017,,,,???,Joiner,,,Active,,,REDACTED
+1249031,Children's home,North West,North West,Wirral,Wirral West,Private,3,02/12/2016,,,,???,Joiner,,,Active,,,REDACTED
+1249035,Children's home,North West,North West,Lancashire,Burnley,Private,6,21/03/2017,,,,???,Joiner,,,Active,,,REDACTED
+1249111,Children's home,South East,South East,Hampshire,New Forest West,Private,4,14/12/2016,,,,???,Joiner,,,Active,,,REDACTED
+1249115,Children's home,"North East, Yorkshire and the Humber",Yorkshire and The Humber,Calderdale,Calder Valley,Private,4,12/03/2017,,,,???,Joiner,,,Active,,,REDACTED
+1249184,Children's home,West Midlands,West Midlands,Staffordshire,Stafford,Private,3,12/01/2017,,,,???,Joiner,,,Active,,,REDACTED
+1249196,Children's home,South West,South West,Somerset,Bridgwater and West Somerset,Private,4,23/01/2017,,,,???,Joiner,,,Active,,,REDACTED
+1249259,Children's home,South East,South East,Hampshire,North West Hampshire,Private,4,03/03/2017,,,,???,Joiner,,,Active,,,REDACTED
+1249264,Children's home,North West,North West,Cumbria,Penrith and The Border,Private,4,15/02/2017,,,,???,Joiner,,,Active,,,REDACTED
+1249326,Children's home,West Midlands,West Midlands,Staffordshire,Stone,Private,3,08/03/2017,,,,???,Joiner,,,Active,,,REDACTED
+1249787,Children's home,South West,South West,Devon,Newton Abbot,Private,1,16/12/2016,,,,???,Joiner,,,Active,,,REDACTED
+1250035,Children's home,North West,North West,St Helens,St Helens North,Private,4,08/02/2017,,,,???,Joiner,,,Active,,,REDACTED
+1250039,Children's home,East Midlands,East Midlands,Leicestershire,Rutland and Melton,Private,4,02/03/2017,,,,???,Joiner,,,Active,,,REDACTED
+1250253,Children's home,East of England,East of England,Suffolk,Bury St Edmunds,Private,4,29/12/2016,,,,???,Joiner,,,Active,,,REDACTED
+1250256,Children's home,East Midlands,East Midlands,Nottingham,Nottingham South,Private,5,13/02/2017,,,,???,Joiner,,,Active,,,REDACTED
+1250902,Children's home,South East,South East,Hampshire,Basingstoke,Private,4,09/02/2017,,,,???,Joiner,,,Active,,,REDACTED
+1250915,Children's home,North West,North West,Rochdale,Rochdale,Private,3,16/03/2017,,,,???,Joiner,,,Active,,,REDACTED
+1250931,Children's home,South East,South East,East Sussex,Lewes,Private,6,22/02/2017,,,,???,Joiner,,,Active,,,REDACTED
+1251073,Children's home,North West,North West,Manchester,Manchester Central,Local Authority,5,24/02/2017,,,,???,Joiner,,,Active,,,REDACTED
+1251076,Children's home,East Midlands,East Midlands,Leicestershire,Charnwood,Private,3,12/01/2017,,,,???,Joiner,,,Active,,,REDACTED
+1251708,Further Education College with Residential Accommodation,South East,South East,Hampshire,New Forest East,Private,141,09/12/2016,,,,???,Joiner,,,Active,,,Brockenhurst College
+1251774,Further Education College with Residential Accommodation,East Midlands,East Midlands,Nottinghamshire,Rushcliffe,Private,141,03/01/2017,,,,???,Joiner,,,Active,,,Central College Nottingham
+1252095,Children's home,"North East, Yorkshire and the Humber",Yorkshire and The Humber,Calderdale,Halifax,Private,2,28/02/2017,,,,???,Joiner,,,Active,,,REDACTED
+1252125,Children's home,North West,North West,Lancashire,Ribble Valley,Private,3,07/03/2017,,,,???,Joiner,,,Active,,,REDACTED
+1252937,Children's home,South East,South East,West Sussex,Arundel and South Downs,Private,4,02/03/2017,,,,???,Joiner,,,Active,,,REDACTED
+1252997,Children's home,West Midlands,West Midlands,Birmingham,Sutton Coldfield,Voluntary,6,20/03/2017,,,,???,Joiner,,,Active,,,REDACTED
+1253501,Children's home,East Midlands,East Midlands,Leicestershire,Charnwood,Private,3,30/01/2017,,,,???,Joiner,,,Active,,,REDACTED
+1253716,Children's home,South East,South East,West Sussex,East Worthing and Shoreham,Private,6,22/02/2017,,,,???,Joiner,,,Active,,,REDACTED
+1253974,Further Education College with Residential Accommodation,East Midlands,East Midlands,Nottingham,Nottingham North,Private,141,02/02/2017,,,,???,Joiner,,,Active,,,Bilborough Sixth Form College
+1254257,Independent Fostering Agency,East of England,East of England,Peterborough,Peterborough,Voluntary,NULL,28/03/2017,,,,???,Joiner,,,Active,,,Tact Peterborough
+1254786,Independent Fostering Agency,"North East, Yorkshire and the Humber",North East,Sunderland,Houghton and Sunderland South,Private,NULL,31/03/2017,,,,???,Joiner,,,Active,,,Together For Children Fostering - Sunderland
+1254834,Voluntary Adoption Agency,"North East, Yorkshire and the Humber",North East,Sunderland,Houghton and Sunderland South,Voluntary,NULL,31/03/2017,,,,???,Joiner,,,Active,,,Together For Children Adoption - Sunderland
+1254835,Children's home,"North East, Yorkshire and the Humber",North East,Sunderland,Washington and Sunderland West,Private,6,31/03/2017,,,,???,Joiner,,,Active,,,REDACTED
+1254837,Children's home,"North East, Yorkshire and the Humber",North East,Sunderland,Houghton and Sunderland South,Private,6,31/03/2017,,,,???,Joiner,,,Active,,,REDACTED
+1254838,Children's home,"North East, Yorkshire and the Humber",North East,Sunderland,Sunderland Central,Private,7,31/03/2017,,,,???,Joiner,,,Active,,,REDACTED
+1254841,Children's home,"North East, Yorkshire and the Humber",North East,Sunderland,Washington and Sunderland West,Private,6,31/03/2017,,,,???,Joiner,,,Active,,,REDACTED
+1254843,Children's home,"North East, Yorkshire and the Humber",North East,Sunderland,Houghton and Sunderland South,Private,6,31/03/2017,,,,???,Joiner,,,Active,,,REDACTED
+1255796,Children's home,North West,North West,Cheshire East,Crewe and Nantwich,Private,4,30/03/2017,,,,???,Joiner,,,Active,,,REDACTED
+1256064,Further Education College with Residential Accommodation,South West,South West,Somerset,Taunton Deane,Private,141,22/03/2017,,,,???,Joiner,,,Active,,,Richard Huish College
+SC003404,Residential Special School,South West,South West,South Gloucestershire,Thornbury and Yate,Voluntary,12,24/08/1995,06/04/2016,06/04/2016,,???,,Leaver,Active,Resigned,Ofsted,Ofsted,The Sheiling School
+SC007956,Children's home,"North East, Yorkshire and the Humber",Yorkshire and The Humber,North Yorkshire,Scarborough and Whitby,Voluntary,6,10/04/1996,31/01/2017,31/01/2017,,???,,Leaver,Active,Resigned,,,REDACTED
+SC008132,Children's home,South West,South West,North Somerset,North Somerset,Voluntary,4,09/02/1999,03/03/2016,03/03/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC008596,Children's home,North West,North West,Stockport,Cheadle,Voluntary,8,27/07/1993,13/07/2016,13/07/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC010087,Children's home,North West,North West,Lancashire,Preston,Private,4,19/11/2001,05/04/2016,05/04/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC010897,Boarding School,London,London,Westminster,Westminster North,Private,17,13/02/2002,,,,???,,Leaver,Active,Active,Ofsted,ISI,Bales College
+SC011332,Residential Special School,South East,South East,Wokingham,Wokingham,Academy,16,14/02/2002,31/08/2016,31/08/2016,,???,,Leaver,Active,Resigned,Unknown,Unknown,Northern House School
+SC012026,Residential Special School,South East,South East,Portsmouth,Portsmouth North ,Local Authority,8,14/02/2002,25/01/2017,25/01/2017,,???,,Leaver,Active,Resigned,Unknown,Unknown,Harbour House
+SC012457,Residential Special School,South East,South East,Hampshire,Winchester,Local Authority,10,14/02/2002,03/10/2016,03/10/2016,,???,,Leaver,Active,Resigned,Unknown,Unknown,Osborne School
+SC012963,Boarding School,East Midlands,East Midlands,Northamptonshire,Northampton South,Private,267,14/02/2002,30/09/2016,30/09/2016,,???,,Leaver,Active,Resigned,Ofsted,ISI,Bosworth Independent College
+SC013882,Residential Special School,South East,South East,Surrey,Reigate,Local Authority,35,14/02/2002,31/08/2016,31/08/2016,,???,,Leaver,Active,Resigned,Unknown,Unknown,St Nicholas Special School
+SC013883,Residential Special School,South East,South East,Surrey,Mole Valley,Local Authority,20,14/02/2002,31/08/2016,31/08/2016,,???,,Leaver,Active,Resigned,Unknown,Unknown,Starhurst School
+SC020563,Children's home,West Midlands,West Midlands,Telford and Wrekin,The Wrekin,Voluntary,5,19/12/2000,31/03/2016,31/03/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC023098,Residential Special School,South East,South East,Buckinghamshire,Wycombe,Local Authority,8,18/02/2002,22/09/2016,22/09/2016,,???,,Leaver,Active,Resigned,Unknown,Unknown,Chiltern Gate School
+SC026644,Residential special school (registered as a children's home),South West,South West,Bristol,Bristol North West,Voluntary,48,19/02/2002,14/04/2016,14/04/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC027019,Residential Special School,North West,North West,Warrington,Warrington South,Voluntary,9,19/02/2002,,,,???,Joiner,,,Active,,Unknown,Chaigeley Educational Foundation
+SC031015,Children's home,North West,North West,Manchester,Blackley and Broughton,Local Authority,6,02/08/2004,30/11/2016,30/11/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC031143,Independent Fostering Agency,London,London,Newham,West Ham,Private,NULL,12/03/2003,01/02/2017,01/02/2017,,???,,Leaver,Active,Resigned,,,Focus on Fostering
+SC032240,Children's home,North West,North West,Liverpool,"Liverpool, West Derby",Local Authority,6,12/09/2003,08/08/2016,08/08/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC032300,Children's home,East Midlands,East Midlands,Leicestershire,Harborough,Local Authority,7,31/03/2003,22/06/2016,22/06/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC033408,Children's home,East of England,East of England,Cambridgeshire,Cambridge,Local Authority,7,12/08/2003,30/11/2016,30/11/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC033539,Children's home,North West,North West,Manchester,"Manchester, Withington",Local Authority,6,26/11/2003,28/10/2016,28/10/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC033629,Children's home,"North East, Yorkshire and the Humber",North East,Newcastle upon Tyne,Newcastle upon Tyne East,Local Authority,6,17/06/2003,01/09/2016,01/09/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC033664,Children's home,West Midlands,West Midlands,Birmingham,"Birmingham, Ladywood",Local Authority,8,28/05/2004,01/10/2016,01/10/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC033672,Children's home,West Midlands,West Midlands,Birmingham,"Birmingham, Hodge Hill",Local Authority,5,08/06/2004,01/10/2016,01/10/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC033696,Children's home,West Midlands,West Midlands,Birmingham,"Birmingham, Northfield",Local Authority,6,28/05/2004,01/10/2016,01/10/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC033699,Children's home,West Midlands,West Midlands,Birmingham,"Birmingham, Edgbaston",Local Authority,5,01/09/2004,01/10/2016,01/10/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC034168,Children's home,North West,North West,Cumbria,Penrith and The Border,Local Authority,7,22/08/2003,01/02/2017,01/02/2017,,???,,Leaver,Active,Resigned,,,REDACTED
+SC034197,Children's home,North West,North West,Lancashire,Chorley,Private,5,30/01/2003,15/11/2016,15/11/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC034609,Children's home,London,London,Islington,Islington South and Finsbury,Local Authority,6,07/10/2003,25/07/2016,25/07/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC034627,Children's home,London,London,Merton,Mitcham and Morden,Local Authority,7,10/02/2004,27/01/2017,27/01/2017,,???,,Leaver,Active,Resigned,,,REDACTED
+SC034825,Children's home,North West,North West,Rochdale,Rochdale,Local Authority,5,18/09/2003,01/05/2016,01/05/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC035450,Children's home,North West,North West,Lancashire,Lancaster and Fleetwood,Local Authority,6,03/11/2003,10/01/2017,10/01/2017,,???,,Leaver,Active,Resigned,,,REDACTED
+SC035639,Independent Fostering Agency,London,London,Sutton,Carshalton and Wallington,Voluntary,NULL,14/11/2003,31/08/2015,31/08/2015,,???,,Leaver,Active,Resigned,,,Barnardo's Fostering London
+SC035678,Children's home,London,London,Ealing,"Ealing, Southall",Local Authority,9,22/09/2003,24/07/2016,24/07/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC036347,Children's home,South West,South West,Gloucestershire,Gloucester,Local Authority,6,20/02/2003,09/12/2016,09/12/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC036707,Independent Fostering Agency,South East,South East,Kent,Sittingbourne and Sheppey,Private,NULL,23/03/2004,16/11/2016,16/11/2016,,???,,Leaver,Active,Resigned,,,Kaleidoscope
+SC036774,Children's home,"North East, Yorkshire and the Humber",North East,Gateshead,Blaydon,Local Authority,5,23/06/2003,06/09/2016,06/09/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC037330,Children's home,South East,South East,Portsmouth,Portsmouth North ,Local Authority,6,22/10/2003,04/07/2016,04/07/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC037369,Children's home,South East,South East,Kent,Folkestone and Hythe,Voluntary,9,04/09/2002,10/06/2016,10/06/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC037371,Children's home,"North East, Yorkshire and the Humber",Yorkshire and The Humber,Rotherham,Rotherham,Local Authority,5,23/04/2003,10/10/2016,10/10/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC037941,Children's home,North West,North West,Cumbria,Barrow and Furness,Local Authority,7,18/12/2002,01/02/2017,01/02/2017,,???,,Leaver,Active,Resigned,,,REDACTED
+SC041018,Children's home,North West,North West,Wigan,Bolton West,Local Authority,6,30/05/2003,31/07/2016,31/07/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC042897,Residential Special School,"North East, Yorkshire and the Humber",North East,North Tyneside,North Tyneside,Voluntary,16,12/02/2003,11/01/2017,11/01/2017,,???,,Leaver,Active,Resigned,Unknown,Unknown,Percy Hedley School
+SC043539,Children's home,West Midlands,West Midlands,Dudley,Dudley South,Local Authority,6,21/05/2003,30/11/2016,30/11/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC045168,Further Education College with Residential Accommodation,South West,South West,Somerset,Taunton Deane,Local Authority,27,10/04/2003,14/06/2016,14/06/2016,,???,,Leaver,Active,Resigned,,,Somerset College of Arts and Technology
+SC049382,Children's home,East Midlands,East Midlands,Leicestershire,Loughborough,Private,3,16/09/2003,17/05/2016,17/05/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC050176,Children's home,East Midlands,East Midlands,Leicestershire,Charnwood,Private,3,14/11/2003,12/01/2017,12/01/2017,,???,,Leaver,Active,Resigned,,,REDACTED
+SC053319,Residential Special School,East of England,East of England,Cambridgeshire,South East Cambridgeshire,Local Authority,17,01/09/2003,20/10/2016,20/10/2016,,???,,Leaver,Active,Resigned,Unknown,Unknown,The Harbour
+SC058759,Independent Fostering Agency,North West,North West,Stockport,Cheadle,Private,NULL,26/04/2004,25/07/2016,25/07/2016,,???,,Leaver,Active,Resigned,,,Cambian Foster Care
+SC059488,Children's home,North West,North West,Liverpool,"Liverpool, Walton",Private,2,02/02/2004,02/12/2016,02/12/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC059494,Children's home,North West,North West,Liverpool,"Liverpool, Walton",Private,6,22/04/2004,02/12/2016,02/12/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC060748,Independent Fostering Agency,London,London,Barnet,Chipping Barnet,Voluntary,NULL,26/10/2004,30/11/2016,30/11/2016,,???,,Leaver,Active,Resigned,,,Supported Fostering Services
+SC061222,Independent Fostering Agency,London,London,Ealing,Ealing Central and Acton,Private,NULL,10/06/2004,31/03/2017,31/03/2017,,???,,Leaver,Active,Resigned,,,Link Fostering Agency
+SC061431,Children's home,East Midlands,East Midlands,Leicestershire,Charnwood,Private,3,13/08/2004,27/05/2016,27/05/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC061988,Independent Fostering Agency,"North East, Yorkshire and the Humber",Yorkshire and The Humber,Bradford,Bradford East,Private,NULL,21/02/2005,07/02/2017,07/02/2017,,???,,Leaver,Active,Resigned,,,Fostering Yorkshire
+SC062199,Children's home,East Midlands,East Midlands,Leicestershire,Bosworth,Private,2,11/11/2004,31/08/2016,31/08/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC062464,Children's home,West Midlands,West Midlands,Staffordshire,Stone,Private,3,11/10/2004,06/10/2016,06/10/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC062475,Children's home,North West,North West,Rochdale,Heywood and Middleton,Private,1,29/09/2004,23/08/2016,23/08/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC062537,Children's home,North West,North West,Halton,Halton,Local Authority,4,16/11/2004,28/10/2016,28/10/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC062782,Children's home,North West,North West,Blackpool,Blackpool North and Cleveleys,Private,3,03/03/2005,18/09/2016,18/09/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC063059,Children's home,North West,North West,Warrington,Warrington South,Private,4,17/12/2004,,16/12/2016,16/12/2016,???,,Leaver,Active,Cancelled,,,REDACTED
+SC063080,Children's home,London,London,Croydon,Croydon South,Private,5,09/08/2005,04/01/2017,04/01/2017,,???,,Leaver,Active,Resigned,,,REDACTED
+SC064515,Children's home,North West,North West,Oldham,Oldham West and Royton,Local Authority,4,07/07/2005,31/03/2016,31/03/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC064549,Children's home,East of England,East of England,Luton,Luton North,Voluntary,6,19/10/2005,03/10/2016,03/10/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC064569,Children's home,London,London,Harrow,Harrow East,Private,5,13/09/2005,28/03/2017,28/03/2017,,???,,Leaver,Active,Resigned,,,REDACTED
+SC064965,Independent Fostering Agency,London,London,Merton,Mitcham and Morden,Private,NULL,23/09/2005,25/11/2016,25/11/2016,,???,,Leaver,Active,Resigned,,,Kingscare Fostering Agency
+SC066549,Children's home,North West,North West,Trafford,Altrincham and Sale West,Local Authority,2,28/02/2006,30/04/2016,30/04/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC067647,Residential Special School,South East,South East,Hampshire,North West Hampshire,Private,40,27/04/2006,31/01/2017,31/01/2017,,???,,Leaver,Active,Resigned,Ofsted,Ofsted,Tadley Court
+SC067709,Independent Fostering Agency,"North East, Yorkshire and the Humber",North East,Darlington,Darlington,Private,NULL,22/09/2006,22/08/2016,22/08/2016,,???,,Leaver,Active,Resigned,,,Young Foundations Fostering
+SC068075,Adoption Support Agency,South East,South East,Hampshire,Meon Valley,Private,NULL,24/10/2006,26/08/2016,26/08/2016,,???,,Leaver,Active,Resigned,,,CMB Counselling
+SC068392,Children's home,London,London,Ealing,Ealing North,Private,4,18/12/2006,31/08/2016,31/08/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC068645,Children's home,South West,South West,Wiltshire,Chippenham,Private,5,26/01/2007,31/03/2016,31/03/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC068770,Children's home,East of England,East of England,Suffolk,Bury St Edmunds,Private,4,12/02/2007,30/01/2017,30/01/2017,,???,,Leaver,Active,Resigned,,,REDACTED
+SC356312,Children's home,West Midlands,West Midlands,Herefordshire,North Herefordshire,Private,3,11/06/2007,30/03/2017,30/03/2017,,???,,Leaver,Active,Resigned,,,REDACTED
+SC357166,Children's home,West Midlands,West Midlands,Birmingham,"Birmingham, Ladywood",Local Authority,6,20/08/2007,01/10/2016,01/10/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC358266,Children's home,South West,South West,Wiltshire,North Wiltshire,Private,2,21/09/2007,08/09/2016,08/09/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC358723,Independent Fostering Agency,"North East, Yorkshire and the Humber",North East,Darlington,Darlington,Private,NULL,31/08/2007,14/07/2016,14/07/2016,,???,,Leaver,Active,Resigned,,,SWIIS Foster Care
+SC360834,Children's home,South West,South West,Devon,Tiverton and Honiton,Private,4,10/10/2007,06/10/2016,06/10/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC362233,Children's home,East Midlands,East Midlands,Leicestershire,Charnwood,Private,3,15/11/2007,31/01/2017,31/01/2017,,???,,Leaver,Active,Resigned,,,REDACTED
+SC362610,Children's home,South West,South West,Devon,Newton Abbot,Private,1,24/08/2007,31/12/2016,31/12/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC363364,Children's home,South West,South West,Somerset,Taunton Deane,Private,4,07/09/2007,11/07/2016,11/07/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC365647,Children's home,East of England,East of England,Hertfordshire,Hitchin and Harpenden,Voluntary,3,01/02/2008,30/09/2016,30/09/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC368399,Children's home,East Midlands,East Midlands,Leicestershire,Charnwood,Private,3,30/04/2008,26/07/2016,26/07/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC368821,Children's home,London,London,Sutton,Carshalton and Wallington,Private,6,14/11/2008,31/10/2016,31/10/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC368918,Independent Fostering Agency,North West,North West,Salford,Salford and Eccles,Private,NULL,18/04/2008,30/11/2016,30/11/2016,,???,,Leaver,Active,Resigned,,,Fostering Young Foundations
+SC369339,Children's home,"North East, Yorkshire and the Humber",Yorkshire and The Humber,Rotherham,Rotherham,Local Authority,5,13/08/2008,10/10/2016,10/10/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC376207,Independent Fostering Agency,South East,South East,Kent,Sevenoaks,Private,NULL,04/11/2008,01/11/2016,01/11/2016,,???,,Leaver,Active,Resigned,,,Benecare Fostering
+SC378200,Children's home,South West,South West,Somerset,Bridgwater and West Somerset,Private,3,16/06/2008,21/09/2016,21/09/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC381635,Independent Fostering Agency,London,London,Croydon,Croydon Central,Private,NULL,05/12/2008,01/01/2017,01/01/2017,,???,,Leaver,Active,Resigned,,,Child Focus Fostering Agency
+SC382715,Children's home,East Midlands,East Midlands,Leicestershire,Bosworth,Private,4,02/07/2009,26/09/2016,26/09/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC383879,Children's home,South West,South West,Wiltshire,North Wiltshire,Private,1,03/10/2008,08/09/2016,08/09/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC384198,Children's home,West Midlands,West Midlands,Wolverhampton,Wolverhampton South West,Private,4,07/11/2008,04/02/2016,04/02/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC384466,Children's home,London,London,Waltham Forest,Walthamstow,Private,3,28/11/2008,31/05/2016,31/05/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC384670,Children's home,South West,South West,Bournemouth,Bournemouth East,Private,5,13/10/2008,05/05/2016,05/05/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC387672,Children's home,North West,North West,Manchester,Manchester Central,Private,5,22/12/2008,30/11/2016,30/11/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC392602,Children's home,North West,North West,Cumbria,Penrith and The Border,Private,3,25/08/2009,15/02/2017,15/02/2017,,???,,Leaver,Active,Resigned,,,REDACTED
+SC393048,Residential special school (registered as a children's home),East of England,East of England,Cambridgeshire,South Cambridgeshire,Voluntary,33,21/05/2009,12/05/2016,12/05/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC394224,Children's home,North West,North West,Cheshire East,Crewe and Nantwich,Local Authority,4,23/10/2009,30/03/2017,30/03/2017,,???,,Leaver,Active,Resigned,,,REDACTED
+SC396201,Children's home,North West,North West,Lancashire,Chorley,Private,3,08/09/2009,18/08/2016,18/08/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC398947,Children's home,"North East, Yorkshire and the Humber",North East,Durham,Easington,Private,6,12/03/2010,31/07/2016,31/07/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC399206,Residential special school (registered as a children's home),East of England,East of England,Norfolk,South West Norfolk,Private,26,02/10/2009,30/07/2016,30/07/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC402658,Residential special school (registered as a children's home),North West,North West,Lancashire,Ribble Valley,Private,36,18/01/2010,03/01/2017,03/01/2017,,???,,Leaver,Active,Resigned,,,REDACTED
+SC403411,Children's home,London,London,Hounslow,Feltham and Heston,Private,4,07/01/2010,11/10/2016,11/10/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC403956,Children's home,North West,North West,Lancashire,West Lancashire,Private,2,11/01/2010,28/06/2016,28/06/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC404993,Residential special school (registered as a children's home),South West,South West,Dorset,Christchurch,Voluntary,36,04/03/2010,17/12/2016,17/12/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC407245,Children's home,North West,North West,Blackpool,Blackpool South,Private,1,09/06/2010,18/08/2016,18/08/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC408622,Children's home,West Midlands,West Midlands,Staffordshire,Lichfield,Private,5,02/11/2010,14/11/2016,14/11/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC413156,Children's home,North West,North West,Rochdale,Rochdale,Private,2,10/06/2010,13/09/2016,13/09/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC417395,Children's home,South East,South East,West Sussex,Worthing West,Private,2,19/08/2010,16/05/2016,16/05/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC418700,Children's home,South East,South East,West Sussex,Arundel and South Downs,Private,5,14/12/2010,28/03/2017,28/03/2017,,???,,Leaver,Active,Resigned,,,REDACTED
+SC425921,Children's home,East of England,East of England,Luton,Luton South,Voluntary,6,20/05/2011,29/04/2016,29/04/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC426684,Children's home,North West,North West,Manchester,Manchester Central,Private,3,09/06/2011,30/06/2016,30/06/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC427338,Children's home,"North East, Yorkshire and the Humber",Yorkshire and The Humber,Doncaster,Doncaster Central,Private,2,05/07/2011,03/06/2016,03/06/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC430759,Residential special school (registered as a children's home),South East,South East,Oxfordshire,Wantage,Voluntary,8,17/08/2011,31/10/2016,31/10/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC431603,Children's home,North West,North West,Liverpool,"Liverpool, Walton",Private,3,16/08/2011,30/11/2016,30/11/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC432140,Residential special school (registered as a children's home),South West,South West,Devon,Newton Abbot,Local Authority,25,22/07/2011,11/04/2016,11/04/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC434100,Children's home,London,London,Enfield,Enfield North,Private,3,04/07/2011,,07/11/2016,07/11/2016,???,,Leaver,Active,Cancelled,,,REDACTED
+SC434837,Children's home,South East,South East,Reading,Reading East,Private,3,12/10/2011,09/08/2016,09/08/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC434999,Children's home,North West,North West,Blackpool,Blackpool South,Private,2,28/11/2011,21/12/2016,21/12/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC435001,Children's home,North West,North West,Blackpool,Blackpool South,Private,1,11/11/2011,19/10/2016,19/10/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC436992,Children's home,North West,North West,Wirral,Wirral West,Private,3,02/12/2011,02/12/2016,02/12/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC441973,Children's home,North West,North West,Cumbria,Workington,Health Authority,5,NULL,17/01/2017,17/01/2017,,???,,Leaver,Active,Resigned,,,REDACTED
+SC443081,Children's home,South West,South West,Somerset,Somerton and Frome,Private,2,30/03/2012,01/04/2016,01/04/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC443758,Children's home,East of England,East of England,Norfolk,Mid Norfolk,Private,8,18/04/2012,26/01/2017,26/01/2017,,???,,Leaver,Active,Resigned,,,REDACTED
+SC444376,Children's home,South West,South West,Devon,Exeter,Voluntary,5,18/04/2012,25/07/2016,25/07/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC449331,Residential special school (registered as a children's home),South West,South West,South Gloucestershire,Filton and Bradley Stoke,Voluntary,6,16/07/2012,17/02/2017,17/02/2017,,???,,Leaver,Active,Resigned,,,REDACTED
+SC450991,Children's home,East of England,East of England,Norfolk,Great Yarmouth,Voluntary,8,07/09/2012,30/06/2016,30/06/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC451266,Children's home,North West,North West,Bolton,Bolton North East,Voluntary,4,21/08/2012,18/03/2016,18/03/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC451511,Children's home,South East,South East,Southampton,"Southampton, Test",Private,7,23/09/2012,08/10/2016,08/10/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC454985,Children's home,South West,South West,Somerset,Bridgwater and West Somerset,Private,3,05/12/2012,01/12/2016,01/12/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC456650,Independent Fostering Agency,North West,North West,Stockport,Hazel Grove,Voluntary,NULL,17/12/2012,01/12/2016,01/12/2016,,???,,Leaver,Active,Resigned,,,The Fostering Organisation T/A The Fostering Team
+SC456724,Children's home,South East,South East,West Sussex,Worthing West,Private,4,24/01/2013,01/03/2017,01/03/2017,,???,,Leaver,Active,Resigned,,,REDACTED
+SC457015,Children's home,East of England,East of England,Essex,Braintree,Private,2,15/02/2013,01/03/2017,01/03/2017,,???,,Leaver,Active,Resigned,,,REDACTED
+SC457364,Children's home,North West,North West,Wirral,Birkenhead,Private,2,15/02/2013,03/03/2017,03/03/2017,,???,,Leaver,Active,Resigned,,,REDACTED
+SC457424,Children's home,North West,North West,Wirral,Wirral South,Private,1,15/02/2013,31/01/2017,31/01/2017,,???,,Leaver,Active,Resigned,,,REDACTED
+SC457428,Children's home,North West,North West,Sefton,Bootle,Private,2,15/02/2013,10/03/2017,10/03/2017,,???,,Leaver,Active,Resigned,,,REDACTED
+SC457507,Children's home,North West,North West,Wirral,Wallasey,Private,3,15/02/2013,01/11/2016,01/11/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC457554,Children's home,North West,North West,Sefton,Sefton Central,Private,1,15/02/2013,31/01/2017,31/01/2017,,???,,Leaver,Active,Resigned,,,REDACTED
+SC457557,Children's home,North West,North West,Wirral,Wallasey,Private,2,15/02/2013,26/03/2017,26/03/2017,,???,,Leaver,Active,Resigned,,,REDACTED
+SC457560,Children's home,North West,North West,Wirral,Wallasey,Private,2,15/02/2013,07/02/2017,07/02/2017,,???,,Leaver,Active,Resigned,,,REDACTED
+SC457776,Children's home,East Midlands,East Midlands,Leicestershire,Charnwood,Private,3,06/02/2013,11/07/2016,11/07/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC457855,Children's home,"North East, Yorkshire and the Humber",North East,Durham,City of Durham,Private,3,19/02/2013,01/10/2016,01/10/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC458348,Children's home,East Midlands,East Midlands,Leicester,Leicester East,Private,4,08/04/2013,27/01/2017,27/01/2017,,???,,Leaver,Active,Resigned,,,REDACTED
+SC459643,Children's home,"North East, Yorkshire and the Humber",Yorkshire and The Humber,East Riding of Yorkshire,Brigg and Goole,Private,1,18/03/2013,13/06/2016,13/06/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC460910,Children's home,West Midlands,West Midlands,Staffordshire,Stafford,Private,3,21/05/2013,13/06/2016,13/06/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC462804,Children's home,North West,North West,Salford,Salford and Eccles,Private,2,29/05/2013,31/03/2017,31/03/2017,,???,,Leaver,Active,Resigned,,,REDACTED
+SC463704,Children's home,West Midlands,West Midlands,Birmingham,"Birmingham, Erdington",Private,3,08/08/2013,07/12/2016,07/12/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC464402,Children's home,West Midlands,West Midlands,Staffordshire,South Staffordshire,Private,3,28/06/2013,31/08/2016,31/08/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC466315,Children's home,South East,South East,Hampshire,Basingstoke,Private,4,23/08/2013,05/05/2016,05/05/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC468019,Children's home,West Midlands,West Midlands,Telford and Wrekin,The Wrekin,Private,4,01/08/2013,06/02/2017,06/02/2017,,???,,Leaver,Active,Resigned,,,REDACTED
+SC469467,Children's home,West Midlands,West Midlands,Telford and Wrekin,The Wrekin,Private,4,07/10/2013,14/11/2016,14/11/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC469627,Children's home,North West,North West,Cheshire East,Macclesfield,Voluntary,4,17/09/2013,31/03/2017,31/03/2017,,???,,Leaver,Active,Resigned,,,REDACTED
+SC469994,Children's home,South West,South West,Devon,Torridge and West Devon,Private,16,23/02/2014,01/07/2016,01/07/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC473335,Children's home,South East,South East,West Berkshire,Wokingham,Private,2,17/12/2013,19/12/2016,19/12/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC473682,Boarding School,South East,South East,Oxfordshire,Oxford East,Private,55,31/03/2017,,,,???,Joiner,,,Active,,Ofsted,Cherwell College
+SC473810,Children's home,North West,North West,Knowsley,Knowsley,Private,3,13/01/2014,29/04/2016,29/04/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC473906,Independent Fostering Agency,West Midlands,West Midlands,Solihull,Meriden,Voluntary,NULL,24/04/2014,30/11/2016,30/11/2016,,???,,Leaver,Active,Resigned,,,Action for Children Fostering Midlands
+SC475121,Children's home,"North East, Yorkshire and the Humber",Yorkshire and The Humber,Barnsley,Penistone and Stocksbridge,Private,5,10/04/2014,13/10/2016,13/10/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC475578,Children's home,West Midlands,West Midlands,Telford and Wrekin,The Wrekin,Private,3,15/05/2014,19/09/2016,19/09/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC475742,Children's home,North West,North West,Lancashire,Morecambe and Lunesdale,Private,9,30/06/2014,30/06/2016,30/06/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC476332,Children's home,East Midlands,East Midlands,Derbyshire,Amber Valley,Private,6,28/04/2014,30/11/2016,30/11/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC477111,Residential Family Centre,South West,South West,Devon,East Devon,Private,6,08/05/2014,,17/05/2016,17/05/2016,???,,Leaver,Active,Cancelled,,,Clarity House
+SC477725,Residential Family Centre,London,London,Merton,Mitcham and Morden,Private,6,13/08/2014,29/07/2016,29/07/2016,,???,,Leaver,Active,Resigned,,,Breslaff Centre
+SC477839,Children's home,London,London,Barnet,Chipping Barnet,Private,3,18/07/2014,,08/06/2016,08/06/2016,???,,Leaver,Active,Cancelled,,,REDACTED
+SC478729,Children's home,West Midlands,West Midlands,Staffordshire,South Staffordshire,Private,4,15/08/2014,10/08/2016,10/08/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC479081,Children's home,North West,North West,Lancashire,Fylde,Private,2,05/08/2014,24/10/2016,24/10/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC479102,Children's home,"North East, Yorkshire and the Humber",Yorkshire and The Humber,North Lincolnshire,Brigg and Goole,Private,4,16/09/2014,14/04/2016,14/04/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC479504,Children's home,West Midlands,West Midlands,Worcestershire,Worcester,Private,2,11/12/2014,01/01/2017,01/01/2017,,???,,Leaver,Active,Resigned,,,REDACTED
+SC480005,Children's home,East of England,East of England,Norfolk,South West Norfolk,Private,4,19/11/2014,25/07/2016,25/07/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC480056,Children's home,"North East, Yorkshire and the Humber",Yorkshire and The Humber,North Yorkshire,Skipton and Ripon,Private,6,30/11/2014,26/10/2016,26/10/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC480219,Children's home,North West,North West,Lancashire,Ribble Valley,Private,6,30/11/2014,17/01/2017,17/01/2017,,???,,Leaver,Active,Resigned,,,REDACTED
+SC480592,Children's home,North West,North West,Blackpool,Blackpool South,Private,4,11/09/2014,08/07/2016,08/07/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC480616,Children's home,South East,South East,Buckinghamshire,Wycombe,Private,5,12/01/2015,05/09/2016,05/09/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC482302,Children's home,London,London,Croydon,Croydon Central,Private,6,22/09/2014,31/12/2016,31/12/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC482314,Children's home,South West,South West,Devon,Torridge and West Devon,Private,1,13/02/2015,07/10/2016,07/10/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC482543,Children's home,West Midlands,West Midlands,Coventry,Coventry North West,Private,6,27/01/2015,16/06/2016,16/06/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC482559,Children's home,East Midlands,East Midlands,Leicestershire,Bosworth,Private,5,12/11/2014,27/02/2017,27/02/2017,,???,,Leaver,Active,Resigned,,,REDACTED
+SC484776,Children's home,West Midlands,West Midlands,Worcestershire,Redditch,Private,2,27/01/2015,27/02/2017,27/02/2017,,???,,Leaver,Active,Resigned,,,REDACTED
+SC485654,Children's home,"North East, Yorkshire and the Humber",Yorkshire and The Humber,Calderdale,Halifax,Private,4,24/03/2015,31/12/2016,31/12/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC485767,Independent Fostering Agency,West Midlands,West Midlands,Worcestershire,Bromsgrove,Private,NULL,24/02/2015,07/12/2016,07/12/2016,,???,,Leaver,Active,Resigned,,,Orange Grove Fostercare Three Counties
+SC485821,Independent Fostering Agency,North West,North West,Liverpool,"Liverpool, Riverside",Private,NULL,13/10/2015,18/11/2016,18/11/2016,,???,,Leaver,Active,Resigned,,,Complete Fostering Solutions
+SC485826,Children's home,East of England,East of England,Suffolk,Ipswich,Private,3,09/02/2015,05/12/2016,05/12/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC486528,Children's home,West Midlands,West Midlands,Birmingham,"Birmingham, Northfield",Private,6,13/02/2015,22/04/2016,22/04/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC486886,Children's home,West Midlands,West Midlands,Staffordshire,Tamworth,Private,3,11/10/2016,,,,???,Joiner,,,Active,,,REDACTED
+SC487833,Boarding School,East of England,East of England,Suffolk,West Suffolk,Academy,146,06/02/2015,08/04/2016,08/04/2016,,???,,Leaver,Active,Resigned,Unknown,Unknown,Samuel Ward Academy
+SC489400,Children's home,East Midlands,East Midlands,Nottinghamshire,Rushcliffe,Private,4,14/08/2015,14/09/2016,14/09/2016,,???,,Leaver,Active,Resigned,,,REDACTED
+SC489660,Children's home,North West,North West,Bury,Bury South,Private,3,22/11/2016,,,,???,Joiner,,,Active,,,REDACTED
