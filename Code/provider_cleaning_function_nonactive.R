@@ -350,21 +350,21 @@ ProviderData <- rbind(ProviderData, ProviderData2023)
  ProviderData$Outcomes.for.children.and.young.people <- factor(ProviderData$Outcomes.for.children.and.young.people, levels = c("Inadequate","Requires improvement to be good", "Good","Outstanding" ), ordered = T)
  
  #Remove non children's homes (done long way to show what is getting excluded)
- ProviderData <- ProviderData[which(ProviderData$Provision.type!="Secure Training Centre"),]
- ProviderData <- ProviderData[which(ProviderData$Provision.type!="Residential special school (>295 days/year)"),]
- ProviderData <- ProviderData[which(ProviderData$Provision.type!="Residential Special School"),]
- ProviderData <- ProviderData[which(ProviderData$Provision.type!="Boarding School"),]
- ProviderData <- ProviderData[which(ProviderData$Provision.type!="Boarding school"),]
- ProviderData <- ProviderData[which(ProviderData$Provision.type!="Secure training centre"),]
- ProviderData <- ProviderData[which(ProviderData$Provision.type!="Further Education College with Residential Accommodation"),]
- ProviderData <- ProviderData[which(ProviderData$Provision.type!="Voluntary Adoption Agency"),]
- ProviderData <- ProviderData[which(ProviderData$Provision.type!="Secure children's home"),]
- ProviderData <- ProviderData[which(ProviderData$Provision.type!="Residential special school (registered as a children's home)"),]
- ProviderData <- ProviderData[which(ProviderData$Provision.type!="Residential Holiday Scheme for Disabled Children"),]
- ProviderData <- ProviderData[which(ProviderData$Provision.type!="Residential Family Centre"),]
- ProviderData <- ProviderData[which(ProviderData$Provision.type!="Further Education College with Residential Accommodation"),]
- ProviderData <- ProviderData[which(ProviderData$Provision.type!="Adoption Support Agency"),]
- ProviderData <- ProviderData[which(ProviderData$Provision.type!="Independent Fostering Agency"),]
+ #ProviderData <- ProviderData[which(ProviderData$Provision.type!="Secure Training Centre"),]
+ #ProviderData <- ProviderData[which(ProviderData$Provision.type!="Residential special school (>295 days/year)"),]
+ #ProviderData <- ProviderData[which(ProviderData$Provision.type!="Residential Special School"),]
+ #ProviderData <- ProviderData[which(ProviderData$Provision.type!="Boarding School"),]
+ #ProviderData <- ProviderData[which(ProviderData$Provision.type!="Boarding school"),]
+ #ProviderData <- ProviderData[which(ProviderData$Provision.type!="Secure training centre"),]
+ #ProviderData <- ProviderData[which(ProviderData$Provision.type!="Further Education College with Residential Accommodation"),]
+ #ProviderData <- ProviderData[which(ProviderData$Provision.type!="Voluntary Adoption Agency"),]
+ #ProviderData <- ProviderData[which(ProviderData$Provision.type!="Secure children's home"),]
+ #ProviderData <- ProviderData[which(ProviderData$Provision.type!="Residential special school (registered as a children's home)"),]
+ #ProviderData <- ProviderData[which(ProviderData$Provision.type!="Residential Holiday Scheme for Disabled Children"),]
+ #ProviderData <- ProviderData[which(ProviderData$Provision.type!="Residential Family Centre"),]
+ #ProviderData <- ProviderData[which(ProviderData$Provision.type!="Further Education College with Residential Accommodation"),]
+ #ProviderData <- ProviderData[which(ProviderData$Provision.type!="Adoption Support Agency"),]
+ #ProviderData <- ProviderData[which(ProviderData$Provision.type!="Independent Fostering Agency"),]
  
  #recode CCG owned children's homes as LA for purposes of representing public ownership
  ProviderData[which(ProviderData$Sector == "Health Authority"),]$Sector <- "Local Authority"
