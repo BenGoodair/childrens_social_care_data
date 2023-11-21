@@ -28,10 +28,24 @@ create_market_exits_entries <- function(){
 
   
   
-  #pre2016joiners
-  homesat14 <- 
+  # #pre2016joiners
+  # homesat14 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/Provider_level/providers_at_sept_14.csv"))
+  # homesat15 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/Provider_level/providers_at_15.csv"))%>% 
+  # dplyr::select(URN, Provision.type, Local.authority, Sector) 
+  # homesat16 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/Provider_level/providers_at_16.csv"), skip=1) %>%
+  #   dplyr::select(URN, Provision.type, Local.authority, Sector) 
+  # 
+  # yes1 <- merge(homesat15, homesat14, by="URN", all.x=T) %>%
+  #   dplyr::filter(is.na(GOR))%>%
+  #   dplyr::mutate(Registration.date = "30/04/2015")
+  #   
+  # 
+  # yes2 <- merge(homesat16, homesat15, by="URN", all.x=T) %>%
+  #   dplyr::filter(is.na(Local.authority.y))%>%
+  #   dplyr::mutate(Registration.date = "30/04/2016")
+  # 
+    
   
-  
-  
+}
   
     
