@@ -28,8 +28,17 @@ create_market_exits_entries <- function(){
   )%>%
     dplyr::rename(Date = Registration.date)%>%
     dplyr::mutate(leave_join = "Join",
-                  provider_status = NA)
-
+                  provider_status = NA)%>%
+    dplyr::filter(Provision.type!="Adoption Support Agency",
+                  Provision.type!="Further Education College with Residential Accommodation",
+                  Provision.type!="Boarding School",
+                  Provision.type!="Residential Family Centre",
+                  Provision.type!="Residential Special School",
+                  Provision.type!="Voluntary Adoption Agency",
+                  Provision.type!="Residential Holiday Scheme for Disabled Children",
+                  Provision.type!="Independent Fostering Agency",
+                  Provision.type!="Voluntary Adoption Agency")
+  
   
   
   # #pre2016joiners
@@ -63,14 +72,14 @@ create_market_exits_entries <- function(){
   
   enter_exit <- unique(rbind(leavers, joiners))
   
-# plz <-enter_exit%>% 
-#   dplyr::mutate(yes = 1,
-#                 Places = as.numeric(Places),
-#   date = as.Date(Date, format =  "%d/%m/%Y"),
-#   year = format(date,"%Y"))%>%
-#                               dplyr::group_by(Sector, year, leave_join)%>%
-#                               dplyr::summarise(yes = sum(yes, na.rm=T),
-#                                         Places = sum(Places, na.rm=T))
+ plz <-enter_exit%>% 
+   dplyr::mutate(yes = 1,
+                 Places = as.numeric(Places),
+   date = as.Date(Date, format =  "%d/%m/%Y"),
+   year = format(date,"%Y"))%>%
+                               dplyr::group_by(Sector, year, leave_join)%>%
+                               dplyr::summarise(yes = sum(yes, na.rm=T),
+                                         Places = sum(Places, na.rm=T))
                     
 
     
