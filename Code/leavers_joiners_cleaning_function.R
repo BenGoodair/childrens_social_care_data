@@ -72,14 +72,14 @@ create_market_exits_entries <- function(){
   
   enter_exit <- unique(rbind(leavers, joiners))
   
- plz <-enter_exit%>% 
-   dplyr::mutate(yes = 1,
-                 Places = as.numeric(Places),
-   date = as.Date(Date, format =  "%d/%m/%Y"),
-   year = format(date,"%Y"))%>%
-                               dplyr::group_by(Sector, year, leave_join)%>%
-                               dplyr::summarise(yes = sum(yes, na.rm=T),
-                                         Places = sum(Places, na.rm=T))
+# plz <-enter_exit%>% 
+#   dplyr::mutate(yes = 1,
+#                 Places = as.numeric(Places),
+#   date = as.Date(Date, format =  "%d/%m/%Y"),
+#   year = format(date,"%Y"))%>%
+#                               dplyr::group_by(Sector, year, leave_join)%>%
+#                               dplyr::summarise(yes = sum(yes, na.rm=T),
+#                                         Places = sum(Places, na.rm=T))
                     
 
     
