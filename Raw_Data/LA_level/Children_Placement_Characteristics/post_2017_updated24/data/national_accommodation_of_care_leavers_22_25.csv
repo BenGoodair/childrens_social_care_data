@@ -1,0 +1,73 @@
+﻿time_period,time_identifier,geographic_level,country_code,country_name,care_leaver_age,cla_group,measure,accommodation_type,number,percentage
+2023,Reporting year,National,E92000001,England,22 years,Care leavers group,Accommodation of care leaver,Bed and breakfast,10,k
+2023,Reporting year,National,E92000001,England,23 years,Care leavers group,Accommodation of care leaver,Bed and breakfast,10,k
+2023,Reporting year,National,E92000001,England,24 years,Care leavers group,Accommodation of care leaver,Bed and breakfast,10,k
+2023,Reporting year,National,E92000001,England,25 years,Care leavers group,Accommodation of care leaver,Bed and breakfast,c,c
+2023,Reporting year,National,E92000001,England,22 years,Care leavers group,Accommodation of care leaver,Community home,150,1
+2023,Reporting year,National,E92000001,England,23 years,Care leavers group,Accommodation of care leaver,Community home,100,1
+2023,Reporting year,National,E92000001,England,24 years,Care leavers group,Accommodation of care leaver,Community home,90,1
+2023,Reporting year,National,E92000001,England,25 years,Care leavers group,Accommodation of care leaver,Community home,60,1
+2023,Reporting year,National,E92000001,England,22 years,Care leavers group,Accommodation of care leaver,Deported,0,0
+2023,Reporting year,National,E92000001,England,23 years,Care leavers group,Accommodation of care leaver,Deported,0,0
+2023,Reporting year,National,E92000001,England,24 years,Care leavers group,Accommodation of care leaver,Deported,c,c
+2023,Reporting year,National,E92000001,England,25 years,Care leavers group,Accommodation of care leaver,Deported,0,0
+2023,Reporting year,National,E92000001,England,22 years,Care leavers group,Accommodation of care leaver,Emergency accommodation,50,k
+2023,Reporting year,National,E92000001,England,23 years,Care leavers group,Accommodation of care leaver,Emergency accommodation,50,k
+2023,Reporting year,National,E92000001,England,24 years,Care leavers group,Accommodation of care leaver,Emergency accommodation,40,k
+2023,Reporting year,National,E92000001,England,25 years,Care leavers group,Accommodation of care leaver,Emergency accommodation,20,k
+2023,Reporting year,National,E92000001,England,22 years,Care leavers group,Accommodation of care leaver,Foyers,100,1
+2023,Reporting year,National,E92000001,England,23 years,Care leavers group,Accommodation of care leaver,Foyers,60,1
+2023,Reporting year,National,E92000001,England,24 years,Care leavers group,Accommodation of care leaver,Foyers,40,k
+2023,Reporting year,National,E92000001,England,25 years,Care leavers group,Accommodation of care leaver,Foyers,20,k
+2023,Reporting year,National,E92000001,England,22 years,Care leavers group,Accommodation of care leaver,Gone abroad,c,c
+2023,Reporting year,National,E92000001,England,23 years,Care leavers group,Accommodation of care leaver,Gone abroad,c,c
+2023,Reporting year,National,E92000001,England,24 years,Care leavers group,Accommodation of care leaver,Gone abroad,c,c
+2023,Reporting year,National,E92000001,England,25 years,Care leavers group,Accommodation of care leaver,Gone abroad,c,c
+2023,Reporting year,National,E92000001,England,22 years,Care leavers group,Accommodation of care leaver,In custody,190,2
+2023,Reporting year,National,E92000001,England,23 years,Care leavers group,Accommodation of care leaver,In custody,130,1
+2023,Reporting year,National,E92000001,England,24 years,Care leavers group,Accommodation of care leaver,In custody,90,1
+2023,Reporting year,National,E92000001,England,25 years,Care leavers group,Accommodation of care leaver,In custody,50,1
+2023,Reporting year,National,E92000001,England,22 years,Care leavers group,Accommodation of care leaver,Independent living,3320,31
+2023,Reporting year,National,E92000001,England,23 years,Care leavers group,Accommodation of care leaver,Independent living,2540,24
+2023,Reporting year,National,E92000001,England,24 years,Care leavers group,Accommodation of care leaver,Independent living,1960,20
+2023,Reporting year,National,E92000001,England,25 years,Care leavers group,Accommodation of care leaver,Independent living,1060,12
+2023,Reporting year,National,E92000001,England,22 years,Care leavers group,Accommodation of care leaver,No fixed abode/homeless,90,1
+2023,Reporting year,National,E92000001,England,23 years,Care leavers group,Accommodation of care leaver,No fixed abode/homeless,70,1
+2023,Reporting year,National,E92000001,England,24 years,Care leavers group,Accommodation of care leaver,No fixed abode/homeless,70,1
+2023,Reporting year,National,E92000001,England,25 years,Care leavers group,Accommodation of care leaver,No fixed abode/homeless,20,k
+2023,Reporting year,National,E92000001,England,22 years,Care leavers group,Accommodation of care leaver,Ordinary lodgings,80,1
+2023,Reporting year,National,E92000001,England,23 years,Care leavers group,Accommodation of care leaver,Ordinary lodgings,50,k
+2023,Reporting year,National,E92000001,England,24 years,Care leavers group,Accommodation of care leaver,Ordinary lodgings,50,k
+2023,Reporting year,National,E92000001,England,25 years,Care leavers group,Accommodation of care leaver,Ordinary lodgings,30,k
+2023,Reporting year,National,E92000001,England,22 years,Care leavers group,Accommodation of care leaver,Other accommodation,200,2
+2023,Reporting year,National,E92000001,England,23 years,Care leavers group,Accommodation of care leaver,Other accommodation,140,1
+2023,Reporting year,National,E92000001,England,24 years,Care leavers group,Accommodation of care leaver,Other accommodation,110,1
+2023,Reporting year,National,E92000001,England,25 years,Care leavers group,Accommodation of care leaver,Other accommodation,70,1
+2023,Reporting year,National,E92000001,England,22 years,Care leavers group,Accommodation of care leaver,Residence not known,100,1
+2023,Reporting year,National,E92000001,England,23 years,Care leavers group,Accommodation of care leaver,Residence not known,120,1
+2023,Reporting year,National,E92000001,England,24 years,Care leavers group,Accommodation of care leaver,Residence not known,120,1
+2023,Reporting year,National,E92000001,England,25 years,Care leavers group,Accommodation of care leaver,Residence not known,110,1
+2023,Reporting year,National,E92000001,England,22 years,Care leavers group,Accommodation of care leaver,"Semi-independent, transitional accommodation",580,5
+2023,Reporting year,National,E92000001,England,23 years,Care leavers group,Accommodation of care leaver,"Semi-independent, transitional accommodation",400,4
+2023,Reporting year,National,E92000001,England,24 years,Care leavers group,Accommodation of care leaver,"Semi-independent, transitional accommodation",230,2
+2023,Reporting year,National,E92000001,England,25 years,Care leavers group,Accommodation of care leaver,"Semi-independent, transitional accommodation",110,1
+2023,Reporting year,National,E92000001,England,22 years,Care leavers group,Accommodation of care leaver,Supported lodgings,130,1
+2023,Reporting year,National,E92000001,England,23 years,Care leavers group,Accommodation of care leaver,Supported lodgings,60,1
+2023,Reporting year,National,E92000001,England,24 years,Care leavers group,Accommodation of care leaver,Supported lodgings,60,1
+2023,Reporting year,National,E92000001,England,25 years,Care leavers group,Accommodation of care leaver,Supported lodgings,30,k
+2023,Reporting year,National,E92000001,England,22 years,Care leavers group,Accommodation of care leaver,Total care leavers,10840,100
+2023,Reporting year,National,E92000001,England,23 years,Care leavers group,Accommodation of care leaver,Total care leavers,10540,100
+2023,Reporting year,National,E92000001,England,24 years,Care leavers group,Accommodation of care leaver,Total care leavers,9960,100
+2023,Reporting year,National,E92000001,England,25 years,Care leavers group,Accommodation of care leaver,Total care leavers,8680,100
+2023,Reporting year,National,E92000001,England,22 years,Care leavers group,Accommodation of care leaver,With former foster carers,230,2
+2023,Reporting year,National,E92000001,England,23 years,Care leavers group,Accommodation of care leaver,With former foster carers,130,1
+2023,Reporting year,National,E92000001,England,24 years,Care leavers group,Accommodation of care leaver,With former foster carers,90,1
+2023,Reporting year,National,E92000001,England,25 years,Care leavers group,Accommodation of care leaver,With former foster carers,40,k
+2023,Reporting year,National,E92000001,England,22 years,Care leavers group,Accommodation of care leaver,With parents or relatives,500,5
+2023,Reporting year,National,E92000001,England,23 years,Care leavers group,Accommodation of care leaver,With parents or relatives,330,3
+2023,Reporting year,National,E92000001,England,24 years,Care leavers group,Accommodation of care leaver,With parents or relatives,230,2
+2023,Reporting year,National,E92000001,England,25 years,Care leavers group,Accommodation of care leaver,With parents or relatives,90,1
+2023,Reporting year,National,E92000001,England,22 years,Care leavers group,Accommodation of care leaver,Young person has not requested and received support,5150,47
+2023,Reporting year,National,E92000001,England,23 years,Care leavers group,Accommodation of care leaver,Young person has not requested and received support,6360,60
+2023,Reporting year,National,E92000001,England,24 years,Care leavers group,Accommodation of care leaver,Young person has not requested and received support,6770,68
+2023,Reporting year,National,E92000001,England,25 years,Care leavers group,Accommodation of care leaver,Young person has not requested and received support,6970,80

@@ -1,0 +1,17 @@
+﻿time_period,time_identifier,geographic_level,country_code,country_name,care_leaver_age,accommodation_suitability,number,percentage
+2023,Reporting year,National,E92000001,England,22 years,Accommodation considered suitable,5230,49
+2023,Reporting year,National,E92000001,England,22 years,Accommodation considered unsuitable,360,3
+2023,Reporting year,National,E92000001,England,22 years,No information,5150,48
+2023,Reporting year,National,E92000001,England,22 years,Total,10740,100
+2023,Reporting year,National,E92000001,England,23 years,Accommodation considered suitable,3790,36
+2023,Reporting year,National,E92000001,England,23 years,Accommodation considered unsuitable,280,3
+2023,Reporting year,National,E92000001,England,23 years,No information,6360,61
+2023,Reporting year,National,E92000001,England,23 years,Total,10430,100
+2023,Reporting year,National,E92000001,England,24 years,Accommodation considered suitable,2830,29
+2023,Reporting year,National,E92000001,England,24 years,Accommodation considered unsuitable,230,2
+2023,Reporting year,National,E92000001,England,24 years,No information,6770,69
+2023,Reporting year,National,E92000001,England,24 years,Total,9840,100
+2023,Reporting year,National,E92000001,England,25 years,Accommodation considered suitable,1500,18
+2023,Reporting year,National,E92000001,England,25 years,Accommodation considered unsuitable,90,1
+2023,Reporting year,National,E92000001,England,25 years,No information,6970,81
+2023,Reporting year,National,E92000001,England,25 years,Total,8570,100

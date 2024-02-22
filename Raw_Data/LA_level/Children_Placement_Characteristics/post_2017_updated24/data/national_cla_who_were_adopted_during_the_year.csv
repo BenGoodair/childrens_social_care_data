@@ -1,0 +1,216 @@
+time_period,time_identifier,geographic_level,country_code,country_name,cla_group,characteristic,number,percentage
+2023,Reporting year,National,E92000001,England,Age at adoption,1 to 4 years,2280,77
+2023,Reporting year,National,E92000001,England,Age at adoption,10 to 15 years,30,1
+2023,Reporting year,National,E92000001,England,Age at adoption,16 years and over,10,k
+2023,Reporting year,National,E92000001,England,Age at adoption,5 to 9 years,550,19
+2023,Reporting year,National,E92000001,England,Age at Adoption,Average age (years:months),3:5,z
+2023,Reporting year,National,E92000001,England,Age at adoption,Total,2960,100
+2023,Reporting year,National,E92000001,England,Age at adoption,Under 1 year,80,3
+2023,Reporting year,National,E92000001,England,Age on starting final period of care,1 year,340,11
+2023,Reporting year,National,E92000001,England,Age on starting final period of care,2 years,270,9
+2023,Reporting year,National,E92000001,England,Age on starting final period of care,3 years,160,5
+2023,Reporting year,National,E92000001,England,Age on starting final period of care,4 years and over,200,7
+2023,Reporting year,National,E92000001,England,Age on starting final period of care,Average age (years:months),1:0,z
+2023,Reporting year,National,E92000001,England,Age on starting final period of care,Total,2960,100
+2023,Reporting year,National,E92000001,England,Age on starting final period of care,Under 1 year,2000,68
+2023,Reporting year,National,E92000001,England,Category of need,N1. Abuse or neglect,2360,80
+2023,Reporting year,National,E92000001,England,Category of need,N2. Child disability,10,k
+2023,Reporting year,National,E92000001,England,Category of need,N3. Parental illness or disability,100,3
+2023,Reporting year,National,E92000001,England,Category of need,N4. Family in acute stress,130,4
+2023,Reporting year,National,E92000001,England,Category of need,N5. Family dysfunction,320,11
+2023,Reporting year,National,E92000001,England,Category of need,N6. Socially unacceptable behaviour,c,c
+2023,Reporting year,National,E92000001,England,Category of need,N7. Low income,c,c
+2023,Reporting year,National,E92000001,England,Category of need,N8. Absent parenting,30,1
+2023,Reporting year,National,E92000001,England,Category of need,Total,2960,100
+2023,Reporting year,National,E92000001,England,Duration of final period of care,1 to 2 years,1080,37
+2023,Reporting year,National,E92000001,England,Duration of final period of care,2 to 3 years,1150,39
+2023,Reporting year,National,E92000001,England,Duration of final period of care,3 years and over,640,22
+2023,Reporting year,National,E92000001,England,Duration of final period of care,Average duration (years:months),2:5,z
+2023,Reporting year,National,E92000001,England,Duration of final period of care,Total,2960,100
+2023,Reporting year,National,E92000001,England,Duration of final period of care,Under 1 year,90,3
+2023,Reporting year,National,E92000001,England,Ethnic origin,Asian or Asian British,40,1
+2023,Reporting year,National,E92000001,England,Ethnic origin,"Black, African, Caribbean or Black British",60,2
+2023,Reporting year,National,E92000001,England,Ethnic origin,Mixed or Multiple ethnic group,300,10
+2023,Reporting year,National,E92000001,England,Ethnic origin,Other ethnic group,30,1
+2023,Reporting year,National,E92000001,England,Ethnic origin,Refused or information not yet available,40,1
+2023,Reporting year,National,E92000001,England,Ethnic origin,Total,2960,100
+2023,Reporting year,National,E92000001,England,Ethnic origin,White,2480,84
+2023,Reporting year,National,E92000001,England,Final legal status,Care order,50,2
+2023,Reporting year,National,E92000001,England,Final legal status,Placement order,2850,96
+2023,Reporting year,National,E92000001,England,Final legal status,Total,2960,100
+2023,Reporting year,National,E92000001,England,Final legal status,Voluntary agreement,50,2
+2023,Reporting year,National,E92000001,England,Gender,Female,1380,47
+2023,Reporting year,National,E92000001,England,Gender,Male,1570,53
+2023,Reporting year,National,E92000001,England,Gender,Total,2960,100
+2022,Reporting year,National,E92000001,England,Age at adoption,1 to 4 years,2310,77
+2022,Reporting year,National,E92000001,England,Age at adoption,10 to 15 years,30,1
+2022,Reporting year,National,E92000001,England,Age at adoption,16 years and over,c,c
+2022,Reporting year,National,E92000001,England,Age at adoption,5 to 9 years,530,18
+2022,Reporting year,National,E92000001,England,Age at Adoption,Average age (years:months),3:3,z
+2022,Reporting year,National,E92000001,England,Age at adoption,Total,3000,100
+2022,Reporting year,National,E92000001,England,Age at adoption,Under 1 year,120,4
+2022,Reporting year,National,E92000001,England,Age on starting final period of care,1 year,330,11
+2022,Reporting year,National,E92000001,England,Age on starting final period of care,2 years,260,9
+2022,Reporting year,National,E92000001,England,Age on starting final period of care,3 years,200,6
+2022,Reporting year,National,E92000001,England,Age on starting final period of care,4 years and over,160,5
+2022,Reporting year,National,E92000001,England,Age on starting final period of care,Average age (years:months),0:11,z
+2022,Reporting year,National,E92000001,England,Age on starting final period of care,Total,3000,100
+2022,Reporting year,National,E92000001,England,Age on starting final period of care,Under 1 year,2060,69
+2022,Reporting year,National,E92000001,England,Category of need,N1. Abuse or neglect,2310,77
+2022,Reporting year,National,E92000001,England,Category of need,N2. Child disability,10,k
+2022,Reporting year,National,E92000001,England,Category of need,N3. Parental illness or disability,100,3
+2022,Reporting year,National,E92000001,England,Category of need,N4. Family in acute stress,170,6
+2022,Reporting year,National,E92000001,England,Category of need,N5. Family dysfunction,370,12
+2022,Reporting year,National,E92000001,England,Category of need,N6. Socially unacceptable behaviour,10,k
+2022,Reporting year,National,E92000001,England,Category of need,N7. Low income,c,c
+2022,Reporting year,National,E92000001,England,Category of need,N8. Absent parenting,40,1
+2022,Reporting year,National,E92000001,England,Category of need,Total,3000,100
+2022,Reporting year,National,E92000001,England,Duration of final period of care,1 to 2 years,1260,42
+2022,Reporting year,National,E92000001,England,Duration of final period of care,2 to 3 years,1090,36
+2022,Reporting year,National,E92000001,England,Duration of final period of care,3 years and over,530,18
+2022,Reporting year,National,E92000001,England,Duration of final period of care,Average duration (years:months),2:3,z
+2022,Reporting year,National,E92000001,England,Duration of final period of care,Total,3000,100
+2022,Reporting year,National,E92000001,England,Duration of final period of care,Under 1 year,130,4
+2022,Reporting year,National,E92000001,England,Ethnic origin,Asian or Asian British,40,1
+2022,Reporting year,National,E92000001,England,Ethnic origin,"Black, African, Caribbean or Black British",60,2
+2022,Reporting year,National,E92000001,England,Ethnic origin,Mixed or Multiple ethnic group,350,12
+2022,Reporting year,National,E92000001,England,Ethnic origin,Other ethnic group,30,1
+2022,Reporting year,National,E92000001,England,Ethnic origin,Refused or information not yet available,50,2
+2022,Reporting year,National,E92000001,England,Ethnic origin,Total,3000,100
+2022,Reporting year,National,E92000001,England,Ethnic origin,White,2480,82
+2022,Reporting year,National,E92000001,England,Final legal status,Care order,30,1
+2022,Reporting year,National,E92000001,England,Final legal status,Placement order,2910,97
+2022,Reporting year,National,E92000001,England,Final legal status,Total,3000,100
+2022,Reporting year,National,E92000001,England,Final legal status,Voluntary agreement,70,2
+2022,Reporting year,National,E92000001,England,Gender,Female,1420,47
+2022,Reporting year,National,E92000001,England,Gender,Male,1580,53
+2022,Reporting year,National,E92000001,England,Gender,Total,3000,100
+2021,Reporting year,National,E92000001,England,Age at adoption,1 to 4 years,2240,78
+2021,Reporting year,National,E92000001,England,Age at adoption,10 to 15 years,40,1
+2021,Reporting year,National,E92000001,England,Age at adoption,16 years and over,10,k
+2021,Reporting year,National,E92000001,England,Age at adoption,5 to 9 years,480,17
+2021,Reporting year,National,E92000001,England,Age at Adoption,Average age (years:months),3:3,z
+2021,Reporting year,National,E92000001,England,Age at adoption,Total,2890,100
+2021,Reporting year,National,E92000001,England,Age at adoption,Under 1 year,120,4
+2021,Reporting year,National,E92000001,England,Age on starting final period of care,1 year,290,10
+2021,Reporting year,National,E92000001,England,Age on starting final period of care,2 years,220,8
+2021,Reporting year,National,E92000001,England,Age on starting final period of care,3 years,160,5
+2021,Reporting year,National,E92000001,England,Age on starting final period of care,4 years and over,230,8
+2021,Reporting year,National,E92000001,England,Age on starting final period of care,Average age (years:months),1:0,z
+2021,Reporting year,National,E92000001,England,Age on starting final period of care,Total,2890,100
+2021,Reporting year,National,E92000001,England,Age on starting final period of care,Under 1 year,2000,69
+2021,Reporting year,National,E92000001,England,Category of need,N1. Abuse or neglect,2210,76
+2021,Reporting year,National,E92000001,England,Category of need,N2. Child disability,10,k
+2021,Reporting year,National,E92000001,England,Category of need,N3. Parental illness or disability,100,4
+2021,Reporting year,National,E92000001,England,Category of need,N4. Family in acute stress,140,5
+2021,Reporting year,National,E92000001,England,Category of need,N5. Family dysfunction,360,12
+2021,Reporting year,National,E92000001,England,Category of need,N6. Socially unacceptable behaviour,10,k
+2021,Reporting year,National,E92000001,England,Category of need,N7. Low income,c,c
+2021,Reporting year,National,E92000001,England,Category of need,N8. Absent parenting,60,2
+2021,Reporting year,National,E92000001,England,Category of need,Total,2890,100
+2021,Reporting year,National,E92000001,England,Duration of final period of care,1 to 2 years,1360,47
+2021,Reporting year,National,E92000001,England,Duration of final period of care,2 to 3 years,970,33
+2021,Reporting year,National,E92000001,England,Duration of final period of care,3 years and over,440,15
+2021,Reporting year,National,E92000001,England,Duration of final period of care,Average duration (years:months),2:2,z
+2021,Reporting year,National,E92000001,England,Duration of final period of care,Total,2890,100
+2021,Reporting year,National,E92000001,England,Duration of final period of care,Under 1 year,130,5
+2021,Reporting year,National,E92000001,England,Ethnic origin,Asian or Asian British,50,2
+2021,Reporting year,National,E92000001,England,Ethnic origin,"Black, African, Caribbean or Black British",50,2
+2021,Reporting year,National,E92000001,England,Ethnic origin,Mixed or Multiple ethnic group,280,10
+2021,Reporting year,National,E92000001,England,Ethnic origin,Other ethnic group,40,1
+2021,Reporting year,National,E92000001,England,Ethnic origin,Refused or information not yet available,50,2
+2021,Reporting year,National,E92000001,England,Ethnic origin,Total,2890,100
+2021,Reporting year,National,E92000001,England,Ethnic origin,White,2430,84
+2021,Reporting year,National,E92000001,England,Final legal status,Care order,50,2
+2021,Reporting year,National,E92000001,England,Final legal status,Placement order,2780,96
+2021,Reporting year,National,E92000001,England,Final legal status,Total,2890,100
+2021,Reporting year,National,E92000001,England,Final legal status,Voluntary agreement,60,2
+2021,Reporting year,National,E92000001,England,Gender,Female,1370,47
+2021,Reporting year,National,E92000001,England,Gender,Male,1520,53
+2021,Reporting year,National,E92000001,England,Gender,Total,2890,100
+2020,Reporting year,National,E92000001,England,Age at adoption,1 to 4 years,2680,77
+2020,Reporting year,National,E92000001,England,Age at adoption,10 to 15 years,50,1
+2020,Reporting year,National,E92000001,England,Age at adoption,16 years and over,10,k
+2020,Reporting year,National,E92000001,England,Age at adoption,5 to 9 years,520,15
+2020,Reporting year,National,E92000001,England,Age at Adoption,Average age (years:months),3:0,z
+2020,Reporting year,National,E92000001,England,Age at adoption,Total,3480,100
+2020,Reporting year,National,E92000001,England,Age at adoption,Under 1 year,230,7
+2020,Reporting year,National,E92000001,England,Age on starting final period of care,1 year,370,11
+2020,Reporting year,National,E92000001,England,Age on starting final period of care,2 years,310,9
+2020,Reporting year,National,E92000001,England,Age on starting final period of care,3 years,200,6
+2020,Reporting year,National,E92000001,England,Age on starting final period of care,4 years and over,250,7
+2020,Reporting year,National,E92000001,England,Age on starting final period of care,Average age (years:months),1:0,z
+2020,Reporting year,National,E92000001,England,Age on starting final period of care,Total,3480,100
+2020,Reporting year,National,E92000001,England,Age on starting final period of care,Under 1 year,2350,68
+2020,Reporting year,National,E92000001,England,Category of need,N1. Abuse or neglect,2690,77
+2020,Reporting year,National,E92000001,England,Category of need,N2. Child disability,10,k
+2020,Reporting year,National,E92000001,England,Category of need,N3. Parental illness or disability,120,4
+2020,Reporting year,National,E92000001,England,Category of need,N4. Family in acute stress,160,5
+2020,Reporting year,National,E92000001,England,Category of need,N5. Family dysfunction,430,12
+2020,Reporting year,National,E92000001,England,Category of need,N6. Socially unacceptable behaviour,10,k
+2020,Reporting year,National,E92000001,England,Category of need,N7. Low income,c,c
+2020,Reporting year,National,E92000001,England,Category of need,N8. Absent parenting,50,2
+2020,Reporting year,National,E92000001,England,Category of need,Total,3480,100
+2020,Reporting year,National,E92000001,England,Duration of final period of care,1 to 2 years,1940,56
+2020,Reporting year,National,E92000001,England,Duration of final period of care,2 to 3 years,930,27
+2020,Reporting year,National,E92000001,England,Duration of final period of care,3 years and over,350,10
+2020,Reporting year,National,E92000001,England,Duration of final period of care,Average duration (years:months),2:0,z
+2020,Reporting year,National,E92000001,England,Duration of final period of care,Total,3480,100
+2020,Reporting year,National,E92000001,England,Duration of final period of care,Under 1 year,260,8
+2020,Reporting year,National,E92000001,England,Ethnic origin,Asian or Asian British,40,1
+2020,Reporting year,National,E92000001,England,Ethnic origin,"Black, African, Caribbean or Black British",60,2
+2020,Reporting year,National,E92000001,England,Ethnic origin,Mixed or Multiple ethnic group,370,11
+2020,Reporting year,National,E92000001,England,Ethnic origin,Other ethnic group,50,1
+2020,Reporting year,National,E92000001,England,Ethnic origin,Refused or information not yet available,80,2
+2020,Reporting year,National,E92000001,England,Ethnic origin,Total,3480,100
+2020,Reporting year,National,E92000001,England,Ethnic origin,White,2880,83
+2020,Reporting year,National,E92000001,England,Final legal status,Care order,60,2
+2020,Reporting year,National,E92000001,England,Final legal status,Placement order,3350,96
+2020,Reporting year,National,E92000001,England,Final legal status,Total,3480,100
+2020,Reporting year,National,E92000001,England,Final legal status,Voluntary agreement,70,2
+2020,Reporting year,National,E92000001,England,Gender,Female,1680,48
+2020,Reporting year,National,E92000001,England,Gender,Male,1800,52
+2020,Reporting year,National,E92000001,England,Gender,Total,3480,100
+2019,Reporting year,National,E92000001,England,Age at adoption,1 to 4 years,2670,74
+2019,Reporting year,National,E92000001,England,Age at adoption,10 to 15 years,50,1
+2019,Reporting year,National,E92000001,England,Age at adoption,16 years and over,10,k
+2019,Reporting year,National,E92000001,England,Age at adoption,5 to 9 years,630,17
+2019,Reporting year,National,E92000001,England,Age at Adoption,Average age (years:months),3:2,z
+2019,Reporting year,National,E92000001,England,Age at adoption,Total,3590,100
+2019,Reporting year,National,E92000001,England,Age at adoption,Under 1 year,240,7
+2019,Reporting year,National,E92000001,England,Age on starting final period of care,1 year,400,11
+2019,Reporting year,National,E92000001,England,Age on starting final period of care,2 years,340,10
+2019,Reporting year,National,E92000001,England,Age on starting final period of care,3 years,230,6
+2019,Reporting year,National,E92000001,England,Age on starting final period of care,4 years and over,310,9
+2019,Reporting year,National,E92000001,England,Age on starting final period of care,Average age (years:months),1:2,z
+2019,Reporting year,National,E92000001,England,Age on starting final period of care,Total,3590,100
+2019,Reporting year,National,E92000001,England,Age on starting final period of care,Under 1 year,2310,64
+2019,Reporting year,National,E92000001,England,Category of need,N1. Abuse or neglect,2660,74
+2019,Reporting year,National,E92000001,England,Category of need,N2. Child disability,10,k
+2019,Reporting year,National,E92000001,England,Category of need,N3. Parental illness or disability,150,4
+2019,Reporting year,National,E92000001,England,Category of need,N4. Family in acute stress,190,5
+2019,Reporting year,National,E92000001,England,Category of need,N5. Family dysfunction,490,14
+2019,Reporting year,National,E92000001,England,Category of need,N6. Socially unacceptable behaviour,20,k
+2019,Reporting year,National,E92000001,England,Category of need,N7. Low income,c,c
+2019,Reporting year,National,E92000001,England,Category of need,N8. Absent parenting,70,2
+2019,Reporting year,National,E92000001,England,Category of need,Total,3590,100
+2019,Reporting year,National,E92000001,England,Duration of final period of care,1 to 2 years,2080,58
+2019,Reporting year,National,E92000001,England,Duration of final period of care,2 to 3 years,870,24
+2019,Reporting year,National,E92000001,England,Duration of final period of care,3 years and over,370,10
+2019,Reporting year,National,E92000001,England,Duration of final period of care,Average duration (years:months),2:0,z
+2019,Reporting year,National,E92000001,England,Duration of final period of care,Total,3590,100
+2019,Reporting year,National,E92000001,England,Duration of final period of care,Under 1 year,270,8
+2019,Reporting year,National,E92000001,England,Ethnic origin,Asian or Asian British,60,2
+2019,Reporting year,National,E92000001,England,Ethnic origin,"Black, African, Caribbean or Black British",70,2
+2019,Reporting year,National,E92000001,England,Ethnic origin,Mixed or Multiple ethnic group,400,11
+2019,Reporting year,National,E92000001,England,Ethnic origin,Other ethnic group,30,1
+2019,Reporting year,National,E92000001,England,Ethnic origin,Refused or information not yet available,70,2
+2019,Reporting year,National,E92000001,England,Ethnic origin,Total,3590,100
+2019,Reporting year,National,E92000001,England,Ethnic origin,White,2980,83
+2019,Reporting year,National,E92000001,England,Final legal status,Care order,50,1
+2019,Reporting year,National,E92000001,England,Final legal status,Placement order,3460,96
+2019,Reporting year,National,E92000001,England,Final legal status,Total,3590,100
+2019,Reporting year,National,E92000001,England,Final legal status,Voluntary agreement,80,2
+2019,Reporting year,National,E92000001,England,Gender,Female,1720,48
+2019,Reporting year,National,E92000001,England,Gender,Male,1880,52
+2019,Reporting year,National,E92000001,England,Gender,Total,3590,100
