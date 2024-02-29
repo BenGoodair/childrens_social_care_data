@@ -1935,6 +1935,10 @@ create_outcomes_data <- function(){
   
   outcomespost <- rbind( sen, ks2, ks4, absence, exclusions, oc2, oc2_17)
   outcomes <- rbind(outcomespost, outcomes)
+  
+  outcomes <- outcomes %>%
+    dplyr::filter(!variable=="Received an intervention for their substance misuse problem"&year<2018,
+                  !variable=="Offered intervention but refused it"&year<2018)
   #rm(list=setdiff(ls(), c("outcomes")))
   
   
