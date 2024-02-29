@@ -167,8 +167,8 @@ create_outcomes_data <- function(){
                   `Total ages 0 to 4 years.pt` = "100",
                   `Convicted or subject to youth cautions or youth conditional cautions during the year.pt` = as.character((as.numeric(`Convicted or subject to youth cautions or youth conditional cautions during the year.n`)/as.numeric(`Total ages 10 to 17 years.n`))*100),
                   `Identified as having a substance misuse problem.pt` = as.character((as.numeric(`Identified as having a substance misuse problem.n`)/as.numeric(`Total all ages.n`))*100),
-                  `Received an intervention for their substance misuse problem.pt` = as.character((as.numeric(`Received an intervention for their substance misuse problem.n`)/as.numeric(`Total all ages.n`))*100),
-                  `Offered intervention but refused it.pt` = as.character((as.numeric(`Offered intervention but refused it.n`)/as.numeric(`Total all ages.n`))*100),
+                  `Received an intervention for their substance misuse problem.pt` = as.character((as.numeric(`Received an intervention for their substance misuse problem.n`)/as.numeric(`Identified as having a substance misuse problem.n`))*100),
+                  `Offered intervention but refused it.pt` = as.character((as.numeric(`Offered intervention but refused it.n`)/as.numeric(`Identified as having a substance misuse problem.n`))*100),
                   `Development assessments up to date.pt`= as.character((as.numeric(`Development assessments up to date.n`)/as.numeric(`Total ages 0 to 4 years.n`))*100),
                   `Had their immunisations up to date.pt` = as.character((as.numeric(`Had their immunisations up to date.n`)/as.numeric(`Total all ages.n`))*100),
                   `Had their teeth checked by a dentist.pt` = as.character((as.numeric(`Had their teeth checked by a dentist.n`)/as.numeric(`Total all ages.n`))*100),
@@ -355,8 +355,8 @@ create_outcomes_data <- function(){
                   `Total ages 5 to 16 years.pt` = "100",
                   `Convicted or subject to youth cautions or youth conditional cautions during the year.pt` = as.character((as.numeric(`Convicted or subject to youth cautions or youth conditional cautions during the year.n`)/as.numeric(`Total ages 10 to 17 years.n`))*100),
                   `Identified as having a substance misuse problem.pt` = as.character((as.numeric(`Identified as having a substance misuse problem.n`)/as.numeric(`Total all ages.n`))*100),
-                  `Received an intervention for their substance misuse problem.pt` = as.character((as.numeric(`Received an intervention for their substance misuse problem.n`)/as.numeric(`Total all ages.n`))*100),
-                  `Offered intervention but refused it.pt` = as.character((as.numeric(`Offered intervention but refused it.n`)/as.numeric(`Total all ages.n`))*100),
+                  `Received an intervention for their substance misuse problem.pt` = as.character((as.numeric(`Received an intervention for their substance misuse problem.n`)/as.numeric(`Identified as having a substance misuse problem.n`))*100),
+                  `Offered intervention but refused it.pt` = as.character((as.numeric(`Offered intervention but refused it.n`)/as.numeric(`Identified as having a substance misuse problem.n`))*100),
                   `Development assessments up to date.pt`= as.character((as.numeric(`Development assessments up to date.n`)/as.numeric(`Total ages 0 to 4 years.n`))*100),
                   `Had their immunisations up to date.pt` = as.character((as.numeric(`Had their immunisations up to date.n`)/as.numeric(`Total all ages.n`))*100),
                   `Had their teeth checked by a dentist.pt` = as.character((as.numeric(`Had their teeth checked by a dentist.n`)/as.numeric(`Total all ages.n`))*100),
@@ -513,8 +513,8 @@ create_outcomes_data <- function(){
                   `Total ages 5 to 16 years.pt` = "100",
                   `Convicted or subject to youth cautions or youth conditional cautions during the year.pt` = as.character((as.numeric(`Convicted or subject to youth cautions or youth conditional cautions during the year.n`)/as.numeric(`Total ages 10 to 17 years.n`))*100),
                   `Identified as having a substance misuse problem.pt` = as.character((as.numeric(`Identified as having a substance misuse problem.n`)/as.numeric(`Total all ages.n`))*100),
-                  `Received an intervention for their substance misuse problem.pt` = as.character((as.numeric(`Received an intervention for their substance misuse problem.n`)/as.numeric(`Total all ages.n`))*100),
-                  `Offered intervention but refused it.pt` = as.character((as.numeric(`Offered intervention but refused it.n`)/as.numeric(`Total all ages.n`))*100),
+                  `Received an intervention for their substance misuse problem.pt` = as.character((as.numeric(`Received an intervention for their substance misuse problem.n`)/as.numeric(`Identified as having a substance misuse problem.n`))*100),
+                  `Offered intervention but refused it.pt` = as.character((as.numeric(`Offered intervention but refused it.n`)/as.numeric(`Identified as having a substance misuse problem.n`))*100),
                   `Development assessments up to date.pt`= as.character((as.numeric(`Development assessments up to date.n`)/as.numeric(`Total ages 0 to 4 years.n`))*100),
                   `Had their immunisations up to date.pt` = as.character((as.numeric(`Had their immunisations up to date.n`)/as.numeric(`Total all ages.n`))*100),
                   `Had their teeth checked by a dentist.pt` = as.character((as.numeric(`Had their teeth checked by a dentist.n`)/as.numeric(`Total all ages.n`))*100),
@@ -782,8 +782,8 @@ create_outcomes_data <- function(){
     )%>% #rename variables
     dplyr::filter(LA_Name != "")%>% #remove empty rows
     dplyr::mutate(`Total all ages.pt` = "100",
-                  `Received an intervention for their substance misuse problem.pt` = as.character((as.numeric(`Received an intervention for their substance misuse problem.n`)/as.numeric(`Total all ages.n`))*100),
-                  `Offered intervention but refused it.pt` = as.character((as.numeric(`Offered intervention but refused it.n`)/as.numeric(`Total all ages.n`))*100)
+                  `Received an intervention for their substance misuse problem.pt` = as.character((as.numeric(`Received an intervention for their substance misuse problem.n`)/as.numeric(`Identified as having a substance misuse problem.n`))*100),
+                  `Offered intervention but refused it.pt` = as.character((as.numeric(`Offered intervention but refused it.n`)/as.numeric(`Identified as having a substance misuse problem.n`))*100)
     )%>%
     tidyr::pivot_longer(cols = !c(LA_Name), 
                         names_to = c("variable", ".value"),
@@ -1048,8 +1048,8 @@ create_outcomes_data <- function(){
     )%>% #rename variables
     dplyr::filter(LA_Name != "")%>% #remove empty rows
     dplyr::mutate(`Total all ages.pt` = "100",
-                  `Received an intervention for their substance misuse problem.pt` = as.character((as.numeric(`Received an intervention for their substance misuse problem.n`)/as.numeric(`Total all ages.n`))*100),
-                  `Offered intervention but refused it.pt` = as.character((as.numeric(`Offered intervention but refused it.n`)/as.numeric(`Total all ages.n`))*100)
+                  `Received an intervention for their substance misuse problem.pt` = as.character((as.numeric(`Received an intervention for their substance misuse problem.n`)/as.numeric(`Identified as having a substance misuse problem.n`))*100),
+                  `Offered intervention but refused it.pt` = as.character((as.numeric(`Offered intervention but refused it.n`)/as.numeric(`Identified as having a substance misuse problem.n`))*100)
     )%>%
     tidyr::pivot_longer(cols = !c(LA_Name), 
                         names_to = c("variable", ".value"),
@@ -1318,8 +1318,8 @@ create_outcomes_data <- function(){
                   `Total ages 5 to 16 years.pt` = "100",
                   `Convicted or subject to youth cautions or youth conditional cautions during the year.pt` = as.character((as.numeric(`Convicted or subject to youth cautions or youth conditional cautions during the year.n`)/as.numeric(`Total ages 10 to 17 years.n`))*100),
                   `Identified as having a substance misuse problem.pt` = as.character((as.numeric(`Identified as having a substance misuse problem.n`)/as.numeric(`Total all ages.n`))*100),
-                  `Received an intervention for their substance misuse problem.pt` = as.character((as.numeric(`Received an intervention for their substance misuse problem.n`)/as.numeric(`Total all ages.n`))*100),
-                  `Offered intervention but refused it.pt` = as.character((as.numeric(`Offered intervention but refused it.n`)/as.numeric(`Total all ages.n`))*100),
+                  `Received an intervention for their substance misuse problem.pt` = as.character((as.numeric(`Received an intervention for their substance misuse problem.n`)/as.numeric(`Identified as having a substance misuse problem.n`))*100),
+                  `Offered intervention but refused it.pt` = as.character((as.numeric(`Offered intervention but refused it.n`)/as.numeric(`Identified as having a substance misuse problem.n`))*100),
                   `Development assessments up to date.pt`= as.character((as.numeric(`Development assessments up to date.n`)/as.numeric(`Total ages 0 to 4 years.n`))*100),
                   `Had their immunisations up to date.pt` = as.character((as.numeric(`Had their immunisations up to date.n`)/as.numeric(`Total all ages.n`))*100),
                   `Had their teeth checked by a dentist.pt` = as.character((as.numeric(`Had their teeth checked by a dentist.n`)/as.numeric(`Total all ages.n`))*100),
@@ -1629,8 +1629,8 @@ create_outcomes_data <- function(){
                   `Total ages 5 to 16 years.pt` = "100",
                   `Convicted or subject to youth cautions or youth conditional cautions during the year.pt` = as.character((as.numeric(`Convicted or subject to youth cautions or youth conditional cautions during the year.n`)/as.numeric(`Total ages 10 to 17 years.n`))*100),
                   `Identified as having a substance misuse problem.pt` = as.character((as.numeric(`Identified as having a substance misuse problem.n`)/as.numeric(`Total all ages.n`))*100),
-                  `Received an intervention for their substance misuse problem.pt` = as.character((as.numeric(`Received an intervention for their substance misuse problem.n`)/as.numeric(`Total all ages.n`))*100),
-                  `Offered intervention but refused it.pt` = as.character((as.numeric(`Offered intervention but refused it.n`)/as.numeric(`Total all ages.n`))*100),
+                  `Received an intervention for their substance misuse problem.pt` = as.character((as.numeric(`Received an intervention for their substance misuse problem.n`)/as.numeric(`Identified as having a substance misuse problem.n`))*100),
+                  `Offered intervention but refused it.pt` = as.character((as.numeric(`Offered intervention but refused it.n`)/as.numeric(`Identified as having a substance misuse problem.n`))*100),
                   `Development assessments up to date.pt`= as.character((as.numeric(`Development assessments up to date.n`)/as.numeric(`Total ages 0 to 4 years.n`))*100),
                   `Had their immunisations up to date.pt` = as.character((as.numeric(`Had their immunisations up to date.n`)/as.numeric(`Total all ages.n`))*100),
                   `Had their teeth checked by a dentist.pt` = as.character((as.numeric(`Had their teeth checked by a dentist.n`)/as.numeric(`Total all ages.n`))*100),
@@ -1912,8 +1912,8 @@ create_outcomes_data <- function(){
                   `Total ages 5 to 16 years.pt` = "100",
                   `Convicted or subject to youth cautions or youth conditional cautions during the year.pt` = as.character((as.numeric(`Convicted or subject to youth cautions or youth conditional cautions during the year.n`)/as.numeric(`Total ages 10 to 17 years.n`))*100),
                   `Identified as having a substance misuse problem.pt` = as.character((as.numeric(`Identified as having a substance misuse problem.n`)/as.numeric(`Total all ages.n`))*100),
-                  `Received an intervention for their substance misuse problem.pt` = as.character((as.numeric(`Received an intervention for their substance misuse problem.n`)/as.numeric(`Total all ages.n`))*100),
-                  `Offered intervention but refused it.pt` = as.character((as.numeric(`Offered intervention but refused it.n`)/as.numeric(`Total all ages.n`))*100),
+                  `Received an intervention for their substance misuse problem.pt` = as.character((as.numeric(`Received an intervention for their substance misuse problem.n`)/as.numeric(`Identified as having a substance misuse problem.n`))*100),
+                  `Offered intervention but refused it.pt` = as.character((as.numeric(`Offered intervention but refused it.n`)/as.numeric(`Identified as having a substance misuse problem.n`))*100),
                   `Development assessments up to date.pt`= as.character((as.numeric(`Development assessments up to date.n`)/as.numeric(`Total ages 0 to 4 years.n`))*100),
                   `Had their immunisations up to date.pt` = as.character((as.numeric(`Had their immunisations up to date.n`)/as.numeric(`Total all ages.n`))*100),
                   `Had their teeth checked by a dentist.pt` = as.character((as.numeric(`Had their teeth checked by a dentist.n`)/as.numeric(`Total all ages.n`))*100),
