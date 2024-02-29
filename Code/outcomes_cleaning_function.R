@@ -361,7 +361,7 @@ create_outcomes_data <- function(){
                   `Had their immunisations up to date.pt` = as.character((as.numeric(`Had their immunisations up to date.n`)/as.numeric(`Total all ages.n`))*100),
                   `Had their teeth checked by a dentist.pt` = as.character((as.numeric(`Had their teeth checked by a dentist.n`)/as.numeric(`Total all ages.n`))*100),
                   `Had their annual health assessment.pt` = as.character((as.numeric(`Had their annual health assessment.n`)/as.numeric(`Total all ages.n`))*100),
-                  `SDQ average score.pt` = as.character((as.numeric(`SDQ average score.n`)/as.numeric(`Total ages 5 to 16 years.n`))*100),
+                  `SDQ average score.pt` = as.character((as.numeric(`SDQ average score.n`)/as.numeric(`SDQ score was received.n`))*100),
                   `SDQ score was received.pt` = as.character((as.numeric(`SDQ score was received.n`)/as.numeric(`Total ages 5 to 16 years.n`))*100))%>%
     tidyr::pivot_longer(cols = !c(LA_Name, LA.Number), 
                         names_to = c("variable", ".value"),
