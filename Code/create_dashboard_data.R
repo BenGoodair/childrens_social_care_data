@@ -94,3 +94,45 @@ write.csv(dashboard_data, "C:/Users/benjamin.goodair/OneDrive - Nexus365/Documen
 write.csv(enter_exit, "C:/Users/benjamin.goodair/OneDrive - Nexus365/Documents/GitHub/childrens_social_care_data/Final_Data/outputs/enter_exit.csv")
 write.csv(provider_at_march, "C:/Users/benjamin.goodair/OneDrive - Nexus365/Documents/GitHub/childrens_social_care_data/Final_Data/outputs/active_chomes_2023.csv")
 
+
+
+####plots for pres####
+
+
+plot1 <- dashboard_data %>%dplyr::filter(variable=="Own provision (by the LA)"|
+                                  (category == "Expenditure" & 
+                                    subcategory == "Own_provision" &
+                                     variable=="Total Children Looked After"
+                                  ))%>%
+  dplyr::mutate(dataset = ifelse(category=="Expenditure","Expenditure", "Placements"),
+                percent=as.numeric(percent),
+                year = as.numeric(year))%>%
+  ggplot(., aes(x = year, y = percent)) +
+  geom_point(size = 2, color = "#B4CFEE", alpha = 0.3) +
+  geom_smooth(method = "loess", se = FALSE, colour = "#2A6EBB") +
+  labs(
+    x = "Year",
+    y = "In House (%)",
+    title = "Looked after children's services",
+    color = ""
+  )+
+  theme_bw()+
+  facet_wrap(~dataset,nrow = 1)+
+  theme(text = element_text(size=20),
+        panel.grid.major.x = element_blank(),
+        panel.grid.minor.x = element_blank(),
+        axis.ticks.length=unit(.28, "cm"),
+        axis.line.x = element_line(size = 0.5, linetype = "solid", colour = "black"),
+        axis.line.y = element_line(size = 0.5, linetype = "solid", colour = "black"),
+        axis.line = element_line(colour = "black"),
+        axis.title = element_text(size=24),
+        axis.text.x = element_text(size=18),
+        axis.text.y = element_text(size=20),
+        legend.title = element_blank(),
+        legend.box.background = element_rect(colour = "black", size = 1),
+        legend.text = element_text(size=20),
+        legend.position = "top",
+        strip.background = element_rect(fill="gray90", colour="black", size=1),
+        strip.text = element_text(face="bold", size=16),
+        title=element_text(face="bold")) +
+  theme(panel.spacing.x = unit(4, "mm"))
