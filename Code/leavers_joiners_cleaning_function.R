@@ -72,6 +72,57 @@ create_market_exits_entries <- function(){
   
   enter_exit <- unique(rbind(leavers, joiners))
   
+  imd <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Economic_Political_Contextual/imd19.csv"))  %>%
+    dplyr::rename(Local.authority = Upper.Tier.Local.Authority.District.name..2019.)%>%
+    dplyr::mutate(Local.authority = Local.authority %>%
+                    gsub('&', 'and', .) %>%
+                    gsub('[[:punct:] ]+', ' ', .) %>%
+                    gsub('[0-9]', '', .)%>%
+                    toupper() %>%
+                    gsub("CITY OF", "",.)%>%
+                    gsub("UA", "",.)%>%
+                    gsub("COUNTY OF", "",.)%>%
+                    gsub("ROYAL BOROUGH OF", "",.)%>%
+                    gsub("LEICESTER CITY", "LEICESTER",.)%>%
+                    gsub("UA", "",.)%>%
+                    gsub("DARWIN", "DARWEN", .)%>%
+                    gsub("COUNTY DURHAM", "DURHAM", .)%>%
+                    gsub("AND DARWEN", "WITH DARWEN", .)%>%
+                    gsub("NE SOM", "NORTH EAST SOM", .)%>%
+                    gsub("N E SOM", "NORTH EAST SOM", .)%>%
+                    str_trim())%>%
+    dplyr::select(Local.authority,IMD...Rank.of.average.score )%>%
+    dplyr::mutate(imd_decile = ntile(IMD...Rank.of.average.score, 10))
+  
+  enter_exit <- enter_exit %>%
+    dplyr::mutate(Local.authority = Local.authority %>%
+                    gsub('&', 'and', .) %>%
+                    gsub('[[:punct:] ]+', ' ', .) %>%
+                    gsub('[0-9]', '', .)%>%
+                    toupper() %>%
+                    gsub("CITY OF", "",.)%>%
+                    gsub("UA", "",.)%>%
+                    gsub("COUNTY OF", "",.)%>%
+                    gsub("ROYAL BOROUGH OF", "",.)%>%
+                    gsub("LEICESTER CITY", "LEICESTER",.)%>%
+                    gsub("UA", "",.)%>%
+                    gsub("DARWIN", "DARWEN", .)%>%
+                    gsub("AND DARWEN", "WITH DARWEN", .)%>%
+                    gsub("NE SOM", "NORTH EAST SOM", .)%>%
+                    gsub("N E SOM", "NORTH EAST SOM", .)%>%
+                    str_trim())%>%
+    dplyr::left_join(., imd, by="Local.authority")%>%
+    dplyr::mutate(imd_decile = ifelse(Local.authority %in% c("BOURNEMOUTH", "POOLE", "CHRISTCHURCH"), 7,
+                                      ifelse(Local.authority %in% c("WEST NORTHAMPTONSHIRE", "NORTH NORTHAMPTONSHIRE"), 7,
+                                             imd_decile)),
+                  IMD...Rank.of.average.score = ifelse(Local.authority %in% c("BOURNEMOUTH", "POOLE", "CHRISTCHURCH"), 104,
+                                                       ifelse(Local.authority %in% c("WEST NORTHAMPTONSHIRE", "NORTH NORTHAMPTONSHIRE"), 99,
+                                                              IMD...Rank.of.average.score)))
+  
+  
+  
+  
+  
 # plz <-enter_exit%>% 
 #   dplyr::mutate(yes = 1,
 #                 Places = as.numeric(Places),
