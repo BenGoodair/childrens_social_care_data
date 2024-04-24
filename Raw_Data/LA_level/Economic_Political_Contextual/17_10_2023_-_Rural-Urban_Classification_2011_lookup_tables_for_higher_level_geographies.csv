@@ -1,0 +1,161 @@
+Counties and Unitary Authorities (Upper Tier Local Authorities) Rural-Urban Classification (2021),,,
+There are 152 rows in this dataset.,,,
+,,,
+Upper Tier Local Authority Area 2021 Code,Upper Tier Local Authority Area 2021 Name,Rural-Urban Classification 2011 (6 fold),Rural-Urban Classification 2011 (3 fold)
+E06000001,Hartlepool,Urban with City and Town,Predominantly Urban
+E06000002,Middlesbrough,Urban with City and Town,Predominantly Urban
+E06000003,Redcar and Cleveland,Urban with Significant Rural,Urban with Significant Rural
+E06000004,Stockton-on-Tees,Urban with City and Town,Predominantly Urban
+E06000005,Darlington,Urban with City and Town,Predominantly Urban
+E06000006,Halton,Urban with City and Town,Predominantly Urban
+E06000007,Warrington,Urban with City and Town,Predominantly Urban
+E06000008,Blackburn with Darwen,Urban with City and Town,Predominantly Urban
+E06000009,Blackpool,Urban with City and Town,Predominantly Urban
+E06000010,"Kingston upon Hull, City of",Urban with City and Town,Predominantly Urban
+E06000011,East Riding of Yorkshire,Largely Rural,Predominantly Rural
+E06000012,North East Lincolnshire,Urban with City and Town,Predominantly Urban
+E06000013,North Lincolnshire,Urban with Significant Rural,Urban with Significant Rural
+E06000014,York,Urban with City and Town,Predominantly Urban
+E06000015,Derby,Urban with City and Town,Predominantly Urban
+E06000016,Leicester,Urban with City and Town,Predominantly Urban
+E06000017,Rutland,Mainly Rural,Predominantly Rural
+E06000018,Nottingham,Urban with Minor Conurbation,Predominantly Urban
+E06000019,"Herefordshire, County of",Largely Rural,Predominantly Rural
+E06000020,Telford and Wrekin,Urban with City and Town,Predominantly Urban
+E06000021,Stoke-on-Trent,Urban with City and Town,Predominantly Urban
+E06000022,Bath and North East Somerset,Urban with Significant Rural,Urban with Significant Rural
+E06000023,"Bristol, City of",Urban with City and Town,Predominantly Urban
+E06000024,North Somerset,Urban with Significant Rural,Urban with Significant Rural
+E06000025,South Gloucestershire,Urban with City and Town,Predominantly Urban
+E06000026,Plymouth,Urban with City and Town,Predominantly Urban
+E06000027,Torbay,Urban with City and Town,Predominantly Urban
+E06000030,Swindon,Urban with City and Town,Predominantly Urban
+E06000031,Peterborough,Urban with City and Town,Predominantly Urban
+E06000032,Luton,Urban with City and Town,Predominantly Urban
+E06000033,Southend-on-Sea,Urban with City and Town,Predominantly Urban
+E06000034,Thurrock,Urban with Major Conurbation,Predominantly Urban
+E06000035,Medway,Urban with City and Town,Predominantly Urban
+E06000036,Bracknell Forest,Urban with City and Town,Predominantly Urban
+E06000037,West Berkshire,Urban with Significant Rural,Urban with Significant Rural
+E06000038,Reading,Urban with City and Town,Predominantly Urban
+E06000039,Slough,Urban with City and Town,Predominantly Urban
+E06000040,Windsor and Maidenhead,Urban with City and Town,Predominantly Urban
+E06000041,Wokingham,Urban with City and Town,Predominantly Urban
+E06000042,Milton Keynes,Urban with City and Town,Predominantly Urban
+E06000043,Brighton and Hove,Urban with City and Town,Predominantly Urban
+E06000044,Portsmouth,Urban with City and Town,Predominantly Urban
+E06000045,Southampton,Urban with City and Town,Predominantly Urban
+E06000046,Isle of Wight,Mainly Rural,Predominantly Rural
+E06000047,County Durham,Largely Rural,Predominantly Rural
+E06000049,Cheshire East,Urban with Significant Rural,Urban with Significant Rural
+E06000050,Cheshire West and Chester,Urban with Significant Rural,Urban with Significant Rural
+E06000051,Shropshire,Largely Rural,Predominantly Rural
+E06000052,Cornwall,Mainly Rural,Predominantly Rural
+E06000053,Isles of Scilly,Mainly Rural,Predominantly Rural
+E06000054,Wiltshire,Largely Rural,Predominantly Rural
+E06000055,Bedford,Urban with Significant Rural,Urban with Significant Rural
+E06000056,Central Bedfordshire,Largely Rural,Predominantly Rural
+E06000057,Northumberland,Largely Rural,Predominantly Rural
+E06000058,"Bournemouth, Christchurch and Poole",Urban with City and Town,Predominantly Urban
+E06000059,Dorset,Largely Rural,Predominantly Rural
+E06000060,Buckinghamshire,Urban with Significant Rural,Urban with Significant Rural
+E06000061,North Northamptonshire,Urban with Significant Rural,Urban with Significant Rural
+E06000062,West Northamptonshire,Urban with Significant Rural,Urban with Significant Rural
+E08000001,Bolton,Urban with Major Conurbation,Predominantly Urban
+E08000002,Bury,Urban with Major Conurbation,Predominantly Urban
+E08000003,Manchester,Urban with Major Conurbation,Predominantly Urban
+E08000004,Oldham,Urban with Major Conurbation,Predominantly Urban
+E08000005,Rochdale,Urban with Major Conurbation,Predominantly Urban
+E08000006,Salford,Urban with Major Conurbation,Predominantly Urban
+E08000007,Stockport,Urban with Major Conurbation,Predominantly Urban
+E08000008,Tameside,Urban with Major Conurbation,Predominantly Urban
+E08000009,Trafford,Urban with Major Conurbation,Predominantly Urban
+E08000010,Wigan,Urban with Major Conurbation,Predominantly Urban
+E08000011,Knowsley,Urban with Major Conurbation,Predominantly Urban
+E08000012,Liverpool,Urban with Major Conurbation,Predominantly Urban
+E08000013,St. Helens,Urban with Major Conurbation,Predominantly Urban
+E08000014,Sefton,Urban with Major Conurbation,Predominantly Urban
+E08000015,Wirral,Urban with Major Conurbation,Predominantly Urban
+E08000016,Barnsley,Urban with Minor Conurbation,Predominantly Urban
+E08000017,Doncaster,Urban with Minor Conurbation,Predominantly Urban
+E08000018,Rotherham,Urban with Minor Conurbation,Predominantly Urban
+E08000019,Sheffield,Urban with Minor Conurbation,Predominantly Urban
+E08000021,Newcastle upon Tyne,Urban with Major Conurbation,Predominantly Urban
+E08000022,North Tyneside,Urban with Major Conurbation,Predominantly Urban
+E08000023,South Tyneside,Urban with Major Conurbation,Predominantly Urban
+E08000024,Sunderland,Urban with Major Conurbation,Predominantly Urban
+E08000025,Birmingham,Urban with Major Conurbation,Predominantly Urban
+E08000026,Coventry,Urban with City and Town,Predominantly Urban
+E08000027,Dudley,Urban with Major Conurbation,Predominantly Urban
+E08000028,Sandwell,Urban with Major Conurbation,Predominantly Urban
+E08000029,Solihull,Urban with Major Conurbation,Predominantly Urban
+E08000030,Walsall,Urban with Major Conurbation,Predominantly Urban
+E08000031,Wolverhampton,Urban with Major Conurbation,Predominantly Urban
+E08000032,Bradford,Urban with Major Conurbation,Predominantly Urban
+E08000033,Calderdale,Urban with Major Conurbation,Predominantly Urban
+E08000034,Kirklees,Urban with Major Conurbation,Predominantly Urban
+E08000035,Leeds,Urban with Major Conurbation,Predominantly Urban
+E08000036,Wakefield,Urban with City and Town,Predominantly Urban
+E08000037,Gateshead,Urban with Major Conurbation,Predominantly Urban
+E09000001,City of London,Urban with Major Conurbation,Predominantly Urban
+E09000002,Barking and Dagenham,Urban with Major Conurbation,Predominantly Urban
+E09000003,Barnet,Urban with Major Conurbation,Predominantly Urban
+E09000004,Bexley,Urban with Major Conurbation,Predominantly Urban
+E09000005,Brent,Urban with Major Conurbation,Predominantly Urban
+E09000006,Bromley,Urban with Major Conurbation,Predominantly Urban
+E09000007,Camden,Urban with Major Conurbation,Predominantly Urban
+E09000008,Croydon,Urban with Major Conurbation,Predominantly Urban
+E09000009,Ealing,Urban with Major Conurbation,Predominantly Urban
+E09000010,Enfield,Urban with Major Conurbation,Predominantly Urban
+E09000011,Greenwich,Urban with Major Conurbation,Predominantly Urban
+E09000012,Hackney,Urban with Major Conurbation,Predominantly Urban
+E09000013,Hammersmith and Fulham,Urban with Major Conurbation,Predominantly Urban
+E09000014,Haringey,Urban with Major Conurbation,Predominantly Urban
+E09000015,Harrow,Urban with Major Conurbation,Predominantly Urban
+E09000016,Havering,Urban with Major Conurbation,Predominantly Urban
+E09000017,Hillingdon,Urban with Major Conurbation,Predominantly Urban
+E09000018,Hounslow,Urban with Major Conurbation,Predominantly Urban
+E09000019,Islington,Urban with Major Conurbation,Predominantly Urban
+E09000020,Kensington and Chelsea,Urban with Major Conurbation,Predominantly Urban
+E09000021,Kingston upon Thames,Urban with Major Conurbation,Predominantly Urban
+E09000022,Lambeth,Urban with Major Conurbation,Predominantly Urban
+E09000023,Lewisham,Urban with Major Conurbation,Predominantly Urban
+E09000024,Merton,Urban with Major Conurbation,Predominantly Urban
+E09000025,Newham,Urban with Major Conurbation,Predominantly Urban
+E09000026,Redbridge,Urban with Major Conurbation,Predominantly Urban
+E09000027,Richmond upon Thames,Urban with Major Conurbation,Predominantly Urban
+E09000028,Southwark,Urban with Major Conurbation,Predominantly Urban
+E09000029,Sutton,Urban with Major Conurbation,Predominantly Urban
+E09000030,Tower Hamlets,Urban with Major Conurbation,Predominantly Urban
+E09000031,Waltham Forest,Urban with Major Conurbation,Predominantly Urban
+E09000032,Wandsworth,Urban with Major Conurbation,Predominantly Urban
+E09000033,Westminster,Urban with Major Conurbation,Predominantly Urban
+E10000003,Cambridgeshire,Largely Rural,Predominantly Rural
+E10000006,Cumbria,Largely Rural,Predominantly Rural
+E10000007,Derbyshire,Urban with Significant Rural,Urban with Significant Rural
+E10000008,Devon,Largely Rural,Predominantly Rural
+E10000011,East Sussex,Urban with Significant Rural,Urban with Significant Rural
+E10000012,Essex,Urban with Significant Rural,Urban with Significant Rural
+E10000013,Gloucestershire,Urban with Significant Rural,Urban with Significant Rural
+E10000014,Hampshire,Urban with Significant Rural,Urban with Significant Rural
+E10000015,Hertfordshire,Urban with City and Town,Predominantly Urban
+E10000016,Kent,Urban with Significant Rural,Urban with Significant Rural
+E10000017,Lancashire,Urban with City and Town,Predominantly Urban
+E10000018,Leicestershire,Urban with Significant Rural,Urban with Significant Rural
+E10000019,Lincolnshire,Largely Rural,Predominantly Rural
+E10000020,Norfolk,Largely Rural,Predominantly Rural
+E10000023,North Yorkshire,Largely Rural,Predominantly Rural
+E10000024,Nottinghamshire,Urban with Significant Rural,Urban with Significant Rural
+E10000025,Oxfordshire,Largely Rural,Predominantly Rural
+E10000027,Somerset,Largely Rural,Predominantly Rural
+E10000028,Staffordshire,Urban with Significant Rural,Urban with Significant Rural
+E10000029,Suffolk,Largely Rural,Predominantly Rural
+E10000030,Surrey,Urban with Major Conurbation,Predominantly Urban
+E10000031,Warwickshire,Urban with Significant Rural,Urban with Significant Rural
+E10000032,West Sussex,Urban with City and Town,Predominantly Urban
+E10000034,Worcestershire,Urban with Significant Rural,Urban with Significant Rural
+,,,
+,,,
+,,,
+,,,
+,,,
