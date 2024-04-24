@@ -91,8 +91,9 @@ create_market_exits_entries <- function(){
                     gsub("NE SOM", "NORTH EAST SOM", .)%>%
                     gsub("N E SOM", "NORTH EAST SOM", .)%>%
                     str_trim())%>%
-    dplyr::select(Local.authority,IMD...Rank.of.average.score )%>%
-    dplyr::mutate(imd_decile = ntile(IMD...Rank.of.average.score, 10))
+    dplyr::select(Local.authority,IMD...Rank.of.average.score, IMD.2019...Extent )%>%
+    dplyr::mutate(imd_decile = ntile(IMD...Rank.of.average.score, 10),
+                  imd_extent_decile = ntile(IMD.2019...Extent, 10))
   
   enter_exit <- enter_exit %>%
     dplyr::mutate(Local.authority = Local.authority %>%
@@ -117,7 +118,13 @@ create_market_exits_entries <- function(){
                                              imd_decile)),
                   IMD...Rank.of.average.score = ifelse(Local.authority %in% c("BOURNEMOUTH", "POOLE", "CHRISTCHURCH"), 104,
                                                        ifelse(Local.authority %in% c("WEST NORTHAMPTONSHIRE", "NORTH NORTHAMPTONSHIRE"), 99,
-                                                              IMD...Rank.of.average.score)))
+                                                              IMD...Rank.of.average.score)),
+                  imd_extent_decile = ifelse(Local.authority %in% c("BOURNEMOUTH", "POOLE", "CHRISTCHURCH"), 4,
+                                                       ifelse(Local.authority %in% c("WEST NORTHAMPTONSHIRE", "NORTH NORTHAMPTONSHIRE"), 5,
+                                                              imd_extent_decile)),
+                  IMD.2019...Extent = ifelse(Local.authority %in% c("BOURNEMOUTH", "POOLE", "CHRISTCHURCH"), 0.1126,
+                                                       ifelse(Local.authority %in% c("WEST NORTHAMPTONSHIRE", "NORTH NORTHAMPTONSHIRE"), 0.1511,
+                                                              IMD.2019...Extent)))
   
   
   
