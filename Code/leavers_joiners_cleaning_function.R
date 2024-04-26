@@ -6,8 +6,10 @@ create_market_exits_entries <- function(){
   pacman::p_load(devtools, dplyr, tidyverse, tidyr, stringr,  curl)
 
   
-  #leavers <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/Provider_level/Closed%20providers%20final.csv"))[c(1:3)]  %>%
-  #  dplyr::rename(URN=urn)
+  leavers <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/Provider_level/Closed%20providers%20final.csv"))[c(1:3)]  %>%
+    dplyr::rename(URN=urn)%>%
+    dplyr::mutate(close_date = as.Date(close_date, format = "%d/%m/%Y"))%>%
+    dplyr::filter(close_date > "2016-04-01" )
 
   
   joiners17 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/Provider_level/joiners_leavers_17.csv"))  
@@ -60,21 +62,18 @@ create_market_exits_entries <- function(){
     
   
   
-  # source("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Code/provider_cleaning_function_nonactive.R")
-  # ProviderData <- create_provider_data()
-  # 
-  # leavers <- merge(leavers, ProviderData, by="URN", all.x=T) %>%
-  #   dplyr::select(URN, Provision.type, Local.authority, Sector, Places, provider_status ,close_date)%>%
-  #   dplyr::filter(!is.na(Provision.type))%>%
-  #   dplyr::rename(Date = close_date)%>%
-  #   dplyr::mutate(leave_join = "Leave")
-  # 
-  # 
-  # enter_exit <- unique(rbind(leavers, joiners))
+  source("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Code/provider_cleaning_function_nonactive.R")
+  ProviderData <- create_provider_data()
   
-   enter_exit <-  joiners
+  leavers <- merge(leavers, ProviderData, by="URN", all.x=T) %>%
+    dplyr::select(URN, Provision.type, Local.authority, Sector, Places, provider_status ,close_date)%>%
+    dplyr::filter(!is.na(Provision.type))%>%
+    dplyr::rename(Date = close_date)%>%
+    dplyr::mutate(leave_join = "Leave")
   
-  # 
+  
+  enter_exit <- unique(rbind(leavers, joiners))
+  
   imd <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Economic_Political_Contextual/imd19.csv"))  %>%
     dplyr::rename(Local.authority = Upper.Tier.Local.Authority.District.name..2019.)%>%
     dplyr::mutate(Local.authority = Local.authority %>%
