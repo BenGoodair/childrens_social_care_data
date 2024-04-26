@@ -97,6 +97,32 @@ create_market_exits_entries <- function(){
     dplyr::mutate(imd_decile = ntile(IMD...Rank.of.average.score, 10),
                   imd_extent_decile = ntile(IMD.2019...Extent, 10))
   
+  house_price <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Economic_Political_Contextual/Average-prices-2024-02.csv"))  %>%
+    dplyr::rename(Local.authority = Region_Name,
+                  Average_house_price = Average_Price)%>%
+    dplyr::filter(Date=="01/12/2023")%>%
+    dplyr::select(Local.authority,Average_house_price )%>%
+    dplyr::mutate(Local.authority = Local.authority %>%
+                    gsub('&', 'and', .) %>%
+                    gsub('[[:punct:] ]+', ' ', .) %>%
+                    gsub('[0-9]', '', .)%>%
+                    toupper() %>%
+                    gsub("CITY OF", "",.)%>%
+                    gsub("UA", "",.)%>%
+                    gsub("COUNTY OF", "",.)%>%
+                    gsub("ROYAL BOROUGH OF", "",.)%>%
+                    gsub("LEICESTER CITY", "LEICESTER",.)%>%
+                    gsub("UA", "",.)%>%
+                    gsub("DARWIN", "DARWEN", .)%>%
+                    gsub("COUNTY DURHAM", "DURHAM", .)%>%
+                    gsub("AND DARWEN", "WITH DARWEN", .)%>%
+                    gsub("NE SOM", "NORTH EAST SOM", .)%>%
+                    gsub("N E SOM", "NORTH EAST SOM", .)%>%
+                    str_trim())%>%
+    dplyr::select(Local.authority,IMD...Rank.of.average.score, IMD.2019...Extent )%>%
+    dplyr::mutate(imd_decile = ntile(IMD...Rank.of.average.score, 10),
+                  imd_extent_decile = ntile(IMD.2019...Extent, 10))
+  
   enter_exit <- enter_exit %>%
     dplyr::mutate(Local.authority = Local.authority %>%
                     gsub('&', 'and', .) %>%
@@ -126,7 +152,9 @@ create_market_exits_entries <- function(){
                                                               imd_extent_decile)),
                   IMD.2019...Extent = ifelse(Local.authority %in% c("BOURNEMOUTH", "POOLE", "CHRISTCHURCH"), 0.1126,
                                                        ifelse(Local.authority %in% c("WEST NORTHAMPTONSHIRE", "NORTH NORTHAMPTONSHIRE"), 0.1511,
-                                                              IMD.2019...Extent)))
+                                                              IMD.2019...Extent)))%>%
+    dplyr::left_join(., house_price, by="Local.authority")
+    
   
   
   
