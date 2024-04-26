@@ -118,10 +118,7 @@ create_market_exits_entries <- function(){
                     gsub("AND DARWEN", "WITH DARWEN", .)%>%
                     gsub("NE SOM", "NORTH EAST SOM", .)%>%
                     gsub("N E SOM", "NORTH EAST SOM", .)%>%
-                    str_trim())%>%
-    dplyr::select(Local.authority,IMD...Rank.of.average.score, IMD.2019...Extent )%>%
-    dplyr::mutate(imd_decile = ntile(IMD...Rank.of.average.score, 10),
-                  imd_extent_decile = ntile(IMD.2019...Extent, 10))
+                    str_trim())
   
   enter_exit <- enter_exit %>%
     dplyr::mutate(Local.authority = Local.authority %>%
