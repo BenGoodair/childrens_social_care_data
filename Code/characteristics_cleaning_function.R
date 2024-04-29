@@ -3086,6 +3086,11 @@ create_characteristics_data <- function(){
   characteristics <- rbind(characteristics, admitted, march, ceased)
   
   
+  characteristics <- characteristics %>%
+    dplyr::mutate(subcategory = ifelse(variable=="With 3 or more placements during the year", "placement stability",
+                                       ifelse(variable=="Living with the same carer for at least 2 years or are placed for adoption and their adoptive placement together with their previous placement, last for at least 2 years", "placement stability",
+                                              ifelse(variable=="With 3 or more placements during the previous 2 years", "placement stability", subcategory))))
+  
 }
   
   
