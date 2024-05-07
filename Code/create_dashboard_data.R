@@ -86,8 +86,7 @@ provider_at_march <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair
   dplyr::filter(Rating!="")
 
 provider_at_march <-provider_at_march %>%
-  dplyr::bind_rows(., provider_at_march%>% dplyr::mutate(Local.authority=="All"))
-
+  dplyr::bind_rows(., provider_at_march%>% dplyr::mutate(Local.authority="All"))
 
 
 source("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Code/leavers_joiners_cleaning_function.R")

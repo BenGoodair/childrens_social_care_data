@@ -137,7 +137,7 @@ create_market_exits_entries <- function(){
                     gsub("NE SOM", "NORTH EAST SOM", .)%>%
                     gsub("N E SOM", "NORTH EAST SOM", .)%>%
                     str_trim())%>%
-    dplyr::left_join(., imd, by="Local.authority")%>%
+    dplyr::full_join(., imd, by="Local.authority")%>%
     dplyr::mutate(imd_decile = ifelse(Local.authority %in% c("BOURNEMOUTH", "POOLE", "CHRISTCHURCH"), 7,
                                       ifelse(Local.authority %in% c("WEST NORTHAMPTONSHIRE", "NORTH NORTHAMPTONSHIRE"), 7,
                                              imd_decile)),

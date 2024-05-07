@@ -1,0 +1,679 @@
+"","Sector","time","nobs","er","cumulative"
+"17","Local Authority",-225,8,1,186
+"18","Local Authority",-224,9,1,195
+"19","Local Authority",-223,0,1,195
+"20","Local Authority",-222,6,1,201
+"21","Local Authority",-221,3,1,204
+"22","Local Authority",-220,1,1,205
+"23","Local Authority",-219,1,1,206
+"24","Local Authority",-218,0,1,206
+"25","Local Authority",-217,1,1,207
+"26","Local Authority",-216,2,1,209
+"27","Local Authority",-215,1,1,210
+"28","Local Authority",-214,2,1,212
+"29","Local Authority",-213,1,1,213
+"30","Local Authority",-212,2,1,215
+"31","Local Authority",-211,0,1,215
+"32","Local Authority",-210,1,1,216
+"33","Local Authority",-209,2,1,218
+"34","Local Authority",-208,0,1,218
+"35","Local Authority",-207,1,1,219
+"36","Local Authority",-206,2,1,221
+"37","Local Authority",-205,2,1,223
+"38","Local Authority",-204,2,1,225
+"39","Local Authority",-203,2,1,227
+"40","Local Authority",-202,0,1,227
+"41","Local Authority",-201,7,1,234
+"42","Local Authority",-200,2,1,236
+"43","Local Authority",-199,0,1,236
+"44","Local Authority",-198,1,1,237
+"45","Local Authority",-197,2,1,239
+"46","Local Authority",-196,1,1,240
+"47","Local Authority",-195,2,1,242
+"48","Local Authority",-194,1,1,243
+"49","Local Authority",-193,1,1,244
+"50","Local Authority",-192,3,1,247
+"51","Local Authority",-191,1,1,248
+"52","Local Authority",-190,0,1,248
+"53","Local Authority",-189,1,1,249
+"54","Local Authority",-188,2,1,251
+"55","Local Authority",-187,0,1,251
+"56","Local Authority",-186,1,1,252
+"57","Local Authority",-185,0,1,252
+"58","Local Authority",-184,1,1,253
+"59","Local Authority",-183,1,1,254
+"60","Local Authority",-182,2,1,256
+"61","Local Authority",-181,1,1,257
+"62","Local Authority",-180,0,1,257
+"63","Local Authority",-179,0,1,257
+"64","Local Authority",-178,1,1,258
+"65","Local Authority",-177,1,1,259
+"66","Local Authority",-176,5,1,264
+"67","Local Authority",-175,0,1,264
+"68","Local Authority",-174,2,1,266
+"69","Local Authority",-173,3,1,269
+"70","Local Authority",-172,0,1,269
+"71","Local Authority",-171,2,1,271
+"72","Local Authority",-170,3,1,274
+"73","Local Authority",-169,2,1,276
+"74","Local Authority",-168,2,1,278
+"75","Local Authority",-167,0,1,278
+"76","Local Authority",-166,0,1,278
+"77","Local Authority",-165,1,1,279
+"78","Local Authority",-164,2,1,281
+"79","Local Authority",-163,0,1,281
+"80","Local Authority",-162,2,1,283
+"81","Local Authority",-161,1,1,284
+"82","Local Authority",-160,1,1,285
+"83","Local Authority",-159,0,1,285
+"84","Local Authority",-158,2,1,287
+"85","Local Authority",-157,0,1,287
+"86","Local Authority",-156,1,1,288
+"87","Local Authority",-155,1,1,289
+"88","Local Authority",-154,0,1,289
+"89","Local Authority",-153,3,1,292
+"90","Local Authority",-152,3,1,295
+"91","Local Authority",-151,0,1,295
+"92","Local Authority",-150,2,1,297
+"93","Local Authority",-149,0,1,297
+"94","Local Authority",-148,1,1,298
+"95","Local Authority",-147,1,1,299
+"96","Local Authority",-146,0,1,299
+"97","Local Authority",-145,1,1,300
+"98","Local Authority",-144,0,1,300
+"99","Local Authority",-143,0,1,300
+"100","Local Authority",-142,1,1,301
+"101","Local Authority",-141,4,1,305
+"102","Local Authority",-140,0,1,305
+"103","Local Authority",-139,1,1,306
+"104","Local Authority",-138,1,1,307
+"105","Local Authority",-137,2,1,309
+"106","Local Authority",-136,0,1,309
+"107","Local Authority",-135,1,1,310
+"108","Local Authority",-134,1,1,311
+"109","Local Authority",-133,0,1,311
+"110","Local Authority",-132,1,1,312
+"111","Local Authority",-131,0,1,312
+"112","Local Authority",-130,2,1,314
+"113","Local Authority",-129,4,1,318
+"114","Local Authority",-128,7,1,325
+"115","Local Authority",-127,0,1,325
+"116","Local Authority",-126,1,1,326
+"117","Local Authority",-125,1,1,327
+"118","Local Authority",-124,0,1,327
+"119","Local Authority",-123,1,1,328
+"120","Local Authority",-122,0,1,328
+"121","Local Authority",-121,1,1,329
+"122","Local Authority",-120,3,1,332
+"123","Local Authority",-119,1,1,333
+"124","Local Authority",-118,2,1,335
+"125","Local Authority",-117,0,1,335
+"126","Local Authority",-116,0,1,335
+"127","Local Authority",-115,1,1,336
+"128","Local Authority",-114,1,1,337
+"129","Local Authority",-113,1,1,338
+"130","Local Authority",-112,4,1,342
+"131","Local Authority",-111,1,1,343
+"132","Local Authority",-110,0,1,343
+"133","Local Authority",-109,1,1,344
+"134","Local Authority",-108,0,1,344
+"135","Local Authority",-107,2,1,346
+"136","Local Authority",-106,5,1,351
+"137","Local Authority",-105,0,1,351
+"138","Local Authority",-104,0,1,351
+"139","Local Authority",-103,1,1,352
+"140","Local Authority",-102,1,1,353
+"141","Local Authority",-101,0,1,353
+"142","Local Authority",-100,0,1,353
+"143","Local Authority",-99,0,1,353
+"144","Local Authority",-98,1,1,354
+"145","Local Authority",-97,0,1,354
+"146","Local Authority",-96,0,1,354
+"147","Local Authority",-95,0,1,354
+"148","Local Authority",-94,2,1,356
+"149","Local Authority",-93,1,1,357
+"150","Local Authority",-92,0,1,357
+"151","Local Authority",-91,2,1,359
+"152","Local Authority",-90,1,1,360
+"153","Local Authority",-89,1,1,361
+"154","Local Authority",-88,0,1,361
+"155","Local Authority",-87,0,1,361
+"156","Local Authority",-86,0,1,361
+"157","Local Authority",-85,0,1,361
+"158","Local Authority",-84,0,1,361
+"159","Local Authority",-83,1,1,362
+"160","Local Authority",-82,1,1,363
+"161","Local Authority",-81,1,1,364
+"162","Local Authority",-80,0,1,364
+"163","Local Authority",-79,1,1,365
+"164","Local Authority",-78,2,1,367
+"165","Local Authority",-77,1,1,368
+"166","Local Authority",-76,0,1,368
+"167","Local Authority",-75,0,1,368
+"168","Local Authority",-74,1,1,369
+"169","Local Authority",-73,2,1,371
+"170","Local Authority",-72,1,1,372
+"171","Local Authority",-71,1,1,373
+"172","Local Authority",-70,0,1,373
+"173","Local Authority",-69,2,1,375
+"174","Local Authority",-68,0,1,375
+"175","Local Authority",-67,0,1,375
+"176","Local Authority",-66,0,1,375
+"177","Local Authority",-65,6,1,381
+"178","Local Authority",-64,0,1,381
+"179","Local Authority",-63,1,1,382
+"180","Local Authority",-62,1,1,383
+"181","Local Authority",-61,4,1,387
+"182","Local Authority",-60,1,1,388
+"183","Local Authority",-59,0,1,388
+"184","Local Authority",-58,0,1,388
+"185","Local Authority",-57,1,1,389
+"186","Local Authority",-56,1,1,390
+"187","Local Authority",-55,0,1,390
+"188","Local Authority",-54,0,1,390
+"189","Local Authority",-53,1,1,391
+"190","Local Authority",-52,1,1,392
+"191","Local Authority",-51,4,1,396
+"192","Local Authority",-50,1,1,397
+"193","Local Authority",-49,0,1,397
+"194","Local Authority",-48,0,1,397
+"195","Local Authority",-47,3,1,400
+"196","Local Authority",-46,2,1,402
+"197","Local Authority",-45,1,1,403
+"198","Local Authority",-44,6,1,409
+"199","Local Authority",-43,0,1,409
+"200","Local Authority",-42,1,1,410
+"201","Local Authority",-41,2,1,412
+"202","Local Authority",-40,1,1,413
+"203","Local Authority",-39,2,1,415
+"204","Local Authority",-38,3,1,418
+"205","Local Authority",-37,0,1,418
+"206","Local Authority",-36,2,1,420
+"207","Local Authority",-35,2,1,422
+"208","Local Authority",-34,3,1,425
+"209","Local Authority",-33,2,1,427
+"210","Local Authority",-32,2,1,429
+"211","Local Authority",-31,2,1,431
+"212","Local Authority",-30,1,1,432
+"213","Local Authority",-29,1,1,433
+"214","Local Authority",-28,4,1,437
+"215","Local Authority",-27,1,1,438
+"216","Local Authority",-26,3,1,441
+"217","Local Authority",-25,2,1,443
+"218","Local Authority",-24,2,1,445
+"219","Local Authority",-23,2,1,447
+"220","Local Authority",-22,0,1,447
+"221","Local Authority",-21,2,1,449
+"222","Local Authority",-20,6,1,455
+"223","Local Authority",-19,0,1,455
+"224","Local Authority",-18,2,1,457
+"225","Local Authority",-17,3,1,460
+"226","Local Authority",-16,0,1,460
+"227","Local Authority",-15,0,1,460
+"228","Local Authority",-14,2,1,462
+"229","Local Authority",-13,0,1,462
+"230","Local Authority",-12,2,1,464
+"231","Local Authority",-11,1,1,465
+"232","Local Authority",-10,1,1,466
+"233","Local Authority",-9,0,1,466
+"234","Local Authority",-8,2,1,468
+"235","Local Authority",-7,2,1,470
+"236","Local Authority",-6,1,1,471
+"237","Local Authority",-5,2,1,473
+"238","Local Authority",-4,0,1,473
+"239","Local Authority",-3,1,1,474
+"240","Local Authority",-2,5,1,479
+"241","Local Authority",-1,0,1,479
+"242","Local Authority",0,0,1,479
+"282","Voluntary",-225,0,1,42
+"283","Voluntary",-224,2,1,44
+"284","Voluntary",-223,1,1,45
+"285","Voluntary",-222,0,1,45
+"286","Voluntary",-221,2,1,47
+"287","Voluntary",-220,0,1,47
+"288","Voluntary",-219,2,1,49
+"289","Voluntary",-218,0,1,49
+"290","Voluntary",-217,0,1,49
+"291","Voluntary",-216,0,1,49
+"292","Voluntary",-215,1,1,50
+"293","Voluntary",-214,0,1,50
+"294","Voluntary",-213,0,1,50
+"295","Voluntary",-212,0,1,50
+"296","Voluntary",-211,1,1,51
+"297","Voluntary",-210,0,1,51
+"298","Voluntary",-209,0,1,51
+"299","Voluntary",-208,2,1,53
+"300","Voluntary",-207,0,1,53
+"301","Voluntary",-206,0,1,53
+"302","Voluntary",-205,1,1,54
+"303","Voluntary",-204,0,1,54
+"304","Voluntary",-203,0,1,54
+"305","Voluntary",-202,0,1,54
+"306","Voluntary",-201,0,1,54
+"307","Voluntary",-200,0,1,54
+"308","Voluntary",-199,0,1,54
+"309","Voluntary",-198,0,1,54
+"310","Voluntary",-197,0,1,54
+"311","Voluntary",-196,0,1,54
+"312","Voluntary",-195,0,1,54
+"313","Voluntary",-194,0,1,54
+"314","Voluntary",-193,0,1,54
+"315","Voluntary",-192,0,1,54
+"316","Voluntary",-191,0,1,54
+"317","Voluntary",-190,0,1,54
+"318","Voluntary",-189,1,1,55
+"319","Voluntary",-188,0,1,55
+"320","Voluntary",-187,0,1,55
+"321","Voluntary",-186,0,1,55
+"322","Voluntary",-185,0,1,55
+"323","Voluntary",-184,0,1,55
+"324","Voluntary",-183,0,1,55
+"325","Voluntary",-182,0,1,55
+"326","Voluntary",-181,1,1,56
+"327","Voluntary",-180,0,1,56
+"328","Voluntary",-179,0,1,56
+"329","Voluntary",-178,0,1,56
+"330","Voluntary",-177,0,1,56
+"331","Voluntary",-176,1,1,57
+"332","Voluntary",-175,0,1,57
+"333","Voluntary",-174,0,1,57
+"334","Voluntary",-173,0,1,57
+"335","Voluntary",-172,0,1,57
+"336","Voluntary",-171,0,1,57
+"337","Voluntary",-170,0,1,57
+"338","Voluntary",-169,0,1,57
+"339","Voluntary",-168,0,1,57
+"340","Voluntary",-167,0,1,57
+"341","Voluntary",-166,0,1,57
+"342","Voluntary",-165,0,1,57
+"343","Voluntary",-164,0,1,57
+"344","Voluntary",-163,0,1,57
+"345","Voluntary",-162,0,1,57
+"346","Voluntary",-161,1,1,58
+"347","Voluntary",-160,0,1,58
+"348","Voluntary",-159,1,1,59
+"349","Voluntary",-158,0,1,59
+"350","Voluntary",-157,0,1,59
+"351","Voluntary",-156,0,1,59
+"352","Voluntary",-155,0,1,59
+"353","Voluntary",-154,2,1,61
+"354","Voluntary",-153,0,1,61
+"355","Voluntary",-152,0,1,61
+"356","Voluntary",-151,0,1,61
+"357","Voluntary",-150,0,1,61
+"358","Voluntary",-149,1,1,62
+"359","Voluntary",-148,0,1,62
+"360","Voluntary",-147,1,1,63
+"361","Voluntary",-146,1,1,64
+"362","Voluntary",-145,0,1,64
+"363","Voluntary",-144,1,1,65
+"364","Voluntary",-143,0,1,65
+"365","Voluntary",-142,0,1,65
+"366","Voluntary",-141,2,1,67
+"367","Voluntary",-140,2,1,69
+"368","Voluntary",-139,3,1,72
+"369","Voluntary",-138,0,1,72
+"370","Voluntary",-137,1,1,73
+"371","Voluntary",-136,0,1,73
+"372","Voluntary",-135,1,1,74
+"373","Voluntary",-134,1,1,75
+"374","Voluntary",-133,2,1,77
+"375","Voluntary",-132,0,1,77
+"376","Voluntary",-131,0,1,77
+"377","Voluntary",-130,0,1,77
+"378","Voluntary",-129,2,1,79
+"379","Voluntary",-128,0,1,79
+"380","Voluntary",-127,1,1,80
+"381","Voluntary",-126,1,1,81
+"382","Voluntary",-125,0,1,81
+"383","Voluntary",-124,2,1,83
+"384","Voluntary",-123,0,1,83
+"385","Voluntary",-122,0,1,83
+"386","Voluntary",-121,2,1,85
+"387","Voluntary",-120,2,1,87
+"388","Voluntary",-119,0,1,87
+"389","Voluntary",-118,1,1,88
+"390","Voluntary",-117,3,1,91
+"391","Voluntary",-116,0,1,91
+"392","Voluntary",-115,1,1,92
+"393","Voluntary",-114,0,1,92
+"394","Voluntary",-113,0,1,92
+"395","Voluntary",-112,0,1,92
+"396","Voluntary",-111,0,1,92
+"397","Voluntary",-110,0,1,92
+"398","Voluntary",-109,2,1,94
+"399","Voluntary",-108,0,1,94
+"400","Voluntary",-107,1,1,95
+"401","Voluntary",-106,0,1,95
+"402","Voluntary",-105,2,1,97
+"403","Voluntary",-104,0,1,97
+"404","Voluntary",-103,0,1,97
+"405","Voluntary",-102,0,1,97
+"406","Voluntary",-101,0,1,97
+"407","Voluntary",-100,0,1,97
+"408","Voluntary",-99,0,1,97
+"409","Voluntary",-98,4,1,101
+"410","Voluntary",-97,0,1,101
+"411","Voluntary",-96,0,1,101
+"412","Voluntary",-95,0,1,101
+"413","Voluntary",-94,2,1,103
+"414","Voluntary",-93,1,1,104
+"415","Voluntary",-92,0,1,104
+"416","Voluntary",-91,0,1,104
+"417","Voluntary",-90,0,1,104
+"418","Voluntary",-89,0,1,104
+"419","Voluntary",-88,1,1,105
+"420","Voluntary",-87,0,1,105
+"421","Voluntary",-86,4,1,109
+"422","Voluntary",-85,1,1,110
+"423","Voluntary",-84,0,1,110
+"424","Voluntary",-83,1,1,111
+"425","Voluntary",-82,1,1,112
+"426","Voluntary",-81,0,1,112
+"427","Voluntary",-80,1,1,113
+"428","Voluntary",-79,0,1,113
+"429","Voluntary",-78,0,1,113
+"430","Voluntary",-77,2,1,115
+"431","Voluntary",-76,0,1,115
+"432","Voluntary",-75,1,1,116
+"433","Voluntary",-74,0,1,116
+"434","Voluntary",-73,0,1,116
+"435","Voluntary",-72,0,1,116
+"436","Voluntary",-71,3,1,119
+"437","Voluntary",-70,2,1,121
+"438","Voluntary",-69,0,1,121
+"439","Voluntary",-68,5,1,126
+"440","Voluntary",-67,0,1,126
+"441","Voluntary",-66,2,1,128
+"442","Voluntary",-65,0,1,128
+"443","Voluntary",-64,3,1,131
+"444","Voluntary",-63,0,1,131
+"445","Voluntary",-62,0,1,131
+"446","Voluntary",-61,1,1,132
+"447","Voluntary",-60,0,1,132
+"448","Voluntary",-59,1,1,133
+"449","Voluntary",-58,2,1,135
+"450","Voluntary",-57,1,1,136
+"451","Voluntary",-56,4,1,140
+"452","Voluntary",-55,1,1,141
+"453","Voluntary",-54,0,1,141
+"454","Voluntary",-53,0,1,141
+"455","Voluntary",-52,1,1,142
+"456","Voluntary",-51,0,1,142
+"457","Voluntary",-50,1,1,143
+"458","Voluntary",-49,0,1,143
+"459","Voluntary",-48,3,1,146
+"460","Voluntary",-47,0,1,146
+"461","Voluntary",-46,0,1,146
+"462","Voluntary",-45,0,1,146
+"463","Voluntary",-44,1,1,147
+"464","Voluntary",-43,1,1,148
+"465","Voluntary",-42,3,1,151
+"466","Voluntary",-41,0,1,151
+"467","Voluntary",-40,1,1,152
+"468","Voluntary",-39,0,1,152
+"469","Voluntary",-38,6,1,158
+"470","Voluntary",-37,0,1,158
+"471","Voluntary",-36,0,1,158
+"472","Voluntary",-35,1,1,159
+"473","Voluntary",-34,1,1,160
+"474","Voluntary",-33,0,1,160
+"475","Voluntary",-32,0,1,160
+"476","Voluntary",-31,2,1,162
+"477","Voluntary",-30,2,1,164
+"478","Voluntary",-29,2,1,166
+"479","Voluntary",-28,1,1,167
+"480","Voluntary",-27,1,1,168
+"481","Voluntary",-26,1,1,169
+"482","Voluntary",-25,1,1,170
+"483","Voluntary",-24,7,1,177
+"484","Voluntary",-23,0,1,177
+"485","Voluntary",-22,0,1,177
+"486","Voluntary",-21,0,1,177
+"487","Voluntary",-20,0,1,177
+"488","Voluntary",-19,2,1,179
+"489","Voluntary",-18,0,1,179
+"490","Voluntary",-17,1,1,180
+"491","Voluntary",-16,3,1,183
+"492","Voluntary",-15,1,1,184
+"493","Voluntary",-14,0,1,184
+"494","Voluntary",-13,0,1,184
+"495","Voluntary",-12,1,1,185
+"496","Voluntary",-11,0,1,185
+"497","Voluntary",-10,0,1,185
+"498","Voluntary",-9,1,1,186
+"499","Voluntary",-8,1,1,187
+"500","Voluntary",-7,0,1,187
+"501","Voluntary",-6,1,1,188
+"502","Voluntary",-5,0,1,188
+"503","Voluntary",-4,0,1,188
+"504","Voluntary",-3,1,1,189
+"505","Voluntary",-2,1,1,190
+"506","Voluntary",-1,0,1,190
+"507","Voluntary",0,0,1,190
+"585","For-profit",-225,3,1,186
+"586","For-profit",-224,5,1,191
+"587","For-profit",-223,3,1,194
+"588","For-profit",-222,5,1,199
+"589","For-profit",-221,2,1,201
+"590","For-profit",-220,1,1,202
+"591","For-profit",-219,2,1,204
+"592","For-profit",-218,11,1,215
+"593","For-profit",-217,4,1,219
+"594","For-profit",-216,1,1,220
+"595","For-profit",-215,3,1,223
+"596","For-profit",-214,5,1,228
+"597","For-profit",-213,3,1,231
+"598","For-profit",-212,8,1,239
+"599","For-profit",-211,5,1,244
+"600","For-profit",-210,5,1,249
+"601","For-profit",-209,7,1,256
+"602","For-profit",-208,2,1,258
+"603","For-profit",-207,5,1,263
+"604","For-profit",-206,7,1,270
+"605","For-profit",-205,3,1,273
+"606","For-profit",-204,2,1,275
+"607","For-profit",-203,5,1,280
+"608","For-profit",-202,6,1,286
+"609","For-profit",-201,8,1,294
+"610","For-profit",-200,5,1,299
+"611","For-profit",-199,1,1,300
+"612","For-profit",-198,4,1,304
+"613","For-profit",-197,3,1,307
+"614","For-profit",-196,3,1,310
+"615","For-profit",-195,6,1,316
+"616","For-profit",-194,1,1,317
+"617","For-profit",-193,5,1,322
+"618","For-profit",-192,2,1,324
+"619","For-profit",-191,1,1,325
+"620","For-profit",-190,1,1,326
+"621","For-profit",-189,4,1,330
+"622","For-profit",-188,10,1,340
+"623","For-profit",-187,0,1,340
+"624","For-profit",-186,0,1,340
+"625","For-profit",-185,4,1,344
+"626","For-profit",-184,3,1,347
+"627","For-profit",-183,4,1,351
+"628","For-profit",-182,7,1,358
+"629","For-profit",-181,3,1,361
+"630","For-profit",-180,3,1,364
+"631","For-profit",-179,4,1,368
+"632","For-profit",-178,12,1,380
+"633","For-profit",-177,8,1,388
+"634","For-profit",-176,3,1,391
+"635","For-profit",-175,3,1,394
+"636","For-profit",-174,4,1,398
+"637","For-profit",-173,3,1,401
+"638","For-profit",-172,17,1,418
+"639","For-profit",-171,4,1,422
+"640","For-profit",-170,4,1,426
+"641","For-profit",-169,7,1,433
+"642","For-profit",-168,4,1,437
+"643","For-profit",-167,9,1,446
+"644","For-profit",-166,6,1,452
+"645","For-profit",-165,8,1,460
+"646","For-profit",-164,6,1,466
+"647","For-profit",-163,5,1,471
+"648","For-profit",-162,4,1,475
+"649","For-profit",-161,12,1,487
+"650","For-profit",-160,12,1,499
+"651","For-profit",-159,1,1,500
+"652","For-profit",-158,3,1,503
+"653","For-profit",-157,3,1,506
+"654","For-profit",-156,2,1,508
+"655","For-profit",-155,5,1,513
+"656","For-profit",-154,4,1,517
+"657","For-profit",-153,4,1,521
+"658","For-profit",-152,6,1,527
+"659","For-profit",-151,7,1,534
+"660","For-profit",-150,6,1,540
+"661","For-profit",-149,12,1,552
+"662","For-profit",-148,10,1,562
+"663","For-profit",-147,8,1,570
+"664","For-profit",-146,5,1,575
+"665","For-profit",-145,4,1,579
+"666","For-profit",-144,11,1,590
+"667","For-profit",-143,6,1,596
+"668","For-profit",-142,5,1,601
+"669","For-profit",-141,5,1,606
+"670","For-profit",-140,3,1,609
+"671","For-profit",-139,6,1,615
+"672","For-profit",-138,3,1,618
+"673","For-profit",-137,12,1,630
+"674","For-profit",-136,15,1,645
+"675","For-profit",-135,7,1,652
+"676","For-profit",-134,7,1,659
+"677","For-profit",-133,3,1,662
+"678","For-profit",-132,2,1,664
+"679","For-profit",-131,7,1,671
+"680","For-profit",-130,4,1,675
+"681","For-profit",-129,5,1,680
+"682","For-profit",-128,5,1,685
+"683","For-profit",-127,3,1,688
+"684","For-profit",-126,6,1,694
+"685","For-profit",-125,2,1,696
+"686","For-profit",-124,6,1,702
+"687","For-profit",-123,6,1,708
+"688","For-profit",-122,1,1,709
+"689","For-profit",-121,7,1,716
+"690","For-profit",-120,10,1,726
+"691","For-profit",-119,11,1,737
+"692","For-profit",-118,6,1,743
+"693","For-profit",-117,42,1,785
+"694","For-profit",-116,20,1,805
+"695","For-profit",-115,9,1,814
+"696","For-profit",-114,12,1,826
+"697","For-profit",-113,5,1,831
+"698","For-profit",-112,6,1,837
+"699","For-profit",-111,12,1,849
+"700","For-profit",-110,4,1,853
+"701","For-profit",-109,6,1,859
+"702","For-profit",-108,8,1,867
+"703","For-profit",-107,7,1,874
+"704","For-profit",-106,8,1,882
+"705","For-profit",-105,12,1,894
+"706","For-profit",-104,14,1,908
+"707","For-profit",-103,7,1,915
+"708","For-profit",-102,16,1,931
+"709","For-profit",-101,15,1,946
+"710","For-profit",-100,8,1,954
+"711","For-profit",-99,4,1,958
+"712","For-profit",-98,19,1,977
+"713","For-profit",-97,11,1,988
+"714","For-profit",-96,11,1,999
+"715","For-profit",-95,10,1,1009
+"716","For-profit",-94,13,1,1022
+"717","For-profit",-93,17,1,1039
+"718","For-profit",-92,13,1,1052
+"719","For-profit",-91,7,1,1059
+"720","For-profit",-90,5,1,1064
+"721","For-profit",-89,5,1,1069
+"722","For-profit",-88,6,1,1075
+"723","For-profit",-87,4,1,1079
+"724","For-profit",-86,8,1,1087
+"725","For-profit",-85,13,1,1100
+"726","For-profit",-84,11,1,1111
+"727","For-profit",-83,9,1,1120
+"728","For-profit",-82,11,1,1131
+"729","For-profit",-81,12,1,1143
+"730","For-profit",-80,7,1,1150
+"731","For-profit",-79,13,1,1163
+"732","For-profit",-78,13,1,1176
+"733","For-profit",-77,15,1,1191
+"734","For-profit",-76,13,1,1204
+"735","For-profit",-75,15,1,1219
+"736","For-profit",-74,12,1,1231
+"737","For-profit",-73,22,1,1253
+"738","For-profit",-72,14,1,1267
+"739","For-profit",-71,13,1,1280
+"740","For-profit",-70,12,1,1292
+"741","For-profit",-69,18,1,1310
+"742","For-profit",-68,12,1,1322
+"743","For-profit",-67,7,1,1329
+"744","For-profit",-66,29,1,1358
+"745","For-profit",-65,10,1,1368
+"746","For-profit",-64,18,1,1386
+"747","For-profit",-63,18,1,1404
+"748","For-profit",-62,21,1,1425
+"749","For-profit",-61,14,1,1439
+"750","For-profit",-60,10,1,1449
+"751","For-profit",-59,8,1,1457
+"752","For-profit",-58,11,1,1468
+"753","For-profit",-57,11,1,1479
+"754","For-profit",-56,7,1,1486
+"755","For-profit",-55,12,1,1498
+"756","For-profit",-54,20,1,1518
+"757","For-profit",-53,17,1,1535
+"758","For-profit",-52,19,1,1554
+"759","For-profit",-51,11,1,1565
+"760","For-profit",-50,9,1,1574
+"761","For-profit",-49,18,1,1592
+"762","For-profit",-48,10,1,1602
+"763","For-profit",-47,11,1,1613
+"764","For-profit",-46,13,1,1626
+"765","For-profit",-45,16,1,1642
+"766","For-profit",-44,19,1,1661
+"767","For-profit",-43,24,1,1685
+"768","For-profit",-42,14,1,1699
+"769","For-profit",-41,17,1,1716
+"770","For-profit",-40,28,1,1744
+"771","For-profit",-39,30,1,1774
+"772","For-profit",-38,17,1,1791
+"773","For-profit",-37,16,1,1807
+"774","For-profit",-36,16,1,1823
+"775","For-profit",-35,9,1,1832
+"776","For-profit",-34,19,1,1851
+"777","For-profit",-33,16,1,1867
+"778","For-profit",-32,23,1,1890
+"779","For-profit",-31,26,1,1916
+"780","For-profit",-30,20,1,1936
+"781","For-profit",-29,29,1,1965
+"782","For-profit",-28,34,1,1999
+"783","For-profit",-27,26,1,2025
+"784","For-profit",-26,23,1,2048
+"785","For-profit",-25,17,1,2065
+"786","For-profit",-24,14,1,2079
+"787","For-profit",-23,28,1,2107
+"788","For-profit",-22,17,1,2124
+"789","For-profit",-21,25,1,2149
+"790","For-profit",-20,25,1,2174
+"791","For-profit",-19,23,1,2197
+"792","For-profit",-18,18,1,2215
+"793","For-profit",-17,15,1,2230
+"794","For-profit",-16,23,1,2253
+"795","For-profit",-15,18,1,2271
+"796","For-profit",-14,24,1,2295
+"797","For-profit",-13,32,1,2327
+"798","For-profit",-12,27,1,2354
+"799","For-profit",-11,30,1,2384
+"800","For-profit",-10,17,1,2401
+"801","For-profit",-9,24,1,2425
+"802","For-profit",-8,11,1,2436
+"803","For-profit",-7,24,1,2460
+"804","For-profit",-6,25,1,2485
+"805","For-profit",-5,20,1,2505
+"806","For-profit",-4,32,1,2537
+"807","For-profit",-3,15,1,2552
+"808","For-profit",-2,18,1,2570
+"809","For-profit",-1,2,1,2572
+"810","For-profit",0,1,1,2573
