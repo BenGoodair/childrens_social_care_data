@@ -205,6 +205,7 @@ create_expenditure_data <- function(){
   
   ExpenditureData23$year <- str_sub(ExpenditureData23$time_period, start= -2)
   ExpenditureData23$year <-  paste("20", ExpenditureData23$year, sep="")
+  ExpenditureData23 <- ExpenditureData23[ExpenditureData23$year=="2023",]
   
   ExpenditureData23 <- ExpenditureData23 %>% dplyr::filter(geographic_level == "Local authority")%>%
     dplyr::select(la_name, new_la_code,year, category_of_expenditure, old_la_code, description_of_expenditure ,            
@@ -275,6 +276,8 @@ create_expenditure_data <- function(){
                                                      ifelse(subcategory=="OwnProvision","Own_provision",
                                                             ifelse(subcategory=="OtherPublic","Other_public_provision",
                                                                    NA))))))
+  
+  expenditure
   
 }
   
