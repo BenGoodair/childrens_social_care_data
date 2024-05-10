@@ -72,7 +72,7 @@ create_market_exits_entries <- function(){
     dplyr::mutate(leave_join = "Leave")
   
   
-  enter_exit <- unique(rbind(leavers, joiners))
+  enter_exit <- unique(rbind(leavers, joiners%>%dplyr::mutate(Date=as.Date(Date, format =  "%d/%m/%Y"))))
   
   imd <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Economic_Political_Contextual/imd19.csv"))  %>%
     dplyr::rename(Local.authority = Upper.Tier.Local.Authority.District.name..2019.)%>%
