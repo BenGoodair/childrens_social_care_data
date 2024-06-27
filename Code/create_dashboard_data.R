@@ -99,3 +99,20 @@ write.csv(provider_at_march, "C:/Users/benjamin.goodair/OneDrive - Nexus365/Docu
 
 
 
+
+
+
+
+
+# Create the frequency table
+freq_table <- table(factor(dashboard_data$subcategory), factor(dashboard_data$variable))
+
+# Convert the table to a data frame for easy manipulation
+freq_df <- as.data.frame(dashboard_data %>%select(subcategory, variable)%>%distinct())
+
+# Write the data frame to a CSV file
+write.csv(freq_df, "frequency_table.csv", row.names = FALSE)
+
+# Convert CSV to Word document using Pandoc (if installed)
+system("pandoc -s frequency_table.csv -o frequency_table.docx")
+
