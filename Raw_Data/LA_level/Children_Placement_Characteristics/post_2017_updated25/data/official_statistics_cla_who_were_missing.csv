@@ -1,0 +1,316 @@
+﻿time_period,time_identifier,geographic_level,country_code,country_name,missing_status,characteristic,number
+2024,Reporting year,National,E92000001,England,Age of children missing from placement,1 to 4 years,30
+2024,Reporting year,National,E92000001,England,Age of children missing from placement,10 to 15 years,37350
+2024,Reporting year,National,E92000001,England,Age of children missing from placement,16 years and over,46400
+2024,Reporting year,National,E92000001,England,Age of children missing from placement,5 to 9 years,120
+2024,Reporting year,National,E92000001,England,Age of children missing from placement,Total incidents,83920
+2024,Reporting year,National,E92000001,England,Age of children missing from placement,Under 1 year,10
+2024,Reporting year,National,E92000001,England,Children missing from placement,All children looked after during the year,116420
+2024,Reporting year,National,E92000001,England,Children missing from placement ,Average (mean) number of days per missing incident,1.9
+2024,Reporting year,National,E92000001,England,Children missing from placement ,Average (median) number of days per missing incident,1
+2024,Reporting year,National,E92000001,England,Children missing from placement,Average number of incidents per looked after child who was missing,6.5
+2024,Reporting year,National,E92000001,England,Children missing from placement,Children missing more than once during the year,8210
+2024,Reporting year,National,E92000001,England,Children missing from placement,Children missing on 31 March,300
+2024,Reporting year,National,E92000001,England,Children missing from placement,Children missing on 31 March who were unaccompanied asylum-seeking children,80
+2024,Reporting year,National,E92000001,England,Children missing from placement,Percentage of children looked after during the year who were missing,11
+2024,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,1. Total White,8520
+2024,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,1a. White British,7790
+2024,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,1b. White Irish,40
+2024,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,1c. Traveller of Irish Heritage,40
+2024,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,1d. Gypsy Roma,80
+2024,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,1e. Any other White background,580
+2024,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,2. Total Mixed or Multiple ethnic groups,1410
+2024,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,2a. White and Black Caribbean,520
+2024,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,2b. White and Black African,180
+2024,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,2c. White and Asian,230
+2024,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,2d. Any other Mixed background,490
+2024,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,3. Total Asian or Asian British,730
+2024,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,3a. Indian,30
+2024,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,3b. Pakistani,140
+2024,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,3c. Bangladeshi,70
+2024,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,3d. Chinese,10
+2024,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,3e. Any other Asian background,490
+2024,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,"4. Total Black, African, Caribbean or Black British",1410
+2024,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,4a. Caribbean,360
+2024,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,4b. African,770
+2024,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,4c. Any other Black background,280
+2024,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,5. Total other ethnic group,860
+2024,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,6. Total refused or information not yet available,70
+2024,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,6a. Refused,10
+2024,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,6b. Information not yet obtained,60
+2024,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,Total children who were missing during the year,13010
+2024,Reporting year,National,E92000001,England,Children missing from placement by gender,Females,5670
+2024,Reporting year,National,E92000001,England,Children missing from placement by gender,Males,7340
+2024,Reporting year,National,E92000001,England,Children missing from placement by gender,Total children who were missing during the year,13010
+2024,Reporting year,National,E92000001,England,Durations of missing from placement periods,Between 1 and 2 days,47460
+2024,Reporting year,National,E92000001,England,Durations of missing from placement periods,Between 11 and 15 days,420
+2024,Reporting year,National,E92000001,England,Durations of missing from placement periods,Between 16 and 20 days,180
+2024,Reporting year,National,E92000001,England,Durations of missing from placement periods,Between 21 and 30 days,190
+2024,Reporting year,National,E92000001,England,Durations of missing from placement periods,Between 3 and 7 days,6630
+2024,Reporting year,National,E92000001,England,Durations of missing from placement periods,Between 8 and 10 days,650
+2024,Reporting year,National,E92000001,England,Durations of missing from placement periods,Less than 1 day,28000
+2024,Reporting year,National,E92000001,England,Durations of missing from placement periods,More than 30 days,400
+2024,Reporting year,National,E92000001,England,Durations of missing from placement periods,Total incidents,83920
+2024,Reporting year,National,E92000001,England,Missing from placement incidents,Total number of missing incidents during the year,83920
+2024,Reporting year,National,E92000001,England,Placement locations from which children were missing,Missing from placement inside council boundary,45140
+2024,Reporting year,National,E92000001,England,Placement locations from which children were missing,Missing from placement outside council boundary,38780
+2024,Reporting year,National,E92000001,England,Placement locations from which children were missing,Total incidents,83920
+2024,Reporting year,National,E92000001,England,Placements from which children were missing,1: Foster placements,15030
+2024,Reporting year,National,E92000001,England,Placements from which children were missing,2: Adoption,0
+2024,Reporting year,National,E92000001,England,Placements from which children were missing,3: Placed with parents,1400
+2024,Reporting year,National,E92000001,England,Placements from which children were missing,4: Secure homes and children's homes,27270
+2024,Reporting year,National,E92000001,England,Placements from which children were missing,5: Independent and semi-independent living arrangements/supported accommodation,28070
+2024,Reporting year,National,E92000001,England,Placements from which children were missing,6: Other placements,12150
+2024,Reporting year,National,E92000001,England,Placements from which children were missing,Total incidents,83920
+2023,Reporting year,National,E92000001,England,Age of children missing from placement,1 to 4 years,30
+2023,Reporting year,National,E92000001,England,Age of children missing from placement,10 to 15 years,36000
+2023,Reporting year,National,E92000001,England,Age of children missing from placement,16 years and over,45920
+2023,Reporting year,National,E92000001,England,Age of children missing from placement,5 to 9 years,150
+2023,Reporting year,National,E92000001,England,Age of children missing from placement,Total incidents,82110
+2023,Reporting year,National,E92000001,England,Age of children missing from placement,Under 1 year,20
+2023,Reporting year,National,E92000001,England,Children missing from placement,All children looked after during the year,114760
+2023,Reporting year,National,E92000001,England,Children missing from placement ,Average (mean) number of days per missing incident,2
+2023,Reporting year,National,E92000001,England,Children missing from placement ,Average (median) number of days per missing incident,1
+2023,Reporting year,National,E92000001,England,Children missing from placement,Average number of incidents per looked after child who was missing,6.4
+2023,Reporting year,National,E92000001,England,Children missing from placement,Children missing more than once during the year,8150
+2023,Reporting year,National,E92000001,England,Children missing from placement,Children missing on 31 March,220
+2023,Reporting year,National,E92000001,England,Children missing from placement,Children missing on 31 March who were unaccompanied asylum-seeking children,60
+2023,Reporting year,National,E92000001,England,Children missing from placement,Percentage of children looked after during the year who were missing,11
+2023,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,1. Total White,8630
+2023,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,1a. White British,7920
+2023,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,1b. White Irish,30
+2023,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,1c. Traveller of Irish Heritage,40
+2023,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,1d. Gypsy Roma,80
+2023,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,1e. Any other White background,560
+2023,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,2. Total Mixed or Multiple ethnic groups,1380
+2023,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,2a. White and Black Caribbean,520
+2023,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,2b. White and Black African,170
+2023,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,2c. White and Asian,230
+2023,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,2d. Any other Mixed background,460
+2023,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,3. Total Asian or Asian British,620
+2023,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,3a. Indian,40
+2023,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,3b. Pakistani,130
+2023,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,3c. Bangladeshi,60
+2023,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,3d. Chinese,10
+2023,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,3e. Any other Asian background,400
+2023,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,"4. Total Black, African, Caribbean or Black British",1330
+2023,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,4a. Caribbean,320
+2023,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,4b. African,740
+2023,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,4c. Any other Black background,270
+2023,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,5. Total other ethnic group,780
+2023,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,6. Total refused or information not yet available,40
+2023,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,6a. Refused,10
+2023,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,6b. Information not yet obtained,30
+2023,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,Total children who were missing during the year,12790
+2023,Reporting year,National,E92000001,England,Children missing from placement by gender,Females,5630
+2023,Reporting year,National,E92000001,England,Children missing from placement by gender,Males,7160
+2023,Reporting year,National,E92000001,England,Children missing from placement by gender,Total children who were missing during the year,12790
+2023,Reporting year,National,E92000001,England,Durations of missing from placement periods,Between 1 and 2 days,46360
+2023,Reporting year,National,E92000001,England,Durations of missing from placement periods,Between 11 and 15 days,470
+2023,Reporting year,National,E92000001,England,Durations of missing from placement periods,Between 16 and 20 days,190
+2023,Reporting year,National,E92000001,England,Durations of missing from placement periods,Between 21 and 30 days,190
+2023,Reporting year,National,E92000001,England,Durations of missing from placement periods,Between 3 and 7 days,6630
+2023,Reporting year,National,E92000001,England,Durations of missing from placement periods,Between 8 and 10 days,650
+2023,Reporting year,National,E92000001,England,Durations of missing from placement periods,Less than 1 day,27250
+2023,Reporting year,National,E92000001,England,Durations of missing from placement periods,More than 30 days,390
+2023,Reporting year,National,E92000001,England,Durations of missing from placement periods,Total incidents,82110
+2023,Reporting year,National,E92000001,England,Missing from placement incidents,Total number of missing incidents during the year,82110
+2023,Reporting year,National,E92000001,England,Placement locations from which children were missing,Missing from placement inside council boundary,46490
+2023,Reporting year,National,E92000001,England,Placement locations from which children were missing,Missing from placement outside council boundary,35620
+2023,Reporting year,National,E92000001,England,Placement locations from which children were missing,Total incidents,82110
+2023,Reporting year,National,E92000001,England,Placements from which children were missing,1: Foster placements,17680
+2023,Reporting year,National,E92000001,England,Placements from which children were missing,2: Adoption,0
+2023,Reporting year,National,E92000001,England,Placements from which children were missing,3: Placed with parents,1450
+2023,Reporting year,National,E92000001,England,Placements from which children were missing,4: Secure homes and children's homes,27220
+2023,Reporting year,National,E92000001,England,Placements from which children were missing,5: Independent and semi-independent living arrangements/supported accommodation,31210
+2023,Reporting year,National,E92000001,England,Placements from which children were missing,6: Other placements,4560
+2023,Reporting year,National,E92000001,England,Placements from which children were missing,Total incidents,82110
+2022,Reporting year,National,E92000001,England,Age of children missing from placement,1 to 4 years,50
+2022,Reporting year,National,E92000001,England,Age of children missing from placement,10 to 15 years,30620
+2022,Reporting year,National,E92000001,England,Age of children missing from placement,16 years and over,46270
+2022,Reporting year,National,E92000001,England,Age of children missing from placement,5 to 9 years,170
+2022,Reporting year,National,E92000001,England,Age of children missing from placement,Total incidents,77120
+2022,Reporting year,National,E92000001,England,Age of children missing from placement,Under 1 year,10
+2022,Reporting year,National,E92000001,England,Children missing from placement,All children looked after during the year,111440
+2022,Reporting year,National,E92000001,England,Children missing from placement ,Average (mean) number of days per missing incident,2
+2022,Reporting year,National,E92000001,England,Children missing from placement ,Average (median) number of days per missing incident,1
+2022,Reporting year,National,E92000001,England,Children missing from placement,Average number of incidents per looked after child who was missing,6.3
+2022,Reporting year,National,E92000001,England,Children missing from placement,Children missing more than once during the year,7780
+2022,Reporting year,National,E92000001,England,Children missing from placement,Children missing on 31 March,200
+2022,Reporting year,National,E92000001,England,Children missing from placement,Children missing on 31 March who were unaccompanied asylum-seeking children,80
+2022,Reporting year,National,E92000001,England,Children missing from placement,Percentage of children looked after during the year who were missing,11
+2022,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,1. Total White,8400
+2022,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,1a. White British,7800
+2022,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,1b. White Irish,20
+2022,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,1c. Traveller of Irish Heritage,30
+2022,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,1d. Gypsy Roma,80
+2022,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,1e. Any other White background,470
+2022,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,2. Total Mixed or Multiple ethnic groups,1320
+2022,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,2a. White and Black Caribbean,500
+2022,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,2b. White and Black African,140
+2022,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,2c. White and Asian,230
+2022,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,2d. Any other Mixed background,440
+2022,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,3. Total Asian or Asian British,550
+2022,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,3a. Indian,30
+2022,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,3b. Pakistani,120
+2022,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,3c. Bangladeshi,70
+2022,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,3d. Chinese,10
+2022,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,3e. Any other Asian background,320
+2022,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,"4. Total Black, African, Caribbean or Black British",1240
+2022,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,4a. Caribbean,340
+2022,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,4b. African,680
+2022,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,4c. Any other Black background,230
+2022,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,5. Total other ethnic group,650
+2022,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,6. Total refused or information not yet available,20
+2022,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,6a. Refused,10
+2022,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,6b. Information not yet obtained,10
+2022,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,Total children who were missing during the year,12180
+2022,Reporting year,National,E92000001,England,Children missing from placement by gender,Females,5420
+2022,Reporting year,National,E92000001,England,Children missing from placement by gender,Males,6750
+2022,Reporting year,National,E92000001,England,Children missing from placement by gender,Total children who were missing during the year,12180
+2022,Reporting year,National,E92000001,England,Durations of missing from placement periods,Between 1 and 2 days,42990
+2022,Reporting year,National,E92000001,England,Durations of missing from placement periods,Between 11 and 15 days,370
+2022,Reporting year,National,E92000001,England,Durations of missing from placement periods,Between 16 and 20 days,180
+2022,Reporting year,National,E92000001,England,Durations of missing from placement periods,Between 21 and 30 days,160
+2022,Reporting year,National,E92000001,England,Durations of missing from placement periods,Between 3 and 7 days,5920
+2022,Reporting year,National,E92000001,England,Durations of missing from placement periods,Between 8 and 10 days,570
+2022,Reporting year,National,E92000001,England,Durations of missing from placement periods,Less than 1 day,26560
+2022,Reporting year,National,E92000001,England,Durations of missing from placement periods,More than 30 days,370
+2022,Reporting year,National,E92000001,England,Durations of missing from placement periods,Total incidents,77120
+2022,Reporting year,National,E92000001,England,Missing from placement incidents,Total number of missing incidents during the year,77120
+2022,Reporting year,National,E92000001,England,Placement locations from which children were missing,Missing from placement inside council boundary,43470
+2022,Reporting year,National,E92000001,England,Placement locations from which children were missing,Missing from placement outside council boundary,33640
+2022,Reporting year,National,E92000001,England,Placement locations from which children were missing,Total incidents,77120
+2022,Reporting year,National,E92000001,England,Placements from which children were missing,1: Foster placements,17470
+2022,Reporting year,National,E92000001,England,Placements from which children were missing,2: Adoption,0
+2022,Reporting year,National,E92000001,England,Placements from which children were missing,3: Placed with parents,1300
+2022,Reporting year,National,E92000001,England,Placements from which children were missing,4: Secure homes and children's homes,26120
+2022,Reporting year,National,E92000001,England,Placements from which children were missing,5: Independent and semi-independent living arrangements/supported accommodation,30000
+2022,Reporting year,National,E92000001,England,Placements from which children were missing,6: Other placements,2240
+2022,Reporting year,National,E92000001,England,Placements from which children were missing,Total incidents,77120
+2021,Reporting year,National,E92000001,England,Age of children missing from placement,1 to 4 years,40
+2021,Reporting year,National,E92000001,England,Age of children missing from placement,10 to 15 years,26770
+2021,Reporting year,National,E92000001,England,Age of children missing from placement,16 years and over,44730
+2021,Reporting year,National,E92000001,England,Age of children missing from placement,5 to 9 years,100
+2021,Reporting year,National,E92000001,England,Age of children missing from placement,Total incidents,71660
+2021,Reporting year,National,E92000001,England,Age of children missing from placement,Under 1 year,20
+2021,Reporting year,National,E92000001,England,Children missing from placement,All children looked after during the year,108100
+2021,Reporting year,National,E92000001,England,Children missing from placement ,Average (mean) number of days per missing incident,2.1
+2021,Reporting year,National,E92000001,England,Children missing from placement ,Average (median) number of days per missing incident,1
+2021,Reporting year,National,E92000001,England,Children missing from placement,Average number of incidents per looked after child who was missing,6.6
+2021,Reporting year,National,E92000001,England,Children missing from placement,Children missing more than once during the year,7020
+2021,Reporting year,National,E92000001,England,Children missing from placement,Children missing on 31 March,200
+2021,Reporting year,National,E92000001,England,Children missing from placement,Children missing on 31 March who were unaccompanied asylum-seeking children,80
+2021,Reporting year,National,E92000001,England,Children missing from placement,Percentage of children looked after during the year who were missing,10
+2021,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,1. Total White,7720
+2021,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,1a. White British,7170
+2021,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,1b. White Irish,30
+2021,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,1c. Traveller of Irish Heritage,30
+2021,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,1d. Gypsy Roma,80
+2021,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,1e. Any other White background,430
+2021,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,2. Total Mixed or Multiple ethnic groups,1080
+2021,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,2a. White and Black Caribbean,440
+2021,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,2b. White and Black African,110
+2021,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,2c. White and Asian,160
+2021,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,2d. Any other Mixed background,360
+2021,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,3. Total Asian or Asian British,490
+2021,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,3a. Indian,30
+2021,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,3b. Pakistani,110
+2021,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,3c. Bangladeshi,60
+2021,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,3d. Chinese,10
+2021,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,3e. Any other Asian background,280
+2021,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,"4. Total Black, African, Caribbean or Black British",1120
+2021,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,4a. Caribbean,300
+2021,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,4b. African,610
+2021,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,4c. Any other Black background,210
+2021,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,5. Total other ethnic group,490
+2021,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,6. Total refused or information not yet available,20
+2021,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,6a. Refused,c
+2021,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,6b. Information not yet obtained,10
+2021,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,Total children who were missing during the year,10910
+2021,Reporting year,National,E92000001,England,Children missing from placement by gender,Females,4750
+2021,Reporting year,National,E92000001,England,Children missing from placement by gender,Males,6170
+2021,Reporting year,National,E92000001,England,Children missing from placement by gender,Total children who were missing during the year,10910
+2021,Reporting year,National,E92000001,England,Durations of missing from placement periods,Between 1 and 2 days,39950
+2021,Reporting year,National,E92000001,England,Durations of missing from placement periods,Between 11 and 15 days,400
+2021,Reporting year,National,E92000001,England,Durations of missing from placement periods,Between 16 and 20 days,180
+2021,Reporting year,National,E92000001,England,Durations of missing from placement periods,Between 21 and 30 days,150
+2021,Reporting year,National,E92000001,England,Durations of missing from placement periods,Between 3 and 7 days,5420
+2021,Reporting year,National,E92000001,England,Durations of missing from placement periods,Between 8 and 10 days,560
+2021,Reporting year,National,E92000001,England,Durations of missing from placement periods,Less than 1 day,24650
+2021,Reporting year,National,E92000001,England,Durations of missing from placement periods,More than 30 days,360
+2021,Reporting year,National,E92000001,England,Durations of missing from placement periods,Total incidents,71660
+2021,Reporting year,National,E92000001,England,Missing from placement incidents,Total number of missing incidents during the year,71660
+2021,Reporting year,National,E92000001,England,Placement locations from which children were missing,Missing from placement inside council boundary,40320
+2021,Reporting year,National,E92000001,England,Placement locations from which children were missing,Missing from placement outside council boundary,31340
+2021,Reporting year,National,E92000001,England,Placement locations from which children were missing,Total incidents,71660
+2021,Reporting year,National,E92000001,England,Placements from which children were missing,1: Foster placements,14090
+2021,Reporting year,National,E92000001,England,Placements from which children were missing,2: Adoption,0
+2021,Reporting year,National,E92000001,England,Placements from which children were missing,3: Placed with parents,1110
+2021,Reporting year,National,E92000001,England,Placements from which children were missing,4: Secure homes and children's homes,23710
+2021,Reporting year,National,E92000001,England,Placements from which children were missing,5: Independent and semi-independent living arrangements/supported accommodation,30730
+2021,Reporting year,National,E92000001,England,Placements from which children were missing,6: Other placements,2030
+2021,Reporting year,National,E92000001,England,Placements from which children were missing,Total incidents,71660
+2020,Reporting year,National,E92000001,England,Age of children missing from placement,1 to 4 years,40
+2020,Reporting year,National,E92000001,England,Age of children missing from placement,10 to 15 years,35130
+2020,Reporting year,National,E92000001,England,Age of children missing from placement,16 years and over,46040
+2020,Reporting year,National,E92000001,England,Age of children missing from placement,5 to 9 years,180
+2020,Reporting year,National,E92000001,England,Age of children missing from placement,Total incidents,81430
+2020,Reporting year,National,E92000001,England,Age of children missing from placement,Under 1 year,20
+2020,Reporting year,National,E92000001,England,Children missing from placement,All children looked after during the year,108680
+2020,Reporting year,National,E92000001,England,Children missing from placement ,Average (mean) number of days per missing incident,2.3
+2020,Reporting year,National,E92000001,England,Children missing from placement ,Average (median) number of days per missing incident,1
+2020,Reporting year,National,E92000001,England,Children missing from placement,Average number of incidents per looked after child who was missing,6.5
+2020,Reporting year,National,E92000001,England,Children missing from placement,Children missing more than once during the year,8030
+2020,Reporting year,National,E92000001,England,Children missing from placement,Children missing on 31 March,190
+2020,Reporting year,National,E92000001,England,Children missing from placement,Children missing on 31 March who were unaccompanied asylum-seeking children,90
+2020,Reporting year,National,E92000001,England,Children missing from placement,Percentage of children looked after during the year who were missing,11
+2020,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,1. Total White,8610
+2020,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,1a. White British,7910
+2020,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,1b. White Irish,30
+2020,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,1c. Traveller of Irish Heritage,30
+2020,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,1d. Gypsy Roma,100
+2020,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,1e. Any other White background,540
+2020,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,2. Total Mixed or Multiple ethnic groups,1260
+2020,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,2a. White and Black Caribbean,520
+2020,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,2b. White and Black African,130
+2020,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,2c. White and Asian,190
+2020,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,2d. Any other Mixed background,420
+2020,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,3. Total Asian or Asian British,550
+2020,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,3a. Indian,30
+2020,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,3b. Pakistani,140
+2020,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,3c. Bangladeshi,70
+2020,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,3d. Chinese,c
+2020,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,3e. Any other Asian background,310
+2020,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,"4. Total Black, African, Caribbean or Black British",1460
+2020,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,4a. Caribbean,380
+2020,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,4b. African,830
+2020,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,4c. Any other Black background,260
+2020,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,5. Total other ethnic group,580
+2020,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,6. Total refused or information not yet available,20
+2020,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,6a. Refused,c
+2020,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,6b. Information not yet obtained,20
+2020,Reporting year,National,E92000001,England,Children missing from placement by ethnic origin,Total children who were missing during the year,12470
+2020,Reporting year,National,E92000001,England,Children missing from placement by gender,Females,5340
+2020,Reporting year,National,E92000001,England,Children missing from placement by gender,Males,7130
+2020,Reporting year,National,E92000001,England,Children missing from placement by gender,Total children who were missing during the year,12470
+2020,Reporting year,National,E92000001,England,Durations of missing from placement periods,Between 1 and 2 days,45580
+2020,Reporting year,National,E92000001,England,Durations of missing from placement periods,Between 11 and 15 days,510
+2020,Reporting year,National,E92000001,England,Durations of missing from placement periods,Between 16 and 20 days,210
+2020,Reporting year,National,E92000001,England,Durations of missing from placement periods,Between 21 and 30 days,210
+2020,Reporting year,National,E92000001,England,Durations of missing from placement periods,Between 3 and 7 days,7050
+2020,Reporting year,National,E92000001,England,Durations of missing from placement periods,Between 8 and 10 days,780
+2020,Reporting year,National,E92000001,England,Durations of missing from placement periods,Less than 1 day,26650
+2020,Reporting year,National,E92000001,England,Durations of missing from placement periods,More than 30 days,440
+2020,Reporting year,National,E92000001,England,Durations of missing from placement periods,Total incidents,81430
+2020,Reporting year,National,E92000001,England,Missing from placement incidents,Total number of missing incidents during the year,81430
+2020,Reporting year,National,E92000001,England,Placement locations from which children were missing,Missing from placement inside council boundary,46360
+2020,Reporting year,National,E92000001,England,Placement locations from which children were missing,Missing from placement outside council boundary,35070
+2020,Reporting year,National,E92000001,England,Placement locations from which children were missing,Total incidents,81430
+2020,Reporting year,National,E92000001,England,Placements from which children were missing,1: Foster placements,20780
+2020,Reporting year,National,E92000001,England,Placements from which children were missing,2: Adoption,0
+2020,Reporting year,National,E92000001,England,Placements from which children were missing,3: Placed with parents,1340
+2020,Reporting year,National,E92000001,England,Placements from which children were missing,4: Secure homes and children's homes,25730
+2020,Reporting year,National,E92000001,England,Placements from which children were missing,5: Independent and semi-independent living arrangements/supported accommodation,31500
+2020,Reporting year,National,E92000001,England,Placements from which children were missing,6: Other placements,2090
+2020,Reporting year,National,E92000001,England,Placements from which children were missing,Total incidents,81430

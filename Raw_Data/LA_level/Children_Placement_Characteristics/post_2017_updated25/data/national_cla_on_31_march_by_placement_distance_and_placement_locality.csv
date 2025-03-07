@@ -1,0 +1,281 @@
+﻿time_period,time_identifier,geographic_level,country_code,country_name,cla_group,characteristic,number,percentage
+2024,Reporting year,National,E92000001,England,All children,1. 20 miles or less,57770,69
+2024,Reporting year,National,E92000001,England,All children,1.i 20 miles or less inside LA boundary,39060,47
+2024,Reporting year,National,E92000001,England,All children,1.ii 20 miles or less outside LA boundary,18710,22
+2024,Reporting year,National,E92000001,England,All children,2. Over 20 miles,18040,22
+2024,Reporting year,National,E92000001,England,All children,2.i Over 20 miles inside LA boundary,3450,4
+2024,Reporting year,National,E92000001,England,All children,2.ii Over 20 miles outside LA boundary,14590,17
+2024,Reporting year,National,E92000001,England,All children,Distance not known or not recorded,7830,9
+2024,Reporting year,National,E92000001,England,All children,Total,83630,100
+2024,Reporting year,National,E92000001,England,Foster placements,1. 20 miles or less,42810,76
+2024,Reporting year,National,E92000001,England,Foster placements,1.i 20 miles or less inside LA boundary,29000,51
+2024,Reporting year,National,E92000001,England,Foster placements,1.ii 20 miles or less outside LA boundary,13810,24
+2024,Reporting year,National,E92000001,England,Foster placements,2. Over 20 miles,10650,19
+2024,Reporting year,National,E92000001,England,Foster placements,2.i Over 20 miles inside LA boundary,2560,5
+2024,Reporting year,National,E92000001,England,Foster placements,2.ii Over 20 miles outside LA boundary,8090,14
+2024,Reporting year,National,E92000001,England,Foster placements,Distance not known or not recorded,2930,5
+2024,Reporting year,National,E92000001,England,Foster placements,Total,56390,100
+2024,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,1. 20 miles or less,2470,39
+2024,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,1.i 20 miles or less inside LA boundary,1580,25
+2024,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,1.ii 20 miles or less outside LA boundary,890,14
+2024,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,2. Over 20 miles,490,8
+2024,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,2.i Over 20 miles inside LA boundary,130,2
+2024,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,2.ii Over 20 miles outside LA boundary,360,6
+2024,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,Distance not known or not recorded,3290,53
+2024,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,Total,6250,100
+2024,Reporting year,National,E92000001,England,Other placements,1. 20 miles or less,2570,50
+2024,Reporting year,National,E92000001,England,Other placements,1.i 20 miles or less inside LA boundary,1640,32
+2024,Reporting year,National,E92000001,England,Other placements,1.ii 20 miles or less outside LA boundary,930,18
+2024,Reporting year,National,E92000001,England,Other placements,2. Over 20 miles,1280,25
+2024,Reporting year,National,E92000001,England,Other placements,2.i Over 20 miles inside LA boundary,180,4
+2024,Reporting year,National,E92000001,England,Other placements,2.ii Over 20 miles outside LA boundary,1100,21
+2024,Reporting year,National,E92000001,England,Other placements,Distance not known or not recorded,1290,25
+2024,Reporting year,National,E92000001,England,Other placements,Total,5140,100
+2024,Reporting year,National,E92000001,England,Placed for adoption,1. 20 miles or less,750,40
+2024,Reporting year,National,E92000001,England,Placed for adoption,1.i 20 miles or less inside LA boundary,260,14
+2024,Reporting year,National,E92000001,England,Placed for adoption,1.ii 20 miles or less outside LA boundary,490,26
+2024,Reporting year,National,E92000001,England,Placed for adoption,2. Over 20 miles,970,51
+2024,Reporting year,National,E92000001,England,Placed for adoption,2.i Over 20 miles inside LA boundary,120,6
+2024,Reporting year,National,E92000001,England,Placed for adoption,2.ii Over 20 miles outside LA boundary,840,44
+2024,Reporting year,National,E92000001,England,Placed for adoption,Distance not known or not recorded,190,10
+2024,Reporting year,National,E92000001,England,Placed for adoption,Total,1910,100
+2024,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,1. 20 miles or less,4850,92
+2024,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,1.i 20 miles or less inside LA boundary,4230,80
+2024,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,1.ii 20 miles or less outside LA boundary,620,12
+2024,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,2. Over 20 miles,430,8
+2024,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,2.i Over 20 miles inside LA boundary,50,1
+2024,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,2.ii Over 20 miles outside LA boundary,380,7
+2024,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,Distance not known or not recorded,20,k
+2024,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,Total,5300,100
+2024,Reporting year,National,E92000001,England,Secure homes and children's homes,1. 20 miles or less,4320,50
+2024,Reporting year,National,E92000001,England,Secure homes and children's homes,1.i 20 miles or less inside LA boundary,2350,27
+2024,Reporting year,National,E92000001,England,Secure homes and children's homes,1.ii 20 miles or less outside LA boundary,1960,23
+2024,Reporting year,National,E92000001,England,Secure homes and children's homes,2. Over 20 miles,4220,49
+2024,Reporting year,National,E92000001,England,Secure homes and children's homes,2.i Over 20 miles inside LA boundary,400,5
+2024,Reporting year,National,E92000001,England,Secure homes and children's homes,2.ii Over 20 miles outside LA boundary,3830,44
+2024,Reporting year,National,E92000001,England,Secure homes and children's homes,Distance not known or not recorded,100,1
+2024,Reporting year,National,E92000001,England,Secure homes and children's homes,Total,8640,100
+2023,Reporting year,National,E92000001,England,All children,1. 20 miles or less,58250,70
+2023,Reporting year,National,E92000001,England,All children,1.i 20 miles or less inside LA boundary,39810,48
+2023,Reporting year,National,E92000001,England,All children,1.ii 20 miles or less outside LA boundary,18450,22
+2023,Reporting year,National,E92000001,England,All children,2. Over 20 miles,17650,21
+2023,Reporting year,National,E92000001,England,All children,2.i Over 20 miles inside LA boundary,3580,4
+2023,Reporting year,National,E92000001,England,All children,2.ii Over 20 miles outside LA boundary,14080,17
+2023,Reporting year,National,E92000001,England,All children,Distance not known or not recorded,7860,9
+2023,Reporting year,National,E92000001,England,All children,Total,83760,100
+2023,Reporting year,National,E92000001,England,Foster placements,1. 20 miles or less,43290,76
+2023,Reporting year,National,E92000001,England,Foster placements,1.i 20 miles or less inside LA boundary,29440,52
+2023,Reporting year,National,E92000001,England,Foster placements,1.ii 20 miles or less outside LA boundary,13850,24
+2023,Reporting year,National,E92000001,England,Foster placements,2. Over 20 miles,10390,18
+2023,Reporting year,National,E92000001,England,Foster placements,2.i Over 20 miles inside LA boundary,2640,5
+2023,Reporting year,National,E92000001,England,Foster placements,2.ii Over 20 miles outside LA boundary,7740,14
+2023,Reporting year,National,E92000001,England,Foster placements,Distance not known or not recorded,2970,5
+2023,Reporting year,National,E92000001,England,Foster placements,Total,56650,100
+2023,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,1. 20 miles or less,3450,40
+2023,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,1.i 20 miles or less inside LA boundary,2310,27
+2023,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,1.ii 20 miles or less outside LA boundary,1150,13
+2023,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,2. Over 20 miles,730,8
+2023,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,2.i Over 20 miles inside LA boundary,190,2
+2023,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,2.ii Over 20 miles outside LA boundary,540,6
+2023,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,Distance not known or not recorded,4460,52
+2023,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,Total,8650,100
+2023,Reporting year,National,E92000001,England,Other placements,1. 20 miles or less,1390,57
+2023,Reporting year,National,E92000001,England,Other placements,1.i 20 miles or less inside LA boundary,880,36
+2023,Reporting year,National,E92000001,England,Other placements,1.ii 20 miles or less outside LA boundary,510,21
+2023,Reporting year,National,E92000001,England,Other placements,2. Over 20 miles,940,38
+2023,Reporting year,National,E92000001,England,Other placements,2.i Over 20 miles inside LA boundary,110,5
+2023,Reporting year,National,E92000001,England,Other placements,2.ii Over 20 miles outside LA boundary,820,34
+2023,Reporting year,National,E92000001,England,Other placements,Distance not known or not recorded,120,5
+2023,Reporting year,National,E92000001,England,Other placements,Total,2440,100
+2023,Reporting year,National,E92000001,England,Placed for adoption,1. 20 miles or less,900,40
+2023,Reporting year,National,E92000001,England,Placed for adoption,1.i 20 miles or less inside LA boundary,290,13
+2023,Reporting year,National,E92000001,England,Placed for adoption,1.ii 20 miles or less outside LA boundary,600,27
+2023,Reporting year,National,E92000001,England,Placed for adoption,2. Over 20 miles,1130,51
+2023,Reporting year,National,E92000001,England,Placed for adoption,2.i Over 20 miles inside LA boundary,160,7
+2023,Reporting year,National,E92000001,England,Placed for adoption,2.ii Over 20 miles outside LA boundary,970,44
+2023,Reporting year,National,E92000001,England,Placed for adoption,Distance not known or not recorded,200,9
+2023,Reporting year,National,E92000001,England,Placed for adoption,Total,2220,100
+2023,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,1. 20 miles or less,5350,92
+2023,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,1.i 20 miles or less inside LA boundary,4710,81
+2023,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,1.ii 20 miles or less outside LA boundary,640,11
+2023,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,2. Over 20 miles,450,8
+2023,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,2.i Over 20 miles inside LA boundary,60,1
+2023,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,2.ii Over 20 miles outside LA boundary,380,7
+2023,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,Distance not known or not recorded,20,k
+2023,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,Total,5820,100
+2023,Reporting year,National,E92000001,England,Secure homes and children's homes,1. 20 miles or less,3880,49
+2023,Reporting year,National,E92000001,England,Secure homes and children's homes,1.i 20 miles or less inside LA boundary,2190,27
+2023,Reporting year,National,E92000001,England,Secure homes and children's homes,1.ii 20 miles or less outside LA boundary,1690,21
+2023,Reporting year,National,E92000001,England,Secure homes and children's homes,2. Over 20 miles,4020,50
+2023,Reporting year,National,E92000001,England,Secure homes and children's homes,2.i Over 20 miles inside LA boundary,410,5
+2023,Reporting year,National,E92000001,England,Secure homes and children's homes,2.ii Over 20 miles outside LA boundary,3620,45
+2023,Reporting year,National,E92000001,England,Secure homes and children's homes,Distance not known or not recorded,90,1
+2023,Reporting year,National,E92000001,England,Secure homes and children's homes,Total,7990,100
+2022,Reporting year,National,E92000001,England,All children,1. 20 miles or less,58960,72
+2022,Reporting year,National,E92000001,England,All children,1.i 20 miles or less inside LA boundary,40220,49
+2022,Reporting year,National,E92000001,England,All children,1.ii 20 miles or less outside LA boundary,18750,23
+2022,Reporting year,National,E92000001,England,All children,2. Over 20 miles,17010,21
+2022,Reporting year,National,E92000001,England,All children,2.i Over 20 miles inside LA boundary,3410,4
+2022,Reporting year,National,E92000001,England,All children,2.ii Over 20 miles outside LA boundary,13610,17
+2022,Reporting year,National,E92000001,England,All children,Distance not known or not recorded,6110,7
+2022,Reporting year,National,E92000001,England,All children,Total,82090,100
+2022,Reporting year,National,E92000001,England,Foster placements,1. 20 miles or less,44600,78
+2022,Reporting year,National,E92000001,England,Foster placements,1.i 20 miles or less inside LA boundary,30150,53
+2022,Reporting year,National,E92000001,England,Foster placements,1.ii 20 miles or less outside LA boundary,14450,25
+2022,Reporting year,National,E92000001,England,Foster placements,2. Over 20 miles,10180,18
+2022,Reporting year,National,E92000001,England,Foster placements,2.i Over 20 miles inside LA boundary,2560,4
+2022,Reporting year,National,E92000001,England,Foster placements,2.ii Over 20 miles outside LA boundary,7610,13
+2022,Reporting year,National,E92000001,England,Foster placements,Distance not known or not recorded,2410,4
+2022,Reporting year,National,E92000001,England,Foster placements,Total,57190,100
+2022,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,1. 20 miles or less,3370,45
+2022,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,1.i 20 miles or less inside LA boundary,2280,30
+2022,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,1.ii 20 miles or less outside LA boundary,1090,15
+2022,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,2. Over 20 miles,710,10
+2022,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,2.i Over 20 miles inside LA boundary,200,3
+2022,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,2.ii Over 20 miles outside LA boundary,520,7
+2022,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,Distance not known or not recorded,3390,45
+2022,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,Total,7470,100
+2022,Reporting year,National,E92000001,England,Other placements,1. 20 miles or less,1050,59
+2022,Reporting year,National,E92000001,England,Other placements,1.i 20 miles or less inside LA boundary,670,38
+2022,Reporting year,National,E92000001,England,Other placements,1.ii 20 miles or less outside LA boundary,370,21
+2022,Reporting year,National,E92000001,England,Other placements,2. Over 20 miles,710,39
+2022,Reporting year,National,E92000001,England,Other placements,2.i Over 20 miles inside LA boundary,60,4
+2022,Reporting year,National,E92000001,England,Other placements,2.ii Over 20 miles outside LA boundary,640,36
+2022,Reporting year,National,E92000001,England,Other placements,Distance not known or not recorded,40,2
+2022,Reporting year,National,E92000001,England,Other placements,Total,1790,100
+2022,Reporting year,National,E92000001,England,Placed for adoption,1. 20 miles or less,970,41
+2022,Reporting year,National,E92000001,England,Placed for adoption,1.i 20 miles or less inside LA boundary,350,15
+2022,Reporting year,National,E92000001,England,Placed for adoption,1.ii 20 miles or less outside LA boundary,620,26
+2022,Reporting year,National,E92000001,England,Placed for adoption,2. Over 20 miles,1160,50
+2022,Reporting year,National,E92000001,England,Placed for adoption,2.i Over 20 miles inside LA boundary,160,7
+2022,Reporting year,National,E92000001,England,Placed for adoption,2.ii Over 20 miles outside LA boundary,1000,43
+2022,Reporting year,National,E92000001,England,Placed for adoption,Distance not known or not recorded,210,9
+2022,Reporting year,National,E92000001,England,Placed for adoption,Total,2340,100
+2022,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,1. 20 miles or less,5270,93
+2022,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,1.i 20 miles or less inside LA boundary,4610,81
+2022,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,1.ii 20 miles or less outside LA boundary,660,12
+2022,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,2. Over 20 miles,410,7
+2022,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,2.i Over 20 miles inside LA boundary,50,1
+2022,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,2.ii Over 20 miles outside LA boundary,350,6
+2022,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,Distance not known or not recorded,20,k
+2022,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,Total,5700,100
+2022,Reporting year,National,E92000001,England,Secure homes and children's homes,1. 20 miles or less,3710,49
+2022,Reporting year,National,E92000001,England,Secure homes and children's homes,1.i 20 miles or less inside LA boundary,2150,28
+2022,Reporting year,National,E92000001,England,Secure homes and children's homes,1.ii 20 miles or less outside LA boundary,1560,20
+2022,Reporting year,National,E92000001,England,Secure homes and children's homes,2. Over 20 miles,3850,51
+2022,Reporting year,National,E92000001,England,Secure homes and children's homes,2.i Over 20 miles inside LA boundary,370,5
+2022,Reporting year,National,E92000001,England,Secure homes and children's homes,2.ii Over 20 miles outside LA boundary,3480,46
+2022,Reporting year,National,E92000001,England,Secure homes and children's homes,Distance not known or not recorded,50,1
+2022,Reporting year,National,E92000001,England,Secure homes and children's homes,Total,7600,100
+2021,Reporting year,National,E92000001,England,All children,1. 20 miles or less,59330,73
+2021,Reporting year,National,E92000001,England,All children,1.i 20 miles or less inside LA boundary,40860,51
+2021,Reporting year,National,E92000001,England,All children,1.ii 20 miles or less outside LA boundary,18460,23
+2021,Reporting year,National,E92000001,England,All children,2. Over 20 miles,16860,21
+2021,Reporting year,National,E92000001,England,All children,2.i Over 20 miles inside LA boundary,3430,4
+2021,Reporting year,National,E92000001,England,All children,2.ii Over 20 miles outside LA boundary,13440,17
+2021,Reporting year,National,E92000001,England,All children,Distance not known or not recorded,4590,6
+2021,Reporting year,National,E92000001,England,All children,Total,80780,100
+2021,Reporting year,National,E92000001,England,Foster placements,1. 20 miles or less,44930,79
+2021,Reporting year,National,E92000001,England,Foster placements,1.i 20 miles or less inside LA boundary,30580,54
+2021,Reporting year,National,E92000001,England,Foster placements,1.ii 20 miles or less outside LA boundary,14350,25
+2021,Reporting year,National,E92000001,England,Foster placements,2. Over 20 miles,9910,17
+2021,Reporting year,National,E92000001,England,Foster placements,2.i Over 20 miles inside LA boundary,2620,5
+2021,Reporting year,National,E92000001,England,Foster placements,2.ii Over 20 miles outside LA boundary,7290,13
+2021,Reporting year,National,E92000001,England,Foster placements,Distance not known or not recorded,2150,4
+2021,Reporting year,National,E92000001,England,Foster placements,Total,57000,100
+2021,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,1. 20 miles or less,3240,53
+2021,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,1.i 20 miles or less inside LA boundary,2220,37
+2021,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,1.ii 20 miles or less outside LA boundary,1020,17
+2021,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,2. Over 20 miles,690,11
+2021,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,2.i Over 20 miles inside LA boundary,170,3
+2021,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,2.ii Over 20 miles outside LA boundary,520,9
+2021,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,Distance not known or not recorded,2140,35
+2021,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,Total,6070,100
+2021,Reporting year,National,E92000001,England,Other placements,1. 20 miles or less,950,55
+2021,Reporting year,National,E92000001,England,Other placements,1.i 20 miles or less inside LA boundary,610,35
+2021,Reporting year,National,E92000001,England,Other placements,1.ii 20 miles or less outside LA boundary,340,20
+2021,Reporting year,National,E92000001,England,Other placements,2. Over 20 miles,750,43
+2021,Reporting year,National,E92000001,England,Other placements,2.i Over 20 miles inside LA boundary,50,3
+2021,Reporting year,National,E92000001,England,Other placements,2.ii Over 20 miles outside LA boundary,690,40
+2021,Reporting year,National,E92000001,England,Other placements,Distance not known or not recorded,20,1
+2021,Reporting year,National,E92000001,England,Other placements,Total,1730,100
+2021,Reporting year,National,E92000001,England,Placed for adoption,1. 20 miles or less,1060,43
+2021,Reporting year,National,E92000001,England,Placed for adoption,1.i 20 miles or less inside LA boundary,440,17
+2021,Reporting year,National,E92000001,England,Placed for adoption,1.ii 20 miles or less outside LA boundary,630,25
+2021,Reporting year,National,E92000001,England,Placed for adoption,2. Over 20 miles,1220,49
+2021,Reporting year,National,E92000001,England,Placed for adoption,2.i Over 20 miles inside LA boundary,190,7
+2021,Reporting year,National,E92000001,England,Placed for adoption,2.ii Over 20 miles outside LA boundary,1040,42
+2021,Reporting year,National,E92000001,England,Placed for adoption,Distance not known or not recorded,210,8
+2021,Reporting year,National,E92000001,England,Placed for adoption,Total,2490,100
+2021,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,1. 20 miles or less,5610,93
+2021,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,1.i 20 miles or less inside LA boundary,4920,81
+2021,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,1.ii 20 miles or less outside LA boundary,690,11
+2021,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,2. Over 20 miles,440,7
+2021,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,2.i Over 20 miles inside LA boundary,60,1
+2021,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,2.ii Over 20 miles outside LA boundary,380,6
+2021,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,Distance not known or not recorded,10,k
+2021,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,Total,6060,100
+2021,Reporting year,National,E92000001,England,Secure homes and children's homes,1. 20 miles or less,3530,47
+2021,Reporting year,National,E92000001,England,Secure homes and children's homes,1.i 20 miles or less inside LA boundary,2100,28
+2021,Reporting year,National,E92000001,England,Secure homes and children's homes,1.ii 20 miles or less outside LA boundary,1430,19
+2021,Reporting year,National,E92000001,England,Secure homes and children's homes,2. Over 20 miles,3860,52
+2021,Reporting year,National,E92000001,England,Secure homes and children's homes,2.i Over 20 miles inside LA boundary,350,5
+2021,Reporting year,National,E92000001,England,Secure homes and children's homes,2.ii Over 20 miles outside LA boundary,3510,47
+2021,Reporting year,National,E92000001,England,Secure homes and children's homes,Distance not known or not recorded,50,1
+2021,Reporting year,National,E92000001,England,Secure homes and children's homes,Total,7430,100
+2020,Reporting year,National,E92000001,England,All children,1. 20 miles or less,58340,73
+2020,Reporting year,National,E92000001,England,All children,1.i 20 miles or less inside LA boundary,40520,51
+2020,Reporting year,National,E92000001,England,All children,1.ii 20 miles or less outside LA boundary,17820,22
+2020,Reporting year,National,E92000001,England,All children,2. Over 20 miles,16080,20
+2020,Reporting year,National,E92000001,England,All children,2.i Over 20 miles inside LA boundary,3410,4
+2020,Reporting year,National,E92000001,England,All children,2.ii Over 20 miles outside LA boundary,12670,16
+2020,Reporting year,National,E92000001,England,All children,Distance not known or not recorded,5580,7
+2020,Reporting year,National,E92000001,England,All children,Total,80000,100
+2020,Reporting year,National,E92000001,England,Foster placements,1. 20 miles or less,44780,79
+2020,Reporting year,National,E92000001,England,Foster placements,1.i 20 miles or less inside LA boundary,30810,54
+2020,Reporting year,National,E92000001,England,Foster placements,1.ii 20 miles or less outside LA boundary,13970,25
+2020,Reporting year,National,E92000001,England,Foster placements,2. Over 20 miles,9520,17
+2020,Reporting year,National,E92000001,England,Foster placements,2.i Over 20 miles inside LA boundary,2600,5
+2020,Reporting year,National,E92000001,England,Foster placements,2.ii Over 20 miles outside LA boundary,6920,12
+2020,Reporting year,National,E92000001,England,Foster placements,Distance not known or not recorded,2650,5
+2020,Reporting year,National,E92000001,England,Foster placements,Total,56950,100
+2020,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,1. 20 miles or less,3200,49
+2020,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,1.i 20 miles or less inside LA boundary,2190,34
+2020,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,1.ii 20 miles or less outside LA boundary,1010,16
+2020,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,2. Over 20 miles,730,11
+2020,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,2.i Over 20 miles inside LA boundary,200,3
+2020,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,2.ii Over 20 miles outside LA boundary,530,8
+2020,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,Distance not known or not recorded,2580,40
+2020,Reporting year,National,E92000001,England,Independent and semi-independent living arrangements/ supported accommodation,Total,6510,100
+2020,Reporting year,National,E92000001,England,Other placements,1. 20 miles or less,900,55
+2020,Reporting year,National,E92000001,England,Other placements,1.i 20 miles or less inside LA boundary,560,34
+2020,Reporting year,National,E92000001,England,Other placements,1.ii 20 miles or less outside LA boundary,340,21
+2020,Reporting year,National,E92000001,England,Other placements,2. Over 20 miles,710,43
+2020,Reporting year,National,E92000001,England,Other placements,2.i Over 20 miles inside LA boundary,30,2
+2020,Reporting year,National,E92000001,England,Other placements,2.ii Over 20 miles outside LA boundary,680,41
+2020,Reporting year,National,E92000001,England,Other placements,Distance not known or not recorded,30,2
+2020,Reporting year,National,E92000001,England,Other placements,Total,1630,100
+2020,Reporting year,National,E92000001,England,Placed for adoption,1. 20 miles or less,1020,45
+2020,Reporting year,National,E92000001,England,Placed for adoption,1.i 20 miles or less inside LA boundary,470,21
+2020,Reporting year,National,E92000001,England,Placed for adoption,1.ii 20 miles or less outside LA boundary,540,24
+2020,Reporting year,National,E92000001,England,Placed for adoption,2. Over 20 miles,1020,45
+2020,Reporting year,National,E92000001,England,Placed for adoption,2.i Over 20 miles inside LA boundary,160,7
+2020,Reporting year,National,E92000001,England,Placed for adoption,2.ii Over 20 miles outside LA boundary,860,38
+2020,Reporting year,National,E92000001,England,Placed for adoption,Distance not known or not recorded,250,11
+2020,Reporting year,National,E92000001,England,Placed for adoption,Total,2280,100
+2020,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,1. 20 miles or less,5110,93
+2020,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,1.i 20 miles or less inside LA boundary,4500,81
+2020,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,1.ii 20 miles or less outside LA boundary,610,11
+2020,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,2. Over 20 miles,390,7
+2020,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,2.i Over 20 miles inside LA boundary,50,1
+2020,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,2.ii Over 20 miles outside LA boundary,340,6
+2020,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,Distance not known or not recorded,20,k
+2020,Reporting year,National,E92000001,England,Placed with parents or other person with parental responsibility,Total,5530,100
+2020,Reporting year,National,E92000001,England,Secure homes and children's homes,1. 20 miles or less,3340,47
+2020,Reporting year,National,E92000001,England,Secure homes and children's homes,1.i 20 miles or less inside LA boundary,2000,28
+2020,Reporting year,National,E92000001,England,Secure homes and children's homes,1.ii 20 miles or less outside LA boundary,1340,19
+2020,Reporting year,National,E92000001,England,Secure homes and children's homes,2. Over 20 miles,3710,52
+2020,Reporting year,National,E92000001,England,Secure homes and children's homes,2.i Over 20 miles inside LA boundary,360,5
+2020,Reporting year,National,E92000001,England,Secure homes and children's homes,2.ii Over 20 miles outside LA boundary,3350,47
+2020,Reporting year,National,E92000001,England,Secure homes and children's homes,Distance not known or not recorded,50,1
+2020,Reporting year,National,E92000001,England,Secure homes and children's homes,Total,7100,100

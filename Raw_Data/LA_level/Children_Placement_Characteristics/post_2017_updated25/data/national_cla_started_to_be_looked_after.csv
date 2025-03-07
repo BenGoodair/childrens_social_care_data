@@ -1,0 +1,501 @@
+time_period,time_identifier,geographic_level,country_code,country_name,cla_group,characteristic,number,percentage
+2024,Reporting year,National,E92000001,England,Age on starting,1 to 4 years,4830,15
+2024,Reporting year,National,E92000001,England,Age on starting,10 to 15 years,8690,26
+2024,Reporting year,National,E92000001,England,Age on starting,16 years and over,9440,29
+2024,Reporting year,National,E92000001,England,Age on starting,5 to 9 years,4890,15
+2024,Reporting year,National,E92000001,England,Age on starting,Total children,33050,100
+2024,Reporting year,National,E92000001,England,Age on starting,Under 1 year,5210,16
+2024,Reporting year,National,E92000001,England,Category of need,N1. Abuse or neglect,18510,56
+2024,Reporting year,National,E92000001,England,Category of need,N2. Child's disability,590,2
+2024,Reporting year,National,E92000001,England,Category of need,N3. Parental illness or disability,720,2
+2024,Reporting year,National,E92000001,England,Category of need,N4. Family in acute stress,2420,7
+2024,Reporting year,National,E92000001,England,Category of need,N5. Family dysfunction,3150,10
+2024,Reporting year,National,E92000001,England,Category of need,N6. Socially unacceptable behaviour,550,2
+2024,Reporting year,National,E92000001,England,Category of need,N7. Low income,30,k
+2024,Reporting year,National,E92000001,England,Category of need,N8. Absent parenting,7090,21
+2024,Reporting year,National,E92000001,England,Category of need,Total children,33050,100
+2024,Reporting year,National,E92000001,England,Ethnicity,1. Total White,18910,57
+2024,Reporting year,National,E92000001,England,Ethnicity,1a. White British,17080,52
+2024,Reporting year,National,E92000001,England,Ethnicity,1b. White Irish,70,k
+2024,Reporting year,National,E92000001,England,Ethnicity,1c. Traveller of Irish Heritage,80,k
+2024,Reporting year,National,E92000001,England,Ethnicity,1d. Gypsy Roma,170,1
+2024,Reporting year,National,E92000001,England,Ethnicity,1e. Any other White background,1520,5
+2024,Reporting year,National,E92000001,England,Ethnicity,2. Total Mixed or Multiple ethnic groups,2970,9
+2024,Reporting year,National,E92000001,England,Ethnicity,2a. White and Black Caribbean,920,3
+2024,Reporting year,National,E92000001,England,Ethnicity,2b. White and Black African,410,1
+2024,Reporting year,National,E92000001,England,Ethnicity,2c. White and Asian,430,1
+2024,Reporting year,National,E92000001,England,Ethnicity,2d. Any other Mixed background,1210,4
+2024,Reporting year,National,E92000001,England,Ethnicity,3. Total Asian or Asian British,2490,8
+2024,Reporting year,National,E92000001,England,Ethnicity,3a. Indian,180,1
+2024,Reporting year,National,E92000001,England,Ethnicity,3b. Pakistani,500,2
+2024,Reporting year,National,E92000001,England,Ethnicity,3c. Bangladeshi,180,1
+2024,Reporting year,National,E92000001,England,Ethnicity,3d. Chinese,50,k
+2024,Reporting year,National,E92000001,England,Ethnicity,3e. Any other Asian background,1570,5
+2024,Reporting year,National,E92000001,England,Ethnicity,"4. Total Black, African, Caribbean or Black British",4150,13
+2024,Reporting year,National,E92000001,England,Ethnicity,4a. Caribbean,540,2
+2024,Reporting year,National,E92000001,England,Ethnicity,4b. African,2970,9
+2024,Reporting year,National,E92000001,England,Ethnicity,4c. Any other Black background,640,2
+2024,Reporting year,National,E92000001,England,Ethnicity,5. Total other ethnic group,3820,12
+2024,Reporting year,National,E92000001,England,Ethnicity,5a. Any other ethnic group,3820,12
+2024,Reporting year,National,E92000001,England,Ethnicity,6. Total refused or information not yet available,730,2
+2024,Reporting year,National,E92000001,England,Ethnicity,6a. Refused,120,k
+2024,Reporting year,National,E92000001,England,Ethnicity,6b. Information not yet obtained,600,2
+2024,Reporting year,National,E92000001,England,Ethnicity,Total children,33050,100
+2024,Reporting year,National,E92000001,England,Gender,Female,12900,39
+2024,Reporting year,National,E92000001,England,Gender,Male,20160,61
+2024,Reporting year,National,E92000001,England,Gender,Total children,33050,100
+2024,Reporting year,National,E92000001,England,Legal status,Care order,10210,31
+2024,Reporting year,National,E92000001,England,Legal status,Detained for child protection,3350,10
+2024,Reporting year,National,E92000001,England,Legal status,Placement order granted,10,k
+2024,Reporting year,National,E92000001,England,Legal status,Total children,33050,100
+2024,Reporting year,National,E92000001,England,Legal status,Voluntary agreements under S20 CA 1989,18980,57
+2024,Reporting year,National,E92000001,England,Legal status,Youth justice legal statuses,510,2
+2024,Reporting year,National,E92000001,England,Placement group,1. Total foster placements,18290,55
+2024,Reporting year,National,E92000001,England,Placement group,1a. Total foster placements inside council boundary,11730,35
+2024,Reporting year,National,E92000001,England,Placement group,1a.1 Total foster placements inside council boundary with relative or friend,4240,13
+2024,Reporting year,National,E92000001,England,Placement group,1a.1i With relative or friend who is also approved adopter (FFA) or concurrent planning,10,k
+2024,Reporting year,National,E92000001,England,Placement group,1a.1ii With relative or friend not FFA/concurrent planning,4230,13
+2024,Reporting year,National,E92000001,England,Placement group,1a.2 Total foster placements inside council boundary with other foster carer,7490,23
+2024,Reporting year,National,E92000001,England,Placement group,1a.2i With other foster carer who is approved adopter (FFA) or concurrent planning,40,k
+2024,Reporting year,National,E92000001,England,Placement group,1a.2ii With other foster carer not FFA/concurrent planning,7450,23
+2024,Reporting year,National,E92000001,England,Placement group,1b. Total foster placements outside council boundary,6560,20
+2024,Reporting year,National,E92000001,England,Placement group,1b.1 Total foster placements outside council boundary with relative or friend,1480,4
+2024,Reporting year,National,E92000001,England,Placement group,1b.1i With relative or friend who is also approved adopter (FFA) or concurrent planning,c,c
+2024,Reporting year,National,E92000001,England,Placement group,1b.1ii With relative or friend not FFA/concurrent planning,1470,4
+2024,Reporting year,National,E92000001,England,Placement group,1b.2 Total foster placements outside council boundary with other foster carer,5090,15
+2024,Reporting year,National,E92000001,England,Placement group,1b.2i With other foster carer who is also approved adopter (FFA) or concurrent planning,80,k
+2024,Reporting year,National,E92000001,England,Placement group,1b.2ii With other foster carer not FFA/concurrent planning,5010,15
+2024,Reporting year,National,E92000001,England,Placement group,2. Total placed for adoption,0,0
+2024,Reporting year,National,E92000001,England,Placement group,2a. Placed for adoption with consent with current foster carer,0,0
+2024,Reporting year,National,E92000001,England,Placement group,2b. Placed for adoption with placement order with current foster carer,0,0
+2024,Reporting year,National,E92000001,England,Placement group,2c. Placed for adoption with consent not with current foster carer,0,0
+2024,Reporting year,National,E92000001,England,Placement group,2d. Placed for adoption with placement order not with current foster carer,0,0
+2024,Reporting year,National,E92000001,England,Placement group,3. Total placed with parents or other person with parental responsibility,2190,7
+2024,Reporting year,National,E92000001,England,Placement group,4. Total secure homes and children's homes,1160,4
+2024,Reporting year,National,E92000001,England,Placement group,4a. Secure home placement inside the council boundary,c,c
+2024,Reporting year,National,E92000001,England,Placement group,4b. Secure home placement outside the council boundary,50,k
+2024,Reporting year,National,E92000001,England,Placement group,4c. Total children's homes subject to children's homes regulations,1110,3
+2024,Reporting year,National,E92000001,England,Placement group,4c.1 Children's home placement inside the council boundary,420,1
+2024,Reporting year,National,E92000001,England,Placement group,4c.2 Children's home placement outside the council boundary,690,2
+2024,Reporting year,National,E92000001,England,Placement group,5. Total independent and semi-independent living arrangements/ supported accommodation,6670,20
+2024,Reporting year,National,E92000001,England,Placement group,5a. Semi-independent living accommodation not subject to children's homes regulations,2520,8
+2024,Reporting year,National,E92000001,England,Placement group,5b. Living independently,680,2
+2024,Reporting year,National,E92000001,England,Placement group,5c. Supported accommodation,3460,10
+2024,Reporting year,National,E92000001,England,Placement group,6. Total other residential settings,2130,6
+2024,Reporting year,National,E92000001,England,Placement group,6a. Residential care homes,140,k
+2024,Reporting year,National,E92000001,England,Placement group,6b. NHS trust providing medical or nursing care,1110,3
+2024,Reporting year,National,E92000001,England,Placement group,6c. Family centre or mother and baby unit,570,2
+2024,Reporting year,National,E92000001,England,Placement group,6d. Young offenders institution or prison,310,1
+2024,Reporting year,National,E92000001,England,Placement group,6e. Residential employment,0,0
+2024,Reporting year,National,E92000001,England,Placement group,7. Total residential schools,40,k
+2024,Reporting year,National,E92000001,England,Placement group,8. Total other placements,2580,8
+2024,Reporting year,National,E92000001,England,Placement group,Total children,33050,100
+2024,Reporting year,National,E92000001,England,Previous permanence arrangement,Adoption,170,k
+2024,Reporting year,National,E92000001,England,Previous permanence arrangement,No previous permanence option,25870,78
+2024,Reporting year,National,E92000001,England,Previous permanence arrangement,Residence or child arrangement order,110,k
+2024,Reporting year,National,E92000001,England,Previous permanence arrangement,Special guardianship order,320,1
+2024,Reporting year,National,E92000001,England,Previous permanence arrangement,Total children,33050,100
+2024,Reporting year,National,E92000001,England,Previous permanence arrangement,Unknown,6590,20
+2024,Reporting year,National,E92000001,England,Unaccompanied asylum-seeking children,Non-unaccompanied asylum-seeking children,25780,78
+2024,Reporting year,National,E92000001,England,Unaccompanied asylum-seeking children,Total children,33050,100
+2024,Reporting year,National,E92000001,England,Unaccompanied asylum-seeking children,Unaccompanied asylum-seeking children,7270,22
+2023,Reporting year,National,E92000001,England,Age on starting,1 to 4 years,4850,15
+2023,Reporting year,National,E92000001,England,Age on starting,10 to 15 years,8950,27
+2023,Reporting year,National,E92000001,England,Age on starting,16 years and over,9090,27
+2023,Reporting year,National,E92000001,England,Age on starting,5 to 9 years,4750,14
+2023,Reporting year,National,E92000001,England,Age on starting,Total children,33090,100
+2023,Reporting year,National,E92000001,England,Age on starting,Under 1 year,5460,16
+2023,Reporting year,National,E92000001,England,Category of need,N1. Abuse or neglect,18490,56
+2023,Reporting year,National,E92000001,England,Category of need,N2. Child's disability,570,2
+2023,Reporting year,National,E92000001,England,Category of need,N3. Parental illness or disability,660,2
+2023,Reporting year,National,E92000001,England,Category of need,N4. Family in acute stress,2530,8
+2023,Reporting year,National,E92000001,England,Category of need,N5. Family dysfunction,3380,10
+2023,Reporting year,National,E92000001,England,Category of need,N6. Socially unacceptable behaviour,600,2
+2023,Reporting year,National,E92000001,England,Category of need,N7. Low income,50,k
+2023,Reporting year,National,E92000001,England,Category of need,N8. Absent parenting,6830,21
+2023,Reporting year,National,E92000001,England,Category of need,Total children,33090,100
+2023,Reporting year,National,E92000001,England,Ethnicity,1. Total White,19390,59
+2023,Reporting year,National,E92000001,England,Ethnicity,1a. White British,17160,52
+2023,Reporting year,National,E92000001,England,Ethnicity,1b. White Irish,80,k
+2023,Reporting year,National,E92000001,England,Ethnicity,1c. Traveller of Irish Heritage,80,k
+2023,Reporting year,National,E92000001,England,Ethnicity,1d. Gypsy Roma,200,1
+2023,Reporting year,National,E92000001,England,Ethnicity,1e. Any other White background,1880,6
+2023,Reporting year,National,E92000001,England,Ethnicity,2. Total Mixed or Multiple ethnic groups,2990,9
+2023,Reporting year,National,E92000001,England,Ethnicity,2a. White and Black Caribbean,950,3
+2023,Reporting year,National,E92000001,England,Ethnicity,2b. White and Black African,380,1
+2023,Reporting year,National,E92000001,England,Ethnicity,2c. White and Asian,530,2
+2023,Reporting year,National,E92000001,England,Ethnicity,2d. Any other Mixed background,1140,3
+2023,Reporting year,National,E92000001,England,Ethnicity,3. Total Asian or Asian British,2950,9
+2023,Reporting year,National,E92000001,England,Ethnicity,3a. Indian,170,1
+2023,Reporting year,National,E92000001,England,Ethnicity,3b. Pakistani,540,2
+2023,Reporting year,National,E92000001,England,Ethnicity,3c. Bangladeshi,200,1
+2023,Reporting year,National,E92000001,England,Ethnicity,3d. Chinese,50,k
+2023,Reporting year,National,E92000001,England,Ethnicity,3e. Any other Asian background,1980,6
+2023,Reporting year,National,E92000001,England,Ethnicity,"4. Total Black, African, Caribbean or Black British",3600,11
+2023,Reporting year,National,E92000001,England,Ethnicity,4a. Caribbean,450,1
+2023,Reporting year,National,E92000001,England,Ethnicity,4b. African,2460,7
+2023,Reporting year,National,E92000001,England,Ethnicity,4c. Any other Black background,690,2
+2023,Reporting year,National,E92000001,England,Ethnicity,5. Total other ethnic group,3730,11
+2023,Reporting year,National,E92000001,England,Ethnicity,5a. Any other ethnic group,3730,11
+2023,Reporting year,National,E92000001,England,Ethnicity,6. Total refused or information not yet available,440,1
+2023,Reporting year,National,E92000001,England,Ethnicity,6a. Refused,40,k
+2023,Reporting year,National,E92000001,England,Ethnicity,6b. Information not yet obtained,400,1
+2023,Reporting year,National,E92000001,England,Ethnicity,Total children,33090,100
+2023,Reporting year,National,E92000001,England,Gender,Female,12880,39
+2023,Reporting year,National,E92000001,England,Gender,Male,20210,61
+2023,Reporting year,National,E92000001,England,Gender,Total children,33090,100
+2023,Reporting year,National,E92000001,England,Legal status,Care order,10560,32
+2023,Reporting year,National,E92000001,England,Legal status,Detained for child protection,3430,10
+2023,Reporting year,National,E92000001,England,Legal status,Placement order granted,10,k
+2023,Reporting year,National,E92000001,England,Legal status,Total children,33090,100
+2023,Reporting year,National,E92000001,England,Legal status,Voluntary agreements under S20 CA 1989,18600,56
+2023,Reporting year,National,E92000001,England,Legal status,Youth justice legal statuses,490,1
+2023,Reporting year,National,E92000001,England,Placement group,1. Total foster placements,18760,57
+2023,Reporting year,National,E92000001,England,Placement group,1a. Total foster placements inside council boundary,12010,36
+2023,Reporting year,National,E92000001,England,Placement group,1a.1 Total foster placements inside council boundary with relative or friend,4060,12
+2023,Reporting year,National,E92000001,England,Placement group,1a.1i With relative or friend who is also approved adopter (FFA) or concurrent planning,10,k
+2023,Reporting year,National,E92000001,England,Placement group,1a.1ii With relative or friend not FFA/concurrent planning,4040,12
+2023,Reporting year,National,E92000001,England,Placement group,1a.2 Total foster placements inside council boundary with other foster carer,7950,24
+2023,Reporting year,National,E92000001,England,Placement group,1a.2i With other foster carer who is approved adopter (FFA) or concurrent planning,40,k
+2023,Reporting year,National,E92000001,England,Placement group,1a.2ii With other foster carer not FFA/concurrent planning,7910,24
+2023,Reporting year,National,E92000001,England,Placement group,1b. Total foster placements outside council boundary,6750,20
+2023,Reporting year,National,E92000001,England,Placement group,1b.1 Total foster placements outside council boundary with relative or friend,1380,4
+2023,Reporting year,National,E92000001,England,Placement group,1b.1i With relative or friend who is also approved adopter (FFA) or concurrent planning,c,c
+2023,Reporting year,National,E92000001,England,Placement group,1b.1ii With relative or friend not FFA/concurrent planning,1370,4
+2023,Reporting year,National,E92000001,England,Placement group,1b.2 Total foster placements outside council boundary with other foster carer,5370,16
+2023,Reporting year,National,E92000001,England,Placement group,1b.2i With other foster carer who is also approved adopter (FFA) or concurrent planning,110,k
+2023,Reporting year,National,E92000001,England,Placement group,1b.2ii With other foster carer not FFA/concurrent planning,5270,16
+2023,Reporting year,National,E92000001,England,Placement group,2. Total placed for adoption,c,c
+2023,Reporting year,National,E92000001,England,Placement group,2a. Placed for adoption with consent with current foster carer,c,c
+2023,Reporting year,National,E92000001,England,Placement group,2b. Placed for adoption with placement order with current foster carer,0,0
+2023,Reporting year,National,E92000001,England,Placement group,2c. Placed for adoption with consent not with current foster carer,c,c
+2023,Reporting year,National,E92000001,England,Placement group,2d. Placed for adoption with placement order not with current foster carer,0,0
+2023,Reporting year,National,E92000001,England,Placement group,3. Total placed with parents or other person with parental responsibility,2450,7
+2023,Reporting year,National,E92000001,England,Placement group,4. Total secure homes and children's homes,1260,4
+2023,Reporting year,National,E92000001,England,Placement group,4a. Secure home placement inside the council boundary,c,c
+2023,Reporting year,National,E92000001,England,Placement group,4b. Secure home placement outside the council boundary,50,k
+2023,Reporting year,National,E92000001,England,Placement group,4c. Total children's homes subject to children's homes regulations,1200,4
+2023,Reporting year,National,E92000001,England,Placement group,4c.1 Children's home placement inside the council boundary,490,1
+2023,Reporting year,National,E92000001,England,Placement group,4c.2 Children's home placement outside the council boundary,710,2
+2023,Reporting year,National,E92000001,England,Placement group,5. Total independent and semi-independent living arrangements/ supported accommodation,7170,22
+2023,Reporting year,National,E92000001,England,Placement group,5a. Semi-independent living accommodation not subject to children's homes regulations,5750,17
+2023,Reporting year,National,E92000001,England,Placement group,5b. Living independently,1420,4
+2023,Reporting year,National,E92000001,England,Placement group,5c. Supported accommodation,z,z
+2023,Reporting year,National,E92000001,England,Placement group,6. Total other residential settings,2070,6
+2023,Reporting year,National,E92000001,England,Placement group,6a. Residential care homes,120,k
+2023,Reporting year,National,E92000001,England,Placement group,6b. NHS trust providing medical or nursing care,1130,3
+2023,Reporting year,National,E92000001,England,Placement group,6c. Family centre or mother and baby unit,490,1
+2023,Reporting year,National,E92000001,England,Placement group,6d. Young offenders institution or prison,340,1
+2023,Reporting year,National,E92000001,England,Placement group,6e. Residential employment,0,0
+2023,Reporting year,National,E92000001,England,Placement group,7. Total residential schools,40,k
+2023,Reporting year,National,E92000001,England,Placement group,8. Total other placements,1340,4
+2023,Reporting year,National,E92000001,England,Placement group,Total children,33090,100
+2023,Reporting year,National,E92000001,England,Previous permanence arrangement,Adoption,170,1
+2023,Reporting year,National,E92000001,England,Previous permanence arrangement,No previous permanence option,27990,85
+2023,Reporting year,National,E92000001,England,Previous permanence arrangement,Residence or child arrangement order,130,k
+2023,Reporting year,National,E92000001,England,Previous permanence arrangement,Special guardianship order,320,1
+2023,Reporting year,National,E92000001,England,Previous permanence arrangement,Total children,33090,100
+2023,Reporting year,National,E92000001,England,Previous permanence arrangement,Unknown,4480,14
+2023,Reporting year,National,E92000001,England,Unaccompanied asylum-seeking children,Non-unaccompanied asylum-seeking children,25880,78
+2023,Reporting year,National,E92000001,England,Unaccompanied asylum-seeking children,Total children,33090,100
+2023,Reporting year,National,E92000001,England,Unaccompanied asylum-seeking children,Unaccompanied asylum-seeking children,7210,22
+2022,Reporting year,National,E92000001,England,Age on starting,1 to 4 years,4770,15
+2022,Reporting year,National,E92000001,England,Age on starting,10 to 15 years,8260,27
+2022,Reporting year,National,E92000001,England,Age on starting,16 years and over,7920,25
+2022,Reporting year,National,E92000001,England,Age on starting,5 to 9 years,4720,15
+2022,Reporting year,National,E92000001,England,Age on starting,Total children,31100,100
+2022,Reporting year,National,E92000001,England,Age on starting,Under 1 year,5420,17
+2022,Reporting year,National,E92000001,England,Category of need,N1. Abuse or neglect,17890,58
+2022,Reporting year,National,E92000001,England,Category of need,N2. Child's disability,560,2
+2022,Reporting year,National,E92000001,England,Category of need,N3. Parental illness or disability,740,2
+2022,Reporting year,National,E92000001,England,Category of need,N4. Family in acute stress,2340,8
+2022,Reporting year,National,E92000001,England,Category of need,N5. Family dysfunction,3410,11
+2022,Reporting year,National,E92000001,England,Category of need,N6. Socially unacceptable behaviour,590,2
+2022,Reporting year,National,E92000001,England,Category of need,N7. Low income,40,k
+2022,Reporting year,National,E92000001,England,Category of need,N8. Absent parenting,5530,18
+2022,Reporting year,National,E92000001,England,Category of need,Total children,31100,100
+2022,Reporting year,National,E92000001,England,Ethnicity,1. Total White,18750,60
+2022,Reporting year,National,E92000001,England,Ethnicity,1a. White British,17030,55
+2022,Reporting year,National,E92000001,England,Ethnicity,1b. White Irish,70,k
+2022,Reporting year,National,E92000001,England,Ethnicity,1c. Traveller of Irish Heritage,70,k
+2022,Reporting year,National,E92000001,England,Ethnicity,1d. Gypsy Roma,150,k
+2022,Reporting year,National,E92000001,England,Ethnicity,1e. Any other White background,1430,5
+2022,Reporting year,National,E92000001,England,Ethnicity,2. Total Mixed or Multiple ethnic groups,3010,10
+2022,Reporting year,National,E92000001,England,Ethnicity,2a. White and Black Caribbean,890,3
+2022,Reporting year,National,E92000001,England,Ethnicity,2b. White and Black African,410,1
+2022,Reporting year,National,E92000001,England,Ethnicity,2c. White and Asian,540,2
+2022,Reporting year,National,E92000001,England,Ethnicity,2d. Any other Mixed background,1170,4
+2022,Reporting year,National,E92000001,England,Ethnicity,3. Total Asian or Asian British,2490,8
+2022,Reporting year,National,E92000001,England,Ethnicity,3a. Indian,170,1
+2022,Reporting year,National,E92000001,England,Ethnicity,3b. Pakistani,500,2
+2022,Reporting year,National,E92000001,England,Ethnicity,3c. Bangladeshi,200,1
+2022,Reporting year,National,E92000001,England,Ethnicity,3d. Chinese,60,k
+2022,Reporting year,National,E92000001,England,Ethnicity,3e. Any other Asian background,1560,5
+2022,Reporting year,National,E92000001,England,Ethnicity,"4. Total Black, African, Caribbean or Black British",3200,10
+2022,Reporting year,National,E92000001,England,Ethnicity,4a. Caribbean,470,2
+2022,Reporting year,National,E92000001,England,Ethnicity,4b. African,2090,7
+2022,Reporting year,National,E92000001,England,Ethnicity,4c. Any other Black background,640,2
+2022,Reporting year,National,E92000001,England,Ethnicity,5. Total other ethnic group,3330,11
+2022,Reporting year,National,E92000001,England,Ethnicity,5a. Any other ethnic group,3330,11
+2022,Reporting year,National,E92000001,England,Ethnicity,6. Total refused or information not yet available,320,1
+2022,Reporting year,National,E92000001,England,Ethnicity,6a. Refused,20,k
+2022,Reporting year,National,E92000001,England,Ethnicity,6b. Information not yet obtained,300,1
+2022,Reporting year,National,E92000001,England,Ethnicity,Total children,31100,100
+2022,Reporting year,National,E92000001,England,Gender,Female,12500,40
+2022,Reporting year,National,E92000001,England,Gender,Male,18590,60
+2022,Reporting year,National,E92000001,England,Gender,Total children,31100,100
+2022,Reporting year,National,E92000001,England,Legal status,Care order,10340,33
+2022,Reporting year,National,E92000001,England,Legal status,Detained for child protection,3380,11
+2022,Reporting year,National,E92000001,England,Legal status,Placement order granted,10,k
+2022,Reporting year,National,E92000001,England,Legal status,Total children,31100,100
+2022,Reporting year,National,E92000001,England,Legal status,Voluntary agreements under S20 CA 1989,16880,54
+2022,Reporting year,National,E92000001,England,Legal status,Youth justice legal statuses,480,2
+2022,Reporting year,National,E92000001,England,Placement group,1. Total foster placements,18930,61
+2022,Reporting year,National,E92000001,England,Placement group,1a. Total foster placements inside council boundary,12310,40
+2022,Reporting year,National,E92000001,England,Placement group,1a.1 Total foster placements inside council boundary with relative or friend,3870,12
+2022,Reporting year,National,E92000001,England,Placement group,1a.1i With relative or friend who is also approved adopter (FFA) or concurrent planning,20,k
+2022,Reporting year,National,E92000001,England,Placement group,1a.1ii With relative or friend not FFA/concurrent planning,3850,12
+2022,Reporting year,National,E92000001,England,Placement group,1a.2 Total foster placements inside council boundary with other foster carer,8440,27
+2022,Reporting year,National,E92000001,England,Placement group,1a.2i With other foster carer who is approved adopter (FFA) or concurrent planning,50,k
+2022,Reporting year,National,E92000001,England,Placement group,1a.2ii With other foster carer not FFA/concurrent planning,8390,27
+2022,Reporting year,National,E92000001,England,Placement group,1b. Total foster placements outside council boundary,6620,21
+2022,Reporting year,National,E92000001,England,Placement group,1b.1 Total foster placements outside council boundary with relative or friend,1360,4
+2022,Reporting year,National,E92000001,England,Placement group,1b.1i With relative or friend who is also approved adopter (FFA) or concurrent planning,10,k
+2022,Reporting year,National,E92000001,England,Placement group,1b.1ii With relative or friend not FFA/concurrent planning,1350,4
+2022,Reporting year,National,E92000001,England,Placement group,1b.2 Total foster placements outside council boundary with other foster carer,5260,17
+2022,Reporting year,National,E92000001,England,Placement group,1b.2i With other foster carer who is also approved adopter (FFA) or concurrent planning,120,k
+2022,Reporting year,National,E92000001,England,Placement group,1b.2ii With other foster carer not FFA/concurrent planning,5140,17
+2022,Reporting year,National,E92000001,England,Placement group,2. Total placed for adoption,0,0
+2022,Reporting year,National,E92000001,England,Placement group,2a. Placed for adoption with consent with current foster carer,0,0
+2022,Reporting year,National,E92000001,England,Placement group,2b. Placed for adoption with placement order with current foster carer,0,0
+2022,Reporting year,National,E92000001,England,Placement group,2c. Placed for adoption with consent not with current foster carer,0,0
+2022,Reporting year,National,E92000001,England,Placement group,2d. Placed for adoption with placement order not with current foster carer,0,0
+2022,Reporting year,National,E92000001,England,Placement group,3. Total placed with parents or other person with parental responsibility,2210,7
+2022,Reporting year,National,E92000001,England,Placement group,4. Total secure homes and children's homes,1290,4
+2022,Reporting year,National,E92000001,England,Placement group,4a. Secure home placement inside the council boundary,c,c
+2022,Reporting year,National,E92000001,England,Placement group,4b. Secure home placement outside the council boundary,50,k
+2022,Reporting year,National,E92000001,England,Placement group,4c. Total children's homes subject to children's homes regulations,1230,4
+2022,Reporting year,National,E92000001,England,Placement group,4c.1 Children's home placement inside the council boundary,520,2
+2022,Reporting year,National,E92000001,England,Placement group,4c.2 Children's home placement outside the council boundary,720,2
+2022,Reporting year,National,E92000001,England,Placement group,5. Total independent and semi-independent living arrangements/ supported accommodation,5830,19
+2022,Reporting year,National,E92000001,England,Placement group,5a. Semi-independent living accommodation not subject to children's homes regulations,4580,15
+2022,Reporting year,National,E92000001,England,Placement group,5b. Living independently,1250,4
+2022,Reporting year,National,E92000001,England,Placement group,5c. Supported accommodation,z,z
+2022,Reporting year,National,E92000001,England,Placement group,6. Total other residential settings,1750,6
+2022,Reporting year,National,E92000001,England,Placement group,6a. Residential care homes,80,k
+2022,Reporting year,National,E92000001,England,Placement group,6b. NHS trust providing medical or nursing care,950,3
+2022,Reporting year,National,E92000001,England,Placement group,6c. Family centre or mother and baby unit,410,1
+2022,Reporting year,National,E92000001,England,Placement group,6d. Young offenders institution or prison,310,1
+2022,Reporting year,National,E92000001,England,Placement group,6e. Residential employment,0,0
+2022,Reporting year,National,E92000001,England,Placement group,7. Total residential schools,40,k
+2022,Reporting year,National,E92000001,England,Placement group,8. Total other placements,1050,3
+2022,Reporting year,National,E92000001,England,Placement group,Total children,31100,100
+2022,Reporting year,National,E92000001,England,Previous permanence arrangement,Adoption,180,1
+2022,Reporting year,National,E92000001,England,Previous permanence arrangement,No previous permanence option,26770,86
+2022,Reporting year,National,E92000001,England,Previous permanence arrangement,Residence or child arrangement order,110,k
+2022,Reporting year,National,E92000001,England,Previous permanence arrangement,Special guardianship order,290,1
+2022,Reporting year,National,E92000001,England,Previous permanence arrangement,Total children,31100,100
+2022,Reporting year,National,E92000001,England,Previous permanence arrangement,Unknown,3750,12
+2022,Reporting year,National,E92000001,England,Unaccompanied asylum-seeking children,Non-unaccompanied asylum-seeking children,25690,83
+2022,Reporting year,National,E92000001,England,Unaccompanied asylum-seeking children,Total children,31100,100
+2022,Reporting year,National,E92000001,England,Unaccompanied asylum-seeking children,Unaccompanied asylum-seeking children,5400,17
+2021,Reporting year,National,E92000001,England,Age on starting,1 to 4 years,5110,18
+2021,Reporting year,National,E92000001,England,Age on starting,10 to 15 years,7280,26
+2021,Reporting year,National,E92000001,England,Age on starting,16 years and over,5710,20
+2021,Reporting year,National,E92000001,England,Age on starting,5 to 9 years,4750,17
+2021,Reporting year,National,E92000001,England,Age on starting,Total children,28480,100
+2021,Reporting year,National,E92000001,England,Age on starting,Under 1 year,5620,20
+2021,Reporting year,National,E92000001,England,Category of need,N1. Abuse or neglect,17590,62
+2021,Reporting year,National,E92000001,England,Category of need,N2. Child's disability,570,2
+2021,Reporting year,National,E92000001,England,Category of need,N3. Parental illness or disability,770,3
+2021,Reporting year,National,E92000001,England,Category of need,N4. Family in acute stress,2270,8
+2021,Reporting year,National,E92000001,England,Category of need,N5. Family dysfunction,3620,13
+2021,Reporting year,National,E92000001,England,Category of need,N6. Socially unacceptable behaviour,690,2
+2021,Reporting year,National,E92000001,England,Category of need,N7. Low income,50,k
+2021,Reporting year,National,E92000001,England,Category of need,N8. Absent parenting,2910,10
+2021,Reporting year,National,E92000001,England,Category of need,Total children,28480,100
+2021,Reporting year,National,E92000001,England,Ethnicity,1. Total White,19100,67
+2021,Reporting year,National,E92000001,England,Ethnicity,1a. White British,17600,62
+2021,Reporting year,National,E92000001,England,Ethnicity,1b. White Irish,70,k
+2021,Reporting year,National,E92000001,England,Ethnicity,1c. Traveller of Irish Heritage,70,k
+2021,Reporting year,National,E92000001,England,Ethnicity,1d. Gypsy Roma,170,1
+2021,Reporting year,National,E92000001,England,Ethnicity,1e. Any other White background,1190,4
+2021,Reporting year,National,E92000001,England,Ethnicity,2. Total Mixed or Multiple ethnic groups,2880,10
+2021,Reporting year,National,E92000001,England,Ethnicity,2a. White and Black Caribbean,920,3
+2021,Reporting year,National,E92000001,England,Ethnicity,2b. White and Black African,350,1
+2021,Reporting year,National,E92000001,England,Ethnicity,2c. White and Asian,560,2
+2021,Reporting year,National,E92000001,England,Ethnicity,2d. Any other Mixed background,1050,4
+2021,Reporting year,National,E92000001,England,Ethnicity,3. Total Asian or Asian British,1830,6
+2021,Reporting year,National,E92000001,England,Ethnicity,3a. Indian,130,k
+2021,Reporting year,National,E92000001,England,Ethnicity,3b. Pakistani,500,2
+2021,Reporting year,National,E92000001,England,Ethnicity,3c. Bangladeshi,190,1
+2021,Reporting year,National,E92000001,England,Ethnicity,3d. Chinese,50,k
+2021,Reporting year,National,E92000001,England,Ethnicity,3e. Any other Asian background,950,3
+2021,Reporting year,National,E92000001,England,Ethnicity,"4. Total Black, African, Caribbean or Black British",2740,10
+2021,Reporting year,National,E92000001,England,Ethnicity,4a. Caribbean,530,2
+2021,Reporting year,National,E92000001,England,Ethnicity,4b. African,1660,6
+2021,Reporting year,National,E92000001,England,Ethnicity,4c. Any other Black background,550,2
+2021,Reporting year,National,E92000001,England,Ethnicity,5. Total other ethnic group,1660,6
+2021,Reporting year,National,E92000001,England,Ethnicity,5a. Any other ethnic group,1660,6
+2021,Reporting year,National,E92000001,England,Ethnicity,6. Total refused or information not yet available,280,1
+2021,Reporting year,National,E92000001,England,Ethnicity,6a. Refused,20,k
+2021,Reporting year,National,E92000001,England,Ethnicity,6b. Information not yet obtained,250,1
+2021,Reporting year,National,E92000001,England,Ethnicity,Total children,28480,100
+2021,Reporting year,National,E92000001,England,Gender,Female,12360,43
+2021,Reporting year,National,E92000001,England,Gender,Male,16120,57
+2021,Reporting year,National,E92000001,England,Gender,Total children,28480,100
+2021,Reporting year,National,E92000001,England,Legal status,Care order,10900,38
+2021,Reporting year,National,E92000001,England,Legal status,Detained for child protection,3250,11
+2021,Reporting year,National,E92000001,England,Legal status,Placement order granted,10,k
+2021,Reporting year,National,E92000001,England,Legal status,Total children,28480,100
+2021,Reporting year,National,E92000001,England,Legal status,Voluntary agreements under S20 CA 1989,13760,48
+2021,Reporting year,National,E92000001,England,Legal status,Youth justice legal statuses,540,2
+2021,Reporting year,National,E92000001,England,Placement group,1. Total foster placements,17870,63
+2021,Reporting year,National,E92000001,England,Placement group,1a. Total foster placements inside council boundary,11810,41
+2021,Reporting year,National,E92000001,England,Placement group,1a.1 Total foster placements inside council boundary with relative or friend,4140,15
+2021,Reporting year,National,E92000001,England,Placement group,1a.1i With relative or friend who is also approved adopter (FFA) or concurrent planning,10,k
+2021,Reporting year,National,E92000001,England,Placement group,1a.1ii With relative or friend not FFA/concurrent planning,4130,14
+2021,Reporting year,National,E92000001,England,Placement group,1a.2 Total foster placements inside council boundary with other foster carer,7670,27
+2021,Reporting year,National,E92000001,England,Placement group,1a.2i With other foster carer who is approved adopter (FFA) or concurrent planning,70,k
+2021,Reporting year,National,E92000001,England,Placement group,1a.2ii With other foster carer not FFA/concurrent planning,7610,27
+2021,Reporting year,National,E92000001,England,Placement group,1b. Total foster placements outside council boundary,6060,21
+2021,Reporting year,National,E92000001,England,Placement group,1b.1 Total foster placements outside council boundary with relative or friend,1480,5
+2021,Reporting year,National,E92000001,England,Placement group,1b.1i With relative or friend who is also approved adopter (FFA) or concurrent planning,10,k
+2021,Reporting year,National,E92000001,England,Placement group,1b.1ii With relative or friend not FFA/concurrent planning,1470,5
+2021,Reporting year,National,E92000001,England,Placement group,1b.2 Total foster placements outside council boundary with other foster carer,4580,16
+2021,Reporting year,National,E92000001,England,Placement group,1b.2i With other foster carer who is also approved adopter (FFA) or concurrent planning,80,k
+2021,Reporting year,National,E92000001,England,Placement group,1b.2ii With other foster carer not FFA/concurrent planning,4490,16
+2021,Reporting year,National,E92000001,England,Placement group,2. Total placed for adoption,c,c
+2021,Reporting year,National,E92000001,England,Placement group,2a. Placed for adoption with consent with current foster carer,0,0
+2021,Reporting year,National,E92000001,England,Placement group,2b. Placed for adoption with placement order with current foster carer,c,c
+2021,Reporting year,National,E92000001,England,Placement group,2c. Placed for adoption with consent not with current foster carer,0,0
+2021,Reporting year,National,E92000001,England,Placement group,2d. Placed for adoption with placement order not with current foster carer,c,c
+2021,Reporting year,National,E92000001,England,Placement group,3. Total placed with parents or other person with parental responsibility,2470,9
+2021,Reporting year,National,E92000001,England,Placement group,4. Total secure homes and children's homes,1290,5
+2021,Reporting year,National,E92000001,England,Placement group,4a. Secure home placement inside the council boundary,10,k
+2021,Reporting year,National,E92000001,England,Placement group,4b. Secure home placement outside the council boundary,40,k
+2021,Reporting year,National,E92000001,England,Placement group,4c. Total children's homes subject to children's homes regulations,1240,4
+2021,Reporting year,National,E92000001,England,Placement group,4c.1 Children's home placement inside the council boundary,530,2
+2021,Reporting year,National,E92000001,England,Placement group,4c.2 Children's home placement outside the council boundary,710,2
+2021,Reporting year,National,E92000001,England,Placement group,5. Total independent and semi-independent living arrangements/ supported accommodation,3870,14
+2021,Reporting year,National,E92000001,England,Placement group,5a. Semi-independent living accommodation not subject to children's homes regulations,2930,10
+2021,Reporting year,National,E92000001,England,Placement group,5b. Living independently,940,3
+2021,Reporting year,National,E92000001,England,Placement group,5c. Supported accommodation,z,z
+2021,Reporting year,National,E92000001,England,Placement group,6. Total other residential settings,1930,7
+2021,Reporting year,National,E92000001,England,Placement group,6a. Residential care homes,150,1
+2021,Reporting year,National,E92000001,England,Placement group,6b. NHS trust providing medical or nursing care,990,3
+2021,Reporting year,National,E92000001,England,Placement group,6c. Family centre or mother and baby unit,370,1
+2021,Reporting year,National,E92000001,England,Placement group,6d. Young offenders institution or prison,410,1
+2021,Reporting year,National,E92000001,England,Placement group,6e. Residential employment,c,c
+2021,Reporting year,National,E92000001,England,Placement group,7. Total residential schools,40,k
+2021,Reporting year,National,E92000001,England,Placement group,8. Total other placements,1020,4
+2021,Reporting year,National,E92000001,England,Placement group,Total children,28480,100
+2021,Reporting year,National,E92000001,England,Previous permanence arrangement,Adoption,170,1
+2021,Reporting year,National,E92000001,England,Previous permanence arrangement,No previous permanence option,24970,88
+2021,Reporting year,National,E92000001,England,Previous permanence arrangement,Residence or child arrangement order,130,k
+2021,Reporting year,National,E92000001,England,Previous permanence arrangement,Special guardianship order,310,1
+2021,Reporting year,National,E92000001,England,Previous permanence arrangement,Total children,28480,100
+2021,Reporting year,National,E92000001,England,Previous permanence arrangement,Unknown,2900,10
+2021,Reporting year,National,E92000001,England,Unaccompanied asylum-seeking children,Non-unaccompanied asylum-seeking children,25680,90
+2021,Reporting year,National,E92000001,England,Unaccompanied asylum-seeking children,Total children,28480,100
+2021,Reporting year,National,E92000001,England,Unaccompanied asylum-seeking children,Unaccompanied asylum-seeking children,2800,10
+2020,Reporting year,National,E92000001,England,Age on starting,1 to 4 years,5360,17
+2020,Reporting year,National,E92000001,England,Age on starting,10 to 15 years,8360,27
+2020,Reporting year,National,E92000001,England,Age on starting,16 years and over,6200,20
+2020,Reporting year,National,E92000001,England,Age on starting,5 to 9 years,5110,16
+2020,Reporting year,National,E92000001,England,Age on starting,Total children,31010,100
+2020,Reporting year,National,E92000001,England,Age on starting,Under 1 year,5990,19
+2020,Reporting year,National,E92000001,England,Category of need,N1. Abuse or neglect,18910,61
+2020,Reporting year,National,E92000001,England,Category of need,N2. Child's disability,630,2
+2020,Reporting year,National,E92000001,England,Category of need,N3. Parental illness or disability,830,3
+2020,Reporting year,National,E92000001,England,Category of need,N4. Family in acute stress,2400,8
+2020,Reporting year,National,E92000001,England,Category of need,N5. Family dysfunction,3790,12
+2020,Reporting year,National,E92000001,England,Category of need,N6. Socially unacceptable behaviour,790,3
+2020,Reporting year,National,E92000001,England,Category of need,N7. Low income,50,k
+2020,Reporting year,National,E92000001,England,Category of need,N8. Absent parenting,3620,12
+2020,Reporting year,National,E92000001,England,Category of need,Total children,31010,100
+2020,Reporting year,National,E92000001,England,Ethnicity,1. Total White,20580,66
+2020,Reporting year,National,E92000001,England,Ethnicity,1a. White British,18810,61
+2020,Reporting year,National,E92000001,England,Ethnicity,1b. White Irish,80,k
+2020,Reporting year,National,E92000001,England,Ethnicity,1c. Traveller of Irish Heritage,70,k
+2020,Reporting year,National,E92000001,England,Ethnicity,1d. Gypsy Roma,220,1
+2020,Reporting year,National,E92000001,England,Ethnicity,1e. Any other White background,1400,5
+2020,Reporting year,National,E92000001,England,Ethnicity,2. Total Mixed or Multiple ethnic groups,2990,10
+2020,Reporting year,National,E92000001,England,Ethnicity,2a. White and Black Caribbean,980,3
+2020,Reporting year,National,E92000001,England,Ethnicity,2b. White and Black African,360,1
+2020,Reporting year,National,E92000001,England,Ethnicity,2c. White and Asian,500,2
+2020,Reporting year,National,E92000001,England,Ethnicity,2d. Any other Mixed background,1160,4
+2020,Reporting year,National,E92000001,England,Ethnicity,3. Total Asian or Asian British,2050,7
+2020,Reporting year,National,E92000001,England,Ethnicity,3a. Indian,140,k
+2020,Reporting year,National,E92000001,England,Ethnicity,3b. Pakistani,500,2
+2020,Reporting year,National,E92000001,England,Ethnicity,3c. Bangladeshi,220,1
+2020,Reporting year,National,E92000001,England,Ethnicity,3d. Chinese,60,k
+2020,Reporting year,National,E92000001,England,Ethnicity,3e. Any other Asian background,1130,4
+2020,Reporting year,National,E92000001,England,Ethnicity,"4. Total Black, African, Caribbean or Black British",3190,10
+2020,Reporting year,National,E92000001,England,Ethnicity,4a. Caribbean,560,2
+2020,Reporting year,National,E92000001,England,Ethnicity,4b. African,1970,6
+2020,Reporting year,National,E92000001,England,Ethnicity,4c. Any other Black background,650,2
+2020,Reporting year,National,E92000001,England,Ethnicity,5. Total other ethnic group,1910,6
+2020,Reporting year,National,E92000001,England,Ethnicity,5a. Any other ethnic group,1910,6
+2020,Reporting year,National,E92000001,England,Ethnicity,6. Total refused or information not yet available,310,1
+2020,Reporting year,National,E92000001,England,Ethnicity,6a. Refused,30,k
+2020,Reporting year,National,E92000001,England,Ethnicity,6b. Information not yet obtained,270,1
+2020,Reporting year,National,E92000001,England,Ethnicity,Total children,31010,100
+2020,Reporting year,National,E92000001,England,Gender,Female,13350,43
+2020,Reporting year,National,E92000001,England,Gender,Male,17660,57
+2020,Reporting year,National,E92000001,England,Gender,Total children,31010,100
+2020,Reporting year,National,E92000001,England,Legal status,Care order,11280,36
+2020,Reporting year,National,E92000001,England,Legal status,Detained for child protection,3410,11
+2020,Reporting year,National,E92000001,England,Legal status,Placement order granted,30,k
+2020,Reporting year,National,E92000001,England,Legal status,Total children,31010,100
+2020,Reporting year,National,E92000001,England,Legal status,Voluntary agreements under S20 CA 1989,15560,50
+2020,Reporting year,National,E92000001,England,Legal status,Youth justice legal statuses,730,2
+2020,Reporting year,National,E92000001,England,Placement group,1. Total foster placements,20740,67
+2020,Reporting year,National,E92000001,England,Placement group,1a. Total foster placements inside council boundary,14030,45
+2020,Reporting year,National,E92000001,England,Placement group,1a.1 Total foster placements inside council boundary with relative or friend,4270,14
+2020,Reporting year,National,E92000001,England,Placement group,1a.1i With relative or friend who is also approved adopter (FFA) or concurrent planning,20,k
+2020,Reporting year,National,E92000001,England,Placement group,1a.1ii With relative or friend not FFA/concurrent planning,4250,14
+2020,Reporting year,National,E92000001,England,Placement group,1a.2 Total foster placements inside council boundary with other foster carer,9770,31
+2020,Reporting year,National,E92000001,England,Placement group,1a.2i With other foster carer who is approved adopter (FFA) or concurrent planning,60,k
+2020,Reporting year,National,E92000001,England,Placement group,1a.2ii With other foster carer not FFA/concurrent planning,9700,31
+2020,Reporting year,National,E92000001,England,Placement group,1b. Total foster placements outside council boundary,6710,22
+2020,Reporting year,National,E92000001,England,Placement group,1b.1 Total foster placements outside council boundary with relative or friend,1250,4
+2020,Reporting year,National,E92000001,England,Placement group,1b.1i With relative or friend who is also approved adopter (FFA) or concurrent planning,10,k
+2020,Reporting year,National,E92000001,England,Placement group,1b.1ii With relative or friend not FFA/concurrent planning,1240,4
+2020,Reporting year,National,E92000001,England,Placement group,1b.2 Total foster placements outside council boundary with other foster carer,5460,18
+2020,Reporting year,National,E92000001,England,Placement group,1b.2i With other foster carer who is also approved adopter (FFA) or concurrent planning,90,k
+2020,Reporting year,National,E92000001,England,Placement group,1b.2ii With other foster carer not FFA/concurrent planning,5370,17
+2020,Reporting year,National,E92000001,England,Placement group,2. Total placed for adoption,c,c
+2020,Reporting year,National,E92000001,England,Placement group,2a. Placed for adoption with consent with current foster carer,0,0
+2020,Reporting year,National,E92000001,England,Placement group,2b. Placed for adoption with placement order with current foster carer,0,0
+2020,Reporting year,National,E92000001,England,Placement group,2c. Placed for adoption with consent not with current foster carer,0,0
+2020,Reporting year,National,E92000001,England,Placement group,2d. Placed for adoption with placement order not with current foster carer,c,c
+2020,Reporting year,National,E92000001,England,Placement group,3. Total placed with parents or other person with parental responsibility,1980,6
+2020,Reporting year,National,E92000001,England,Placement group,4. Total secure homes and children's homes,1200,4
+2020,Reporting year,National,E92000001,England,Placement group,4a. Secure home placement inside the council boundary,10,k
+2020,Reporting year,National,E92000001,England,Placement group,4b. Secure home placement outside the council boundary,70,k
+2020,Reporting year,National,E92000001,England,Placement group,4c. Total children's homes subject to children's homes regulations,1130,4
+2020,Reporting year,National,E92000001,England,Placement group,4c.1 Children's home placement inside the council boundary,480,2
+2020,Reporting year,National,E92000001,England,Placement group,4c.2 Children's home placement outside the council boundary,640,2
+2020,Reporting year,National,E92000001,England,Placement group,5. Total independent and semi-independent living arrangements/ supported accommodation,4000,13
+2020,Reporting year,National,E92000001,England,Placement group,5a. Semi-independent living accommodation not subject to children's homes regulations,2590,8
+2020,Reporting year,National,E92000001,England,Placement group,5b. Living independently,1410,5
+2020,Reporting year,National,E92000001,England,Placement group,5c. Supported accommodation,z,z
+2020,Reporting year,National,E92000001,England,Placement group,6. Total other residential settings,2170,7
+2020,Reporting year,National,E92000001,England,Placement group,6a. Residential care homes,150,k
+2020,Reporting year,National,E92000001,England,Placement group,6b. NHS trust providing medical or nursing care,1050,3
+2020,Reporting year,National,E92000001,England,Placement group,6c. Family centre or mother and baby unit,410,1
+2020,Reporting year,National,E92000001,England,Placement group,6d. Young offenders institution or prison,560,2
+2020,Reporting year,National,E92000001,England,Placement group,6e. Residential employment,0,0
+2020,Reporting year,National,E92000001,England,Placement group,7. Total residential schools,40,k
+2020,Reporting year,National,E92000001,England,Placement group,8. Total other placements,880,3
+2020,Reporting year,National,E92000001,England,Placement group,Total children,31010,100
+2020,Reporting year,National,E92000001,England,Previous permanence arrangement,Adoption,180,1
+2020,Reporting year,National,E92000001,England,Previous permanence arrangement,No previous permanence option,26670,86
+2020,Reporting year,National,E92000001,England,Previous permanence arrangement,Residence or child arrangement order,130,k
+2020,Reporting year,National,E92000001,England,Previous permanence arrangement,Special guardianship order,350,1
+2020,Reporting year,National,E92000001,England,Previous permanence arrangement,Total children,31010,100
+2020,Reporting year,National,E92000001,England,Previous permanence arrangement,Unknown,3680,12
+2020,Reporting year,National,E92000001,England,Unaccompanied asylum-seeking children,Non-unaccompanied asylum-seeking children,27530,89
+2020,Reporting year,National,E92000001,England,Unaccompanied asylum-seeking children,Total children,31010,100
+2020,Reporting year,National,E92000001,England,Unaccompanied asylum-seeking children,Unaccompanied asylum-seeking children,3490,11
