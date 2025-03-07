@@ -510,7 +510,8 @@ create_characteristics_data <- function(){
                            adopted_during, shortterm, leave_acc, leave_acctype,
                            leave_activity, leave_stayput, leave_intouch)
   
-  characteristics18 <- characteristics18 %>% dplyr::filter(year=="2018")
+  characteristics18 <- characteristics18 %>% dplyr::filter(year=="2018"|
+                                                             year=="2019")
   
   characteristics <- rbind(characteristics, characteristics18)
   
