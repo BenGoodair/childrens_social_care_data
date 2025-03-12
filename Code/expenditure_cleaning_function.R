@@ -27,7 +27,7 @@ create_expenditure_data <- function(){
                                 colClasses = "character")
   ExpenditureData23 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/LA_Spend/s251_childrens_young_peoples_services_la_regional_national.csv"),
                                 colClasses = "character")
-  ExpenditureData24 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/LA_Spend/s251_childrens_young_peoples_services_la_regional_national.csv"),
+  ExpenditureData24 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/refs/heads/main/Raw_Data/LA_level/LA_Spend/s251_childrens_young_peoples_services_la_regional_national_24.csv"),
                                 colClasses = "character")
   
   outturn0809 <- outturn0809 %>% dplyr::mutate(S52.Line.Reference. = str_replace(S52.Line.Reference., "\\s", "|")) %>% 
@@ -239,6 +239,42 @@ create_expenditure_data <- function(){
   
   
   fulldata <- rbind(fulldata, ExpenditureData23)
+  
+  ExpenditureData24$year <- str_sub(ExpenditureData24$time_period, start= -2)
+  ExpenditureData24$year <-  paste("20", ExpenditureData24$year, sep="")
+  ExpenditureData24 <- ExpenditureData24[ExpenditureData24$year=="2024",]
+  
+  ExpenditureData24 <- ExpenditureData24 %>% dplyr::filter(geographic_level == "Local authority")%>%
+    dplyr::select(la_name, new_la_code,year, category_of_expenditure, old_la_code, description_of_expenditure ,            
+                  own_provision            , private_provision       ,  other_public_sector_provision        ,    
+                  voluntary_provision               , total_expenditure )%>%
+    dplyr::rename(LA_Name = la_name,
+                  LA.Number = old_la_code,
+                  variable=description_of_expenditure,
+                  category=category_of_expenditure,
+                  LA_Code = new_la_code,
+                  OwnProvision = own_provision,
+                  PrivateProvision = private_provision,
+                  OtherPublic = other_public_sector_provision,
+                  Voluntary = voluntary_provision,
+                  TotalExpenditure = total_expenditure)%>%
+    dplyr::mutate(LA_Name = gsub('&','and',LA_Name),
+                  LA_Name = gsub('[[:punct:] ]+',' ',LA_Name),
+                  LA_Name = toupper(LA_Name),
+                  LA_Name = str_trim(LA_Name),
+                  category = toupper(category))%>%
+    dplyr::filter(category=="CHILDREN LOOKED AFTER")%>%
+    dplyr::mutate(category = "Expenditure")%>%
+    tidyr::pivot_longer(cols = !c(LA_Name,LA.Number, LA_Code, year, variable, category),
+                        names_to = "subcategory", values_to = "number")%>%
+    dplyr::mutate(variable = str_replace(variable, "\\s", "|")) %>% 
+    tidyr::separate(variable, into = c("LineNumber", "variable"), sep = "\\|")%>%
+    dplyr::select(-LineNumber)
+  
+  
+  
+  fulldata <- rbind(fulldata, ExpenditureData24)
+  
   
   fulldata <- fulldata%>%
     mutate(variable= ifelse(variable=="Asylum seeker services - children", "Asylum seeker services children",
