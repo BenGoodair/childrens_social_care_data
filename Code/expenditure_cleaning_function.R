@@ -27,6 +27,8 @@ create_expenditure_data <- function(){
                                 colClasses = "character")
   ExpenditureData23 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/LA_Spend/s251_childrens_young_peoples_services_la_regional_national.csv"),
                                 colClasses = "character")
+  ExpenditureData24 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/LA_Spend/s251_childrens_young_peoples_services_la_regional_national.csv"),
+                                colClasses = "character")
   
   outturn0809 <- outturn0809 %>% dplyr::mutate(S52.Line.Reference. = str_replace(S52.Line.Reference., "\\s", "|")) %>% 
     tidyr::separate(S52.Line.Reference., into = c("LineNumber", "CYPServiceDescription"), sep = "\\|")%>%
