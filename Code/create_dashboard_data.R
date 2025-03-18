@@ -96,6 +96,7 @@ enter_exit <- create_market_exits_entries()
 write.csv(dashboard_data, "~/Library/CloudStorage/OneDrive-Nexus365/Documents/GitHub/Github_new/childrens_social_care_data/Final_Data/outputs/dashboard_data.csv")
 write.csv(enter_exit, "C:/Users/benjamin.goodair/OneDrive - Nexus365/Documents/GitHub/childrens_social_care_data/Final_Data/outputs/enter_exit.csv")
 write.csv(provider_at_march, "C:/Users/benjamin.goodair/OneDrive - Nexus365/Documents/GitHub/childrens_social_care_data/Final_Data/outputs/active_chomes_2023.csv")
+write.csv(ProviderData, "C:/Users/benjamin.goodair/OneDrive - Nexus365/Documents/GitHub/childrens_social_care_data/Final_Data/outputs/Provider_data.csv")
 
 
 
