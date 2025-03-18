@@ -66,35 +66,34 @@ create_market_exits_entries <- function(){
   exits <- rbind(joiners, Leavers)
   
   pre <- rbind(
-    read_excel("~/Library/CloudStorage/OneDrive-Nexus365/Documents/GitHub/Github_new/Care Markets/Data/Raw/Children_s_homes_registrations_transparency_dataset (1).xls", sheet = 3, skip=3) %>%
+    read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/Provider_level/joiners_15.csv" ), skip=3) %>%
       dplyr::mutate(leave_join = "Join")%>%
-      dplyr::rename(Date = `Registration date`),
-    read_excel("~/Library/CloudStorage/OneDrive-Nexus365/Documents/GitHub/Github_new/Care Markets/Data/Raw/Children_s_homes_registrations_transparency_dataset (1).xls", sheet = 4, skip=3) %>%
+      dplyr::rename(Date = Registration.date),
+    read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/Provider_level/leavers_15.csv" ), skip=3) %>%
       dplyr::mutate(leave_join = "Leave")%>%
-      dplyr::rename(Date = `Date closed`),
-    read_excel("~/Library/CloudStorage/OneDrive-Nexus365/Documents/GitHub/Github_new/Care Markets/Data/Raw/Children_s_homes_registrations_transparency_dataset (1).xls", sheet = 5, skip=3) %>%
+      dplyr::rename(Date = Date.closed),
+    read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/Provider_level/joiners_16.csv" ), skip=3) %>%
       dplyr::mutate(leave_join = "Join")%>%
-      dplyr::rename(Date = `Registration date`),
-    read_excel("~/Library/CloudStorage/OneDrive-Nexus365/Documents/GitHub/Github_new/Care Markets/Data/Raw/Children_s_homes_registrations_transparency_dataset (1).xls", sheet = 6, skip=3) %>%
+      dplyr::rename(Date = Registration.date),
+    read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/Provider_level/leavers_16.csv" ), skip=3) %>%
       dplyr::mutate(leave_join = "Leave")%>%
-      dplyr::rename(Date = `Date closed`),
-    read_excel("~/Library/CloudStorage/OneDrive-Nexus365/Documents/GitHub/Github_new/Care Markets/Data/Raw/Children_s_homes_registrations_transparency_dataset (1).xls", sheet = 7, skip=3) %>%
+      dplyr::rename(Date = Date.closed),
+    read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/Provider_level/joiners_17.csv" ), skip=3) %>%
       dplyr::mutate(leave_join = "Join")%>%
-      dplyr::rename(Date = `Registration date`),
-    read_excel("~/Library/CloudStorage/OneDrive-Nexus365/Documents/GitHub/Github_new/Care Markets/Data/Raw/Children_s_homes_registrations_transparency_dataset (1).xls", sheet = 8, skip=3) %>%
+      dplyr::rename(Date = Registration.date),
+    read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/Provider_level/leavers_17.csv" ), skip=3) %>%
       dplyr::mutate(leave_join = "Leave")%>%
-      dplyr::rename(Date = `Date closed`),
-    read_excel("~/Library/CloudStorage/OneDrive-Nexus365/Documents/GitHub/Github_new/Care Markets/Data/Raw/Children_s_homes_registrations_transparency_dataset (1).xls", sheet = 9, skip=3) %>%
+      dplyr::rename(Date = Date.closed),
+    read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/Provider_level/joiners_18.csv" ), skip=3) %>%
       dplyr::mutate(leave_join = "Join")%>%
-      dplyr::rename(Date = `Registration date`),
-    read_excel("~/Library/CloudStorage/OneDrive-Nexus365/Documents/GitHub/Github_new/Care Markets/Data/Raw/Children_s_homes_registrations_transparency_dataset (1).xls", sheet = 10, skip=3) %>%
+      dplyr::rename(Date = Registration.date),
+    read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/Provider_level/leavers_18.csv" ), skip=3) %>%
       dplyr::mutate(leave_join = "Leave")%>%
-      dplyr::rename(Date = `Date closed`)
+      dplyr::rename(Date = Date.closed)
   )
   
   all <- rbind(pre%>%
-                 dplyr::rename(Provision.type = `Provider type`,
-                               Local.authority=`Local authority`)%>%
+                 dplyr::rename(Provision.type = Provider.type)%>%
                  dplyr::mutate(Local.authority = Local.authority %>%
                                  gsub('&', 'and', .) %>%
                                  gsub('[[:punct:] ]+', ' ', .) %>%
@@ -111,7 +110,9 @@ create_market_exits_entries <- function(){
                                  gsub("AND DARWEN", "WITH DARWEN", .)%>%
                                  gsub("NE SOM", "NORTH EAST SOM", .)%>%
                                  gsub("N E SOM", "NORTH EAST SOM", .)%>%
-                                 str_trim())%>% dplyr::select(URN,Local.authority,Sector,Places,Date,leave_join), 
+                                 str_trim())%>% 
+                 dplyr::select(URN,Local.authority,Sector,Places,Date,leave_join)%>%
+                 dplyr::mutate(Date = as.Date(Date, format = "%d/%m/%Y")), 
                exits%>% dplyr::select(URN,Local.authority,Sector,Places,Date, leave_join)%>%
                  dplyr::mutate(Date = as.Date(Date, format = "%d/%m/%Y")) %>%  # Convert Date to Date format
                  dplyr::filter(Date >= as.Date("2018-04-01"))  # Filter for dates after 1st April 2018
@@ -156,71 +157,6 @@ create_market_exits_entries <- function(){
   
   
   
-  
-  joiners17 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/Provider_level/joiners_leavers_17.csv"))  
-  joiners18 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/Provider_level/joiners_leavers_18.csv"))  
-  joiners19 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/Provider_level/joiners_leavers_19.csv"))  
-  joiners20 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/Provider_level/joiners_leavers_20.csv"))  
-  joiners21 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/Provider_level/joiners_leavers_21.csv"))  
-  joiners22 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/Provider_level/joiners_leavers_22.csv"), skip=3)  
-  joiners23 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/Provider_level/joiners_leavers_23.csv"), skip=3)  
-  joiners24 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/Provider_level/joiners_leavers_24.csv"), skip=3)  
-  
-  joiners <- rbind( joiners17 %>% dplyr::filter(Joiner.status=="Joiner") %>% dplyr::select(URN, Provision.type, Local.authority, Sector, Places, First.effective.date..that.the.provider.became.active.) %>% dplyr::rename(Registration.date = First.effective.date..that.the.provider.became.active.),
-                     joiners18 %>% dplyr::filter(Joiner.status=="Joiner") %>% dplyr::select(URN, Provision.type, Local.authority, Sector, Places,First.effective.date..that.the.provider.became.active.) %>% dplyr::rename(Registration.date = First.effective.date..that.the.provider.became.active.),
-                     joiners19 %>% dplyr::filter(Joiner.status=="Joiner") %>% dplyr::select(URN, Provision.type, Local.authority, Sector, Places, Registration.date),
-                     joiners20 %>% dplyr::filter(Joiner.status=="Joiner") %>% dplyr::select(URN, Provision.type, Local.authority, Sector, Places, Registration.date),
-                     joiners21 %>% dplyr::filter(Joiner.status=="Joiner") %>% dplyr::select(URN, Provision.type, Local.authority, Sector, Places, Registration.date),
-                     joiners22 %>% dplyr::filter(Joiner.status=="Joiner") %>% dplyr::select(URN, Provision.type, Local.authority, Sector, Places, Registration.date),
-                     joiners23 %>% dplyr::filter(Joiner.status=="Joiner") %>% dplyr::select(URN, Provision.type, Local.authority, Sector, Places, First.effective.date..that.the.provider.became.active.) %>% dplyr::rename(Registration.date = First.effective.date..that.the.provider.became.active.),
-                     joiners24 %>% dplyr::filter(Joiner.status=="Joiner") %>% dplyr::select(URN, Provision.type, Local.authority, Sector, Places, First.effective.date..that.the.provider.became.active.) %>% dplyr::rename(Registration.date = First.effective.date..that.the.provider.became.active.)
-                    
-  )%>%
-    dplyr::rename(Date = Registration.date)%>%
-    dplyr::mutate(leave_join = "Join",
-                  provider_status = NA)%>%
-    dplyr::filter(Provision.type!="Adoption Support Agency",
-                  Provision.type!="Further Education College with Residential Accommodation",
-                  Provision.type!="Boarding School",
-                  Provision.type!="Residential Family Centre",
-                  Provision.type!="Residential Special School",
-                  Provision.type!="Voluntary Adoption Agency",
-                  Provision.type!="Residential Holiday Scheme for Disabled Children",
-                  Provision.type!="Independent Fostering Agency",
-                  Provision.type!="Voluntary Adoption Agency")
-  
-  
-  
-  # #pre2016joiners
-  # homesat14 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/Provider_level/providers_at_sept_14.csv"))
-  # homesat15 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/Provider_level/providers_at_15.csv"))%>% 
-  # dplyr::select(URN, Provision.type, Local.authority, Sector) 
-  # homesat16 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/Provider_level/providers_at_16.csv"), skip=1) %>%
-  #   dplyr::select(URN, Provision.type, Local.authority, Sector) 
-  # 
-  # yes1 <- merge(homesat15, homesat14, by="URN", all.x=T) %>%
-  #   dplyr::filter(is.na(GOR))%>%
-  #   dplyr::mutate(Registration.date = "30/04/2015")
-  #   
-  # 
-  # yes2 <- merge(homesat16, homesat15, by="URN", all.x=T) %>%
-  #   dplyr::filter(is.na(Local.authority.y))%>%
-  #   dplyr::mutate(Registration.date = "30/04/2016")
-  # 
-    
-  
-  
-  source("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Code/provider_cleaning_function_nonactive.R")
-  ProviderData <- create_provider_data()
-  
-  leavers <- merge(leavers, ProviderData, by="URN", all.x=T) %>%
-    dplyr::select(URN, Provision.type, Local.authority, Sector, Places, provider_status ,close_date)%>%
-    dplyr::filter(!is.na(Provision.type))%>%
-    dplyr::rename(Date = close_date)%>%
-    dplyr::mutate(leave_join = "Leave")
-  
-  
-  enter_exit <- unique(rbind(leavers, joiners%>%dplyr::mutate(Date=as.Date(Date, format =  "%d/%m/%Y"))))
   
   # imd <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/LA_level/Economic_Political_Contextual/imd19.csv"))  %>%
   #   dplyr::rename(Local.authority = Upper.Tier.Local.Authority.District.name..2019.)%>%
