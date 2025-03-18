@@ -75,7 +75,7 @@ provider_at_march <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair
 
 dashboard_data <- rbind(dashboard_data, provider_at_march)
 
-provider_at_march <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Raw_Data/Provider_level/provider_at_march.csv"), skip=3)%>%
+provider_at_march <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/Care-Markets/main/Data/Raw/provider_at_march_2024.csv"), skip=3)%>%
   dplyr::filter(Provision.type=="Children's home",
                 Registration.status=="Active")%>%
   dplyr::mutate(Sector = ifelse(Sector=="Private", "For profit",
@@ -94,9 +94,9 @@ enter_exit <- create_market_exits_entries()
 
 
 write.csv(dashboard_data, "~/Library/CloudStorage/OneDrive-Nexus365/Documents/GitHub/Github_new/childrens_social_care_data/Final_Data/outputs/dashboard_data.csv")
-write.csv(enter_exit, "C:/Users/benjamin.goodair/OneDrive - Nexus365/Documents/GitHub/childrens_social_care_data/Final_Data/outputs/enter_exit.csv")
+write.csv(enter_exit, "Library/CloudStorage/OneDrive-Nexus365/Documents/GitHub/GitHub_new/childrens_social_care_data/Final_Data/outputs/enter_exit.csv")
 write.csv(provider_at_march, "C:/Users/benjamin.goodair/OneDrive - Nexus365/Documents/GitHub/childrens_social_care_data/Final_Data/outputs/active_chomes_2023.csv")
-write.csv(ProviderData, "C:/Users/benjamin.goodair/OneDrive - Nexus365/Documents/GitHub/childrens_social_care_data/Final_Data/outputs/Provider_data.csv")
+write.csv(ProviderData, "Library/CloudStorage/OneDrive-Nexus365/Documents/GitHub/GitHub_new/childrens_social_care_data/Final_Data/outputs/Provider_data.csv")
 
 
 
