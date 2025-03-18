@@ -65,7 +65,7 @@ provider_at_march <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair
   dplyr::ungroup()%>%
   dplyr::mutate(percent = as.numeric(number) / as.numeric(total)*100)%>%
   dplyr::select(-total)%>%
-  dplyr::left_join(., dashboard_data %>% select(LA_Name, LA_Code)%>% dplyr::distinct() %>% dplyr::filter(!is.na(LA_Code),
+  dplyr::left_join(., dashboard_data %>% dplyr::select(LA_Name, LA_Code)%>% dplyr::distinct() %>% dplyr::filter(!is.na(LA_Code),
                                                                                                          LA_Code!="",
                                                                                                          stringr::str_starts(LA_Code, 'E')),
                    by="LA_Name")%>%

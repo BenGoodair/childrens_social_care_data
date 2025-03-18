@@ -10,6 +10,7 @@ pacman::p_load(devtools, dplyr, tidyverse, tidyr, stringr,  curl)
 
 
 ####Read in Data from Github Repo####
+ProviderData2024 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/Identifying_organisational_childrens_homes_ratings/main/Raw_data/All_SocCare_inspec_2324.csv"), skip=3)[c(0:30)]
 ProviderData2023 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/Identifying_organisational_childrens_homes_ratings/main/Raw_data/All_SocCare_inspec_2223.csv"), skip=3)[c(0:30)]
 
 ProviderData2022 <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair/Identifying_organisational_childrens_homes_ratings/main/Raw_data/All_SocCare_inspec_2122_fin.csv"))
@@ -250,6 +251,31 @@ setdiff(names(ProviderData2023), names(ProviderData2020))
 
 
 
+#2024
+
+
+
+ProviderData2024$Outcomes.for.children.and.young.people <- NA
+ProviderData2024$Health.services <- NA
+ProviderData2024$Quality.of.care <- NA
+
+
+
+names(ProviderData2024)[names(ProviderData2024)=="Short.break.only.children.s.home"] <- "Short.Breaks.Only"
+names(ProviderData2024)[names(ProviderData2024)=="Inspection.event.number"] <- "Event.number"
+names(ProviderData2024)[names(ProviderData2024)=="Inspection.event.type"] <- "Event.type"
+names(ProviderData2024)[names(ProviderData2024)=="Inspection.publication.date"] <- "Publication.date"
+names(ProviderData2024)[names(ProviderData2024)=="Inspection.overall.experiences.and.progress.of.children.and.young.people"] <- "Overall.experiences.and.progress.of.children.and.young.people"
+names(ProviderData2024)[names(ProviderData2024)=="Inspection.outcomes.in.education.and.related.learning.activities"] <- "Outcomes.in.education.and.related.learning.activities"
+names(ProviderData2024)[names(ProviderData2024)=="Inspection.how.well.children.and.young.people.are.helped.and.protected"] <- "How.well.children.and.young.people.are.helped.and.protected"
+names(ProviderData2024)[names(ProviderData2024)=="Inspection.the.effectiveness.of.leaders.and.managers"] <- "The.effectiveness.of.leaders.and.managers"
+
+#check for any different column names
+setdiff(names(ProviderData2024), names(ProviderData2020))
+
+
+
+
 #The data has spelling differences across the years, here is the first attempt to normalise them
 ##Spelling differences corrected##
 
@@ -291,15 +317,24 @@ ProviderData2023$Organisation.which.owns.the.provider[ProviderData2023$Organisat
 #ProviderData2023 <- ProviderData2023 %>% dplyr::select(-Inspection.health.services)
 
 
+ProviderData2024$Organisation.which.owns.the.provider[ProviderData2024$Organisation.which.owns.the.provider== "Pathway Care Solutions Ltd 04004053"] <- "Pathway Care Solutions Ltd"
+ProviderData2024$Organisation.which.owns.the.provider[ProviderData2024$Organisation.which.owns.the.provider== "Social Care Services Ltd"] <- "Social Care Services Limited"
+ProviderData2024$Organisation.which.owns.the.provider[ProviderData2024$Organisation.which.owns.the.provider== "The SENAD Group Limited"] <- "The Senad Group Limited"
+ProviderData2024$Organisation.which.owns.the.provider[ProviderData2024$Organisation.which.owns.the.provider== "Cambian Childcare Ltd"] <- "Cambian Childcare Limited"
+#ProviderData2024 <- ProviderData2024 %>% dplyr::select(-Inspection.health.services)
+
+
 
 
 
 
 
 #bind together the datasets and remove all nonsense dataframes
-ProviderData <- rbind(ProviderData2020,ProviderData2022, ProviderData2014ch,ProviderData2014excch, ProviderData2015, ProviderData2016, ProviderData2017, ProviderData2018, ProviderData2019)
+ProviderData <- rbind(ProviderData2020,ProviderData2022, ProviderData2014ch,ProviderData2014excch, ProviderData2015, 
+                      ProviderData2016, ProviderData2017, ProviderData2018, ProviderData2019)
 ProviderData$Multi.building.children.s.home <- NA
 ProviderData <- rbind(ProviderData, ProviderData2023)
+ProviderData <- rbind(ProviderData, ProviderData2024)
 
 
 #rm(list=setdiff(ls(), c("ProviderData")))
