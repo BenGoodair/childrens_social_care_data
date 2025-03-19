@@ -81,12 +81,8 @@ provider_at_march <- read.csv(curl("https://raw.githubusercontent.com/BenGoodair
   dplyr::mutate(Sector = ifelse(Sector=="Private", "For profit",
                                 ifelse(Sector=="Health Authority", "Local Authority",
                                        ifelse(Sector=="Voluntary", "Third Sector",
-                                              ifelse(Sector=="Local Authority", "Local Authority", NA)))))%>%
-  tidyr::pivot_longer(cols = c(Overall.experiences.and.progress.of.children.and.young.people, How.well.children.and.young.people.are.helped.and.protected, The.effectiveness.of.leaders.and.managers), names_to = "Domain", values_to = "Rating")%>%
-  dplyr::filter(Rating!="")
+                                              ifelse(Sector=="Local Authority", "Local Authority", NA)))))
 
-provider_at_march <-provider_at_march %>%
-  dplyr::bind_rows(., provider_at_march%>% dplyr::mutate(Local.authority="All"))
 
 
 source("https://raw.githubusercontent.com/BenGoodair/childrens_social_care_data/main/Code/leavers_joiners_cleaning_function.R")
@@ -95,7 +91,7 @@ enter_exit <- create_market_exits_entries()
 
 write.csv(dashboard_data, "~/Library/CloudStorage/OneDrive-Nexus365/Documents/GitHub/Github_new/childrens_social_care_data/Final_Data/outputs/dashboard_data.csv")
 write.csv(enter_exit, "Library/CloudStorage/OneDrive-Nexus365/Documents/GitHub/GitHub_new/childrens_social_care_data/Final_Data/outputs/enter_exit.csv")
-write.csv(provider_at_march, "C:/Users/benjamin.goodair/OneDrive - Nexus365/Documents/GitHub/childrens_social_care_data/Final_Data/outputs/active_chomes_2023.csv")
+write.csv(provider_at_march, "Library/CloudStorage/OneDrive-Nexus365/Documents/GitHub/GitHub_new/childrens_social_care_data/Final_Data/outputs/active_chomes_2024.csv")
 write.csv(ProviderData, "Library/CloudStorage/OneDrive-Nexus365/Documents/GitHub/GitHub_new/childrens_social_care_data/Final_Data/outputs/Provider_data.csv")
 
 
